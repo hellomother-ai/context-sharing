@@ -1,0 +1,746 @@
+ 
+ 
+ 
+ 
+ 
+James Young - 00:00
+ 
+ Really just going to focus on Alex because Alex has some of the information and then could coordinate with Kush as 
+well. So Toby, we may not be able to get everything that you need from this call because there's some information 
+Alex has and some information Kush has, but we can figure that out and so we can add that to the agenda. So while 
+we wait for everyone else to join, I don't think Coach J is going to be joining today. But Tash, if there is any questions 
+that you have, maybe we can start there and then I see Alex has just joined. Alex, there's some questions that Toby 
+has. Toby is now full time with Gaia and we need to coordinate about the open registry. But let's first start out with 
+Kosh, if that's okay. 
+ 
+ 
+ 
+ 
+ 
+James Young - 00:47
+ 
+ Toby, it just be a couple minutes and maybe this might be of interest so that you can catch up to understand where 
+we are with Mother as well. 
+ 
+ 
+ 
+ 
+ 
+ 
+Tobiloba Adedeji - 00:54
+ 
+ Yeah, for sure, no problem. 
+ 
+ 
+ 
+ 
+ 
+ 
+Natascha Tiotuico - 00:56
+ 
+ Okay, so I checked the shared context. So we have the meetings going into the GitHub of the context sharing. I saw 
+with your prompt you put it into a format which is the LLM txt. When I do the same prompts on my chatgpt, of course 
+it looks much different and like it doesn't give me that nice detailed meeting structure when I input it. So. But I guess 
+I just have to refine my prompting until I get something similar. 
+ 
+ 
+ 
+ 
+ 
+James Young - 01:46
+ 
+ Well, what you can do is you can actually take my shared link. 
+ 
+ 
+ 
+ 
+ 
+ 
+Natascha Tiotuico - 01:50
+ 
+ Yeah. 
+ 
+ 
+ 
+ 
+ 
+James Young - 01:51
+ 
+ Feed that into ChatGPT and tell it to format it like that. 
+ 
+ 
+ 
+ 
+Natascha Tiotuico - 01:55
+ 
+ 
+ 
+ Okay. 
+ 
+ 
+ 
+ 
+ 
+James Young - 01:56
+ 
+ It will do it. So it's try to do, make the AI do as much work as possible. 
+ 
+ 
+ 
+ 
+ 
+ 
+Natascha Tiotuico - 02:03
+ 
+ Okay. So what I would continue is go through our older meetings or should I just add all older meetings to the 
+context sharing? 
+ 
+ 
+ 
+ 
+ 
+James Young - 02:17
+ 
+ I don't know how far back we want to go. I think maybe we can just start with this week and just start from here on 
+moving forward for now. And then if there's any updates that require maybe referencing old meetings, we can just go 
+back kind of as needed. 
+ 
+ 
+ 
+ 
+ 
+ 
+Natascha Tiotuico - 02:37
+ 
+ Okay. Should I. Because I was thinking of the quiz meeting. I could look for that because that would help. 
+ 
+ 
+ 
+ 
+ 
+James Young - 02:43
+ 
+ Oh yeah, that would be good. That's right. That would be good. And then maybe, I don't know if the notion is available 
+publicly. Maybe you have to cut and paste or export out as a PDF and then save those in. So there's some kind of 
+manual housekeeping that needs to be done. We'll try and automate this over time. It's really a limit Of I think the 
+notion API and the Fathom API and all of this. But what we want to do is figure out what these processes are for us. 
+It might be a little bit slow going because manually cut and pasting or exporting or all of that, but that will then give 
+us the insight on what we need to build from like a organizational agent to be able to automate this. And the idea is 
+that it's all automated. 
+ 
+ 
+ 
+ 
+ 
+James Young - 03:34
+ 
+ Just like, you know, we have all these recorders joining the meetings and taking transcripts and things like that. We 
+just need to now augment that so that everything is fully automated so that there's shared context for everyone. And 
+this is just a step in that direction. And we're not going to figure it all out in one week, one month. But it's an iterative 
+evolution that we'll go through here and we'll just take it step by step. 
+ 
+ 
+ 
+ 
+ 
+ 
+Natascha Tiotuico - 04:01
+ 
+ Okay. And you don't need me to create LLMs out of that. You'll just take the raw material and turn it into that format. 
+ 
+ 
+ 
+ 
+ 
+James Young - 04:13
+ 
+ Yeah, I think that I'm still wondering. We do need like an LLMs TXT eventually, but I don't want to force it right now 
+because I think what we're doing is we're going to be training our own agent here with all our meeting notes and the 
+code base and the transcripts and the notion documents. And I think that we may. And we have to figure out how to 
+like summarize this and the summary is what the LLMs TXT will be and maybe it's every release or milestone will 
+have a LLMs TXT summarize that or something. I'm not exactly sure how that LLMs TXT summary comes in. I know 
+it will be needed. So right now we'll just keep it as something that we need to be aware of rather than something that 
+we need to take action on at the moment. 
+ 
+ 
+ 
+ 
+ 
+ 
+Natascha Tiotuico - 05:11
+ 
+ Okay, great. I think that's it from my. Well, if we have the meeting tomorrow, maybe we could talk a bit of what we're 
+going to show on Friday. Like I coach Jay and Alex mentioned that I could show a bit of this context sharing, but 
+except for like asking for a summary or should I explain the use case? Like what are we expecting from that point as 
+a team to show off? 
+ 
+ 
+ 
+ 
+ 
+James Young - 05:52
+ 
+ Yeah, I'm open to input here and feedback on. On how we should do that. Is there an ability to record the what we 
+ship meetings or have an agent join the streamyard? Or maybe we just have. Oh, go ahead. Sorry. 
+ 
+ 
+ 
+ 
+ 
+ 
+Alex Lumley - 06:07
+ 
+ We have the Riversides and to be honest, maybe that like we should be able to have and maybe it's something that 
+Coach J came up with because I think he knows more about the Riverside. But we should have all of those MP3s 
+and I believe we have transcripts from all those. And to be honest, those probably would be helpful context for the 
+agent. So we can also load those into the GitHub. But in terms of. And then moving forward. Right. So for Friday we 
+could take the transcript of that and then upload that to the GitHub. But Tasha, in terms of your question of like what 
+to show for Friday, it's kind of up to you. 
+ 
+ 
+ 
+ 
+ 
+ 
+Alex Lumley - 06:47
+ 
+ However you would, however you think we could show some value if you think we can do a mini test of something 
+and say, hey, look, we've uploaded this everything to GitHub and now you can ask a few questions and see that and 
+have a little demo, that would be awesome. But if you want to just show what this will become either way, it's up to 
+you. 
+ 
+ 
+ 
+ 
+ 
+ 
+Natascha Tiotuico - 07:13
+ 
+ Then I think I'll just map out the problem we had that we recognized what is slowing us down. I'll introduce like what 
+we're doing to feed the agent and then maybe do some examples of questions that we would ask. I thought it was 
+very like insightful for me when James said, oh, I can then ask about the quiz. So maybe I'll use that as an example, 
+kind of like how to go through the quiz specs. Okay, I'll prepare that for Friday. 
+ 
+ 
+ 
+ 
+ 
+ 
+Alex Lumley - 07:54
+ 
+ Thank you. I think that's awesome. And as you prepare that and then maybe in the future weeks, once we start to 
+have it actually accessible for someone like James while he's working with Cursor, then that could be like a following 
+what we shipped and show how James is actually leveraging our meetings within cursor development. But not. But, 
+but that probably doesn't make sense for this week. 
+ 
+ 
+ 
+ 
+ 
+ 
+Natascha Tiotuico - 08:18
+ 
+ Yeah. Okay, then I think I have my questions answered. If not, I'll come with more tomorrow. 
+ 
+ 
+ 
+ 
+ 
+James Young - 08:30
+ 
+ Awesome. Excellent. And I think, yeah, there's no new other update I'm still working on. This Orchestrator agent 
+actually had a call with Altair last night and had their whole technical team on and they're going to share with me 
+what they've done with the cross chain agent protocol called cap and we're working through that and that can help 
+easily onboard a bunch of agents as well. It competes with Google's A to A. So what I'm exploring is like a bridge and 
+CAP to eight. A bridge also there's a competing standard that NEAR has called aip, I believe it's called. And both of 
+these actually have to do with payments. And that is what 8A is missing and what MCP is missing. And then I have a 
+call tonight with Michael from Gaia. He has his open MCP server and trying to integrate that as well. 
+ 
+ 
+ 
+ 
+ 
+James Young - 09:35
+ 
+ So there's a bunch of reorganization and recontextualizing the starter kit with the kind of keeping up with the market 
+of where the current development is. And so I need to think through that as well as I'm building out this Orchestrator 
+agent for the quiz. But my site for the. My. My focus and my eyes are on. Focused on the site of just getting that like 
+simple quiz agent through the slash ask command going. But there's some extra background text stuff that I want to 
+make sure that I don't pigeonhole myself when building out the Orchestrator agent just requires a little bit of just me 
+getting context. And so I had some meetings going to also talk with Cameron from Near because near is interested 
+in what we're doing. Continued. So this is. 
+ 
+ 
+ 
+ 
+ 
+James Young - 10:24
+ 
+ I would consider more R and D work rather than straight implementation work. That said, we can move on to a 
+second subject and this is why Toby is here. 
+ 
+ 
+ 
+ 
+ 
+ 
+Alex Lumley - 10:35
+ 
+ Sorry, James, just one other note. All of those conversations that you're having as the R and D work, I assume you're 
+recording those as well. Right? Because those would be phenomenal to also include into the GitHub and for context. 
+ 
+ 
+ 
+ 
+ 
+James Young - 10:48
+ 
+ Yeah, that's right. That's right. And this is all that shared context. Right. Because I have these meetings separate 
+from just everyone else. And so this is where the gaps in knowledge and that context gets lost there. 
+ 
+ 
+ 
+ 
+ 
+ 
+Alex Lumley - 11:04
+ 
+ How can we. How can we help you get those off your plate and upload those in the LLM text or do whatever. 
+ 
+ 
+ 
+ 
+ 
+James Young - 11:12
+ 
+ I don't. I think I just need to do what Tosh is doing. But for my recordings now. And it's just a autumn. Just a manual 
+process for now. And I'll get sick of the manual process and we'll say how do we begin automating this? And that's 
+where that need will start coming from. Just. And we'll figure out the best places for this to land. I'm thinking that 
+GitHub is the best place because it has the most robust API because it's built for developers rather than like a 
+notion. But that means we can output maybe an agent that does GitHub to post a notion. But I'd have to research 
+these APIs as well. I have to buy code my way through it. 
+ 
+ 
+ 
+ 
+ 
+ 
+Alex Lumley - 11:53
+ 
+ And what I'll just say is Tosh, I guess, like, since. Since you're kind of doing some of that pipeline work, I'll just ask 
+you to make sure that James uploads all those. And then James, if you have trouble or like, because you have a lot 
+on your plate, if you want to just upload those into Slack or Google Drive, whatever, in that manual process, then we 
+can just pipe those into GitHub, whatever is easiest. I want to make sure we just don't lose those contacts because 
+those ones are really important. As the team is starting to think about how to. How do we shape all this stuff. 
+ 
+ 
+ 
+ 
+ 
+James Young - 12:20
+ 
+ Yeah, yeah. I think we have to have a robust process there that will begin to automate as we, you know, have this 
+agent synthetic led, embracing this synthetic LED Org process. And that's kind of how we are reorienting ourselves 
+at Mother. And maybe this is something that we can talk to at a high level during the Friday meeting. Just doing a 
+time check. We're about halfway through. Toby joined today's meeting because Toby now is full time at Gaia and is 
+looking to see how he can get access to the registry. I know that we have the starter kit and that is fully developed. 
+The starter kit has been forked by Mother and so the MOTHER has all the kind of registry information and how that 
+is all hooked up, but that parts of that information. 
+ 
+ 
+ 
+ 
+ 
+James Young - 13:21
+ 
+ So just to give you some context, so Geeta started it and then it was handed over to Kush, but both Geeta and Kush 
+were no longer with Mother. And so there's some information that I don't have in context that requires some 
+coordination, mainly from Kush. But I will ask Kush to be in tomorrow's call at this time. And so anticipating 
+tomorrow's call, I know that we had also moved on to this fast track program. And Alex, I know that you've been 
+working on that as well, but I think it requires some context from Kush because Toby hasn't asked. I'll let you take 
+over, Toby, and then, you know, state what you're looking for. 
+ 
+ 
+ 
+ 
+Tobiloba Adedeji - 14:04
+ 
+ 
+ 
+ Okay, so great. I'm working on like a coordination agent that would use the Collab Land Starter Kids framework as 
+well as Gaia for inference and as a layer. So essentially what I'm trying to develop is an agent that would work with 
+the Gaia registry and that also uses Open MCP Gaia and the Collab Land framework. So I sort of need the model, 
+sort of integration, the current state at the current state So I need to have like that information, like how do you, how 
+do the agents. How do the agents work directly with the registry or there. Is there any other orchestration things that 
+are going on to, you know, maybe sort of handle my requirements with the coordination agent I'm working on. So 
+that's essentially what any like documentation or repo that sort of has enough information would be useful. 
+ 
+ 
+ 
+ 
+ 
+ 
+Alex Lumley - 15:05
+ 
+ Yeah. 
+ 
+ 
+ 
+ 
+ 
+James Young - 15:09
+ 
+ And Alex, can you help Toby point him in the right direction? What is your context there? 
+ 
+ 
+ 
+ 
+ 
+ 
+Alex Lumley - 15:15
+ 
+ So you're looking for, if I understand correctly, you're looking for like any repo on the starter kit, correct? 
+ 
+ 
+ 
+ 
+ 
+ 
+Tobiloba Adedeji - 15:23
+ 
+ No, no. Any report on like the mother or any resources rather on like the MOTHER agent integration. Because what I 
+sort of need is access to the registry. I need to ensure that the agents that I'm developing is able to, from maybe a 
+Gaia domain that built for model work directly with the registry. 
+ 
+ 
+ 
+ 
+ 
+ 
+Alex Lumley - 15:47
+ 
+ So. So we don't really have any necessarily documentation because a lot of what happened in terms of getting quote 
+unquote, like really we only have two agents that are integrated. Right. It's like Ember and maybe some part of 
+Smoodle. But a lot of those we didn't do any documentation because Kush was just having those conversations. And 
+then we asked teams. Like the fast track ended up being we need two endpoints. We need your endpoint and. 
+ 
+ 
+ 
+ 
+ 
+James Young - 16:20
+ 
+ We need. 
+ 
+ 
+ 
+ 
+ 
+ 
+Alex Lumley - 16:21
+ 
+ Wherever you would have this national language processing endpoint and we need the call response model. Those 
+would be the only two things that we really asked for. So we don't have any necessarily documentation on that 
+registry. And James is kind of where we ended up was weren't able to get agents on there fast enough. So then all of 
+a sudden we decided, so now we're focusing on Discord and we decided let's first get the orchestrator set up so that 
+we can have a demo so teams can see, oh, this is where we come in and this is where we kind of go into that. 
+ 
+ 
+ 
+ 
+ 
+ 
+Alex Lumley - 16:52
+ 
+ So all that is to say is that if your constraints are you want whatever you're building to be able to work with the 
+registry, then I would say what James is building today is more likely to be something that enables you to be for the 
+registry. Is that fair, James? 
+ 
+ 
+ 
+ 
+ 
+James Young - 17:17
+ 
+ Yeah, that is true. I have some feedback there, but I don't want to get into solutionizing. But I saw Tasha, you had 
+your hand raised. 
+ 
+ 
+ 
+ 
+ 
+ 
+Natascha Tiotuico - 17:27
+ 
+ Well, I was going to say something similar to Alex. Like, I think as long as we go towards MCP A2A, those kind of 
+connections between agents that would be the way to go probably to register for the future MOTHER infrastructure 
+that we're building right now. 
+ 
+ 
+ 
+ 
+ 
+James Young - 17:48
+ 
+ Yeah. And also it's kind of further complicated because Kush has several forks. And also, and part of those forks, 
+Toby, are that like there was this X Card implementation using collabland account Kit that allows you to spin up a 
+wallet or a smart account on X directly without having to leave X. And that is a separate fork than what's happening 
+on the Registry side. But I think that's informative. And as Alex was saying, I don't. We don't have a lot of 
+documentation. So I think the kind of, most straightforward kind of way to get what you want, Toby, is to. I'm going to 
+ask Kush to be in tomorrow's meeting, the standing meeting for tomorrow. 
+ 
+ 
+ 
+ 
+ 
+James Young - 18:41
+ 
+ I'm going to give him some context and I'll share this recording with him and we'll save this to GitHub so people in 
+the future could also then kind of share this context as well. And I think what we're doing at Collab Land is we're 
+turning the account kit into the MCP server. We're going to take, and this is what I'm doing now, parts of the starter 
+kit, what we build with Intuition, Recall and Nevermind, that will be in the MOTHER MCP server as well. That can 
+integrate with what Michael's doing. This is what. I'm going to have a call with Michael tonight in the open mtp 
+because he has some payment stuff and things like that. And how do we converge all of that into one easy to digest 
+devex experience? 
+ 
+ 
+ 
+ 
+ 
+James Young - 19:32
+ 
+ And maybe that, Toby, is what you could work on for your mandate for whatever the orchestration that you're doing. 
+Because that Orchestrator agent probably would want to ingest the Collab Land MCP which has. And then the 
+MOTHER MCP which will have the registry and then the open MCP service as well. And instead of just reading the 
+documentation, let's collaborate so we can just focus on the execution so that you can create this Orchestrator 
+agent. And if it's all MCPized, then you can integrate that. But I don't want to block you either. So, like, I think it 
+requires a conversation with Kush because there's just a bunch of repos at Kush's fork that and different. And he 
+knows. And I have a recording where he reviewed the X card implementation with me that I'm using for the 
+Orchestrator agent that we're building for mother. 
+ 
+ 
+ 
+ 
+ 
+James Young - 20:37
+ 
+ So there may. There's some Context that I think will help you. And you need to get up to speed. The documentation 
+doesn't exist, so that's not going to help you with the context. So instead of getting writing documentation so that 
+you can have context, let's just have a real time conversation tomorrow. Prep Kush for it and have him understand 
+what you want so that we can provide that context to you as soon as possible. Because I think just reading the 
+documentation and all of that is kind of the old way of like, you know, getting context. Two. 
+ 
+ 
+ 
+ 
+ 
+ 
+Alex Lumley - 21:14
+ 
+ Two things I'd recommend is that one, Toby, if you could elaborate a little more on. On what the orchestra is and 
+what you're looking for, two is that, James, if you have that call where Kush went into more detail about the X card, 
+you could just send it toby. I think that would speed up the conversation tomorrow because this has also been three 
+or four weeks since Kush remembers everything, so he's gonna have a hard time keeping everything fresh. So I 
+would say those two things would speed up the combo tomorrow. 
+ 
+ 
+ 
+ 
+ 
+ 
+Tobiloba Adedeji - 21:43
+ 
+ Yeah, even code works too. Like if you can share repos with me, I can just read through the code or even that video 
+also to sort of give me, honestly, what I want is a lot of context and to understand how the current tech works, to see 
+how I can plug into it as much as possible. 
+ 
+ 
+ 
+ 
+ 
+James Young - 22:03
+ 
+ Yeah, can you tell me. Put your email. I'll share the link with you. The Fathom video that I have with Kush right now, 
+before I forget. 
+ 
+ 
+ 
+ 
+ 
+ 
+Tobiloba Adedeji - 22:16
+ 
+ Yeah, I just sent it to the chat here. Oh, wait, let me give you the other one. They can send it to this one. So I'll just get 
+back. 
+ 
+ 
+ 
+ 
+James Young - 22:29
+ 
+ 
+ Okay, so I'm going to share that with you right now. And then, yeah, you should get it. And then you should be able to 
+get the recording and the transcript and everything from Fathom. I think. Yeah, it's a little. It's a little sensitive. I think 
+there might be some private information like tokens and keys and things like that. So just please keep it private. 
+ 
+ 
+ 
+ 
+ 
+ 
+Tobiloba Adedeji - 22:56
+ 
+ Yeah, no problem. And if I sign in with Google, I still get access to this. 
+ 
+ 
+ 
+ 
+ 
+James Young - 23:02
+ 
+ Sign in with Google. You should. Yeah. With that email that you sent the guy in it. 
+ 
+ 
+ 
+ 
+ 
+ 
+Tobiloba Adedeji - 23:08
+ 
+ Okay. Okay. Yeah, I have access. I'll watch it. I'll watch it. 
+ 
+ 
+ 
+ 
+ 
+ 
+Alex Lumley - 23:11
+ 
+ Toby, could you also give us a little bit more background on kind of what you're building? 
+ 
+ 
+ 
+ 
+ 
+ 
+Tobiloba Adedeji - 23:17
+ 
+ So I'm like a coordination agent. So the agent is capable of executing certain model. I mean, working directly with 
+the model registry. So essentially the agent registry that Model currently has, but then the agent is able to leverage 
+like MCP and is built with the Collab Land framework, you know, and also uses Gaia. So the agent is able to like sort 
+of manage a few other agents within the registry and or certain operations. I'm still sort of like scoping context on 
+this, but I was just trying to figure out like because I. Because some of the components within the project was 
+model. So I wanted to see where Moda had gotten to and then I. I mean I had some information on. 
+ 
+ 
+ 
+ 
+ 
+ 
+Tobiloba Adedeji - 24:04
+ 
+ I mean open MCP already has a doc the Collab framework as like a GitHub, but I wanted to get up to speed with how 
+Model currently works to see the feasibility and sort of know how to attack it. 
+ 
+ 
+ 
+ 
+ 
+James Young - 24:24
+ 
+ Awesome. Excellent. Let me Kush. I'm just typing to Kush right now. Any. Anything else that we want to discuss? I 
+think this is just kind of a status update. Maybe we can give a few minutes back here and tomorrow we can set it up. 
+I'm going to. I'm texting kush in telegram DMing him right now to see if he can. Can you join the Mother Daily sync 
+tomorrow? Some questions regarding different repos I shared with Toby the walkthrough walk through we did the 
+other day. All right, so I texted Kush and so hopefully he'll be joining tomorrow. I'll follow up with him. I don't know if 
+there's anything else. I know Coach Jay wasn't going to be. Oh, sorry. Go ahead. 
+ 
+ 
+ 
+ 
+ 
+ 
+Tobiloba Adedeji - 25:29
+ 
+ Yeah, I said I'll be amazing. Thank you. 
+ 
+ 
+ 
+ 
+ 
+James Young - 25:32
+ 
+ Yeah, yeah. And I know Coach Jay is not joining today, but he'll be joining tomorrow. Tomorrow we'll talk a bit more 
+and maybe use the time and maybe take some of that Async as well if it gets too technical because we'll set up also 
+for tomorrow's agenda, what we're going to present on Friday. 
+ 
+ 
+ 
+ 
+ 
+ 
+Alex Lumley - 25:52
+ 
+ Yep. And I. I have one other thing maybe but just for Tosh. Tosh. Maybe if we could do another Google me just to talk 
+for a few minutes. 
+ 
+ 
+ 
+ 
+ 
+ 
+Natascha Tiotuico - 26:01
+ 
+ Yeah, let's do that. 
+ 
+ 
+ 
+ 
+ 
+ 
+Alex Lumley - 26:03
+ 
+ Cool. And James, I just sent you a DM in Slack, but sounds good. We'll talk to you guys later. 
+ 
+ 
+ 
+ 
+ 
+James Young - 26:09
+ 
+ Awesome. Excellent. Thanks everyone. 
+ 
+ 
+ 
+ 
+ 
+ 
+Alex Lumley - 26:11
+ 
+ Slack. 
+ 
+ 
+ 
+ 
+ 
+James Young - 26:12
+ 
+ All right, bye. Sa it. Sa. 
+ 
+ 
+ 
+ 
+ 
+ 
+Alex Lumley - 33:16
+ 
+ It. 
+ 
+ 
+ 
+ 
+ 
+James Young - 43:55
+ 
+ It. 
+ 
