@@ -1,0 +1,217 @@
+Mother Daily Standup - April 22
+VIEW RECORDING - 36 mins (No highlights): https://fathom.video/share/g-QUq-FdHaYyWxE3bQqkqm1yzndKZxcN
+
+---
+
+0:00 - James Young (Collab🤝Land)
+  Get the poll API for Discord, and it's fully bot-supported, so we can, yeah, we can definitely do polls, that's pretty straightforward, and so just wanted to, and we'll give it another minute, but just agenda-wise, is there a, oh, hey, Sydney, talk about kind of what we want and how we want to, oh, Alex is here, too.  Hey, Alex. I think we have quorum now. Agenda-wise, just talk about kind of how we want to GTM on the Mother Discord, and then Natasha's in Slack, put some ideas.  Just need to get like a rough user flow going, and I think we can move forward with that. I had a meeting with Matt and Sydney earlier today.  What we want to do is see if we can focus... on this, like, go-to-market strategy. I don't know if anyone is, I don't know, Alex, could you be the main person talking with Corbin from GigBot?  Because he's also asking, it looks like he's ready to go. I still am waiting for Tom at Ember to reply when he has his MCP server up and running.  Yeah, I spoke to Corbin a while ago with you and I can follow up with him.
+
+1:28 - Alex Lumley
+  I'm just not sure what we're planning to do with those teams to know what to follow up with.
+
+1:34 - James Young (Collab🤝Land)
+  Yeah, I think it's really for us now to figure out what do we, how can we use GigBot? And there's no integration that he needs to do.  He's actually willing to start and pay for his own bot to kind of kick it off. So it's just keeping that relationship warm, letting him know that, you know, we're still working on it.  I think really, it's just us trying to figure out that, that initially you. And then we have the polls that we can go with, and yeah, just trying to get that kind of first use cases going so that we can build up these campaigns for the community, to grow the community.  Yeah, Alex? How did it go with Matt in Sydney?
+
+2:27 - Alex Lumley
+  It went well. We're just trying to kind of get reoriented.
+
+2:33 - James Young (Collab🤝Land)
+  I think it's just focusing on this GTM, getting resources together, and really putting this kind of collaboration between CollabLAN and Gaia kind of front and center as well, so that we can use the Gaia nodes and Gaia domains.  And then hopefully we can get a bit more engineering resources because that's pretty much what we're stuck on now.  It's don't start not or tambour And I think it's just going to take a little bit of time to kind of get that clarified.  Cool. Because that's a block.
+
+3:10 - Alex Lumley
+  Yeah. And everything else still seems like in terms of going towards grants, not doing VC, in terms of contributor agreements, which is something that Joe had brought up to Matt a while ago, I think all those other things are still kind of in discussion.  I didn't talk about that.
+
+3:31 - James Young (Collab🤝Land)
+  I don't have much visibility into that, but I'm assuming so. I think maybe we should bring that up or if there's still questions about that.  There are a couple of things outside of the engineering scope, like token mechanism design, investor relations or current relations, and like contributor agreements that we have to still push through.  So we did talk about scan because he had some work that's outstanding for like a month or so. But.  That was the only contributor we chatted about. And so I still haven't heard back from Matt about following up or about having a one-on-one.
+
+4:08 - Alex Lumley
+  So I'll follow up with him in of having that. But anyways, we can continue focusing on what the GTM is or what to focus on for this week.  Okay, cool.
+
+4:20 - James Young (Collab🤝Land)
+  Yeah, I think it's really just getting this community campaigns going. We could do the polls. We could, you know, get bots ready to go.  How do we, like, create campaigns around what agents or what we have available to us now as kind of the next step?  I'm willing to step in a bit. And since there really is no other engineering resource at the moment, as Toby begins to integrate Mother into Gaia, we can just focus on just community growth here.  So just wanted to have a conversation.
+
+5:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So I have a question basically on like the mother orchestrator because that was kind of my other thing that I brought up yesterday and like basically what I see is like critical to our GTM is I need to be able to go in right now into Discord and be able to type in slash ask and then make a request to Gamebot.  Like if I can't do it, no one can do it. And I don't know how to do that right now.  So I guess what needs to be true for me to be able to go and do that?
+
+5:38 - James Young (Collab🤝Land)
+  There isn't any ability to do that right now. We can scope out that work to be done. So the first step is like what do we, from a community growth perspective, how would, how would you expect people in the mother AI Discord to engage?  Well, I would set challenges to request GigBot to promote certain posts or something like that.
+
+6:08 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay. Yeah. That's not crazy to execute. It's more like just making sure that the functionality is actually there so we can make those requests.
+
+6:18 - James Young (Collab🤝Land)
+  So I would say that if we have a quick spec on terms of what the expectation is, we can then do the work to integrate it just to make sure that we are.  Because that work needs to be done. And so that's how it's going to work with Ember as well.
+
+6:36 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Like there's a bunch of work that needs to be done before we could get them, like each agent that comes in.  Because eventually an agent just plugs into Mother and no matter what, we just say slash ask. And then there's like some sort of command that's put in, right?  Yeah.
+
+6:48 - James Young (Collab🤝Land)
+  That's what we have to figure out from an integration on the orchestration part, right? So with GigBot, they have an API.  So it's like just forwarding the request to the API. Yeah, but I want to make sure that it's in alignment.  I can try and work on the slash ask command this week and have it available. It would be great.  And maybe we do this in parallel. I'll do the slash ask for GigBot, and then when Ember and their MCP server die, and with Ember, it's through MCP.  But the Ember MCP server isn't ready yet.
+
+7:27 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So you're totally clear that it's going to be easy enough for you to build a slash ask where we go directly to the agent.  Like, we don't need to do this Zapier, MCP thing that I was talking about, this BlueCode stuff. Just in terms of this.
+
+7:46 - James Young (Collab🤝Land)
+  Yeah, so for Zapier, that would be a third use case. And so then we would have to figure out, because if you can create these agents and stitch them together, I can modify the orchestra.  How-agent to be Zapier compliant or integrate with Zapier? So it just needs to know kind of what the priority is for that.
+
+8:08 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I think that Zapier is the lowest priority because what it is is it's MCP compatible, and I'm not creating anything that's MCP compatible.  But the whole reason the polling thing came up, and I'm looking at quiz bots as well, is any of these bots that exist on Discord, what we want to do is we want to simplify it for the community manager.  And I think that there's a bunch of automations that we can use that are actually pre-scripted that aren't actually agentic, but they're rather just workflow automations that make it seem like an agent is behind it, where you can just say slash ask or something like that, give it a document or give it a few words, and then it runs through an LLM to get it all done.  Like I can do that stuff in MAKE or NAN. We don't need an actual agent to do that. Right.  That's why I was hoping that
+
+9:00 - James Young (Collab🤝Land)
+  From a GTM perspective, I see your hand is raised, Alex, I'll get to you in a second, but from a GTM perspective, because we have such limited engineering resources, I want to make sure we're crisp on what they ask or what the spec is and what the priority is, and that it's in line with the community admins as we come up, and this is why, come up with the GTM, that's why I want us to be clear on the GTM and then just make sure that, like, I'll spend the nights working I'm on this slash ask, but I want to make sure that I'm making, I can do this in, like, a very limited time frame.
+
+9:38 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay. Let's do it, Alex, that's the same way I respond.
+
+9:42 - Alex Lumley
+  Two things. One is that, Jonathan, I think this is where Tosh could probably help you out with some of that, given Tosh's, like, technical background, and also, Tosh, correct me if I'm wrong, but you've done a bunch of, like, some spec and work like that in the past, right?  I know how it's done.
+
+9:58 - Natascha Tiotuico
+  done. I know. I'm always the best writer, but working together with devs, I can help there and support and also put on that discussion.  And so, Jonathan, I encourage you to work with Tashka.
+
+10:19 - Alex Lumley
+  I think she knows a lot more than she does sometimes. But the second thing is that just as an example of something that is that community managers, marketing, and growth people think are agentic, but aren't really agents is like Bridget from Moonsong.  I've told you this in the past. She was like, I want an agent. And the agent that she wanted, all it did was just send items to her PM of like, here's the latest information on AI, like on a daily basis.  Right. And that's all that can, that can be done with Zapier and ifs or whatever. And that's an example of the types of quote unquote agents that community managers and other people would want.  And that's, think Jonathan's actually what you're kind of saying. These things can be done, can add value, and can start to prototype.  Yeah. James, I have a question for you.
+
+11:08 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So, like, just when we initially came up with this plan, like, the, the, just still we're on the same page, because I don't actually know who we are, which is, which is great, because now we get to get on the same page, is, like, when we were talking about this, like, this whole plan of the seeds and, like, blah, blah, blah, blah, like, basically the way that I had it in my head is, like, we're going to get a several agents on the registry, and they're going to get connected.  It's like an open registry, and they're going to get connected somehow through the Collablan bot to take these slash ask requests.  And now I'm building out a few more agents that can do polling and quizzes and stuff like that, because those are useful for communities and stuff like that.  So, like, the end user, the people that have been coming into our Discord, they're going to be coming in because they want to do some quests.  Thank you. They do some tipping quests and they want to do some slash ask quests. And so from their perspective, they don't know what it is, but we want them to be able to type in slash ask and then like either have some predetermined questions they can ask or some general questions they can ask.  Or in the long run, if we have thousands of agents, you should be able to do slash ask and ask anything, right?  And it will figure out what, what agents and what jobs get done and stuff like that. So what's our like MVP GTM version of that?  It will have two agents and then I create two more automations that are agents. Yeah, that's what I'm, I, that's, so your context is correct.
+
+12:46 - James Young (Collab🤝Land)
+  Okay. Uh, and so there's been this kind of Spider-Man meme of everyone pointing to each other because it's like, okay, we have some agent devs.  They're on hold because. Because we don't know which agents we want to integrate and what's going to be useful.  And then we don't know, like, are we telling them that they get paid initially for this? Like, no. And so they're waiting.  And then on the user side, on the, you know, Discord end user side, they don't know what agents are available.  So this is why, in order to break this kind of Spider-Man meme, we want to, your question about what is the community growth strategy, that's the GTM.  Because no matter what, we have to grow the mother Discord community. Yeah. Because the ancient devs were like, hey, you can use Collablon for distribution.  They're like, great, let's go. But then we don't, we have to then go to these communities and say, what do you want?  That's going to be a longer kind of scale cycle. So what we're trying to do is dog food this ourselves in the mother AI Discord.
+
+14:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Because we control it.
+
+14:01 - James Young (Collab🤝Land)
+  So, you know, your question of what is the MVP GTM is exactly what I'm asking back. This should not be engineering-led.  This should be community growth-led because we have the middleware, we have the FastTrack program, and what we're trying to do is just fit and be relevant to this initial use case.  So don't let the technology lead this and try to find the use case or the middleware or the FastTrack system to be used.  Let's adapt what we have because we have all the pieces to a go-to-market strategy. That's how we do PMF.  Okay.
+
+14:46 - Natascha Tiotuico
+  So, maybe to get out of this loop, what we want to do is, show our community how to use mother, like have challenges or even  Like talk about it, hey, look, we can use mother like this, so polling everybody gets and everybody knows how to do, so like a challenge would be, let's do a poll, like ask people to poll what they are interested in, in AI or something, or with GigBot, we would say, hey, you you want to get a gig with this or that, ask mother what might be interesting to you, and then we like route it to GigBot.  Pluno AI, I wanted to see if we can kind of look at their calendar and book an appointment with them, because Pluno AI is something we would have installed into mother anyways, because when we go to TGE and everything, it's just a very useful tool.  If we can ask them to sign So up through the registry and kind of connect that, that would be like a quick win for us because we would have installed the bot anyways.  So what we're doing to get out of that loop, to maybe wrap it up, is teach our community how to use it, analyze what they like about it and what they don't like, and start connecting the agent.  And even if it's just like, ask mother about AI agents, what's on the registry with you? And we have a description of every agent that's on the registry.  They get it back, but we have to like put the example and make them get used to it. So we're kind of like the apple in the mother thing.  have to show how it's done.
+
+16:50 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So first off, like this, we need to get this polling like bot kind of thing ASAP done. And it sounds like a bot's ready and Ember's almost ready.  And then like, so for example, say, Friday, we have our first challenge, and by Friday, we have this thing built, and it's like, what you can do is you can do, we can show everyone, you can type in slash ask, and you can ask about polls, and you can ask about posting to ads, and that's pretty much it.  And if you ask about other things, the collab land bot will say, sorry, I don't have an agent for that yet.  Like, that's the spec that I would design. would have to be designed in a way that it's saying yes to jobs that it can do.  For now, and then as we have more agents, it will say yes to more and more jobs. But we tell people what jobs we know are on the direct, like, on the registry already, and that's how we walk everyone through that, and they do it, and they get points.
+
+17:43 - James Young (Collab🤝Land)
+  Well, I think that, like, from a community growth perspective, we have a campaign that just is specifically around maybe polls or around gigbot.  And so people may want to ask about random stuff, but if it can't. It is highly focused, so users will just be told what, you know, what to do, and they'll do that, and if they stray, then the orchestrator agent can say, yeah, I can't do that yet, you know, check back or whatever, but that's why I need a spec, so that I understand what that campaign looks like, so I can build just directly to that, because our engineering resources are highly.
+
+18:21 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Let's hear from Zero8, and then I want to talk about GigBot real quick, clarifications on that.
+
+18:25 - Razvan Matei Popescu
+  Yeah, it's really short for me, so do we want to see numbers, like, in community growth, like we, like, we discussed about this last week, so, and on a side note, like, should we, like, just take up the missions, like, I proposed, like, for example, this week, we each have this X mission, and, like, check at the end of the week, if each, like, if we delivered on that, just to make sure we're not, like, going in circles, and, like, questions for James, and, like, I guess everybody, do we want to see numbers of people in the Discord, like,  Do we want to see 1,000, 2,000, 5,000 people? Because I feel we can get people to do anything, right?  But for that, we need a marketing plan coupled with a community strategy. And the stuff, this is just my view, like the things with the gig bot and all of those are just details of those, right?  Like it's just like some actions which are part of those, some items, yeah. Cool.
+
+19:30 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  You tell me what the KPIs are. What do you think is reasonable for us to get, right? That's part of the spec.
+
+19:37 - James Young (Collab🤝Land)
+  So, you know, the expectation is if you can talk with Coach Jay and Tosh and the CoUnity team, just get that spec going.  And what you, based off of the spec, I can help deliver that and then what the expectation of that spec is.  So, like as a technical lead, I don't have, but I'll step in if we have to. What are they expecting?-bye.-bye.-bye.  Thank Yeah, I got it.
+
+20:01 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I already, I already determined all of it. I already clarified all this. I already got all of this. So this is not the problem.  My question for you is how GigBot, how we're, what, what's the, what's the deal with GigBot in terms of its conditions of working with others?  Because my experience with GigBot is, GigBot is I sent Corbin some USDC and he's been using that to promote our posts.  And that's real money that he's then paying out to the bots to promote our posts. So how does that work in the context of seeds?  Like are these, are we sending him X amount of seeds and then he's going to post the job, like he's going to post the job and then get the bots to pick up some of those seeds for reposting things?
+
+20:52 - James Young (Collab🤝Land)
+  That's a good question. This is part of the fact that we have to hammer out with GigBot. So what Corbin is saying is that he's willing to  So we pay in seeds and then Corbin will pay out just to test the distribution for mother AI and see how this works.  from the spec, then we would have to say of like, okay, whatever Geekbot gets hired, these are the amount of seeds and this is how much it costs.  This is why I was asking Slack, who's paying for this? Like we have to be clear of who the customer is, what they're paying for, right?  Because these are like, they're pseudo financial transactions right now because these are testnet crypto, but this is a blueprint, a map of how agents will get paid.  And so for now we're using the seeds testnet tokens, but then Corbin, I think on the back, and this is what we need to clarify.  This is part of, as we go to market with Geekbot, like let's get those details in. And let's, let's just go and hit it.  So, okay. So in order to bring the Spider-Man conundrum, this is like on me, actually.
+
+22:11 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I realize that I've been the bottleneck here. So there's two specs that I owe. One is for the mother orchestrator, and one is for GigBot, and one is to actually build out this automation for a polling and or a quiz agent.  And Pash, if there's any other agents that you wanted to forward along to James to that agency to build out, and then once we have those two specs, which I'm going to work on immediately after this meeting, once those two specs are done, we can already get James to figure out how long it's going to take to build the mother orchestrator in the way that I'm requesting it to be built, and we can start getting in touch with Corbin to make sure that the, you know, I'm going to make it on purpose, what we're  That we actually pay him in seeds, and he uses seeds to incentivize bots. I just, I think that it could work, but let's see.  And then we can start those conversations, hash those out in the next few days, and then tomorrow, I'm going to finish this automation, because I have my own Discord server, I'm going to test it out, that I can connect to, I have a quiz bot and a poll bot, and I'm going to try and get those both working.  And then ideally, we will have three agents on the registry, and then soon after, we can announce our points program, and we can announce our first challenge, which is, there's going to be the, already the tipping, which is like a quest style, and then the challenge will be a live challenge, where you come and you ask the mother orchestrator to do certain things, and you collect seeds as a reward, or something like that.  And we're going to cast those actions that they're sending the seeds to the bot, and that's their actual point.  So even an airdrop farmer, like sure, you will get your airdrop, as long as you're making an ask request to.  The Discord, the, like, slash ask, and you're sending the seeds or whatever it is, you know what mean?
+
+24:09 - James Young (Collab🤝Land)
+  Yeah, my assumption is that a poll and a quiz are the same thing. Okay, I mean, they're two different bots, though, that's the thing.
+
+24:18 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Like, one's poll bot, like, it is the same thing in that, like, I can use the same automation and just replace them.  Yeah, because, so let's be a little bit specific.
+
+24:28 - James Young (Collab🤝Land)
+  In, in Discord, they have this native function, which they're calling polls. It's just a question and then you vote, but that can be reformatted as a quiz.  So that's native to Discord. Oh, that can be done as a quiz as well? Yeah, you can, you can answer the right question if you, like, my understanding is you just, there's a question that is asked in a poll and then you vote, right?  Okay, and that could also be a quiz because we can, this is why I need the spec because. This is where we can tally the correct answers.  And whoever has a correct answer, we can give them a certain amount of seeds. These are how these interactions within Discord could be an on-chain transaction.  And then this helps show on-chain transaction volume interactions. So it doesn't have to be like a specific e-fi thing or a specific crypto thing.  What we're doing here with the polls and the quizzes is we're showing on-chain transactions without having to leave Discord or Telegram, right?  I would say it's more akin to a Web3 game than it is a DeFi app. You what I mean?  I think I just need to look at the functionality myself.
+
+25:46 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I'm only seeing the ability to set up one single question as a poll, whereas there's actually like quizzes where you can ask like five questions and how useful would it be for – like I would love to set up mother intro blog.  Log, come up with five questions, connects to OpenAI, spits out five questions, and then inserts them and sets up a quiz, all just with one-line commands.
+
+26:11 - James Young (Collab🤝Land)
+  This is why we need that spec. So then we say, okay, this is what it needs to do, this is the output, and more specifically, these are the on-chain transactions that occur.  Oh, okay, got Right.
+
+26:27 - Natascha Tiotuico
+  That's why I had it. Maybe, Jonathan, did you take a look at the database that I made, because I already started, like, with the spec creation.
+
+26:40 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, you showed me that on our call, yeah.
+
+26:42 - Natascha Tiotuico
+  Yeah, so for the quiz, I kind of have, like, the MVP, and then I have, like, multiple questions, et cetera.  What I talked to Xavier yesterday is that the formatting of a quiz, of a multiple-question quiz, it can be quite challenging.  It might have to be formatted. If we can find a bot that wants to collaborate with us, like there's nice, like, SUBO survey bot, et cetera, has quite a few options, but that's something we would have to pay.
+
+27:20 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, so if we can format the quiz like a poll, is that possible? Let me look at the, I don't even think I need to spec this out, I think I could just do this, like, on my own with mate.com.  Potentially, and then we can just call it. Yeah. Okay, let me take a look, and if not, I'll actually make it, because I'd rather you not have another thing to build, James.
+
+27:48 - James Young (Collab🤝Land)
+  Right, that's why I want to make sure that we're clear on the spec, because, like, talking in real time is one thing, and then implementing it, they're like, oh, wait, and then we have to go back and forth.  If we have less Like a simple spec as a source of truth, then I can one-shot this.
+
+28:05 - Natascha Tiotuico
+  Because, Jonathan, it's important that James kind of knows the interfaces, what he needs to, like, talk to the quiz with, where seeds can be won or not.  So that's why the specs are important, not for your development on the side what you deliver, but to glue or put the puzzle pieces together.
+
+28:30 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So part of the spec is figuring out if I can do it and then showing what I did as part of the spec.
+
+28:37 - James Young (Collab🤝Land)
+  And then the spec has to actually, like, make sense in terms of the community campaign as a whole. Yeah, yeah.
+
+28:45 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Right?
+
+28:46 - James Young (Collab🤝Land)
+  To drive, and then that's where the KPIs come in. Is it actually making a difference? Alex, do have your hand up?
+
+28:52 - Alex Lumley
+  Yeah, the last thing I was going to call out, just something that I noticed in terms of how we were kind of framing this, is that one of the- One of  It's like, this should be driven more by the community team of like, as James said, here's our goal, here's what we're trying to do, here's our ideas of what we think will help us grow towards those goals, and then based on all of that, and you guys can live in dream world a little bit, James can come in and say, here's the technical constraints, and this is what is or is not possible, but I think that the point is, is that I think we were, as James said, Spider-Man meme, we were kind of, everyone pointing at each other, but now you guys can define what you think you need.  James can define the, implement the technical constraints.
+
+29:36 - James Young (Collab🤝Land)
+  Yeah, and the constraints are going to be, from a technical side, what you can do in a poll, and what GigBot can offer for right now, and then craft around that, and then that becomes a spec, and then we can try and get this delivered ASAP.
+
+29:56 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, sounds good.
+
+29:59 - James Young (Collab🤝Land)
+  Awesome. Any other questions?
+
+30:02 - Natascha Tiotuico
+  We're out of time. Is anything specifically from me needed? Jonathan, should we sit together? We have an appointment tomorrow anyways with 08 to look through the specs.
+
+30:23 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I'm going to work on those specs now, and we can review them tomorrow to make sure they're on point.  Okay, do you have the link to the database so that maybe we can have that? it in Slack, right?  I'll post it in Slack again right now.
+
+30:42 - Natascha Tiotuico
+  Okay.
+
+30:43 - Alex Lumley
+  And then Tasha, what I propose is maybe you could support Jonathan in any way, but also additionally, maybe start thinking about what will be the couple of ones that we can do next week, right?  Or easy ones and start experimenting and looking around those. So we're getting ahead of it. Cool. Cool.
+
+31:02 - Natascha Tiotuico
+  Yeah, I also have intros AI to start talking to that would be a quick win and a little bit more complicated on the registry.
+
+31:21 - Alex Lumley
+  Awesome, thanks so much. Okay. Well, I think 08 had his hand raised.
+
+31:26 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Oh, yeah, 08.
+
+31:26 - Razvan Matei Popescu
+  Yeah, so, will this be our first points campaign? Do we all agree on that? Like, will this be the first iteration of the points campaign and the, like, big bot and all the...  Let's say yes. What does that mean for you? Because, you know, just community-wise, when you announce, launch something, ideally, it should have continuation.  So, that's why I'm... Yes. No, we already had a points campaign.
+
+32:05 - Natascha Tiotuico
+  The points campaign already started with the mean and art submission, like we started tipping each other. So the points, the recognition program is already online.  What we're doing now is actually showing the product of Mother, which is starting to ask Mother Orchestra agent and showing off different AI agents.  So we already have the point system in Discord, in use. People are tipping. People are having fun. And now we're actually starting to deep dive into our product and show off the product that we're creating and integrating that with points.  But the point system is already...
+
+32:50 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  We are going to rebrand it, though, because I've been calling it a recognition program and no one cares about a recognition program.  I think a lot of people will care when we call it a point.
+
+33:01 - Razvan Matei Popescu
+  Yeah, and we also need, like, you know, like, every points program, we need cool graphics, we need, like, to just be consistent in the messaging, so people, like, really know this is a points program, so we can get hordes of people in, so that's the...
+
+33:19 - Alex Lumley
+  Last question, have to run in two minutes, but James, I just want to clarify something with you. Tosh just mentioned several times that we need people to register, however, what is occurring to me is that we actually don't necessarily need people to add to the registry, especially all these Discord bots who are different and act different than a lot of these agents.  As long as I have an API, it seems like it's probably enough for now, right?
+
+33:48 - James Young (Collab🤝Land)
+  Well, I'm doing the work, but my time is very limited, so we need to... We just want to... We want to get us off the ground with something, so like I'm not even thinking longer term because this is kind of a hack in a way, this is not how things are going to go, we just need to show something, and so this is very short term, but I think what 08 is trying to say too is like, we do this, is it like a one-off or how do we keep this going, I think if it's a, if it's a gig bot and then polls, then we need to keep that key.  We up week after week, and so we need to get that going, and I think that's part of this kind of, why this needs to be like, led by marketing, or led by community, and it has to have some type of KPI, some type of growth.  Alex, what you're saying in terms of do we need H&Ws, yeah, I think that's a separate work stream for us to get things in the registry, but what we need to do is, you need to be forward facing.  Like front of the house in terms of, or front of the chat, we need to show that we're moving forward.  And then there's these longer term things that we need to then figure out. So I'm not saying what we're doing with the front of the house and what we're doing with community and immediate growth to get community engaged is how we're going to launch.  It's a different work stream there.
+
+35:23 - Alex Lumley
+  Sounds good. I don't want to confuse the two. everyone. Awesome. Thanks.
+
+35:31 - James Young (Collab🤝Land)
+  Bye.
