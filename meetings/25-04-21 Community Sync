@@ -1,0 +1,361 @@
+Impromptu Google Meet Meeting - April 21
+VIEW RECORDING - 55 mins (No highlights): https://fathom.video/share/ozeke32pkjLs-_qgmy2yfH83P3DCQ23Z
+
+---
+
+0:02 - Natascha Tiotuico
+  Okay, you have the recordings here so I can forward them to save here later. Yep. I get them as well, right?
+
+0:12 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, I think so. And if you don't get it for any reason, just let me know. send you a link.  Great.
+
+0:18 - Natascha Tiotuico
+  Okay, so what I did is, so we want a showcase that will demonstrate how we work with agents and need to have that kind of course.  So with what James said, with having three growth agents, I mainly kind of focused on ideas that would be quick and fast to implement.  I kind of wrote like, what are the audiences, what could be the growth, like more growth, interaction, education, collaboration with other agents.  Yeah. Yeah. Yeah. And innovation. So at first, like, here's a ranking. can change that. It didn't seem very intuitive.  So I probably have to change how we rank things to see what is them.
+
+1:17 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I think let's just, I don't even think we need to get overly scientific on it. Like, I think if we just see that we're feeling like these three are good enough, if we could just get these built literally in a few days, like that would be helpful.  Yeah. So the first what I have is like a quiz.
+
+1:34 - Natascha Tiotuico
+  Quiz we can use for all target groups, have different content. I love quiz.
+
+1:38 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I mean, imagine the agentic part of it is that all we do to the agent is says, I want to do a quiz about X, Y, Z, and then it just sets up the whole quiz for you.  Yeah.
+
+1:50 - Natascha Tiotuico
+  Like, here's a use case example. I want to create a quiz. Then we are prompted, okay, what's the text you want to quiz on or something?  Then... For example, we would put up the mirror article, and our expectation would be that we get a question with three answers, one correct, and the other wrong.  Perfect. So, yeah, I kind of put it into an MVP spec, like MVP would be one question, three answers, no tum-tum around it, but then I also added, like, what would be more, like, we could have multiple questions, estimate questions, open questions, we could add topics as resource links or videos, like our whole live stream videos, if that would, like, create a transcript and kind of do a quiz on that, that would be cool.  But these are all add-on specs, like, for the MVP to just get it on the Discord in the first version, I kind of added this.  So that would be, like, the quiz. I also put here, like, quizzes created in communities, like how many quizzes do we do, like what are the KPIs if the agent is doing well or not, reported failures, option for on-chain interaction, so we can kind of chew on that or make it more.  Great.
+
+3:25 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I love this. This is great. This is great. I want this bot immediately. Yeah.
+
+3:30 - Natascha Tiotuico
+  And then, like, Discord formatting and posting. So I noticed, like, Savior and 08, they can do, like, those beautiful announcements and everything, but it would be nice if we could, like, put in a text and they suggest us a beautified version for Discord, like with emojis and everything.  This could be for our community managers and also community members, like if I have a bigger introduction and have a lot of text.  I could use it as well. Amazing. So this is also something very mainstream and could get a lot of interaction.  Sorry to interrupt, Natascha. Is this a bot? This is the agents where we're doing specifications so somebody can build it for us.  I haven't found a bot or agent that has actually done it.
+
+4:26 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So they're kind of like bots, yeah, but they're agentic because they're doing reasoning as well, right? It's not just like doing a thing that I'm asking it to do.  It's like you're literally for the quiz, you're just giving it like here's the mother intro article, make me a quiz.  And then they just like create a quiz of 10 questions or three answers each and it sets it up for you and everything.  Okay.
+
+4:49 - Razvan Matei Popescu
+  Yeah. Yeah. So I guess I asked like a very, like, I don't know, the bad question, like the, this is not built, right?  Like, yeah, these aren't built.
+
+4:58 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. presented an opportunity. where there's this agency that's keen to collaborate, and they said they're happy to build three Discord agents for us.  Nice. So I like quiz, I like formatting, and it sounds like 08's game for formatting as well. Yeah, yeah, it helps because those take a lot of time.  Perfect, perfect, high value.
+
+5:25 - Natascha Tiotuico
+  And also, in respect of this, why I came up with these on the top is they're easy to collaborate with other bots.  Like if we do the quiz bot with the researcher bot or something, it's very easy for them to collaborate.  Or like the quiz bot could even collaborate with the Discord bot in putting the quiz. So going for our showcase to demonstrate why mother is so extremely better than having single bots or agents.  Sorry. And then I have newsletters.
+
+6:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  beasuble. Summary.
+
+6:01 - Natascha Tiotuico
+  So here, like. Summarize different challenges based on date. Channels. Oh, my gosh. See, it was weekend. I wasn't so the newsletter summary recap is basically triggered by like either I can ask what happened since I was last here and then the date would maybe like we have to give the orchestrator or the agent somehow the date when I was last there or have a default.  This could be like seven days. Summarize the last seven days or something.
+
+6:50 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Summarizing exactly? Excuse me? What is it summarizing exactly? So, for example, if I have different channels, it could tell me.
+
+7:00 - Natascha Tiotuico
+  Hey, this channel, the people were talking about this topic or in the tweet, it could be, OK, these were the last tweets or announcements.  These were that these are the announcements coming on for the next week. It's like it's easy to do an MVP of this because you could just size the whole server kind of and say where the activity has been.  But it gets more important. Sorry, my dog is having problems. So what but what gets nicer once we start creating this agent and refining him is we can actually take what token gated channels am I in?  What I'm like, where do I interact most and like specialize those summaries upon my interest? Actions with this cord.
+
+8:01 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, sweet. Okay, cool. Let's do those three. That sounds great. Okay.
+
+8:09 - Natascha Tiotuico
+  Yeah. But I also identified some within some things that are already existing. So I wrote like intros AI does like a one on one introduction.  And I think it's web two right now, but maybe we could get them to make an agent version. That'd be cool.  Pluno AI is a quick win. Yeah. then like reengagement and retention actually together crew, I think does a lot in there.  So that's why I also mentioned, okay, together crew is ready on our agent list. So getting them to register and understanding their product more would also benefit the discord.  Okay, cool. Great.
+
+8:57 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So and the gig bots already. This We're a So with these three, you can essentially send these three descriptions to James and he'll forward them along.  Is that the idea? I hope so.
+
+9:15 - Natascha Tiotuico
+  I'll send him that these are the top three that I also spoke with you and Ben was also okay.  He also said, hey, a tech-to-content assistant would also be cool, but I'm not sure how big the complexity is.  I think these first three are very easy to.
+
+9:32 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And they seem highly useful. think that almost like once we have these three, what's really neat about them as well, especially the newsletter one, because the newsletter one we're not really going to use right off the bat.  But other people might see it and go, oh, wow, that's super cool. And they might get inspired by other ideas or they might want to see it in a different server or whatever it is.  that's how we start like, hey, can I use this agent somewhere else? Sure. You just need to connect. Yes.
+
+9:58 - Natascha Tiotuico
+  Great. And. Yeah. Okay, so I'll send those as an action point to James that we also talked about it and think these are the three ideas and see what LT needs on specs.  Like, I tried to fill it out as much as possible. But of course, it's always a discussion with the developers what they need to be efficient.
+
+10:26 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, cool. That sounds great. So you're going to follow up with James on these three things. And they can obviously, you'll forward them along and you're going to get in touch with them and they will let you know if they need more information.  But like from what you shared with me, like, I'm looking at this and it's making a lot of sense.  So I'm hopeful that that will be sufficient for them to be able to at least start drafting the ideas.  And they don't seem overly complicated as well, like based on some of these things of what you did, like even something like N8N.  We could do something like this pretty easily, at least the polling one looks pretty easy, the quiz one. Great job.  Thanks for taking this on. Really appreciate you taking charge on this. This is great. Okay. And here's like an ideation board, and we could actually do this for hackathons and kind of break it down.  Like the event planning one is quite huge. Yeah. You need to categorize these, like these are Discord specifically almost.  So you could have like, this is like the, you could have tags, like this is a Discord one. But then there's agents that do like DeFi trading.  And there's agents that maybe manage governance in the long run. Because Alex actually has.
+
+11:46 - Natascha Tiotuico
+  Yeah, he has one that he's talking to the people, but this was actually just whipped up to get the three best ideas.  And give them to James. But then I thought, oh, I should maybe just keep it here for. Or hackathons or whatever, or maybe James has another agency that wants to do stuff for us.  So he actually has another one entirely. Actually, he has this like, hold on, let me find it here. And also, if we need different like properties or stuff to filter by, I'm totally open.  Like I just created this on the on the go. As I was trying to curate my ideas. OK, cool.
+
+12:34 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah.
+
+12:35 - Natascha Tiotuico
+  So Xavier also voted on the. On the onboarding, because I actually created like this vote system at the back where everybody could say what they find cool.  But I don't even think we have the time to start voting about it. OK.
+
+13:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Hey, good. Great. Thanks for this. So you're going to follow up with James and then get any feedback from the dev team if they need more details.  Let's wrap up. Let's go back to the points program and make sure, I'm not sure if you found anything from the conversation on Friday, but what else for you do you think needs to get really clear so that we're on the same page in terms of how we're moving forward with the community plan and how that ties to marketing and the points, et cetera?  Well, it's pretty clear.
+
+13:40 - Razvan Matei Popescu
+  Actually, I found the notes. The notes were just create a point system, quizzes, and so we kind of don't know.  yeah.
+
+13:48 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  That's I thought. I just wanted to make sure if there had been something we missed, but I think that right now, the main thing is that there's a point system.  That's it. We actually have already installed the point system. We I promoted it initially, called it a recognition program, and this way it flew under the radar.  Sybils didn't pick up on it, and farmers didn't pick up on it, but then no one picked up on it because it's just like a non-thing.  So we're going to be more explicitly, and it's going be called points program or points and rewards program, and we're going to get flooded with people, right?  So that's how that's going to work, and we can use those points to, like James said, we're going to use those points to incentivize people coming into our server.  And then we can also find neat ways to market where if you complete something, you can get set up with points in advance by joining the server.  So there's kind of like little games that we can get people to play. I just don't think we're going to need to do that much, though.  I just don't think it's going to be very hard to find 5,000 farmers who want to collect points, and the whole point is  A point system is maybe we're getting some really high quality community members, but I don't think it's going to be important for our quality community members to be collecting points.  It's like not as important. We want to offer them real value, which is actually like resources and activities and connection and community, I imagine, right?  I'm not part of these communities, but like collecting points for those people, like sure, they might do the quest, but they're also going to stay for other things, right?
+
+15:37 - Natascha Tiotuico
+  Yeah, well, we'll do an automatic system in the background, like to reward them and everything, just so we, I believe the seeds are what we write on chain.  So, um, we want to get people used to either tipping or like giving feedback or even paying, like, to get want We  For a cool quiz, we could have an automatic minus 50 seeds to have on-chain that they interacted with the quiz.  Yeah, that sounds great. if they answered it correctly, they get more. If they answered wrong, they just, like, don't get anything or stuff like that.
+
+16:22 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I'm, like, open to doing anything with points because, remember, the seeds and how much people have are irrelevant. So, like, if they're going to act as incentives, like, whatever, that's cool.  I'm game to incentivize people, but, like, the incentive, they're not going to actually be rewarded for how many points they're collecting.  They're rewarded only for the tips that they send out and the amount of requests they make to agents. That's it.  That's the only thing in the long run that will be rewarded with potentially, like, actually valuable things. Otherwise, it's about creating a space where people who want to learn can come learn, people who want to connect and come connect, and we're fostering that sense.  Community, and we can gamify it with roles and blah, blah, but points, like the seeds you collect are meaningless at the end of the day.  Yeah, they don't matter.
+
+17:11 - Natascha Tiotuico
+  Yeah, we can also justify it as that's why we called them seeds, because you need to make them to seedlings and everything.  Totally. You need to have them grow first.
+
+17:21 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. They're just seeds. are useful, so you can't eat them.
+
+17:25 - Natascha Tiotuico
+  So that's by tipping other people, giving them to agents. Gaining or tipping them on art contests. Exactly, exactly.
+
+17:39 - Razvan Matei Popescu
+  Do we have that point system outlined somewhere, like the recognition program you mentioned? Yeah, that's a document that I sent you.
+
+17:50 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  was that seeds activation document in Notion. Oh, yeah. Yeah. This is what we were going to do before. And they're  So some stuff we'll probably get to, yeah, like the how-to-tip thing, this is for the mods, this is super useful, but I think that's, like, we don't need to think through that many more things, I don't think that we're necessarily going to use a lot of the other stuff here, like we can, we can refer back to it if we're looking for ideas and stuff like that, but it's going to be pretty ad hoc, like the quest will be set up on some sort of platform, like a galaxy, but not necessarily, and that's where people will actually be earning things, and then we secondarily need to set up, what's the community, like once I do the research about who's in our community, I actually start setting up, whether it's a hackathon challenge or, like, whatever it is, setting up the actual activities that people want to do, and start marketing those and start sharing those with the broader community.
+
+18:48 - Razvan Matei Popescu
+  That's something I'm confused about, shouldn't we kind of try to map out those things as well, like all those, like, items?  Sure. For,
+
+19:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Who are we mapping those out for?
+
+19:03 - Razvan Matei Popescu
+  For us and for us to know how we're going to trigger people into doing them because there's always stuff you can optimize, I think.  So if we have the best flow from the beginning, because we're going to use a platform that's going to curate, that's going to allow people to do these actions.  But if we have a really good flow from the beginning, like there's, you know, like, for example, in my experience with Thrive, they did those tasks.  Like after five seasons, they found out there was like really low hanging fruit that you could like just with a little strategy and like a little more ideation and brainstorming around them, you would like kind of optimize from the beginning and not like go through, I don't three iterations and go back to the like drawing board just to figure out.  All the small stuff, there was a lot of small things you could have done to optimize it.
+
+20:06 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So what are some examples of those things? Well... It sounds very conceptual to me, I'm having a hard time kind of like...  Yeah, it is like, I don't have concrete examples, but like, I don't know.
+
+20:23 - Razvan Matei Popescu
+  For example, like, asking people to retweet and then figuring out that comments are actually more important than like... And then like, just redoing it again and then figuring out that you have to tag to people.  So that's a silly example, but like, it doesn't directly relate to us. But like, I was thinking as though, when Natascha was mentioning the seeds, like, if we call it like...  If we have a channel called Infinite Garden, we could have... Like, I don't know, Mother's seed planting contest or something, but...  Actually make it make it feel more technical like maybe coach you you're the master like marketer here so you could figure out a good name but like from that name we could like derive all these sorts of activities because like you right right okay planting seeds means like tipping people so if you got it yeah okay okay I think that the first step what what's really important in marketing is the best marketing happens when you know who your audience is.
+
+21:30 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  and you speak to them and what what their pains are and what they want etc and I think that I completely agree I think like thinking through that the like those little things like the naming conventions and like the flow and the the roles and like the the special channels and all that kind of stuff needs to get thought through but I think even before we do that we want to know who are we doing that for.  from Thank Thank Thank you. Thank Well, When we are coming up with activities, we don't even know what activities should we do that we're optimizing for.  Should we do a hackathon? Should we do a meme contest? The people who do meme contests and hackathon, are those the people that we want in our community?
+
+22:25 - Razvan Matei Popescu
+  Well, on a hunch, I don't think it's time for a hackathon right now. I think hackathons, like this is just a personal view, maybe a fun one, a funathon or I don't know, like fun agenton or something like that.  But like a real, real hackathon, it may be too early.
+
+22:45 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, yeah, yeah. Yeah, yeah. So totally. This is like, those are details, but like, but what if that's not true?  Like, right? Like what if actually there are about 30 highly technical builders who were ready? Introduce themselves to Discord, and they've been waiting for Mother to do something, and they're ready to do something.  What if that is true? Because we don't actually know. Agreed, agreed.
+
+23:09 - Razvan Matei Popescu
+  That's why I said let's map out all those small things and see which make more sense and which not.  But for the hackathon, for example, the incentive will be future rewards when we have TGE, or what will be the incentive for them to join the hackathon?
+
+23:27 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Well, I don't know yet. And I think that I want to decide that after we decide yes or no hackathon.  So first I want to go, okay, like, well, who's in our, at least it's my thought process, is like, who's in our community?  Like, you're saying, well, I think it's too early for a hackathon. And my question for you is like, what data are you basing that decision on?
+
+23:48 - Razvan Matei Popescu
+  Well, it's manual data from all my interactions with the people in Discord, because like, I feel that a lot of those people are kind of AI.  So let's say, one way. Okay. Okay. Half may be like AI fanboys, half may be like, I don't know, noobs like me that tried to build something but didn't, and like a very, so not 4040, and then 20% would be like devs or people that actually built like agents.
+
+24:19 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So it sounds like you already have some kind of like statistical data about who, like, not even statistical data, but you have a sense of the makeup of our audience, and so this is kind of like what I was going to go do, but if you already have this information, you already have this data, then yes, you can start planning out some of the more details, because what I thought was missing is that I don't know who is in our Discord server.  I don't know how technical they are, I don't know what they want, I don't know what they're expecting, I don't know what excites them, all that kind of thing.  So if you already have an idea that like, well, you know, it's probably about only 20% really. technical developers.  But about 50% of these people are genuinely interested in AI and want to learn how to get better at it.  And in the last like 20%, yeah, they just want to make memes and stuff like that. Well, that's really good information.  Because yeah, I agree that we should really focus on that big chunk of people who want to learn how to get better at AI, but are not overly technical, then yeah, let's do like fun a thon, if you will, whatever it's called.  But we need to know that that's where the majority of people are. Because if we set up a fun a thon, and actually 80% of the people in our Discord server just want to make memes, we're not going to get anyone showing that.  Yeah, true.
+
+25:40 - Razvan Matei Popescu
+  Actually, there's only a few people that kind of made memes, right, Tash? It's mainly Dupes and Pixie. Yeah, Dupes and Pixie have been making memes lately, yeah.
+
+25:49 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Two, three people.
+
+25:51 - Natascha Tiotuico
+  Yeah.
+
+25:52 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  But so like, and everyone else, like, you know, this is kind of what I'm missing is like, I don't know who's actually active and like what they want to do.  Yeah. That saw they're Yeah. Thank
+
+26:04 - Natascha Tiotuico
+  I've also been hearing for the AI enthusiasts, maybe we could create a channel called, like, What's Your Best Prompt?  Or, like, What's Your Best Agent Experience? Let's try. Whatever you want to try, I think we can go for it.
+
+26:21 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  We can just throw spaghetti at the wall and see what sticks, right?
+
+26:23 - Natascha Tiotuico
+  Yeah, I think that would maybe be something that a majority of our current active server might join in. Like, finding those meaningful questions and having people integrate, like, what has been your biggest struggle with AI, like, AI agent?  Or what's been your best prompt for chat to see or maybe creating a channel where we ask those kind of questions?  That sounds great. Or even putting them in general.
+
+26:59 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  now, why area when and What this
+
+27:00 - Razvan Matei Popescu
+  I think at the moment, because we don't have hundreds of people, it's good to have them in general, because having all of them makes it look like there's a lot of activity.  So people, when they see a lot of activity, they just assume, oh, there's a lot of stuff going on here.  I need to, wow, what did I miss? What the  is going on? it's kind of the FOMO power.
+
+27:27 - Natascha Tiotuico
+  Yeah, so would you be able to create some of those questions or just like threads, start those kind of threads in general to activate, to see, to get a better feeling of what people on our server are interested in?
+
+27:46 - Razvan Matei Popescu
+  Well, I think the, sure, I think it's the best way to do that is to actually ask.
+
+27:53 - Natascha Tiotuico
+  Yeah, yeah, that's what I mean, like take over like the question and the moderation. Thank Thank you. you. you.  And of it and getting people hyped because I've seen like you're good at that in telegraph and then discord on asking the question and getting people hyped about a topic that if if you enjoy it, if you want to take over that.  Yeah, sure.
+
+28:19 - Razvan Matei Popescu
+  So what you're referring to is just asking everybody like individually, what are they interested in, like creating a thread with each person in there or?
+
+28:28 - Natascha Tiotuico
+  Oh, no, I thought even just in general, like, like hyping them up, hey, what, like, asking in the general channel might bring out this activity that we're looking for?  What are things that people interact with? So if you ask the question, what has been your best prompt in chat GPT or what are the top three agents you use on a daily basis or what do you even use?  And like we could do like every second. Today, we could ask one of those questions just to get people, get the discussion going in general.
+
+29:08 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, actually, I know you're taking the next few days off, but I have a larger, I have a larger challenge for you in addition to, like, Tash's thing.  Basically, your job, should you choose to accept it, is to find out, like, is to start the process. Instead of being able to have a good idea of what we should start thinking about in terms of those optimizations you talked about, right?  So that's what I was talking about, like, you already have a sense that, like, hackathons aren't the thing. That's totally fine.  If hackathons are not, it is a fun-a-thon, what is the fun-a-thon that you think, based on your conversations, based on questions that you're going to ask?  Like, what's your best, what's your favorite prompt, or which AI tool do you Who's most, you know, ChadGPT, Claude, based on how people answer and based on what you're seeing in terms of interactions and all that kind of stuff, who are the people in our audience and what are they interested in so that when we have that information, we can create meaningful, like, activities and stuff for them, resources for them.  Like, you're saying it's a fun-a-thon. Cool. Like, who is the fun-a-thon for? Like, what is it that they're trying to learn?  Are they trying to get really good at chatbots? Are they trying to actually do AI agents? Is that, like, actually what they want to do?  Are they, like, technical at all? Or are they live coding? Are they not even there yet? Like, all those kinds of things come from actually talking to the community, I think.  That's kind of what I was planning to do, but I would love your help because you're constantly in the Discord.  Talk to these people, see how they interact. Would you be open to helping? go Discord? just a Yeah, how would you do that?  So I think one way is what Ash was saying, is like starting like a thread in general that's saying like, hey, big question this week, or big question, what's your favorite prompt?  How do you set up your first prompt when you're using a chatbot? Or, I don't know, like what are some AI agent ideas that you have and would love to have built for you already?  Something like that. And just see what people respond, see how many people respond. If you only get one or two people responding to that AI agent thread, that means either we have a very inactive community, or people don't have a lot of strong opinions about AI agents.  But if a lot of people are responding to the chatbot things, that means a lot of people are interested in using chatbots.  And... And... Maybe we do have a more active community. I think that's one way that we could do that.  And the way that I was doing that before, that was DMing people. was just like, hey, I saw you joined the Discord.  What's your deal? What are you interested in? And I was just going to kind of do it like that.
+
+32:16 - Razvan Matei Popescu
+  We could do it together. Yeah, I was also thinking on doing it like that, just because, I don't know, it makes people feel more special if they get a DM.  So yeah, that sounds great.
+
+32:28 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Any way that you want to do it, let's do it. But let's, again, is when we're doing marketing, like the first thing that you want to do is, who's your audience?  Like what my ideal scenario is that I can print out kind of max two personas, as like a picture of someone's face, and like a description of who they are, and put right next to my monitor.  And so that everything I'm writing and everything that I'm doing and blah, blah, I'm thinking about this person here.  Oh, this is Fred. Fred is 30 years old. Fred lives in Mexico and is He's super interested in AI.  He doesn't know a lot about AI agents, but is curious. He has some technical capabilities, but very little. That's like our ideal profile.  And we're going to do everything to try and bullseye Fred as much as possible, and it will capture some others around it.  But that's who we're talking to the whole time because that's like our ideal persona. That's how we want to do really good marketing.
+
+33:20 - Natascha Tiotuico
+  What about if this week we actually all take a look into Discord and start creating those personas for our team so that we know who's on there?  Then we can even like write a specific name if we see somebody specific active, like that's our representative right now.  And then always like week by week, we can see is that still valid or have some people have been falling out or has the persona changed?  Should we maybe do take a half an hour hour to do that paternal?
+
+33:53 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, sounds great. All right. right.
+
+34:00 - Razvan Matei Popescu
+  Yeah, it's cool. then we can compare notes, right? Exactly.
+
+34:05 - Natascha Tiotuico
+  Yeah, we can workshop it on our experience of what we had and say, okay, we've been seeing this activity and then just put it together and also have that ready for everybody else on the team.  Small question for Coach.
+
+34:21 - Razvan Matei Popescu
+  So after we map out our audience in Discord, which is 463 people right now, of which 20 are active, of which, let's say, between 5 and 10 are hyperactive.  So how does this tie in with the overarching point system strategy? Why is this relevant? Right now for the people that like, because like, we're trying to prepare right for a huge influx of people.  So do you think this sample would be valuable? Personally?
+
+35:02 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  No, I don't think so. I don't think that these people care about points. They joined the server before there were points.  So there's a reason that they joined the server. You've got to figure out why. This person is looking for job openings as a volunteer.
+
+35:16 - Natascha Tiotuico
+  For example, we have people already who are interested in points, right? So we have maybe a handful of people that we know they're interested in points.  Those are mainly people who tip. The one support case that asked Xavier, like he's missing out on the community.  Can you help him get the tipping working? Right? We had that feedback as well. But that's just a handful.  But that could also be part of a persona. But that's the homework that we need to do to find out who are these people on our server.  And as we grow, the personas will also maybe change. So we need to. But to create events for now, we need to see who are the active people right now on the server and how can we, like, keep them engaged.
+
+36:10 - Razvan Matei Popescu
+  Well, so we forgot about the people that bought the node sales. So we have investors. Those are the people that bought the node sales.  Yeah, they're also a persona.
+
+36:20 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. Yeah, and we can invite them to Discord as well if they want to participate.
+
+36:26 - Razvan Matei Popescu
+  We even have a token data channel for there. Yeah, we have a role, a special role for them already.  But, like, then again, we don't know what happened with the node sale itself. So that's, yeah. Yeah.
+
+36:44 - Natascha Tiotuico
+  So we have about 20 people in there, like, in the node channel that only you can join the channel only if you bought a node.  So we have about 20 people in there. Okay, cool.
+
+36:58 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So we could also do, like, something
+
+37:00 - Natascha Tiotuico
+  Anything specific for them, but yeah, okay, so to the action points, this week, should we say Wednesday or Thursday?  Yeah, let's try Thursday because I think people might be taking the day off today.
+
+37:21 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay. And then, yeah, we can come back together and start talking about what our ideas are to actually target these people.  I have a feeling that some of the best people are going to be a combination of just AI enthusiasts.  And everyone's like an AI user, but there's kind of like the non-technical AI enthusiast. And then there's going to be, this is my prediction, and then there's people somehow that we're going to attract that want to build AI agents.  And they want to just be involved with AI agents, and they see the agentic future, and they want to be part of it somehow in some way, shape, or form, and are willing to learn or already.  We do learn, but they're kind of like more non-technical and then more technical and then we would treat them to as two different groups of people and we would have different activities for two different groups.  That's what I suspect is an easy way because we don't want to over segment as well too early on.  Yeah, because the people who are holding notes, that doesn't mean that they want to participate in our community. Yes, that's true.  So they gave us money, so they gave us money. That's what it means. And it could mean that all they want to do is get part of that airdrop when it happens.
+
+38:35 - Razvan Matei Popescu
+  Yeah, and it would also mean like they may want to give us more money. I don't know. That's true.  I'm not as worried about that for now, the more money situation.
+
+38:48 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Let's just make sure that we get people actually participating. Like if we launched a fun-a-thon or whatever that first event is, you know, say it's a meme contest and it only lasts one week.  That we actually get as many people in our community as possible actually participating in it and enjoying themselves and wanting to participate in it.  Because if it's not, then we don't really have a community. We're not like really forming the bonds between these people and stuff like that.  We want people here because they're like finding something here that's maybe beyond monetary value for them right now. If it's just monetary value, they should just stick to the quest and the points system that we're creating and try to tip people and ask them other things and wait for the air drop, you know?
+
+39:35 - Natascha Tiotuico
+  Maybe we should even make more use of our live streams, like really go through the live streams and start having discussions about them.  Sure. Yeah, I think that's a great idea.
+
+39:47 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Like whatever events we want to try, we ought to actually do it. And then we got to decide, let's do these kinds of events.  Let's advertise discord. Let's message people in discord. Let's and then let we can. We can advertise it on Twitter and then let's see what happens.  That's kind of what I did with the live streams. That's how the live streams started. I just kind of did it.  That's how the office hours got started, right? I just like threw office hours up in Discord. And we had basically one person come every time.  So that wasn't as many as we wanted. There was at least one person every time interested and had questions for Francesco.  But I wouldn't say that that was like our highest value thing. If we maybe continue it where more people show up, it's possible.  Or are there other activities that are better to do? I remember we talked a long time ago about the show us your AI agent thing.  Are a lot of people going to show up to that to watch and to share? And we should do that.  We should find those activities where a lot of people are already going to jump in and participate and just be consistent with it after a time.  I think office hours ran for a month and we barely had one person show up. At a time at most.  So, um... I'm open to starting that again, if we think that's still the right way to go.
+
+41:04 - Razvan Matei Popescu
+  a small mention there, office hours are, like, people will join the office hours, like, after they, like, also because of the speculation.  So, like, I myself, I have been part of, like, I don't know, like, maybe a hundred Discord servers, like, since, like, or maybe more, like a thousand Discord servers since I joined, like, WebTree.  And when I was airdrop farming, like, you can just tell, like, the chunk, the big chunk of the people, they are there, like, to airdrop farm or for speculation.  And there's a very small percentage of those who are, like, actually stick around and care. So, office hours may be good to do after we get a lot of people.
+
+41:46 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, that's great to know. So, if there's any other suggestions you have of activities that are good early on, let's start collecting those.  Let's start finding out who is in our community. And then this way, we can just come up with two or three activations.  We'll run over the next few weeks and see who shows up in our community at the same time. So this is just remember, this is in the long term.  This is building like our actual community and stuff like that. Well, that's helpful. And secondarily is the farmer is just doing the tipping and doing the ask.  Because like when it comes to TGE, that's going to be really important. The community is going to help us get the word out if we start building it now.  But we actually need actions taken as well. And that's like a separate thing. That's where the plan system comes in.  And that's that's separate. Well, basically, we have two major objectives, like figure out what to do with the real community and figure out like what to do with like the air job farmers.  Exactly. And the air job farmers, we're going to leave to co-unity because they're like super used to dealing with them.  And the actual community, this is the juicy part. And this is what I want really userly to step up and have an idea of what kind of activities we should run.  Because once we, again, once we choose. If the activities, I will promote them. I will get the word out.  I will share it in all our Telegram groups, and I will share it on X, and I'll make sure it's shared everywhere.  I'll go to developer DAO, share it with them. I'll get it in places, but we just need to know what are the activations, and who are we looking for for these activations.  So my intuition tells me we haven't maxed out the tipping stuff.
+
+43:29 - Razvan Matei Popescu
+  just a fun activation around the tipping stuff. So maybe, I don't know, something even very retarded, like how many people did you tip today?  How many like just make up so make a leaderboard of like how who's like the most generous of mother's children?  I don't know. And it's just like something that I came up right now, but like maybe just something like that.  Just how many can you tip a hundred people today? Can you tip like, I don't know? So is that going to be something that you think that our community will get really excited about?
+
+44:08 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  On a hunch?
+
+44:10 - Razvan Matei Popescu
+  Yeah. Yeah, it's after interacting with them. That's just my intuition telling me like, I think this is something they might be excited about because one, they don't know how it works necessarily.  They just know this like, it's always good to have like a sense of mystery pre like point system because people don't actually know like what's going to be counted, what not.  So right now, think it's something that might be fun for them because, yeah. Let's do it. Let's test this.
+
+44:49 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Let's test this then. 08, can you be in charge of setting this up and getting this like set up in terms of like a leaderboard?
+
+44:55 - Natascha Tiotuico
+  No, let me just because Collabland. And CoUnity, we already spoke in the channel that we didn't want to like force on leaderboards because they're they can like at the beginning, they become motivating.  But once you have like people like Dupus who is just like out there, you become demotivated and don't even pay attention to it.  So something similar to a leaderboard, like saying, hey, have you tipped like five fifty people today or like getting that conversation going, I think would be beneficial.  But actually putting a leaderboard, I would still be a bit careful with. Could it could it be like a daily leaderboard?
+
+45:42 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Like we have a challenge maybe on Friday to tip 10 people. And then there's like a board of like a tip the most amount of people.  And like there's just for that day a leaderboard that shows up just for the day to see. Maybe it's just like a limited window.  Like an all-time leaderboard, but yeah, come in and Dupes is just like, more tips than I do.
+
+46:05 - Razvan Matei Popescu
+  Natascha, just to challenge you, Natascha, I think leaderboards actually work because they kind of get that competition going between people, so it can work like a charm or it can be a fail, but usually you need that critical mass of people to get the right amount of action and to kind of see...  not see huge discrepancies between like the top, I don't know, five people and then, because if you look at the, yeah, kind of all the leaderboards in Web3 right now, they're very like, I don't know, people are crazy, like they're crazy.  They're very like hyperactive and they're very close to each other, so.
+
+46:52 - Natascha Tiotuico
+  Yeah, I think that would be actually more for even our farmer persona. I don't know. Uh... Um, for that part, like we can do it now.  Uh, let's talk to James maybe tonight how to set that up, or you can talk to, we can talk to Savior how to do that, um, to test it.  Um, yeah, because, listen, Tash, we could always run these super condensed experiments and just see how it works.
+
+47:27 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I have a, I think that you and I are sharing similar sentiments around this in general. So, um, we could just see them and then we could just test it out.  Super contained. It works. It doesn't work. And then we, we take the learnings and we kind of move to the next, you know?  Yeah, I'm not saying it's going to work.
+
+47:47 - Razvan Matei Popescu
+  I'm not saying it's going to work. This is just like, I don't know, an intuition that maybe we, we haven't like maxed out like the stuff to make it fun enough for the people.  To kind of, I don't engage. And if the pilot works, I think what's going to be after it will work as well.  And if it does work, that's kind of something that we want, right? Because we want for fundraising and stuff like that, want people to do as many of those interactions as possible, right?
+
+48:22 - Natascha Tiotuico
+  Well, we also want them to be a bit more authentic. So, for example, it shouldn't just be for the sake of tipping, it should be the sake, for example, I like I see whatever his name was, his picture, right?  Or I like Jonathan's picture, so I tip that, but I'm just afraid when we have a leaderboard that everybody starts tipping everyone and we don't have that authentic interest interest in single people.  Of. Who I'm giving the seeds to, but it might just be a fear of mine that shouldn't get in the way of trying out things.
+
+49:10 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, true, true. Because I want the tip to be authentic.
+
+49:16 - Natascha Tiotuico
+  Like if I have an agent and he delivers me crap, then I don't want to give him like a good tip.  I want to give people who are agents that actually do me good favors. I want to give them a high tip, and that's also going to help us analyze what are things going well or appreciated in our community and what are things that people are like, no, of course, I'm not going to give that seeds.
+
+49:44 - Razvan Matei Popescu
+  That's a good idea, right? Because like we can ask like when we do the tipping marathon or like the tipping, I don't know what we will call it.  But like we can actually say like... are know... mai up... It's not . Jat保持尤ون S You It's how many people did you tip today because you like their PFP, because you like them, you like what they said, because you, I don't know, it's a good, it's a, it's a good point, like, I don't know, that's why I like it.
+
+50:14 - Natascha Tiotuico
+  Or or who was tipped most by people, because people, if they think, oh, no, like, maybe it's the leaderboard isn't, did I tip 10 people, but who's the person who received the most tips?  Yeah, yeah. Because they have to motivate people to actually give them tips. So who's the best tipped person in the room?  Is it an agent or a human in the future? Yeah, but I need to go off the call now because I'm going to be in a new call and I still need to.  Same. I have a bunch of stuff to do this afternoon.
+
+50:58 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. Can you talk about it?
+
+51:00 - Natascha Tiotuico
+  So, we have a topic to chew on, and I'll probably be getting the stuff set up with James this week.
+
+51:13 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And 08 for you, like, one thing that would be really helpful is, I know you're doing the live stream stuff, like, if you have ideas, just start running these experiments.  Just start doing it. Like, ask for what you need and start running it, especially if you want to just test out ideas.  If you have these strong intuitions and these hunches, just try them out.
+
+51:32 - Razvan Matei Popescu
+  Just try them out.
+
+51:33 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, try them in Discord, see what happens. Like, and then you could, instead of you telling, when you tell me, oh, I have an intuition, I'm like, cool, great.  But if you tell me, oh, yeah, I ran this experiment, and 10 people responded, and six of them were like this, then I go, oh, that's interesting.  There's some data to actually back up. But everything that is being tossed around right now, none of it is data driven.  So all of it is just like hunches. And, you know, I have a hunch that... Tipping is completely irrelevant and is not really interesting to me at all as like a builder and I don't think that we would have a strong community if we had a bunch of people like that like that were like concerned with tipping each other like it's like a not a really high value activity because tipping doesn't really matter.  doesn't like do anything. It's just like a signal like thanks. I can also write thanks in the discord. But if you have a strong impression that a strong community can be built out of this thing, then I encourage you to test it.  Test it, come back with data, show us the data and then we can take actions on it. Like the idea for the builder.
+
+52:34 - Natascha Tiotuico
+  If a builder mentions an idea they have and a lot of people tip, he will feel more incentivized to actually build the agent.  Yeah, that kind of stuff sounds really helpful.
+
+52:45 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  That's like that is like data driven stuff. You know what I mean? This person mentioned it and then five people tips that person, not mods, like five random people tipped it.  That's like, oh, that's interesting. That's a neat data point. point. point. really. use Yeah, they that
+
+53:01 - Natascha Tiotuico
+  So the appell to you is, if you have cool ideas, drive them forward, get the people on board, but be the leader of your ideas so that we can test them.  Yeah, I want all of 08's ideas in the Discord.
+
+53:19 - Razvan Matei Popescu
+  That's good, so no, yeah, sure.
+
+53:23 - Natascha Tiotuico
+  So if you need anybody's help, if you need anybody's support, you just ask, hey, Jonathan, can you announce this on Twitter?  Hey, Xavier, can you help me build this channel or build this functionality?
+
+53:37 - Razvan Matei Popescu
+  Yeah, sure, I very much agree. Like, I just, my assumption was, like, that we're gonna brainstorm on the, like, big stuff and then the small stuff, like, figure it out, like, afterwards.  So that's, you ask coach, what was my point of confusion? I think that was it, because, like, if we're going from small...
+
+54:01 - Natascha Tiotuico
+  Yeah, so the big to small, the big is right now we're trying to get the showcase agents done, right?  When the showcase agents are done, we're going to go into growth, into adding galaxy or something. And in the meanwhile, we're going to stick with our organic growth.  But once we have those two points done, then it's going to get more serious and more on pace.
+
+54:33 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So small things at the moment, sure, sure.
+
+54:36 - Razvan Matei Popescu
+  I'm going to create a mini plan and then just do it today in this and see what happens.
+
+54:44 - Natascha Tiotuico
+  Great. Amazing. Okay. Thanks for your time, everyone.
+
+54:48 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Appreciate you taking the extra time to pass this out. Thank you.
+
+54:54 - Natascha Tiotuico
+  Thank you. Bye-bye. Okay, ciao.
+
+54:56 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Bye. Bye.
