@@ -1,0 +1,531 @@
+Alex (00:04.883)
+I think we're a few people short today. don't know who, like, I know Zina or I know Destruction Joe is sick, but just a reminder, this is the weekly What We Shipped for Mother. This is about kind of showing off everything we've built, being able to kind of galvanize the community, as well as keep everyone up to date on kind of what we've been doing, what we've been building, make sure that everyone's kind of aligned. We're gonna start with engineering and then we'll move into...
+
+any of the operational or investment type of stuff and some of the deck things that we've been working on. And then, and we can start with Kush if you want to go ahead.
+
+Kush (00:43.185)
+Yep, absolutely. So I think last week we got the feedback that even though a lot of the things we ship, it's hard to understand the context of them because of the larger picture. So this week I want to start from there. So yeah, so basically last week, James, Koje, Alex, we were discussing about this and how we can shift our focus towards getting more users from.
+
+from actually Twitter and like convert them into a community on Discord. So the question over there was like, how do we do this in a way to innovate a main base so that we can like gather a lot of eyeballs on Twitter and also like effectively engage them so we can, you know, then start to, you know, get them activated inside the community itself. So for that reason, we basically present the Twitter card thing. Now we've actually like kind of
+
+come together once again, taking some time and condensing into a larger kind of like a campaign. I mean, I won't go into the campaign details. Coach, do you want to go into the campaign details before I go on?
+
+You're on mute.
+
+CoachJ (01:53.885)
+Yep. basically, just to recap, basically you have access to this amazing technology. That's like very novel technology where we get to, create these abstracted wallets right on Twitter and have people interact on chain. We're going to be doing a test net, but on chain, on Twitter in app, just kind of like far caster frames. have these X Twitter frames and it's a really cool, kind of promotion. By the way, just
+
+Kush, do you want me to go over just the frames activation or do we want to give, because here we have a lot of other collaborators, the bigger story? Yeah. Okay. So basically, you know, we've, you know, this is, going to paraphrase James. James says it much more eloquently me, but we've been kind of really focused on this B2B side of things at Mother. We've been really focused on getting the tech right and getting it set up so that we can better serve these businesses. Right. Now we're going to be switching focuses to.
+
+Kush (02:27.215)
+the entire.
+
+Suraj (02:30.507)
+No, awesome.
+
+CoachJ (02:51.997)
+how are we getting individuals engaged with us? This is almost like a B2C track you can imagine. And so we're really gonna be kicking off a pretty large, like our largest like user acquisition activation. Like this is the big one. Like this, we gotta make this one work, cause this is where we want all of our users to be coming in and starting to interact with us. So basically the bigger, the big vision of this is that we're gonna be having lots of users coming into our Discord and over the next several weeks,
+
+What we're doing is we're setting now the foundations with this campaign coming up so that people can pay agents to take actions in Discord. So instead of building a fancy website or whatever it is, we're using Discord as an interface and you'll be able to, know, like ask mother, whatever it is, and mother will be able to facilitate transactions and the orchestration of, you know, agent swarms taking actions that you've requested as a user.
+
+So that's kind of like our end goal in site. So how do we get there? We're not quite ready to do the ad. There's actually a few steps that we want to go in the way. So the first thing that we're doing is we need to get people testing out this technology. And the way that we're going to do it is James and the collab line crew have this amazing tech around tipping. So tipping, just another word for kind of like payment structure, is a way that we're, is what we're going to be experimenting with in Discord. And we're actually going to do a live demo today with hopefully everyone that's on this call as well.
+
+we're gonna go into Discord and we're gonna start tipping each other and getting a hold of these testnet tokens. And essentially that's gonna pave the way to agent payments. And the way that we're gonna be driving people into the Discord is we're gonna be doing it through this Twitter campaign. working again, so we can kind of explain it the two ways. What we're doing is we're capturing people's attention.
+
+by doing this really cool novel thing on X. We're gonna be driving into the Discord and Discord, we're hosting a campaign that's essentially kind of like, we're not gonna talk about it like this, but we're calling it a recognition program, if you will. We're gonna be tipping each other. We're gonna be encouraging people to tip each other. People have chances, we're gonna be running events, chances to get lots of these kind of like points, these seeds that we're calling it. And then eventually we're gonna release the feature that allows individuals to use those testnet tokens to actually
+
+CoachJ (05:15.871)
+pay agents and then you can imagine that in the long run what we're doing is that eventually turns into real tokens, real payments to real agents completing actual tasks of all kinds of agents that are in their mother registry. So I'll just pause there and make sure that I didn't miss anything. James Kush, you want to fill in any gaps?
+
+Kush (05:38.662)
+James you want to add something before I go into the demo?
+
+James Young (05:42.833)
+Yeah, I think that as Coach Jay had mentioned, we're focusing on the B2C side. And so the only thing I would add to what Coach Jay is saying is we need to all start building out the mother community in Discord. So what I think we all need to do is spend some time in Discord and see what the activity is like, encourage those that are
+
+joining the mother discord to tip or get tipped. think there will be campaigns that will start so that we can start right now drumming up interest in terms of the TGE and as coach J was saying these tips are actually on chain transactions but they're using testnet tokens and we won't explicitly say this but it's going to turn into this point campaign and
+
+This will, because it's Web3, people understand, we get a tip, we interact, there's a recognition system. People will kind of understand. So we're gonna get, hopefully, a lot of people joining the Discord, and then we have to filter for quality, because they'll, whenever you have some type of point system, people understand what that is. So I would implore everyone to
+
+start looking at and interacting with people that are in our mother discord because we really need to start cultivating that community. We've been chatting with each other internally. We need to now take that energy and focus it on building a mother community.
+
+CoachJ (07:29.607)
+Awesome. Kush, anything else?
+
+Kush (07:32.582)
+No, I think you guys covered it all. can directly dive into the customer acquisition channel now. So let me just share my screen and take it from there.
+
+Kush (07:47.846)
+Awesome. Is that screen visible?
+
+Kush (07:52.613)
+Alright, so using the collabland technology basically we've kind of created this twitter card kind of thing where anyone can create these embeddable cards like farcaster frames onto the twitter feed basically. So if you like scrolling you'll pretty much see a post which looks like this and then you can just click on this play button and this loads an entire...
+
+Kush (08:26.948)
+Alright, let me start again.
+
+Kush (08:54.0)
+Alright, so yeah, so basically using this technology, let me start from the scratch. So basically using the Collab and technology, we've kind of created this Twitter card kind of thing, which is like an embeddable iframe inside of Twitter. So now if you're like randomly scrolling your feed, you will probably just see a post like this. And you can click on this play button, and what it'll do is it'll open this iframe, which is like a interactable Twitter card. Now it's the equivalent of Forecaster frame, you can like embed entire events into this.
+
+and inside this we basically use the account kit by colabland to add account abstraction and generate accounts for everyone who is interacting with this card. So what happens is you don't need to sign any transaction but just by doing a Twitter auth you can simply
+
+get in the system.
+
+Kush (09:53.633)
+Okay
+
+Kush (10:00.551)
+Alright, I need to...
+
+close my screen share for a second because I need to check the password for this one.
+
+Kush (10:18.646)
+We have been running into a lot of Twitter rate limits and stuff. any user can only do 7 to 10 actions using this particular technology right now. And that's basically because of Twitter API's rate limit issues. And in order to circumvent that, we've been using multiple accounts and stuff. So it's pretty much exhausted a lot of mine.
+
+Kush (10:46.854)
+So yeah, I'll just enter the password, I'll log in over here and I'll authorize the application. And now it's fetching my Twitter account details, it's loading my profile details and once it's done it'll be like visible over here.
+
+Kush (11:06.31)
+sorry.
+
+Wait, does someone else want to try it their computer? Because like I have pretty much exhausted all my accounts.
+
+CoachJ (11:17.269)
+Sure, let's serve me up. but I'm on the mother account. Maybe someone else.
+
+Kush (11:20.058)
+Yeah, let me just try it once again just to make sure that I'm not on... It's not a Twitter issue because Twitter has been giving us a lot of issues with this.
+
+CoachJ (11:30.663)
+Okay, let's do it online here.
+
+Kush (11:33.838)
+Yup, see, okay, alright, so it works this time. So I've been able to fetch my Twitter account details, I can claim some test vote tokens and...
+
+Now what's happening is it's counterfactually creating an account address for this particular Twitter account and as can see that because I've been testing our stuff this one already has balance but will still send some tokens to this particular address. So what's happening is now the agent is basically taking your smart address account and sending it some test tokens. So as you can see you receive like test 10 tokens because the balance was 9 earlier and now it's 19. And now what you can do is over here
+
+you can basically see this list of all the AI agents that have been nominated by the community and you can use these test tokens to either submit any nomination or just submit a vote to any of these. So let's try to like vote on these, I'll drop some, let's seven votes and once this is done, I can submit these votes. So now again, what's happening in the background is a user operation
+
+has been created on your behalf through the smart account. And it's being sent to the voting contract address using these smart accounts. So.
+
+This takes some time because it requires like a lot of like, there's a lot of action that goes behind this. There's Metamask delegation toolkit involved. There's Lit protocol involved, which like does the counterfactual signing of the addresses and like messages. And once that is done, it'll be like writing this transaction onto first the token address to give the approval and then on the voting address to then vote on the tokens. So yeah, once that is done, we will be just waiting.
+
+Kush (13:19.052)
+Okay voting has ended
+
+James Young (13:40.603)
+So all this interaction that Kishago is showing are actually on-chain interactions. He's actually voting on-chain and you can actually see these transactions. So you don't have to leave the platform now in order to do an on-chain transaction. You're given a smart account. And so based off of your Twitter ID, you can actually send tokens to anyone. In this example, this is just for voting. And this is the initial implementation of...
+
+the card because we want to focus this to drive traffic into Discord. But essentially any frame that you want to build out, like was mentioned before, this is like a Farcaster frame equivalent. These are all on-chain transactions.
+
+Kush (14:40.186)
+Just like I just wanna make sure that I'm not exhausted my Twitter rate limit. Yeah, it's Can someone else try this on their side? Maybe it works for you guys cause like my accounts are like done. I'll just send over the link and Where do I send this? Riverside?
+
+PUNCAR (15:06.004)
+Where is the chat you can use?
+
+Kush (15:15.482)
+James, you want to try it maybe?
+
+Or like, if anyone has like a dummy account they want to use for this, that'd be super helpful.
+
+James Young (15:20.013)
+Sure.
+
+James Young (15:25.017)
+I'll give it a whirl. Let's see. Let me share.
+
+screen.
+
+James Young (15:38.32)
+Can you see my screen? All right.
+
+Kush (15:39.791)
+Yep.
+
+James Young (15:44.324)
+Now I lost my Twitter screen. Alright. I can't see the riverside. it says nothing's... Did I do that right?
+
+Kush (15:56.264)
+Yeah, looks right.
+
+James Young (16:04.4)
+Alright, I'm authorizing the app and now it's sending me back to Twitter. So this is the token.
+
+It's loading my profile.
+
+James Young (16:30.586)
+I'm assuming that part of this is taking a long time because it's running locally on
+
+Kush (16:37.535)
+Yeah, this is running locally on my laptop right now.
+
+James Young (16:41.078)
+Twitter is success, let me fetch my account.
+
+James Young (16:52.41)
+Okay, so this is my smart account address. I don't know if you can see my screen here.
+
+Kush (17:01.56)
+This is base scan, we're gonna go to base sepulia scan.
+
+James Young (17:06.273)
+bass let me see
+
+James Young (17:12.472)
+one sec.
+
+James Young (17:22.333)
+So this is my address, and so I'm going send it to that address.
+
+James Young (17:33.174)
+and i can just vote now i have about a minute to vote i only can vote once is that why it's red
+
+Kush (17:39.026)
+No, no, you can vote multiple times but right now for the simplicity of the flow we've just kept one single vote button and like multiple. You can like go on to next and like look at the other candidates also. The constraint over there is like we can't have one long list because the Twitter card only shows a particular part of the screen. So we had to like add this pagination, yeah.
+
+James Young (17:50.403)
+Okay.
+
+James Young (17:57.561)
+Right, it doesn't scroll. So I'm going to submit these votes. While that is being submitted, I can actually see that I was given these tokens, these vote tokens. So everything is trackable on chain. Now the votes are being submitted.
+
+Kush (18:48.134)
+What's happening in the backend is like after the submitVote function is like hit, it creates a call data for the different functions that we're calling. So like approval in the token and like submit voting. All right, so it's submitted.
+
+James Young (19:06.19)
+Alright, so I was able to And now I can take this and then I can go to Discord.
+
+Kush (19:16.58)
+Yeah, so just a second. I will send you a link to the other Discord server because the thing is like we haven't added this particular bot in Mother's main server right now. Yeah.
+
+James Young (19:27.0)
+okay.
+
+Kush (20:00.049)
+So I'm dropping a link over here in the chat.
+
+Kush (20:18.463)
+James, not able to see your discord screen if you're sharing that.
+
+James Young (20:18.499)
+I-
+
+James Young (20:22.234)
+You know, I have to, I'm at my Discord limit, so I can't join the Discord server. I have to leave a server.
+
+Kush (20:26.438)
+Alright, I can do this part for your end and I can just simulate that.
+
+James Young (20:31.426)
+Okay. All right. So I set put my invite code inside of...
+
+Kush (20:47.428)
+All right, so now what happens is we're saving all of this information in our databases also. I mean, I'm just showing this. can cut this out for the clip that we want to send out. yeah, so as you can see, testco.lab has been added over here. And all of these different sides, I just removed this so that database doesn't give any issues.
+
+Kush (21:19.236)
+Alright, now if I go back to Discord and as I can say like this person has joined the Discord server, mother is already here, I have my invite code, I can just type slash invite and drop in the code here and what will happen is it will take my invite code, verify my account with colabland, it will get my addresses on colabland and it will then transfer these new tipping tokens to me, it will send me these
+
+seed tokens. So as you can see only I can see this message right now. It's preparing my seeds tokens.
+
+Kush (22:08.198)
+Finalizing authentication and yeah, I've just received 1000 seed tokens and I can use the slash tip to command to like start tipping this now so That's basically how the entire flow looks like and I know that it wasn't like the smoothest in the demo but yeah, it's gonna be Yeah, once we like tried out with like new users and stuff. It'll be like much more smoother It's just like my test accounts are already exhausted from all the twitter rate limits
+
+James Young (22:39.982)
+Yeah, there's some polishing that we need to do, but the flow works. really, we created a smart account using your Twitter ID, and then we also created a Discord smart account using your Discord ID. And now, what the goal is here, I don't know if you can show, is tipping enabled? Maybe this is where Xavier can take over and just show that now if...
+
+people are taking that claim code from Twitter, going to Discord, they get some of these seed tokens, they can start tipping each other. And this is where we want to promote tipping activity.
+
+Kush (23:21.766)
+Do you want to go next, David?
+
+Xavier (23:24.431)
+And sure, so what I was going to show you was the actual tipping function working and a couple of types of it for everybody.
+
+Xavier (23:39.843)
+when you guys jump into the server.
+
+Xavier (23:48.035)
+Hang on, sorry, climbing the right window.
+
+Xavier (23:54.991)
+There we go.
+
+Cool. So, giving live in every public channel and also in the moderators channel as well, if they want to give sneaky ones away. You run into any of those public channels you've got access to. Start with the slash tip.
+
+Xavier (24:24.319)
+same as what Kush was looking at before. Amount seeds.
+
+Everything like that. We wait a few minutes. Not sorry, not a few minutes, James, a few seconds for that one to go through. And you can see that.
+
+actually gone a little bit over my ...
+
+Excuse me, sorry, I've gone a little bit over my amount there that I've got. There's a whole bunch of us not on this platform.
+
+Kush (24:55.814)
+Let me drop some of these tokens to your alt account also.
+
+Xavier (25:01.647)
+That's all right, I'll just give you dust. There's a bunch of us that have got an absolute stack of tokens that we're going to be sharing out fairly liberally initially. I saw your comment, Alex, and those sort of things are a great idea as well. At least for this weekend, Koshan, I thought we'd just start sharing them out so that people can get actually moving with it and start the flow.
+
+CoachJ (25:26.067)
+Yeah, that's the idea. It's just kind of like, have this become a norm in the Discord server so that once we actually start hosting events, like really one thing that we're really focusing on with this is like, you can imagine that a lot of the focus is actually having others.
+
+get the tokens and then actually use the tipping function themselves is like a major focus. So some of the challenges, some of the activities will encourage people to be tipping each other because that's really the functionality. It's not about, yeah, we want them to, you know, activate their smart wallet. We want them to get the tokens, but we actually want them to tip as well. So that's going to be a huge focus that Xavier and I are going to be working on.
+
+Xavier (26:07.127)
+Absolutely, just that constant activity is going to get people involved. And alongside of a few events we've been working on over the next couple of weeks to encourage it as well. So that was a successful tip. The other one I wanted to show you, I quite like this one, I'm going to use this a lot. The raindrops. Who came up with the raindrops? James. I really love it.
+
+James Young (26:29.761)
+I think it was Gita.
+
+Xavier (26:32.259)
+Well done, Geeta.
+
+So I'm use this quite frequently, I think. Basically you can set it to expire after a couple of days, a couple of hours, anybody that spots it can click the button and claim a certain amount of seeds. So initially we'll just drop them in the introductions channel, elsewhere in the general channel for people to, I think I see why it's in the demanding tip already. And after it expires, it goes away.
+
+but you don't have to actually be there specifically tipping in order to start distributing as well, which I think is fantastic.
+
+Xavier (27:10.329)
+So they're the two functions that we've got going. You can't claim your own raindrops, I've tried that before. Yeah, it's gonna be great. It's working really well so far. And any errors that we had over the last couple of days, you'll be pleased to know have actually disappeared as well.
+
+CoachJ (27:26.771)
+Yeah. Big shout out to the lib protocol team for addressing that for us. So, I think that we'll have all those potential issues, resolved. And, that's great. Thanks Xavier for, for rocking this. I'm really excited to kick this off next week and, get the mother team in here where we've got great ideas. We've got like kind of like an AI agent idea brainstorming that I've, I'm volun, holding, volunteering Alex right now that he's going to participate in as a judge.
+
+And there's gonna be meme contests. We're gonna do kind of cool visualizations of aspects of our white paper and of mother and some of that. really just like really fun ways to get people engaging with mother, what we're about. one thing that we're kind of hyper aware of, James mentioned that naturally these kinds of programs attract some airdrop farmers, et cetera.
+
+Fortunately, Xavier has kind of lots of experience with that and the Co Union team in general is just like top notch team and they're going to be working on figuring out really crafty ways to segment roles for kind of like higher level channels to like kind of get the more quality folks in there so that many AirDrop, you know, any AirDrop farmer could join but like really the action is going to be happening in particular channels that are going to be a little bit harder to get into.
+
+So we can actually start to develop like, you know, a real community that's interested in the agentic future.
+
+Xavier (29:02.191)
+Absolutely. And those events are going to be focused around those contributions and positive things that people are doing. And then they'll get the larger rewards that we've got available to hand out.
+
+CoachJ (29:15.701)
+So that's it. That's the campaign. think that we did a pretty good job explaining it. I'm just really excited to get this... So Kush, let's just quickly talk about anyone who's watching this call, or just anyone who's on the call, because I think there's about 10 of us here. What's the timeline on this? When are we ready to go live with the X-Frames thing? Is that happening today? Are we planning to in the weekend next week? Tell us about when people can expect to this go live.
+
+Kush (29:44.539)
+think from an implementation perspective we're like completely ready to go end to end. It's just like we just need to add this new mother agent to the mother discord and you know just deploy both of these things so we can do it today if you want we can do it tomorrow like whenever you feel like we can get the best engagement from our social media perspective and the thing is I think it might not be the best to go today we can like go live with tipping today on our channel and everything but like
+
+maybe aim for like Monday or Tuesday because what we want to do is we want to involve all these other partners like, you know, Red Protocol, Metamask, Toolkit and know, BASE we've been speaking with and you know, like prepare them before we go out with the tweets so they can like give us amplification boost from there and also. So yeah, I mean, that is what I've been thinking like because we are actually showcasing a lot of technologies in this particular one frame and it's...
+
+It's a pretty cool thing, get all of our advisors involved as well. maybe if you can like, I mean if you want to push for today, we can do that also. It's just that it's Friday today, so I'm not sure what that looks like. But I mean from a tech perspective, we're ready to go live whenever you want. So yeah.
+
+CoachJ (30:57.365)
+Sure, can maybe right after this call, you and I could have a quick one-on-one and we can just decide, maybe Xavier, you can join us as well. We could just kind of quickly come up with a timeline about when we want to have what go live and then we can do that. Cool.
+
+James Young (31:09.582)
+Yeah, we have the engineering daily stand up and right after this call, let's join that and then we can hash that out. I think that would be perfect agenda item.
+
+CoachJ (31:14.931)
+Okay, perfect. Perfect.
+
+Kush (31:16.55)
+Mm-hmm. Yep.
+
+CoachJ (31:24.115)
+I think it's back to you, Alex.
+
+Alex (31:26.131)
+Awesome. I just sending a message to Parawallet to ask him about the accounts. So James, anything else from a higher level on this engineering and why it's important? know my main takeaway from this week is we have the two-sided marketplace of consumers, whether they're businesses or they are individuals. And we also have the agent of businesses. We need to have both of them.
+
+And we're realizing it's kind of a recursive problem that we have to kind of get start to seed both sides of the marketplace. And we've been getting some of the builders in. We need to get some consumers in so that people see the value there. But anything else to add about why this is so important and kind of what this looks like for the next few weeks after this.
+
+James Young (32:13.432)
+Yeah, so we've gotten feedback from these agent builders and the starter kit is a bit much for them to integrate and they have to do all this upfront work to integrate and then be part of the registry. So on the B2B side, we've been focusing on agents and messaging and creating our own little bots. We've had the Minecraft demo. So everything works there. The problem we've come up with is this agent dev
+
+onboarding friction. So we have that issue on the B2B side and we've seen in the last month MCP has taken off. So what we want to do is we want to make sure that we're up to date, that whole AI meta just moves so quickly. So we're going to move away from the starter kit and have this friction be removed.
+
+And so we have a plan on the B2B, agent to agent, multi-agent messaging, which we're going to continue with. At the same time, as Coach Joe was saying, we have the B2C because we've gotten feedback from investors of like, okay, well, like how do users engage with these agents? So we've taken this feedback over the last month, and I think we've come up with a really elegant solution.
+
+So we are having two work streams now where we have this MCP refactor on the B2B side and we have this ability to currently we tip and we get these C tokens going and the C tokens will be what users will pay right now in simulation to agents and all agents need to do is be part of the registry and so you see that
+
+the mother agent was able to use the claim code to be able to connect with the collab land agent to be able to send tokens. So now we have like this full scenario, but based off of the feedback, we're going to be moving the B2B site to MCP to make it super easy. It should take less than two minutes to enter the registry. We're going to have the mother
+
+James Young (34:37.344)
+agent within the mother discord now be able to ping the registry and then be able to see who is in the registry to be able to get Services done and now we're going to marry the B2B side in this multi-agent system with the B2C side with the consumer right now being able to just through the mother agent coordinate and orchestrate this multi-agent system of those agents in the registry, so I think
+
+Now, we have to think about and what we'll do after this meeting in the engineering dev sync is like for next week, how do we marry all of this together? We have a bunch of technologies that we just need to integrate. We were focused first on the multi-agent coordination issue. Now, with the B2C issue, we're going to work on the multi-agent orchestration issue. And we have all the pieces and I am hopeful that by next Friday,
+
+we can see all of this come together. You're seeing a bit of it come together. didn't really highlight this, but he did an amazing job being able to have this tagging of the mother agent. It's actually connecting to the Collabland APIs and the Collabland bot to be able to give tokens through this invite code. And I think we stumbled upon a really easy onboarding. And so...
+
+Based off of this feedback over the last few weeks, going through ETH Denver, I think we're taking in that feedback and we're really listening to it because we have this multi-sided marketplace that we want to put together. so, this no longer is just B2B and a multi-agent system. We have that down. We've seen the Minecraft demos. The agents can pay each other. Now what we're doing is having these consumers be able to pay and this point system with the seeds
+
+initially will attract users and hopefully those users will start demanding more agents and what you can do. And we have to figure out how do we combine the B2B side with the B2C side. So this is moving along a lot faster than I thought it was because I was thinking we need to refine the B2B side. But it's just like too much friction for these agent devs. So MCP has just
+
+James Young (37:03.12)
+taken over and we're just going to leverage that. And that's part of the current AI meta that allows us to really simplify the orchestration on the B2C side. yeah, we're going to have a full marketplace like next week. And now we have a better shelling point where users can actually go to Discord and actually hire agents using test tokens they get paid for and we...
+
+have the multi-agent middleware already baked out where these multi-agents just have to be part of the registry. They don't actually need to wire in with Nevermind right now. And what we're going to do is probably add some more middleware based off of the feedback just to make the agent onboarding as smooth as possible. When we started with the AI agent starter kit, this was like in November, MCP didn't even exist.
+
+This how fast the market is moving. And now MCP is the standard. And I think that this is where you're getting this hyperbolic kind of exponential multi-agent system working together. So on the B2B side, we're going to take everything that we have in one starter kit and we're going to modularize it into separate MCP services. And this gets us kind of in line with the current momentum in the meta that's happening even beyond Web3.
+
+in the agent space as well. And I think with the X-Frames, we're starting with this voting of agents just to kind of get awareness and understanding of what are the top agents to really give us more information. But I can imagine, and this is where I think we set the groundwork where if an agent wants to integrate, they're already going to have a smart account.
+
+And so they can then potentially have their own frames and they can actually start earning and they can actually get and launch tokens. So we're working with another project called Juicebox and we're going to explore creating our own kind of pump that fun, your own tokens for your agent. But you can do this all without having to leave X. So these things are all kind of converging and coming together.
+
+James Young (39:26.992)
+And I know it's been kind of a windy road, but you really don't know where the market is going unless you participate in the momentum of the market. And since we have worked so hard these last few weeks, months on the agent messaging side, now with MCP, I think that is our hook to now bring together the multi-agent system and the B2C side on the consumer side.
+
+Yeah, this emerging design that's happening right now. And I think now it's really more tangible so that you can see the whole system.
+
+Alex (40:02.943)
+and practice more.
+
+Alex (40:09.339)
+Awesome. Thanks so much, James. And I think that's a good place to talk a little bit about the getting valuable builders to the registry. And I'll clarify what I mean by valuable builders is not just revenue generating builders, but agentic businesses that users would find valuable. They want them to actually complete a task because that value will likely eventually transition into revenue.
+
+The current status is, as James said, we've had some issues getting teams integrated into the registry. Like we kind of have 75 teams kind of integrated, sorry, into the CRM. And we have 45 initial contact with 45 teams about calls or initial connection or having them on the agentic, on the intelligence stream. And like 20 teams have been invited for technical calls or they're actively engaging in some way.
+
+but there's been a technical drop off. We only have two teams integrated and even the 10 teams that have been sent like, hey, come and integrate, they haven't done it yet. And it's for multitude of reasons, but it's more likely because too much work and the value prop of what they get from being in the registry is not clear enough. And that's kind of what I put here. And there's also kind of this kind of lack of clarity of clear value. So instead, the next experiment we're gonna do is one is on the B2C side as James talked about.
+
+making it more tangible, like, okay, hey, here's the value, here's how people can interact with another, and they can see that, that can get them excited. The second thing is actually providing a more immediate value to them, but also the realization that we don't need these teams' permission to have a yellow pages of them, to have all of them in one place. And it's much easier if our users, if our teams, if everyone can see, here's all the agents, and then we can go back to these agentic businesses and say, hey.
+
+Here's the value prop of integrating. People are asking for you. and additionally, we'll do two things. One is that we'll have like pre-filled accounts of teams and then ask them to quickly verify and augment the information. This is where ZeroH has been doing a ton of work on the agentic businesses. You can add this to his flow. We can provide visibility incentives through a Franchisco Spotlight and public acknowledgement. But this should also be lower effort for teams. And it can be better for us to make sure that we're getting all the right information.
+
+Alex (42:30.491)
+Now what's clear is that this should require a little bit of engineering lift because we're creating this wait list of getting people into the yellow pages and I'll make the yellow pages using v0 and stuff. Now what will require the engineering lift and what is higher priority is this simplified integration and the redesign of the re-architecture of how mother works. And so now James and Kush can have teams who have been registered into the yellow pages.
+
+and they can go to them and say, cool, now we'll bring you into the registry, please integrate. And we can have a wait list of teams to go back to and hopefully integrate them. Now, in this Yellow Pages, there will be a specific ask of like, hey, do you want help setting up your MCP server or those sort of things? But we can prioritize kind of the teams that we want the most. So to be clear, overall, it's about creating this Yellow Pages, which is not the registry, because they haven't integrated it, but it's creating a Yellow Pages so that everyone can see who are the agents that are out.
+
+Here's just a quick kind of flow diagram, or just like a flow kind of explanation of what it would look like. And then there's some next steps. But the big thing is like, teams are identified, pre-filled yellow pages sent to them, and then they can update that. And that's before they get to the registry. Once the registry integration is set up and Kush and James have that ready, then they can go back to the team and say, add this snippet or create your MCP server, get integrated into the registry, and then they can get added and integrated into Discord.
+
+Any questions on this?
+
+Alex (44:03.325)
+Cool. This is because of this week, it's just been too much friction and too much lead time to get these teams into the registry. So let's flip the script and take some of the work off their plate, get them into a Yellow Pages so we have the full list and we can see the world. And then we can get them to integrate the registry later on. There's no other questions here. Happy to move on. James, any questions or thoughts? Kush, any questions or thoughts?
+
+Kush (44:34.278)
+I think Yellow Pages is something that we don't need to build from scratch. The Intuition guys can also help us out using their explorer. So just reduce the effort over there as well. Maybe you guys should talk about that once among yourselves.
+
+Alex (44:54.355)
+Yeah, Alessandro and I already spoke about it. We're not going to go straight to intuition yet because intuition can be more expensive and it can be more friction upfront. But it is a way for us, like I will work with Alessandro to say, hey, here's some of the data that we're bringing in. Here's some of the tags that we're using, those sorts of things. So then eventually transition it to intuition. But it's almost easier to kind of just keep them in the loop, iterate quickly, because eventually we'll throw it away to go to the registry anyways, right?
+
+James Young (45:21.208)
+Yeah, I talk with Intuition. They actually have everything on bass sepulia as well. So it's all kind of free at the moment.
+
+Kush (45:30.138)
+Yeah, I mean, if I'm gonna like throw it away, I don't see a lot of like point of like redoing the work which already intuition has done. And I already have like scripts written through which you can like take any tally form or anything and like automatically populate in our intuition. So kind of the same thing that you would do with the yellow pages you can like do with like the same effort over there also. So
+
+Alex (45:51.795)
+Cool, then Alessandro, let me follow up with you to figure out how to do that more clearly, because I was just going to set it up in SuperBase with like v0. But if there's a way to still keep the front end and just replace SuperBase with Intuition or something, then I'd totally be down for that.
+
+Alex (46:12.339)
+Cool, Alessandro, I'll follow up with you on that. And Kush, if you can send me any of those. Or guess, if Alessandro already understands all of the information that you have, then that'll be good enough.
+
+Kush (46:25.318)
+So basically I have written these scripts and we already had the previous form for the registry. So the information is already going on in Intuition. I still need to make some changes in terms of tags and stuff that I'll do and I'll share this very simple Node.js script that you can run and hit an endpoint with a JSON object of very simple details that I've...
+
+shared before like developer name, agent name, parameter function and all those things that basically populates that entire page for them on Intuition. Yeah, so I've also added like automated DID generation using Nevermind on that. We can skip that part for now if you want to but yeah, it's already there.
+
+Alex (47:14.437)
+Awesome. Sounds great. Alessandra, I'll follow up with you. And then the last thing I'll just point out that I should this week is met up with Joe yesterday and we worked on some of the thesis of Mother to get more crisp and how that ties into the growth. You guys can check it out in the Slack. And the main thesis about getting more like there's a clear reason why more Legos are needed for developers and how and with the current issues that a lot of the developers are facing in terms of this make first buy decision and how we see the market evolving.
+
+put that into the fundraise chat. You guys can take a look. We'd love your feedback. Now, anybody else who we want to ship? I know we only have 10 minutes left. Sydney, Matt, Siraj, Xavier, Poonkar, Zero8, Coach J, anybody else?
+
+CoachJ (48:00.842)
+I have some stuff if any of Sydney Matt you all want to share.
+
+SYDNEY (48:04.585)
+I just want make a quick comment. my microphone working? Hello? All right, cool, cool, So for the fundraising portion, I had a call with a founder today specifically on a product that allows you to handle all of the fundraising all within Telegram. So if this is relevant, like to close the fund, I can just sync with Joe on it. But I just wanted to raise awareness that
+
+James Young (48:09.486)
+Yep, it works.
+
+CoachJ (48:09.534)
+Yeah, it works.
+
+SYDNEY (48:33.959)
+If fundraising wants to be handled only in Telegram, that's now an option as well.
+
+Kush (48:40.645)
+I'll text you regarding that and like you can chat on the Dysync.
+
+SYDNEY (48:43.59)
+Okay, Yep, that's my update.
+
+Alex (48:50.703)
+Matt, Xavier, Saraj, anything else?
+
+PUNCAR (48:55.794)
+I can jump in just like a quick update on the demand side. So we were running the campaign, getting more or having a design partner or like basically customers. what we are looking for, it's basically company that needs AI to improve either their internal processes or product and using the multi agent system with mother would make it more efficient and also
+
+SYDNEY (49:04.041)
+So.
+
+SYDNEY (49:11.927)
+Okay.
+
+PUNCAR (49:25.812)
+more predictable, executing 10 out of 10 tasks as they are. So that's the value proposition. We got some responses to it. I already finished two calls with the builders. Fortunately, unfortunately, it turned out to be actually agentic builders. we are like from the demand, I kind of connect them with Alex. So we have another agents to be onboarded to.
+
+pages and eventually to the registry but some of them are actually pretty useful. One of this is a legal agent so very much like specialized agents on like legal matters which can be pretty cool in the Lego. The other one is a deliberation so it's like more like a governance and running workshops and stuff like that so if we get the customer on like more like internal processes update or a DAO which needs to update a governance those agents would be very helpful so
+
+They are now kind of in the the pages or about to be on boarded. And I still have a couple more there. But I want to reiterate what Kush said last time. Like if you know someone who is building AI solution or needs to have AI solution run internally, please connect them with us. And we can run basically this POC together. You you get access to all the builders from other and also the partner.
+
+partners and we will help you build your solution which will be run more effectively and efficiently. with that, Gitcoin with our prospect furthest away, I'm waiting for their response if they want to collaborate on some of their automation. We'll probably know more next week. And the last thing, how we are also trying to get customers, we will be present at the
+
+SYDNEY (51:10.215)
+you
+
+PUNCAR (51:23.164)
+Google Cloud AI event in Las Vegas where all the big companies are coming. I know that Sydney wants to comment on it, but that's okay. So hopefully we can get some customers there as well.
+
+SYDNEY (51:25.51)
+she's asked.
+
+PUNCAR (51:44.966)
+Back to Alex and I will mute Sydney.
+
+Alex (51:49.361)
+Awesome, thanks so much. Siraj, Xavier, anything else to discuss? Or anybody else want to ship?
+
+Suraj (51:51.273)
+Javier to discuss that. anybody else want to ship?
+
+Alex (52:00.339)
+I you said something.
+
+CoachJ (52:02.209)
+Yeah, I think that most people on this call saw the SSOT docs. So those of you who went in, thank you for leaving comments. Super helpful to just get aligned on language. And actually, it's just such a key part of the GTM plan. Alex and I were on a call with the recursive team earlier this week, and he described mother in a way I hadn't heard it before. And I just thought it was great. And so all those things, we want to kind of capture those, and we want to get aligned on those.
+
+so that we have like really great one-liners for describing mother. So that's what this doc is and it's accessible to all of us moving forward. So we don't have to like reinvent how we're describing mother every time we talk about it, whether in an application, grant application or to an investor, whatever it is, we just have these quick, quick reference things. So that's something I, I'm still working on, but I got done this week.
+
+Kush (52:53.126)
+Yeah, that seems super helpful,
+
+Matt Wright (52:53.328)
+And then I've got to jump soon, but I have been helping Kush kind of restructure some of the priorities of the team and then thinking through kind of network coordination and kind of how there would be some economic engine behind Mother. So we're working on those details and should have some stuff for folks shortly. Also a lot of the kind of compliance and risk and kind of
+
+real world decentralization is underway to make sure that the team and community and agents can properly coordinate without stress. So we're moving pretty fast on that. We're talking to some external vendors who would kind of help us with some of this process of like tokenization network state stuff. So yeah, I'll try to update some of next one.
+
+Kush (53:54.433)
+That's awesome.
+
+Alex (53:54.451)
+Great. Anything else to add on that question before we let everyone go to the other call?
+
+Kush (54:01.639)
+I think
+
+Matt Wright (54:01.896)
+I also, I have a fun update. I also ghibli'd all of you and put it on Twitter. So that was my fun little activity yesterday.
+
+Kush (54:06.214)
+Yeah, that was pretty cool actually.
+
+Yeah, just a little update on the fundraising side then. mean, we've been restructuring a lot of docs based on the feedback that we received in the last week of pitching and a lot of these questions came up to which we did not have clear answers. So now we've basically established these channels for engaging with our advisors to get guidance on that and restructure the deck according to it, restructure the pitch according to it. So the goal is to know, I mean,
+
+Fundraising is also an iterative process like after the first four or five eight pitches you can like start seeing these patterns of questions that people like throw at you and They're mainly around, economic design the GTM product and all of those things itself It's also helping us identify the gaps that we have currently in our understanding of how the thing should look like let's say going forward So I'd say that's a process that's going on. I think
+
+As Matt mentioned, we've actually made a lot of progress over there as well. And I think next week onwards we should be in a good place to go pretty heavy on just go out and pitching as well, gather more feedback and make progress over there. So yeah.
+
+Alex (55:28.211)
+Awesome. And guess with that, we will end one minute early. thank you. Thank you so much for joining. And we will see you guys next week, same time, same place. See you later.
+
+CoachJ (55:38.101)
+Thanks y'all. Ciao.
+
+Matt Wright (55:38.823)
+Thanks, all.
+
