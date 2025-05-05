@@ -1,0 +1,139 @@
+Mother Daily Standup - April 11
+VIEW RECORDING - 21 mins (No highlights): https://fathom.video/share/xh8SaTzcxhFya-h6HwJqcT6fvupJy1Ms
+
+---
+
+0:00 - James Young (Collab🤝Land)
+  What I got from the previous meeting and taking in all of the feedback, what I'll do is I'll immediately speak with Matt, so he's looped in.  I would like to assign some action items, if that's okay. Coach Jake, could you, as soon as that Riverside recording has been uploaded and all of that good stuff, share that recording because what I would like to do is have a meeting with Matt, but instead of me summarizing the context, I would like him to watch the recording so that he can have more of an objective view of what's happening because he is a major stakeholder here.  Coach I would like to then just explore in this meeting, and it may not take the whole 30 minutes, because I'm still going to gather some data and I have.  And question is kind of leading up to how do we start next week? And so based off of what Alessandro has said and showed and what we had a meeting with Corbin at GigBot, is it seems like we're ready to be able to get some agents in the registry.  There is, as Alex has pointed out, kind of higher order issues with regards to investors and things like that, which I think is going to be a little bit more tactical.  So in this meeting, what I would like to propose is being able to get just, just get us going.  Not that we're going to necessarily go in this direction. pray. direction. But I want to try and scope out so I'm fully informed.  If we were to get GigBot added to the intuition graph, what else do we need to do in order to get this orchestration agent off the ground?  And I think there are some questions that I have specifically for Geeta with regards to other chain support. So we have the slash tip command in Discord, and that is on Testnet, but GigBot is only on mainnet right now, on base mainnet.  So, my first question is, you know, I can spend the weekend and Get a POC orchestrator agent up the door through the account kit.  And my question to Gaia is, how difficult would it be to then add base mainnet support for the orchestrator agent to then use the account kit to do transactions?
+
+3:28 - Gita Alekhya Paul
+  Account kit already supports the base mainnet.
+
+4:00 - Alessandro Voto
+  So you just need to select, like, Basement as a chain ID when submitting user operations. Oh, perfect. Okay. I think that answers that question.
+
+4:12 - James Young (Collab🤝Land)
+  Then my second question is, what would it take, and maybe this is a question for Kush and Alessandro, to get GigBot just on the Intuition registry?  It would be, like, three minutes at a time to create a claim, I think, or actually maybe five minutes, because you had to, like, if you were to manually add it, I mean, or if you use the form, are you talking about just adding, like, like every other agent on the form?  Yeah, that's right. So they could either fill out the form or they could, like, do it manually, which would suck, but, yeah, the form is the ideal way, I guess.  Okay. So, I mean, these are trivial, like, base is already supported, so that's not an issue there. And it's supported on Intuition and in the account kit, and it seems pretty trivial to get them manually or through the form onto the Intuition graph.  Then all we need to do is create this orchestrator agent, which would be a separate Discord bot, leveraging what Kush has already done from previous weeks with the slash ask command, because Kush, you had the slash invite command, and it's just forwarding that or proxying that request.  OK. OK. OK. From the mother agent, which is the orchestrator proxy agent, to then just, from what I understand, from the meeting with Corbin, is forwarding it straight to their API.  So it's really, the work is an API integration into GigBot, which they've given us the API endpoint for already.  The only, I think, outstanding thing is that if someone wanted to hire a GigBot through Discord, they would need to be able to fund their smart account with ETH, and I think that it would just require the mother agent to query the account kit to see if they already have ETH.  If not, then the mother agent would then reply back with maybe like a QR code or something. So that the end user can easily fund through Base ETH that smart account.  So it seems like, and please help me understand what's missing. For this orchestrator agent to then hire or have an end user through the mother orchestrator agent to hire GigBot, we're pretty much there.
+
+6:45 - Alessandro Voto
+  Yeah, how does that work, Kush? Like, is it the same as the Alice Bob situation? Where like, where like, is there like, like a, if you go through one agent, can that?  Didn't use the exact same method that the user would use to directly interact with something, but just, like, do it on, do it automatically on behalf of that user.  Because if it has funds, like the account abstraction stuff, like it has its own wallet, then that should be possible, right?  As if it was another user.
+
+7:26 - James Young (Collab🤝Land)
+  Yeah, I don't know if Kush is available to speak. I see him in the meeting, but I don't hear him responding.  But I also see, uh, Gita has direct response to this, I'm assuming?
+
+7:40 - Gita Alekhya Paul
+  Uh, unfortunately, no. I have a question, which is, uh, uh, uh, does the mother bot, uh, extract funds from, like, the user's wallets and all that?  Like, is it, like, via Twitter auth or Gita auth or telegram auth? Because we don't see for Discord auth yet or like Kush is building out like a custom keychain?  So that's the question then.
+
+8:11 - James Young (Collab🤝Land)
+  I would imagine. Oh, Kush was out. He just rejoined. Oh, okay. So let's hold that question. Sandro, Kush, are you there?  Oh, maybe not.
+
+8:36 - Alessandro Voto
+  You're on mute, Kush, if you're trying to speak.
+
+8:40 - James Young (Collab🤝Land)
+  If not, we can go forward with...
+
+8:42 - Kushagra Agarwal
+  Hey, I was actually... Hey, sorry. I was in a lift, so I kind of like missed the thing. If you could just please repeat the question.  I'm sorry about that.
+
+8:55 - Alessandro Voto
+  Yeah, for sure. think it was just, it was just like there, there's an... Is there orchestrator agent that gets invoked, like someone searches for it on the registry, they make a request, and there needs to be some way of taking funds from somewhere, paying the orchestrator.  The orchestrator then needs to go pay a downstream agent, and then you have something done, right? So I guess we're wondering what's the payment flow there.
+
+9:28 - Kushagra Agarwal
+  So we haven't figured out the payment flow for like multi-agent, kind of this multi-party handoff right now. It's more from the perspective that, okay, for example, someone like Ember, if you want to like execute a certain transaction, Ember plans out the entire flow and like returns the call data along with the other details.  And we can then sign that using the mitigation tool to get angry actions on, you know, mother agents and through the smart application.  Accounts that are being generated through the Collabland account kit and stuff. So that is basically what's been going on in my mind right now, but I haven't implemented any project which would actually transfer the funds to another agent right now on a user's behalf, basically.  In terms of payments, for the agent itself, the agent payment can be done through Nevermind. So that's already baked in, but yeah.
+
+10:26 - Alessandro Voto
+  So I guess the orchestrator just needs to make sure that they're getting enough funds to cover their own request downstream, right?  Yeah.
+
+10:37 - Kushagra Agarwal
+  So we can implement a balance check or something on that end, but apart from that, we don't have a lot of logic over there.  Yeah. And I think this dovetails into what Gita was asking about for the Discord off.
+
+10:54 - James Young (Collab🤝Land)
+  So thank you for that, Kush. I wonder if there's like a simple... ... ... Iteration that we can do so that we can be biased toward action and in that what we can do is since we have like the second party relationship with Corbin, we iterate toward this Nevermind integration through this orchestration because right now with Nevermind, it's all peer to peer, but now we're introducing this fast track, which adds much more code or responsibility for this orchestrator agent that, from what I'm hearing, isn't fully built out.  I would like to sit back, maybe not in this call right now, and maybe not try to design this OxySimple agent, but I do have some ideas with regards to that.  So that should be something that I'll Come up with, along with what else we talked about in the call just now, in the previous call, and set us up for Monday.  James, don't we also have an Ember agent in the registry as well?
+
+12:19 - Alex Lumley
+  So we can do both of those?
+
+12:31 - James Young (Collab🤝Land)
+  So, I'm trying to connect the dots here. So what you're saying is use the Ember agent as the mother agent?
+
+12:37 - Alex Lumley
+  No, I was saying, it is my understanding of the question, correct if I'm wrong, but the Ember agent is within the registry as well, correct?
+
+12:48 - Kushagra Agarwal
+  I mean, it seems like they did all the things. I just haven't, like, tested it out if it works or not, but it should be there, yeah.  My point was two things.
+
+12:56 - Alex Lumley
+  One is we could potentially leverage the Ember agent in some way. Two is maybe... It's actually easier to start with the Ember agent and then to bring in GigBot.
+
+13:08 - Kushagra Agarwal
+  Yeah, we'll have to check out what the exact integration looks like. I think Ember would be the easier one just based on all the conversations we've had with Sebastian.  Yeah, think because I mentioned that they could turn call data and stuff. So technically that flow is a lot easier for us to implement because sign in, the payments, the funds don't have to leave our wallet basically for income, which is, I think, definitely a safer part to go.  What's the short term goal?
+
+13:46 - Alessandro Voto
+  Are we, are you guys trying to like actually get, um, have a proof of concept where someone's able to go via MotherDoubt in order to like hit one agent to do one thing?  Yeah, it's like.
+
+14:00 - James Young (Collab🤝Land)
+  To get that flywheel going where you have a consumer in Discord, whether it's through mother orchestrator agent or maybe an Ember agent or some agent, to be able to get some work done without having to go to another platform.  So they're in Discord, they're able to hire an agent, and we get that full flow going where it hits the registry, an agent is called, agent doesn't work, comes back, gets paid, and, you know, the end user is able to fulfill or get their request fulfilled.  So is the first thing, like, with Ember, like, go make a trade for me or something?
+
+14:45 - Alessandro Voto
+  Swapping is usually just one.
+
+14:49 - Kushagra Agarwal
+  Swap command, I think, is, like, the V1 kind of implementation group. Nice. Yeah.
+
+14:57 - James Young (Collab🤝Land)
+  So, I guess what we should do is have a... It seems like we need Tom on the call because he's the one that can, like, answer questions because Sebastian, I think, from Ember defers to, so let's just cut to the chase and get Tom going.  And so what we'll do on Monday is we'll see where and just gather data and see what the requirements are so that we can hit the ground running on Monday.  And I think now, here, what we're saying is if we have that implementation, does that cause any concern or is this something that on the community side or the marketing side, that raises any concerns?  yeah, Kushagra, what do you think about this?
+
+15:54 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, no, have, I think that giving you the weekend to just kind of come up with the strategic stuff makes most sense for me.  way. Yeah, have no strong opinions about any of this. And, yeah, I'm also, like, now in, like, stable place.
+
+16:08 - Kushagra Agarwal
+  Like, I mean, I was on the move before this. So, James, if want to connect after this, I'm going to have to give you, like, a technical walkthrough of what we have right now to give you more context.  And I can also, like, connect over the weekend. You know, that's kind of so. Yeah, yeah.
+
+16:23 - James Young (Collab🤝Land)
+  I want to be sensitive to everyone's time here. So, maybe we can close out this meeting and just prepare for Monday.  What we've decided is what we're going to at least do is get requirements with regards to how do we get this flywheel going and also get the weekend to be able to get the strategy dock going as well.  And then we'll present it on Monday's call. I do have some questions, potentially, for Geeta, depending on the implementation details.  But I know it's, you know. One o'clock in the morning for Gita. And so maybe everyone, feel free to drop off.  And what we'll do is I have some implementation questions just so that I can prep myself for this weekend while Gita is here and while Kush is here.  Unless there's anything else. So I want to see if there are any other concerns or questions that people have.  I don't think so. I feel super clear on kind of what I'm doing along with Tash.
+
+17:29 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  We're going to just, again, still focus on creating activity in the discord and still continue pushing people there. And yeah, I think that we're kind of full steam ahead.  I just, if there's anything else that we could support with, then let us know.
+
+17:44 - Alex Lumley
+  So just quickly, uh, coach Jay and I talked earlier today and what, what we kind of, uh, talked about was like to basically the conversation with, with, with Corbin and a few other people, we realized that some of these teams need to almost see like a demo or a mockup or a proof of confidence.  The of how the orchestrator will sort of work, and then we need to better clarify the value for this, and that combined with actually targeting more of the marketplaces can enable us to get more of those teams in the registry.  So letting you guys get the V1 with Ember and GigBot and just continuing the conversations but not driving everyone to the registry will bring people more likely to come into the registry.  That plus LaunchPass just have, or marketplaces have many more agents than any of these other individuals. Yeah, yeah.
+
+18:35 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I want to second what Alex is saying. Like if as soon as, like the sooner we get the Ember and GigBots working, the sooner we can make a demo video.  And that is very, very good sales enablement material that Alex can then go use and talk to large marketplaces and get them to be a really easy, yes.  It just like creates so much less friction in that process. So, yeah. have теперь . Kevin Bye. bags we we get You
+
+19:00 - James Young (Collab🤝Land)
+  I think we have the beginning of this, like, strategy doc going here, and so this is highly informative. So, yeah, we'll keep that in mind.  Absolutely. Great feedback. Thank you. All right. We'll see y'all.
+
+19:17 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Awesome. Excellent. Thanks, everyone.
+
+19:19 - James Young (Collab🤝Land)
+  Gita and Kush, if can hang on for another eight minutes or so, it would be great.
+
+19:24 - Kushagra Agarwal
+  Yep. Yep. Okay.
+
+19:28 - Alessandro Voto
+  Awesome. Thanks. Okay.
+
+19:30 - James Young (Collab🤝Land)
+  So, I think the kind of questions I have with regards to this orchestrator agent is how do we choose between this kind of order of operations between prioritizing Ember or GigBot here?  I see you have your hand raised. Yes.
+
+19:50 - Gita Alekhya Paul
+  I have a small question. Do we want to meet, let's say, after half an hour or do we want to hard stop at eight minutes?  Well, haven't had dinner, so I need to go for dinner. If you want to have a long conversation, I would like to take half an hour to just have dinner and come back.
+
+20:12 - James Young (Collab🤝Land)
+  I'm free, so I just was prioritizing. Oh, I have a meeting at 2 o'clock, but let me see if I can reschedule that because I think this is a priority.  And I was just saying, let's have this meeting just out of your time constraint, but if you're saying you want to have an hour, I defer to you.  So I'm available. don't know, Kush, if you are.
+
+20:36 - Kushagra Agarwal
+  I can connect in 30 minutes, but I'll only be available for 30 minutes then because I have to move out and I'm just meeting someone, so I'll be on the move that time.
+
+20:47 - James Young (Collab🤝Land)
+  All right. So yeah, in 30 minutes, I'll be available in 30 minutes.
+
+20:51 - Kushagra Agarwal
+  Yeah. Awesome. Let's do that. If that works for you, Geetha.
+
+20:54 - James Young (Collab🤝Land)
+  Yeah. Yeah. That works for me. Awesome. Awesome. All right. I'll send another invite. Thanks. Bye.
