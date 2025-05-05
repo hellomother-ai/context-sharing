@@ -1,0 +1,376 @@
+Mother Community Strategy Sync - April 21
+VIEW RECORDING - 53 mins (No highlights): https://fathom.video/share/VudT4D59k2DkNWvkrLow_ngiPh3yz3dx
+
+---
+
+0:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Moving pieces to it, because some of the things we talked about, I could probably pull up notes, but some of the things I remember we talked about, like role-based segmentation, like again, we have these two main audiences, we have like the farmers who are going to come in and going to do their thing, and they're going to do very specific actions that we want them to do, which is tipping transactions, and then eventually asking the mother agent for agents to do things.  So we just need to set that up as like a quest style thing. We might have like legitimate actual people interested in mother wanting to do that as well, that's fine, but we want to be able to have these people, the legitimate builders, fans, whatever it is, be able to very easily kind of separate themselves through some sort of mechanism, so that we can actually have our own place in Discord where we're all talking to each other and actually doing things together, and that's I like I think that maybe we talked about it, like I think the most ideal activity  is that they're actually building, but I guess at the end of the day, the most important thing is that they're just like fans of Mother, and they become our ambassadors or evangelists, and it's probable that they want to build, or they're just interested in using AI, it's kind of like what I talked about with some of these rejects who don't know how to use AI, but like Tash has this experience where she came into Mother, and Mother is this place where there's tons of  going on in AI, and like Mother is a place where they can come in and like start to make sense of things for themselves.  and how they can use it. Anyway, I don't want to dominate this conversation. I'd love this to be like co-created.  I know you all have ideas, and you've been on this project for as long as I have, so I'd love to hear everyone else and what they think we should do, and then we talk about how we want to approach actually designing this together maybe.
+
+1:48 - Natascha Tiotuico
+  Yeah, so what I discussed with Dan was the different opportunities, how to build the server. ander겠다. you , .  Once. So when we talked on Friday about the approach, how to change and when to change, we said, OK, let's have a showcase of Mother actually being in action on the Discord before we go into the big activation, maybe including Galaxy or other questing platforms.  But after like when we planned this, what we would do is start creating a group out of the existing members that are very active, authentic and try to already give them a pass beyond the let me call it a garden foyer.  So it's kind of the waiting room principle, but waiting room doesn't sound very, very nice. So let's like go with the mother analogy and use like a garden.  The foyer where everybody can join, where there's most of the mainstream action happening, and then with different kinds of processes, like either questing in a specific area or getting a verified application through other channels, like it could be through X or through another community, then we would allow the progression into other channels.  But what I think is the priority, what you were talking about, the side note, what I was talking to James on the weekend, is really getting those showcases, what are we using Mother for, started before we get the big swarm groups into Mother.  Okay, got it.
+
+3:56 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So first is like, let's make sure our tech is right. And then let's start inviting the clusters and everything in.
+
+4:03 - Natascha Tiotuico
+  Yeah, like now we would just stick with, so what growth we're doing right now is very organic growth. People who are interested come.  We're not trying to like promote super big farmers. So I would continue with that until we have our first showcase.  Okay, okay, cool. That makes sense. I appreciate that approach.
+
+4:26 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  was slower approach, but it was probably more stable and more predictable just in terms of who's coming in. Yeah, because we don't want people coming in and saying, oh, what does mother actually do?
+
+4:37 - Natascha Tiotuico
+  They're just talking about it. I don't see what's happening. And when all these farmers, we at least want to have one demonstration of, oh, this is what we're actually doing when working on.  Okay, cool.
+
+4:50 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  To have that positive sentiment.
+
+4:52 - Natascha Tiotuico
+  I understand. So, I guess the, so James is looking for a dev.
+
+4:56 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I saw that. He's looking for a dev to build that. I actually found like a potential. I'm going to talk to James about it, but I'm wondering if you could get, like, something happens in Discord, like there's a private channel, and if someone says slash ask to the Collabland bot, it sends a message in this private Discord channel, and that activates the MCP server to connect to all these different agents.  So I'm going to ask James if it's, like, possible to do something like that, because that means that we could, like, I could build our bot today.  Like, I could have that orchestrator ready to roll. So I'm just going to ask James if that's, like, an unrealistic, non-technical solution that I dreamed up, or if it's, like, yeah, there's also one, especially for AI, like this i8n, or what was it called?
+
+5:55 - Natascha Tiotuico
+  Yeah, yeah.
+
+5:56 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I think that's really good right now with agents. It really is. But it's a little less, it's a little, anyway, Zapier is more like that, that, that is like good at like building actual like agents with lots of functionality and stuff.  We could also explore them. We can also explore down that road. But there are like these tools already, these no code tools.  And I'm wondering if you just get something set up so it makes it look and it gives the user the experience of being able to ask agents to do certain things.  Yeah. Yeah. Yeah. like, okay.
+
+6:33 - Natascha Tiotuico
+  Yeah. But the next discussion we could talk afterwards. So that would be at least the community management side. Like, of course, I need to discuss with Xavier how the structure would exactly look like.  We still have the question open with Collablan and Passport. Yeah, that's right.
+
+6:56 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  One thing that the Passport team told me is, it's probably Probably fine. Like, we can use it. It's just not the most up-to-date API.  But he says, I'm pretty sure it's still fine. Like, you can use Passport. So we can, like, get Passport set up already without the API name.  So is that something that, I don't know if y'all are familiar with getting that set up? I have no idea how to do it, but I can take that on.  I just, I mean, I prefer that you all take it on, because you're the, I'm like, yeah, you're, y'all are the experts.
+
+7:34 - Natascha Tiotuico
+  And I connect you with Dan if you want.
+
+7:36 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  He's just, like, happy to answer any questions. He also loves our use case. He thinks that he's never seen it before.  He would love to, like, follow along and get on. all the data and, like, document it. Um, I'm happy to do it.
+
+7:50 - Xavier Finlayson (CoUnity)
+  I haven't done Passport before, but I've done a lot of other things. So maybe I can. Yeah. If you want to take a stab at it.  Yeah. What's the bit that he's particularly.
+
+8:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Well, then we're going to start with a relatively, like a decently high passport score, it recommends 20, and then what we're going to do is we're going to see how many people come in, and as we are nearing the number that we want, we keep hiring the score required to enter, and the thing is, as you hire it to 21, 22, 23, it actually makes it significantly more difficult for symbols to come in, and it makes it relatively easy, it's maybe like a little bit more annoying for humans, like you gotta sign into all these things, but like humans should still be able to do it, like if you have a record of like a Twitter and a, you know, Instagram, whatever, you'll have no problem.
+
+8:43 - Xavier Finlayson (CoUnity)
+  It may be annoying for people, but that's the entire point, the only way to protect against symbols is friction.
+
+8:50 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  This is the civil story, how do you make it hard enough for the bots, and easy enough for the humans, and find that perfect midpoint, and then it's just like, it's impossible.  All right. You can ask them to. We'll always kind of try to get closer and closer to them and never hit it.  So, yeah, so that's what he recommended we do. We start with 20, but we move our way up as we're hitting like that number.  And that arbitrary number that I said was 5,000. Feel free to challenge me. I was just like, I would love 5,000 users.  I would love four to five tips for each of those users to do. That's 20,000 to 25,000 tipping actions.  And then something like one to three, well, we have to decide because they're going to max it. So let's say just like two ask actions or something like that.  And so we'll get something like 10,000 requests to agents and 20 to 25,000 tips, which I think are really cool KPIs to share with, you know, the public eventually when we talk about our test net and how it did.  So let's you. Thank Cool. So my question, oh yeah, go ahead, I want to hear from you all.
+
+10:04 - Xavier Finlayson (CoUnity)
+  You were talking about Zapier, I just shot a message off to our very friendly automations mates, not Zapier, and he asked about MCP and he turned around and went, oh, ask this in the group chat because my dev is working on this at the moment and he's going to get super excited.  Oh, okay, cool. Yeah. It's cool using these guys because they are so custom, I talk to him every day, and if there's any problems, then they just fix it for us as opposed to Zapier, we'd have to go through their corporate support sort of thing.
+
+10:35 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, because so basically like, it's like, connect your AI to any app with Zapier MCP, like it's available, you just go to zapier.com slash MCP.
+
+10:43 - Xavier Finlayson (CoUnity)
+  If these guys haven't got it ready, then we won't use them, but I just thought I'd ask them.
+
+10:46 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, yeah, and basically, because what happens is the way that these agents are working is that they should be MCP compatible, a shocking number of them are not.  And the first one, GigBot, that we're loading is going to be MCP-compatible, and so essentially the CollabLand bot, all it was going to do was route these English requests, like this natural language, like, I want you to do X, Y, Z, and it was going to route it directly to the agent, should be able to receive it through this way.  So that's kind of the idea. So let's talk to James about it tonight, the thing. I guess my question for you was, say that we could have this bot ready by the end of the week, for example, say we found a dev pretty quick, or say this solution does work, and we're excited about it, we can do it by end of the week, or like mid-next week, kind of thing.  My curiosity is, it sounds like, I really appreciated your description, Tash, it already sounds like you kind of have, like, intuitively, based on how many communities you've seen doing this, you intuitively have a sense of, like, what it could look like to gather everyone right now, get them the rules that they have, and then set up the Discord and such.  a way that there's a landing place for everyone who comes in before we announce and after we announce, and then there's paths to go from there.  And then there's, I imagine, activities once you get upgraded to a non-civil role kind of thing.
+
+12:14 - Xavier Finlayson (CoUnity)
+  What's the dev component that you're looking for?
+
+12:18 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Oh, there's, like, James was looking for a developer to build the mother orchestrator. Oh, okay. And that's why I'm just, I was like, if the Zapier thing is, like, a non-thing, we still need to find a dev to build this orchestrator.
+
+12:33 - Natascha Tiotuico
+  Yeah, and I mean, as we grow, that's when, like, we, there's not going to be a switch now to then.  It's more like, okay, we have to slowly build and watch the community because we don't want to, like, pre-build something where the channels are almost empty.  So we have to grow with the community and start implementing, like, save your, uh, interrupt me if I'm wrong, but, um.  I understood it. As we grow, we start refining these channels. We'll have a structure which we want to achieve, but the implementation can't happen all at once, because otherwise we're going to have empty channels.  Okay, got it. So you're nice and slow.
+
+13:20 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  It's like waiting room, and then all you do is get bumped to one place, and you're human land. And like, that's it.  It's just a general chat where a lot of us are hanging out, and then we expand from there as we're seeing that there's a need to expand to different channels.
+
+13:36 - Xavier Finlayson (CoUnity)
+  It doesn't need to be super slow. We can create the whole pathway and have them all staged, but just locked until we want to launch them.  Okay. So we know what we're doing. It's not like we have to build it as we go along and assess every day.  We can have it all scoped out already. Okay. Yeah, staged was the word.
+
+13:58 - Natascha Tiotuico
+  was actually, yeah. You're correct. So the waiting room is also general in everything, including, like, we have to build that structure.  Xavier, think what makes the most sense and where to push the existing people, like, not push, but keep, like, what are we putting inside the garden for you and what are we putting, keeping outside, right?
+
+14:27 - Xavier Finlayson (CoUnity)
+  The ones that are in there already is probably small enough just to include them all.
+
+14:31 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, it's, like, I'm going through the introductions and, like, there really aren't that many people that are actually, like, hey.  And then, like, of everyone that I added, there's, like, a lot of people that didn't respond. I got about, like, 10 to 15 people actually add me back and say hey.  Ah, Xavier, so.
+
+14:53 - Natascha Tiotuico
+  I wouldn't add you, I think you're a scammer. Yes, so, Coach, like. And maybe we need to talk over also direct messaging, because that's like a typical scam scheme.
+
+15:09 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I figured as much that, like, I just said, I didn't ask for anything, so I was hoping that people would just look at my profile and see, like, I'm just literally saying, hey, and then, like, that's it, you know?
+
+15:20 - Natascha Tiotuico
+  I'm not asking them for anything. I'm not asking them to click on a link. No, but once they get used to that actually mother members are doing this, it increases their level of allowing others.  So I think maybe we, Xavier, what can we give Jonathan to maybe avoid messaging them directly, but is there something, like, any guidelines we can do?
+
+15:49 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  If we can message people as the mother Discord or, like, something like that, that's fine, too. It was more just, like, something that I wanted to figure out who was in our Discord, so I started messaging everyone.
+
+16:03 - Xavier Finlayson (CoUnity)
+  Yeah, mean, I tend to prefer to keep everything in the Discord, but if somebody wants private communications, I'll usually suggest keeping it into tickets and things like that, but I don't have a ticket system set up from Mother yet, we haven't needed it.  Or private threads, maybe, I can give you the permissions to do that. Don't worry about it. That's pretty simple.  But the thing is that requires people to actually be paying attention to the Discord, even if you ping them.  Yeah. Whereas what you're trying to do is actually rustle them out of their inattention as well. Yeah, yeah, yeah.
+
+16:46 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, cool. So wait, what were we talking about right before we got into my DMs thing? Were we talking about just taking everyone who's in there right now and just starting with that?  Yeah.
+
+16:57 - Natascha Tiotuico
+  Yeah, how to like. Guard off the foyer garden, like we need to, I need to maybe sit down with Xavier and discuss which channels would be like our foyer garden, like the main waiting room, and which channels are the progressed ones, and like how do we set that up?  Yes, Xavier. You're muted.
+
+17:26 - Xavier Finlayson (CoUnity)
+  I'm just going to say, Tasha's seen this, but I've been playing with, in a couple of servers, one of them, I think I showed you, Jonathan, in Jensen, was the reactivation mechanic for their 90,000 dormant members.  Yeah. I'm thinking something along those lines, something interactive for the 500 that are in there currently, we just drop something and go, if you want to go to the next bit, do this thing.  And it's kind of cool and mother related and law based and stuff like that. And we do a simple one, it won't take too long to.  That could be cool to highlight the people that you're looking for, the ones that are actually paying attention. Cool, that sounds great.
+
+18:09 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Let's do that. Yeah, 08, finally, let's go.
+
+18:13 - Razvan Matei Popescu
+  Yeah, yeah, so I was just listening in so I can like compliment your ideas. I actually think it's cool to do activations, but I feel that if we do an activation and then we don't have follow-up for it, it's not going to be like very sustainable long-term, so shouldn't we like try to think or like just enter, I don't know what tool we use today, like Mural, Mero, because I'm confused between those two, but like to try to build like a funnel and toss all the ideas like, for example, we have this Figma with, it's called the mother funnel, which is like the marketing funnel, so maybe in it.
+
+19:02 - Xavier Finlayson (CoUnity)
+  Can I just jump in there? Were you talking about what I was just speaking about?
+
+19:14 - Razvan Matei Popescu
+  Weren't you mentioning something like an activation for the people in Discord? Sorry, that was my...
+
+19:19 - Xavier Finlayson (CoUnity)
+  The thing that I've done for another server, it was a reactivation mechanic, not an activation like an event. It was a bot with some questions and I had an AI storyline that they had to go through.  It wasn't an event like you were talking about. No, I completely agree. We're not at the stage for an activation, an event.  This is just a little thing they can interact with that tells us they're alive and paying attention. Sorry. That's okay.  No, no, no. I realized the misunderstanding as you were talking.
+
+19:52 - Natascha Tiotuico
+  Yeah, so on meta level, we're at the moment waiting for the showcase. Continue. Thank you. I think as we are right now, like just organically populating the Discord, then we're waiting for the showcase.  As soon as we have the showcase, we'll start thinking of like the Galaxy platform or like getting more attention and at the same time, having the garden foyer set up so that when the people come in a wave, we can like direct them and not not like overflow the people that we actually have right now.  So the reactivation of our 500 members, trying to get them into a place where they're not going to be flooded by the Galaxy activation.  That's the rough plan. So I have another curiosity.
+
+20:58 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So basically, like I have a buddy. My buddy, Zach, he just quit his job, and he's just obsessed with AI now.  He's a dev as well, so he's starting to teach a lot locally in his neighborhood and stuff like that, and so he also wants to create an online thing.  So he created this online community. There's literally 20 people out of 20, so it's not large, it's just him and his friends when he's slowly going to try to spread word about it, and what he did is he just set up, there's a lot of devs in this community, and so they're just people who want to play with AI, including him, and so he just created like a hackathon.  It's like literally like a one-week thing. Like it's just like, I'll just show you real quick, it's just like a really quick, use AI, here's like the really simple rules, let me just show you.  I actually would love to partner with him, but I kind of brought it up, and like he loves the idea of partner, but he's already thinking like, oh I'd love for mother to pay us to host a hackathon, and I'm like, that's not, that's not going to happen anytime soon.  So basically, he created the first hackathon, it's called Parks and Rec, and he loves parks, he's in Austin, Texas.  And so he's just like, it's a week long creative sprint to build a new digital homepage for parks in your hometown while leveraging AI to do it.  And so there's just some rules of lecture aloud, here's some ideas, here's some guidelines, tell us about it, be good to whatever it is.  And then it's like literally one week, and that's it. And I don't know, I think like, four or five people ended up participating.  That's still cool, it kind of gave like, it created like a showing point of like, something for people to actually do.  And it's literally ending today. So I wonder what like, this kickoff event that's actually meaningful, like memes content, cool, like, it's, it was good, we deliberately chose it because it was like passive, right?  It was like kind of happening in the background. So I'm wondering what like that first activity could be? Is it like a hackathon?  Fathom kind of thing, like, let's use AI to build something cool, like, I guess, like, what is that first thing that when we invite people to this next room, that we're like, okay, let's, let's do something together, let's actually, like, take an action together, rather than just, like, be with each other on Discord, um, yeah, I'd to hear your thoughts.
+
+23:23 - Natascha Tiotuico
+  Maybe even having, like, a pool of ideas that go into our direction. So, um, like, sitting together with, I, I find that builders have often the, the hurdle to think in a product mindset.  So maybe even offering something like, it's not just a hackathon where you build, but we also help you find out how can your agent be used, and then use those, um, maybe ideas.  See, guys. We have what are like aligning with our goal and mother to get more Discord activity. Like how do you measure that?  What are the KPIs to to build an agent that is actually being used? And then they could have the experience that, OK, after the hackathon, let's register you into the mother Discord, like the mother registry and have your agent be used.
+
+24:30 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, I actually love the idea of having a focus around Discord because it's like high utility already. mean, could we do it like the way that this is set up is like it already has all the ideas here.  Like here's some ideas or whatever it is, but it could be like there's a kickoff call where you can share ideas and get inspired.  Like we already have kind of like a list of ideas of like here are some things that we would love to see agents doing in Discord.  And then. Yeah. People can share their ideas or whatever it is, and then you actually start building and sharing early ideas, and then we have these optional sessions that people come in, then things are due, and then we like demo.  So I actually like the structure, super simple. Does this kind of match what you, I don't want to imply that this is what we should do.  Tash, in terms of what you were thinking, one thing I think is important is a deadline, because people don't have deadlines, they don't act.  So, in terms of what you were thinking, with a deadline, what might that look like?
+
+25:38 - Natascha Tiotuico
+  Hmm, maybe, since we don't have too many people, maybe we should do it over a month? Or, like, um...
+
+25:55 - Xavier Finlayson (CoUnity)
+  Sorry, missed the, missed the lead up to that question? Well, it was, it was... If we do a hackathon, like...
+
+26:02 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Whatever Fathom's idea was, was good, and then how do we time box it to make sure that folks are not dilly-dilly.  Even a month, you said a month, I'm like, ah man. Even that, like, I don't know, like if I don't have a deadline coming up soon, that for a project that, even this Parks and Rec project, like, I said I was going to do it, and then like, I just, there's other things that came up for me, because I would rather have done that with my time this weekend, and so I didn't work on it, you know, at all.  And I had lots, I had like, space to do it, had like, X amount of time, I just, I just chose to do other things that I thought were just gonna like, further other goals that I had, right?  And there was no incentive for me to do this, like, I would just literally do a Parks and Rec project, and then like, move on with my life, right?  So, I'm thinking about other people coming into the community. The other thing that we never quite sorted out is like, who these people are, like, are these people ready to use AI to like, build something, or are what is it?  Those people that I mentioned, like when I was talking to Jimmy, Jimmy Tregen, like I can tell he's just not even using Claude and ChatGPT, he's not even using, nonetheless, AI agents, he's not even using AI chatbots effectively at this point, like you know what mean, like you gotta first master the AI chatbot, then what I did this weekend was mastering AI workflows so that all the actions are done, and then we, then you can finally move to AI agents where you're doing all the actions and doing the reasoning for you, right, so there's like a leap that needs to happen, I think, and it might be, like, there's just people at different phases of the journey who are thinking already in terms of agents, and then there's people who are still figuring out how to really utilize chatbots and like have them work for them.  That's at least what I've seen, and I don't know if that's like the, the truth or anything that, Azir, you had your hand up?  Yeah, I think that's a good question.
+
+27:57 - Razvan Matei Popescu
+  How do we, like, segment? Those people, so maybe we can ask, like, maybe we can automate a quiz or something like that in the Discord to ask them, hey, what's your, like, experience level?  Or, like, I don't know, maybe even make a quiz with, like, Claude or ChatGPT with kind of, I don't know, advanced questions that you couldn't find in them.  So, if the people would know, so, yeah, some may know how to answer them, some may not, and based on that, we could just, I don't know, maybe create two or, I don't know, because, like, is, CoUnity is going to hate me, because they already created a bunch of, like, they already made the.  Good Discord map there, but maybe, I don't know, giving them, like, temporary roles or something to find out what...
+
+29:10 - Xavier Finlayson (CoUnity)
+  We're not going to hate you, the Discord's easy change. Sorry? We're not going to hate you, the Discord's easy to change.
+
+29:18 - Razvan Matei Popescu
+  Yeah, but, yeah, no, no, but, like, I mean, so maybe we could have, like, two other hidden channels, like, gated.  One for, like, let's say, pro devs, one for newbie devs. And the general we can keep for, like, people that want to, like, just fancy AI, but, like, they don't know how to start.
+
+29:42 - Xavier Finlayson (CoUnity)
+  This goes back to some of the stuff you and I have spoken about, Jonathan, a couple of times. Self-selected answers, self-selected assessments of what is your skill level, what's your interest area and everything like that.  They're not very valuable bits of information because, particularly when we start getting fun. As in, they're just going to select everything or the highest ones, but if we can verify that somehow, like Passport, GitHub, stuff like that, you were talking about a quiz from 08, would that have correct answers or is it just to find, you know, have people just give answers?  Again, that's in my mind very easy for people to literally feed into another LLM and get the answers these days.  Do you know what mean? There's the difficulty with assessing people for those skill levels. Make sense?
+
+30:37 - Razvan Matei Popescu
+  True, but like that's a good point because like I've also thought about that, but so maybe we ask them, hey, what did you build?  Like, did you build something? Like, building something is not like, and that could be part of the quiz. And if they show us that they did do something, that would maybe, I don't know, give them like, like, access to hire.
+
+31:00 - Xavier Finlayson (CoUnity)
+  So you've actually launched something or built something and it's at a certain point or something like that, then that would be a good metric to use.
+
+31:09 - Razvan Matei Popescu
+  Yeah, and before I forget, what tool do you think is better, like Miro or Mural? I don't know the difference between those two.  It's literally two competing tools that do the same thing and they're almost identical and they have almost the same name.
+
+31:25 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay.
+
+31:26 - Razvan Matei Popescu
+  So, for example, for this call, because like the main goal of this call was kind of to create that flowchart.  So, but I don't think I have like a paid Miro or Mural account.
+
+31:41 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Here, I have an unpaid Miro, but we can just use this to visualize and it takes great shots and share.
+
+31:50 - Razvan Matei Popescu
+  Awesome. Can you shift your name? Because like I have a really bad connection on my laptop. I don't know why, so I'm on the Miro on my laptop and I'm on the call.  Well, one thing we can also do is we can just describe what it is that we want, and then it can produce a flow for us.
+
+32:09 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So what are we hoping to achieve with the kind of a flow? Because the flow, I think, is pretty simple.  It's something like you enter the Discord and then land in what? General? Right? Yes. General, what do we want to call it again?
+
+32:31 - Xavier Finlayson (CoUnity)
+  waiting room or?
+
+32:33 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  A garden foyer, something like that.
+
+32:38 - Xavier Finlayson (CoUnity)
+  I'd recommend if we're going to do a waiting room, a foyer kind of thing, I would put that in front of General, and I would just ignore the 400 people we've already got in there and just allow them in.  Don't worry about it. Okay, so they're going to land in Garden Foyer.
+
+32:54 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  You've got to help me because this flow stuff, this is not in Discord, this is not my strength. So-  I enter the Discord and then immediately I pop in and I do all those, whatever it is, I accept the terms and whatever it is, and then I'm in Garden Foyer and I have introductions and GMs and all this kind of stuff, like the basic ones that we have right now, no?  That would even be the question, what channels will we put in there?
+
+33:19 - Natascha Tiotuico
+  Because I think introductions is already a bit curated, so I think that's already further, but GM, for example, would be in there.  GM channel, maybe, so, um, so it just includes general, general chat, GM, that's it, uh, support and feedback, I think, is normally also in there, support and feedback, like, like, think we have it called report issues right now, so we want to, yeah, where can they go from the Garden Foyer?
+
+34:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  GM.
+
+34:02 - Natascha Tiotuico
+  So from the garden for Ye, once we curate them and give them like either seed points or specific tokens, I don't know how we would do that.  Xavier, would we do that with, I think right now for our mother, we would start using collab land and that to do token gated channels, right?  So continuing from the garden for Ye, would they would probably get like kind of tokens from collab land like we have to create that or how would it be curated?
+
+34:44 - Xavier Finlayson (CoUnity)
+  What tokens are you referring to?
+
+34:49 - Natascha Tiotuico
+  To enable them to go to further channels because the mother we want everything like on chain. So what, what is.  What the action we would use from there? We're not going to launch a new token just to identify people.  I mean like the node runner, like the nodes we have. Yeah, yeah.
+
+35:17 - Xavier Finlayson (CoUnity)
+  So that's an NFT that people have purchased. okay. That's what I'm saying. I doubt we're going to launch an entire new...  I mean, that's a point. Anyone with the node NFT... Don't worry about the nodes. We're going to take care of that during the airdrop.
+
+35:35 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Everyone will get rewarded.
+
+35:37 - Xavier Finlayson (CoUnity)
+  All right. We're going to launch a new token just for identification purposes. So we use what we've got, which is seeds.  I hadn't thought of token gating this at all, to be honest. Yeah. People come in, sit in the foyer.  We can either manually decide who's allowed to the next level or put some... We in place that they have to undertake in order to qualify, and then once they're in general, we can qualify them further to that elevated dev and builders element put in there.  That would be a zero ads quiz or GitHub stuff or that kind of thing, that's where that part comes in more.  Or if you, I think the way you guys are thinking of it, actually, you might be wanting to put that further forward just outside the foyer.  Yeah, but anyway, sorry, back to your question. It wouldn't be a collateral and token-gating thing. It would just be, it'd be the automations that we're talking about, like verifying Githubs and the quiz and interacting with the bot or whatever.  And then it's just a role-based, it's a role-based thing that we manage. This is for the curation aspect, right, this part right here?
+
+36:57 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah.
+
+36:59 - Natascha Tiotuico
+  So that was Be like quizzes, adding GitHub, verifying GitHub builds. So those would be like the different specialties that we need to start analyzing to see if they're curated numbers.
+
+37:23 - Xavier Finlayson (CoUnity)
+  Yeah.
+
+37:25 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, so this sounds like this is the one tricky thing to sort out. Yes. I wonder if the rest of this flow could be accurate.  So like you enter Discord, you go into the Guard Employee, and then there's a question of whether you're curated through, and then we'll see this is TBD.  Yes, and that looks like an interested user doesn't have to be a builder, like doesn't have have GitHub and stuff.
+
+37:55 - Xavier Finlayson (CoUnity)
+  Also, I've changed my mind on the current 400. It would not be hard to put them through this. Okay, perfect.
+
+38:04 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So this is TBD. This is CoUnity. We'll make some suggestions on this. They get curated if they don't meet the criteria or whatever it is.  We just leave there to stay in the garden foyer. If they do meet the criteria, however, we decide to do it, then they go into like maybe the infinite garden.  And then there's from there, they can like, so I know ZeroA was talking about like separation. The thing is, is that people are getting into the infinite gardens, like they're probably human, like most likely, and they're probably like genuinely wanting to participate.  Maybe not. But like, wouldn't it be okay then to self-select in terms of getting certain roles? Like if I was going in and like, I just wasn't a builder, like I don't really want to, I just like don't care about technical channels.  Like I just don't care. I can access them. I could see them, but I wouldn't pay attention to the garden.  So like, is it really important to get access to certain channels or not certain channels, or can like anyone who we know is kind of human, kind of wants to participate at this point, just be in like one big infinite garden channel, and if they're there, great, and then once we're noticing that it's getting a little unruly, then we start introducing roles and different channels and stuff like that, or do we want to kind of like front run that and make sure that everything is set up so that people can come in and already just get to where it is they need to go.  I'm just worried that people will come in, there won't be that many people, and then like the non-dev, like, you know, a non-developer who's interested in AI, there's going to be like two people, and they're going to be like, okay, well, nothing's really happening here.  And then like the pro devs, there's like five of them, and they're like, okay, well, whatever.
+
+39:49 - Natascha Tiotuico
+  Yeah, that's the point where we would start staging some channels and having an idea, but open them up when there's enough people that show that interest.  you.
+
+40:00 - Xavier Finlayson (CoUnity)
+  That's effectively what we've got now, Jonathan, just without as much friction at the start. Okay, great.
+
+40:09 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I say we keep it like that then. All we're doing then is once we're ready with the quests, we're adding an extra stage in front of what we already have.  Yeah, yeah.
+
+40:21 - Xavier Finlayson (CoUnity)
+  mean, everything's self-selected at the moment. That's probably okay.
+
+40:25 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Like, the thing is, is like, what's funny about what we've done until now is that I don't think we have like a ton of like Sybil and Farmer kind of things.  We maybe have like a handful. We haven't been hit that yet.
+
+40:37 - Xavier Finlayson (CoUnity)
+  Sorry? We haven't been hit with that yet.
+
+40:40 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, we haven't even had that. So most of these people are like real humans, just curious, whatever it is, and they're just not like engaged.  Yep. Or they joined in the initial mother hype when we were doing like the Mint, the article Mint, and everyone was joining, and then like, just like...  ... ... They just joined, and that was it. They just joined to make sure that they were joined in, you know?
+
+41:05 - Xavier Finlayson (CoUnity)
+  Zero, you had some ideas on the quizzes and the verifications and the hurdles for people. If you want to put some notes together on your ideas on that as well, that'd be good.
+
+41:21 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, so where are we landing with this? It sounds like we kind of have this already. This is kind of like the version two when we're ready to actually launch quests.  We're going to do this, right? And then once we also, like, what would be helpful is, like, I do think that getting a better sense of our audience in terms of...  You want the link to this Miro, Zero8? Let me see if I can. Yeah, I asked, but I was muted.  Okay, yeah, let me...
+
+41:50 - Xavier Finlayson (CoUnity)
+  Yeah, sorry.
+
+41:52 - Razvan Matei Popescu
+  Yeah, I was also in the live stream chat, like, I don't know why people always enter, they think they need to enter the calendar link.
+
+42:03 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, we have 15 minutes, by the way, 15 minutes left on this chat, but I think we'll finish before, so basically I want to know what do we think we should do, like this is going to come, this CoUnity, you all set this up before we get the farmers coming in, yeah?  What about this, do we want to do any of this kind of stuff now, with who we have in the chat, like I want to get those people who came early, I want to like reanimate them, Xavier, what do you think on that?
+
+42:38 - Xavier Finlayson (CoUnity)
+  We can, the bit I need is what attributes you want to surface, what do you want to focus on?  Um, I don't know.
+
+42:52 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  You don't to tell me now.
+
+42:54 - Xavier Finlayson (CoUnity)
+  Yeah.
+
+42:56 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  What are you, what's normally, like what are the right questions to be asking to answer? Yeah.
+
+43:02 - Xavier Finlayson (CoUnity)
+  Well, what do we want?
+
+43:04 - Natascha Tiotuico
+  So maybe who's active on our server currently? And who would be easy to reactivate? And what would be the topics to reactivate them?  Like, would it be a hackathon? Would it be like right now, most active community members are also doing the meme and art challenge?  So we should maybe also follow up on there. But like looking into when we had the introductions, what are actually the topics that interest the more active, like people who did introductions are like there's a bunch in there that haven't said anything for a while.  So we could look through that. What could be something interesting for these people to reactivate?
+
+43:59 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So it could be like...
+
+44:05 - Natascha Tiotuico
+  And with the last minutes, I don't know if we want to look into what I was talking about with James about doing the showcase and and the next steps to actually activate Mother Orchestrator.
+
+44:24 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Wait, I wasn't listening to what you said. What did you just say, Tash? So with the minutes left, also, if we want to talk about the things I was talking to James.
+
+44:37 - Natascha Tiotuico
+  Okay, wait, really quickly, I want to just wrap up this.
+
+44:40 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  In two minutes, we'll wrap up this, and then we move to the other conversation. So who's, okay, so I just want to kind of come up with an action plan.  So for this, the curated part, CoUnity, y'all will come up with like, how is it that we're going to curate?  How is it that we're going to manage the whole like farmers? have system. hours. One So, like, getting Passport set up and ready to roll, how are we going to curate, and Zero8, if you wanted to participate in that, feel free to, like, reach out to the CoUnity team and brainstorm on that, but, like, how are we going to curate that, and then setting up the Discord in such a way that we're ready to receive this onslaught of people and curate them into the next phase, which is here.  So, y'all are, this is, like, all CoUnity is doing this stuff here. Does that make sense?
+
+45:33 - Natascha Tiotuico
+  Yes. Okay. Like, course, we're Zero8, please feel free to jump in and add things that you think are interesting.  why am I not? Be accountable.
+
+45:48 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And then this part here, this is what we were just about to talk about, is, like, how are we, like, what are those questions, Xavier put that question in.  I don't know. I how you normally do it in communities, but finding out who these people are and what they're interested in and blah, blah, blah.  I watched this one YouTube video that just kind of conceptualized three levels of AI for me, and so I'm just obsessed with this as a heuristic.  So don't feel like the need to follow it, but I'm just like... The one I sent to you?
+
+46:19 - Xavier Finlayson (CoUnity)
+  Sorry, yeah, the one I sent to you, yes. Okay, I'll have a look at that soon.
+
+46:22 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, is just like the first version of LLMs was chatbots, and then came these automations like make.com and ed8n and stuff like that.  And now it's AI agents, and that's like the evolution. And like, I almost feel like by asking people what they're interested in, if they, we can like curate them and what they're interested in based on the lowest level of AI that they're interested in.  So if they're still interested in masking LLM chatbots, then they're probably like not super advanced. watching, next Let's So  Builders or whatever it is, but if they're only interested in AI agents and stuff like that, maybe they're more, I don't know, this is just like a random heuristic I'm using, but like I'm more interested in automating workflows and building AI agents at this point, so you can imagine that I'm not really on the step that I'm building AI agents, I'm still doing workflow automation and stuff like that.  So like what are those questions that we can ask and I guess like how do we get that from the existing audience is my question.  We're already one minute over time I'm realizing. So like do I just go in and like create a poll and just ask people like how does that work and how do we get all the people who joined early on like I'm looking through the intros like all these people.  like Monica to learn and like PG and like these people get from Belgium, like we haven't heard it from them since since they like joined early early on.
+
+47:56 - Xavier Finlayson (CoUnity)
+  I mean, that was a bit harsh with the whole reach ads. DMs. We can do it to people that look legitimate, look like they're with organizations.  Do you think DMs is the way to do it? Maybe if it's like a professional relationship, you've got mutuals, that kind of thing, because most people that have been around for a while will check.  I tend to agree.
+
+48:23 - Razvan Matei Popescu
+  I think that's the right point.
+
+48:26 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I'll take care of that. Don't expect everybody to respond, because Fathom will just write you off as a scam.
+
+48:32 - Xavier Finlayson (CoUnity)
+  Okay, cool.
+
+48:33 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I will take that on, and I'll let you all know who I don't know, and then you can see if you have mutuals with them, and we can go from there.  can kind of tackle that, but as the marketing person, I guess I'll find out more about our markets, if you will, more about our audience.  So I'll take that on and start answering some of these questions. So then, and then you, and then once I get that information, then we  So come back together and start thinking about this last part, like maybe that when we're taking quiz or getting roles, but like what do we do in the Infraena Garden is like the outstanding question, right?  when people are in, what do we want to do? And I imagine it will be something like there's going to be something for like the more technical and I think the less technical, I imagine.  Something like that.
+
+49:27 - Razvan Matei Popescu
+  So what's the difference between Infraena Garden and like the general channel?
+
+49:33 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Right now it is, this is the general channel right here, but we're just anticipating that we're going to be opening, we're going to be much more explicitly advertising a points program and we're going to attract a lot of symbols and farmers.  And so we're going to create this initial entrance place for all those people that we can then curate the actual real users from to join our current channels.  Thank you. Is that plan laid out somewhere, the points plan?
+
+50:06 - Razvan Matei Popescu
+  We're talking about it right now. Okay. We should revisit after that's done and check if there's dependencies and stuff that we should like or details that we should pay more attention to after.  I don't know. In the ideation phase, it's a little hard to get it right from the first step, so this is probably going to change a lot.  All the stuff we discussed on Friday hasn't been added here, and I noted there were a lot of good ideas on that call as well.  Stuff like what, Zerite?
+
+50:45 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I'm just curious.
+
+50:48 - Razvan Matei Popescu
+  Let me check the notes. Okay, you check the notes.
+
+50:53 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Let's quickly talk about this agents thing, and then zero eight, we'll loop back on that. We can always create a new chat.  That's not a problem. appreciate Thanks. Thanks. So, Tash, let's talk about this building thing. Where did you land with James?  Like, there's this, like, application form you need to fill out?
+
+51:12 - Natascha Tiotuico
+  So, James came back on Friday, Saturday, and mentioned that we can do a proposal for three growth agents, like, should have specs ready for three growth agents.  That proximity lab developed for us. Okay, amazing. And then I was discussing with them, like, how complex or easy should they be?  And assuming that they should be for our demo and showcase, I started creating a database of ideas. Okay. I'll present that here.
+
+51:53 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I have it here. So, oh, you want to share it real quick? Yeah, I can share it. Well, I can  Now that we're going to go over the five minutes, do y want to just hop into a new chat?  I'll create one right now and just share it. Xavier, I don't know if y'all have something after this. I don't have anything else, so I'm good to keep jamming and just make sure that we're really on same page, and especially 08.  Okay, cool. And it sounds like 08, you're not 100% clear, so I want to make sure that you are just very clear on what's happening next, and that there's nothing like, oh, but what about this, but what about that, and then we'll sort that out as well.  Paste this into the chat. Okay.
+
+52:48 - Natascha Tiotuico
+  Here, I'll jump into the next one, right?
+
+52:51 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, I'll jump into the next one. Okay, see you there.
+
+52:56 - Natascha Tiotuico
+  Okay, ciao.
