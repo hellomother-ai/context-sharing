@@ -1,0 +1,145 @@
+CoachJ (00:01.732)
+Okay, so this week on what we shipped, we'll kind of talk about what we did this week. This week we were kind of back into planning mode. I think like last week we basically kind of took a week to regroup. There's still, think, some things that are falling into place from last week that we're kind of sorting out, especially with Gaia. But this week, what really the focus was on, like, how do we really move forward based on
+
+where we're at right now. Where I would say that we're at right now is that we have the middleware of our protocol and the agent onboarding, we've seen a lot of resistance, I would say is the word I would use. I would say that there's a combination of agents who are not as developed as we thought we were. Like they're not MCP ready. They're just not ready.
+
+And on the other side, there are maybe some agents that are ready. And I think we've just not done a good enough job at making this seem like an opportunity for them. So and that's just kind of what so. So like we could continue to convince them and sell them on stuff like that. But I think that this path we're doing right now is another alternative we're looking at. And so basically what we're going to do is we're going to really focus on
+
+getting this community aspect. have these test net tokens that are ready in there. Hey Alex. And what we're really focused on starting basically next week is because we've had such a hard time onboarding agents, we are gonna just focus on building some really easy, not so easy, some really obvious use cases for community managers and Discord agents for them to use. And thinking as we have...
+
+the Co-Unity team here who are in lots of communities and can already see what are going to be really valuable for these community managers. And we've teased out a few ideas. I want to actually pull up a visual to kind of like help orient us for those who end up watching this video afterwards. I think a lot of, for a lot of folks on this call right now, this will be review, but it still kind of gets us into the same context. Let me just share my presentation here.
+
+CoachJ (02:23.676)
+Okay, I can only share my screen. Okay, here we go. Okay, this is kind of like, again, this is like our long-term goal, right? We have the agents on this side are supply, we have the demand kind of lined up, we're gonna have our collab.land bot orchestrator, which is gonna start getting worked on basically, I imagine like next week, we're speccing this out, I'll talk about this momentarily. And then we have the mother registry now.
+
+For the first instance of this, the mother registry is really not kind of part of this, huge part of this equation because we need a token in order to actually have like a closed curated registry. So right now we're calling this the open registry where essentially the mother registry is gone. Agents exist in a marketplace. They're using the collab land bot as a proxy to talk to users in discord. And so that's what we're going to really focus on over the next couple of weeks. And the way that we're going to do that is this community.
+
+focused activation. So we have these points, have these seeds, testnet tokens, and we're thinking about ways to actually have people get engaged with these tokens. So we're seeing some people taking the action of tipping. It's not a super strong action. So the idea is that we're going to build a few agents over the coming weeks, test them out, run a few kind of challenges internally, get all the bugs out.
+
+and then run a series of quests which will naturally attract like a much larger audience, anticipating kind of an airdrop in the future. And we'll know that these agents are working. And hopefully by moving through this kind of sequence, we get a better, we'll kind of create a little bit more momentum. And I'll kind of dive into what each of these things are and why I think that I personally am very excited.
+
+about the momentum it's gonna cause, particularly this one. We still need to actually spec this out, so we'll talk about this on this call or on different call, but this was James' idea of we were talking about a polling agent. The next iteration of that is a prediction markets agent. So basically imagine polymarket in Discord. And so we still need to kind of get the exact details of what an MVP specifically looks like, because we can get pretty robust, but we obviously wanna keep things simple.
+
+CoachJ (04:35.26)
+And we want to keep things engaging so we don't want to oversimplify and then miss out on a potential opportunity to get people really interested in making predictions with these SEEDS tokens. So that's one thing that we're going to talk about. This is not a finalized schedule. This is just a framework for us to work from. Another week would be a quiz agent, for example. Imagine just feeding in a document saying, create a five-question quiz for us. And then boom, the agent can put that together.
+
+That would save you huge amount of time. like, you know, mean, an admin can spend anywhere from half an hour to a few hours crafting like a really great quiz and putting that into Discord and blah, blah. Now we can hopefully get that done in a matter of minutes. So that would be a great win for us and for an interest to community managers. And lastly, as this formatting agent, you know, not a lot of people know, but being a community manager, you want to make posts really engaging. So you want,
+
+emojis there, want all caps, want bolded kind of things. taking that and doing that can like, you know, it could take like 15 minutes to 30 minutes to just like really get a message to be impactful and meaningful. And if we can just have an agent that just kind of feed in the information and spits out a thing with emojis and stuff like that, all in app, that would be super useful for our team. And then, you know, from that, from those kind of agents,
+
+building them a momentum, getting people interested and getting people engaged in the community. We'd kind of open it up to a quest format where we'd have people come in, do five tips for a prize and do two requests to either the formatting agent, the quiz agent, or making bets on the prediction market agent. And we're gonna open that up and we anticipate, although we'll protect our server with Passport, we're anticipating thousands of people entering, probably mostly our job farmers.
+
+But then we have kind of this like really clear quest for them. The mother orchestrator is working and facilitating this dialogue between the users and the agents. And that's where we can really start to, you know, pad these KPIs and actually start creating a really solid narrative of like, how many people are coming in using these agents. And this whole time we're recording things, we're making demos, and this will hopefully be the catalyst for
+
+CoachJ (06:58.68)
+other agents to see the opportunity for them to also make money in this environment and then we can kind of start really loading up the registry and kind of like get that flat wall going. Last thing before I hand the mic to anyone else who wants to chime in is kind of on the marketing side of course like activations across all of our channels so using Telegram getting into group chats and our ex followers will hear lots about this and then one also unlock that we're gonna do which I think is
+
+the right move, it makes things a little bit take a little bit longer. But I think James kind of eloquently pointed out is we were often waiting for other people, like including these agent projects to build these really useful agents. And it's just not getting done. There's no incentive for them or, you know, it just becomes another to do on someone else's list. And then we're just kind of waiting for them. So James is volunteering his time. Thank you, James, to kind of speed run some of this stuff and actually get some of these agents built so that we can actually get testing them.
+
+So right now we're in that process, kind of, you know, being respectful of James's time running an entirely other business, trying to spec this out really well upfront so that James can really hone in on his time and not have to do too much back and forth in order to get like the perfect agent and we can just kind of get it right on the first try. So that's kind of like a gist of what we have been working on over this last week and what you, what I think folks can expect in the coming weeks.
+
+Did anyone want to add things in? I'm looking at Alex Tash James, zero eight as well, if you wanted to chime in.
+
+Natascha Tiotuico (08:34.843)
+Yeah, I can add a bit from the consumer perspective, like community managers and moderators, community leads, they spend a lot of time like the formatting and getting training. So these for sure are useful cases, but also just demonstrating how will this work in the future? Like these easy examples might not be the highest of innovation.
+
+But what we're really trying to achieve here is how does Mother Orchestrator work? How do people interact to hire AI agents or even just ping them? How do we close the gap between all these agents on the market and the consumer that doesn't even know how do I use it in real time in applications? So a big part of it is actually just show
+
+demonstrating what Mother Orchestrator can do to show both the AI agent builders and the consumers, which are community managers at the moment, but also the interested community members in Mother to show them how will this all work? Like we know they're coming. We know that we will need to use AI agents to keep up with time.
+
+So this deep dive, even though it seems very simple and yes, we can do that today, it's a big showcase of how everything comes together and everybody starts to see, okay, so this is where I can chime in and this is where I can chime in and this is how I get used to using it. So I'm really excited for this plan.
+
+CoachJ (10:26.5)
+Awesome, thanks Tash. Great contribution, thanks for sharing that. Anyone else want to chime in? What I also, I just want to note what I love about what Tash shared is like, I'm just really clear that we're on the same page, which is really exciting. So coordination failure is to a minimum. Like we're all nodding our heads. We're all very clear on the direction. And that's really great because I think it'll help us move a lot faster over the coming weeks as well.
+
+CoachJ (10:53.289)
+Yeah, anyone else?
+
+James Young (10:58.64)
+I just want to reiterate, I think we are aligned. think that we've honed in on kind of what our GTM is and excited to get this going. And it's no longer an engineering led initiative. It's really KPI driven to make sure that we first can show that we can grow the mother AI discord. And I think then people can then see
+
+what we're building and then the feedback over the last few months and us focusing on this like fast track program I think is just market response and feedback and it's oftentimes the know plans often don't survive reality and we're in it kind of in the arena now and I think we have much better and more focused directive and again alignment.
+
+CoachJ (11:57.53)
+especially excited like these agents like I'm not like I'm not huge defy trader I'm a holder but like what's what's great about these agents is like I can see the utility in them and if this is really expanding to discord communities like it's so the the key the use case is so clear and then all we're doing afterward is adding in like yeah you could do all these cool things in discord and you can do way more you could do github fixes and defy trades and all this kind of stuff so
+
+I really am just feeling so confident about this plan. I think it's just a really great move here. Anyone else want to chime in before we kind of like move on to any other topics that we want to talk about?
+
+CoachJ (12:47.79)
+Okay, good. So listen, I think that this is kind of like mostly the gist of today's call. And I don't mind keeping it a little bit shorter because I think that this is what happened last week. We can already see the roadmap ahead. And what next week is gonna look like for us is really looking at what we shipped, looking at...
+
+Continued engagement in the discord and seeing who's coming up who's tipping what are people saying in terms of activations that they want to see because this isn't the only Activation we're also going to be thinking about actual programming that we want to do in discord So we're still kind of sussing out who's in discord already like we have 400 people in there who showed up Why did they join what's their deal? So there's still stuff on that front and then really excited for James to actually start getting cracking on the mother orchestrator To really see like whatever what what this keeps
+
+piece of tech is actually going to look like in practice. So we can probably find out a little bit more about that next week as well.
+
+Alex (13:46.63)
+I will add one thing, like for me, normally I think in this situation, one thing that would scare me from like a business perspective, right, would be that we're creating a product for ourselves and sometimes people create products for themselves, they're unclear about how does it extend other places. But the thing that reduces that risk for me is actually because there's like some founder market fit here in terms of the Co-Unity team has a bunch of experience in discords and we're basically building something for them and they can sell it to other places or talk to other places and they understand those. And then also because Jane
+
+James and I'm sure you're talking to Anjali about it, have so much experience managing those discourses, trying to see the growth, that it's like, there's natural, that'll immediately kind of add itself to the use cases that we're actually working on. It'll be easy to kind of get some voice consumer perspective on what might work and what might not. that makes it much, that reduces that risk a lot for me.
+
+CoachJ (14:42.94)
+Amazing, really well said, really, really well said. Okay, good. I mean, unless there's anything else that we really wanna talk about, what I recommend is we kind of put a pause on this meeting here, we wrap up this video, and I say, for those of us who usually have the sync, let's hop on our next sync, we can use the same link, and what we can do is we can actually kind of talk out some of the specs and really make sure that we're all clear heading into next week, kind of what needs to be done. Does that sound like good use of our time?
+
+James Young (15:11.168)
+you
+
+Alex (15:11.36)
+J. coach a do you before we do that do you want to let like gita or alessandro ask any questions
+
+CoachJ (15:15.704)
+yeah, of course, these two wonderful humans. Alessandro, anything on your end from the intuition front that you want to share?
+
+Alessandro (15:23.321)
+No, nothing on our end. think we're kind of on standby, it feels like, until you guys are ready to do some substantial changes to the, either the registry or the way that stuff gets pulled. So we'll be on standby and just let us know when you'd like us to get back, roll back in.
+
+Alex (15:39.91)
+And Alessandra, I always like to hear from your perspective, what would you guys shift today? Or what has intuition been working on?
+
+Alessandro (15:47.961)
+Yeah, we're full, like we have like search and AI chat in portal. We're doing, so like you can interactively chat and learn about things. We're launching the second ecosystem mapping system. like we did base last a few weeks ago and now we're doing Arbitrum. So we're like showing all those things in that. I might've dropped off. sorry. If I cut out.
+
+Alex (16:15.854)
+Nice sir.
+
+Alessandro (16:17.691)
+That ecosystem view is basically how we imagine showing the agents eventually for MotherDow. So that's kind of how that goes. And then.
+
+Alex (16:32.247)
+And also, if you're in front of computer, maybe you could just show us quickly.
+
+Alessandro (16:36.971)
+yeah, I would be happy to bring it up.
+
+But yeah, long story short, it's easier ability to create a list of things, including agents, better ability to show what is contained within a list, like a registry of agents visually on screen and allow people to stake and unstake and add tags and metadata to those things. So it'll be a lot easier for non-developers who aren't directly interacting with GraphQL to like,
+
+manage the MotherDow registry directly if they are admins.
+
+Alessandro (17:18.171)
+And then, sorry, and then the other, in tandem, we're also working on bonding curve support so that there's more highly speculative games if you guys want to get spicy with things people say about given agents.
+
+Or like, if you want to like favor discovery of early promising agents and like reward people for finding them before everyone else.
+
+Alex (17:41.348)
+That's awesome, man. By the way, if you're doing the Arbitrum agents, I'm sure you already have, but you should definitely reach out to Sebastian from Ember. He can probably get you OCL support, and he has a lot of connections to the agents that are being built on Arbitrum. But that would probably definitely help you make sure that you're getting the right information as well.
+
+Alessandro (17:50.175)
+yeah, it'll be awesome.
+
+Alessandro (18:04.197)
+That's awesome. Alex. Yeah. And anything you guys want to play with, we're here waiting and we'll look out for your message.
+
+CoachJ (18:11.811)
+Awesome. Thank you, Alessandro. And Geeta, thank you for just being on at this absolutely absurd hour on a Friday. So I just appreciate you just kind of tuning in. Sorry.
+
+Gita Alekhya Paul (18:24.915)
+I am just observing and really excited for all the progress, but there no updates
+
+CoachJ (18:36.44)
+Okay good, Geeta's already got his head on the pillow, he's ready to call it a day. Okay good, all right well then let's adjourn until next week and yeah and for those of you on the next call let's meet on that link right now, okay?
+
+James Young (18:51.733)
+Sounds good. Thanks, everyone. Bye.
+
+CoachJ (18:53.402)
+Yeah.
+
