@@ -1,0 +1,268 @@
+Engineering Daily Standup - April 09
+VIEW RECORDING - 42 mins (No highlights): https://fathom.video/share/MdR6GobwLuyW1fQGViQLo49Y6URB6rna
+
+---
+
+0:01 - James Young (Collab🤝Land)
+  Hey, I don't know if Toby is going to be joining again. He kind of has dropped off. So I don't know if Sydney is going to be joining either.  So maybe we can just jump in. So I wasn't here on yesterday's call. So I'm not sure if there needs to be follow up on that or if there's a TDR.  And I see Razvan is in this. Yeah, invited 08 just because I thought that he could use a little bit more context in terms of what's going on.  Make sure he's in the loop. Perfect. 08, good to see you.
+
+0:39 - Alex Lumley
+  Because 08 and I have a call after this, but maybe we can also hash it out on this call.  So a quick update for my part is I've been sending out more of these messages and I'm updating the CRM.  And 08, you and I can work on how to make sure all those teams are included. But updating the CRM so we can see where the teams are currently at on this onboarding registry.  We have not had any teams fill out. doubt. the More of the fast track. I gave them 24 hours after Coach J sent them everything to say, hey, like, let's see if they had filled anything out.  But I've sent out now, I think, a total of 10 to 12 messages. Haven't had any other teams do that.  So in the meantime, the other thing I'm working on is the proposal to, like, marketplaces of why they should want to integrate with Mother.  The Olosses, the Ensembles, the other people like that, because my sense is we want to get the initial agents in, but the place where we'll really get more Legos will be from the marketplaces.  Sounds good. And the Olair is the other one on there. Kush, I sent you a CRM yesterday. This is where I'm making all the updates to the CRM.  I'll drop you guys a link so you guys can see it, but it's not fully filled out yet. The...  The one other point I'll mention that we talked about yesterday, James, as I've been thinking about the, or as I've been working on putting together the kind of the offer to these marketplaces teams, we realized that it's what we're offering in terms of distribution isn't quite clear enough to some of these teams.  And we can actually make it more clear if we start by saying, let's get five to 10 communities who are Discord communities and make the bot targeted towards the context that's in of Discord.  So instead of having all these different types of agents in there, if we actually focus on getting like three use cases that either a community manager or a Discord user would use, we're more likely for teams to go, oh, I can fit in there and help you with this.  If we have, if there's three use cases, like one is summarize, catch me up on what's been happening. Two is let me enact a DeFi item that I got excited about while I'm in the, in the moments of that.  And thirdly is something else. So give. In that context, I had a call today with CoUnity. They're drafting up a few use cases.  We could put an offer together, go to a few communities, and almost sell them with LOIs and basically say, hey, if we had these agents, would you take this?  So we can go back to the agents and say, hey, guess what? To the marketplaces, hey, guess what? We actually have distribution for you immediately if you want.  Well, that was what I was thinking about.
+
+3:24 - James Young (Collab🤝Land)
+  Instead of focusing on three, let's focus on one. Let's focus on our mother discord. We have that discord. We have tipping.  We have all of that. And we should just focus on our own community because I think what we're missing here is really a cult-like community for mother, right?  I mean, that's the general play here. So instead of trying to coordinate and expand out even more, let's hone in and focus.  We have our X card to distribution, kind of the top of the funnel to our own discord, and we will have our orchestration.  We should just focus on building up our own community first, like we need a mother community. But what is the thing that investors actually want, right?
+
+4:08 - Alex Lumley
+  If the objective is actually to get investment to drive everything else, the community is not the only thing that they want.  They also want a number of Legos and they want like value flowing through, right? And the thing that will get us more distribution won't just be like our community.  It'll actually be other communities that we tie in because they already have the built-in distribution. It takes time to get a community and create that, right?  I'm not saying we don't do our mother community. I think we have to focus on one over another.
+
+4:36 - James Young (Collab🤝Land)
+  We're just adding more to our plate. And we just keep on expanding what we need to be doing instead of like actually, at least this is my perspective.  Like we need to really focus on building a mother community and then having them use what we're purporting to use rather than continue to expand and try and coordinate.  It's just we're creating like a lot of coordinates. Thank Nation dependency. At least that's my perspective. And, you know, when you look at, look at like for us at Mother trying to go for TGE, we need like a cult-like, I would say community.  And outsourcing that out, I don't think is a great idea. We really need to focus on our own, our own team.
+
+5:20 - Alex Lumley
+  So that's a question then of if we're going for TGE first or investment first. So my proposal is based on us targeting investment.  Investment leads to TGE and they need to be aligned.
+
+5:30 - James Young (Collab🤝Land)
+  Yes, yes, for sure. And the only reason, that's why I'm saying we have to, we should be focusing on our own community because that growth of our own community leads to TGE.  Investors are going to also want to see what we're doing because their investors are investing toward a TGE. So it's an, they're not two separate things.  They're in alignment.
+
+5:53 - Alex Lumley
+  The feedback that we got early on, Kush, I'd love to hear your thoughts on this, but is that we need to have more agents and more people actually.  That's why we have to fast track, right?
+
+6:04 - James Young (Collab🤝Land)
+  And so instead of agent devs having to integrate, we have this orchestrator agent in our mother Discord.
+
+6:13 - Kushagra Agarwal
+  I think if you, so Joe just posted on the Romacuria chat some feedback from the pitch that we did the other day from CyberFund.  Go through that, think that's, I think, where we're at in terms of like what the core problem is. I think that's what we need to like figure out somehow.  Yeah, yeah.
+
+6:34 - James Young (Collab🤝Land)
+  But I know 08 has his hand up, so we'd love to acknowledge that first.
+
+6:40 - Razvan Matei Popescu
+  Yeah, thank you. So TLDR, the reason why I wanted to be more in the loop is like, I don't know, like, like, I just want to get a perspective on what's going on.  So I, but tuition tells me that kind of, uh, we should have like a cult-like community in our Discord, because that will just...  Propagate the excitement to other ecosystems, and I've been pitching some ideas to Coach, for example, how Eclipse and some other ecosystems are approaching that, so they're kind of building these, I don't know, it's a more complex approach, but it's basically team-led branding, it's called something like that.  So every, like, we started out, like, Coach already did those great banners, those stuff, so we should try to, we as a team, I think we should try to push those forward on X and stuff, posting stuff, and just as a funnel to kind of make people more excited to join the Discord, but then the problem is when they join the Discord, we need to kind of be ready to kind of get them to do stuff, like to just have activities, so Francesco asked today, like, if he should host office hours, what do you think about that?  And my question for all of you. What do you think could we do in the Discord to kind of make people join the mother cult, just make them more active?  No, 100%.
+
+8:13 - James Young (Collab🤝Land)
+  And I think I'm aligned with this intuition. I have the same intuition. This is why we need to focus and not to disperse our energy.  So what we can do is we have these tipping events and then through the orchestrator mother agent. And this is where we have the mother agent able to do tasks on behalf of users using the seeds.  That was the plan all along. So I want to make sure that, you know, we have all these kind of everyone has different ideas.  But we really need to focus and just be aligned here. I don't agree that we should be going out to different communities and having them.  And be our distribution, we need to focus on our own distribution on mother. Like this is why it has to like switch from engineering to marketing.  And we have the X card to drive our users to our own discord. And then from that, the mother orchestration agent can be paid for in the seed token that we're using for tipping to be able to have users be productive.  This will drive the agent dev demand here that we're trying to coordinate on the supply side.
+
+9:30 - Kushagra Agarwal
+  So I think tipping in itself is like not a very exciting feature, you know, just that could retain people inside the discord.
+
+9:40 - James Young (Collab🤝Land)
+  So I think we need to, I would slightly disagree with that because I've seen it be very successful from a point system perspective for the demand side to be able to, if they engage with these agents in the mother discord, then they earn more points.  And. This all is this focus for the TGE. investors are going to.
+
+10:05 - Kushagra Agarwal
+  Yeah. But from what I was saying is, I think we need to like find out one core offering around the token that we can do inside Discord.  And then based on like the first this we did, like the campaign we did, we also received some, you know, out inward interest, like safe wallet and, you know, joke race and all these different people who were like, okay, why are you not using our technology to build this, build this thing, we can like have this, uh, kind of like, uh, you know, season zero, season one, season two of Xcard implementation with all these different companies, which keeps on like help us, which keeps on getting us, uh, this like major social media push, uh, from their accounts and like, keep like, you know, using the same playbook, but with different, uh, external partners to like keep this, discord incoming, like
+
+11:10 - James Young (Collab🤝Land)
+  So I think you are just mentioning, Kush, is not different communities, but you're saying different partners and how we can leverage their reach on Twitter to drive traffic to the mother Discord, which is different than reaching out to different And saying, like, let's use them as distribution.  Yeah.
+
+11:36 - Kushagra Agarwal
+  Sorry, let me be more clear on what I was proposing.
+
+11:40 - Alex Lumley
+  This mother Discord bot, the key is to get traction for that, right? And get usage for that. Correct? Like trying to get flow of value through that.  Correct? What do you mean by that?
+
+11:56 - James Young (Collab🤝Land)
+  Like, we've been saying that our North Star is marketplace GDP.
+
+11:59 - Alex Lumley
+  Meaning... How much value is flowing through? How much are users spending? How much are agents getting? Marketplace GDP, is that the North Star?
+
+12:08 - James Young (Collab🤝Land)
+  Yeah, well, the North Star, high level right now, the North Star right now, is to have a successful TGE.  Like, that's what we need to be doing right now. Everything needs to be focused from an investor perspective, from a consumer perspective, all of it needs to be toward a successful TGE.  That TGE then leads into, like, all these other KPIs. But, like, I think we're mixing the forest from the trees.  Like, what we need to do is, we're creating, we have to create this marketplace. In a marketplace, not in terms of an agent marketplace, but a marketplace when it comes to supply and demand.  The demand is going to come from users initially in, I think, the- The mother Discord tipping each other because the more they tip, we track, and they get more potential airdrop in the future.  And then when we see that these agent devs are not fully integrating, they have this FastTrack program so that the mother agent in Discord is coordinating all of that for them.  And so this is why, from the supply side, we actually have to get these agent devs into the FastTrack so that the mother agent can have more functionality.  And you will, as a user, use the seeds to be able to pay for mother to do or perform these tasks right now.  This is the bootstrap phase. Like, we don't have market fit yet. I understand.
+
+13:50 - Alex Lumley
+  There's a couple of assumptions I disagree with. I don't think it's productive for me to bring them up now.  Let me continue to focus on bringing in more of these agent businesses. And I'll hold off on the launch pads or the...  Marketplaces for now, I'll focus on bringing in more of the agent, and then I'll explain myself and write it out so I can better articulate it.
+
+14:07 - James Young (Collab🤝Land)
+  Yeah, I think the marketplaces actually are a way to be able to aggregate these agent devs. So I think of the marketplaces and getting them into the fast track could also help, which is separate than what I think Kush is bringing up in terms of getting more X distribution with these X cards.
+
+14:28 - Kushagra Agarwal
+  Yeah, yeah, I'm just talking about in terms of social media reach and how we can keep broadening that funnel for the core community that we want to create.  So those are separate things over there. But just more what I would think is more like a distribution channel and social media play for us.
+
+14:46 - James Young (Collab🤝Land)
+  Yeah, so to me, the distinction from top of the funnel, getting more reach on X to funnel into our singular one Discord community where we have cult-like following within.  Yeah. Mother Discord. So I think that's different than saying, let's reach out to other communities and have them use a mother agent.  We need to highly focus on our own Discord community first. I don't want us to lose that focus. I think that reaching out to other communities through CoUnity to then also have the mother agent and use them for distribution is the wrong way to go because what we need is to create demand through the mother Discord, have a cult-like following, and then have the mother agent expand its feature and functionality set because these agent devs are able to fast track a mother as a proxy for those agents to be able to expand its features.  Does that make sense, Alex? I see you grimacing.
+
+16:00 - Alex Lumley
+  Yeah. I don't agree with it. I don't have it. I mean, I think there's some assumptions that you and I are making differently, but I don't- What are your assumptions?
+
+16:09 - James Young (Collab🤝Land)
+  Okay. So I think this is where we need alignment. At the core, we need to be really laser focused.  If we're not all in agreement, then it's just everyone's going to be doing something slightly different. So this is why I want to be very, very clear.  We're not engine- I'm going to change the name of these like standups from engineering, daily standup to just mother daily standup.  We are now in marketing phase. We need to drive traffic. We need to be able to get the supply and demand going here when it comes to agent and users.  Yep.
+
+16:45 - Alex Lumley
+  And James, so I don't think it's productive for us to continue having this part of the conversation. Let me focus on getting more of the agent builders in and continue to send out that message.  Let me continue to reach out to more of these marketplaces. And see what they're like, because the initial conversation I've had some people who like aren't talked to the marketplace and stuff, they don't see the value in mother yet.  Like they're like, but, but I don't, I don't have a good enough proposal to do something different. So let me write it out and talk to a few people and then I'll come back to you.  Does that sound good? But for now, I'll just focus on the same thing of, let me try to get the 10, the 10 agent builders in.
+
+17:25 - James Young (Collab🤝Land)
+  Okay. Coach Che. Okay. So I have two, two questions.
+
+17:31 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So the first question is around, um, one way that this is kind of occurring to me is like, uh, I like this idea of like the cult followers.  It's fine. We haven't had a ton of traction with that yet. I don't think that's a major problem. I think that that can shift.  My question is, is like, oh yeah, one clarification in terms of getting ready for TGE. Okay. What does that mean in terms of.  Because TGE is like the North Star, and then there's some prerequisites we need to hit into getting into TGE.  Those prerequisites, one of them is getting investors aligned. What are investors going to be looking for within this tipping activation?  I want to get really just crystal clear for myself, because I'm pretty sure what it is, is they want to see lots of activity in the Discord, lots of tokens flying around via tipping, and lots of tokens flying around using the ask function as soon as it's available.  Am I right? Okay.
+
+18:31 - James Young (Collab🤝Land)
+  Yeah, I think that is something that we should be focusing on. What are those KPIs and how do we reach them?  So I think that is the core kind of issue that we need to be focusing on, instead of reaching out to other communities and all of that.  Those are all secondary effects to the main KPI, because if we have traction, and we have to keep these KPIs very simple for investors.
+
+18:53 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, and so investors are willing to see that testnet tokens moving between users in between agents is a KPI and a sign of a working MVP slash product market fit.  Yeah. Yeah. And I think it's also a shelling point for agent devs.
+
+19:12 - James Young (Collab🤝Land)
+  They're seeing agents getting hired. It's a shelling point for end users because the more that they interact, the more at TGE they're incentivized because they'll get an airdrop.  So I think that's the shelling point. That's why the TGE to be like the KPI, the metric that we're all aiming for because we're not focused right now.  Yeah.
+
+19:38 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So one thing that came up in a conversation I was having like outside of this chat is like I was thinking about this like cult user and this like really quality user that we're trying to attract to the discord.  And I was wondering like how important is it at this point in time that the user is like a really high quality like mother.  And DevBuilder and stuff like that, and I wonder what would happen, maybe I'm having them one way, if we had a very structured program and we almost treated this like an L2 treats their test nets.  Like, they get lots of airdrop farmers, they get lots of low quality users, but the point is to test the robustness of the system and to prove that it works, right?  So what does it look like, like, if our really, if our KPI is just getting money to move around, does it matter who is doing that if we're incentivizing it with a more explicit points versus, you know, trying to tiptoe around it and get like quality users kind of thing?  I'm curious, let's start on that.
+
+20:46 - James Young (Collab🤝Land)
+  Yeah, yeah. So this is where I think a lot of projects get tripped up. Quantity leads to quality. But people stop at the quantity and then they don't.  Filter for more quality. So I think what we need to do is just have an activation to get a lot of people interested.  And then the airdrop farmers, they kind of die off. And then the hardcore followers kind of are filtering, self-filtering, and that's who we stick with.  Okay, yeah. I think what a lot of projects do is they just have these vanity metrics and they stop at quantity, and they don't continue on filtering for that quality.  But quantity leads to quality.
+
+21:33 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, because one thing that I'd love to play with is, I'm just considering like where we're at right now.  The X cards thing, I would say it's not like quite getting the traction that we wanted. We've had probably, you know, 30, 40 people.  And of the X cards thing, very few people are joining. Okay, so that's why I'm really thinking like, what would happen if next week, by next week, there was a very developed, very clear system for-  It's a We really did advertise it as a system.
+
+22:03 - James Young (Collab🤝Land)
+  Yep.
+
+22:03 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  We're going to get just crashed by users, lots of users, airdrop farmers, that's fine, and we're going to create incentives to have them not just collect the tips, but actually, we all know that the people who are actually getting the biggest airdrops are those who are taking the most actions to tips, so we're creating challenges around tipping, all this kind of thing, and then, when the ask agent comes out as well, we're going to create challenges around asking mother for things, and you get rewards.  We're asking mother for things, whatever it is, and then later on, after we get that, that's when we start, you know, say we have, like, 30,000 users in this Discord, whatever, then we start actually honing in on who these quality people are, we get them roles, they get into special channels, and then we have a more tight-knit community, but, like, it's almost like that's, like, further down the line, and we're not as concerned about that right at this time, like, we should be concerned about that eventually, we should be concerned about actually  But right now, it almost seems like let's just get lots of people transacting because that's what's going to make the difference.  That's what's to build the case studies for when we go to agents saying, look how many points are flying around.  That's how we're going to get people testing out these different functionalities and stuff like that. If that's what our goal is, and that's what we're sure that VCs are going to be looking for.  Yeah, I agree.
+
+23:27 - James Young (Collab🤝Land)
+  Like, I see Alex shaking his head in chat, and you have your hand raised.
+
+23:32 - Alex Lumley
+  Yeah, so I think part of the assumption that's, like, I believe incorrect here from talking to these agent builders is that seeds don't mean money.  Like, you can't take these seeds and do anything with them as a builder. It's cool, like, they're seeds, but that doesn't mean I'm actually going to get money from them.  Yeah, so you have to start with a test net.
+
+23:52 - James Young (Collab🤝Land)
+  Like, every, it's just like an L2 or an Alt-L1. You have test net, you build up your community. And then when you go live.  Then they convert. This is a playbook that Web3 is kind of tried and true. That's what we're saying. What I'm adding on to that is that a lot of these Alt-L1s and Alt-L2s, they stop at the vanity metric.  And then once they go to TGE, everyone caches it out. But for us, this is where we then need to have the discipline to then filter for those quality users.  And the campaigns are going to be what help drive that.
+
+24:28 - Alex Lumley
+  I think part of the difference is that those L1s and Alt-L1s have already raised millions of dollars. And they've already raised a ton of money not on the TGE in their metrics.  They raised it early on at the seed stage and they were able to demonstrate some traction or something else, right?  And then they went to TestNet before they did the TGE.
+
+24:48 - James Young (Collab🤝Land)
+  Well, the funding usually occurs from my understanding from these VCs to help build the system. Like, we have it built.  Like, we have the middleware built. we'll this level. That's why I want to switch from engineering stand-up. I just changed the name because, essentially, if you think about the registry as an Alt-L1 or L2, it's built.  So now we're getting to TGE. We did it based off of everyone's contribution. We didn't need VC money for that.  What is the TGE happening?
+
+25:19 - Alex Lumley
+  Do you know, James? There isn't a set date.
+
+25:23 - James Young (Collab🤝Land)
+  It was initially supposed to be Mother's Day, but with the market conditions, I think everyone else has been retracting their TGE.  Gaia, Lynn, the whole market is waiting for the market to open up. So I don't think anyone knows, not just Mother, but other projects that I've been planning for TGE for months have all scaled back because of current market conditions.  That's something we also need to be aware of. We can't be tone deaf with where the market is at and just say, hey, this is the TGE date.  But we should do some rallying or something around Mother's Day because that's kind of a meme, but not saying that that should be the TGE.  .
+
+26:06 - Alex Lumley
+  So, sorry, James, I was just going to say, I hear your point. I'm going to focus on getting the 10 builders in and then we can think about that.  I will prioritize that over the other marketplaces. Marketplaces will get a much higher number of the number of agents in than the one-on-one builders just from a pure numbers perspective.  And that's like what some of the VCs want, but we'll focus on getting We'll try them in the Discord.  We'll see how that goes. I don't fully agree with the other approach, but let me just write it out and think it out and then I'll send something.  But I'm still going to try to get those 10 builders in this week and we'll see how that goes.  Yeah, we need to be aligned.
+
+26:45 - James Young (Collab🤝Land)
+  The core team needs to be fully aligned. So if you disagree, like I'm open to hearing feedback and I'm open to feedback.  But I do also disagree in terms of kind of we just need to be focused on our. I agree with that.
+
+27:07 - Razvan Matei Popescu
+  Sorry to step in, I think we need also a community strategy, right? That's going to make people use. So for a community strategy, think we should just think about what's the value proposition for the users and then convert that into a point system like Coach said.  Like a tired one or I don't know, just try to reverse engineer our value prop into a system that can people can do stuff to be part of the community and then like just to not persuade them.  But actually, that's kind of the word I just persuade that if they do those things, they'll be part of this tire system, which will give them perks, will give them like everything.  So it's just like I think the analogy with the layer two is pretty. ... Great. And just to kind of be the middleware between you and Alex, if you raise a lot of money, it doesn't mean when you go to TG you'll be successful, but just look at scroll, just look at the others, so they didn't follow the process of natural selection in the community, because you get those people that you know are active, they will do stuff, but if you don't kind of double down on them or have stuff for them to do, they'll just go away and do other stuff or other ecosystems.  A hundred percent.
+
+28:31 - James Young (Collab🤝Land)
+  A hundred percent. I could not agree with you more on this. This is why I've changed the title of the engineering standup to just mother standup, because we've over-engineered what we've already built.  So we're doing this fast-track program because we actually need engagement from users. That's what we need. If we need to reach out to other ex-influencers, it's almost like what I hear from lunge, about that It's But again, da let's talk about la turn becomes the  Kush is that Joke Race, Gnosis, these are our KOLs, essentially. That's what we're doing. We're getting, there's a difference between engaging other communities and engaging KOLs to drive them to our Discord, to have this incentive program for this DGT, right?  That's what we're doing. And we've already built it out. We spent, it's pretty miraculous, actually, the without having to raise any money, getting contribution from other protocols, what we've built out already.  It kind of almost overbuilt. So that's why we have this FastTrack program now. And so instead of continuing to do engineering, and I think that's the trap of a lot of startups.  They just say, oh, let's chase X, Y, Z feature, instead of really building a community. That's what we really need to focus on now.  We have the foundation in order to do that. We have the fact... That's what we want to focus on.  So, like, that's why I want to change these meetings. Like, let's not build anything anymore. Like, we need to get this cult-like following within our Discord that goes to a point system that leads to engagement for these agents.
+
+30:17 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I have a question about the Ask feature and, like, timing that we're anticipating for that to be ready. I just think that the value prop for that is, like, which is much cooler than the tipping feature.  Absolutely. I'm curious about how, because I want to start teasing that out. Like, I'm literally messaging people individually in Discord and just introducing myself and blah, blah, for now.  But if we are going to get this huge mass of people, which I will get us, I want to be able to have kind of like a roadmap.  So any updates on that? Yeah.
+
+30:47 - James Young (Collab🤝Land)
+  It all depends on how many agents we can get in the open registry through the FastTrack program. Okay. So that's the dependency.  That's why we need, and I would say we need marketplaces. That's through the registry. So we have. hundreds of agents because the ask is not a issue with regards to technical implementation.  There's no engineering dependency. It all is relying on the agent devs being in the fast track program. That's the only kind of issue here.  So that's why, again, trying to change these meetings from an engineering stand-up. It's all marketing right now. And we need to all be on the same page, have a marketing strategy.  And once, I don't know, you tell me, Coach Jim, like as soon as we get what, 10 agents in the registry or 10 agents fast track, then we do the slash ask because the slash ask, we're not building out the functionality.  We're proxying that based off of agents that we can get into the registry. In the meantime, we're getting people to tip and to get points.  Yeah, And I was telling Coach, like,
+
+32:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And Alex, I mean, I'm a huge fan of the Minecraft thing, so you could ask Mother to delegate some Minecraft activities.  I think that's the coolest. It's verifiable. You can see it. But I'm game for whatever. I think the functionality of actually being able to use testnet tokens to pay an autonomous agent to do something for me, even if it's a very limited amount of things I'm interested in.  I think the tipping will be harder to keep people sticking around, unless they know it's a points program, and we're going to be running events starting next week and stuff, but the ask feature is, like, a little bit cooler.  And they can see that this is the future of agent e-commerce, so that's why I'm curious, yeah. Yeah, I know that we're three minutes over.
+
+32:42 - James Young (Collab🤝Land)
+  I'm just going to spend, like, another minute or two first. That could be the shelling point, right? Like, you get people tipping, and then, like, if these agent devs are in the open registry and they are being elicited through the ask command, these agents will...  earn testnet tokens as well, which will give them value at the TGE too, right? So that's how they indirectly make money.  So they're not making stable coins. We're not in production right now, but they have this ability to cash out as they're, you know, being able to be used by mother.  That's why the TGE is the shelling point. Cool.
+
+33:25 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So sweet. Anyone else? Anything else?
+
+33:33 - Alex Lumley
+  My last question was going to be, James, Kush, or Zuri, what other marketplace have you guys spoken with? Didn't y'all talk to Olaas in their industry?  Yeah, Olaas is the other one. I reached out to them again to see if they can bring in some agents, but like, they're down to do it to collaborate because they raised a bunch of money.  So I wanted to speak with CrossMint also. I haven't.
+
+34:00 - Kushagra Agarwal
+  And we're like, get a response from them nation. I think we've spoken with cookie.fun also, a hall layer, right?  He's not a cookie, he's not a marketplace.
+
+34:10 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  They're just a market.
+
+34:13 - Kushagra Agarwal
+  It's really interesting.
+
+34:15 - James Young (Collab🤝Land)
+  The these marketplaces are also looking for traction. Right. Because if you see virtuals, they used to do 500 K a day.  That's nuts. They're plummeting. They're plummeting because- The target is not right now. Yeah. So this is where I think there's a window of opportunity to court these marketplaces.  You know, I think Codex is a huge opportunity.
+
+34:41 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  literally have a $1.5 million hackathon right now. I don't know what the timeline is on that, but like right now, I'm following the hackathon.
+
+34:48 - James Young (Collab🤝Land)
+  They're in week two right now.
+
+34:49 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Like people are submitting agent ideas right now. Like if we could have all those agents be onboarded to mother, I think that's a huge opportunity.
+
+34:58 - James Young (Collab🤝Land)
+  Charles is in the chat, he's coming on the- My streamer as well, I think that's an easy win.
+
+35:03 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I don't know what the timeline is. It might be another four weeks from now, but I feel we think we should go for it.  Yeah, absolutely.
+
+35:09 - Alex Lumley
+  David, last question is, if we get to the point where Mother had a bot with 510 agents, like 100 agents, right?  Would Collabland be willing to sell to 510 other communities and incorporate this bot? Hey, you can use this bot powered by the Mother registry.
+
+35:31 - James Young (Collab🤝Land)
+  I'm open to it, but I think that distracts us from like our North Star, which is like the TGE.
+
+35:38 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I think that, sorry to interrupt, I think that Alex is concerned about how to sell this into agents, because agents have been like not moving very quickly.  Like the agent teams are like, yeah, that's cool, like whatever, Mother. So maybe, Alex, are you looking just for like, like, okay, well, you're not just getting into the Mother Discord server.  Like there's literally 10 other communities who've expressed interest in your services. That's though. I Right? And we promise that once you get plugged in, they will plug in here as well.  That is part of it, yes. Because guess what?
+
+36:07 - Alex Lumley
+  Us saying, hey, you're in the mother discord is not as  as saying, hey, we also have 10 other clients that we're working with that you have access to those.  And by the way, some of those are paying real money. Because the seeds is not real money.
+
+36:21 - James Young (Collab🤝Land)
+  Yeah, but it leads to a TGE, which is an airdrop, which is speculation for the agent dev as well.  It's a promise of real money.
+
+36:28 - Kushagra Agarwal
+  It's a promise of real money. It's basically what entire crypto is built on, the promise of future money.
+
+36:36 - James Young (Collab🤝Land)
+  Yeah, like this is the heart of Web3. I'm willing to say, if I'm hearing this correctly, I'm willing to say that the CollabesomeBot will only interact with agents that are in the mother registry exclusively.
+
+36:54 - Alex Lumley
+  Wrong.
+
+36:55 - James Young (Collab🤝Land)
+  like, we make that a dependency there. Isn't this always-
+
+37:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Wasn't this always the plan that in the future, like they just come with us for the ride, they will have access to a hundred and fifty million users.  There's no doubt about this.
+
+37:11 - James Young (Collab🤝Land)
+  This is the inevitable future. That was part of the reason why I'm so invested in Mother, right? Like it's symbiotic and it's a positive sum game here.  Yeah.
+
+37:27 - Kushagra Agarwal
+  And, uh, I mean, it's like, uh, I think the agent builders need to understand that. And if you guys see the paper that Pungar and I wrote, uh, you understand that agent builders are a backend kind of thing.  They are not the ones interacting with the users. They are more than, more than like service workers who are like fulfilling requests and getting paid for it.  And I think we need to start treating them that way also. Our main distribution will be from these different application builders.  We'll be using our agents like, you know, build their stuff. For example, collab land is one such client who will be using mothers.  benefit or.겨. crimes as infrastructure to, like, add capabilities to their stack and, like, then give it to their users and then basically the entire, you know, flow would, like, flow, renew-wise.
+
+38:11 - James Young (Collab🤝Land)
+  Yeah, Lit has an incentivized interest in this. So does Gaia and, like, we're all working for these tokens. So let's all create that shelling point.  Like, that's Web3. This is how you get initial distribution. And what we need to do is ensure that we don't just stop at quantity, that we further this along with quality.  And this is why these testnet tokens will then turn into real tokens that will have value, people get the TGE, and then they will start making money, right?  So we have to, and we have to be aware of where the market conditions are right now. We're in a bear market, right?  Until probably June-ish, right? We'll see where the tariffs land and all. There's this whole macro climate that we have to also make sure that we have context with.  We can't be tone deaf there as well, right? And so that's why I want to be clear. I think just like any Alt-L1, L2, building up this registry and what we're doing is the playbook of building a cult-like following in our Discord first.  That's the shelling point, and that's where the TGE falls into place. Like this is what investors can get behind.  This is what agent devs, I think, can get behind. Dat builders can get behind too, right? This is how L1s, L2s come in.  It's a similar playbook. And as Kush was saying, we have KOLs that we can utilize. They're not meme coin shillers.  There are people, legitimate communities or reach that we need to work with on the XCART implementation. And I think.  This point system leading into a slash ask, getting all of this going, I think we need to focus on.  Again, that's why I'm changing this from engineering to just mother stand up because let's not be confused. Like we have to have one focus as a whole team.  I feel like if we're not 100% aligned, it gets amplified all the way down to our partners, to other core team members, to everyone else.  And this is where things get stagnant. I feel like, you know, we built a lot and we've shown it and we've done it really just collaborating in a decentralized manner.  So now we've got to go to market. Like there's a failure to launch here that we need to like break through.
+
+40:56 - Razvan Matei Popescu
+  Are these calls like every day? Yeah. These calls are every day. Please, please. Thank you. I think marketing, what Coach J is doing, that's the first step, and then translating it into a community strategy in this course.
+
+41:17 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Zero8, I'm officially dubbing you our community lead. Please put together a plan. And I am your loyal soldier, and I will help you action on it.  But put together a plan, and I'll help you work on it.
+
+41:32 - James Young (Collab🤝Land)
+  And then engineering, we will do whatever is needed to fill the gap, to make sure that this happens. So we are also here for you.
+
+41:43 - Razvan Matei Popescu
+  Thanks. Like, I'm going to do it. It's just that there's some pieces in my head that don't quite fit yet.  You and I will talk about it.
+
+41:53 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Let's meet tomorrow morning and talk about it. Yeah. Well, great.
+
+41:56 - Razvan Matei Popescu
+  I'm all in for it. All in for it. Okay, perfect.
+
+41:59 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Let's do it. Well, follow up on the agent builders.
+
+42:04 - Alex Lumley
+  Is that right? After this one?
+
+42:08 - Razvan Matei Popescu
+  Yeah. All right. Thanks for going over, everyone.
+
+42:13 - Alex Lumley
+  Awesome. Thanks, guys. Bye. Bye-bye.
