@@ -1,0 +1,522 @@
+James Young (00:00.43)
+you doing the on the wrist? Are you doing the knee and elbow or just the knee?
+
+Alex (00:00.733)
+You want me to it out loud or?
+
+Alex (00:04.841)
+Yeah, yeah, why don't you join yourself?
+
+PUNCAR (00:09.287)
+the responsibility on the back of the safety information.
+
+Alex (00:10.441)
+Sorry, can you guys hear me?
+
+James Young (00:12.535)
+Yep.
+
+James Young (00:19.086)
+Hey, can you hear me?
+
+PUNCAR (00:21.607)
+Yep, we can hear.
+
+ZER8 (00:37.986)
+Thank you.
+
+Alex (01:11.667)
+So we'll give everyone a couple more minutes, another minute before we get started, just because we changed the link.
+
+Disruption Joe (01:17.41)
+Look how smooth Pucari is getting his bag up. Just sliding behind that old lady. Just didn't hit it with the bag at all.
+
+Alex (01:37.033)
+I think we have most people here. I actually can't even tell people here. Cool. All so I'm going to share my screen so you guys can see what we have for the what we shipped this week. A lot of it will kind of be around the bracket reagents and the work that we did there. One second.
+
+Alex (02:02.865)
+and just be prepared i'll call you out if you if you have a your heart stop in the early let me know and we can and and we can movie to the front of line
+
+Alex (02:24.297)
+You guys see my screen?
+
+PUNCAR (02:28.379)
+Yes, we can see it.
+
+Alex (02:35.241)
+Joe, I think you're up first. And actually, sorry, Joe, just before I get started. So you guys remember the intention behind this, what we ship this week, is to sort of have incremental, for two things, to ensure that we have kind of a consistent rhythm and cadence on the team. And secondly, to show a kind of what we're working on and kind of keep everyone context, but not have everyone get lost.
+
+Disruption Joe (02:37.602)
+Disruption Joe (03:10.082)
+I'm sorry, I was thinking we were starting with engineering. I need one second to get my head wrapped around.
+
+James Young (03:17.974)
+Yeah, while we wait for disruption, Joe, I can introduce Stanislas. Stan is someone that I worked with and he has a POC demo to showcase. I don't know if Stan wants to go first in terms of his POC demo, but at the very least, I'd like to start off the meeting just introducing Stan. Stan, do you want to say a few words about yourself?
+
+Stanisław Głogowski (03:41.851)
+Yeah, hi. Hello, everyone. My name is Stan. I'm software engineer. I was working a few years ago with James. And last few years, I spent working on blockchain in blockchain industry and currently exploring AI topics. So today I want to present the demo of, let's say, my vision.
+
+how the model could look like in the future. So, yeah.
+
+Alex (04:14.322)
+and we'll see you on the...
+
+James Young (04:15.672)
+Yeah, and what Stan's working on is just agent to agent messaging. This is something that in the previous call, Don was talking about and already have Stan working on that. And so he can show up POC, but I don't know if we want to have disruption Joe go first or what the order lineup is for run a show.
+
+Disruption Joe (04:34.85)
+I prefer engineering first. think always doing engineering first is a good thing to do from a norms thing. What we're doing is building a product and that should always be first.
+
+James Young (04:48.674)
+Awesome. Okay, so maybe Stan can show his POC. This is kind of a standalone. It's a little bit more technical. So, Stan's going to walk through just the messaging and how he envisions these microservices of agents working together. I'll let Stan talk about it in more detail. And then I think Kush, you also have a demo as well, just to kind of iterate on what we showcased last Thursday at ETH Denver when it comes to Minecraft and, you know...
+
+this inter agent kind of payment system in the in context of Minecraft, so Stan do you want to take it away?
+
+Stanisław Głogowski (05:27.951)
+Yeah, yeah, of course. So I will try to share my screen first. How to do this?
+
+Stanisław Głogowski (05:46.259)
+Do you see my screen?
+
+Alex (05:48.212)
+Thank
+
+James Young (05:49.923)
+Yes.
+
+Stanisław Głogowski (05:50.715)
+Yeah, so this is the demo. So I prepared the platform with currently one interface, which is a Telegram bot. On the end, I will show on the diagram how it's working. So currently we can join the bot and it have a random income messages. And I prepared some tests examples.
+
+how we can communicate with the bot.
+
+Stanisław Głogowski (06:24.583)
+Let's start with something simple. Sorry.
+
+Stanisław Głogowski (06:36.123)
+So the first example is the checking the weather in Toronto and generating the MD5 hash for the message test. So the platform, the backend extract the tasks from the user query and create the action plan. So the action plan are two tasks, check the weather.
+
+check Toronto water and it shows automatically the waterman agent and the generating hash. So we have two tasks in our action plan. We can approve it.
+
+And after that, it call the external agents and present the results. So we can also ask mother for summary of everything which was done. So on the end, we will get the message built from the context of agent responses and the query from the user.
+
+We can also to better demonstrate how it's working, I can turn on the debug mode and using example command, we can run some example tasks. So on the beginning, we have a pending definition. So we get the row query from the user and then the backend, the cortex part of the system.
+
+the following tasks from the row query. Next, it asks registry service for the agent which can solve specific tasks and prepare the action plan. And yeah, when the action plan is done, we need to confirm that we want to execute it.
+
+Stanisław Głogowski (08:44.477)
+So after approve, we get the messages from each of the agents. inside each of the actions in action plan, we have arguments, which we need to call the agent, specific agent. And on the end, we have a result of each of the tasks.
+
+Alex (08:54.9)
+Hey, Lino. I just let you in. I just let you in.
+
+Alex (09:02.398)
+Sorry, I didn't see that.
+
+Lino (09:06.45)
+it.
+
+Stanisław Głogowski (09:10.483)
+Just like in previous example, get on the end, have a result and we can summary it on just say no.
+
+And yeah, that's all from the presentation. Currently, is connected with the two agents. So the first, can, which can randomly answering with the weather. And the second, we have two skills. And the first one, generating the MD5 hashes from the message and the hash.
+
+from the message. So both of the agents share their skill to the platform and the platform can detect which skill is currently required to process the user tasks. Maybe I will show you the diagram also how the communication look like.
+
+Stanisław Głogowski (10:12.605)
+It's literally boring and complicated. So yeah, so let's start from Telegram. Telegram using the Telegram web code. We get the notification. It's going to the gateway and gateway detect that the message is a row query. It's going to the chat. It's open a chat. Next sending to the workflow, starting the job process, requesting, creating the new job.
+
+And each time when something is changed in the job state, we get a notification on the Telegram API. So first we need to ask encoder to extract the task from the query. And then we are updating state and sending the notification to user. Then we are asking registry to find the tools which can be used
+
+to solve the query. And then we use the tools to process the query to extract the final list of the tools which can be used later. Next, we are asking registry to get the information about the agents, update the state and sending the approval request to the user using the Telegram API. After approval,
+
+we're the job process. So workflow sending the request to the executor and executor sending the request to each of the agent. On the end, on each step we get the notification in our workflow and chat.
+
+So on each step, we can notify the user about the progress of the job. On the end, when we have a list of all of the results from the agents, I'm asking the user to confirm if he wants to have a summarization of the results. And next, we are asking decoder.
+
+Stanisław Głogowski (12:32.816)
+to process and create the final summary.
+
+That's all from my side, let's say. I will share that diagram, of course, with everyone. And currently I'm working on private repository, but next week there is a plan to publish it to MotherDEL GitHub organization.
+
+James Young (12:42.904)
+Awesome, thank you.
+
+James Young (12:57.998)
+Yeah, excellent. Thank you so much, Dan. So just to provide a bit of context here, the last few weeks, first we were working on getting the middleware together. Once we got the middleware all integrated together, we had agents tap into the middleware. And what we saw on the demo that Kush showed on stage at ETHNVR was agent-to-agent coordination in the context of a visualization inside of Minecraft.
+
+Here, what Stan is working on is orchestration. In this context, can have, like in this example that he put, was just the mother orchestrator agent coordinating amongst other agents. This can also be applied to agents themselves so that agents can actually subdivide their tasks to other agents or other tasks like using MCP or lane chain or tool calling, whatever you want to choose.
+
+There is a difference, and I just want to just be clear, is that what Clish is heading up is agent-to-agent coordination, and what Stan is working on is this more holistic orchestration. Orchestration is a little bit more complicated because you have to have a standard for all of these agents to communicate with. And so this is what we're exploring and working on independently of each other. And it's not as visually appealing, but it's actually foundational and fundamental to the middleware.
+
+aspect of it and we plan to refine this and merge the coordination with the orchestration part. So thank you, Stan. And with that, I guess we can just move on to Kush unless Stan you wanted to add anything else that I'm missing or if there are any other questions.
+
+Stanisław Głogowski (14:39.731)
+Yeah, I also prepared a simple SDK for the agents. So I can show you how easy it is to create the methods. So this is only description, the definition of parameters and the handler. And on the end, the simple SDK framework can be attached to, for example, Fastify. And using the few lines of code, can share
+
+the skills and also ask the API to communicate with different agents. So everything is working very smoothly and it's really easy to integration.
+
+James Young (15:24.46)
+Yeah, so we want to abstract the intuition, social graph and all of that to the end user. We assume that we're going to be catering from an agent-dev perspective more toward a Web2 non-crypto user. So we just want to make this as simple to onboard these agent-devs to. And then with that then, we can have Kush talk about the kind of lower level coordination aspect when it comes to agent-to-agent and payments. And this is an iteration.
+
+off of the demo that Kush presented on stage on Thursday.
+
+Kush (16:00.011)
+Yep, thanks, so if I can share my screen
+
+Kush (16:15.43)
+Eyes of Elizabeth.
+
+Kush (16:19.197)
+Awesome. alright, so this week, basically at break, a lot of like, tasks were just to, you know, take all the information from different, you know, parties and like putting it together. So currently, like, we have like a very basic plan on how we're gonna like move forward with the product. And it basically like takes into account the integration of both the agent-vision communication side of it, which let's say right now all the teams like Exo and Ember.
+
+and Nevermind, Intuiton, all these different aspects. also what Stan is working on, is the core orchestration agent, which actually enables and facilitates the communication to happen, merging them together going forward. So it's a very rough plan right now to get to a developer friendly, let's say, v0 or v1 of registry by the end of this month. So, yeah, for that purpose itself, we basically had multiple things planned for this call.
+
+For example, the Exo Minecraft launcher, we want to build a simple developer interface so that they can use Exo's natural language code generation capabilities to instantly generate an agent and deploy it directly on Minecraft without having to register on the registry and stuff. The next will be the token minting process with BAU so that every agent that is associated with the registry can then mint their own tokens and swap them with the Ember SDK, Ember Agent-only network, and use Nevermind to like...
+
+then enable this particular coordination. And then there's a Twitch streaming aspect of it, which is right now in the works as well, so that all the agents who are part of the registry can then stream these updates. So with that, let me actually go into the Minecraft server and showcase what we have here. So as you can see, there's Alice and Bob. So now the thing is, for this particular demo,
+
+we basically integrated intuition into the particular scenario. now if I ask Bobbot to first let's get a common, let's say a flat space.
+
+Kush (18:30.219)
+So now if I ask the Bobbot to build a platform, it now actually goes onto the Intuition registry and finds the merchant agents nearby and then connects with them on the Nevermind protocol and... that was a wrong command. Sorry.
+
+Alex (18:32.459)
+Hey, Kush, do you want to make that full screen?
+
+Kush (19:01.855)
+Yeah, so it actually checks for agents on the intuition registry and then ask them to like connect with them does the on chain transaction which is happening to nevermind at the moment gets their plan and then same flow as a particular week. So we basically added intuition into the particular process, which was previously like not happening. And if you can see, let's get over here. Yep. So yeah.
+
+They've basically reached an agreement and Alice has received the command from their mind to do the particular task.
+
+harvest task has been submitted. Right now my laptop is bit slow because it's like working 3-4 different servers at the moment. But yeah, that's basically what's gonna be happening. So that's the part over there. Then we also worked on a mint command which currently is kind of like not working at the moment because we had some dependency issues. But you know, if you wanna type a mint command over here, like bot will actually go.
+
+in the backend and hit the collabland api's and try to like mint the token let's say that we previously defined on mint on voil.xyz yeah there are some issues on the infrastructure side right now which are being taken care of so we're not completely ready with this so yeah but these are things that have been like worked on right now moving on we've also like worked to like integrate the ember agents onto the registry so ember
+
+agents have been put on the registry they are currently being integrated on a core level so that they can be accessed so if I for example use find agents command for finding the people who can enable swap for me so we can then see now two of these swapping agents which have been put over there by mbrsdk and yep another update over here is like the find events command that we had previously planned for eDenver
+
+Kush (21:12.395)
+so that we could enable the multi-agent coordination to happen between these agents so that people can find side events on a more personalized level, which was previously not working as well, has been updated. So this bot in itself has no use right now, but this can be very easily repurposed to fit other use cases that we see fit in the future and showcase this multi-agent communication happening.
+
+So this takes a bit of time because it does natural language processing and a lot of other things in the back end. yeah, so that's basically happening from end to end now. So those are like, you know, some things that have been worked on. And of course, it basically then gives us, you know, side events based on the user's query. So yeah, that's pretty much from my side. Suraj is here on call. He has been working on the EXO integration.
+
+he was running into some issues as well. you know, I let him take over and then Toby is over here who has been working on the Twitch integration for the board. So over there also running into some version issues, but I'm pretty sure that they can like, you know, wrap these all up and, you know, get them polished pretty soon. So yeah.
+
+Suraj (22:28.944)
+Hey everyone, can you all hear me? Awesome. Thank you so much Kush. Thank you so much Kush for the demo. So I'll be showcasing what we've been working on at XO.
+
+James Young (22:34.232)
+Yep.
+
+Suraj (22:42.53)
+So the idea that we have been working on is essentially one is we want to make it seamless for folks to be part of any agent devs or non-developers to be part of the mother registry so that the registration to the registry becomes seamless and becomes less challenging. Other than that, what we're also doing is we want to provide an infrastructure for agents. once an agent has been, once the agent is created, an agent dev has completed their entire code. We want to make it seamless so that they can deploy it on a server and even non-technical
+
+non-technical users can launch their agents very quickly. So what I'm going to showcase it to you is that so far currently the registration process is still manual where you have to go and register your agent through the registry but we will work on it to integrate it into the same launcher as well. Once you've completed it what we can simply do is let's say if you would like to launch an agent you can just give it like a Bob
+
+And then users should simply just enter their Nevermind API key into our platform.
+
+Suraj (23:49.742)
+Yeah, they can enter their Nevermind API key. They can either choose OpenAI or Gaianet URL as an LLM provider they would like to use for their agent. So if I go and use this, I'm using a Gaia node domain. sorry. Yeah, Gaia node domain. So and then they can just simply launch agent by just clicking here.
+
+So what's gonna happen is, what's happening in the background is an agent, an entire Docker image is getting spin up in our infrastructure. And based on that infrastructure, what is happening is whatever ENV that has been provided, they can be launched and that agent will be able to quickly join the Minecraft server as soon as it gets started. So it's gonna take some time because it's still building an image in the background and it's composing stuff up.
+
+So yeah, as soon as that gets completed and reported, you will see a Minecraft agent join the server. As of now, we've limited it so that it can join a very specific server, but we're working on an integration where you you be able to specify either to join on a private server or just any public server that they would like to join.
+
+Suraj (25:07.13)
+think we should see it up joining the server pretty soon, as soon as the entire process starts up. So what it's doing is it's not only just joining a server or anything, it's actually spinning up a new agent instance. It's giving an infrastructure for the instance, and as well as then we can just join into any server or any agent is going to be live. So for instance, if you want to have a DeFi agent or any agent, it can be very quickly spin up. And we can allow non-developers to also come and become a part of our registry.
+
+James Young (25:08.034)
+Awesome.
+
+ZER8 (25:14.012)
+Okay.
+
+James Young (25:45.206)
+While we wait for the Docker to build and then to show and launch online, to give a really quick recap, what we're trying to do with orchestration is get an orchestration agent to be able to then hire multiple agents. And that's what Stan was showcasing. What Kush was showcasing was this ability for
+
+agent to agent interaction in the kind of context of Minecraft. And what we showed last Thursday at ETH Denver was just using stable coins for agents to pay one another. What we are working towards and what we wanted to deliver today was to showcase these agents launching their own coins and using Nevermind having arbitrary ERC20 tokens so that these agents can pay each other
+
+in their native token. It's really interesting to see in chat where these agents are communicating so that you're not just seeing it in server logs. You can actually have these agents communicate with one another, perform a task, and be completed. Here, what Siraj is showcasing is how can you launch an agent if you are a non-technical user?
+
+And so what we want to do is really lower the barrier to entry when it comes to creating agents. This is just kind of the summary TLDR of what we're trying to showcase this week. Next week, what we're going to be working on is being able to marry the orchestration with the coordination. So what Stan is building, we're going to try and see how we can integrate
+
+we'll see and we'll talk about on Monday in the engineering stand-up if we can do that this next Friday or maybe the Friday after that. And when it comes to Minecraft, we want to just expand. So instead of just having two agents, we'll have multiple agents. And then finally, we have Toby on the engineering side showcasing these agents on a separate platform. So you've seen in these demos
+
+James Young (28:12.908)
+Stan using Telegram, you see Kush using Minecraft. I don't know if we'll be able to see a live stream from the agent's perspective on Twitch. But the theory is that these agents don't need to have their own website or destination or DAP that they go to. We want to meet users where they're at. I think that for those that follow along with these Yapper agents on Twitter, you can see that they're all coordinating.
+
+on separate platforms. so what we're trying to do at Mother is simultaneously be multi-platform, multi-agent, and ultimately multi-chain. So we have some other features in the works to make that happen. as Kush was saying, the goal is to get this kind of holistic system.
+
+with the coordination, with the orchestration, the multi-platform with multi-agents out, hopefully, by the end of the month. So, hopefully, that kind of gives up a broader context, because I can imagine those on the call may not have that context to understand how all of these demos weave together.
+
+Alex (29:28.778)
+Very helpful and I don't know is Toby going to go next or?
+
+think I see Toby on the call. Toby, are there?
+
+Tobiloba (29:38.594)
+Hello, hello, can you hear me? I'm already gone. Yeah, apologies for my camera trying to um Yeah, okay. I'm just going to go. Uh, so hello everyone, W. Lobo here from the engineering team trying to share my screen
+
+Alex (29:39.329)
+Yep, go ahead.
+
+Tobiloba (29:59.362)
+Let me know when you find some ice cream.
+
+James Young (30:03.342)
+Yep, we can see it.
+
+Tobiloba (30:04.938)
+Okay great, so at the moment I was running to integrate the Twitch streaming feature. So the idea was I basically just had each bot be able to
+
+Each bot to able to unspawn so when the bot spawns into the Minecraft server the bot is able to render its view to to Minecraft directly to Twitch directly from Minecraft essentially rebuilding the like 3d view of the bots to Twitch. was basically like how this works.
+
+to get this out to MP link, configure a bunch of things including FFmpeg and then you stream that. This will be a short demo cause at the moment I was trying to fix some dependency issues with versioning. But other than that, that's basically the logic that I'm going with to enable the stream. So I got the stream stream key from Twitch, connected to my account and then
+
+I rebuild essentially the 3D view of the bots directly to this twitch to the respective twitch accounts. So yeah, I don't know if you have any questions, but I'm to debug actively if that helps.
+
+James Young (31:39.702)
+No worries. I appreciate it. So what we'll do is hopefully by next Friday show the working Twitch integration. There's some issues here that we're facing. I think that there have been also some coordination issues. Post ETH Denver, because a lot of the team also went to Brec. So there was some good chat at Brec in terms of coordinating with agent devs on the marketing side. But this week...
+
+Tobiloba (31:48.129)
+Yeah.
+
+James Young (32:09.334)
+I think you've seen that we were able to fully deliver on the engineering side, but hopefully we'll have a better and more tight video next Friday.
+
+Alex (32:23.693)
+Awesome, thank you James.
+
+Disruption Joe (32:23.83)
+All right.
+
+James Young (32:24.6)
+But I think that wraps up engineering.
+
+Alex (32:27.361)
+Yeah, and I was going to ask you one question. Could you just explain to everyone, so you gave a great summary of how all these things are tied together and how they're all tied together within Minecraft as the coordination part and the orchestration part. Why do all those things matter for Mother in terms of as we're going towards fundraisers, we're about the product and how it's a coordination layer for an agent registry? Why do all those things matter even within the context of a game?
+
+James Young (32:55.414)
+So, at the end of the day, a consumer just wants to interface with an agent. And then all of the complexity, all of the different layers on the verifiable decentralized tech stack just need to work. And what we want to do with Minecraft is just to have a visualization.
+
+so that you can easily verify these agents are able to orchestrate and coordinate and pay each other in a trust minimized way. And we're just building in public right now. So we're trying to hit these weekly deliverables just to keep ourselves accountable on the engineering team. And so we're building kind of these pieces. And what we plan to do and what we hope is to be able to have this all
+
+tied together in a very simple, easy demo that you can just see the different agents in Minecraft. And we chose Minecraft because it's like a sandbox simulation environment, because it's harder to verify if you had these real-world agents buying you a pizza and scheduling a flight and booking a hotel, doing your Ubers and scheduling your side events for a conference.
+
+So I think that's harder to demonstrate holistically because there's a lot more real world moving parts. So what we want to do is create the sandbox simulation environment in Minecraft so that a viewer or someone can actually see the coordination happening in this fictitious universe and then be able to then say, well, that is just easily applied to any arbitrary real world scenario.
+
+like doing is trying to force the simulation to understand where the bottlenecks are at scale. So we have two agents now. What we want to do is get to 10 agents and then from 10 agents get to 100, then to 1,000 and kind of see where the optimizations at scale are required because we think that there are going to be few agents now and then all of a sudden they're going to be many.
+
+James Young (35:19.886)
+and we want to prepare for that. And it's harder to coordinate that if they're doing real world things. So we're just using Minecraft as the kind of simulation sandbox.
+
+Alex (35:34.657)
+Thank you so much James, that makes a lot of sense. think next up we have Disruption Joe. You want to go ahead Joe?
+
+Disruption Joe (35:44.65)
+Yep, So I wanted to share a little bit about what was happening at Breck. basically the idea is, from East Denver and Breck, wanted to walk away with, our goal going there was fundraising. We learned a lot about that side. And then we wanted to talk to each other and the people that were there, the other engineering teams, and walk away with actionable outputs.
+
+So in terms of the fundraising, what we learned was the demand for the nodes was lower than we thought. The demand for the round was higher than we thought. So what we've done is we are now doing a SAFT presale that is privately put out there because we can't just advertise a SAFT presale because of US accredited investor laws. So US accredited investors can participate. If you have somebody who you think would want to invest, connect them with Zena.
+
+they can purchase it's 1 million we're going to raise at a 20 million valuation and then the public sale would be starting at that same valuation. The nodes have picked up over this week so we were thinking about closing it and doing a cheesy kind of hey we're going to close this down and then you know round two is coming soon.
+
+But with the assurances around the incentivized test net, know, it's a nice thing to hype and really bring attention before the sale. So I think keeping the nodes going, it's a nice thing that if people don't want to participate in the sale or we fill the sale, you know, one of the investor conversations we just had, they were like, well, we want to buy like basically half of that. Like, I don't know if we're going to fit in. So, you know, if we sell out,
+
+those nodes would still be a way for people to access, especially US people that those nodes are revenue, not investment. So on the fundraising side, that's where we're at.
+
+Disruption Joe (37:46.922)
+We're having those calls. Introduce anybody, Zina. On the other side of it, all the conversations that our team needed to come out with, I have a list of eight conversations that we thought were key, and each of these should be turned into an actionable document. And what I mean by actionable document is we bring it to the source meetings and make an agreement that, this is the direction we are all aligned to move in. OK, so.
+
+We weren't able to get all these documented perfectly for like presentation with a lot of people flying yesterday and so forth. But I think five of the eight conversations that we identified as important to have at BREC, we were able to get documentation moving, or at least a clear understanding. Those.
+
+and then there's some that ties into some work that like Zina had done. So the team strategy, I think that was the overview of like understanding, okay, we for sure are doing a SAFT and here's how we are going to incentivize and excite people before the public token sale. And then the product roadmap, yeah, we spent like a good, probably six hours with other teams that are building on top of us like Ember and Siraj with the XO team.
+
+really understanding all of the pain points of what we want to validate. So we went through a process listing all of our challenges that we see technically for the product and then turning those into problem statements, identifying the top most important ones and which ones were time sensitive that we need to knock out and then gave it all to Kush so that he and he worked with Alex to align a product roadmap which
+
+You know, we'll share in a minute and then we'll go to the investor story Alex did a great job of forcing all of us on The mother team to do our own versions of pitches So we would come off unique and different in how we pitched to leno who is actually on the call here Who is has been a venture capitalist his past? And a few other people that he thought had unique perspectives so we all got to pitch a few different times and record all those together and now poonkar
+
+Disruption Joe (39:59.236)
+since they were all recorded, Poonka was taking them and aggregating them into what is the best, hottest pitch of all the ideas that we came out there. So we'll take that from an investor's story, combine that with the work Xena started on with the pitch deck, make sure we have everything ready all the way down to distilling to our elevator pitch. The 30 second pitch, you should have a two minute pitch, you should have the half hour story and the deck that is your 10 slides that
+
+you want to show and then another 10 slides that are making sure that they know that you were thinking about things like what is the biggest risk? What is the biggest competition? You all those things that you may only keep those slides available as extras in case they ask that question. It shows preparation and thought. So a lot came out of that. Zeno presented that. The voice of the customer, we spent like probably five hours of one day with the whole group just talking about like the
+
+demand side, what is the demand side, how does that go? And that really leads into the hackathon and the idea there around that. So we'll present to there. The conversations we didn't get to really finish and dig into are the engineering consortium, the details around how do we say what is the membrane membership, how does that work? And what will the offer be? What does it look like? We got a lot into team roles and responsibilities, but not into documentation level.
+
+and curation mechanism, didn't really get into that at all there. But those were the discussions we identified as super important to have at the beginning of the retreat.
+
+Yeah, it was a pretty grueling schedule. I don't think we did much skiing. Actually, Pukar did a good amount of skiing, but that's because he's good. The rest of us stayed back and we're driving through these conversations. So I just want to share that overview that we had intention of what we were doing at Breckenridge and really tried to push through.
+
+Disruption Joe (42:03.7)
+The way we know this was useful is that these conversations, the results of them get brought to the source circle and turned into actual agreements that we're moving forward aligned. So the first five, I think, will be coming this Monday. And then we'll probably have the six, seven, eight as priority for the following Monday. And before I pass over...
+
+I'm going to give from a very, very high level of the strategy. The march is all about preparation. We're raising this one million SAFT. We've already got about 20k, but with the messaging of the incentivized test net, I think we should be able to get closer to 100k. I do think we'll sell out the SAFT. There's up to a million in NFT nodes.
+
+People can come in and if the staff sells out and they still want access or if they're a US investor and cannot purchase the staffs because they're not accredited, they can do the notes.
+
+And then the actual launch contracts, think we want to make sure that we know and understand the design we want to use. And, you know, we've been working with Access Finance on this, but making sure if there's extra components that we have time to code and audit them before the launch. So that's real important for preparation in March. In April, we need to really dig into that advisor selection to get the best ones. We did 10 in our
+
+hurry to have them up there before the pre-sale raise. Now we're going to take 10 with a lot of intention. An example of this is I talked to Diana Chen, the host of the Rehash podcast, thought she might be a great potential advisor. I told her I'm going to send her information after eThem around how she can say officially she wants to be an advisor. And then we're going to bring that to the team and we're going to hold off. So
+
+Disruption Joe (44:05.868)
+we're not just offering, we're confirming that they want to do that, and then we'll be able to pick the best ones as we go into April.
+
+Then the DAO launch prep, Pucarai started a lot of work on that and that's obviously important because it makes sure that things continue in a stable way as we move into the DAO. And then we need all the token support, things like market making exchanges, all those that medium will be handling primarily. And then preparing for the first airdrop, detailing out, we wanna do something really interesting with this that actually incentivizes all the
+
+behaviors. And so we updated the model on the token sale staff memo to actually say that the airdrop will happen over multiple airdrops over time.
+
+So we want to create something, you know, this won't start till after the public token sale, but we need to prepare and have a thesis for how are we going to use this to get people to, you know, hold their tokens, try participating in the best way they can at the beginning early, and then continue participating down the path where we move them from aware of what mother is to active, to engaged.
+
+And retention being a huge key of what we want to use it for rather than just spiking interest on day one and then Nobody ever sees it again and then May that that's go time and that is launch Launching on mother on Mother's Day is the is the goal. That's the number one thing right now We mother on Mother's Day. It's simple as that
+
+Disruption Joe (45:53.674)
+It'll be up to 20 million in the public sale unless we choose to change that. The DAO needs to be ready to launch alongside it. So when people claim their tokens, they delegate immediately. And we also need to launch that MAMA curation or that would be part of the network, you would think. so the network, technically, according to what Hester Pierce has said with like the US stuff and those laws is that three months is what they're three to six months is what they see as a reasonable
+
+time to become sufficiently decentralized. So we need to keep that in mind that as this launches and we say we're launching the network basically alongside the token, that that's kind of the reasonable time frame that has been established for us to be able to launch the network in full post-public token sale. Ideally we could do it at the same time but I know that's a stretch so there is a little leeway there.
+
+That is it for my presentation. I'm going to pass to Kush for the product roadmap now. Sharing those discoveries. And then we'll hit Zina with presentation she put together for the pitch deck. But it hasn't fully been combined with all of Poonkars insights from all those other discussions. So Kush, hit it.
+
+Kush (47:19.848)
+Yup, so I already shared a glimpse of it in my previous video
+
+But yeah, basically identifying what are the main challenges or say the areas we need to focus on from a product perspective. It's primarily around making a developer experience as smooth as possible. it's basically breaking the entire product down into three different parts, which is basically registry and code integration, like how exactly do the agent to agent communication workflows work.
+
+Secondly, how's the flow going to look like for existing builders and the newer builders who are going to come on the network? thirdly, the integration and the, you know, integration partners that we're working with and the internal architecture that currently the stand is working on. So, I mean, there are other things as well, but like these ones are the ones that we are prioritizing right now at the moment. yeah, looking at the registry, registry is like pretty much completed.
+
+in the coming week will be to like, or host a proper registry link that we can use on board the developers or to the platform. So now again, a request for that is that every developer who comes on the registry needs to have a Nevermind agent and a plan DID. So now the ideal flow that I would like over there would be like get in a conversation with these agent builders and actually like handhold them and onboard them onto the registry so that we can like help them guide through the Nevermind process.
+
+and it doesn't become a blocker for them over there. So, yeah. We basically got two versions of registry, we gotta finalize on one of them and start to put that out basically. Next, for the existing version, new builders flow, we've got two of these integrations right now, one with Suraj showed, so that's basically for the new builders. So the goal over there is to kickstart the entire process so that they can directly get into the building agent part without focusing on, let's say,
+
+Kush (49:22.034)
+troubling themselves to get acquainted with other protocols that we're using like intuition and nevermind and also not wasting their time or let's say focusing their energy on the other parts of let's say how the orchestration is happening. So the goal over there is that with EXO once you deploy a particular agent you currently haven't, they likely had a temporary agent which is like connected to the registry and is able to coordinate with other teams and also like discoverable on the registry.
+
+So that's the new builders flow. For the existing builders flow, actually sat with Ember and Ember's team to understand what their agent looks like, how they've done stuff and what's the best way to integrate over there. So from the current understanding, to push everything towards the end of the month, by the end of the month, we can simply focus on a very simple templated version of the code that we have so that any agent builder can then identify.
+
+And let's say we can guide them that, okay, these are the two files that you need to import into your code. And this is the function where you need to like put your business logic in. And so far, I haven't seen a lot of difficulty from Ember's side in doing that. Of course, there are a few questions which come up and we're taking care of them as well. for example, in terms of like data specification and like what exactly, how the other agent knows what the other agent requires an input. So those things are, you know, being worked on as we speak.
+
+Next is the integration and internal architecture. So integrations, when I say integration, I mean the other teams like Nevermind Intuition, Vesun gonna be having Kalani and Cartesi, know, they're in conversation as well. So how do they kind of fit into the internal infrastructure and how do we make sure that we're able to do it in such a manner where we do not get like vendor logged in and people also have the customizability to like pick and choose what infrastructure they want to build on.
+
+So those are the things that know right now Stan is currently working on and we're be like clubbing together these parts, both of these parts in the upcoming week to like make it more wholesome and like comprehensive so that's kind of when you know these things will start to come together. Again a lot of as James mentioned before a lot of these things are like on a very infrastructural level so it kind of like makes it difficult to completely visualize what's happening behind the scenes.
+
+Kush (51:50.138)
+Yep, so we already discussed the APS specification part coming on to the AVS and DAO for verification. These are something that we have currently planned for the last of this week, like the last week of March. So the goal over there would be like deploy a very simple AVS, which can actually like plug into our system and do the slashing and verification and the DAO aspect basically for curation and, you know, making sure that actually the agents who are coming on the registry can be
+
+are kind of like governable through the DAO. So those are the two things over there. Yep, next step will be like, you know, finalize the registry and like put it on or deploy it. So I'll be reaching out to, think, Code J is currently handling the domain. So I'm reaching out to you for getting at that. Getting this API specification kind of documentation ready, which is something that Kalani comes in. So that's something we'll also start working on from next week.
+
+orchestrator and messaging bus and is taking care of it. Hackathon preparation, the goal is to get this to a level where it can be used in the hackathon where a lot of these concerns are popping in the previous call around coordination. So the goal is to take them out as much as possible before that so we can focus on fresh problems over there and actually move towards the output that is required. yeah, AVS and DAO verification and then May 11 is what we have finalized right now for the TGE.
+
+So that's pretty much where we're at at the moment. yeah.
+
+Alex (53:22.379)
+or any question. James, anything to add to that? I know we're running up on time, but.
+
+Kush (53:23.75)
+Any questions guys?
+
+Alex (53:32.055)
+Cool. So I guess now we have Zina. We'll give you a couple of minutes, and then we'll just let, we'll just wrap it up there at the end. Zina, you want to go ahead?
+
+James Young (53:32.301)
+All good.
+
+Disruption Joe (53:33.665)
+Awesome.
+
+Disruption Joe (53:42.135)
+Sure.
+
+Alex (53:49.025)
+Zina, are you there?
+
+Alex (53:53.914)
+Maybe she is not there. If not, then we can have her talk about the pitch at another time. next up we can have, I can briefly talk about a couple things. One is the hackathon, which actually, the virtual hackathon, which we're gonna have a larger discussion on this. I'll share my screen quickly. The virtual hackathon was something that we discussed a lot at the,
+
+at Breckenridge and kind of where it fits and why it's important. This virtual hackathon. Now, I will caveat this by saying in the previous call, we had a discussion around what is the core of the hackathon? Should it be in Minecraft? Should it actually be only a few teams focused on building specific use cases? Should it be more towards voice to the consumer and kind of like some of the consumer demands and then tying towards there? What that ends up coming back to is these are some of the things that
+
+Disruption Joe (54:22.37)
+you
+
+Alex (54:51.517)
+I've talked to Joe and Joe's written about of what are some of the biggest things that we actually need to validate? That's something that we'll put through to the source call on Monday. But in our eyes, there's like, especially like in Joe's eyes, these are some of most important things like can an agent complete more tasks when plugged into the motherboard? What are the agent builders needs? What are some of the interactions and like can an agent actually pay for, utilize, et cetera? Completing more tasks and then can agent find unique pathways for executing prompts? Now,
+
+A lot of these validations and some of the other constraints from like a fundraising and kind of narrative approach will bring back to this virtual hackathon and be able to define it. But I've written up how we had discussed it at the end of Breckenridge. And then we'll come with a more specific outline of it. At the end of the day, what is becoming clear is that we need some mechanism that is time bound that allows us to start to find other teams and incorporate them.
+
+into the registry and have them start to together or work through Mother. Whether that's a virtual hackathon, a season zero, finding specific builders towards the end consumer, that's something we'll define. But we do need some sort of mechanism to start to test and validate that for multiple reasons. Any questions on this before I tie into the VOC part?
+
+Disruption Joe (56:14.338)
+One thing I just like to add there that, you know, like when we talk about like product and validations, like, I connected to a fundraising thing holistically, you can think of like raising funds like peeling risk off, like layers of an onion off, you're just like one layer of risk versus one layer of risk, right? So being able to build something is one of those risks where a team has shown incredible ability to build stuff forward.
+
+And then there's the thinking that they have, like, how does this have value? What needs to be validated? So when we're thinking about this hackathon, it wasn't about the idea of having a hackathon. as some others have put out there, a few other ideas of how we could validate certain things. The goal is...
+
+trying to validate a few of those things, tear away those layers of risk for anybody who wants to buy the token or like participate in mother, know, it's public token sale. By the time we get there, we should have peeled a lot more risk off, you know, and those are things that we can validate potentially through this format.
+
+Alex (57:19.853)
+Yep, that's awesome. And one of the kind of risks or things that we want to start to test out is around the voice consumer from both the supply side and the demand side. Where in our words, the way we're using the demand side is like, who is requesting some input? It could be ahead of growth, it could be an agent, it could be something else, but it's like, what does that demand side look like? And then this other side is the supply side, like who are the agentic businesses and what do they look like?
+
+So I've started to, had a ton of conversations through Denver and through Breckenridge and what I start to see here are some of the things that I'm pulling out of how people act differently. This voice of consumer is we're trying to keep it pure, like how do they think about items within the context of their life? And that mental model allows us, we can leverage in many ways. Those requirements we can leverage for some of the economic design of how much people need to be incentivized, what do those things look like? We can leverage for what are their requirements for participating in the hackathon?
+
+we can leverage for the registry, cetera. But these are some of the things that I'm seeing. And a couple of the big ones is like the agentic businesses, when they are a business like an Ember or an Alpine X, they're thinking about their business and they're thinking and not just about an agent. What I mean by that is that a lot of times it's like, this is actually how I take care of my livelihood. So they're asking questions like, what part of my agent or my swarm or my SDK do I actually need to open source? What part can be proprietary?
+
+They're also thinking about things like maintenance consideration. What if I have two versions, one in mother and one outside of mother? They're also thinking about things like, what they care lot about is how can I help my business get distribution or how can I fundraise? So this is something I'm gonna put through the source code, but I'll continue to add to this so we can become more crisp about how we understand these agentic businesses, supply side and dev shops, like think about things and how that kind of percolates through the rest of our design.
+
+Alex (59:17.432)
+This is the end. We'll have some more coming out of this. I hope you guys can see that Breck caused a lot of open questions, a lot of good conversations towards alignment, and now we can actually better align towards some of those things. I know we have one minute left before we sign off. James, Matt, Joe, anybody else, anything to add to this?
+
+Xena (59:19.6)
+Thank
+
+Disruption Joe (59:41.442)
+No, looks like Xena just came back. you want to start it, a bunch of people might need to drop. if you want to do a quick, you know, a couple minutes quick overview of the deck, Xena.
+
+Xena (59:54.11)
+Sure, sorry, I messed up the time. was convinced it's now. So let me share the screen and show the presentation.
+
+Xena (01:00:13.14)
+so let's go quickly
+
+In a couple of years, there's going to be more agents than people on the planet. And each of these agents would need to be plugged into infrastructure level in order to participate in the agent commerce. These agents don't need to rest. Instead, they need to coordinate resources like computing, LLMs and data. And once assigned the tasks, these agents will operate autonomously, just connecting to the other networks of agents to manage resource allocation, select models and retrieve data all on our behalf. However,
+
+Without proper agent curation, bad agents will really start creating a lot of noise and inefficiencies. So how do we really know which agent we can trust? Because in the era where AI agents transact, collaborate, and make decisions on behalf of users and businesses, trust is not an option. Trust is infrastructure.
+
+Mother solves the industry trust issue with an on-chain registry of verified agents. Agents connect to a curated marketplace for collaboration. And with its infrastructure, tools, and community, builders can create, thrive, while businesses get this agentic power to get the work done.
+
+motherboard effectively is the fastest way for AI agents to become discoverable and profitable. We have the whole bunch of technologies that will help that, but primarily agents would have to register, get verified, and then they can collaborate leverage and the ensemble reasoning for real-time knowledge sharing and task automation.
+
+Xena (01:01:44.532)
+However, that's only B2B side, but on the B2C side, agents need to be discoverable and agents will be there where people already are. Anyone will be able to send a task to an agent just within their interface and that will go back to registry, come back with the result to people where they are. And Mother is the whole ecosystem play. It doesn't compete with other AI platforms. It integrates the best players to create the ecosystem that properly curates and coordinates AI agents. It's all possible thanks
+
+to a strong team of MOTHER that has both very deep crypto native and enterprise experience on top of DAO management and managing decentralized organizations, which we believe is one of our strong competitive advantages.
+
+And right now for non-US and US accredited investors, are offering a presale, soft-based presale. We are raising 1 million on a 20 million valuation. You can see some details here, but if any of you want to know more, or you would want to talk about it or potentially bring it to someone else, please reach out to me. Thank you very much.
+
+Disruption Joe (01:02:56.332)
+Well, we can end it there. that was really, I love your thoughts on that, James and Kush. To come to somebody on kind of the opposite side of the Oregon Ops, hearing the story from that viewpoint. How does that feel to you?
+
+James Young (01:03:15.79)
+Yeah, I think that is valid and I think that is the main narrative. It's easy for engineers and devs to get lost in and fight over the technical details. And really, that's not what it's about. It's actually being useful and accruing value. And really, think Xena did a great job in terms of what is the actual value proposition that we're trying to provide. And I think...
+
+When we're working in this decentralized fashion, remote only, it's easy to lose perspective and not see the forest from the trees. So it's a really great reminder as to what we're and why we're really building this and what is this really for.
+
+Disruption Joe (01:04:04.622)
+a couple of pieces to add on to that. In one of the investor calls so far, James had a really great analogy of it's like, you know, this thing, if you abstract it, the agent's gonna do work for you. So that moves the person who's building that agent to like the manager level. And then they're gonna train some agents to do that work that manages between these.
+
+agents doing work and that makes a person who is going to do this, you know, inevitably to a director and a CEO. And so you can think the future of this is that there's an online on chain registry that is
+
+trusted and verified that these businesses will get the job done. And that's what's already out there. There's Yelps and Angelus and all these different things that try to curate for you and give like reviews and judgments so you know that the business will get it done. It's just that all these businesses will be agentic interfaces in the future because who wants to spend their time like clicking on things. And then secondly was the idea that really Sydney pushed forward at Breck a lot, which is, you know, the reason humans are evolved is that a whole article from Vitalik
+
+about, know, humans should be the steering wheel, and the agents are the engines of productive commerce, right? So by by humans participating in mother and participating in the responsibilities they have to have rights to govern and drive this, you can think that like,
+
+Norway has a sovereign wealth fund, Alaska pays out to its citizens because they have oil, but data is like the oil of the future and the way you use it and make it useful in commerce is the value resource of the future. And so, you know, this is a solution for, you know, like AI job displacement and so forth, along with so, you know, that big vision, some people it might be too abstract for too big, but I think
+
+Disruption Joe (01:05:58.848)
+Like, we don't think small, so that's a value we should agree on in source, I think.
+
+Alright.
+
+Alex (01:06:13.22)
+Thank you so much everyone and I think we'll end it there. Have a great day and we'll see some of guys in the engineering hall. Cheers.
+
+James Young (01:06:20.908)
+Awesome. Thanks. Bye.
+
+Xena (01:06:24.084)
+Okay.
+
