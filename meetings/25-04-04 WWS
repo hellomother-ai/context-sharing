@@ -1,0 +1,535 @@
+Alex (00:00.497)
+Natasha or Tash, Gita, Alessandro, Mark, anybody want to talk about like what they shipped before we have other people come in?
+
+Alex (00:10.865)
+or anything like that.
+
+Natascha Tiotuico (00:14.846)
+So what we've been working on is tweaking the tipping.
+
+Alex (00:18.309)
+That's a mark
+
+Mark Magliocco (00:19.343)
+Uh, yeah, I'm just curious to see what everyone's been building on and like how it's all coming together, right? So, uh, yeah, can you hear me? Oh, perfect. Yeah. So, um, just kind of curious, like how it's all coming together in terms of the index and like the, guess, like last time on the last call, you're talking about like the yellow pages, right? So I'm really curious, actually, has that been shared in the, in the group to be able to take a look at that or?
+
+Alessandro (00:26.569)
+can you guys hear me?
+
+Alex (00:30.885)
+Yep, I can hear you.
+
+Mark Magliocco (00:49.038)
+I'd be curious to just explore that. And I think that's a really good idea because that doesn't actually exist right now, really, like you mentioned on the last call, to be able to organize all of the agents. And then guess for the integration itself, the streamlining of that process, and I think that's the issue really at the moment. I guess just seeing how that's progressing along.
+
+Alex (01:15.749)
+Yeah, we can show you a little bit more about that, to quickly answer your question. On the yellow pages, I stopped that a little bit because Alessandro and Intuition are working on something similar within Intuition. we can actually, instead of just driving people to the yellow pages and creating that kind of index, we can actually leverage what Intuition is already building and how we're kind of pushing that forward. And then additionally, on the integration part, yes, teams need to be able to integrate.
+
+But then we're also realizing that whenever we talk to these teams, there's like little kind of edge cases coming up because they didn't necessarily build for the mother registry upfront. But that's what we're starting to get to with the fast track of these teams. And we really only need kind of like a few data points, like the two technical ones being their get response model and their, and the endpoint where the natural language comes in. But in addition to that, you want to have other things like what's the description of this agent and.
+
+and like their name and kind of like some of their intuition, metadata, et cetera. So that's kind of what we're pushing for now. we can get back, Mark, I'm happy to chat about that more at the end. And I'll drop you a link of some of the initial schema that we've been working on for that. But in the meantime, anybody else who wants to kind of talk about what they shipped for this week, we'll open it up more at the end. And for now, can, Kush, if you're ready, we'll go to you and Coach J on what you ship for the B2C side.
+
+CoachJ (02:27.463)
+In the meantime, anybody else who wants to kind of talk about the face shit?
+
+PUNCAR (02:35.709)
+you
+
+Alessandro (02:37.303)
+I actually, I was just gonna say, sorry for the lag if there's any here, but we are working hard to get our portal back up, which is a much easier way to view lists such as the MotherDow registry and quicker ability to remove or add things or stake on things or tag things. So apologies for that not being available and everything being.
+
+backend queries and stuff, but should be much faster once we ship that, which we're hoping happens at a mainnet, should be early next week and I'll work on getting the DevNet stuff so you guys can actually address it since the current registry is on DevNet.
+
+Alex (03:23.921)
+Thank you so much, Alessandro.
+
+Alex (03:28.817)
+because she want to go ahead and crochet.
+
+Kush (03:32.727)
+yeah. So to give you like a bit of recap, we basically last week we shut down the X card implementation with like a nomination and like a voting flow so like users can come in and they can, you know, basically just check out a different agent, get an on-chain wallet, get some airdrop tokens and like utilize them on-chain. So we were like thinking of how we can like make the experience better and like just from like a
+
+pure campaign perspective. we like brainstormed a bit and we made some changes to that so that it's like a more engaging experience now and like a bit more polished experience from that perspective. So let me just share my screen or wait at the actually Kojay, do you want to also like give a bit of brief about it also? Yeah.
+
+CoachJ (04:25.415)
+So, yeah. For anyone who wasn't here last week or is watching this call newly, basically this X-Frames is super unique activation that we're going to be running on Twitter. And the idea here is just to have like a little bit of fun on Twitter, get people's attention, get people interacting with us a little bit. But really it's a Trojan horse. And what it is, is we're kind of getting everyone
+
+attention.
+
+to the Mother Project and we're actually the real call to action is sending people to our Discord where we have already started a points recognition type program and this points recognition program is kind of like the large arch of taking us down the road to what will inevitably be human to agent and agent to agent payments. So this is like a really big deal. We're just like starting
+
+this huge flywheel and one of the ways that we're going to do it is this really neat activation on on Twitter. So the idea is capture people's attention, get them into the Discord and there we've...
+
+started a really neat activation using some collab lance technology of tipping, which is, you know, just payments. using, all of these are going to be using testnet tokens. They're on chain transactions, which is cool. And we can send each other on chain transactions for doing all sorts of things. The Co-Unity team has already been on it, helping out a ton with that. know people who are saying hi are getting tipped. People are introducing themselves. We started a meme contest. So anyone who's posting a photo
+
+CoachJ (06:08.995)
+and they're going to get tipped and getting at these points. And the idea is to cause like a little bit of buzz and actually encourage people not necessarily to collect the points, but actually to reciprocate the tipping of those points to get them familiar with the action of spending those test and those valueless test net tokens so that we start developing that behavior. And over the long run, we start introducing the actual ability to use those test net tokens to pay agents to complete jobs. And then those test net tokens turn
+
+into real tokens that do have value to have agents complete jobs and that's kind of like the longer term vision and I found out mistaken I mean this is all happening over the next like literally over the next like few weeks like
+
+We're going to be starting next week with some activations in Discord. Within a couple of weeks, we're going to have the mother orchestrator agent in Discord accepting tasks from users. And then within a few weeks from there, we'll have agents filling into the registry and we'll be enabling actual token-based payments on chain in Discord. So it's a really cool kind of transition, really smooth.
+
+So yeah Kush you want to take us through kind of like this the x card the x factor of it?
+
+Kush (07:26.485)
+So.
+
+So I'm actually dropping a link over here. If you can share your screen Koje and like just go through it because I mean it'll be like fresh eyes for you and also fresh accounts so we don't run into twitter rate limits.
+
+CoachJ (07:44.743)
+Okay, I gotta find, there's like three different chats. I gotta find which one you put in. I put it in the live stream chat. Live stream chat, okay, here it is, here it is, I got it. Okay, so let me pop this into my screen here. I'm on the Hello Mother account, so let me actually switch to my personal account real quick before we start this demo. Okay. So let's share my screen here.
+
+Kush (07:47.889)
+I put in a live stream chat, I think.
+
+CoachJ (08:21.2)
+Okay.
+
+CoachJ (08:25.703)
+Here we go. It's a brine bird. This is it. We're in the right place. Yep. So we just click this button here.
+
+Kush (08:34.283)
+Mm-hmm.
+
+Kush (08:41.311)
+the advisor white.
+
+CoachJ (08:41.861)
+Why is it white? I don't know.
+
+Mark Magliocco (08:47.35)
+I had the same issue.
+
+CoachJ (08:47.588)
+I have the same issue.
+
+CoachJ (09:01.103)
+Yeah, it looks like I'm not. I tried a new tab as well and it looks like it's also white.
+
+Mark Magliocco (09:07.108)
+could be the link.
+
+CoachJ (09:10.247)
+Yeah, do you want to the link again, Kush? I mean, this looks correct. Yeah, so like, can you press the play button?
+
+Kush (09:13.407)
+Yeah, I mean... Yeah, so like, can you press the play button?
+
+Wait, that's weird. Let me share my screen.
+
+CoachJ (09:23.459)
+Okay, yeah, yeah, yeah. That's why we're demoing this. And as Kush gets this set up, we're gonna be aiming to, ideally Kush and I will work on this and get this sorted out today. We are gonna put this out there into the wild and not make a big fuss out of it. We're just gonna get it out there and we're gonna see how it goes, like IRL on chain.
+
+We can all test it out here. And then on Monday, we're going to be activating basically our entire network to boost this and hopefully get tens of thousands of eyeballs on this thing. Yeah, we can now I can see the card. looks great. Yeah, that was weird.
+
+Kush (09:55.603)
+Is my screen visible?
+
+Kush (10:00.703)
+Yeah, I that was weird.
+
+Kush (10:05.611)
+yeah I mean even if I do it in cognitive tab it kind of works so but yeah all right yeah
+
+CoachJ (10:07.303)
+Okay, here we go. That's super weird. Okay. Let me try Yeah, go ahead
+
+Kush (10:17.845)
+So the entire flow is like, okay, once you open the Twitter card or something, you can like authenticate your account with an X account. So suppose let's pick up.
+
+CoachJ (10:26.791)
+Speak up.
+
+Kush (10:35.103)
+Mm-hmm.
+
+Kush (10:40.565)
+Yep, so basically...
+
+CoachJ (10:41.125)
+Yep, so please. Yeah, so it basically like takes in your Twitter...
+
+Alex (10:41.211)
+Chris, does your mom want to join what we shipped?
+
+Kush (10:47.883)
+Yeah, so it basically like takes in your Twitter credentials, prepares a smart account and like on chain sends you these test tokens on chain. And then we have this like agent head to head kind of competition where you can like pick and choose which agent you want to like vote for on chain. So here we got like Luna versus Eliza. So suppose you can like pick one and then we've got God versus Satan. So whichever ones you like prefer as agents, you know, just go ahead and like select them and you know,
+
+CoachJ (10:55.207)
+sends you these test tokens on
+
+Kush (11:17.321)
+perplexity versus grok so you can then go ahead these will like these words will then be submitted on chain and you will receive a invite code over here so now what you can do is you can just simply copy this invite code and use this in the mother discord community like gain access to your on chain you know your smart account in the discord channel and
+
+Kush (11:43.659)
+and the bot will automatically verify your discord account and send you some tokens on chain that you can then use for tipping directly in the discord server so that's basically what's happening over here like the entire flow so it's preparing my seeds token, finalizing authentication and I just received $1000 seeds and I can now use slash tip2 to tip this to anyone in the server
+
+So, yep, that's basically the entire flow of the demo. It's kind of weird to see why it did not work on your machines, where, yeah, I think that's something that needs to be debugged, but apart from that, it's pretty good.
+
+CoachJ (12:26.663)
+needs to be developed apart from that experience. Amazing. Thanks, Kush.
+
+Mark Magliocco (12:30.687)
+I was on mobile if that helps. I don't know if that makes a difference.
+
+Kush (12:34.707)
+I mean, even on mobile, it wouldn't open like a twitter card, it would open like a separate window inside of twitter, but it should have worked.
+
+James Young (12:47.251)
+Yeah. Great demo, I just want to add some things. Last week when we demoed this in the XCard implementation, it took like a minute and 30 seconds because everything that you're doing in the XCard is actually on chain and Kush was able to optimize it. And I think when you have something that's consumer facing, you really need to be slick. And so what Kush has demoed...
+
+it was so smooth that you couldn't even tell that these were on-chain transactions. And then going into Discord and being able to actually get seeds, which are actual tokens, I think is a huge deal. And this sets ourselves up for other X card opportunities. We're not really playing up being able to have an X-based smart account without having to leave the platform. But I think that as we move forward with this fast tracking of the registry,
+
+we can actually give these agents that are on X their own smart accounts. And so we're paving the path here and it's very low key at the moment. But there's a lot of tech behind the scenes and what Kush has been doing this last week is optimizing that minute and 30 seconds to, think it was just pretty much really how fast can you click on the voting and then just waiting like three or four seconds.
+
+for everything to happen because last week everything was synchronous, now everything is async. So from a consumer perspective, we wanted to hold off, but we're ready now to launch because we just wanted to optimize and polish the consumer experience. So it's so optimized that you think that this is a Web2 app. But in the background, you actually have a smart account. These votes are actually calculated on chain. They're just not using real token or mainnet tokens. They're using test tokens.
+
+for now, but I think that those that get it and understand what's happening will be impressed. also, we take that smart account technology and that infrastructure to Discord. So when you're tipping in Discord, those are actually on-chain transactions as well. And this paves the way for us to be able to start allowing people, without having to leave Discord, to engage with these agents and start paying them.
+
+James Young (15:09.323)
+And so I just want to give out a shout out to Kush because these little refinements and the ease of use is not something that you really notice as improvements because you're optimizing things that as a user you don't see what's happening in the background. And that's the point of the optimizations. But it's been a lot of work. So I just want to say kudos to Kush. And so we're ready now.
+
+to really launch this campaign. And again, I've never seen the issue that Coach J has had. I've never seen that in any XCard implementation ever. So it would be interesting to see what's going on there.
+
+Kush (15:50.507)
+So I mean, I'm not sure what's happening there, but I think I was testing with Xavier also a few days back and he kind of dragged on into similar issues. So I'm not sure, but could it be like geofence or something?
+
+James Young (16:06.739)
+Maybe, maybe things are blocked. I've never seen that because it should stay in that iframe. I don't know why the whole screen was.
+
+James Young (16:17.92)
+But anyway, we'll debug that. back to Alex.
+
+Alex (16:20.837)
+Cause cause does it make sense? Does it make sense to have everyone do another task just because people are here right now?
+
+Kush (16:27.007)
+Yeah, so let me, yeah that would be super helpful. Let me just post another X card and send a new link.
+
+Alex (16:35.685)
+And if somebody wants to, like somebody who ran into the bug, if you want to share your screen, that'd be super helpful. Just so can see what, what you're kind of doing.
+
+Alex (16:48.433)
+Like, yeah, go ahead and share your screen when and Kush is going to drop the new link and it'd be great if you could share your screen and we can all take a look.
+
+Mark Magliocco (16:48.648)
+Like, right now you mean, or?
+
+Mark Magliocco (16:59.914)
+Sure, how do I do that on mobile? haven't really used Riverside before so it's a little bit neat to me. Do I need to come up on stage or something?
+
+Kush (17:11.143)
+I dropped the new lane.
+
+Alex (17:14.529)
+I think you are on stage, but it might not be able to do it on mobile. If not, I'm happy to try to share my screen. I did not run into the issue, but I'll try again.
+
+Mark Magliocco (17:18.805)
+out.
+
+Thank
+
+Okay. Yeah, I'm not sure how to share my screen here.
+
+Mark Magliocco (17:32.681)
+subscription round buttons. Yeah sorry I don't know how do it.
+
+Alex (17:37.935)
+No worries, thanks Mark.
+
+PUNCAR (17:41.21)
+It works for me.
+
+Disruption Joe (17:47.961)
+Yeah, works for me fine.
+
+Mark Magliocco (17:58.833)
+Actually, it's working for me now too. I don't know what was causing that.
+
+Alex (18:03.601)
+It might be a problem like the first time people sign in because I'm trying remember, but I think I had some issues signing in early on yesterday, Kush. And I think that everyone who had the issues had trouble signing in or were signing in for first time.
+
+Kush (18:22.859)
+Like when you press the connect to X account or
+
+Alex (18:26.033)
+I'm thinking I did not have to connect this time and I did not run into any issues. But it's just a hypothesis.
+
+Kush (18:31.925)
+Bye.
+
+Alex (18:46.309)
+Hey Kush, how did I get seven votes for four nominees?
+
+Kush (18:49.802)
+Yeah, let's check into that
+
+Kush (18:55.017)
+I mean, I can see it on the back and it's only four words. It's like showcased at seven for some reason.
+
+Alex (19:01.509)
+Gotcha.
+
+Alex (19:10.831)
+And I have to hold on to the invite code.
+
+Natascha Tiotuico (19:11.736)
+Can you hear me now?
+
+Kush (19:13.983)
+Yeah, like you can just go to the discord server and like put it over there
+
+Alex (19:18.523)
+Cool. Did anybody else run into any issues this time or?
+
+Alex (19:31.611)
+Did anybody run into any issues?
+
+Kush (19:36.115)
+Okay, it might have to do with Safari. I did not try it on Safari. So that's a good idea actually. Let me try it on Safari.
+
+Mark Magliocco (19:37.382)
+It's working for me.
+
+Alex (19:44.113)
+And Xavier saying it worked on mobile, but not on PC.
+
+Kush (19:50.793)
+Hmm, it opened on my safari also.
+
+Alex (19:59.345)
+Cool. Well, it.
+
+James Young (20:00.683)
+Could it be like ad blocker or something like that people have?
+
+Alex (20:13.009)
+because you want us to keep testing or giving you feedback or what's the most helpful thing for you.
+
+Kush (20:15.275)
+I think this is good, can move ahead and proceed with the other demos and other updates. can individually ping people who are facing issues and just connect with them.
+
+Alex (20:28.699)
+Cool.
+
+Okay, that makes sense. Any other questions or thoughts?
+
+Alex (20:44.667)
+Koshy, did you maybe want to show how the seeds actually work or show somebody like, or Xavier, somebody can show the discord, how that works and then potentially even show what's upcoming with like the sense of what's upcoming with the orchestrator.
+
+CoachJ (21:00.999)
+Sure, the seeds is pretty straightforward. If anyone wants to get some seeds, hop into the Discord and let's meet in the G Mother channel. Let me just share my screen here. And we can give you a little tip. We also have this memes contest. mean like, y'all I wanna see at least, let's all get at least one meme up.
+
+Let's just do that. You know, just like before the end of this call, hop to some sort of meme generator, create a meme. It could be about mother. could be about, I posted this today, just like multi-agent systems. It could be about anything. And pop it in. Or just say, hey, and G mother. And then essentially what we would do here is anyone who says, hey, so we got Vid here. I don't know who Vid is, but Vid said G mother. So what I can hop in is I can do tip.
+
+I can put the recipient, which I'm going to select vid, is right there. I'm going to put the amounts like a thousand, and I just choose the thousand seeds because that's what I have. That's how simple. Sends the command and then in about 10 seconds vid will have
+
+a thousand seats. What you'll want to do is if you're just activating your account for the first time, I just recommend typing in tip like slash balance or you can pretty much type in tip anything. And the first thing it'll ask you to do is to actually activate your smart wallet that's been extracted in the background. So very little to do.
+
+in the background, you can just connect with some sort of ID and then you'll have it. okay. Xavier used it to tip Alex42069. Thank you, Xavier. That's a very, very random number that you chose. I have no idea why you choose that number, but it's very generous of you. And that's pretty much it. so, and in the future, I don't think it's enabled now, but James, my understanding is that I'll be able to type in at slash ask.
+
+CoachJ (23:08.963)
+And then essentially beyond that, it's just going to be like, ask what? And then we can ask questions. Do you have more details in terms of like what that actually looks like in the background? Are we going to be? Do I have like a list of agents? Do I know what tasks they can do? Are we focused on kind of like?
+
+I know we've talked about Minecraft, like are we gonna like focus on just simple Minecraft tasks to start with or are these like real bonafide agents that are like already doing really cool stuff? Maybe paint us the world of what that looks like. Yeah, great question. I can give a high level response if you can mute.
+
+James Young (23:43.04)
+Yeah, great question. I can give a high level response if you can mute because I hear echo. But I'll let Kush fill in the details. at a high level, we've been working. I'm going to set some context just to make sure that everyone on this call and viewing the recording can understand what we're doing here. we have the coordination of the middleware already set.
+
+And what the feedback was getting from agent devs is that it took too much to integrate into the registry. So we took that feedback with the middleware already set and we have some agents that are fully integrated into the middleware now. But for new agent devs, what we wanted to do is do a fast track. The initial vision of the registry was it was all peer-to-peer. So you can ask any arbitrary agent,
+
+that's integrated into the registry to then communicate with other agents in the registry. But again, there was this friction for agent-devs to be integrated into the registry. So what we decided to do was to scope this down where we'll have an orchestrator agent, the mother agent. The mother agent is fully integrated into the registry and all agent-devs need to do is fill out a form.
+
+That gives them the ability to spend two minutes, fill out a form, and be part of the registry. Now, they're not fully integrated into the registry, but the mother orchestrator agent is. What we're going to do now, in order just to get a bunch of agents halfway into the registry, is that the mother agent is fully integrated into the registry. It will take these fast-track agents and it will talk to them via the registry.
+
+The fast tracking means that these agents can't get paid directly. So the mother agent, which is fully integrated in the registry, will then set aside funds on behalf of these fast track agents. So that the mother agent is this orchestrator agent now. And the idea here is to create a shelling point, an incentive, when these fast track agents
+
+James Young (26:08.573)
+see that they have money sitting there waiting for them because they've been utilized in the registry. And the orchestrator agent, the mother agent, has set aside some funds for them. That should incentivize these FastTrack agents to then fully integrate. Because what we got in terms of initial feedback is we were expecting these agent devs to understand the power of the registry and take the upfront integration cost to then register into the registry. But...
+
+What we've now decided to do was change that up a bit and say, hey agents, there's some money waiting for you. If you fully integrate into the registry, you can claim these funds. And then that gives them an incentive to be able to integrate into the registry. And that's what this slash ask command does in the Discord. It allows a mother agent to essentially be a proxy.
+
+for these agents, but since these agents aren't fully integrated payment-wise into the registry, the mother agent holds the funds for them. So we kind of switch the incentives around. Instead of having these agent devs integrated into the registry first and then see if they're going to generate any revenue, we have this proxy agent, the mother agent, to be able to hold funds for them and they see that they have funds waiting and then
+
+that should incentivize them to join the registry. So that is the kind of change that we've gotten from feedback from all these agent devs. So we have the middleware, everything is all ready to go. Really, this fast tracking is this go-to-market strategy. Along now, also, we have this XCard implementation. And so with this XCard implementation, if you use a fast track service and you connect to the registry,
+
+you have the opportunity as an agent to have your own smart account. So we have all the pieces set in place now so that it's a low lift for these agent devs to join the registry through the FastTrack service, then to see that they're actually being used. This also allows us, once we have the curated registry, to see which agents are making the most amount of money. We had this cold start problem.
+
+James Young (28:28.893)
+of this initial friction at first. And this fast-track solution helps break through that cold start problem. And so we're excited to get this going. When it comes to now switching topics to your second question, if I remember correctly, was about Minecraft. So these Minecraft agents, these B2B agents, once they're fully registered in the registry can pay one another. That is still happening. We don't have anything to demo.
+
+this week, but we're still working on that in parallel as well. I consider that B2B agents, peer-to-peer, where they can actually be trading and exchanging value with one another. What we're showing right now is the B2C flow. How do consumers pay and engage with agents? You can see that we're setting up. After this call, we're going to have our engineering sync and figure out the next phase here.
+
+really work on the slash ask command with the mother agent. But you can actually see a preview of this by the invite code. And so, you know, we're going to start working on this. And that is what I consider the B2C flow. And so we have the B2C flow, which we're working on with the X card and the discord and the tipping. And then we have the B2B flow, which we have with the Minecraft coordination.
+
+And then, hopefully, once we have the B2C flow refined a bit and we move forward on the B2B flow, we will marry the B2C and the B2B flow to have that complete flywheel. And that's kind of our next order. We initially thought that these agent devs, again, were going to just integrate into the registry and do the work up front. We've gotten marketing feedback that they don't want to take the upfront work to do that, so we have this fast-track program.
+
+So we've modified our go-to-market strategy a little bit. And I think now, as we move forward on these weekly Friday calls, I think that they're going to be a bit more marketing focused and less tech focused because we have the registry complete. And what we really need to do is try and figure out iteratively, how do we marry the B2C, the consumer component now, with the B2B component, with the orchestration.
+
+James Young (30:51.787)
+So super excited about that. And then there are some other things coming in the pipeline when it comes to verifiability of this orchestrator agent. So there's some new tasks on the engineering side that we're going to move forward with, but we're going to do it iteratively. But the focus now, I think for the next few weeks, will probably be drumming up this demand on the B to C side. So we have the ability to do it in Discord and
+
+I think what I'm really excited about is to see how this XCard implementation, how it hits the market, what people think about that. these cards have been on Twitter since I think like 2017. And most recently you see Solana doing this implementation with what they call Blinks. But Blinks never took off because it required you to install the Solana extension. Here, you don't even have to leave Twitter or have anything in order to get a smart account on X.
+
+We're not promoting that right now, but I think that's something that's in our tool chest that we will begin to promote eventually. We're just setting the ground. Right now, our focus is on just driving traffic to Discord. So we have this unfolding multiple layers of this go-to-market strategy as we get market feedback. And that's one thing is when you draw out your plans and you go to market, you have to be creative based off of the response of the market.
+
+And this is how we're iterating and really building in public.
+
+CoachJ (32:25.017)
+Alright, well Alex, Alex, I think that I think that's kind of it for the B2C side. We'll have more updates once we once we get the cards live.
+
+Alex (32:35.565)
+Awesome. Thank you so much. That was great, Next up, does anybody else have any updates they want to give? If not, I'll talk a little bit about what we've done with some of the B2B in the agent side and kind of how we're bringing it up towards this fast track.
+
+Disruption Joe (32:52.095)
+Could we just clarify that last conversation? The metrics that we want to see move with this are going to be, I heard a number of active users in the Discord. I heard number of agents registered and that would be the fast track registry, not necessarily full registration. Full registration, we might as well look at that too.
+
+Alex (32:55.801)
+Good.
+
+Disruption Joe (33:17.591)
+Right? So like our hypothesis behind this is that those are the numbers that will move up. Agent buyers are not necessarily moved through this, although there is this B2C component that like would be represented in like active Discord users or something. But we're not necessarily saying like the B2B buyers and it's more like end users rather than B2B buyers here.
+
+Kush (33:45.769)
+Yeah, so this is more like a validation of the entire tech from a B2C perspective. Once we have something like this working and we're able to understand where the flaws are and integrate on that to make it better. At the same time, Pankar is actually working on the B2B side of things and he's like, I think he can talk a bit more on that. yeah, so over to you Pankar. The goal over there is to source these RFPs kind of things from
+
+different B2B clients and do matchmaking or a customized solution for them so we can also use that as a success story or a case study basically. yeah, over to you Pankar.
+
+PUNCAR (34:31.015)
+Thanks, thanks, thanks, Kush. Can you see my screen?
+
+James Young (34:37.738)
+Yes.
+
+Kush (34:38.175)
+Yep, yep, yep.
+
+PUNCAR (34:38.973)
+Okay, cool. Yeah, so basically, I think we should maybe mention it. I'm flying to Vegas for the Google Cloud Conference where a lot of Fortune 500 companies will be basically looking for some AI solutions they can implement. I'm planning to talk to them and explain to them why mother or mother AI is the best solution for them.
+
+And I prepared like a short, basically proposal, which will be kind of follow up from the discussion. So that's something I will be sending to them after so they can check it out and they can, you know, get excited. And then we can have the conversation about some potential cooperation slash pricing and stuff like that. So what I want to show them and I will go quick. My ask here is like, if anyone has like kind of a bandwidth and would be interested like
+
+participating in fine tuning this presentation. I can share the link with you that would be really appreciated. And second ask, it's like, if you already know that, you know, some companies, some of your friends are going there and like I should connect with them. Let me know as well. That would be super helpful. So those two things. So the presentation, we're looking at getting our first clients in.
+
+So basically we can give the job to the agent. So for the clients, we need to explain to them what we are about. So some easy explanation, what is Monday around, and then why we are better than traditional AI. Big piece of this is the precision. Joe talks about it a lot, like 10 out of 10 tasks. If we want to be enterprise-grade AI,
+
+there cannot be hallucination. They need to be able to rely on those agents. Also, they don't want to transform the whole company at one. That usually doesn't work. But with us, they can be basically adding agents one by one. So they will be expanding over time. the system will work. We don't need to rework it. So that's the model collaboration there, the scalability.
+
+PUNCAR (37:02.789)
+We believe that there is lower cost to run specialized agents than like having one agent or LLM basically running because then you will need to run bigger models, more computation power. Those specialized agents can be really fine tuned to be as cheap as possible. So this is like basically how Motherworks, the coordination and then how you deliver it. Some of you probably know I wrote
+
+the book about how to DAO. So how we are thinking about it, it's being the integration partner to mother. So we need someone and this is basically I'm on both sides. So this is really like just a kind of a branding and or strengthening the proposal type of thing. Like we need to help the organization define where the improvements can be immediately visible. And then with the mother agents basically kind of assess kind of offering.
+
+implement it and they can run the agents internally. So this is kind of like the delivery, how we will do it. We will put some consultants basically, will be mostly me defining where we can integrate those agents and then working with those agent builders to actually incorporate it through mother. There are some like example use cases. We can update that based on the client.
+
+client which it's like really big like into like supply chain we can like all of these use cases can be kind of related to that if it will be more like a manufacturing company or something like that we can we can like mix and match kind of thing and this is basically just the ending why it matters some some numbers that you know 100 % control that like those are their agents
+
+they control the data, they will set it up. So it will work based on their description. It's way more efficient because it's like specialized agents working on individual tasks. And there is some of the cost reduction versus the big AI solutions. And that's basically it. So let me stop sharing the screen right now. Yeah, so the goal is get some conversation going.
+
+PUNCAR (39:26.461)
+like maybe 10 conversations going and out of that have at least one or two clients paying us to basically implement their AI strategy. Any questions? Come on.
+
+Kush (39:41.291)
+Do you have any specific metrics in mind that you're aiming for for this week in Vegas?
+
+PUNCAR (39:56.219)
+You mean, well, as I said, like I would like to have like at least 10 potential prospects, like which I will be sending the presentation to. So I'd say that's like 20 conversation, maybe 30 conversations that reduced to 10 deck sending. And out of that, I would like to have like two prospect clients that like would be discussing like actually like price and like we should be doing some implementation with them.
+
+Kush (40:21.993)
+Makes sense, makes sense.
+
+PUNCAR (40:25.317)
+James, what was your question?
+
+James Young (40:27.451)
+I don't have a question, but what came to mind is with this fast tracking now. So there's a difference. Before when we doing the full integration, we had to have each agent integrate. But now if you're going out there and there are different agent marketplaces that have data, we can actually fill in the form for them. So with the fast track process, instead of...
+
+agent to agent integration, we can take marketplaces, get their best agents, and onboard them. So instead of onboarding one by one, we can onboard 10, 20, 50, 100 at a time into this open registry. So this really expands our ability to, on the supply side, to have these agents. And so I think...
+
+it may be beneficial or prioritized, and this is not just for Punkart, but for everyone else that's talking to agent devs or agent marketplaces, we're really like a meta marketplace. We're going to be able to aggregate these marketplaces, and now we've come up with this fast-track solution. We can onboard hundreds of agents at a go. And so then we have to figure out, and this is where I think this is going to be more of a marketing play.
+
+as we move forward because we have the technology set. So the prior calls that we had were really just technical demonstrations of how we move forward. With the FastTrack, and now that we have the full registry, we can actually onboard hundreds of agents at a time. So that's just something to note and maybe more bang for our buck here. And then again, this is why I think it's going to be kind of more shifting toward the marketing side. Then how do we
+
+marry the supply that we have with the demand and really focus on which side of the market do we want to focus on now that we have the B2C side going, which is the demand side. And we have this orchestrator agent that we're working on that can then hopefully talk to hundreds of agents. And I think that's really how we're going to be able to bootstrap. So it's been informative when it comes to building out the middleware. We know it works. We know it exists.
+
+James Young (42:46.793)
+but it's a little bit too much friction for one-on-one agents and it's really slowed us down in terms of populating the registry. But with this FastTrack solution, we can onboard hundreds of agents at a go here and then really be a meta marketplace. So we can work with virtuals, we can work with AI16z, we can work with, I think there's like cookie.fun and alt.layer and there are these other...
+
+Disruption Joe (43:00.325)
+you
+
+James Young (43:13.429)
+potential partners that have their own competing marketplaces and we're not a marketplace. We're not going to be in competition with them. We can allow for all of them because what we offer is this eventual verifiability and so we're across the different marketplaces. And then that is going to then shift toward this marketing on the demand side where we have to just let the Discord know there are these hundreds of agents that you can call through Mother. And then we start the game of
+
+giving these agents their pots that they've earned. And then hopefully that allows them to then fully integrate into the registry if they wanted to have their bot or their agent directly called within Discord or X. So there's this marketing strategy that I think now emerges that we need to talk about. It's emerging now that we have this fast track solution, but allows us to really onboard like tons of agents. And I think that was kind of the bottleneck that we've been
+
+trying to figure out as we are creating the middleware, but we're just getting rid of that friction.
+
+Sydney (44:16.203)
+I would like to dovetail James's point, which is when I was at the graph, the thing with the graph is that it focuses on indexing and querying all the blockchain data across the space. One of the things that the graph at the time could not do, I'm sure if it can do it now, is that it couldn't index nuanced data sets and nuanced data sets is required for autonomous coordination.
+
+With all of the different AI marketplaces that are coming out, even centralized, you take a look at ChatDBT, DigitalOcean announced their AI agent marketplace. All of these different teams, all of these different marketplaces are siloed and they're unable to coordinate with the agents on their own marketplace or unable to coordinate across different marketplace. So from day one, we need to make sure that this is not another marketplace. It is a way to be able to index agents across different marketplaces. And the last thing I'll say,
+
+was I think this is why even not even in the Web3 space in the Web2 space, AI industry is experimenting with MCP or the ability to be able to kind of coordinate across different marketplaces. So then example is like right now if you're on OpenAI's chat to BT, if you say, hey, can you pay my electricity bill? They will literally say, I can't pay your electricity bill. Like there's not a way for them to have, you know, like say an integration to your bank account, your to clone Edison account to pay.
+
+for your electricity bills. This is what we're thinking of.
+
+James Young (45:50.666)
+Yeah, that's a great point, and I don't think that could be emphasized more. With this fast-track service, it not only reduces the friction for agents to join the registry, but allows us to open up an aggregate to other marketplaces, because we do not want to be just yet another marketplace. We are above that. And so we can cross coordinate. We can have agents within a marketplace coordinate with each other and across marketplaces coordinate with each other. And I think that this is the unlock.
+
+And as Sydney was saying, MCP is going to be at the heart of it. So part of the engineering task is for us to MCPize our services. And we already have that when it comes to the on-chain facility there. And this is what you're seeing with the XCard and with the Discord implementation. But we just need to make it easy for agent devs to ingest. so again, this is feedback that we've gotten. MCP, when we started the starter kit, MCP didn't really exist.
+
+But this is how fast the AI meta and the market has moved in general. Like MCP within the last, I would say, month or so has become the standard. The biggest signal there on MCP is that OpenAI has kind of acquiesced and said instead of building their own standard to compete with Anthropic, they are going to actually allow MCP integration within their own agent kits.
+
+So MCP is now at least the rating standard for for multi-agent coordination. And we're going to have to adapt accordingly.
+
+Disruption Joe (47:27.991)
+I'm bootcarts piece. I think there's a couple pieces that like play into that flywheel. So like, if you're measuring success by going through the thing of getting the meeting and then getting to a sale of something, there's a couple other successful things that we can do in between. So like one of them would be scheduling a meeting where or getting them to fill out that form that you had, where they would share here's some requirements of tasks.
+
+that we might have because on the supply side, a builder, an agent builder would love to see a list of tasks that they need to perfect and get near determinism in building an agent to do that one subcomponent of a task, right? That's where the unstoppable passive income dream comes in. It's like, oh, I can make an agent that can always do that and be the best at that in the world so that every other agent will hire mine to do that, right? So
+
+One side on that, Poonkar, be success might be second success. A sale would be great success, but good success would be getting a list of actual buyer requests for requirements, which on the other side then the demand of the fast track does the same type of thing. Imagine in Poonkar, if you could get a list of like 300 agents that we very quickly onboarded in the fast track.
+
+and then you could curate them and say, these ones might be of interest to you, right? We have this whole list that you can't take the time to scroll through the whole thing, but I've curated these 15 for you just so they understand the power of it. And now if Kush and I could take those two lists and be like, this is what we're showing to buyers and this is what we're showing to builders. That's why they're all so excited and that's why our growth rate is hockey sticking right here. And we went from
+
+two to 15 to 300 to 3000 across four weeks on the registry, that would be a super powerful message for us to raise. And it helps, Poonkar, if we can get the success from you of the list of requirements that we could show builders, right? And they could think, oh, I could easily build that, right? And on the other side from the builders, you know,
+
+Disruption Joe (49:50.959)
+Right, so there's a little flywheel in there. I just don't want to think of success only as the sail because there's other things that also push on our flywheel. And anything that pushes on the flywheel is a success that we don't want to skip.
+
+PUNCAR (50:10.301)
+No, this is great point, Joe. Thank you. definitely think like basically our CRM filled with some of this information would be great.
+
+Disruption Joe (50:20.161)
+You're thinking of three things, Pooja, on the buyer side. You're thinking, how do I get a big sale, right? One. Number two, how do I leverage the agent or the buyers to give requirements? Right? And then number three, how does what I'm providing really excite investors as well? Right? And so if you can be thinking of those three things as you're doing and on the builder side, know, Alex, and as we do this fast track,
+
+of agents, right? What's going to excite the most? Well, by exciting buyers for Poonkart side, how would you excite them? Well, I think Poonkart would want that list of, right, here's all the agents that are fast-tracked. We want to see the growth metrics. So if you have to make a trade-off between deeper conversations with five agentic businesses builders versus could you get 300 fast-tracked agents on?
+
+If you focus solely on that this week, your answer is in our principle right now is that our biggest blocker is not having funding. The thing that would most help funding is being able to show a hockey stick growth number. Right. So just to let that principle first thinking help you out. Number one principle is we need funding and we need it fast. Number two is don't skip things that are pressure on the flywheel.
+
+Right? So just because it's not a sail, just because it's not the biggest thing of their putting their whole swarm on, doesn't mean it's not something that will help the flywheel. Right?
+
+PUNCAR (52:05.383)
+Yeah, I agree. agree. Totally agree. Thank you, Joe
+
+I think we are on time, Alex, a little bit.
+
+Alex (52:12.177)
+Oh, yeah, so we're close time. I know we had a big conversation. Joe, I'll follow up with you on that because I think something is broken on the fast track on that part. But or not not broken, but there's something else we should do there. Anybody else have any other thoughts, questions, notes to make before we end here in the next 60 seconds?
+
+Kush (52:35.239)
+Just a closing statement, I for the past few weeks, we've kind of been running all these different experiments which are now coming into fruition. And I think this is kind of like the time now that we need to really tap into our networks as well to actually get them to so that we can start to get an aligned even from a social media engagement perspective, from an agent onboarding or let's say a buyer perspective. So if let's say all the partners that we're working with like Alessandro from Intuition, all of you guys also,
+
+have some requirements on the agent side of things, we would love to know about that. So as Joe mentioned, we have a list of all of these different things that we can go and take to these agent builders. So Ponkar is going to all these different Fortune 500 companies. That's one thing. But then we also have a different, all these engineering consortium here. So if you guys have requirements over there, we would love to know about them so we can see how we can use them and how we can fulfill them and help you guys also over there. So just something to keep in mind.
+
+And yeah, that's it from my side guys. It's been a good couple of weeks. Nice print.
+
+PUNCAR (53:47.655)
+Thanks, guys. Appreciate it.
+
+Kush (53:47.857)
+Thanks, Coach. Appreciate you. Cool. All right, that's...
+
+Alex (53:50.513)
+Cool. All right, that's, sorry. I'm gonna echo for some reason. That is everything from our side. Thank you so much. We'll see you guys next week. Same time, same place.
+
