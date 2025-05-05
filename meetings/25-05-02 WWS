@@ -1,0 +1,329 @@
+James Young (00:02.486)
+Alright, we are live!
+
+Tash (00:03.347)
+Okay. Hi, and welcome to our What We Shipped of May 2nd. So, we've been really going forward in our project and idea flow and vision for Mother. What Point We Came To is actually a part of our project management on how
+
+How can we go fast even though we're in different time zones? How can we recall the context in the different expertise areas? So we're starting this learning process of how to work in a different way. And from my side or from the non-developer side, this looks like this, that we opened up.
+
+let me share my screen.
+
+Tash (01:15.681)
+So what we're doing is actually opening up a GitHub repository where we add all like stand up notes, future notes here from meetings so that the whole team can actually call this publicly and catch up or revisit topics. So if I would do this in my chat GPT and say, okay, what has
+
+been mentioned about the quiz agent on the 20th, like on the meetings, last two meetings, I would get a summary of what the progression there was. So we think this is super important for us growing as into a DAO as well. Just because we're all working on different time zones, we have
+
+different focus times when we're actually doing the work. So we want to become more independent during our flow hours and be able to work very concentrated on our topics. And this is just one small, simple tool that we're using to manage that. We have...
+
+Let me just stop my screen sharing. And then, like we have more to present today, I'll hand it over to James to talk a bit more about our progress in the technical area.
+
+James Young (02:58.613)
+Yeah, thank you, Tosh. And let me put into the chat here the GitHub link to this orchestrator agent that I've been working on. just continuing the thread that Tosh has been saying, what we have realized with Mother is everyone has slightly different context, whether it's coming from
+
+the investment side, the mechanism side, the community growth side, the marketing side, and the onboarding of agent dev side. And so what we are trying to experiment here is using an agent to help be the kind of historian of the organization. People have come and left for numerous reasons and or coming back. And so
+
+they need to get up to speed. And what we're doing is putting an agent front and center with all of the context. And so we plan to have everything in terms of meetings transcribed and put into a GitHub repo so that the agent can have that context. And instead of an agent dealing with the context in isolation, whether it's coding, marketing, growth,
+
+community investment, mechanism design, every facet of the organization. We want the agent to be able to have all of this shared context, including the coding aspect. And what we'll do as well, as we grow the Mother AI Discord, we're going to have an agent be able to read all of the chat history for all of the channels so that we get the community context as well, so we get the sentiment or the vibe.
+
+So we're vibing as a complete organization. And what I put in the link was where I'm at in terms of the orchestrator agent. And the idea here, just over the months, we have this middleware that we've built. And we went straight into execution of this middleware. And in the time, we started this in December, January timeframe after the agent-led hackathon. And the agent-led hackathon
+
+James Young (05:25.317)
+gave us this glimpse into the future that it has to be multi-agent and we needed a registry and we needed to be verified. Along the way over time, what we've seen is maturation in the industry when it comes to TEEs for verifiability and privacy. We've seen the rise of MCP and the rise of ATA, which are protocols that we had sketched out
+
+in our middleware, but the industry is moving so fast, what we're doing is we are shifting over and this orchestrator agent, if you look at the link, and it has a summary of all the context that, sorry, I'm getting a telegram call. It has a summary context of what I've been doing in terms of this multi-agent orchestration. So I went full circle.
+
+where it actually has the agent and it's saved into a context folder and it has two different types of files. One that's for humans to read and one for an agent to also understand. And what this full circle is, is that it has a context of A to A and MCP with five agents. These five agents are Discord formatter agent, quiz agent,
+
+a solidity agent, a community context agent, and the orchestrator agent. But instead of creating the interfaces and the kind of communication between all of these agents, because scoping this out, and you can read this in the GitHub repo if you ask and point your agent or, you know, chat tpt or whatever you use.
+
+You can ask it questions and you can and what I've realized and you can also come to this conclusion and would love to get feedback from others that do this exercise is that you can't have an orchestrator agent Be the main quote-unquote router It needs to be the central organizer and planner and so it needs to at the a to a level know about all these different agents, but when it comes to how
+
+James Young (07:51.788)
+the agents collaborate, it also needs tool calling, so MCP. So what I've done is figured out kind of at a high level how to use A2A and MCP. For example, the account kit agent, the account manager, needs to understand the transactions that happen on chain. So it needs to talk directly with
+
+the solidity agent. There's just too much communication overhead if everything needs to pass through the orchestrator agent. The orchestrator agent needs to know about it, but needs to also let these agents kind of riff on their own and call each other. And so there is this kind of building up of what happens at the ATA level and what happens at the MCP level, which is quite fascinating.
+
+I have this all in the context folder, just stepping through so it's human readable. The progress along the way, it's date stamped so you can see the progress. And then it has an associated LLM's text file for the IDE to kind of get that shared context and get up to speed. And that's what we've seen is important is this context. So I've taken that idea, that abstraction of being able to, for our
+
+for the code only to have context. But what we talked about this week and what we, from an organizational process, now want to expand is that this context building should happen across the different parts of the organization. There should not be a... In these silos, the agent should kind of understand, and this is what Tasha's been working on as well, on the non-coding side. And so with that, there's a lot of work to do.
+
+in terms of going from the starter kit to now this kind of orchestration using MCP and ATA. And then from that, what you'll see in the repo is I was like, okay, well, you have the IDE agent has that context. But instead of like mapping this all out, creating all these interfaces and creating all this multi-agent communication on day one, I have this monolith agent. So the orchestrator agent
+
+James Young (10:18.111)
+embodies all of these other agents with the context of knowing MCP and ATA and it will decompose and modularize this as we go ahead so that we can just release this quiz agent as soon as possible. So there's that additional context as well. And I think that is the most reasonable approach to kind of balance out being forward thinking and have this multi-agent setup that then will
+
+inherit what we've built in the middleware, but right now it's just all encompassed in this monolith agent with the code structure and the ability to componentize but not complicate so that we can get this pull agent released as soon as possible. That's where we are at from a coding perspective.
+
+We hope that this kind of gives insight for other agent devs that want to build in to the registry. And the orchestrator agent does all the heavy lifting with terms of payments, smart accounts, all the things that we have built into the middleware, now going to MCPIs into this orchestrator agent so that we can move quickly and have this fast track program that we've talked about for several weeks so that
+
+We're not limited to just Web 3 agents. We can actually use Web 2 agents as well. And they don't have to do the upfront work of integration. The orchestrator agent does all of this. And again, this is all kind of in context. And you can see the strategy and the implementation. I don't expect people to read everything in the context folder. But what I do think might be useful is
+
+based off of your questions and what perspective you're coming from, you can point it, your chat GPT or whatever, to that context because it's all open source. it should be able to reach out to the internet and you can ask it questions and then it could give you that context because everyone's coming from a different perspective. And this could, I think, more quickly and easily get people up to speed.
+
+James Young (12:44.039)
+And as we decompose and componentize this, it's just going to get richer over time. And this is what I guess is called experiential AI. If you look at what DeepSeq has done, they have alpha proof, which really validates the direction that we're going as well, because they understand that in a multi-agent world, you need to be able to verify all the inference. Let me...
+
+put that I just remembered that I have the link to this and what I will do is I will post it. Let me search.
+
+James Young (13:35.37)
+So I'm putting this into the chat so people can read about this kind of new frontier of experiential AI. so with this, we are trying to get an agent into our community in the mother AI discord as soon as possible, because the real reinforcement learning that happens is not going to come out of these agent devs, but it's going to come through this context, the transcripts from the community from
+
+or the community approach, the strategy, the marketing, the coding, as well as scraping all of the chat history in Discord to then create the experience that the AI will learn from. And this is how we fine tune per community. And this is this kind of next evolution so that you don't have to have these huge gigantic models with billion parameters and weights. You can actually have
+
+just a simple model that understands English or whatever language. And it will then be reinforced by how we're moving forward in our strategy with these different silos that are happening in the business. And so that's the balance here between like being able to have a multi-agent framework and going to market as soon as possible. Because the sooner we go to market, the quicker that our orchestrator agent can learn.
+
+And so that's the strategy here. Yeah, Alex.
+
+Alex (15:09.187)
+And James, so what I'd recommend in terms of how we can kind of progress this forward and we can wrap up at the top of the hour here, like in the next 15 minutes, is one, I'll just give a little bit of background.
+
+where we're focusing in terms of like a GTM for a couple of people who haven't been on a call in a few weeks, because that's probably changed. Two is, James, think it'd be good for you to give like a proper overview of what you've learned over the past couple of weeks from just a contextual AI perspective, like what's happening in AI. like you can tie that back to Mother. You've touched on that a little bit, but I think it'd be really helpful for everyone. And then the third thing is that we can just briefly touch on some of the...
+
+is this model validation that Tosh and I are to work on a little bit. then we can, if Lino or Toby have any other questions or even 08, then we can get into that. Lino and Toby, does that sound good? 08?
+
+Lino (16:04.316)
+Sounds great.
+
+Tobiloba (16:05.325)
+Yes, sir.
+
+Alex (16:05.394)
+cool. And then if obviously if you guys have anything to share, that's also cool. So then quickly, Lino, this is actually directed a lot at you. A couple things to note is that one thing we've decided is that like Mother's actual unfair advantage is the partnership that we have with Collabland. Potentially there is an unfair advantage with the partnership with Guy as well, but we haven't yet figured out quite how to incorporate Guy and work with Guy and everything.
+
+But with collab land, there's an obvious distribution competitive advantage in that collab land has 150 million discord users. And the, and one of other things that we found was that, when we were trying to get, like say, let's just get as many agents into the registry as possible. And we weren't thinking about who our actual users were. It was a little bit hard to make the connection from who the, who the end users are to actually having, agents build out, like kind of what was needed.
+
+Lino (16:35.217)
+Huh.
+
+Alex (17:00.403)
+And thirdly, found that agents actually needed some more support to figure out how to integrate into the mother orchestrator. what that's caused us to do is we've said, let's focus only on Discord, only on community management, because that's where our unfair advantage is. And so how can we make tools that either, community members can leverage within Discord and potentially a future Telegram or Twitter, but starting with Discord.
+
+either community members and or community managers. Let's, let's create agents for them. And, and then we can expand from there. And part of, part of what Posh and Argus are working on next week is some of this business model validation, understanding a little bit more about how much getting spent, what those users need, et cetera. But this allows us to be focused and also allows James a more constrained design space to say, let's see how things are actually working. Mother, mother AI discord becomes the place where we experiment.
+
+Lino (17:35.834)
+Mm-hmm.
+
+Lino (17:52.023)
+Mm-hmm.
+
+Alex (17:58.141)
+But we can also actually go out, find a couple of users, see how these agents interact with them, see how we're able to replace other businesses. And then when needed, we can expand to other distribution systems. But that's why we're really focusing on Discord, community management, community discords, because that's where Unfair manages.
+
+Lino (18:19.533)
+Okay, that sounds awesome.
+
+Alex (18:21.555)
+Cool. And then if anybody else has anything to add to that, go ahead. But other than that, James, I think it'd be cool for Lino and Toby. I know you were hacking away last weekend and you were like, you've been reading a lot of papers and different things. And I think, it would be cool to spend five, 10 minutes, James, allow you to like talk a little bit about it.
+
+Lino (18:39.343)
+I'll see you
+
+Alex (18:49.052)
+And maybe I'll just ask you a few questions to kind of tee you up and allow you to focus there. But like a few things I'd love to hear from you are, can you talk a little bit about the Alpha Pro model from DeepSeek and why that's so important and how that changes the kind of training that you do on models and how that changes what people are able to do in terms of developing AI tools for communities or for anybody.
+
+James Young (19:15.795)
+Yeah, I can try and summarize as much as possible. like I think of it as like multiple phases. So the first phase is you have a lot of pre-training and you have like these frontier models and they have the context scraping the internet and all of this and they're fine-tuned and you have these weights and things like that. But the context is so huge that sometimes this AI has too much context. When it has too much context, it can't narrow it down.
+
+And so that's why it's hard to steer the AI. This is what we've seen previously in the last, I would say, like two years at the beginning of OpenAI and ChatGPT. And it would hallucinate all the time. And so now that was the kind of pre-training phase that moved into this new phase that we're in right now, where it is like you see it with ChatGPT, it has memory. So it has...
+
+reinforcement learning based off of your interactions with that frontier model. And so what it does is it takes that whole vector space and it focuses it on based off of your interactions with the model. And that's reinforcement learning and that's memory. And it takes that into personal context. And so this is why the AI gets better and it knows more about you as an individual.
+
+This third phase that we're seeing, and this is where DeepSeek and I put a link to Alpha Proof, is that actually you don't need a lot of pre-training and you don't need a lot of reinforcement learning. What you do is you have these simple models. They could be base models. You don't need high-powered GPUs or anything like that.
+
+And this also is an alignment where decentralized AI outside of crypto is going, where you have what's called experiential AI. So it's like it knows some human language and it has some idea about the world and intent, but a lot of the reinforcement learning happens in real time. So a lot of these AIs are needing to be deployed as soon as possible to its user base. So it's like,
+
+James Young (21:35.224)
+group steering, reinforcement learning through human feedback. That, the RLHF, happens in real time. And this is why we wanted to go with this from like, what is Mother as a decentralized organization? How can all these people spread out all over the world, as Tasha was saying, in different time zones? How can people continue to have context, continue context? Well,
+
+We save all the meeting transcripts because everything that we're doing is mediated online, so we can save all the interactions. And then the AI can then help answer questions for those that may have different points of view or coming in from different contexts. And this is also why we want to deploy the AI as soon as possible within the context of the mother AI discord, so that we can also then start scraping all the chat history.
+
+from the Discord and then feed that back into the model. So this is this kind of new phase that we're going into and this is the learnings that we have. And this is kind of the direction so that each community will have its own playbook because the values of each community are different and the people in each community are different and its approach is different. And so this is how an AI can understand the vibes of the community. We're starting out.
+
+with quizzes, polls, and quests. Why? Well, this is kind of, as Alex is mentioning, the unfair advantage of Collabland. We just celebrated our five-year anniversary in production yesterday. And what we've seen from a community engagement perspective is that, and this is also based off of what the Co-Unity team has also reinforced, is these community admins...
+
+they need to keep interaction, they need to keep interactivity in their communities. And the go-to interactions are quizzes, polls, and quests. And so we're starting there, and all of the interactions that happen in this quizzes, polls, and quests will be generated by agents, and this is why you have the orchestrator agent reaching out to quiz, poll, and quest agents. These agents also will be ranked or tracked.
+
+James Young (23:56.428)
+because some poll agents or quiz agents may be better than others. How do we track this? We track this all on chain. What we'll do is in the quiz agent, for example, we have C tokens, which is a base of polio testnet token, but it's all on chain. There'll be a pot for people to answer quizzes.
+
+The right answers will get more than the wrong answers and all of that. But every interaction is an on-chain event. So we are taking some of the native interactions in Discord and logging them on-chain. This is how we verify. And then people can actually see the results once the poll expires and closes out who gets test tokens and all of this. That may lead potentially
+
+once there is a TGE event from other, a way for people to verify in terms of this point system. And so this is the kind of pillars that we are starting with in terms of communities, because we know all communities require quizzes, polls, and quests. And then that can turn into on-chain events that are actually happening without having to leave the chat. And this helps build
+
+this on-chain in-chat transaction loop that can be verified. And this is where we will then also be able to rank, or I don't know if we want to call it a reputation, but the orchestrator agent over time, based off of the community sentiment and the responses from those in the community for quizzes, polls, and quests, will be able to rank different agents and outcomes.
+
+then it gets this tighter loop. And we want this not to just happen in a private database, but we want this to happen on chain. So it's all this movement toward this experiential AI. So that's the context in terms of the broader AI landscape, and also practically how we're implementing this. And this is, again, we're trying to balance this kind of forward-thinking, multi-agent,
+
+James Young (26:21.033)
+orchestration with a GTM that is applicable right now.
+
+Alex (26:26.549)
+That's awesome. Thanks, James. And I guess one more kind of, I think, interesting conversation that we've had a lot recently is just a lot of the vibe coding that you've been doing and how what is needed to do vibe coding and or vibe marketing and or any of these things.
+
+And some of the things that you have found successful are also tactics or guardrails that other teams and communities will also need, right? So one of the that the discussion that you and I had was you mentioned when you were on the, the weekend kind of vibe coding, you realized, oh, you had to step back and give it a little bit more guardrails. had to give it some more context. You almost had to architect some of solution and work in claw to architect and then, and then create almost some unit tests. And then that way you could allow the
+
+the curse that you're working with to come to a better solution. We realize that that also applies for marketing and that stuff, which is why we're kind of creating a little bit of this context pipeline to go in with these agents. Because if Mother is targeting these collab land users, collab land communities that want to grow their community, that want to increase their token price, that want to do all these things, they will also need this context pipeline to fit in and give the context necessary to these
+
+cluster of agents that we're creating to allow them to reach that higher level.
+
+James Young (27:43.596)
+Yeah, so the way I would break this down at a high level is it started out with this white paper, right? Attention is all you need. That is the whole pre-training. So the attention is a pre-training. The reinforcement learning is that context. So we went from the pre-training, all you need is attention because that's at the surface level. And then you needed this better context, so reinforcement learning.
+
+So that reinforcement learning gave you that context. Now we're in this third phase when it comes to coordination. So we went from attention to context to coordination. And the experiential AI aspect and where we're going provides that coordination. In order for coordination to happen and to optimize coordination, to put the A in DAOs, you actually first need context. But even before you have context, you need attention. And this, I think, is this alignment that we're...
+
+evolving toward in my perspective. And the guard rails here is instead of going straight into vibe coding, I'd spend an enormous amount of time designing and giving the agent, the IDE agent context. So that's the left side. Before you begin vibe coding, vibe coding is in the middle and on the right side is unit tests. So you can make sure that like if the agent is
+
+doing a feature and it passes a unit test and then you ask it to do another feature, it doesn't delete the previous feature. So all the unit tests have to pass. So you have the context on the left as a guardrail and you have the unit test, the objective measure at the end. And who cares how it gets coded? It could be spaghetti code, right? And as long as the AI agent can like understand it in its own logic,
+
+then that's all you need. it's like creating these guardrails here. So we want to create best practices with the guardrails. I know that some Vibe coders, all they do is hand write their unit tests. They don't allow an AI to write the unit tests. So they know what they're doing at the end, but the design aspect may change. So they may have one guardrail where they know the outcome and then the
+
+James Young (30:09.227)
+the AI agent does its thing and then there's a constraint. then they have to like change the design or the architecture of what they're building. And there's someone, some coders that just have like chat PRD, just create the PRD and vibe that and then have a code. But you don't know if the outcome is the edge cases are met or not. So I think there's a balance and there's some times where you're going to want to use both guardrails. Sometimes you want to use one or another.
+
+And it really is context dependent, depending on what you want to do. But all of this at a broader level, I think, is in alignment with the evolution, at least in my perspective, that we're seeing from attention to context to coordination. And so this is why you need that real-time feedback within the community, within the organization, so that that shared context within the different silos of the organization, the different business units can then begin to coordinate.
+
+And that's where we're moving toward. And really at the highest level, the way I think about a blockchain is it is a truth machine, the relative truth of what is happening based off of consensus. And why is that the foundation? Well, it allows people to then coordinate. It's a commitment. It is the ability for people to coordinate on future commitments.
+
+And I think this is where like AI and crypto eventually will lead to and we want to again be very practical because this can get very philosophical and theoretical and you you see a lot of debates on AI and like the descent D deaccelerationalists, you know the whole paperclip theory and this is how we think we can create these guardrails from a community context and then
+
+you can then bring that up to higher levels, where if you can coordinate a community in this way, why can't multiple communities coordinate in this way? And so it kind of builds on itself, and this is where the exponential kind of advancement of AI is happening, or we see that happening, and we want to unlock that for communities, starting from our own, and this is how we talk.
+
+Alex (32:30.197)
+That's awesome, James. Well, I think we can kind of wrap it up there. But the like we'll wrap it up there from the mother side. I do want to give time to Alessandro, Toby, Lino. You guys all joined us. If there's anything you guys want to talk about what you ship this week, it doesn't have to be related to mother. It can just be give us a couple of minutes and let us know. And then we can wrap it up in about five minutes here. But Alessandro, I know you always like to talk a little bit about what intuition ship this week you want to go first. And then we'll go with Lino and Toby if you guys want to go ahead.
+
+Alessandro (33:00.334)
+Yep, just more readability on our portal and getting AI chat integrated in there for ourselves. I was actually curious. So I know that last time you shared a memo that mentioned kind of slowing down the efforts on integrations with some of the prior technologies and sort of moving toward like a fast track for folks.
+
+Can you share a bit more about the status there? Like are you still using intuition or planning to? Or like other technologies like the other ones or what's the status of the integration stuff?
+
+Alex (33:37.181)
+Yes. Go ahead, James.
+
+James Young (33:37.282)
+Yeah, the integration still remained the same. And so we had built this middleware, and then we expected agent devs to integrate into this middleware. What we're doing is we're embodying this middleware as the orchestrator agent. So it removes the onus for third-party agent devs to have to integrate. And so the orchestrator agent integrates all that. So the Fast Track program, in terms of the...
+
+previous work is still being used and we think that this is a faster go-to-market strategy. So nothing's changed on the Recall Intuition, Nevermind, the Gaia, the Collabland, all of this in terms of all the work that's being done. With that, there is this evolution in terms of the industry with MCP and A2A, people converging on that. That's why this orchestrator agent, you can see again in the GitHub link that I put into the chat.
+
+Alessandro (34:09.546)
+nice.
+
+James Young (34:31.607)
+how this all works. But that said, we want to go to market as quickly as possible. So we're starting out with this context of MCP A2A and this Fast Track program, but we're going to boil this down into a monolith agent at first and then decompose as we iterate.
+
+Alessandro (34:48.944)
+That makes sense. Okay, so you guys have the thing that uses all the integrations and stuff, and it's just that people don't have to integrate it into their own code. Instead, they just plug into that piece, and then that piece will handle all the tagging and the lookup and all the other bits. Okay.
+
+James Young (35:07.181)
+Yeah, the Orchestrator agent has the onus of all of that, and then it just can reach out arbitrarily to other agents, so agent devs don't really have to do anything. But we're tracking this all on chain, so you can verify, oh, this agent was used, and the GitHub repo has all of the IDs, the MCP, the A2A, the task assignment, the workflow, kind of phases that it's in, and all of that.
+
+Alessandro (35:31.29)
+Sick, that's awesome. Thanks for clarifying.
+
+Alex (35:31.945)
+And Alessandro, the one other thing I'll point out to you is that we mentioned earlier that our unfair advantage is like working with collab-lands distribution. So that means we're focusing more on providing value to those communities and those users, which because the focus is on providing value for them, that means that we'll likely prioritize different agents. Whereas before we were just trying to get any agents, now it's the ones that are valuable within that given context.
+
+So I know you guys are trying to get a mapping of all the agents in the registry, or all the agents everywhere. That's probably not something we would have for a while because not every agent makes sense within the context of Discord and community growth.
+
+Alessandro (36:13.476)
+Yeah, but at least for that use case, you'll have the data on those. Yeah, that makes sense. Sweet.
+
+Alex (36:17.205)
+Exactly. Exactly.
+
+Alex (36:22.901)
+And I only know just left Toby. Did you want to give a quick update on what you've been working on with the orchestrator and mother? Ursar in Gaia
+
+Tobiloba (36:31.619)
+Yeah, so at the moment I requested repos from Kush and James. So far I have been putting together information on where Moda has gotten to so far. I have a lot of context on OpenMCP because somebody built it from in-house so I'll be integrating that with...
+
+the AI starter kit framework and the current code from mother. So that's my plan so far is to build the coordination agents with all the information and context that I have. But with the next steps progressing and moving forward, I would start just digging through the repos and looking out on the information that I can extract from there. And I should be good to go to start building the agents.
+
+Alex (37:22.837)
+That's awesome. And yeah, we love just keeping contact, Toby, on like what you're building and kind of how it relates with Mother and like how we can partner together in that.
+
+Tobiloba (37:26.593)
+Yeah, yeah for sure.
+
+Tobiloba (37:33.08)
+Yeah.
+
+Tobiloba (37:36.481)
+Yeah, sounds good. I'll definitely keep you in the loop because I'll probably come back for questions.
+
+Alex (37:43.007)
+Cool. Go ahead.
+
+James Young (37:43.33)
+Yeah, what I would recommend as an exercise, if you're up to it, Toby, is just in cursor, windsurf, copilot, whatever like agent ID you use, point it to the context folder and have it read all of that and then see if it answers your questions. And I would like to see if like there's feedback or things that are missing. And I think that is a new documentation. That's the new readme. In the readme for the repo that put into the chat,
+
+Tobiloba (37:54.273)
+Yeah. Yeah. Okay.
+
+Tobiloba (38:04.78)
+Okay.
+
+Tobiloba (38:08.524)
+Okay, stop.
+
+James Young (38:12.863)
+it actually assumes that you're using an IDE agent. So the ReadMe is just a series of prompts. It also allows you to kind of understand if you wanted to like, npm run dev, if you wanted to create ng-reactors, like all of that stuff, you can do it by hand, but you could vibe your way to that context. So we'd love to get feedback on that if you're up to it to kind of play around with that. And this is how we put agents at the forefront, not only in...
+
+Tobiloba (38:12.876)
+Yeah.
+
+there. Okay.
+
+Tobiloba (38:25.921)
+Yeah. Yeah.
+
+Tobiloba (38:31.253)
+Yeah.
+
+Tobiloba (38:35.403)
+Yeah.
+
+James Young (38:41.119)
+In this case, it's vibe coding, but how we want to put agents up front for everything that we're doing holistically in terms of the mother org.
+
+Tobiloba (38:48.355)
+Yeah, it makes sense. I use Corsair a lot, I'll check that out for sure. I'll even be using that.
+
+James Young (38:55.371)
+Yeah, I use Sonnet 3.7 with its advanced reasoning model. So that's the model I use. I don't know if there's a difference if you use a different model, if you'll get different output from it.
+
+Tobiloba (38:58.765)
+Yeah.
+
+Okay.
+
+Tobiloba (39:06.083)
+Yeah, I'll switch to 3.7 then I'll use that I use that model
+
+Alex (39:14.035)
+Awesome. Anything else?
+
+Tobiloba (39:19.299)
+I'm cool for now.
+
+Alex (39:21.525)
+Great, and then, great, well think that's everything. Thanks so much for joining us. And Tosh, I'm gonna ping you directly, but that's it, and we'll see you guys next week. Appreciate you guys joining us on the journey, and we'll talk to you soon.
+
+James Young (39:36.203)
+So real quick, I know that we have our daily status meeting after this meeting. Maybe we can have it now and we don't have to wait 20 minutes and then have it. So for those that are core mother team, we can jump into that meeting right after this.
+
+Tobiloba (39:36.237)
+Yeah.
+
+Alex (39:42.97)
+yeah. Yep.
+
+Alex (39:54.163)
+That works. And Lino, know you just, or Lino just left. Okay, well, we will talk to you guys then. Thanks guys.
+
+James Young (40:02.155)
+Awesome. Thanks everyone. Bye.
+
+Tash (40:04.032)
+Thank you everyone.
+
