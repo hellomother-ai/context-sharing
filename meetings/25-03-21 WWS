@@ -1,0 +1,452 @@
+Alex (00:06.157)
+so I see a bunch, a bunch of the mother team here and including other kinds of partners of intuition, Starasha, Mugen and, far star. And, and, and so as a reminder, this what weekly, what we shipped is about highlighting the work that has been done, from mother and our partners towards, kind of being this human, this, coordination layer for agents and for humans. and we usually start with engineering. We get into some gross stuff.
+
+And at the end, we save time for our partners to share a little bit and or for any questions to come up. But we'll go ahead and get started with Kush. Anything with Kush on the engineering and product side. Go ahead, sir.
+
+Kush (00:51.157)
+GM, GM everyone. So just to give you a background on like last week, we like scaled the Minecraft servers to like add custom deployers and stuff, which anyone can like launch agents onto the mother registry in like a no code fashion. The goal over there was to like, you know, make it easier for the developers to onboard onto the registry and, you know, just make tools around it to be able to.
+
+allow them to just focus on the business logic. This week, we've kind of like focused a bit more on how we can like use the tech that we currently have with our partners and focus a bit more on the growth side. So let me just go ahead and share my screen.
+
+PUNCAR (01:33.727)
+some.
+
+Kush (01:37.942)
+Mm-mm.
+
+Kush (01:48.443)
+Please let me know. Okay, it's visible. All right. So this week, kind of like taken, the goal was to enable some kind of like mechanism on Twitter, which can get some kind of morality and also like get meaningful information to us and open more pathways to like agent builders and like team building around agents. So for that, we basically utilize the collab land starter kit once again. And yep, it's running.
+
+So what we have is we have like a simple.
+
+post function over here, which can take a particular post and convert that into a post template. But what happens over here is, so Geeta and folks at Collabland have built out this really interesting thing, which is basically a Twitter version of Farcaster frames. So now users can directly interact with a particular application inside the router application. So connect with Twitter and enable all kind of agent-tick workflows and these on-chain interactions on Twitter itself.
+
+PUNCAR (02:32.778)
+Thank
+
+Kush (02:51.197)
+So if I just do like a OAuth here, it'll just open like the normal OAuth flow. So let's see.
+
+Kush (03:06.331)
+Okay, just a second.
+
+Kush (03:35.131)
+So once it's done, can like authorize this application to enable my, you know, fetch my account details and like receive my award token. And now a smart account will be created for, you know, my Twitter account inside this particular iframe that's been built out by Colabland. And it's using like Metamask delegation tool, get unlit action to backend. And through this, I can basically like claim some test voting tokens. So once I do this, you know, a smart contract call is made and
+
+you know, some particular tokens are airdropped to this particular user. So as you can see, the vote balance right now is zero. If I send to address, it'll like create an on-chain transaction and like send to this particular smart contract address. And yeah, I will receive those tokens. So as you can see right now, I received now 10 tokens, voting is closed at the moment. So the goal over here was to like enable, you know, this voting kind of mechanism so that people can like vote on their favorite agents and also nominate their favorite agents.
+
+So yeah, right now the iframe is getting cropped a bit. So let me view frame source and yeah, I'll just pop it out in a new window for the ease of this demo. And like we'll work on it right now as well to like refine it and like open it up for, know, so that it's better for the community once let's say we push it out as a proper campaign. So once this is done, let me just go to the account details as well.
+
+Yeah, let's send to address.
+
+Kush (05:12.859)
+Awesome. now you can see I've got 20 vote tokens. Voting is closed here. You've got these different nominees who I can like vote to or like submit a new nomination based on the name and their Twitter handle. And it costs like $5 vote to like submitting the nomination. So if I just say it as two, so let's say it as two here, I can like submit a nomination. And now what's happening in the backend is the smart account will be interacting with the smart contract logic.
+
+creating approvals, getting approvals for the smart contract and the test vote tokens and creating this nomination on chain. So this is also like heavily reliant on some late actions that are happening in the backend. it sometimes fails, but like three, four times you try it out and it works. There's also some heavy dependency on Twitter APIs. So they heavily rate limit you in the free tier. that, but then users can also like use the same functions to like select and like vote.
+
+on particular things and if I go to the...
+
+Kush (06:30.139)
+Mm-hmm.
+
+Kush (06:34.645)
+If I go to the smart contract address.
+
+Kush (06:39.771)
+Connect wallet.
+
+Kush (06:47.08)
+And let's say I enable the voting for 60 minutes.
+
+Kush (07:00.379)
+Coming back here, transaction has been confirmed. I just refresh, voting will now be enabled. Yeah. And now I can like select and vote for a particular nominee and like it'll deduct from my particular account and send this transaction on chain and make a vote for them. again, this is like heavily reliant on some, uh, Twitter APIs and like lit actions and everything. So, yeah. So like it works. It just, I have to like, we have to make like three to four calls to like get it to work once.
+
+That's basically what the entire flow looks like and the goal over there is to like optimize it and make it such that oh wait, test two was nominated and like added over here. So it kind of worked when we tried it out, it just didn't show it over here. So there are a few, you know, bits and pieces that we need to figure out here and there, but yeah, so that's basically what the flow looks like. That's basically what we're aiming to do with the growth team as well. So code J, you know, we're working with code J to like
+
+make sure we can iron this out and get as much traction as possible. So again, this will be going out sometime next week. So all of the partners who are available on this call, I mean, we would like request you all to support us with the engagement and share your circles as well. Yeah, this is basically something that we have done this week to enable the other teams as well. Yeah, that's it from my side.
+
+Alex (08:21.737)
+And so obviously, a little bit of why this is important, right? Because whenever you're building out some infrastructure, one of the common questions people ask is, well, how are you going to acquire users? What's going to be your beachhead? Or what's going to be some of your distribution?
+
+By leveraging distribution from Twitter and Discord that we have with like a, we have a very large Discord base from a strategic partner, we're able to enable that distribution actually happen. So could imagine someone calling either with Discord or right now with Twitter.
+
+completing a transaction on chain, maybe through Ember or deploying an XO bot into Minecraft or Siraj's new high agent into Minecraft or something. That's why this kind of distribution in this Twitter frame is so important because it allows us to reach the users where they currently are and enable them to interact with agents, which doesn't happen as much in Gita or Kush. If you guys could explain how this is different from Bankerbot or some of these other Twitter items.
+
+Kush (09:18.074)
+Yep.
+
+Alex (09:25.819)
+that allow you to interact on Twitter but have issues with the initial onboarding.
+
+Kush (09:31.291)
+So,
+
+Yeah, I can like add my two cents here then Geeta can go on as well. So first of all, what's happening over here is like completely user control. Like a new account is being created for the user itself, which is linked to their Twitter account. So it's like no one else is taking control of your private keys or your funds. Rather, it's all happening in an autonomous and a very safe manner. So you are getting the tokens and the agents are like making these transactions for you through these delegation toolkits and the actions. So that's
+
+something that's like very different from what Bankerbot is currently doing as well. the goal, like when you look at this particular implementation, it's like a simple HTML page with certain functions and like JavaScript enabled queries built into it. So now the functionalities that you can build out with this is like particularly endless because it's a website inside the Twitter page and you can interact with it in a Web3 native manner.
+
+So it actually enables an entire new design space of how we can approach these public facing campaigns and even airdrops or even some kind of points mechanisms. And yeah, it's basically a new kind of direction for enabling growth on Twitter. So that's why it's kind of really important for us to also shill the hell out of this when we go out with this particular campaign. So yeah.
+
+I'm gonna count every retweet guys.
+
+Kush (10:59.835)
+Geeta, do you want to add something to this?
+
+Gita Alekhya Paul (11:01.728)
+Yeah, first of all, sorry for not enabling camera. I wasn't prepared. But I can give also add to cushiest points. So this is a very common question which like we at Colabland and Mother we were also looking at when we were designing this. Like why not banker bot? So there are there are a couple of things. First of all, the way banker bot works is there's this accompanied terminal with it where you basically generate your wallet.
+
+using preview which is also an MPC wallet and then you can start trading with your so called trading wallet.
+
+The demo which Kush showed is entirely natively on Twitter and as I wrote in chat, there is no third party extension you need to install. That is the third party extension approach was taken by Solana for Solana blinks, but this is like far better than that. So you don't need to trust any extension code that it won't harm your computer. It's already natively on Twitter. The second part about using Lit protocol and delegation toolkit, I think one of the biggest examples
+
+saw was in the recent AI XBT prompt engineering hack. So, like everyone could see how a social engineer could easily you know a hacker could easily social engineer the bot to send them 50th and since there were no direct caps on this and this is what is the case for many MPC wallets right although you know no one has the private key entirely at any single node.
+
+But there is no capping or there is no framework set in place for those EOS to not send X amount of tokens to any other person. But the MetaMask delegation toolkit basically ensures that on-chain. So there is no way you can even social engineer or somehow even prompt engineer the bot to send you more tokens. It simply wouldn't settle on-chain. So these are some of the things which you know.
+
+Gita Alekhya Paul (13:06.048)
+we are trying to take care of as more and more agents go into the wild into the public space and basically what push is building out you can tag this agent and you can do eventually you can do any on chain actions and the wallet which you are controlling is entirely your own wallet and it is controlled by your twitter login.
+
+the colabland account it right the colabland as a provider of those wallets even we do know how to control that wallet it is entirely non custodian in nature. So, this is some of the you know technologies which we have been building on and twitter one was one of the first platform we supported after discord. it very interesting to see that in action now. Yeah that is all.
+
+Alex (13:57.371)
+Awesome. Thank you so much, Geeta. Thanks so much, Kush. I think that's kind of about it from engineering and product. Is that fair, Kush?
+
+Kush (14:07.031)
+Yeah, I mean, this week we were kind of like scattered and I think James has also been moving around a bit for some conference. So yeah, this is basically what we have for this week as well.
+
+Alex (14:15.145)
+Kush, I'll bring you back in when we talk about the agent builders, because you actually have done a ton of work speaking to agent builders, understanding kind of what their projects look like and how to start to integrate them into Mother. And I'll show kind of some of work that you've done there. All right, so that's it from product engineering side. Next up, Joe, did you want to go on something?
+
+Disruption Joe (14:41.941)
+sure, I'll lead in for Puker and yourself. Let me share a screen here.
+
+Disruption Joe (14:57.639)
+Alright, are we coming through here?
+
+Xena (15:01.216)
+Yep.
+
+Disruption Joe (15:03.089)
+All right. So yeah, we went from last week in thinking about the what is the
+
+Strategy or what are the personas and their pathways and then we pulled that into a strategy that we've agreed on here There's there's kind of two strategies we can focus on and we're gonna start by like saying like well What can we say if these strategies are done? Well? And then there's some things that we can say about both of them. So the the North Star is Increasing like the rate at which we put useful agents on to the
+
+Registry, so if that's our North Star and useful means like productive they're generating gross marketplace value So what we could say if we do things well is agent builders are earning X per month This is like the unstoppable passive income promise right one we can supply that two is
+
+that our token holders and the idea of like the Sovereign Wealth Fund is that there's the gross marketplace value is growing. And the gross marketplace value is like the collaborative returns from all of the transactions that go through. So it's kind of like the GDP of our sovereign nation that their networks say.
+
+So how do we get there? There's two sides of this, the validation strategy and the growth strategy. The validation strategy will allow us to say things like, values being unlocked because of mother, or X number of agent builders have monthly recurring revenue above X amount, 5K.
+
+Disruption Joe (16:41.097)
+What we think we can say a lot sooner would be things like, mother has $5 million in total contract value that's in waiting for agent builders, or mother has registered $10 million in unlockable value available from qualified agent buyers. I use a lot of acronyms on here just to save time in creating it. I know that's sometimes a no-no, too many.
+
+On the growth side, you see this is all about validating that there's money to be passed across. On the growth side, we want to say things like we have X number of agent builders, right? This is indicator to our growth of agents getting built. The mothers qualified agent builders are growing by 20 % week over week. We want to be able to say something like that.
+
+We want to be able to say that the professional agent services like Ember, Solange, these builders consider Mother part of the design process. So they go to Mother to see what they don't need to build. Because right now they're thinking, I got to build it all myself. Every single team, there's not one team that's looking at how do I link into another team's agent.
+
+to build. So we need to be able to like we'll know we're successful if people are saying that. Another thing is every week we have three qualified agent builders who share their needs with agent builders resulting in an average of 20 agents per week launching on the registry. So this will come from our growth strategy. Another awesome idea from Alex has been putting together pulling out of the CRM is the number of agent yellow pages.
+
+So it's just like a little yellow pages that pulls information about the different agents. And so the number of visits to our agent yellow pages is growing. the professional agent service builders choose to utilize agents on the registry rather than build it themselves. then these next things are those pathways and what metrics would happen here. So I will...
+
+Disruption Joe (19:04.649)
+Give a quick overview of this one and then pass to Poonkar to get it in a little bit more. The idea at the top is that an agent buyer, ideally we want to add them to the CRM. So our total number that are in the CRM. Next would be qualified agent buyers. These are people who provide a list of tasks an agent must perform. These are the things that has to do time to time correctly. The amount of value they would save or make.
+
+from either reducing headcount or adding capabilities that they could charge for and the amount they would pay to do that. And the reason we would want this information is, well, if just by registering all the buyers, potential buyers we know and finding out how much value they could potentially save or make and what they would pay, we could say, mother has registered X amount and unlockable value, right?
+
+That's the big number that we can share. The next level would be this total contract value. So this is part of the validation strategy that right now we have an example of one of the professional agent services, Solange had a potential client and they're saying, okay, when we go and get a client, here are the things that they asked for us. Here's what the requirements statement of work look for. They want larger distribution. So if us by adding,
+
+lots of qualified buyers to a CRM can be distribution for them, we can ask those companies, those potential buyers, hey, if you're gonna give us the list of agents, can we turn this into a statement of work, right? That you're gonna actually pay mother and we'll pass that onto one of those agent buyers so the agent buyers can say, I am earning X number of month from working with mother, right? So that's the validation side. The growth side, we ask these buyers,
+
+to participate in a community consulting event. Why is that? Well, because if we have an event where we say we have 250K in value of agent buyers, three agent buyers with real use cases, talking to you as developers about what they would pay for, and you can ask them questions about what they need built and so forth, we can get some of the other key personas
+
+Disruption Joe (21:30.803)
+the agent builders, whether they're the professional services or independent agent devs to show up. Right? So this helps us for marketing side. That's why it's part of the growth strategy. And like they hire an agent to do a job or hire something is their aha moment. They see value so we can look at the total value of things signed total spend on agent services. And then by our regular basis is when they become engaged.
+
+And then for a past move, I just you have the same thing over here for agent builders that Alex I went through that you'd add them to CRM. They can then attend a community consulting event or register an agent and then they are either engaged for a validation strategy deal or they have an agent that they built that gets used by a qualified agent buyer.
+
+The end goal being that agent builders want to be able to estimate a monthly recurring revenue that they get from being on mother Right back to this unstoppable. What's their unstoppable passive income from being on mother? Right So all this comes together to inform the strategy I'll pass to punkar to talk a little bit about the Validation strategy here and how next week, you know, we want to have this all all tracked
+
+so that each week we're coming to you with, here are the numbers, we added this money, here's our ratio of qualified builders, here's our growth rate, here's how many signed in agreement or statement of work and so forth.
+
+PUNCAR (23:09.386)
+Thank you, Joe. Yeah, so just to like take one step back, the strategy we are approaching, it's similar to what Salesforce is doing. So Mother, it's basically infrastructure, a product, enterprise product, where we get all the agent builders to like empower the product. But then we have integration partner layer.
+
+which are then integrating with different clients. So mother, it's really like here to like provide this enterprise, a product, which can be deployed on, you know, any chain. we would be working with, with also like a different book chains to deploy our infrastructure on that. then like to integrate to different companies, Joe was mentioning like the strategy, how we get the companies it's through or with.
+
+our integration partners. So this is the strategy we are approaching. The first step is to find the first couple design partners, basically, which will pay some amount of money for like getting the AI work for their product or for their purposes. But maybe we will give them some discounts, you know, there will be some partnership agreement and stuff like that.
+
+but we can also show a case study that how mother actually empowers different AI for different companies. you know, this initial stage is really mother is selling this kind of services in the later stage, it should flip and the integration partners should actually be all kind of Salesforce and growth engine when the product mature more and
+
+One of the first steps, let me share my screen here, is a questionnaire we are sharing with our potential customers. So I hope you can see it. And what we are trying to achieve here is two things. First, we don't know what the customers need at this very moment. We have some assumptions, but it would be good to actually know, okay, I need to automate this.
+
+PUNCAR (25:33.65)
+I'm considering agents here. This is my budget and stuff like that. So we are basically getting some like feedback almost and like inputs to the product design from the companies, but also by asking the right questions. And I don't want to go through all the questions here. I can show it later. We can also get them basically into the discussion with us. And then
+
+keep them updated about our progress and at some point they might actually want to reconnect and use Mother for some of the things they have. So this is really the first step, the door opener for us. The next step, what also Joe and I discussed is like we should have a newsletter where we update our potential customers, our partners.
+
+about how we are progressing, what's the new, what they can use and so on. Because we might meet the clients at the stage where they are not ready yet, but they will be ready in a couple of weeks and we should keep them engaged. So this is basically the strategy and we will be monitoring all of it in our CRM, as Joe mentioned. So if there are any questions, let me know, but that's it from Punkar.
+
+Disruption Joe (26:55.125)
+I think Alex is following up with showing the CRM.
+
+Disruption Joe (27:18.131)
+Maybe, he may be frozen.
+
+PUNCAR (27:20.266)
+Yeah, seems like I like to have some technical difficulties. Maybe is there any other thing we want to present? Zeena, is there anything like from like partnership or investor perspective we want to present today as well? Sorry to call it out.
+
+Xena (27:37.26)
+Unless you want to see the deck, the beach deck.
+
+PUNCAR (27:45.064)
+I don't think it's a... Well, I think we will probably show it next week when we are ready with the design.
+
+Xena (27:52.204)
+Sure. Sure.
+
+PUNCAR (27:58.182)
+But yeah, give us an update on how we are progressing on the deck, what are the next steps, what investors and partners we are looking for.
+
+Xena (28:09.258)
+Yeah, so we took into account all the feedback we got over the last two weeks from the conversations and we are now getting close to having our pitch deck ready. I'm waiting to hear a few more feedbacks from team members. Already lots of the feedback was incorporated. yeah, things are progressing really well there. In terms of partnerships, yeah, really excited to think how...
+
+Kaito and how Metamask could help us with the newest Twitter feature. As I know, Metamask team could indeed amplify the use cases for delegation toolkit usage. So that would be great to have that. And in terms of just like a...
+
+the pipeline for partnerships. Yeah, there hasn't been anyone secured like in the latest, but mostly due to the engineering team working on deploying the existing solutions. So moving in that direction.
+
+PUNCAR (29:21.29)
+Awesome, thank you Zina, I don't think Alexa connected but I think there is another announcement we can make on the...
+
+Disruption Joe (29:24.149)
+you
+
+PUNCAR (29:31.54)
+partnership level or like advisor level, we got a new advisor, Drake, who used to be part of EigenLayer and led the governance there, but he also built, coordinate and been participating in, you know, very early DeFi, DAO governance structures. So he will be helping to monitor, know, governance decisions.
+
+in the future also that's another announcement on the investment actually one thing i noticed is lena do you want to speak
+
+Disruption Joe (30:06.933)
+Disruption Joe (30:14.324)
+Yes.
+
+Lino (30:14.561)
+Yeah, so sorry, I was kind of having a problem on muting up to now but if you schedule me for a few minutes I can just do an update of what a few things we've done with Dana since Breaker Region.
+
+Disruption Joe (30:26.153)
+Yeah, Alex has a space for him.
+
+PUNCAR (30:31.006)
+Okay, cool.
+
+I was muting you just to be fair because I was talking and you...
+
+Lino (30:38.401)
+had a different problem with that, but I reconnected then. I wasn't sure. I don't need to do it now. I was reconnecting, I missed what you were saying. if now is not the time, I can do it the other way.
+
+Disruption Joe (30:41.876)
+You
+
+PUNCAR (30:49.619)
+just go for it.
+
+Lino (30:58.177)
+I just use a random deck template that I had available to put some notes, to put in structure, but in a nutshell, what's happening? Okay, The background that I shared with some of you, just for overview in terms of how we got engaged with Madler is that we were doing the Arbitrum Ventures Initiative where we...
+
+We're developing a strategy for how Arbitrum can create an ecosystem from driving demand for the adoption of the protocol. We ended up with the thesis we call platform crypto.
+
+which has to do with adoption of blockchain-based solutions by FinTechs and SMEs, not SMEs, but by FinTechs and enterprises. There was an initiative called Growed Circles, which we kind of figured out it overlaps quite a bit with work Madari is doing. So, well, we don't necessarily need to follow that structure. That's kind of the background. And what's happened since Breckenridge is that we've been discussing with some of the VC partners with which we've been running this research project.
+
+the overall problem statement that we've been identifying where kind of infrastructure providers like Arbitrum, but also like Gaia, like Mother, like maybe I can have a problem that they all have capital they're raising and they're trying to figure out how to support an ecosystem that drives demand of the infrastructure. So there's a bit of a productized journey of how we are approaching this more broadly that I was sharing with Alex and Joe.
+
+Maybe we can talk about this later, but as part of it, we've been trying to figure out how can we...
+
+Lino (32:35.777)
+create some kind of an intervention or experiment that can help in the context of driving the adoption of mother's infrastructure and driving the adoption of different AI agents that are somehow web-treem-powered. We had about maybe 10-ish insightful conversations with different parties and I just wanted to give you three or four kind of findings and tell you what we might be doing over the next couple of weeks.
+
+First of all from a VC point of view and I guess that's something you guys might be seeing as well But from a VC point of view the way the industry sees agents at the moment is very exciting There's a lot of hype but also very high valuations and there's already quite a few companies that have been backed over the last two three years and They've gotten very rapid set of contracts with businesses They're selling to but the renewal rate is abysmally low, right? So this indicates that while industry is trying to
+
+spend money on that and figure out the AI strategy, the current generation of products are not really impacting core business process in a way that matters for the most part. So the question is where would this change? And we've been trying to formulate some kind of a thesis in terms of where this might change the first and how would that drive the marketplace.
+
+And we've been specifically thinking about who is going to drive the change, whether it's more technical buyers or whether it's more business buyers. And I think if you look at this from a mother go to market.
+
+It might be generally technical buyers, but it does make sense to think about how the industry might evolve over the next, two, three years. kind of what we're intuiting so far is that the biggest change should be driven by business buyers who need to report on how they are responding to systemic changes in their markets or competitive landscapes and are able to demonstrate either how they've created some massive cost cuts or performance
+
+Lino (34:40.065)
+is compared to competitors or responding to their competitors doing that. then the other question is if that's happening in different size companies, where would this effect come the quickest? And we tend to think that SMEs that for some reason might...
+
+the kind of benefit of some kind of an AI technology, would be markets in which these changes happening the fastest. So that'd be interesting in terms of beachheads of how we identify which companies to support in the journeys like that. I wanted to touch on some stuff we found around inter-viability, but...
+
+Disruption Joe (35:31.465)
+Yeah, keep going. This is helpful, keep going.
+
+Lino (35:31.647)
+I am sorry.
+
+Yeah, I was just trying not to make it into, because it might have been easier to express this from some of the examples in cases, because I'm realizing I just drafted these slides five minutes before the call and it just elevate high level statements. But yeah, mean, the examples we were looking at in specifically around ACMEs were
+
+Like one of the cases we've been, and this is not so much AI agent related, but I think it's really interesting and it might be agent related. We've been thinking about where these changes might happen generally in terms of blockchain adoption. And one of the things that's happening in macro in the industry is that there's a very large growth of...
+
+credit funds and a lot of capital is going into credit funds and there was a lot of memes yesterday coming out of the deal that happened between Klarna and DoorDash where now you can spread out your kind of dinner kebab over three payments and things like that and we'll be speaking with people that work in institutional finance about why that's happening there's a lot of things to geek out on but there's a lot of money that's trying to find where to go
+
+And this seems to be one of the areas which because of that is taking going through a lot of changes and what a lot of these credit funds are doing is they're trying to find customers like for example Apple which have products where you can spread out the cost of your MacBook or phone or something like that and these offerings are growing very fast. And normally there's a whole risk management underwriting of credit and accounting layer that's supporting that. And these companies tend to be not that large.
+
+Lino (37:12.993)
+There used to be some kind of...
+
+almost like accounting companies. But what's been happening very rapidly in the last few years is they've been turning into technology vendors, which is still relatively small and they're consolidating very fast. And even though nobody in this supply chain cares about blockchain per se, we've seen a few examples, including in terms of investments friends have made, where these companies are basically saying we are getting significant competitive edge by putting this data on chain and building on chain solutions. And this ended up one of the areas around which we've been thinking about
+
+how to position Arbitrum and I think AI agent solutions around underwriting these credits would be a potential beachhead that's interesting. like that's an example of what I felt was a little bit high level generic statements of how we are thinking about SMBs and enterprises. It's more likely that these players would impact how Apple credits your iPhone rather than Apple figuring out how to adopt
+
+Well, Apple is probably a bad example, but you see what I mean. So we are kind of curious about where we can find a cohort of people trying to find the channels to these markets and support them. And for example, how does mother fit in the ethics system? And I'll give an example with another company we're speaking with at the moment.
+
+But does that make sense in terms of like how we are thinking about go to market?
+
+Alex (38:42.104)
+It sounds like we know what you're saying is that at the end of the day, there's still a gap between companies who are actually actively integrating AI and agentic solutions. So let's go and find people who already started to do it and people who are more likely to move to that. And you're more likely to sell to the team underwriting Apple's work.
+
+because they have systems and processes they need to optimize, and that's where an agent can fit in. And those are the beachhead from an enterprise perspective we can start with.
+
+Lino (39:14.793)
+Right, yeah, exactly. And another example that's kind of, I think, quite tangible around what we talking about here is that one of the companies we're speaking with, it's called PixelPie, and they have an interesting product that allows game developers that want to have on-chain assets in their games to do that in a fully regulatory compliant manner.
+
+So they basically have a solution which underneath has stable coins which are Mika compliant. And they have backing for some of these stable coins that you might use as digital gold in World of Warcraft or something like that that lives in commercial banks in the European Union and so on. And we can talk about why this company is interesting but one of the things that they've been doing for their customers is they've been trying to figure out what additional work they need to do on a per game basis so they can deploy this asset on chain and have it compliant. And ended up developing an internal AI agent
+
+help with that process, where they drive the company through the documents. And what they realize is that that's working quite well. So now they are releasing that as a standalone product. And I think this has a very identified traction with these game developers, the relatively small companies that are changing quickly. And there's an agent that helps with this compliance use case. So this is how we thinking about where, if we identify projects like this.
+
+putting them on a register or on something like mother might create interesting clusters around which there's already tangible business value that's not driven by hype or some massive story that's very VC funded, but rather is driven by customer revenue. And this is kind of what we got excited about from a bunch of unstructured poking around lately. And then we've been thinking about how does interop work with that? I, because of our previous work with Farsight, we have a bunch of...
+
+Like we've done a lot of programs for academic spin outs and we've been investing in lot of academic spin outs. it's easy for me to speak with a lot of people in the research community around AI here. And they are super excited about like, where can you build specialized language models around proprietary data of companies, which is tied to some kind of business person. It's understood kind of.
+
+Lino (41:29.281)
+how some solutions like this would drive business value, right? And an example we are looking at is in particular how Air Canada created the support agent that led to a bunch of lawsuits that acquired Central in creating presidency in American, in the kind of the Northern American scene where an agent basically took the sentiment of somebody's grandma dying and decided that it's okay to override processes, procedures that were kind of maybe right.
+
+and the written in or described within Air Canada to basically give a $3,000 travel voucher to help this person that missed their flight, right? And it's interesting that if they wanna deploy that, then this agent is an example of something that might have to become not only resilient, but is guaranteed by some organizations being trustworthy of whether you can refund flight or not.
+
+building obviously a travel assistant agent, it would make a lot of sense for this to use this other agent internally rather than try to make that assessment itself, right around the specialization and interop type consideration, which I guess is core assumption for MADAR. And...
+
+like everybody obviously in this call has bought into that. But from my point of view, I had a lot of, I guess, internal uncertainty to understand whether this kind of microservice architecture thinking about things makes as much sense in a LEMS. And I'm happy to say that from my kind of anecdotal conversations over the last couple of weeks, people tend to strongly validate that. But there seems to be a lot of other groups of people that also thinking about...
+
+how do you create this interop layer, right? I mean, in one side you need to be able to define what these agents do and on the other side you need to figure out what's the level of structure of the information that they pass to each other. And there's a friend that has a linguistics background that's been working around some of these problems. I hope I will have interesting findings from a follow-up conversation that's pending to share maybe next week on that, yeah.
+
+Alex (43:33.436)
+And Lino, just because we're at time, think my main takeaway here is that
+
+Lino (43:36.351)
+Yeah, I that's cool.
+
+Alex (43:40.142)
+You guys are approaching kind of a go-to-market from a more enterprise b2b perspective, but also like where can they where can we find some almost design partners and create some of these kind of growth circles, but you guys are you guys will talk more about that what i'd encourage you we know is maybe schedule like a design session with myself and car joe and anybody else and we can share more about this but if anybody else has has questions or thoughts for lino I highly recommend you guys reach out to them there they they have they've done a bunch of writing on how they create communities and
+
+in venture and stuff. Thank you so much, Lino and Anna for that.
+
+Alex (44:17.819)
+Joe, did you have any other questions on that?
+
+Disruption Joe (44:21.243)
+No, I didn't have any others. know Alessandro and Sriracha want to get something in quick.
+
+Alex (44:27.536)
+Yep.
+
+I'll show, I'll briefly show the CRM and kind of what we made so you guys have a sense. And then we'll go to Alessandro and to Sriracha. So sharing my screen, I'm working on the Uginetic Builders and the one half of the Marketplace GDP. One of the things we're doing is we're just trying to get a sense of like how many people are kind of, where people are along the funnel. So we have some teams of contact contacted, invited to integrate. And this is where Kush has been spending a lot of times is actually integrating teams for multiple
+
+and doing a lot of hand holding. One of the things that Kush created was an example of how to actually integrate with Mother. He made a Loom video because we're doing a lot of hand holding early on to help teams figure out where and how they integrate with Mother.
+
+And I'll drop this to you guys so you guys can have a look. It includes a bunch of kind of documentation. But one of the things that we're unpacking is that, is that, oops, I guess I'm not sharing my full screen. One of the things we're unpacking is that there is a lot of kind of one-off handholding we have to do because we have to help teams think about how they're going to take their architecture and actually integrate into the registry. Now, let me share my screen.
+
+So here's the quick CRM.
+
+Alex (45:55.758)
+You can see the chart of how many people have been contacted and as we're pushing them down the funnel, there's a lot more work to do on this and especially even think about the schema of are we talking to agentic businesses? Are they builders? Are they tasks? Are they processes? And how do we kind of set those up? And as I was going around trying to push people down the funnel, I realized we don't have a great way to show people like, hey, you should come in and here's some value that we can add quickly because integration takes so long with
+
+like just takes a while for them to integrate for us to integrate. So instead what I made is I made a yellow pages of AI agents and it's coming up here but basically I just started to take some of the agents and collect all the information. So for two reasons, one because I was getting really frustrated trying to figure out which where these agents exist and I couldn't find a good list. And secondly, because now somebody like if we take
+
+Dr. Pepe as an example, and we have some information about Dr. Pepe. It's easier for us to have uploaded all this information and then go to Dr. Pepe and say, hey, can you verify this? So we're pushing them down the funnel easier. But additionally, if this is the early form of the yellow pages, we can start to drive potential customers towards this and have them see value in mother immediately. So this is not done. There's a lot of questions around how we integrate this with schema. But Alessandro from Intuition, I'd love to talk to you about how we can add
+
+some intuition information into this and potentially work on better uploading of all these things. So next week I'll continue to work on this and continue to work on getting more agent buyers down the funnel and integrating our CRM. So that's it for me. Next up we have Alessandro and then we'll have Sriracha and then we'll be done. Alessandro if you're there.
+
+Alessandro (47:48.85)
+Hey, just wanted to share some stuff for you guys request earlier in the call. As a quick update, we're working with some folks in this community who are storing large volumes of data that may not be structured in the same way that intuition does. We're looking at ways that we can provide useful pointers that still have
+
+kind of reputation and stake associated with their usefulness or their relevance to certain things. So that basically if you go on intuition, you can find where data exists, whether that is in Gaia or diffusion or beacon protocol or wherever it may exist. So that's a research topic that we're kind of digging into currently. And I also, if there's just a moment, hopefully my computer will cooperate. If I drop off, feel free to move on, but.
+
+I wanted to show just a few ways of exploring information on Intuition that might be helpful once the agent registry starts growing and folks want to explore that stuff. first off, actually very relevant to what Alex just shared, we're working on a kind card view for information. This is done, actually we're hosting a base
+
+ecosystem week next week where we're going to be asking questions from folks about what are the top X projects. But this card view actually looks a lot like what Alex shared, and it's a way of easily categorizing information so that both can view it, explore details, and you can have some filters about the tags that are relevant for them. So that might be useful for exploring some of the agents that are available through MotherDow if folks want to just see them at a glance.
+
+wanted to quickly share that we are next week bringing back our Portal Explorer. I know that I've explained the subject predicate object stuff of how things are organized here and this is like actually shows what that relationship looks like as a full claim and shows how you can up and down vote stuff, has users and everything. So if folks want to prototype adding information to existing agent things or creating their own agent registry,
+
+Alessandro (50:05.698)
+as like a prototype of how things might look or expanding on the schema beyond the current tags and information that's like the default or minimum viable, that's a great place to go explore and play with that stuff so that we can basically say, hey, this actually looks like a useful tag to the community. Maybe we add this officially as a schema addition to what we already have in the MotherDow registry. And then the final thing I wanted to show was just
+
+early beta of AI chat driven by intuition. So Kush will recognize this query, which is Denver 2025 events would be interesting as a DeFi fan to attend. So this basically has tooling that searches intuition and then creates better kind of forms results that are citing.
+
+information there. So if someone did have a query about in which AI agent might be best suited for a particular task based on the MotherDow registry, they could ask it through this. And this is structured as an MCP server, so it's available for folks to use. This is actually per James's request. So if anyone wants to hit intuition through an MCP server, that's just one more option for how you can access and use that data. And that's all I wanted to show.
+
+Alex (51:31.524)
+Awesome, great job Alessandro, thank you for that. let's connect next week. Next we have Felipe from Storaccia. And then we'll wrap it up.
+
+Alex (51:44.848)
+I think we have to get you on stage, Felipe.
+
+Alex (51:50.086)
+Pankar, could you bring Philippe on stage?
+
+Felipe Forbeck (51:55.617)
+you
+
+Felipe Forbeck (52:02.228)
+Okay,
+
+PUNCAR (52:03.262)
+Yep, you are here.
+
+Felipe Forbeck (52:03.945)
+All right, sweet, thanks. Yeah, so yeah, I'm Felipe from Sorasa and yeah, recently we chat with James and one of the ideas was to integrate, to provide the solution that like this Sorasa solution for Mother now and integrate through a MCP server. So we are in the phase of designing this server and provide this as a, you know, first iteration. And I would love to learn more about the solutions
+
+you guys are building and map out to the pain points so we can actually provide a storage layer that actually works for you and looking at all those initiatives and learning more it's quite helpful so for me I guess pretty much
+
+just learning and mapping out the integration with you. So I would love to get this video from Kush about the how to integrate with Modder and perhaps join to one of those sessions to see how you guys are using the storage layers that you guys are currently using and what kind of resources you guys need to store, how do you guys share data between different agents and all this kind of
+
+you know storage needs so yeah that's pretty much it
+
+Alex (53:29.646)
+Awesome. Thank you so much, Felipe. We have a couple minutes left. Siraj, if you're there, I would love to give you a chance to quickly tell everyone what you made for your agent that you did not get a chance to present on the Agent's Got Talent with Quill.
+
+Suraj (53:46.952)
+Hey everyone So for the agent I think we're still working more it's still a work in progress so what the agent is the is more like just an entertainment agent that has Context across a bunch of different up it has contacts across telegram Twitter and everything folks can chat with it
+
+And then our idea is that if you let's say just it's a fun agent. So if you try to ask it to send an NFT, it might send an NFT to the right person or maybe it'll just send it to the wrong wallet. You try to ask it to send it a token, then it's just gonna, it's just purely for entertainment purposes that the agent you're gonna ask it one question, it'll answer it the wrong way or the right way. And it's very unpredictable. So the idea there is we're just trying to see, can we get something fun with it? So we are trying to launch like a suite of them and trying to
+
+put them in a playground and see how they interact with each other and something fun can come out of it. So it's nothing too specific. We're just trying to get a better understanding of how these agents function. And if we try to let them lose, like what are some of the guardrails we need to put in place? And if we want to do something productive, what are some other things? So that's basically the idea behind this research that we're going through.
+
+Alex (55:02.204)
+Awesome, thank you so much. And Siraj, are you deploying it through mother? Will this high agent be on the mother registry?
+
+Suraj (55:08.146)
+Yes, absolutely. It's gonna be on Mother Earth this day, yes.
+
+Alex (55:09.764)
+Awesome. And will you integrate it with any of the other agents that are on Mother?
+
+Suraj (55:14.92)
+I'll have to take a look at that if anything productive can come out of it I would love to but for now the agent is purely for entertainment our agent is just entertainment agent nothing too specific
+
+Alex (55:26.14)
+Awesome. All right. Thank you everyone for joining. If anybody has any last questions or any last words, go ahead.
+
+Kush (55:32.035)
+yep before we end like just to
+
+give you guys a summary of like what's been happening like last couple of weeks, few weeks have been primarily about, getting us to this point where we are in a position where let's say we can validate the tech that it works. I mean a massive thank you to all the partners for like supporting us with that and like just being there and also being available in the middle of the night to like answer our queries and stuff. So really grateful for that. Yeah, as we're moving forward, the goal is to like, you know, solidify the tech, make the onboarding process a lot more easy.
+
+here and also like focus a lot more now on like these outreach kind of you know outreach kind of action based kind of mentality where we like actually go out to these builders and like get them on board on the registry and also these agent buyers who are like interested in getting agents. So one request that I would have for all of your all of the partners is guys reach out to Pankar and Pankar will reach out to you and like you know, let's get let's get some bounties from your side so that we can like
+
+help these agent builders build out agents for your companies and for your service offerings so that anyone can use your services through the mother registry itself. And I'm sure it'll be helpful to you guys available to brainstorm and see what that offering looks like. I think that's a great way for both of the parties to get activation and more distribution over there. So yeah, that's it. Thank you so much for your continued support. And yeah.
+
+Alex (57:04.028)
+Thanks guys, talk to you later.
+
+PUNCAR (57:06.526)
+Thanks everyone.
+
