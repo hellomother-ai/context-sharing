@@ -1,0 +1,436 @@
+CoachJ (00:00.526)
+Okay, thanks everyone for coming here today. What we're gonna do with our, what we shipped today is we're gonna give high level where we're kinda at and what the next, what we're seeing in the space and what the next couple weeks are gonna look like. And then we're actually gonna be using our time today. It's gonna be boring for people watching this eventually, but for those of you who are here, what we're gonna do is,
+
+James Young (00:00.662)
+That's right.
+
+CoachJ (00:29.774)
+James has put together a really helpful memo that is going to capture some of what we're talking about today, but it's going to be much more extensive. And what we're going to do is we're going to use that as kind of like a foundation to actually get a sense of where we're at, where we're going, and what the plan is specifically. And we'll have an opportunity to comment in the document and actually have conversation around what's essentially a proposal for how we should move forward in the next couple of weeks and even like a high level outline of the next couple of months.
+
+James Young (00:32.673)
+eating like a million years ago for those two women.
+
+James Young (00:54.285)
+You're all right, so maybe it's good.
+
+CoachJ (01:00.534)
+Okay. So, I don't know, James, I don't want to like put you on the spot. I just like, I love hearing you talk. So maybe like you can just kind of set us up super high level. I wouldn't go into too much detail cause you do cover a lot in this memo and I think we're going to cover the juice, but this is maybe just a recap for, you know, the, the, the video does get watched by like a handful of people afterwards. So, for those who are watching it, maybe just give a heads up of like,
+
+what kind of happened this past week, what we're seeing in the market, and then where we're going to be heading in the next few weeks.
+
+James Young (01:36.375)
+Yeah.
+
+So just kind of give some context, we've been working since like January timeframe. And so in January, February, March, April, the last four months, the industry has really adopted MCP, which is Anthropics Model Context Protocol, as a way for agents to do tool calling and call out other things. Google has responded to that with Google's A2A. And this has been just four months.
+
+What we've been working on in those four months is this middleware. So we have the MVP of the middleware. We have also this connection with EigenLayer's AVS for verification. Now it looks like in the four months, everyone's pivoted to MCP and ATA. I just got off a call with NIR and they have the AITP and they're actually going to co-announce
+
+this maybe this is a little bit of alpha, with Anthropic. Because Anthropic's response to Google's A2A is going to be MCP with AITP using nearest payments. what we're looking at now is this ability, because the industry is moving so quickly, we don't have to have like a full blown starter kit anymore. We don't have to have a plug-in system. There are these
+
+protocols that the big players are coming out with right now to capture the market and we're just going to leverage those things and we're going to add to it payment and decentralized coordination because Google and Anthropic specifically are not going to do anything or have any voice when it comes to crypto and they're not going to do anything when it comes to like furthering on decentralization so this allows us to really focus and now this comes
+
+James Young (03:32.109)
+with this, okay, well, what does the mechanism design of the token look like? How does that interrupt with the infrastructure? How do we focus? And so what we're doing is we're readjusting because the industry is moving really fast. So with AI, what we're seeing is this protocol wars actually happening. And for us, wanna just now, instead of having to do the scaffolding that we've helped build out.
+
+And helping build out the scaffolding outside of MCP, A2A, and AITP actually has been really super informative because we know where the holes are. We have the other projects, whether it's Recall Nevermind or Intuition or Collabmon or Gaia or Lit Protocol or MetaMask. We have coordinated. So we are in a really good position to really take it to the next level. And that's what we're trying to figure out right now as we...
+
+do this kind of, I wouldn't call it like a reset, but a real like focus because the industry is rapidly evolving. And that's what this internal memo that Coach J was talking about is about. And there is also a go to market strategy because we've gotten feedback when it comes to integration. So what has also informed the project over the last few months,
+
+was that it was difficult for people to integrate the starter kit. And we don't actually need to have that requirement anymore. We have this fast track program that allows us to focus on this go to market. So with the feedback, with MCP, A2A, AITP, this fast track program, I think we're going to be able to really now focus. And what does that mean when we reorganize?
+
+the work streams within Mother, it means that we're going to really focus on the Mother AI Discord and getting that going. We have on-chain transactions within Discord through the SEEDS program. And so I think we have all the necessary components and we have the leverage because of MCP, A2A, and AITP to not just brass tacks go to market.
+
+James Young (05:53.431)
+That's kind how I see where things are at and I'll pause there.
+
+Matt (05:56.695)
+Yeah. Yeah, I can give some additional context on where the market's at. On the deeper infrastructure side, like LLMs, for example, and inference, we're now seeing the speed of LLMs just widely take over in open source. We have 1.6.
+
+million open source models that you can find on Hugging Face. This was comparable to like 400,000 models in like last August. So the amount of available models that are out in the open that once can see that aren't private forks is scaling rapidly. Now the amount of people that are actually taking these models and building them for their own use cases, that's most likely tenfold. So there's the scale there. And then we also see
+
+The application. So, you know, had DeepSeek earlier this year kind of disrupt Silicon Valley where we once thought, you know, billions of dollars were needed to R &D, LLMs, and that's still the case for a of models, but there's comparable models that only require like $5 million of investment. And so what some folks at A16Z and Stanford are seeing is that
+
+Essentially, the cost to develop these models is halving every four months, and that's likely going to accelerate. And so if anybody can get their hands on a model and you can train one up pretty quickly, that's what we do with Gaia. Then we start to see agents start to have their own LLMs. We start to see knowledge onboard into this space and become LLM enabled. And then once you have that, then
+
+you know, technologies like MCP and, and, know, Google released a to a that's, a lot of it's open source. and even, you know, we're building our own, you know, version of, of how this will work. we're really seeing the robust, push of open source drive the space. Although we see tons of crazy news and in closed source, or more like big AI, there's still a lot of really cool things that developers are team pairing with an open source.
+
+Matt (08:19.141)
+And so it's, it's giant. It's this giant cataclysm of, of open technologies and definitely a new paradigm with AI. It's not, not like, you know, open source, you know, Linux or any of that operating system, or even, even web three, it's very different. And so I think where web three plays a role is thrust. see a lot of the MCP tooling and a lot of the
+
+even like the large language model and open source tooling for using a lot of these AI components. There's a lot of conversation at Web2 around, well, how do we permission, govern, and or trust the entity or digital species that is doing some sort of a task? And the reality is Web2 is going to have one approach no matter what. If you look at A to A, like you're hosting this on Google, and so that's your trust layer, you're trusting Google.
+
+which most of us do for lot of things. But if you want to have a decentralized internet of agents that are doing autonomous tasks, you need a layer of trust. luckily, cryptography and blockchains like Ethereum give us an economic trust layer. And so there's a lot of these really cool big movements happening in this space. But I think what's really amazing is that
+
+we can kind of leverage the energy of what's happening and the momentum that we're seeing and all these open tools and infrastructures. But if we are able to combine all these things and be kind of that trust layer and help coordinate, that's really kind of where the secret sauce is. So, you know, it feels very anxiety inducing that the space is moving so quick, but I think you have to think about it like a, you know, instead of pushing the ball uphill, we're, you know, just,
+
+you know, at the downward slope of a hill, making sure the ball doesn't move too fast. We need to position the path of innovation, not so much push, you know, push the ball up a hill. you know, I think it's just a different mindset. And I think we're capturing it very well. And to James's point, the kind of realignment, the refocus is focusing on on MCP server and firm mother and the
+
+Matt (10:41.727)
+and the registry, enables this trust, cryptographic trust for agent tool calling or just agent inference, for example. James and I have had some calls with everyone individually. I have a few more calls this week, but we're definitely going to be cleaning up shop and just making sure we're focused on a clear roadmap. Again, the space moves so quick that it's very easy that
+
+You know, two weeks in it pivots to something else. But what will make us resilient is if we are a, you know, fast moving team that ships and can kind of reposition with the market on our North Star. So things are cooking. But yeah, just wanted to chime in and give some give some TLDR on what's going on in the space. I just got back from Korea too. So I'm like, I've got Asia specific updates, but pretty pretty exhausted today.
+
+CoachJ (11:43.02)
+Well, thanks for coming on the call, man. Appreciate the context there.
+
+James, before we go to the memo, is there anything else you wanted to add or do you think it's now is like a good time to does that kind of like summarize like where we're at? feel like we have Matt just gave like a ton of context in terms of like what's happening with the space. And I think we ladder that in with kind of a lot of what you shared of where we're at with the project. And it's like very clear why it's it's been so challenging, especially I feel like there's been like a little bit more of intensity over the last few weeks of like
+
+just really just figuring out what is the right way to code, because I feel like we are making some stronger choices now on the direction that we want to head, and there's going to be implications to those choices. And it's again just so hard to do when you have, you know, 60 % of the information and then like half of that might change in the next few weeks, right? So that's kind of the sense of where I get where we're at. And then that's why I wanted to kind of transition over to
+
+the design session kind of part of this, I wouldn't call it design session, we're not designing anything. It's kind of like what we're gonna do is we're gonna look through this document, this memo, we're gonna read through it. It's not a very long memo, it should take about five minutes to read. And what you can do is leave comments in there, and then we'll have some conversations. Particularly what we wanna do is we wanna, James is making an offer here.
+
+of what he's seeing as the best path forward. It's not necessarily like the right choice or the wrong choice. It's just like given what we know and given the trade-offs between gathering more information and waiting more versus like just taking action now. This is what's being seen as kind of like the right way forward. And this is just our chance for anyone to kind of come in, ask clarifying questions, challenge.
+
+CoachJ (13:33.92)
+Of course, if there's other information that we already know about that hasn't been considered, can we- can we challenge some of the- some of these assumptions? So that ideally, the end of this call, the top of the hour, maybe even sooner, we're all aligned that this is kind of the direction that we're gonna be going for the next few- few weeks and, even the next few months, it's kind of in there, but, the- the details about the next few months will get crystallized, after these few weeks pass.
+
+Does anyone have any questions, comments, concerns, rude remarks, anything around this?
+
+Okay, good. So what I'm gonna do is I'm gonna share James's document here, the memo in the chat. There's a couple of chats, I'll share them in both chats. If anyone's like live stream watching this. okay, I already shared it in one. In this studio chat for everyone watching that. So let's just take five minutes. So it's 16 after the hour.
+
+I'm gonna re- we're gonna regroup at 21, 22 latest. 20, let's say 22. And, um, please leave comments, um, in the, uh, document and we can also, uh, have a conversation if you- it's, uh, comment, uh, written down is not enough for you and you wanna just kinda chat it out. Okay. So let's come back in six- in five minutes.
+
+CoachJ (19:20.27)
+I'm give one extra minute for folks to read, because I like just finished. So just take one extra minute there till 23 after and then I'll group everyone together. And Serana, we're in a document, I don't know if you can see the chat, but we're just kind of like async reading this document and leaving any comments and then we'll have a discussion about it.
+
+CoachJ (20:45.774)
+Okay. Let's come back here. Oh yes, and Saran, I'm gonna share the link for you here as well so you can see it. I had feeling you couldn't see it. Okay. James, I kinda wanna hand the mic over to you, because there were like a lot of comments before. So I don't know if you had a chance to read through some of those. It looks like Matt has a few comments, Alex has a few comments.
+
+How do you want to this? Do you want to like run through the document yourself or do we want to hand the mic over to Alex and Matt who had most of the comments, have them ask the questions and stuff like that? What do you think is the best way to approach this? What makes the most sense for you?
+
+James Young (21:27.161)
+I think in this group setting, it's really just getting the context. And I can just, with everyone having read the document, spend like just a minute or two helping shape the context and then would love to have this open conversation. Again, okay, awesome. So we've been doing this for a few months now. On the engineering side, we've built a lot of things and we've shipped every week.
+
+CoachJ (21:43.894)
+Okay, let's do it.
+
+James Young (21:57.113)
+Friday calls have been just demonstrating what we shipped. A lot of what we shipped was agent to agent interaction and coordination. Now, we've learned a lot. We've integrated Nevermind, Intuition, Recall, and Gaia. And so we have the core middleware already done. We see MCP 8a near with AITP.
+
+coming as a response because these big industry players now understand the agentic internet is not going to just happen. There are this protocol wars that are now emerging on the agentic internet. we're going to this new form of internet where information isn't just free. You're not just going to websites. You're going to actually employ programs.
+
+to do work for you or these agents to do work for you. And so what we're doing is recalibrating now that we see this response from the major players and we see that these agent devs want something easy to integrate with. So we now are shifting away from
+
+building every week incrementally on the engineering side and focusing on the go-to-market strategy. And I think that's really the big focus here and that's what prompted me to write this internal memo. So I'll just stop there in terms of context.
+
+You're on mute.
+
+CoachJ (23:42.656)
+Okay, great. So I'd love to open up the floor. I'd love to open up the floor.
+
+I'm thinking that one good way to tackle this is the document kind of is structured in a way that like there is a reflection on like lessons learned and stuff like that. So I wanna just quickly create some space to talk about those. And then I think we should spend most or like the rest of the time talking about the strategic like go forward plan, like the GTM that you're proposing and just consider pros and cons.
+
+Alex, know that you had a number of comments in here, not to put you on the spot. James responded to a number of them in the comments, and I wanna know if there's any for you that you're looking at this and are feeling like they're still not crystal clear that like.
+
+If you were feeling more crisp on it, you would feel much more at ease or you'd feel more excited or whatever it is. Is there anything in particular that comes out for you that you wanna just kick us off? If not, I can pick a few that we can talk about.
+
+Alex (24:46.228)
+I still have to read through them, but I think one that immediately pops in mind is, Matt, this is for you. you dropped in there, on the GTM, like bootstrapping, was under bootstrapping with seeds. said something about would love to have the Gaia node, be like,
+
+like basically have the Gaia node integrating with the mother orchestrator. And I just was wondering if you could kind of elaborate on that. I just saw that you gave a response, but would love to hear some more on that thought.
+
+Matt (25:18.641)
+Yeah, so like this is what Gaia does, but like we can, anything that needs to hit an LLM, like we should be using Gaia, not anything else, which enables us to use any of the, again, any of the 1.5 million available LLMs that are in the open source. So, you know, if it's for the context of the MCP, like I'd have to figure out which model would be best, but we're usually just using Lama3b.
+
+Microsoft just came out with a really cool new model that works really well with CPUs as well. been trying to experiment with, so maybe that's something we test out, but that aside, like basically you launch a node. And so any. Routing to the registry that the agent has to do like we should be able to maintain that herself so then we can actually track the API calls and and any throughputs.
+
+that are coming through from like AI token calls. The only thing we'd have to do is get like an AWS instance up or, you know, Google cloud, or if we want to run it from, you know, some, own infrastructure. be it. Like we have some in our office, have like a couple of Mac communities we could run it from. think the mother LLM is actually running from our Mac meeting in the office. But like,
+
+I can get the team to spin this up. It's not super hard. But I guess what I'm saying is anything that's touching in LLM, we should be hosting. We should not be going to any Claude, Anthropic, Rock, Llama out of the box, OpenAI. None of that. We should be using our own.
+
+Alex (27:06.498)
+Yeah, and I guess there's like two places where that LLM could end up being used. One is like the orchestrator itself might use an LLM and that would obviously go through Gaia. And then any of the individual agents might just replace their open API call with a Gaia.
+
+Matt (27:26.953)
+Yeah, so I'd love to see like with the seed seed kind of program we have going there, like to me, that looks a bit like a test net. I think that would be great to have kind of this running as a, as a, as a test to see kind of agents on the registry and agents, you know, being trusted to operate tasks. If we can somehow get that.
+
+get those metrics in either API calls or token calls or some sort of on change verification. Like that, that's going to be very helpful for us doing like going to the next level of things. Like running a proper consensus network of orchestrators. It's really tough if we're, you know, if we don't have like metrics that go off and we know what I mean? Like I've been actually in our struggle for the past few months is like, we don't know how to track.
+
+developers and agents that are utilizing our stacks. And so that's what I saying is like, if we have a node, it's really like, we can borrow the guide infrastructure to start creating KPIs around very clear engagement like API calls.
+
+James Young (28:42.765)
+Yeah, let me jump in here. That's exactly what the seeds are. It's a testnet. This is like the mother open registry. And we call it a point system because we want to allude to some possible future reward when there is a TGE. And this is all on chain though. And so this is exactly what the testnet is for. And the mother orchestrator agent, I 100 % agree, needs to be running on a GAIA node.
+
+And this is in line with the Fast Track program because what we are trying to do is get the agents in the registry. But what we're going to do is basically scrape these agents, put them in the open registry, and all the work is from the orchestrator agent so that these agent devs don't have to do any integration. So what we'll do is we'll have this orchestrator agent run on a Gaia node.
+
+and it will reach out to this open testnet registry. People will interact with it in Discord. And so this is why I wanted to put out this internal memo is this shift toward this go-to-market strategy because we need to be focusing on on-chain KPIs.
+
+Alex (30:01.326)
+And a question that I had, sorry, I'm not sure if you guys answered it already was...
+
+So in terms of the seeds right in terms of season getting the test net is the focus like is the drive for that towards? Test that to test the product right like is this thing breaking like the tech the technical risk Is it to have a small demo to sell to other communities or is it to get enough throughput and agents to like raise funds or get grant milestones?
+
+James Young (30:33.195)
+I don't think it's an either or. I think it is all-inclusive. So that's what it's called a shelling point. Just doing all of this interaction on chain within the mother discord AI helps with all of those three points. We don't have to decide which one we should focus on. think what we're trying to do is create these shelling points so that we can demonstrate all three. So that we see the demand from other...
+
+from users so that we can see these KPI metrics, which would then allow, and this is why the point system is in play, because there is this kind of incentive because they know that they'll get rewarded, these users. It helps with grants, and it helps with scaling the system. So it's all of them in kind of just one shot, or single focus.
+
+And that's why I wanted to get us focused on this go-to-market strategy because based off of the feedback from the last month, we need to just deliver KPIs.
+
+Alex (31:40.386)
+And I think that's like if we can get more crisp on like what those KPIs are and if those KPIs are for investors, grants, or just for our own to like see that, then I think that'll allow us to be more focused on that, right? Now, but fair enough. Then going back to the question that we talked about yesterday, James, I dropped this in the conversation.
+
+Like with Discord, do we focus on the users, the community members, or do we focus on the community managers? Because the community members who are asking questions, there's not as many things that they might ask that add value, where Mother can actually replace those with agents immediately. Whereas the community managers, there's a lot more value that they can ask for and that they might want. How does that fit into this GTM, you think, James?
+
+James Young (32:32.761)
+That's, I think, part of this, what Coach J was referring to or alluding to in terms of like a design session. You know, we have to be able to understand, one, what the KPIs are, what's gonna move the needle the most, and what are the agents that these end users are going to want to interact with, or maybe it's the community admins through these campaigns. I think that is this.
+
+Alex (32:38.957)
+Okay.
+
+James Young (33:01.293)
+not calling it a reset, but just go to market strategy now. Like, what is that? So I don't have a strong opinion on that. This is where this is about building up and cultivating the mother discord community and what's gonna move the needle based off of what we decide in terms of those KPIs. So I think that's the crux of this conversation that we're trying to move to now.
+
+and let the core Mother team know and understand this is the focus. I don't have the answers. I think this is what we need to come together and get information on based off of our perspective of where we see the Mother Discord is at and what's gonna help drive on-chain transactions in the Mother Discord.
+
+Alex (33:36.365)
+Yeah.
+
+Alex (33:58.222)
+Awesome, thanks. And I guess one more question for Matt. Matt, I just wanted to confirm, because I know James talked a few times this week about how you had mentioned Gaia, like we could run everything through the Gaia node. And that is exactly how we were talking about it. Basically, any agent who's on the mother registry can leverage a Gaia node instead of using OpenAPI or...
+
+Matt (34:21.09)
+Yeah, so not like a, I wouldn't say everything, but I would say anything that requires, can you hear me? yeah. Anything that requires LLM or any kind of a, yeah, like any, any like LLM calls essentially. But anything that's like a app layer, agent app framework or MCP or, you know, our ATA, you know, kind of
+
+Like both kind of approaches, all that is happening on mother with the registry.
+
+Alex (34:59.638)
+few more questions later coach J but we can we can go to other people if you want.
+
+CoachJ (35:04.872)
+Does anyone else have anything to add? I think these are these are great questions so far. Does anyone have anything that is burning that they left as a comment that they'd like to see as well? My personal interest, like I'm biased toward just kind of like getting into what does the next few weeks look like because I'm mostly aligned with like the overarching strategy. But does anyone else feel like blocked by anything that if they got it cleared up, they would feel much more energized about what they're doing over the next several weeks?
+
+CoachJ (35:44.928)
+Okay, good. Silence is good. Silence means that we're nodding our heads and like, yeah, this is starting to become more clear. Yeah, Alessandro, please, go ahead. Yeah.
+
+Alessandro (35:53.702)
+Sorry, just a real quick question. I don't know if this is more appropriate for a follow-up engineering stand-up or something, but James, we doing any A to A related changes or any intuition related stuff in the coming weeks?
+
+James Young (36:13.433)
+Yeah, I think that it's really twofold from an intuition perspective. There's going to be, I think, a standard. I don't know if it is going to be A to A or upcoming competing standard with MCP and AITP. So I think we combine the two for now and we let the market decide. So.
+
+The great gift that Google has given us is to be able to know what this metadata looks like. So we don't have to figure out and create the standard on our own. Let's just go with what Google has said and augment that with what NIR has with AITP. And then we'll see when, so there's a partnership between Anthropic and NIR.
+
+to do A to A with payments alternative. So I would say on the intuition side, what we do is we just combine both of those standards into the metadata that will be informing the triples.
+
+Alessandro (37:30.202)
+Make sense. Are you guys like actively doing intuition, like a development that touches intuition in the coming weeks or not yet?
+
+James Young (37:37.177)
+Yeah, I think it's just settling on that metadata standard. And so with our go-to-market strategy, instead of creating our own, I know we have our own schema, let's just pivot that toward what's compatible with A2A and MCPA ITP.
+
+Alessandro (37:55.174)
+Cool, and you guys are gonna update the form.
+
+James Young (37:58.797)
+Yeah, yeah, and we'll just scrape and then put it in. Essentially, we're just gonna be onboarding these marketplaces based off of the agents that are relevant for the mother AI discord. And then we'll just populate the registry on their behalf so they don't have to do any work. And that's what Google, Nier, and Anthropic have given us is that starting point. So we don't have to scaffold that ourselves.
+
+Alessandro (38:16.304)
+Nice, okay.
+
+Alessandro (38:25.702)
+That seems like a good approach. Thanks.
+
+Alex (38:33.422)
+One of questions that I had was, Matt, for you, what are you hearing from other ecosystems and funds and et cetera? Because I think one of the things that's missing in this internal memo is the funding side of this, right? Where will the funds come from to continue this? There's kind of three options, grants, fundraise, I guess four options, grants, fundraise, like a TGE, or just straight revenue, which would be unlikely to get that.
+
+that quickly. What are you hearing from funds or from ecosystems in terms of what they care about?
+
+Matt (39:08.85)
+I don't think any of them know what they want, to be honest. I also say the venture ecosystem is, what's the word, burnt out. Macro is not very friendly to business right now, so I think there's a lot of uncertainty for a lot of reasons. I think folks are really on the sidelines right now. People are still deploying, but
+
+Alex (39:12.184)
+Yeah.
+
+Matt (39:39.792)
+A few of the voices are not really seeing major deals that are coming their way and really hard for them to tell. If a lot of stuff is open source, it's really hard for them to understand where the mode is. So if we're not developing the mode yet, it's really hard for them to invest. you have a lot of open source projects like Anthropic that are...
+
+leading MCP and then you have Google come out day to day and you have, you know, even Nears doing their own, you know, model that James was talking about. It's hard to understand where the industry is going if the funds not AI or Web3 focus. There's just a lot of confusion on that side of things. So think for us, our best bet is to just
+
+They focus and try to drive metrics. I would try to go for some grants. That's where I prioritize our time. There are some ecosystems that are looking to explore how this would all work, but venture is kind of rough right now.
+
+Alex (40:50.734)
+And in terms of the like, I I don't know if you know this answer as much, but in terms of the grants that you're hearing of like what ecosystems care about, obviously a lot of L1s, L2s always care about transactions, right? New York cares about payments, the transactions coming through and that people are leveraging payments. Are you hearing anything else from, I guess, other places where there might be grants or if anything is changing based on the way that AI cares about it? Or is it still just all transaction based?
+
+Matt (41:17.244)
+I have spoken to a lot of these ecosystems. Again, I don't think they know what's coming. I still think they don't understand that inference, for example, does not require financial settlement. It requires consensus. And so bringing inference into your L2 is a different dynamic than on-chain transactions. And so I think they haven't understood the metrics yet.
+
+securing trust for agents, and even securing tasks to those agents on their networks. I think in the next 12 months, they will be fighting for that inference. But right now, they have no idea what it is. I haven't met a single ecosystem that really understands what it is. It's going to hit them really quick, though.
+
+Alex (42:09.656)
+So what you just said is actually super interesting, James, what you mentioned earlier about we need to be driving towards on-chain KPIs, right? And say you're a large L2 or an L1, and you want transactions like on-chain. You want settlement on-chain, right? And we have to be able to drive some KPIs for that, some activity. What would be the activities that would be settled on-chain coming from a user prompting and requesting something in Discord?
+
+James Young (42:40.793)
+We have tipping, raindrops, then just rewarding people in seeds.
+
+Alex (42:45.856)
+So obviously like financial things, right? Yeah, for sure. I wasn't sure if there was anything else.
+
+James Young (42:52.825)
+I think that it, so seeds are test net. And if we can drive volume and transactions based off of these campaigns that we have and people using AI or these agents, like there's really no significant difference besides the financing, because test net tokens don't accrue any real value to then just go onto a chain. And I think this is where Matt was saying,
+
+these grant programs for these L1s and L2s, they want to drive traffic to their chain. So if we can show that, we can do that through the Mother Discord, then that will show two things. One, that we can drive transaction volume. These agents never sleep, so they can actually continue to help prop users in the Mother Discord to do whatever things that we can.
+
+promote them to do because in the future we may have a mother TGE and those testnet tokens will turn into real world value. And then two, you'll see these on-chain transactions. those are the KPIs that we want to show. It's not that we're like trying to say these agents are generating this amount of revenue because they're testnet tokens. So there's a difference between
+
+incentivizing the users in the discord to gain more points than actually generating revenue.
+
+Zer8 (44:26.323)
+generating revenue.
+
+James Young (44:31.267)
+So that's why I wanted to make this memo clear. It's like, we're not trying to get into revenue generating agents. That's not part of what mother's value prop is. It's not.
+
+trying to get a transaction fee from all of these agents and helping with that coordination. We're not a marketplace. We're a curated registry. And I think there might be some ambiguity there or assumption that like we need to be driving agent revenue. We need to be driving curation and the value of curation.
+
+Zer8 (45:14.442)
+on the financial side do you think that so if we execute Like a good community strategy and like the market kind of shifts positively Shouldn't we try to do a second note cell like a bigger one with a bigger splash that
+
+I feel just observing from what other orgs in the space have done that I don't know if that's gonna be like sustainable long term but I think it could help us to kickstart like and get the like fuel we need in the short term because yeah it's if we get enough people to care about what we're doing that's
+
+and get them to be a part of the project that's gonna be like the secret to the second note cell that that we want to be more successful than the first thing so i don't know if anybody how you guys feel about that
+
+James Young (46:19.705)
+You may not be able to get it up on Tuesday. They it to us like Monday night. Yeah, I mean I'm open to it and this is why we need to be engaging in the, as they say, in the arena. So when the market does come back, we are well positioned and this is why we need to keep on delivering and continuing to show traction. So when the market does open up, we're already there. So not opposed to it. I don't know what that looks like at the moment though because the market hasn't opened up quite yet and we don't have the agents in the open register.
+
+So we have this bootstrap issue and this is why we have the orchestrator agent and this fast track program instead of trying to have agent devs integrate into the registry and do all that upfront work. We're going to do that upfront work with the Gaia orchestrator mother agent initially. And then this is why we have the seeds program and the tipping and the raindrops and being able to use these seeds as a test net to be able to...
+
+on testnet pay these through the mother orchestra agent as a proxy on behalf of these agent devs.
+
+Alex (47:31.244)
+I guess I can't raise my hand here, I think it would be cool to hear since we have Matt and we have Alessandro on, like to hear kind of what Gaia's strategy is and what intuition strategy is, because that can give us some context and kind of open up this little bit. Like once we're kind of done with this internal memo.
+
+Alessandro (47:53.658)
+Yeah, I'll just speak on intuition side. We were just generally creating a knowledge graph of everything. And I think so far it's been with our portal backup, it's been really easy to prototype stuff. So we're hoping to just be useful to you guys as a way to build a registry quickly, but also in general, we want to see
+
+people map out the ecosystem of AI and agents and stuff like that. we have like downstream benefits of like people being able to search for these awesome agents and what they can do and explore the topic and get metadata and do all that. And they're also just working with folks on how to manage like data that goes into those agents and all that. So we're learning a lot in the process just by supporting you guys, but for us, it's been very light work.
+
+Matt (48:51.117)
+And then we're just from the Gaia side, looking to, we want to increase agent demand. We want to see more agents out there doing autonomous tasks that require a lot of throughput for inference. And then we ultimately want Mother to be its own inference provider. Through Gaia's architecture, Mother could have thousands to hundreds of thousands of nodes in the future where
+
+They either serve under one domain like mother.gaia, which is built on ENS, and they serve kind of LLM wrapped API endpoints to agents for various tasks. And then each of those nodes are inference agents themselves. They're all LLMs. So you could have, you know, these agents on the infrastructure side actually coordinating with one another with the registry.
+
+So not really like application front-end agents, but they're still agents. So we want to increase the use cases of making mother a ton of AI provider, but starting slow.
+
+Alex (50:05.61)
+Just out curiosity, say like a very simple example of how a user could leverage an LLM within Discord would just be to almost have like an open API endpoint or a llama endpoint through Gaia. Couldn't we just have a collab land bot that you're able to ask questions to that basically all it is is calling chetchpt or open AI or something?
+
+Matt (50:33.947)
+Yeah, exactly. The mother agent on Discord is just calling to a Gaia node. So we trained it on some language and context, used llama3b for an open source. And then Carlos deployed it in 10 minutes and then probably took him half a day to train it. And then now the agent that's there in
+
+Discord, could be Telegram, could be Farcaster, could be Twitter, it could be the front end of a website. You can use any of the more popular frameworks out there like Coinbase Agent Starter Kit, Gladland Agent Starter Kit, Eliza. And again, instead of calling to centralized LLMs by API and getting API access, you could just go and call your own guy a node or you can call any of the nodes that are public.
+
+And eventually we'll have a network where you can go and source a route to which ones you want to use, and you yourself can be a provider to that network.
+
+Alex (51:42.414)
+Because James, one thing we're hearing is that, I mean, we thought about doing a mother agent a long time ago, and I think we have it in the mother discord. But if that's like the V0.1 of the mother orchestrator, where people are just able to ask questions and get certain things done, and then we can start to integrate.
+
+We can start to integrate the other agents as we have them or as we get them. We can really start to keep track of how many prompt response are happening. It's not translating to open KPO to on-chain transactions, but there is something happening, right?
+
+James Young (52:20.161)
+Yeah, but what we're trying to do is we're going to give and incentivize and reward people with seeds, which are on-chain transactions. Does that make sense?
+
+So we're tracking that on chain and off chain. That's what the Fast Track program is for. That's why we launch seeds. That's why we launch dipping. We can show engagement.
+
+Alex (52:49.102)
+Do we have any metrics on it? Oh sorry, I was gonna ask. Go ahead.
+
+James Young (52:49.774)
+DC.
+
+James Young (52:54.433)
+Yeah, these Cs are on chain. Like, you can go through ether scan, go to base scan and look at Sepolia and you can see who's transacting. Like, I think it's important to show that these aren't just fake metrics. These are actually on chain metrics as well.
+
+They're not financially incentivized. It's a point system, but it's on chain.
+
+Natascha Tiotuico (53:23.488)
+For example, when you see our means and art submission, you can tell who tipped who and who submitted. you, like, if that were a mother who started the competition, then you would see how much interaction did this event bring that mother started or like
+
+If you do a quiz master, would see like, an agent that created a quiz. You would see there were so many participants, like maybe you have to pay an entry fee of five of 50 seeds or something. And then you would have all these interactions on chain and show how much value does which agent bring or how much interaction does an agent cause in a discord.
+
+James Young (54:24.365)
+That's right. I mean, these are the things that the orchestrator agent can now help provide in terms of community engagement, and the point system is on chain. So it's not that the point system is any kind of financial reflection on what the agents are doing, but you can show on chain engagement.
+
+CoachJ (54:48.847)
+Yeah, and like the way that translates to actual value is we have time to figure this out, but like I imagine in the long run, like remember it's kind of like whose lines it anyway where the points don't matter. The seed, the number of seeds don't matter. It's the number of transactions that are accomplished. So, you know, for the not the airdrop farmers who we naturally attract.
+
+If they each do five tipping transactions, that's like five points that we're going to try. Like we're tracking the number of transactions that they're doing and they'll get an airdrop accordingly. Same with the agents. So maybe they'll be very specific. You know, we'll have X amount of agents. They'll be very specific requests, but for every request that an agent fulfills, we'll see a transaction. It doesn't matter how much they paid for it. We'll see a transaction and that transaction will be proportionally awarded.
+
+to that agent in an actual future airdrop and then they can use those tokens to do, know, ideally to stake and to join our ecosystem. Or they can sell it and they can just like, you know, piece out. But that's kind of like essentially the idea. That's how there's financial value in the future is there's kind of like the idea that this may happen.
+
+James Young (55:48.025)
+So should we go back to Twitter? Follow us on Twitter.
+
+James Young (55:57.143)
+That's right, exactly.
+
+James Young (56:06.434)
+That's right.
+
+CoachJ (56:07.855)
+Yeah. Okay, we have two minutes left.
+
+Any last-minute? Yeah, go ahead, Alex.
+
+Alex (56:13.538)
+Let's last question. Do it. We've been in the seats for a couple of weeks. Do we have any metrics on how those gone so far?
+
+CoachJ (56:22.205)
+No, and it's because honestly, there's been very little, very, little. think Tash can pull some stuff up. We have the contracts that we can analyze, but like most of the transactions has come from our moderators. Because, yeah, go ahead Tash.
+
+Zer8 (56:38.722)
+The last days actually actually we have been seeing more activity. Yeah I'm not muted. I think we're we're doing fine in Discord like taking into account all the like inner dynamics so we kind of have like 10 people.
+
+Natascha Tiotuico (56:40.996)
+The last days actually we have been seeing more activity. Sorry, 08 maybe.
+
+CoachJ (56:52.347)
+Yeah, zero, can you mute?
+
+CoachJ (57:04.145)
+Thank you.
+
+Zer8 (57:07.308)
+that are actively 10 to 20 hyperactive community members that are tipping each other. that's really good because we didn't trigger them to do it. So they just did it on their own and they're also kind of creating graphics supporting us. So they seem to be like our like our first layer of organic community contributors. So we people that I guess we could count on and now I think we just have to kind of figure out like
+
+CoachJ (57:17.296)
+Yeah.
+
+Zer8 (57:37.118)
+a community strategy coupled with a marketing strategy, but I've been discussing that with coach and Natasha and like been mentioning that in the call. So I'm going to be personally, am I until Wednesday because I'm celebrating Easter here. But after that, like, and I'm going to be active, but after that, I'm going to be like fully involved in like how to really activate and get pulled a lot of people into doing that with coach and Natasha.
+
+CoachJ (58:04.625)
+Okay, we are at the top of art thing, Zer8. And so like, yeah, I would say that KPIs right now are not statistically significant and that's totally fine because Tash and the Co-Unity team, they're sourcing a platform that we can use to track all of these on-chain transactions more clearly, like a Galaxy type thing, but maybe not Galaxy. And we're going to open the aperture up for this. So right now, like Zer8 said, we had 10 people.
+
+Zer8 (58:06.646)
+Yeah.
+
+CoachJ (58:33.893)
+That's not a significant KPI right now, I would say. And so we're gonna hopefully get that to a few thousand people in the coming weeks. And that will kind of be our test case of this is how it's working. We're gonna use Passport to gate the server, make it really hard for farmers to come in. And ideally that will be kind of like the metrics that we get to show from this.
+
+Zer8 (58:59.65)
+The good part is when we are 1 % there so we are 1 % our goalie
+
+CoachJ (59:04.825)
+We're one percent there. I'll take that one.
+
+Natascha Tiotuico (59:10.422)
+But even in support, have had people asking, like having troubles with the tipping system, but seeing, I want to be a part of the community, so this has to work for me. So we have had that those interactions, which are very nice to see that people also feel the need to tip or like want to be a part of that. So those are just some.
+
+some quotes from what we have in the community, like some sound bits.
+
+CoachJ (59:47.547)
+Amazing things.
+
+Zer8 (59:48.138)
+Yeah, mother really adopted some people like it's a...
+
+CoachJ (59:52.781)
+Okay, all right, we're we're two minutes over. So thanks everyone for coming in and thanks for the engaging conversation and we'll see you all next week.
+
+James Young (01:00:05.271)
+Awesome. Thanks everyone.
+
+Zer8 (01:00:06.472)
+Thank you everyone. Bye bye.
+
