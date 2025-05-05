@@ -1,0 +1,238 @@
+Mother Daily Standup - April 21
+VIEW RECORDING - 49 mins (No highlights): https://fathom.video/share/SKV3Qx98gDMJSkFenJfaGNvxxeegVxJn
+
+---
+
+0:00 - James Young (Collab🤝Land)
+  Some initial agents, as we talked about at the end of last week, we have three that Tasha's identified and wanted to review that.  Also, Matt wanted to have a chat with people. I don't know if he's done that or completed that. I think he wanted to have an individual chat.  I recommended that we have a group chat. And he said he's ready to go and get back to helping with coordinating and figuring out where we are with mother.  So there's some organizational HR, I would say, things that we should also discuss here. So with all of that, I just wanted to welcome everyone to Monday.  And that's kind of a hodgepodge of agenda items, but open to feedback as where we start.
+
+0:55 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I'll give an update. We met today. And so from a community side, I. We're pretty clear on what we're doing and how we're proceeding.  So basically, over the next couple of weeks, that will kind of unfold. I had a question, but I want to talk about agent onboarding and how things are going specifically, if we have any updates from GigBot.  Because really, what I'm thinking about is just like, how soon can we get agents onto Discord? And how soon can we get users connected with those agents?  I think that's probably what I'm seeing as the biggest bottleneck. So I had basically three questions about that. So the first one is, I'm curious about, I'm just doing a ton of my own time doing workflow automations on Make and N8N and stuff like that.  And there's very robust capabilities, which I'm pretty sure, sometimes we use the word agent, but we don't really need agents, we just kind of need like some pretty clear, like workflows.  So- I'm wondering, even for some of the ideas that Tash came up with, I almost have mapped out basically a scenario for a simple message that just sends, basically, if you send a message to a certain channel, basically, if it doesn't include attachment, it just says, hey, send this back with an attachment.  And if it does, you can go through a GPT kind of, like, generated prompt, and would basically send back a message as a poll.  Now, the poll function, I haven't figured out yet, because it's not actually one of the options here, but I can imagine us using even something like either their API or even an existing box, and we could do that ourselves, and then I think we can get that up pretty quickly.  And I'm wondering how many of these agents we can already set up in the back end to kind of do this, because they don't really need a reasoning, folks, and it just needs to check the chat box.
+
+3:00 - James Young (Collab🤝Land)
+  Right? It's not reasoning about which app should I use to do this. It's actually just the chatbot.
+
+3:05 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And if it's just the chatbot, it's much simpler than, like, an agent who has multiple tools at its disposal and, like, chooses one of those tools, right?  Yeah. I think this is a great kind of iterative step.
+
+3:18 - James Young (Collab🤝Land)
+  I mean, you know, we talk about all these different use cases and what we want, but we need to start somewhere.  So, yeah, happy to explore this option or these ideas. Okay.
+
+3:32 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So I'm going to probably hack on that tomorrow and, like, just look at making one of these, like, kind of, like, pseudo-agents and just kind of seeing if that can actually be done.  And then the other thing, so the second thing of the three that I want to talk about was I was actually wondering about the mother orchestrator because I know that's kind of like a blocker.  We're looking for a dev. And I'm wondering if we can also do that with automation. So basically, Zapier has this, like, MCP.  Maybe using Maybe Or, maybefaず Kind thing that I've been looking into, and I have a feeling that what we can do is we can do some kind of workaround where what you do is you do like slash ask, and you do some sort of natural language request, and then like the CollabBot, the CollabLandbot maybe sends a message to a private channel, and then the private channel has that message as the natural text, natural language, and that connects with this NCP server that then connect with agents.  And I'm wondering if that's possible, or if I'm just like oversimplifying something that's actually a little bit more complicated.
+
+4:40 - James Young (Collab🤝Land)
+  So it's very direct in terms of the slash ask command. Maybe we can take this offline and have another separate conversation about this, because I see the spirit of what you're trying to do.  And I think it just may take a little bit of glue code on the back. Again, to make this happen instead of doing it in a private channel, but I think it's possible.  So maybe what we can do is right after this meeting, or we can table this second point of your three points for the end of this.  Okay, cool.
+
+5:19 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So yeah, so the first one was the three, one of the three, one of the ideas that we're going to send that shot and what can we do just like ourselves really quickly.  The second one is the mother orchestrator, and can we blue code, as you say? Yeah. And then the third one was just kind of getting a pulse check in terms of where agents are at in terms of their onboarding and like who's ready to go, especially GigBot.  I want to know like who's ready to go from the GigBot perspective and like what other agents are ready to roll.  Like we're just waiting for endpoints, and I want to know like who's gone back to us in the last week.  Yeah, so I think GigBot is waiting on us.
+
+6:00 - James Young (Collab🤝Land)
+  So just keeping them warm and then trying to just flesh out internally a use case for GigBot, for us, that we can implement straight away, I think is something that we should internally discuss.  The other group was Ember, they are almost ready that they said, the last I spoke with Tom, and he said they're just polishing some things, so they're asking us to hold.  So to answer your third point, it may be that we just try and update what Natasha has prioritized in terms of the community agents with fitting in, if we can, GigBot.  That would also just require some glue code as well. So your second and third point. A, well, B, we just kind of shim this orchestra agent ourselves with this slash ask in the back end glue code to then hook into your first point, these other chatbots that we can do no code wise, like flows really, not full on agents.  And we can then tie that into gigbot as well. So this might be a good area to explore, just, unless anyone has anything else, I know that Alex put in the grants to talk about kind of how do we want to approach grants, the orchestrator, I think, is what we just talked about, and then the community strategy is also tied into the orchestrator, how do we get the community to use this orchestrator agent.  And then the team dynamics, I think it's still kind of on hold, just waiting for, I believe, Matt. You know, we can all kind of try and move things forward, but I think Matt is the one that is now, like, wanting to do one-on-ones or I requested a group conversation.  So I think taking in what Coach Jay has said, what Alex has put into the chat, maybe we can spend the next 20 minutes, unless there's anything else to discuss in terms of, like, how do we take the glue code and be able to connect GigBot to, I don't know, what was that app you're showing or screen sharing, Coach Jay?  That's Zapier.
+
+8:39 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Before that, Make.
+
+8:41 - James Young (Collab🤝Land)
+  Yeah, and it's the same as N8N and Make are pretty similar. So seeing if we can actually, maybe for this Thursday, kind of just integrate GigBot, potentially, and Make or whatever, and Zapier.  And then... Use those as kind of what we ship on Thursday, maybe even Friday. I probably wouldn't put those on the near Thursday.
+
+9:15 - Alex Lumley
+  I don't think, I wouldn't recommend that we appear on the near setup until we have actually developed something like more technical, just because they're a pretty technical team and pretty technical community.  And I don't think it would come off in the right way, just from being around them in San Francisco.
+
+9:31 - James Young (Collab🤝Land)
+  Okay. So we can focus this on Friday. Yeah. Great feedback. So maybe we can start talking about that then.  And I guess that the two items that are outside of like this glue shim code that Coach J had mentioned then, if we're not doing near on Thursday is one, the grants, and then maybe we can get an update on that or what our approach there.  So let's I guess We just need to just remind or ping Matt about, like, getting updates because we're waiting for his response there.  So I guess it's just maybe switching. Before we talk about this glue SIM code, maybe talk about the plan.  Yeah, so, I mean, ZeroAid posted a long list of grants.
+
+10:31 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Thank you, ZeroAid, for doing that. I mean, at the end of the day, like, I actually haven't even gone through all of the links, but I think that we just flip through them.  We see what we can potentially qualify for. And kind of like I said on Friday, I think our main value proposition is that we find a really easy way, a narrative spin is just find a chain and say that they're going to be our launch chain.  And that's kind of where. That's how we are serving their ecosystem, and we just see who says yes. And launch chain doesn't mean that we're forever only on that chain.  It just means we're launching with them. So that's a little boost that we can get, and then we can go on from there.  So first, does it mean exclusive?
+
+11:19 - James Young (Collab🤝Land)
+  Yeah.
+
+11:20 - Alex Lumley
+  The other way to potentially pitch that is that if the goal is to get more of these chains, we can allow the agents that are built on those chains distribution through Discord, meaning that will allow us to hopefully get more than one chain.  Because, like, if you're Arbitrum, all of a sudden, your teams can connect into Collabland and Discord, and that way they all get access to being Discord bots.  Sounds good.
+
+11:54 - James Young (Collab🤝Land)
+  You got your hand raised? Yeah, so for example, I just wanted to share, like, an example of, like, the...
+
+11:59 - Razvan Matei Popescu
+  On the... ground... The grant is shared in Slack, it's called on-chain buildup, so the optimism will give a retro drop to on-chain builders like that, like triggered activity on the chain between February 18 and the end of July, something like that.  I have the intuition this is mainly for DeFi, but since we're on base, I think that would pseudo-qualify us for this, this being a retro drop.  So the theme of the grant program is the reward projects that drive cross-chain asset transfers enabled by Interrupt. So I don't know if we fit into that, but for like just as an example, like what the teams may be looking for.  So for example, in this- In they add at least 1,000 transactions, at least 420 addresses, like real addresses, and 10 different chains of on-chain activity.  So that's just some metrics that we could start to think about. But this is for this specific program, which I don't know if we qualify to because it seems tailored for DeFi.
+
+13:26 - James Young (Collab🤝Land)
+  Wait, so you said 1,000 transactions, 420 unique wallets, and then what was that? You said 10 chains?
+
+13:38 - Razvan Matei Popescu
+  No, it's 10 different days of activity. Oh, days.
+
+13:44 - James Young (Collab🤝Land)
+  Yeah, days. Just like in the airdrop form. So I think this is something we just need someone to lead up the grant section and get more information.  Is that something that you can do, Zero8? I, I'm Yeah, sure.
+
+14:03 - Razvan Matei Popescu
+  I have no problem in doing that. It's just, before doing that, do we know which chain we want to be on?  Or is our strategy, get on a chain? And I shouldn't be saying this, but that's been a problem in all the grant programs I've been involved with.  People get on a chain, ask for a grant, and then leave the chain to get another grant. So that's basically good for us, sucks for them.  But they're kind of protecting against that behavior. So just asking, which chain would we prefer? Like, is it base?  I think so.
+
+14:38 - James Young (Collab🤝Land)
+  I think for now, for this specific grant, it would be base. And then maybe base on optimism or something like that.  I think optimism will be harder as a retro. So I think you'll done.
+
+14:52 - Razvan Matei Popescu
+  is, optimism gives retro to projects that are on base because they're part of the solution. Oh, really? Oh, okay.
+
+15:01 - Alex Lumley
+  Hey, 08, what I'd recommend is maybe take the next step with these grants and put them all in a Notion page and just pull out what they're about, what their offer is, and you can just do this using ChatGPT, so we can have a quick sense of them, and then we can figure out which ones to target, which ones to go after, and sort of how realistic it is, but if we put it all in a Notion and just kind of pull out the information, then we'll be able to target them.  Yeah, sure, sure.
+
+15:27 - James Young (Collab🤝Land)
+  And I think that this is something that we can work on this week, I would say that, like, a simple transaction would be bridged between the kind of super chain interops, so that could be something, I can't imagine a thousand transactions being that many, I think we have at least a hundred or so with, like, tipping on base of Polio right now, right, so it's like, just 10x-ing that over the course until July doesn't seem difficult.  But that doesn't give kind of funding in the door today. Okay. Good day. All right. But I think the ask, and it just seems like a very low bar to me, 1,000 transactions, 420 wallets, and then over 10 days, if we just had a campaign that would reward people and users, I think that's like a, we could totally blow that out of the, I mean, maybe I'm a bit too optimistic, but I think we could blow that out of the water.  Or if we had like a, a, a quiz bot or whatever we are doing, like a, with gig bot or something, we can, we can do something there that is, is a very easy lift.  I think the main point that I'm seeing here is that these L2s, they want proof of transaction. They, all they care is about transaction volume.  And we have the, the foundational building blocks to make that happen. We just don't have the campaign to tie it all together here.  And we have limited dev resources, but I think we can, through this glue code, be able to. So what I'm saying is, in my mind, for example, just to kind of let everyone know how I think all these puzzle pieces off the top of my head fit together, we don't have to create a quiz bot.  We don't have to create any of these bots. These are things that already exist out there. We use the orchestrator agent to get that quiz content, all the content that the mother orchestrator agent will interact, whether it's through Mink or whether it's through GigBot or these other agents.  And then we're just showing on-chain transactions through tipping. Not tipping, but through this tipping mechanism that we have, because those are on-chain transactions.  So it's trying to approximate what we have in terms of resources and constraints, kind of jimmy rig, if you will, the no-code platforms with tasks or workflow agents that exist.  And we pipe it through them. Other agent that can actually send and receive transactions so we can have campaigns like people tipping back and forth or campaigns that through the mother orchestrator agent go out and get quiz information and send it back.  But what ties us all together is some community campaign to drive on chain interaction. I think that's doable with the resources and the constraints that we have.  Does that make sense? Makes sense. Yeah, it does. But just to clarify, those are not the only requirements we would have, like those measures.  Those were just an example on what they could be looking for.
+
+18:53 - Razvan Matei Popescu
+  But now they're all kind of asking for loyalty and proof of loyalty. So old word chains would We'll actually look at the deployment, how old it is, stuff like that, so we don't switch sides.
+
+19:10 - James Young (Collab🤝Land)
+  Yeah, I think that's where we could use your expertise, Zurek. And this is where I think CoUnity comes in, and this is what community building is about.  How do we make it a little bit more sticky than just airdrop claims? And because we have, like, the platform Discord to keep our community going, it's not go to the site, perform this action, claim a token.  It's like continued community cultivation and growth, and that's where focusing on the mother AI Discord is important, so that we're gaining momentum.  It's not a, you know, one-time airdrop campaign and everyone is, bounces out, you're, you're creating these campaigns to. nurture more interactions.  I have this feeling. So two things.
+
+20:05 - Alex Lumley
+  One is, I'll go back to something. The way you framed it about leveraging the mother orchestrator and the agents to build communities is, I think, a very impactful way towards that KPI and towards like open growth or something, because that's what all these communities want to do.  And the sense I'm getting is that, one is for the grants, 08, like, if you just kind of create this notion page, and I'm happy to help you with that, I think that can allow us to focus some of our campaigns towards whatever the requirements are, and then we know what we're building towards, right?  And I think that'll allow us to do that. So I'm happy to help you create if you want, because then James can see all these things and come up with ideas for that.  The second thing that I'm seeing is that, as we're thinking about Discord, it feels like there, it feels is where there's that opportunity to have the season zero cohort.  Now, Not now, not until we actually have the Gaia Engineering Resource or somebody else, but because the people who are built communities and the tools that are Discord tools want to have access to CollabLand's distribution, this is where we can create almost a cohort of teams that will want to do that.  People like potentially some of the bots that Tosh and CoUnity know, people like AlpineX, Gigbot, et cetera, but they have to be Discord-focused.  And if we can do that, then that's where we can find kind of the potential shared resources of that.  I don't know if that makes sense.
+
+21:39 - James Young (Collab🤝Land)
+  Yeah, that Discord-focused really just means using the glue code and the orchestrator agent. So they don't have to be doing anything Discord-specific.  This is why we can use Make. This is why we can use these other non-on-chain agent tools because what we're doing here right now is if we're focusing  For example, let's just think about grants and increasing on-chain transactions. If there's a poll bot that we can ping through the orchestrator agent, everyone that answers a poll, we give them test tokens.  That's an on-chain transaction. Or if they want to then fund their account to then have some type of, I don't know, giveaway, right?  Everyone puts in 0.001 ETH or something. And at the end of the week, there's a winner or something. If they do these actions, those show on-chain transactions.  So you don't need on-chain agents to then do on-chain transactions. That's a little bit of kind of shooting the gap here.  Because our orchestrator agent can do on-chain actions on behalf of any Web2 or Web3 agent. And then These Web3 agents go, wait a second, you can get distribution through Collabland, and these are tokenized communities.  Let them make that logical leap, but we're showing to the grant providers that we're actually facilitating on-chain transactions. So it's an indirect way of being able to show transaction volume without having all specific Web3 agents or anything.  We're kind of like kind of bootstrapping. a way, this is somewhat kind of our goal, but it's not. This is akin to like Airbnb selling cereal in a way, it, but it shows on-chain transactions.  So I just want us to be able to keep an open mind and be faster lot So I'm creative, not force this other shelling point too soon.  What we just need right now is on-chain transactions. And if we can cultivate the Discord, the mother AI Discord community through some community growing campaigns, through the orchestrator agent, we can actually make those on-chain transactions happen.  These end users in the Discord, they're going to get smart accounts. They have them already. So we have the foundation, but we're having difficulty in this like bootstrap process of getting agent devs and community building.  So what I'm saying is let's not, it's not that we're faking it, we're growing this community because as Zero8 is saying, we don't want these fly-by airdrop farmers to come in and come out.  This is how we can cultivate and build momentum so that they're continuing to be engaged.
+
+24:57 - Alex Lumley
+  By the way, I, um, I. Mm-hmm. I'm not reaching out, like, Jonathan, you asked earlier, I'm not reaching out to more of the agents, pretty much, because one of things we had decided was, hey, let's have a reference implementation, one, and two, let's be more focused on the ones that are for Discord, and so as we have these kind of use cases, then we can go after it, but otherwise, the sense I'm getting is, like, we keep asking people to do something and pushing them, and then, like, we're like the boy who cried wolf, getting people to constantly do something quickly, as opposed to, like, when we actually need them, they make sense.
+
+25:32 - James Young (Collab🤝Land)
+  Yeah, that's why I think we need to focus on this, like, this glue code aspect and get this kind of going first.  And then it's just, what can we do to cultivate this community to build momentum in the mother AI Discord?  And then that should be the kind of foothold for these other agents to kind of show because we need to point them to something to show that we're building and growing.
+
+25:55 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So, glue code, we'll look into... This week, and try to hopefully, by the end of the week, have a couple prototypes that we can use.  And then for the community aspect, I mean, there's two parts to it. There's kind of like a genuine community that we're going to be building.  And the task that Zero8, myself, and Tash have is just kind of like, I've been DMing people on Discord, and just like anyone who's introduced themselves, I DMed.  I got a few more ads today as well. So just finding out what it is that they want to get out of being part of the community.  Like, who are these people? Are they builders? Are they just people who are interested, or they just want to make memes all day?  Because we tried, you know, I tried office hours, and like barely anyone came. So it wasn't quite that, but maybe it's something like that, you know?  Maybe it is a fun hackathon, a no-code hackathon that was just, you just get some, you know, awards or whatever it is, no tangible prizes, and that's enough to get people.  Or maybe there are more serious devs in our community than we thought. So anyway, we're going to use the next couple of days to try and get a sense of who those are.  So that can create meaningful, time-bound activations that get them engaged and get them talking to us and talking to each other.  And at the same time, Tasha's working with Dan on kind of setting us set up on the quest side of things, where we actually have a quest thing to tip and to ask agents to do things for them.  And we're going to naturally attract farmers through that, et cetera. And that's fine. We're going to password protect our server, and those will generate the KPIs that we're really looking for, while the community is going to be our evangelists.  Yeah.
+
+27:39 - James Young (Collab🤝Land)
+  So what I would say is that tomorrow's Engineering Sync, I'll come prepared to have the glue code set up.  If we can chat right after this meeting, Coach J, that aligns with the marketing campaign that CoUnity is doing.  And with that. What of transaction volumes we think we can get from 08 in terms of these KPIs, maybe we can have tomorrow's like engineering or much sync call, just seeing what we, what is that first glue code to either gig bot or make or something look like.  Sounds good.
+
+28:23 - Alex Lumley
+  One last thing I will say just for an idea for the community stuff is that there is something that we could leverage in terms of a meta around like discord community growth and leveraging agents and community, right?  Like I haven't seen anybody do that well, but the communities like Safari talk a lot about like we're building and learning together.  And we have probably previously tried to do it, but it was like too abstract. Let's build agents. That's like, everything can be an agent.  But if we talk specifically about community growth, discord growth, this is something that I would imagine Dan and CoUnity would actually want.  Do as well, where community, Dan, when I talked to in Mexico City, was thinking about creating a safari-like with Discord leaders and community leaders and those sorts of things.  That's something that maybe we can have some sort of partnership there together where we are working with them and mother Discord is where those things are being experimented in.  That's right.
+
+29:21 - James Young (Collab🤝Land)
+  I think that's where we're converging on. I think you expressed it well. Tosh, do have your hand raised? Yeah, I have a question.
+
+29:29 - Natascha Tiotuico
+  So, like, for me, it was very clear we're doing a demo, the mother AI community is actually supposed to be around the product, like we're doing the mother orchestrator, we're doing some examples of how does your community interact with the orchestrator and what are simple functions that everybody understands what we're actually doing.  So, I don't think that the... We want to grow the community, but I think the campaign around what we're trying to do with the demo isn't the growth.  It's just getting that first use case. And after that, we're going to do the galaxy quests or something and grow the community.  But first, we need to be, like, set on do we have enough use cases for people to understand Mother Orchestrator is tasking other agents, their agents are collaborating with each other, and kind of get that concept understood.  Because I think even in Web 2 or out there, it's a hard thing that people don't understand unless they're techies.  So everything around understanding the demo, the deep dive into one use case is, I think, what we're trying to get.  But from our discussion, I got, like, in the loop. Oh. Is our goal the growth? Is our goal this?  But it is still the demo case, right? Yeah.
+
+31:06 - James Young (Collab🤝Land)
+  If we can align the demo case with a growth use case, that is actually what we're trying to do.  And so let's just create, because we don't have any real engineers, I'll step in, see what I can do from a glue code perspective.  Grab any type of workflow via Make or GigBot that maps well to the community growth. So can we combine those two together?  And that's what we're trying to demo by this Friday. What can we come up with that like fits both of those needs?  What can we demo that also helps grow the community? So the community understands, I'm doing these actions because I'm getting more points and it's fostering and growing the community in a healthy way.  As 08 said, it's not just fly-by-night airdrop farmers coming in and coming out. Like these campaigns kind of build on each other.  What can we do? What's that next baby step that we can do that makes that happen? Or how can we do that?  That's why it's a convergence of this demo use case, community growth, grant funding, and then potentially, as Alex was saying, then eventually point to saying, hey, you can use Collabaddin as distribution later on.  But we need this reference, this one discourse community, to show some signs of life and some growth. And the KPI, I think we're settling on, is on-chain transactions.  So whatever use case demo that we're showing for the orchestrator agent that shows community growth needs to be able to be verified on-chain.  Because people will, people won't care about any other metric than transactions..onions. that's we'll some And
+
+33:00 - Natascha Tiotuico
+  Yeah, with my ranking, I focused on the transactions and the collaboration, maybe less about 100% growth, because I thought like creating all these automations for quests might be an overload to get in one week.  Well, let's spec that out, like, and then see what we can present.
+
+33:24 - James Young (Collab🤝Land)
+  So what comes to mind is like, if you invite someone to the Discord and they do a transaction, you also get some more points.  So those are two transactions. One from the mother agent verify, like through the invite code that Kush did, for example, from Twitter to Discord.  The person that provided that affiliate link or brought them in could get some recognition. And then the person that joins will get points.  So it's like, that's how you just, I don't know if that's a good idea, but that's off the top of my head, how you grow the community.  The end. We on-chain transactions, so there's a campaign around virality, but in a non-scammy, spammy way, you know what I mean, something like that, and it's like, oh, who invited you, maybe it's a poll, like, who invited you, or something like that, and just to make sure that, you know, there's some interaction from that new user, join the community, and then there's other things that they can, I don't know, do, and then that, that's the beginning of a, like, a quest system, but it actually shows growth, and its initial use case.  So what does that look like?
+
+34:44 - Razvan Matei Popescu
+  On the call with Coach and Natascha today, we actually discussed, so I'm gonna start doing that from Wednesday, actually, tomorrow, not Wednesday, we just don't know what our main audience is on this course.  So he taught me that we should know what the people in there are interested in. So I think having a referral program is a really good idea.  Like that's one of the best ideas you could have. But like, do we have the tools to track it or will we do that with Discord bots or something?
+
+35:25 - James Young (Collab🤝Land)
+  Yeah, I think this is where we just need to know what the what the requirements are and how do we like, you know, kind of hack that together, because I think we have enough of the foundational tools technically to make that happen, because we are tracking when Kush was doing the voting in Twitter or X and the X card and having that invite code.  We have all of that plumbing in place. So I think it's not that difficult based off of whatever the requirements are.  So that's why it's like this initial use case. If we can come up with a campaign. I think need  And from that campaign, I think we can take what we have already built and put something together. And the requirement is it also needs to be trackable on-chain.  So it's easy to do on-chain transactions and show that. I propose we shift to the glue code.
+
+36:22 - Alex Lumley
+  Yeah, we're eight minutes over.
+
+36:24 - James Young (Collab🤝Land)
+  So yeah, let's talk about that now. I mean, maybe we just, what is it? So just to talk about that implementation, unless there's any other questions.  So like we have this like slash invite code and we can change the slash command name to like slash ask or whatever we want.  And then what I can build out on the back end is just, you know, a connection to another, whether it's a workflow.  ... ... ... ... bot or something, I just need to know what it is to connect to. It doesn't even need to be a Web3 agent, and if you can no code, like create a poll or create a quiz or something, I don't know what make or what's capable there, so I want to open up that conversation because I can easily transform that slash invite code to a slash ask and just have it natural language, we can feed that into kind of our own agent or hard code that into just sending out and connecting to a make bot or something and then forwarding that reply back to discord.  So I just wanted to explore that for a couple of minutes. Yeah, that's kind of what I had thought.
+
+37:55 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So basically like the flow would be, this is just visual, like I haven't actually plugged much in. So it's like something like slash ask or whatever it is.  There's some sort of message that's sent to this specific workflow that triggers it. And the only reason we're routing, we may not need the router either.  The router, I just imagined, is that they would send a message back if it didn't include a file. Because the whole idea with the poll, for example, this is for polling, is that the best situation for a poll would be like, here's the mother intro blog, come up with a poll.  Like super like low lift for a mod to do or anything like come up with a poll based on this article, whatever it is, this content.  So you need to include some sort of attachments. So this would send a message back into the attachment. If there is an attachment, it takes the attachment and runs it through like a prompt or something like that that we can code ourselves.  It's like really easy to do that. And then it would send a message back. Now the challenge. is that we could only do a message back if we wanted to not use the polling function.  There's a polling function in Discord, and I haven't checked the API. I don't think we can actually use the API on this.  So what we could do, though, is we could update, like, a bot, like something like an easy poll bot, maybe, and then it, like, feeds in, because if I looked at the commands, like, how they work, like, you can just wrap this up in, like, a JSON or whatever format it needs to do.  It's a question, type, match choices, text, allowed role. Like, this is what the LLM can provide back. Right. And then hopefully we'd be able to just send that information to the poll and then it posts it.  Right, there's a, there is a, uh, interaction.
+
+40:00 - James Young (Collab🤝Land)
+  Action restriction on Discord that a bot can only respond if it's been triggered directly. By like a user. By the user.  Not a bot. Not a bot. But if there's a quiz API or something we can get, it doesn't even have to be Discord specific.  So this is where the mother orchestrator agent will do all the Discord formatting and interaction. So you don't even need, like if there is a poll agent where, you know, on Make for example, you upload your, I don't know, PDF or text file, and then it comes back and just responds with a poll question or a poll and set of questions and things like that.  The orchestrator agent can take that and then reformat that for Discord and then create that poll. gets of
+
+41:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, like, yeah, I want to know, like, on Discord, hitting the plus button, hitting the poll, and then entering the things, like, who can do that, and what, how can that happen?  That's, like, the final step.
+
+41:11 - James Young (Collab🤝Land)
+  Rephrase that? What do you mean by that? What was the content?
+
+41:14 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I'm on Discord, and I just, I want to do a poll. So, what I need to do is I need to go into a chat.  I'm opening Discord, it's to take  forever. I'm opening a chat, and I hit the same little plus button. Yeah.  Next to the chat text input. Yeah, and then it, and then it, and then I'm, like, giving this thing to hit this plus button, and then what can I do?  I can use apps? No, where's the, where's the poll, where do you see the poll, Tash? It was in...  Was it here? I saw it, yeah. No, but it's just out of big red.
+
+41:51 - Natascha Tiotuico
+  You have to be in the right channel, like, you have to be in right channel, like, channel where you can, uh, post.  Okay. Because I, because I've got another server.
+
+42:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Here, I'm saying, okay, create poll. So I hit poll, and then I can, like, answer my question, type in the answers, and set the duration, and choose this.  So I want to be able to, like, send that information so that whoever gets that can automatically use this specific function.  And I don't know how to activate this specific function unless I'm a human being. Unless you use, like, a browser user, something like that, where it can, like, scroll through itself and do this.  I don't know, gets super complicated. Sorry, Jonathan.
+
+42:33 - Alex Lumley
+  Is there a reason why we want to create a poll, or is it just an idea that you had?
+
+42:37 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  It's just an agent idea, and it sounds like a really useful one for Tash, and I think a lot of Discord communities would really like that, like, a lot of Discord mods.  imagine, look at how this, they have to, like, come up with a question, and then they have to, like, put in the answers, and, like, this is just, like, a bunch of extra work.  When does someone create a poll? Sorry?
+
+42:56 - Alex Lumley
+  When does someone typically create a poll? Uh, just to... Engage the community.
+
+43:02 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, so like quizzes and polls. Quizzes.
+
+43:06 - Natascha Tiotuico
+  Everything are for genuine communities. If you have like, you want to create conversation, you could use those elements. Oh.  those, those would be like elements.
+
+43:22 - Alex Lumley
+  Quizzes, when you even talk about quizzes, they are this, they, quizzes are just, they're like, quizzes are still, are still using the poll form.  Are they?
+
+43:32 - Natascha Tiotuico
+  a poll, no, a poll is like a vote and a quiz is like you write this is totally different.
+
+43:39 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And it's not, it's not discoordinated, is it? Um.
+
+43:44 - Natascha Tiotuico
+  It's like you need a bot, you need like a quiz bot, right?
+
+43:48 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. So we need to be able to send the quiz bot, whatever it is. And James, you're saying that this automation couldn't directly connect to this bot.  There needs to be something else connecting to this bot. That is not a bar. So, yeah.
+
+44:03 - James Young (Collab🤝Land)
+  So what we can do, though, is we can do a slash poll, upload your file, and then the orchestrator agent takes that file and then can just create some type of poll with that.  But if you go back, what does the UI look like? If you go back to your share, this poll functionality, the bot, well, then the engineering work would be to have the bot create the UI for the input and the output.  Yeah. Like, this is what the poll looks like.
+
+44:46 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  You hit create poll. Like this. Can you create a poll real quick and just go through the whole interaction?
+
+44:55 - James Young (Collab🤝Land)
+  Yeah. Maybe save five minutes of conversation. Yeah.
+
+44:59 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So, um, Poll, question, answer one, answer two, and then you can set it up for one hour, whatever it is, and then you post.
+
+45:18 - James Young (Collab🤝Land)
+  Got it. So this is a. Oh, go ahead.
+
+45:27 - Natascha Tiotuico
+  Um, just so, so the poll function is kind of evident, you could, for example, do ask a poll who would join office hours at this time and then have like three different time slots that you could do the office hours and you would get engagement and also find out more about your community, what they actually want.  It's like, just, just to add to Alex, what, where would you do this? Or why would you do this?  Yeah.
+
+45:57 - James Young (Collab🤝Land)
+  So what you're saying, uh, coach. Is that you're like, okay, have the orchestrator agent do a slash poll, upload a file, create the question and the answers for you, and then post a poll.  But that would require the orchestrator agent to go to a, like, the Discord API to then create the poll in the background on behalf of that user.  Or maybe the bot is actually asking that instead of Coach J in this example. Let me look into that.  Okay, yeah, you can't, by the way, there's no slash command for poll.
+
+46:32 - Natascha Tiotuico
+  And same for quizzes, like, if I would use our mirror article and say, okay, I want a multiple choice question, one correct, two wrong.
+
+46:41 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah.
+
+46:43 - Natascha Tiotuico
+  Those are for all our live stream sessions, like. Which bot would you recommend for the quiz?
+
+46:51 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Because I can just look at some of the documentation and see. Um, I'm not as native, so I would have to ask Xavier if you have the.  Thank you. Scott. Thank you, you, So Tash could just literally be, hey, come up with a quiz based on our introductory books, or come up with a quiz based on our latest article, and then just has five questions, and they can post it up into the community, and that's super useful, it's interesting, it's engaging.
+
+47:16 - Alex Lumley
+  That makes sense to me, especially because if you watch some of those videos where people talk about the agents that they've built, one of the common ones is there's an advertising agent, and they are leveraging AI to constantly create new ad ideas.  And so in this way, you could imagine having, like, leveraging AI to constantly, because the purpose is to create engagement within your community, you're leveraging AI to constantly create new ideas for an engagement, like, hey, what did you do this weekend, or hey, whatever, creating a new poll, this is just leveraging, maybe it's the creation of the poll, or the creation of the questions, or the creation of all that, and it's saving the, and you still have to do the manual work, but at least the creation is being supported, does that make sense?  Why don't you just keep the video?
+
+47:58 - James Young (Collab🤝Land)
+  video? Why Why Why Why Why Why don't Why So let's take this async and let's look at what we can do to do some pattern where you do a slash something or whatever the slash command is and have it tie into growth, have it tie into campaigns that we can demo like this Friday.  And if bonus, if we could use like GigBot to do this as well, that would be great. Okay, super.
+
+48:33 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, the other one was Zapier.com slash MCP and just see if that is a potential solution for this orchestrator.
+
+48:42 - James Young (Collab🤝Land)
+  Yeah, I think, Coach Shif, you can work with Tosh and Zero8 and the CoUnity team. If there are some MCP servers on Zapier that the orchestrator agent could call, that would be super easy.  Well, okay, yeah, yeah, yeah. That can kind of... of... Like stitched together into a growth campaign. Yeah. Okay, sweet.
+
+49:06 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  All right. Okay. Bye. Bye. Awesome. Excellent.
+
+49:11 - James Young (Collab🤝Land)
+  Thanks, everyone. Bye. Bye. Bye. Bye.
