@@ -1,0 +1,405 @@
+CoachJ (00:01.607)
+Okay, so let's do this week's what we shipped call. This week we're going to be switching our focus. Similar to last week, we're going to be doing less demo because our product is just in really good shape right now. And at this point in time, what we're really doing is we're just trying to bump through this cold star problem we have where we're needing both supply and demand at the same time. And so we have a few kind of ideas in place and
+
+I think that where the best place to start is, is cause I think that at least the people on the call here have a little bit of con, actually, let me set the stage and then we'll kind of dive into, cause it's going to be some pretty juicy conversations today. think that we are going we need to make some really key decisions in terms of the strategic direction that we're heading. So I'd love for that to be the main focus of this call. And then any conversations that kind of spawn out of that, we could have those conversations as well.
+
+So basically where we're at right now, as far as I can see, that, like I said, our product is ready to go. And it's going to be incredible. We just, we need to have agents on the registry that these users that we also don't quite have need to be able to tap into. So the dominant game plan right now is to be driving a lot of attention to our Discord. That's why
+
+This week we came out the X cards implementation to grab some attention. think that that had kind of like a little, little less than exciting reception. We probably, I mean, in terms of impressions, we got like, you know, 15,000 impressions on the initial post, but in terms of people actually opening the card and we could optimize the actual post itself, you know, as much as we want, but the number of people opening the cards.
+
+were abysmal compared to the amount of people that saw it. I think that a lot of that is, know, X and Twitter, like X Twitter, like we're seeing a lot more bots than usual, like more than ever. Like it's a wild amount of bots. The vast majority of it is bots. So I think that's making up a lot of the impressions that we're getting. So it's not surprising that we didn't see a ton of real users going into it and then even fewer diving into our Discord.
+
+CoachJ (02:21.479)
+Within Discord, we have seen an uptick over the last week. We went up from about 400 to 450. Those are approximate numbers. So not staggering. We definitely want to see more. But we are seeing some activity. What's great about it is we haven't been hit by cybils yet. So like those are 450 like real humans in there. And so there's lots of potential to activate that base to actually start.
+
+you know, using some of the functionality. The functionality I'm talking about is the foundation of what will be human to agent payments and agent to agent payments as well. And this is the real thing. we have, fortunately, you know, James is at Collabland and he's given us amazing technology that lets us, that lets the Collabland bot essentially allows, hey, Philippe, can you just, can you mute? Thank you so much.
+
+The collabland bot essentially does two things. One, it's enabling anyone who's in the mother discord to have a wallet address. It abstracts to kind of a wallet and it creates a wallet without us having to really do anything, which is amazing. So it spins up a wallet for us. And then what it does is we have this functionality slash tip, which if you haven't tried it, please go in and try it where we can tip each other. We're creating this behavior of being able to pay each other that eventually
+
+in the next week, max two weeks, we're gonna have a mother orchestrator agent in the Discord taking requests on behalf of humans and tasking agents with those requests. And again, we're gonna be using this on-chain testnet token, SEEDS, to fulfill those requests. So that's kind of like the high level structure of what we're doing now and what we're implementing over the next couple of weeks.
+
+We have Natasha here, we have 08 here, and there's some other folks on the Co-Unity team as well that are helping to kind of drive some of the activity in Discord. And we can talk about that a lot more, maybe later in the call. I think right now where I really want to get grounded in is, you know, we've seen a little bit of drop-off in terms of some of the contributors on Mother. And I think we're also seeing some traction here. We just had a great meeting with Gigbot, who might be like our first very real use case.
+
+CoachJ (04:43.567)
+that we're bringing on to the registry. And I feel like we're at the precipice of something potentially really big and cool that's about to happen. Like I really feel like if we capture this momentum right now, we can and will bust through the Cold Star problem. you know, talking to Alex about this as well, this is kind of like one of the issues is a lot, a lot of great, just to kind of recap, because I think it's worth recapping.
+
+is we, Gigbot is run by Corbin and Paymagic and it just like helps source bots to do really simple tasks, mostly on Twitter right now is what they're doing. And they're ready to integrate very shortly into the registry. And what that's going to do for us is it's going to create our first real use case where we can actually make demo videos that show how users like myself,
+
+can make requests in Discord for an agent to do work. And one thing that does is like, we can record that, we can create that as a demo, and then it becomes so much easier for other agents to start conceptualizing how they're going to be able to collect payment from people in Discord and really create the vision of how this is not just gonna happen in mother's Discord, but in the long run will be proliferated through.
+
+maybe up to a hundred thousand different discord servers because the collab land team is looking for a reliable, verifiable curated registry of agents to accomplish jobs and give communities access to that verified curated registry, which is mother, which could be mother, right? So I'm going to pause there. Maybe I'll hand the mic over to James. If you think I missed anything and Alex as well.
+
+And then I kind of want to start diving into like the strategic direction that we're heading really over the next several weeks, which is what I think that we really want to talk about because I'm sensing maybe a bifurcation, maybe not. So I'd love to hand it over and stop talking for a minute.
+
+James Young (06:48.43)
+No, thanks, Coach J. Thanks for that overview. Just to provide a little bit more context and color, I think the TLDR is we actually have this middleware already built out. It's pretty incredible that we were able to get a bunch of different protocol and projects working together and we have this built. So I didn't think that we'd get to this point so quickly.
+
+But we are kind of at a crossroads now because what we've been shipping over the last two months now is ready to go to market and this is the crossroads. How do we go to market? And this is where think Coach J is saying we have to like recalibrate here. The way that I see it is that there are two competing concerns in terms of
+
+going to market and fixing this cold start problem. One concern is reaching out to communities that are willing to pay for services and then using that potential demand to be able to source agents to fill into the registry. And then another go to market approach would be just
+
+see the agents, the supply that we have right now, get them in the registry and just focus on our mother discord and getting people to the mother discord and driving that demand. Hey Kush, can you put on mute? Thanks. So I think this is the core topic that I think we need to focus on now. Again, it's pretty amazing that we've actually gotten
+
+this far so quickly. So now we have to focus and shift our attention. So it's no longer building out the tech because we have the implementation ready to go. It's focusing on the go-to-market strategy. And with the go-to-market strategy, there are two competing concerns that we need to really figure out how do we drive forward. At the same time, organizationally,
+
+James Young (09:09.294)
+we have to make sure that we're focused. And one of the really interesting things over the last two and a half months is that in a decentralized manner, we're able to coordinate, at least on the engineering side, and work together and collaborate and get this going. When it comes to the shift from a go-to-market strategy, we, I think, need a different type of coordination. We need, I think, more top-down leadership.
+
+when we go to market so that we're fully aligned. Because when it comes to the go to market strategy, this is my perspective, we need absolute clarity and focus and one vision and one mind. And I don't think we're there yet. And this call here is to really just state that and have a conversation about that. So I'll pause there.
+
+And give it up back over to you coach Jay. I don't know if I've missed anything there
+
+CoachJ (10:13.345)
+Yeah, no, that's great. I just want to summarize basically two of the main conversations actually, thank you for bringing up the second one I forgot about, that we really just need to make sure to align today. I think one will be much harder than the other. The first is like the strategy, right? Is which way we're going. You know, that one's going to be like more easy. It's like you list the pros and cons and like ultimately like we decide on a path and we move forward. We see if there's any opportunity for parallel. But the big thing that we've...
+
+constantly hit as well is like this like decentralized decision making thing, which I've kind of also dealt with for like many years in this space. We like to decentralize our protocols and then we also like to decentralize our leadership. And like I find that the latter is a lot less effective than the former. And so, you know, even as we have this conversation of which way do we go for first, do we like just get the agents we have into Mother and we like try to kind of bootstrap it from there? Or do we go and find the communities who are ready?
+
+who ready to pay money and kind of go that direction. Even when we list out the pros and cons, how are we deciding which way and who gets to make the decision of which way we're going? And I think that's something that we've pretty consistently bumped up against, especially in this stage in this project. It's a pre-funded project.
+
+We have all of our time on the line, all the time that we put into this project so far on the line. No one has, I think, anything particularly at stake, which would be like, okay, you get to make this decision. You have the most at stake here. And I'm not sure how to proceed with that either. So I don't know if anyone.
+
+wants to take the mic now, has some ideas, wants to maybe share anything else we need to discuss here today. But those are kind of like the two things that I want to talk about is our strategic direction. And then like, who gets to choose on that strategic direction ultimately, like who's making that choice? it a vote? Is it a majority vote? Is it, we should definitely not do consensus, which is where like everyone has to agree. That's the worst thing we can do. So I'll just pause there.
+
+Alex (12:14.884)
+So one thing I'll point out is that what we're really talking about is strategic clarity. There's a concept in like product development called strategic clarity and teams that have a lack of strategic clarity end up pivoting all the time, right? You see this out of many white Combinator companies that pivot everywhere. So what we're trying to get to is strategic clarity. To be clear, sometimes that can come from a leadership perspective. Sometimes that can also just come from an alignment around something. And I think for us,
+
+We could say it's from not having leadership, but I think it might also just be from a lack of clarity around a document, alignment around like the awesome light paper that Kush put out. If we were to agree on this, then we could more easily break things up on a weekly basis, I think, if we had alignment at a higher level. So what I would propose is that, yes, we need to decide on like a tactically over the next couple of weeks, where are we going to focus? But the harder thing is how are we going to align at the higher level of
+
+what we're trying to pitch to investors and what we need. And if we're focusing towards getting investment, what do need to actually show investors to make it more likely for them to want to put funds into us? Assuming that is the direction we want to head. So that would be the first thing to me is like, how do we define, how do we decide that strategic clarity to make sure that this kind of recursive part takes control and we have direction for the next two, four, six weeks of experiments to run. And what I would propose
+
+is that I believe Coach J, the way that you framed up like the two competing priorities and even James, how you talked about it, do we go after the teams in the registry or do we go, sorry, do we try to get more teams into the registry or do we go after communities? My honest belief is that it's just a staging thing. It's the same thing, it's the same concept. It's a recursive thing. And in actuality, as a full go to market, what I would propose that
+
+we need to accept as mother is that mother should become the registry that powers the collab land or the mother orchestrator. And if we accept that and we believe that that as a initial go to market as an as an initial service line can get us enough of the Lego pieces or enough kind of value through the marketplace GDP, then
+
+Alex (14:36.186)
+Do we go after the registry teams first? Do we go after the communities first? Doesn't really matter. It's whatever's the bottleneck in the whole system. And my proposal would be if we believe that Mother is supposed to be a meta registry and we power other distribution, like other places that have distribution, whether it's Friends with Benefits, Collab Land, MetaMask, Other Wallets, et cetera, a great place to start is where we have a core competency and where we have a strength, which is Collab Land.
+
+So I would say, let's start with collab land. Let's get these initial agents enough to start to prototype the orchestrator, even just gig bot Ember. And I think we had an, and like the ones that Gaia gave us, prototype that, start to play around with it. And then we can figure out how to expand on this recursive problem of this surface area of collab land as a discord bot and trying to get that towards the North star of marketplace GDP.
+
+I know that was lot of words, but.
+
+CoachJ (15:41.379)
+I guess my, okay, so my question is, like, for example, let's, let's take a look. Cause this, this is still skipping over the decision making thing. Like unless right now we're unanimously agreed all hands like up to agree with Alex. And if everyone puts up their hands, great, this is super easy to move forward. But if there's a disagreement, how are we moving forward on this? Who's deciding?
+
+Alex (16:04.208)
+So that's a separate question, right? There's the, practically where we're gonna focus.
+
+CoachJ (16:06.671)
+Right. And I think it's a more important one because we can't choose a strategy if we don't know how we're going to choose.
+
+CoachJ (16:18.917)
+Yeah, who gets to decide? Is it you? Are you a decider?
+
+Kush (16:19.397)
+So, can I chime in here? I mean, I kind of understand where all of this is coming from and I think, so let me kind of explain what the situation is right now. I think,
+
+CoachJ (16:26.021)
+Yes,
+
+Kush (16:40.79)
+In my opinion, decentralized decision making is not going to cut it over here. As James mentioned, are still the lowest coming denominator over there. yeah, basically what's required right now is a bit of restructuring on that side. So I would say that, you know, let's give James and Matt the time they need to like figure this out and not try to pin it all on this wall.
+
+So they're like aware of all the different problems that we're facing. And I'm sure that, you know, given the time, maybe like coming up with the proper list in the team or the proper like person who will be like in charge of taking the investigation. So I think that's, yeah, kind of like, I just felt that the conversation was like, you know, getting a bit more heated over here. So this is fine. It should happen. It's just that there is no conclusion coming out of this one.
+
+So I just wanted to mention that.
+
+Kush (17:44.676)
+So, yeah.
+
+CoachJ (17:50.755)
+James, did you want to chime in here?
+
+James Young (17:53.363)
+I was just trying to understand
+
+And this is really interesting, so...
+
+you know, we're like at the top of the call saying, there's two different strategies that we should decide. And then there's this other kind of, which begs kind of this other question. Well, who's going to decide that? And then what I'm hearing from Alex is that actually we just need to
+
+change that frame and actually just decide on a document and then everyone will be able to rally around that. And then is saying actually, you know, we need centralized leadership. So there's these competing concerns and I do agree with Kush. I don't think we'll come up with a decision just in this meeting. And so I'm just kind of
+
+reflecting back so that we get more data points and would love to get other people if there's an opinion so that we can have all the data points and just focus on reflecting here on the problems that we have instead of just trying to jump into another solution because
+
+James Young (19:32.598)
+If we don't address the problems that we have, we're bound to repeat the mistakes that we've made before.
+
+Alex (19:40.57)
+So, or, sorry James.
+
+James Young (19:41.336)
+and
+
+James Young (19:46.142)
+and so I understand like what Coach J is saying here. So I think that everyone's time is precious and so we have this call. I would love to be able to just focus on this kind of review on the what went right, what went wrong, kind of like a postmortem so that we can all be transparent about
+
+where we're at and that would help us then figure out how to approach a solution instead of just jumping in and solutionizing and everyone having their own opinion about what the solution is. And I think this is part of building in public. And so I would love anyone that is opinionated or
+
+wants to just kind of give their summary and reflect. think this is a good opportunity to reflect because again, and this is my opinion, we've done an incredible job building out this middleware and it's ready to go. The focus of the previous calls were just kind of show and tell and demoing, building up momentum, showing what we've built.
+
+But now we've hit another crossroads in terms of go-to-market strategy because
+
+Engineering can keep on building, but I don't think that is the best use of the project collective time. And what now is being exposed is just the trade-offs of
+
+James Young (21:43.082)
+organizing decentrally or in a decentralized fashion, now hitting a wall and now having to shift a bit of how do we
+
+James Young (21:57.134)
+calibrate ourselves now so that we can actually go to market and I think what it exposes are a lot of holes that we're missing. So we're very engineering focused and now we have to think about organizationally about the leadership, go to market and how do we focus there? And so we're shifting what we focused on as an organization which is showing
+
+you know, these holes and this is what we want to talk about. And just trying to reflect back and this is my opinion in terms of how I see overall. I don't know, I'm not trying to present a solution. I would love to try and understand what other people's perceptions are. I think Kush has had the most visibility.
+
+over the last few weeks because he's talked to investors, he's been part of engineering, and he's really, I would have to say, has put everything on his back over the last few weeks. And so, just want to socialize all of this kind of learning so that we can share this with the whole group in summary.
+
+Kush (23:16.74)
+Sure, I think alright, so there's a bit of context here for those of you who are not aware. Basically a few days back I told James and that I will not be contributing going forward. And that I was going to communicate that to Alex, Coach J and other members of the team who were working regularly as well. So that's basically where I'm at and I think...
+
+The reason what came up from my panellists share the data points that basically I, you know, kind of gathered. It's basically like, we've been doing a lot of things like, right. James, to your point, engineering was able to like build in a decentralized manner, you know, so far and I ship all the products, which it hasn't, but I think it was more because of your leadership and your direction than the decentralized coordination impact. Because wherever required you were able to pull in Geeta,
+
+as a resource to execute on that particular thing or other members of the team. mean, of course, intuition, nevermind all the other teams, I helping with that. But there was one particular vision, was driving this and keeping us accountable. I think that's where the difference came in. So what I'm trying to say is based on the stakeholders of the project, the people who are going to drive this, there is a
+
+lack of centralized kind of this leadership which you know just sorts all the decision making out in the process and that's basically where I think you guys saw me filling in but you know I told you my reasons and everything which I will not go into on this call and yeah that's basically where you know I feel that the people who have like the largest stake in the network need to like come in and
+
+you know drive that vision and I don't think that someone else will be able to do that. As far as aligning around document is concerned I think that's really great for having a shared vision and direction but still there will be a lot of these micro decisions also in the process which either then we need to like empower the people to like make, take the risk, fail, iterate or have a person who's willing to take all that responsibility and still keep on driving that forward. So I think so I mean the thing is like
+
+Kush (25:43.382)
+even if i was continuing with the project i was in a position to take those decisions so i can only offer all the information that i had and equip you guys to take that forward i am happy to answer any more questions or anything that you guys might have and also share some more details around the different factors if you guys like ask them
+
+specific questions.
+
+James Young (26:21.57)
+Thank you for that Kush. I wasn't prompting you for that, but thank you for sharing that. And I think that part of building in public and what we're doing here is like exposing this in a transparent manner. And so the TLDR and I'm just going to try to reflect back what you're saying Kush is that
+
+Like on the engineering side of things, we were able to build in this decentralized fashion, but it was because there was like a very specific focus and vision here. And now that we need to, now we're here, we built it out. We have to shift toward this go-to-market strategy in marketing. There isn't that leadership or no one driving that. And what you're saying, I'm hearing you.
+
+and correct me if I'm wrong, that that needs to happen. There needs to be that kind of centralized leadership. It could be divide and conquered in more of a decentralized manner, but there needs to be someone that is accountable. And there needs to be a main stakeholder for that. And it can't happen in this loosely based manner.
+
+Kush (27:32.388)
+Yeah, exactly. Yep. Yep. So, like, just to give you an example, like, even from the past, like, two to three months, since you've, been developing and stuff, you have been at the center of all the development and all the daily standups and even driving them and, you know, bringing all the other feedback, resources.
+
+And I mean, developers have kind of been able to like fizzle in, fizzle out as per their requirement was, but there was you who was like kind of holding it together and like just driving it. And you know, even though, you know, at times you didn't understand what we're trying to like do from like a pure visibility perspective, but you know, there was this faith that, okay, if let's say you are saying something, I'm going to put my belief in you, my faith in you and go execute on that and see how it goes. I think we don't have that.
+
+as project right now, like in a centralized authority, or let's say just an authority. So I think that is where kind of the leadership needs to like step in a bit. And I mean, just like we did for engineering, maybe we can do it for growth also. Like maybe a person can like step up from the growth side and like just need all of that, be responsible for the decision. And I mean,
+
+From a responsible perspective, it doesn't mean that you have to be there for taking the blame and stuff, but just someone has to be willing to come in and take the responsibility and see it through from end to end. I think that's basically what's missing. think it's either time for a new kind of leadership to come in or just empower the existing people that we have into a position where they are confident enough to make the decisions on their own and see them through and execute them. So that's basically...
+
+what I think is the situation we are at.
+
+James Young (29:31.424)
+Awesome. Thank you for that again, Kush. I don't want to hog up the whole meeting, but I'll say that I think there's a, what Kush is saying and correct me if I'm wrong, Kush. I'm going to go out on a limb and say, that's basically what coach J is saying. Like, let's figure out who is going to be in charge to make that decision else we're going to go in circles again. So I think.
+
+Kush (30:00.186)
+Yep, yep.
+
+James Young (30:00.758)
+I'm getting Ozuri, did you want to say something?
+
+ZER8 (30:05.267)
+Yeah, I just wanted to say maybe we can vote on that like if this is like I don't know if that's the best solution like but Maybe we can just all vote on who is gonna be that person Or maybe that's naive. don't know
+
+Alex (30:18.598)
+So what I propose is that what I meant by the strategic clarity wasn't about organizing around a document. It's that when we have a startup, it's really hard to divide it into engineering and go to market because there's business or whatever, or because there's also the strategy and the business and fundraising, et cetera. So we have to figure out how to actually align these things together. And it's a recursive problem, right?
+
+So it's not so much about aligning around the document, but how do we make sure that these three things are being actually tied together? And if you notice, we actually tried to have this with disruption Joe early on by having the three circles meet and talk and decide. And that was actually more alignment. Like it doesn't have to come from one person. It can, in fact, I would actually think it should, but just because we have one person who decides, doesn't mean that we have the strategic clarity that is necessary. That is taking in the inputs, make running fast experiments, and then saying here's
+
+Here's where we're headed. So it's more than just the one person with no leadership. It's about that strategic clarity.
+
+James Young (31:20.482)
+Yeah, I hear what you're saying, Alex. It's a good point. But I think it then still begs that question. think going back to what coach Jay is saying, who decides what that document is and then falls through and takes accountability for that. So it all kind of rolls back into this same question, I think. And there's this interesting kind of like decentralized
+
+or progressive decentralization from an organization perspective that we're trying to grapple with, where we want to be decentralized. We don't want to be centralized, but at the same time, there are points in a project where things need to be a bit more centralized. If you take a look at Ethereum, example, like Vitalik, he's not the authority, but he is the main, quote unquote, influencer.
+
+I would have to say that on the tech side, just going off of what Kush is saying, that I've been that glue there to make sure things move forward. I think that's what we're looking for now when it comes to this go-to-market strategy here. It's not saying we don't need that document, but it all then circles back into who's going to be ultimately responsible.
+
+I've had this idea and this vision for this register, because I know it's going to need to happen. In the last three months, we've seen MCP and now we see Google A2A actually starting to fill in these pieces that we thought we would need to fill in, which is a tremendous positive market signal. And so now we don't even have to get that buy-in. We can just leverage what
+
+Anthropic on MCP and Google on A2A and incorporate that in the registry because still there's payments and discovery that still isn't being solved with the registry. then ultimately we have a doubt to kind of decide these verified, you know, these ages in the registry. So I think like what I thought would take from a coordination perspective, nine months to a year, we're like two and a half months, three months out and we're seeing it all come together.
+
+James Young (33:45.774)
+which is super bullish, at least in my perspective. But still, we have this issue now, organizationally, and I think it does come back to, and I don't know how we avoid really, at least right now, saying, okay, there is a person that is gonna be the accountable person on the go-to-market side, know, having this document and executing on it.
+
+and making sure that it does come to fruition.
+
+James Young (34:21.568)
+I see someone is sharing the screen.
+
+Alex (34:25.542)
+I just shared my screen. this is like, um, this is a document from the rewired group. Um, Bob Mesa has like developed over 4,000 products in his life. And they talk about like the three things that you kind of need within product development. And one is, um, strategic clarity. Another one is, um, Chris voice, the consumer. And the third one is technical robust development. And this first one is strategic uncertainty. This, this is what, this is what you see from teams who have this lack of uncertainty. And it's like, um,
+
+like when you have strategic context that aligns and enables the organization, that's when you're actually able to move forward, right? Otherwise you end up with this kind of, like messed up resource allocation. So the reason why, the only reason why I bring this up is because like, as they say here with like, when you have the, the more changes you have, or like the later change happened, the more it costs. And so what we're trying to get to is how do we get more crisp upfront? And even if we have one person who's defining the go-to-market strategy,
+
+That's great. We can do that. But then we still need to have a way to enable the engineering inputs, the GTM inputs and the fundraising inputs because a lot of our GTM will be like, what do the investors need to see in order to get us the funds so that we can actually start to pay people? Right. So we need to be able to have all that information being able to flow through and tie together because those things are because that's the recursive problem.
+
+So my question isn't just who will make the decision for the GTM, but how will we connect those three areas together?
+
+James Young (36:00.002)
+I think it's that person who is in charge will like lay that out, right? And then make sure that that gets followed through. I think the assumption here, because I've been following Bob for a few years too. I think there's a context assumption of it being a centralized organization. That's like the water that people are swimming in or the air people are breathing when you talk about, you know,
+
+jobs to be done. And I think that is an extra added dimension that is not addressed because we are trying to work in this collaborative environment. Because all of the literature here assume a centralized organization, like a business and having a hierarchy and leadership to make those decisions. Those are the assumptions that we're not, that cannot, that we're surfacing here.
+
+So with that, I want to yield the floor. I give it back to Coach Jay to help move us forward. I think this is great and a healthy conversation. It's a very hard conversation to have, but if we don't address these hard questions, they'll be answered for us. I would rather have us be in control of.
+
+how those get answered rather than the market answering it for us.
+
+Natascha Tiotuico (37:31.473)
+Does it have like, is it maybe not even just one person, but maybe a board of members, like three to five people that have different expertise that can closely work together to get that consensus rather than everyone. Like I enjoy centralized leadership because it makes accountability very clear and gives direction and
+
+As long as we know that the right person is in that seat or the right people are in that seat, we know that the boat goes forward. So I think like from my perspective, it's necessary. I'm just not sure. it one person, three people or up to like, I would say a max of five because more than five is very hard to get a decision. Maybe even three, like for three different departments with expertise to, for them to quickly vote on a strategy.
+
+James Young (38:32.866)
+Yeah, that's great input. I think what Kush is saying is that it should be Matt and myself because I've been leading, as Kush was saying, kind of the engineering effort in general and have that vision. And then it's Matt that has been through Gaia helping with the financing of this. And I think that is what I'm assuming Kush correct me if I'm wrong. You're saying like,
+
+that's where it needs to start. And there is this over higher level decision that has to be made or direction that has to be made first.
+
+Kush (39:07.182)
+Thank you.
+
+Kush (39:14.276)
+So, I mean, it's also because you guys started the project, it was your original vision, you guys got to the team, so technically you guys have the most context and it's not even about context anymore, like just from our strictly speaking economic terms, you guys are the main stakeholders there at the network and especially Matt because of the funds that already Gaia has committed, so till the time those things get resolved,
+
+and you guys come to a decision that okay first of all, decision do you want to this as a DAO or do you want to this as a company? If you want to run this as a company then of course you need the centralized leadership that's got a flow through and all those things. If you want to run it as a DAO I think that communication needs to be there also that clarity needs to be there that okay what happens to the existing baggage once that you know clarity has been kind of achieved then DAOs in my opinion serve as a great way
+
+for people to step into leadership and I think that in that sense then the stage can be opened up from the team who wants to like come up and take responsibility of certain you know let's say initiatives and growth so for example products can be taken by one person growth can be taken by one person and that's where I think the people who are like currently contributing and step up and take responsibility if let's say the DAO kind of method is you know
+
+if you're going forward with the DAO kind of method. But even for that to happen, the incentive alignment needs to be sorted out pretty well because yeah, technically why would this person take the responsibility of stepping up and spending their time over here versus because everyone has this opportunity cost basically. So what I'm saying is that that ignition incentive alignment is basically something that's super required. So either like a centralized way
+
+then you guys need it and then everyone is supporting and working and like executing on the vision on the decentralized way that gets resolved and then everyone is like kind of earning their share of work per se. So that's basically what I feel the core issue of the problem is in my opinion.
+
+James Young (41:36.844)
+Yeah, I appreciate that. You know, I would like to yield the floor back to Coach Jay here.
+
+CoachJ (41:44.537)
+Okay, yeah. I kind of want to make some quick decisions because I think that we're mostly actually all talking about the same thing in any way. like, what I really want to do is I want to be able to like empower
+
+and like, and I'm going to let my more of my personal decision rather than like saying this neutrally, but like, want to empower not just someone, but I want to empower James particularly because James, you're still putting in a couple hours a day in this project and it just makes it easier for you to direct. Matt hasn't been as involved. and he's just got a ton of other stuff going on with Gaia. and when James acts as the proc proxy for, for Matt as well to kind of make some calls.
+
+And that doesn't mean James is not considering other aspects of other ways that we can go and stuff like that. And we'll listen to those, but I would just in the spirit of moving faster and kind of like Alex put it, like try those quick tests. would like to just put the, put the decision rights into one corner so that we can do that. And then this way it's really easy. can send James an email after a week and go, here's how it's going in discord. This isn't working. I want to pivot and, you know,
+
+Not that I'm really going to check on that. I'd probably make my own decisions, but I, he'll probably just be like, okay, sounds great. You know what I mean? And then like, there's a quick decision and we can go. so I think that's kind of like, this is a very classic group, situation where the first thing you want to do with any group is, know, who decides who decides. And, we skipped that step. That's totally cool. And now we're kind of dealing with the consequences of that.
+
+And I would personally like to rectify it by just like taking someone who has been in this space for a long time, who sees trends, who understands the tech really well. And, um, I don't know, has provided a ton of clarity for me in order to do what I, what I do best, which is to execute. Um, so I'd love to do that. And this way, when it comes down to talking about which strategy we should go forward on, definitely we can still have a conversation. Everything that Alex brought up with like, what are investors saying? All that kind of stuff.
+
+CoachJ (43:52.455)
+100 % relevant and then once all the data is there and all the information is there we go James. What's our call?
+
+Alex (43:58.682)
+So my, I think that's great. We can totally empower James to do that. But my question is, who's gonna go in fundraise? And like, who's gonna go, like I think we have some other questions to figure out. Like my point is that this small decision, we can make it. It's a great, let's run the experiment. But I think we have some larger questions to figure out upfront.
+
+CoachJ (44:17.147)
+Great. I actually think that this is the upfront decision and then everything else will follow.
+
+CoachJ (44:26.587)
+the decision that James gets to make the decisions.
+
+Natascha Tiotuico (44:27.464)
+Yeah. Yeah.
+
+Alex (44:28.646)
+So, so who's, so you mean that James is gonna decide who goes in fundraise and what our thesis is?
+
+CoachJ (44:34.887)
+Sure, yeah, like we can have that conversation and who's going to fundraise, we can brainstorm it together, we can put a doc, blah, blah, blah. And then if we can't come to like an easy consensus based decision, which we've been really good at, I think that we often like rally around very similar decisions. So I don't think that that's a huge issue. But for when we can't make that decision or we're kind of like halfway in between and we need to make something fast to go faster.
+
+We go, James, let's like make a call on this. given the data, they really have 60 % of the data that you need. What decision do you want? Do you think we should make here? And then James says, we should go this way. When we're pitching, this is what we need to have, you know, blah, blah, blah, whatever it is. And that's the decision. You know what I mean? That kind of thing. That's the spirit that I'm looking for is like just faster decisions so we can stay in action.
+
+James Young (45:29.548)
+Yeah, I appreciate that. I hear you. I'm happy to do that because, you know, really I'm so bullish on this and I think we can move forward and overall I think you're right because we're too new and too small of a group to be bloated down by so much consensus or just not
+
+not moving, we have to be biased toward action. I think really that is just how I operate. you don't, all plans kind of fail in the face of reality. And that's when things get messy and we're in that messy part right now. I think this is where it gets really fun. This is where you have to be creative and this is what it means to be an entrepreneur and to be
+
+a founder. And it's not about making plans, but a lot of times it's about just reacting. And we have to be able to be okay with failing and making mistakes. So let me take a step back and think about it. Over the weekend, we have a mother daily sim call right after this, and we can start planning that out.
+
+because this is more, in this call, more of a kind of reflection of what happened. So I'll take that action item and let's give it a shot. And this doesn't mean it's set in stone. If this doesn't work out, we'll try something else. But we have to be biased toward action.
+
+CoachJ (47:13.744)
+Yeah.
+
+Alex (47:16.335)
+It
+
+CoachJ (47:16.415)
+And I appreciate that as well. Like, I just want to formalize, does anyone have any objections of going down this path where we're having James make more of the decisions, not necessarily having to act on them, but like as contributors, we can all act on those decisions, making sure that like we're aligned with those so that we move as quickly as possible and report back to James so that we can make decisions that are just going to be best for the project. Does anyone have any major concerns with that? Like any objections that like a bad idea.
+
+Alex (47:40.998)
+Honestly, we've been doing this already, I feel like. I don't think it's any different than what we've been doing. The concerns that I have are, what's that?
+
+CoachJ (47:46.853)
+Okay, great. Well, here we're to an agreement about that. I just want to make sure that that's like crystal clear that we're all in agreement to it, that we're vocalizing this, not just having it as an implicit assumption. Cause now it's much easier when we're deciding should we go, which strategy should we go? Should we go all in on the mother discord or should we get a few communities rallied around and James can make the decision based on the information he has.
+
+CoachJ (48:22.055)
+It's not a bifurcation anymore. It's a let's get behind the decision and present all the information and have objections and all that kind of stuff. But once like the decision is made, we just go all in that kind of thing.
+
+Alex (48:40.67)
+Yeah. No, I think, I think that's cool. I think it makes sense. My honest take is that we're still going to, like, I think it's great to have James aside. I think we've been having James aside. My, and James, I have full confidence in you deciding. My issue is that I think we're still missing like, like the light paper that, that like Kush wrote, the, the, the pitch deck and, and, having like alignment, not around the document, but like, Hey, this is directionally where we're headed.
+
+And then we can make iterations and decisions off of that. And think having that higher level alignment, as opposed to looking at it at a week to week basis, is I think what I would propose, James, that we're missing. Because then we have alignment at this level, and it's much easier to have the conversations and make faster decisions.
+
+Alex (49:28.996)
+Oops, sorry.
+
+James Young (49:29.824)
+Yeah, I agree. My strength is in engineering and just shipping on the engineering side. So I'm going to reach out and I'm going to ask advice. There's more to this now as we go to market than just a pure engineering play. know, Collabland is my fourth startup, so I'm not like new to the startup scene. And so...
+
+It's not my expertise though, but I'm happy to step up and fill in that gap. But I think it's not going to be just me writing all the papers and doing all that. I'm going to still be reaching out. So it's not that what you're saying, Alex, is we're not going to have that document. obviously, you know, you make some really good points. We do need that. But it's just like when decisions need to be made.
+
+And I think what Coach Jay, from my understanding, is saying is that we just need to formalize this right now and make sure that everyone in the group understands that. And we'll go into then this mother daily standup right after this meeting, tactically, just dividing and conquering then so that we're biased toward action.
+
+CoachJ (50:51.737)
+Exactly. And James, now that we all agree on like a very clear decision maker, that also empowers, I think all of us in is being delegated decision rights. So if it's like someone needs to take this white paper, this light paper, whatever it is, and have it make sense. And James is just like, you know, I'm not taking care of this right now. Kush, please go take care of this. You have like full approval to do this. Unless you have any major red flags, I want you to see this at the finish line.
+
+And like, that's it. It's like a done conversation and not overthinking this too much. just again, like James said, just focus on shipping. So I think that this is going to kind of be the way that we get to move faster and we get to iterate faster and ultimately like, know, bust through this cold star problem that we're hitting.
+
+James Young (51:42.498)
+Yeah, yeah, sounds good to me. Would love to get feedback. If anyone wants to DM me or talk to me, I'm happy to talk it out and get further opinions. I would like it to happen in this group context, but if people are not wanting to be able to say it in a group context, feel free to DM me and talk to me individually. I see Kush in the chat saying that Alessandro wanted to present something.
+
+as well and I think Alessandro has been waiting patiently through all of this. So I think we're clear and I really appreciate this Coach J. I don't know if there's anything else to discuss. If not, I yield the floor back to Coach J or to Alessandro.
+
+CoachJ (52:26.887)
+And I yield it to Alessandro. Yeah, I want to see what Alessandro has to share.
+
+Alessandro (52:32.558)
+I didn't want to interrupt. just I'm really yeah appreciative that you guys Are working through this stuff and making this org work just overall. I'm super excited about it We're super excited to contribute to it and appreciate that these are hard problems and glad you guys are working toward making all work I just want to take a quick moment. This is like a minor thing. Just I shared this in
+
+I shared this in the Telegram chat with Mother. I'm trying to figure out how to do screen share with Riverside. Yeah, I'm just wondering if I'd share my whole, yeah, yeah, I'll share my screen. Oh, there you go, can actually do specific things, great. I just wanted to show you guys the registry exists.
+
+CoachJ (53:12.187)
+There should be a share button on the bottom here where you can share your screen and presentate. Yeah.
+
+CoachJ (53:19.793)
+Yeah, it be easier to do that, yeah.
+
+Alessandro (53:30.282)
+at least the intuition portion of it. We just relaunched our portal, which allows you to see the actual claims here, in a plain way. you can actually see, these are all the claims that make up the Bobbot entry. So these are all of the individual things, and you can view.
+
+individual pieces of it and you can claim, you'll notice that none of these have claims on them, which has actually led to a bug. So you can like debug stuff like that. And then I was gonna quickly show that there is another piece of this that actually I was gonna call out as just like an actual like an engineering to do, which is...
+
+Currently, the only thing tying the entire registry on Intuition together is a recognizable atom that's used across all the form entries, and that's primary function. So you'll see, if you look by primary function, there's all of the various bots that have been added, and you can see what they do, which is pretty sweet. And people, at any time, some random person can come in here and vote on how true the
+
+that statement of its use is, which is kind of neat. You can ignore it if you want on as far as filtering goes. I was just gonna point out there's like two engineering improvements to do here. One of which is adding a small bit of stake to every single claim makes, I forget what the bug was, but that'll do things. And then I wanted to point out that there are lists in intuition that allow you to like view stuff as like what I think your registry could like,
+
+would be better presented as. Where like, ran this experiment with Kush earlier, this like, ETH Denver site event thing. The only thing that's needed here is just to give everything a Has Tag MotherDow registry tag. So like simple housekeeping, which would basically tie the whole registry together in a really presentable way. But just wanted to say, if anyone wants to play with this stuff, if you want to manually add things to the MotherDow registry, like you could do all that stuff. And the only thing that you need to figure out is,
+
+Alessandro (55:55.468)
+which accounts are you gonna listen to and treat as legitimate if they take action on intuition? So currently I think that's just like a single admin account probably that the forum is tied to, but maybe you can consider expanding that a little bit where you treat any view from someone else's there. Anyway, that's a quick intuition thing and if you guys wanna play around, I will share the link to that dev portal and the specific list there shortly in the chat.
+
+James Young (56:26.606)
+Yeah, thank you, Alessandro. This is huge. So I would love to be able to get that link going. And I don't know what your timing is like, but we have this daily standup. And maybe if you can join it, if you can put your email address somewhere, I can invite you if you have time. That's going to happen right after this call. So we're coming up to the top of the hour. And so...
+
+I don't know if there's any closing thoughts or Coach J, if we want to start wrapping up.
+
+CoachJ (57:01.261)
+Yeah, I think that's it for this week. What we're going to do now is, like you said, James, is that we're going to start talking more tactical so that next week we can kind of move on to that. Like some of the decisions we made in terms of like people who might be watching this afterwards don't see, but Alex is bringing up some more existential things in terms of our overall direction of like whether we're using this light paper as a direction or a thesis that Joe put forward or at a three, you know, as our three month goal, are we driving
+
+toward like a token launch or are we driving towards marketplace GDP? Like those are kind of the decisions that Alex is seeing are like pretty, are more existential and having decisions around those will drive our actions. So those are the kinds of things I'm hoping that we can solve like really quickly now that we've empowered James to kind of like make some calls for us.
+
+James Young (57:56.014)
+Amazing. Thank you. So I'm going to take this information in, give me today and maybe over the weekend, but we'll have this sorted and let's have those conversations so that we can hit the ground running on Monday.
+
+CoachJ (58:14.023)
+Sounds good. Okay, we'll see y'all later.
+
+James Young (58:14.248)
+And I'm gonna, I'm putting in chat the meeting that we're gonna be jumping to that we're one minute late for. So this is the mother's daily standup is in the chat. for those that aren't invited, feel free to join if you wanna listen in. But we're gonna start tackling this right away. Bye, short action. Thanks, bye.
+
+CoachJ (58:34.087)
+Thanks everyone.
+
