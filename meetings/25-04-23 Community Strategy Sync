@@ -1,0 +1,253 @@
+Mother Community Strategy Sync - April 23
+VIEW RECORDING - 30 mins (No highlights): https://fathom.video/share/rz3_fBxEsYEGEiiy6tH8UBFCyWcmMtbN
+
+---
+
+0:00 - Natascha Tiotuico
+  Oh. So yesterday, like James put out the idea of like the polling market idea that we could bring that to discord.  Right. So we think that might be a good way to use the implementation of the poll agent, like feeding it with either news or a specific agent.  Information, creating polls on that that do like a banking prediction thing. Wait, is it cool to interrupt real quick?
+
+0:44 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I just want to bring, because we're to like 20 minutes left in this call. What's an ideal outcome for this call that's going to move things forward?  To have the campaign ideas set and a plan.
+
+0:59 - Natascha Tiotuico
+  call. we question.
+
+0:59 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So
+
+1:00 - Natascha Tiotuico
+  To present today at the dailies what we're working on, what, how we will introduce the poll agent, like we have to have theme based since the mother will not have multiple agents, we're doing like one agent at a time, we need to build the campaign very specifically so that people know what to ask mother and how to use the poll.  So I would say like with the poll we opened, let me just open my screen.
+
+1:42 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  How did you imagine this, like I'm not, I haven't been, I haven't done like campaigns like this in Discord before but I imagine it's pretty simple like first off you start by like announcing it on X and announcing on Discord like hey we're like you know picking off the next phase of our points program, I am.  am. This Friday we have an event, it's running between this time and this time, and the challenge will be open for three days, and we'll share the rules on Friday.  Friday comes around and we say, okay, we're introducing our first agent, it's this agent, this agent can do this.  And then in the live call, we'll have people hopefully showing up, asking questions, actually using the tool, etc. And then there's an async message that gets sent out, and then for a few days it's open, and then it closes.  And like, that's kind of how we do that, until the next Friday when we have our next, okay, this week we're doing this next one.  And that's pretty much it, it's just like, it's like a one agent per week feature thing.
+
+2:45 - Natascha Tiotuico
+  Well, that's the question, like, do we close it, or do we say, hey, this is like the kickoff, the celebration of our first agent.  So that campaign, how do we word it? How do we that? do How do do Create the excitement for it, like the tutorial or a live stream for us to say, hey, this is how you use Mother.  Do we have a video that shows what specifically how to use the agent? Like, ask Mother, create a poll and do like a demo and receive seeds for it or pay seeds for it.  The whole campaign around it, how to hype the community about this agent. That's what we should plan out.
+
+3:35 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So the actual copy and all that kind of stuff. Yeah. Or who takes care of the copy?
+
+3:42 - Natascha Tiotuico
+  Like, we don't want to stand there on Friday and be like, oh, I can do it. I'll do all the copy.
+
+3:46 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I'll do all the marketing stuff. So all the graphics and all the content. I can take care of all of that.  That's what I that's kind of why I haven't been going is like, I want ideas on like, when are we doing and what are we doing?  how or to — — — Okay. I'm Like, I will, I will make everything and then like, as I make things, I might ask some questions and dah, dah, dah, dah, and then have it all kind of set out because it's, it's not hard to make up this content.  Like, I can whip this stuff together pretty quickly. Like, it doesn't take too much time. just think we just need to figure out the details of like what we want to do and when and some of the parameters around it.  And then I think that's it. What parameters around it should we maybe discuss?
+
+4:30 - Natascha Tiotuico
+  Like, you brought up a bunch of great points.
+
+4:32 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Like, so say that we want to do this prediction market one, because I think it's the coolest one, frankly, but say it's the prediction market one.  Oh, by the way, I wrote, oh, this is, oh, you have to look at the agent there. Okay. Okay.  Um, so say we do the prediction market one, and we've, we're told James that it's going to be built.  We need a built for.-bye.-bye.-bye. I'll see later. This Friday, whatever it is. He can't do it for this Friday, because basically what he needs to build is he needs to build two things first.  He needs to build the mother orchestrator that can connect with an agent. That's like the first thing he needs to build, so I rank it number one.  And then I put the prediction market one because I thought it was the coolest, and I put that as number two.  So hopefully these specs give him a sense of this is what needs to be built. The sooner he gets it built, the sooner we can run this program.  So if he can get it built by the end of the week, then maybe on Monday or Tuesday at the latest, we're having our first live event where we're hosting this kind of thing.  The other thing I actually have sorted out is how does this tie into the quest? Because as soon as the mother orchestrator and we have our first agent, shouldn't the quests already be good to go?  Or do we need to have some of this stuff live? First and then the last start.
+
+6:06 - Natascha Tiotuico
+  Personally, but I'll ask Xavier, I would like to have it running for a few days and then start the quest around it.  But, Xavier, do you have a different experience or thought on how to go about this?
+
+6:30 - Xavier Finlayson (CoUnity)
+  Sorry, I was multitasking. What was the initial plan? Okay, so basically, like, we're planning our kickoff event.
+
+6:36 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And ideally, this is going to be an event that kind of explains our first agent, whatever it is. And then there's, like, events weekly, for example, or twice a week, kind of like what we initially discussed, where we're introducing a new agent and there's some sort of time box to challenge this thing.  And that's that. And the question I had was, You know, I talked about like a galaxy quest style thing, like how did that all weave in, because I don't know who's going to take on this quest, like I know we have like a few active members, but it's really, it's like less than 10 people, like it's just not that many people, or is that a lot of people, I don't know, I don't know.
+
+7:19 - Xavier Finlayson (CoUnity)
+  This is, this goes based on what we were discussing the other week, as soon as we start publicizing quests, it's going to pop up in airdrop communities and we'll get a flood of those kind people.  The challenge was making the quests hard enough that you surface the kind of people that you actually want. Yeah, like Passport, right?  Yeah, Passport's one element of it, just the actual tasks as well, what people need to do. Tash, what you're asking, we run something first for a while and then introduce something else, what was that bit?
+
+7:54 - Natascha Tiotuico
+  So the question is, when do we start these quests? And my preference would be... Let's do one or two agents without the quests, and then, like, also resource-wise, I need to discuss with Xavier to build the foyer garden, to build the quests out.  We need a bit of time. So I think having one or two agents on there, really building that authentic community, then putting on the quests.  Like, I know it's a big issue we're hitting for numbers, but I think numbers are not the only.
+
+8:36 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I think so, too. And the numbers will come quickly and easily. So we can hit that trigger at any time.  I love this idea of let's actually run multiple weeks of this kind of thing. Let's collect the feedback. Let's get it working and right.  And then we only get one chance, because once the floodgates are open, like, that's it. They're open. Yeah, I agree to have an agent or two running.  think. important. you.
+
+9:00 - Xavier Finlayson (CoUnity)
+  At least a few days first, simply because there's going to be teething problems and troubleshooting first.
+
+9:05 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Totally. Zero8, you wanted to contribute something here? Yeah, I wanted to ask, what do you mean opening the floodgates?
+
+9:12 - Razvan Matei Popescu
+  What does that mean?
+
+9:14 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Like saying that we have a points program and you can complete quests for points. Xavier is saying that that will be circulated on airdropfarmer list and people will rush the discord and we will get like thousands of people joining within days.  Yeah, I'm certain of that.
+
+9:34 - Razvan Matei Popescu
+  So we're not going to announce that on X right now, right? Not right away, no. We should continue announcing things on X.
+
+9:41 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Like, you know, our first agents are live in Discord. Like, come join us on Friday for our first, you know, agent demo and challenge.  And then like, we can talk about how we have the, and then we can have like other posts, like, you know, our first agent.  versus not 뭘 As the prediction market agent, it can do this and that. Want to learn more? Come out on Friday.  Last chance, Friday's tomorrow. Join us live for your chance to try out this tool and be recognized for it, whatever it is.  then it happens. And that will be like week one, for example, or day one, whatever it is.
+
+10:23 - Razvan Matei Popescu
+  I think we should keep the habit of giving out seeds to people that help us amplify, right? Like, that's one of the things we should do with every post.  Just do not forget about that.-knowledge. Cool.
+
+10:41 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Tash, just based off of what I shared there, does that sound like kind of like what you had in mind, like those kinds of things, like those kinds of announcements and stuff like that?  Yeah. Yeah.
+
+10:50 - Natascha Tiotuico
+  And making that very clear to James this evening, because we've had a few like issues in Mother where we all talk about.  Let's do this, let's do this, and then nothing happened. I think being very intentional and clear about that, that he, because he's spending his evenings also developing for it.  That's kind of his expectation from us, to us.
+
+11:19 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, 08, do you want to add something? Yeah, exactly.
+
+11:24 - Razvan Matei Popescu
+  Natascha's note, we should just tell him, because I think we're still in the Spider-Man meme, so we should just tell him, hey, James, we're going to experiment with these things, and these are going to lead to a bigger points campaign.  Yeah, cool.
+
+11:40 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So basically, the way that I see, like, Divide and Conquer is, like, I would love for Tash and or Xavier, I don't know how y'all are dividing the work, the CoUnity team, to be responsible for, like, I would love for you all to think about the mechanics of...  How the event will work and run and stuff like that, and what experiments we want to run, like, is it that we're setting up a poll and people are voting on it?  Are we getting other people to set up the polls and people are voting on it? Like, how the event actually runs?  I'll leave it all to you, and like, and also what day and time works best for you all. Yeah, just, whatever, whatever's going to best work best for you, I want to make sure that it's around you.  Once we have that, then what I can do is I can take those details, and I'll turn that into lots of content.  So I'll turn that into content that goes out on X. Basically, like, every day, probably for about five days, leading up to the event, and then like twice a day closer to the event.  And then I'll also create copy for Discord and Telegram that can be posted as well. For every event, we kind of like finalize, like, this is what we're going to do on this day.  Then you pass it over to Coach J. Coach J will We'll get all the copy done, what I can do is I can deliberately try to do it really quickly, like I can try to turn it around in like 24 hours kind of thing, and the reason that that's helpful is because then I can do is I can send it back to you all, and you can all say, oh, you know, you missed this detail here, it's probably really important to mention, or can we also add in something around here, or I don't like how we're wording this, I think it's too X, Y, Z, whatever it is, right?  So what I can do is, yeah, if there's a, I'm notorious for typos, so got to mention my name right there is typoed as well, an A-N at the end, but we'll let that go.  So how about that as kind of like a flow, is like the CoUnity team, just pick a date, and then what's great about picking a date is that I think James needs that deadline, like he needs to know we want to run something on Tuesday, and we want the mother orchestrator ready to go, go, and you type in slash-  Ask, and then like this prediction market one says, you know, create a prediction market or whatever the command is.  So he can design that and develop that. And then, yeah.
+
+14:12 - Natascha Tiotuico
+  Question from my side, like I understood the prediction market is an automation around the poll. Would it be two different agents to have the prediction market and the poll agent?  I understood it's one, just put in the context.
+
+14:30 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I say we asked, I say we asked James tonight, this is kind of, this is why I was also like leaning on products.  Like, I don't want to tell him, know, dude, we need this for Tuesday. And then he's like, well, the mother collaboration agent, orchestration agent is going to take me three days alone.  And this poll, this prediction market one will take another four days. Like, I need to know how long it can take.  So what we should go is we should say, mother orchestrator, we need started like immediately. And then there's the slash ask command.  And And I actually, if you take a look at, go to Community AI Agents tab and look at the mother orchestrator and check out how I kind of like phrased it in terms of how it works.  I think it's toward the bottom. Oh, your computer is just as slow as mine. I feel your pain. Yeah.  I have like a five, six year old laptop right now and it's really showing. Okay. Yeah. Example flows. Use flow examples.  So the GigBot request, pretty straightforward. I want to promote this and like dah, dah, dah, dah, dah, dah. And mother orchestrator identifies the GigBot request.  Cool. Whatever. Poll creations. Fine. And then what happens is I love this example three. It's like unknown request. If you type in slash, ask, calculate the derivative of X squared, the mother orchestrator cannot find a matching agent.  And it says, I don't have an agent that handles this. Available agents are this.
+
+16:00 - Natascha Tiotuico
+  What do we think of actually already, like Alex, doesn't he have a bunch of agents already that kind of like registered?  I mean, they're not working, but they registered that we have their descriptions and can like say, hey, I don't have currently have this information, but how do you know about this AI agent on the market?
+
+16:22 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Whatever we want to do, we just need to tell James how we want him to program it. So if you want the mother orchestrator to do that, I think it's more simple to just be like, hey, it doesn't look like we have any agents on the registry that can do that right now.  Try this instead for now. Or in the future, this message might change to something like, we don't have any agents that can do this right now.  See our director of agents for what we can do. Ooh, even better would be, do you know an agent that can do this?
+
+16:51 - Natascha Tiotuico
+  Refer it to us. Just pop it into the unknown request thing.
+
+16:57 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And we can ask James how he wants to design it.
+
+17:02 - Natascha Tiotuico
+  Yeah.
+
+17:02 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So let's go to him tonight and say, we need this designed, right? And so this one, what it's great is that you do slash ask, and then there's very, like, we'll need to see how flexible we can be with the wording.  Like, does it have to be, I want to promote this ex post. Like, is it, is it, if they misspell promote, will the collab line bot like freak out and be like, I don't know how to do this request?  Or does it have to, like, can it be like, the general gist? And if they say, I want to promote this ex post, it gives only the link.  Yeah, exactly. That's kind of what I want to talk to James about because the orchestrator should be really smart, right?  It should take language requests.
+
+17:46 - Xavier Finlayson (CoUnity)
+  So yeah, if it's the exact language, then I can put a retail bot in there with no AI and get the same response.  Exactly. So let's talk to James about what this looks like.
+
+17:58 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  But I think this, to James about. Speck, we'll help him, like start now. And then what we need to say is, okay, let's go, we'll look over the prediction market one together.  He might say something like, this is actually a tougher build. This is going to take me a lot more time.  Let's start with something more simple, like the polling or the, the polling, because the polling, if I build that now, then it's, then I can use that to build the prediction market thing more easily.
+
+18:27 - Xavier Finlayson (CoUnity)
+  You know, some of the impression prediction markets were actually quite complicated. Yeah, totally.
+
+18:34 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  But how cool would it be? I really want it. You're a gambler! I just think it's going to like, it's just like, race to the base stem?  What's the term? people like... Race to the bottom? Race to the bottom? Yeah, man, it's just like feeding into that.  Bring us to your digens.
+
+18:55 - Xavier Finlayson (CoUnity)
+  Bring us to your lostness. It's just, it's a sticky, like...
+
+19:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Concept for an agent, though. think it's good. So James might come back and say, like, let's just do something more simple, like the polling, or the quiz is actually, like, I think a nice middle ground, because I think it's basically, like, it's the polling, but like a series of polls, and then it adds up a total of which one correct and incorrect.  Like, there's a true-false kind of in the background. That would be super cool. So let's ask James how long he thinks it will be to build those things, and then that will help us set a date for when we do our first event, and then we can kind of start planning around that.  Does that make sense as a game plan, or am I kind of like, that's how it's forming in my head, but I don't know if I'm too much in my head now.
+
+19:44 - Natascha Tiotuico
+  I think the thing missing, or what I'm trying to add here is that we should write which campaigns are added so that James has that in mind, in case he gets blocked.  on some development that he sees, OK, this this campaign will not be blocked by this technical requirement. So he could work around it like he wants to know the gist of how we're going to promote it or what is the technical gist around it to to get it going.
+
+20:20 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Isn't that in here, though, like the technical integration requirements? Is that not capturing the gists or is there something else?
+
+20:27 - Natascha Tiotuico
+  Well, if he has like, let's say he has a blocker on admin authenticating for market resolution.
+
+20:43 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, sure. He knows. Yeah. Yeah. So he blocked around something. There's something technically blocked around.
+
+20:54 - Natascha Tiotuico
+  But then he sees the campaign and says, OK, we can adjust the campaign to leave this. time. So An it's a  specific requirement out. So if we go from example for normal polls, how should I explain it? I think I understand.  I actually think I understand.
+
+21:16 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. So what he wants to know is like, yeah, I think it's because the word campaign is messing me up because I'm a marketer.  I'm thinking of like a whole campaign. You're thinking about like the activation itself. Oh, activation.
+
+21:32 - Natascha Tiotuico
+  Okay, good.
+
+21:34 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Language. So you're thinking about the actual activation. Like he wants to know, like, what does it actually the event like actually look like for us using this thing?  What does that activation look like? It's having us invite people and then they're going to do X, Y and Z.  And then he's going to hit a technical block to think, okay, well, we can't actually do Z. So let's just like omit that.  And then we can do X and Y still. guys let it go. Okay.
+
+22:03 - Natascha Tiotuico
+  And that's going to feed in... Oh, just lost Tash.
+
+22:11 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay. I think we're on the same page here. Let's wait for Tash to come back, but there's Tash. You're muted, by the way, Tash.  Can you hear us? Yeah, but you're muted. We want to hear you.
+
+22:36 - Natascha Tiotuico
+  Yes. Okay. I can hear you now. Yeah, so... Okay.
+
+22:44 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So, actually, Tash, based on what you're saying, actually, the order in my head was, let's wait for James to hear how long it will take, then we can plan an event, then we can do marketing.  But that's not the order. The order is actually CoUnity team designs what's an ideal activation... ... ... ... ...  ... ... ... And then we passed that to James, and he says, here's how long that will take me to do, let's cut this and this out, or whatever it is, and then after James confirms, then you can, the CoUnity team goes in and fills any extra blanks about, you know, the run of show, whatever it is, and I can already start to go play in the, do the content plan with the announcements and all the things.
+
+23:27 - Natascha Tiotuico
+  So that's kind of the order of how we're doing. Like our, our thing is like presenting the challenge, the problem, the activation first, so that James knows, okay, this is worth it, or even if he has like some, some ideas around it, or, or doubts around it, he can discuss it with us.  Okay, amazing. And that's how we get out of the Spider-Man meme. Okay, this is it. We're, we're doing this.  And we have five.
+
+24:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Five minutes left on this call because I'm dropping in five minutes, so Tash, is that something you're willing to lead?  I'm willing to collaborate with you on this, even before a meeting with James. only thing is that I'm pretty booked up today.  I have time, basically, between 4.30 and our stand-up, Elizabeth, like that Portugal time. So if you want to get together, and you actually want to work on it together, I'm happy to get together.  Otherwise, you can take a crack on it this afternoon, and if you're ready to go, then you can just bring that to the stand-up, and we can talk about it.  However you are, but consider me your partner in getting this to the finish line. Okay, great.
+
+24:46 - Natascha Tiotuico
+  I have a gap between 6 and 8. I have to take dinner in between, but I'll try to have something ready that we can discuss during that time.  Amazing.
+
+25:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Say between 6 and 8, uh, Lisbon time? Oh, yeah, because, uh, so, 9 is the daily for you, right?
+
+25:09 - Natascha Tiotuico
+  Yeah, yeah, yeah. Don't worry, can do Lisbon time, I'm just calculating it.
+
+25:13 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, you can take my slot for Jonathan if you want. Sorry?
+
+25:21 - Natascha Tiotuico
+  Oh, no, before, but I won't be able to curate something before. I have a slot with Xavier, so I will, like, I will need that, that time to get my first thoughts around it.  No worries.
+
+25:35 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Whatever you have, Tash, is totally fine, because we can, we'll just go over with whatever you do get, even if it's nothing.  I think even this conversation is super helpful. I don't think it's going to be, like, a big lift. I think it's just getting, just thinking through and getting a sense of, like, what it is that we want to do, and then no matter what, we're going to, we're going to have to run it by James, so it's going to change, right?  So we want to just get at a high level that might be helpful enough for him. So, let's see.  Do meet at 6 p.m. Lisbon time?
+
+26:01 - Natascha Tiotuico
+  Yes.
+
+26:02 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, I'll send you a meeting, and then... Okay. I might say five or ten minutes after, so...
+
+26:09 - Natascha Tiotuico
+  Okay, perfect. That's totally fine.
+
+26:12 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, great. Okay, super. Yay! We have a plan.
+
+26:18 - Natascha Tiotuico
+  Okay. Any other questions from anybody else? Anyone? 08? You got anything?
+
+26:27 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Is there any action items you have for me?
+
+26:31 - Razvan Matei Popescu
+  Well, you're still killing it on the live stream, so thank you, sir, for doing all that.
+
+26:35 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  That's super helpful. I would say if there's any other considerations or concerns you have about how to make this consistent and clear, if you have any thoughts about other activations, if you have any thoughts about...  I'm trying to think of what can you do that's... Less idea oriented and more action oriented, because I think we already have a lot of ideas.  We need more like doing, but I'm trying to think, Tash, do you think is there anything like zero eight?
+
+27:10 - Natascha Tiotuico
+  So I think the poll bot, the poll agent will come no matter what. these are eight around the ideas we've had on the polls.  What would be your steps you see in moderating them through a week, through a month? What could be like the concrete items that we implement to get the crowd, get the community hyped about it?  Like what are concrete topics you would do during a poll week or a poll month? And write them down step by step.  So that we can. And then we can add them to the campaign strategy. Yeah, I think a whole month would be...
+
+28:10 - Razvan Matei Popescu
+  Wouldn't it be too much to have a whole month? Maybe just a couple of weeks.
+
+28:16 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I think it's more like, what are the list of questions that we could... Yeah, yeah, yeah. Just ideas in terms of how to animate the community.  Yeah, sure.
+
+28:26 - Razvan Matei Popescu
+  That's another problem. When do you think this will start? On Friday?
+
+28:32 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I don't think that James can build this by Friday, but hopefully it will be early to mid next week, ideally.  I don't know. We'll find out tonight for sure of the timing. I don't even want to make up time.
+
+28:43 - Natascha Tiotuico
+  Yeah, but just the step-by-step. Like, I would set up the poll, I would do a video around it, or I would make an announcement in the...  Like, what are the steps? That's that you see beneficial on concretely, if we would set up a poll, or is it just create the poll in general, like should we create another channel that's called poll and start like directing people to that so that people who are annoyed by polls don't even go there?  Yeah, I totally get it.
+
+29:30 - Razvan Matei Popescu
+  Can you share this? Actually, I'll find the link. I added the link in the Slack growth channel.
+
+29:38 - Natascha Tiotuico
+  This is the seeds points activation, and I have a backlog here where I'm trying to collect our ideas and the concrete steps.  So when you go on the task, you can add specific descriptions, what we would do steps. I want to fill this out more, more in detail.  great you to to wait for you to Thank I'll add my thoughts in there, right?
+
+30:03 - Razvan Matei Popescu
+  Yeah. Okay, great.
+
+30:07 - Natascha Tiotuico
+  Thank you. Amazing. Thanks, everyone.
+
+30:10 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Thank you. Have a good day. Bye. Bye.
