@@ -1,0 +1,226 @@
+Engineering Daily Standup - April 07
+VIEW RECORDING - 27 mins (No highlights): https://fathom.video/share/Cmkz5-UaDQBSWKt7SrHC5bUHAu-aZTaJ
+
+---
+
+0:00 - James Young (Collab🤝Land)
+  So it's going to be brutal today because – and then tomorrow is the operation. So I'm going to be out for the count tomorrow afternoon.  I tried to schedule it after the engineering sink, but then I got a note from my doctor saying I have to arrive like 45 minutes earlier to prep.  That's okay.
+
+0:27 - Kushagra Agarwal
+  That's okay.
+
+0:31 - James Young (Collab🤝Land)
+  So, yeah, I don't think you want me on video during my procedure, but I'm happy to see you at all.  Anyway, but, yeah, so I'll be missing the engineering stand-up tomorrow. But that said, I know that we soft-launched X-Card and we have tipping going on Discord.  I don't know if there's any updates because I didn't see much tipping happening over the weekend or a big push from partners.  At least not from my angle. No. No, we didn't let any partners know.
+
+1:04 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  My thought was we were just getting the cards out there. Coach, I'd love to see if anyone interacted with them and just get some preliminary stats on that.
+  ACTION ITEM: Post X-Card announcement thread; msg partners/agent teams re activation
+ - WATCH: https://fathom.video/share/Cmkz5-UaDQBSWKt7SrHC5bUHAu-aZTaJ?timestamp=68.9999  But basically it was kind of like today we're going to regroup and we're like, okay, are we doing this?  This is a go, this is a go. And then basically after this call, I post the announcement thread and then I would go through and message partners and agent teams to let them know about this activation.  And really start that kind of like impressions engine and stuff like that. If I can monopolize our time just for another minute here.  I've also kind of set up basically this dashboard. This is my vibe coding in action. And so basically what I'm going to be able to do is we'll be able to kind of like upload some CVS files here.  And basically what we'll be to do is we get able to track kind of like our KPIs, which is like, how many impressions are we getting on the post in general?  How many smart accounts have got created? So I hope that we can actually track that for the X-Cards, how many smart accounts?  Yeah, you can go to Etherscan and download the CVS.
+
+2:08 - James Young (Collab🤝Land)
+  Perfect. So that's what I'm going to do.
+
+2:10 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  New Discord joins, which CoUnity is helping me with. And then what we'll actually do is calculate, because this is our ultimate KPI, I would say, is how many seed transactions have been initiated by people that are not us.  So that's what I think we're going for here. And so we'll actually kind of watch the funnel as well.  Like we'll be able to visualize the drop-off at these different places. I imagine there'll be pretty significant drop-offs at every level.  But yeah, I'm hoping that we can start populating this over the week, and then get a better sense of how this is going.  But yeah, aiming to launch basically within the next hour is the ideal.
+
+2:50 - James Young (Collab🤝Land)
+  Awesome. Yeah.
+
+2:52 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And, Coach, maybe you can stay on, or we can start a new call after this, and we can get it together.  Yeah. Yeah, yeah. Yeah.
+
+3:00 - Kushagra Agarwal
+  So, yeah, I think for the previous week, like, the sample memorization, I don't see a lot of, like, new interactions.  This is just, like, team members and, yeah, mainly, like, sample accounts that I've been using. I think what we'll end up doing is, the main thing that we're going to do this week is we're going to drive to Discord.
+
+3:23 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  That's the main thing. Tip people, as they get there, the mods are in there saying, hey, whatever it is.  And I've already talked to Tash and Xavier. Basically, like, we're ready to run an event, but we want to see that there's an actual, like, tipping point of people.  Probably over the last week, like, 20 people have joined the server. So there is some word getting out about the recognition program and the meme contest, but that's not a lot.  So, if we run this Xperts things and we see, like, a pretty major uptick, we're going to run this, we're going to run this event, like, Wednesday, Thursday latest.  But if we're still seeing it need some time to build and develop. we'll line We might run something only next week.  We'll just kind of make a call ad hoc. I don't think we need to plan it too far in advance.  We already have kind of a run of show. So, yeah.
+
+4:10 - Kushagra Agarwal
+  I was thinking one thing. I was going to Mother's Twitter the other day, and I was, like, thinking, are we, like, posting too frequently?  I don't know. I can see any.
+
+4:25 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I know that there's some, like, wisdom that you're supposed to post a certain amount of time, but I think that mostly the wisdom that I've read is just basically just be consistent.  So it might be that, you know, it could be that we need to post a little bit less, and it would optimize, like, a little bit more.  I would really question what, you know, what that kind of optimization would do for things. I think if we're, like, really trying to get, like, inch every view out of it, maybe there's some optimizing I could do, but it's hard to say.  We have lot going on every day. Yeah, exactly. Exactly.
+
+5:00 - Kushagra Agarwal
+  Yeah, because I mean, I was just like trying to think that, okay, like all of these different, different accounts, uh, we're like, you know, not doing any stuff also are getting like a lot of views, whereas our, uh, just stuff like concrete that we're doing, meaty things, uh, you know, we're not getting a lot of views also.  So what can we done? Uh, X has a very much cold start problem also. Yeah, that's right. I mean, we don't have followers.
+
+5:23 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  We gotta, we gotta watch it with any stats on X. I mean, most people are paying for, uh, for views now.  Like, I'm use GigBot as well. Like, uh, just so many of these impressions come from, like, Legrand, like, Legrand just did their thing.  Yeah, it's like a, it's a paid activation. Yeah, dude, how does Legrand has 250k followers?
+
+5:42 - Kushagra Agarwal
+  Yeah, yeah.
+
+5:43 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Gaia has half a million followers. I mean, like, it's all kind of like, uh, you're paying to get it in front of the actual people that are using X.  So it's, it's all kind of hard to say what's working, what's not working. That's why I don't to optimize too much.  I just want to post what we want to post and then we kind of just like go for Yeah, this is where I think we get our partners to help us amplify.
+
+6:05 - James Young (Collab🤝Land)
+  So whether or not, I don't know if we got any response from base or if there's like retweets or, you know.
+  ACTION ITEM: Msg Base group to follow up on form submission response
+ - WATCH: https://fathom.video/share/Cmkz5-UaDQBSWKt7SrHC5bUHAu-aZTaJ?timestamp=365.9999  I'd fill out the form.
+
+6:14 - Kushagra Agarwal
+  It's just, I don't know what the...
+
+6:16 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Kush, after this call, let's go through together and you can actually message the base group and say, hey, we've been waiting three business days and we haven't heard anything back.  And so that's why I was looking forward to today because I knew that we would have a period and we can match them.
+
+6:33 - James Young (Collab🤝Land)
+  Yeah, I think like this week, it's just trying to amplify and get people into the Discord. Again, you know, what we ship could be optimized for just marketing because we really want to push people there.  I think on the engineering side, the whole slash ask and the fast track is well underway. I think there are some dependencies when it comes to moving over to an MCP server, which is not a lot of work.  We've done a lot of the heavy lifting already, and MCP is an optimization, but I think on the engineering side, if we focus too much on just optimizing the infrastructure, we are going to get into this navel-gazing perspective.  I want us to be focusing outward, and I think this is where the marketing comes in because we really need to get these agents on board.  So this is where we're switching what we shipped from just pure tech demos to just really focusing number of users in the Discord and number of agents in the open registry.  And because we have the infrastructure in the middleware now through this fast-track mother proxy, so we just really need to focus on that because we spent months building, and now we have it.  I think we've overbuilt a bit now based off of feedback. know, need that the We need to optimize now for MCP, but I think that's a detail.  What we really need to show is like network growth right now, and how do we do that? This is why we have the test tokens, this is why we have tipping to get people into the Discord, but we really need to kind of really show numbers at this point because we can go on forever optimizing, but if no one's using the system, you know, we're just optimizing.  It's one of those, like, if a tree falls in the forest or, you know, no one's there to hear it, like, who really cares?  So I want to stop optimizing at this point, and we really need to get the network up and running.  Cool. Yeah.
+
+8:53 - Alex Lumley
+  That makes sense. I mean, we, we, we have our plan from, from last week, or sorry, from Friday, which is.  Go after the agent builders and invite them back in with the registry. Assuming the scheme is all good, then I can send that out.  Kush, if you were able to check out the information on the descriptions, then I can send that out to those teams and we can bring them in.  Then the other part is, Coach J, I think you and I have to discuss who's going to go after the launchpad or the partnerships, because that'll most likely be the thing that brings in the most amount of agent builders the fastest, rather than one-off builders.
+  ACTION ITEM: F/U w/ Zena re who owns launcher outreach; send pre-filled agent desc to teams for verify+endpoint info; dev launchpad proposal for bulk agent onboarding; reach out 20 agent builders, aim 10 onboarded EOW
+ - WATCH: https://fathom.video/share/Cmkz5-UaDQBSWKt7SrHC5bUHAu-aZTaJ?timestamp=560.9999  I don't know if that's Silzina, if that's me, or what that kind of looks like.
+
+9:37 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, I would have you two figure out who wants to do it, maybe just touch base with her and see, because I know that her capacity is reducing a bit, so maybe talk to her.  And then the other thing is, I know that she brought up and it never got resolved, was the revenue sharing for launchers.  Yes. And . . Creating an incentive for launchers to have agents launch through and connect immediately to the mother registry and like creating some sort of incentive system to like why would launchers care about the mother registry other than like, you know, our value propositions.  If we want some early movers, it might be worth incentivizing them to say that they will receive X percentage of revenue generated by agents launched on the mother registry.  Um, at least for like a first of the first few networks could be like a great way to kind of like jumpstart a bunch of agents getting onto our registry.
+
+10:39 - Kushagra Agarwal
+  Um, yeah, yeah, yeah, basically, uh, over the weekend, Poonkar and I were like, uh, kind of, we started from scratch and like we built out like a financial model around this exact kind of thing, like the entire, you know, how the tokens are going to like flow, how the staking come into it and everything.  So, I would. We were just compiling the docs, we would send those over to James and Matt and Joe for review.  It's pretty much the RevShare concept itself, but tying into it wider toponomics and stuff like that. I think we have a direction over there depending on what feedback we get and how we can make it better.  I will also share it in the group so that you guys can also like add comments and stuff. So that'd like super helpful.  Cool, yeah.
+
+11:35 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I think having that kind of clarified will answer Alex's question of like who's going after launchers and what are we offering them.
+
+11:43 - Kushagra Agarwal
+  Yeah.
+
+11:45 - Alex Lumley
+  To be honest, think, Jonathan, I guess I'll just follow up with Zena to figure out who's supposed to own the launchers and then we can go from there.  Sure. Because some of them might want revenue, but other ones don't necessarily need it and they're okay to just be early stage partners with us.  If we can do that, I mean, let's get them onboarded, you know, soon rather than later.
+
+12:03 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  sounds great.
+
+12:09 - Kushagra Agarwal
+  Awesome.
+
+12:10 - James Young (Collab🤝Land)
+  I think that let's focus on just getting these agents on and shifting the what we shift to just numbers, number of agents in the registry and just number of people that are joining the Discord now that we have this funnel and just be more reactive when it comes to engineering because we have everything built out, at least the foundation of everything.  So I think that this is the tonal shift that we're doing, you know, starting from, and this is what I see starting from Friday to now, or, you know, last Friday to now, uh, this new phase where it's marketing, uh, focus.  Yeah.
+
+12:56 - Kushagra Agarwal
+  Uh, so Alex, you sent over this link. I had a look at this before. What exactly are you looking for from my side over here?  Yeah, so basically you need all these teams to fill out this information.
+
+13:09 - Alex Lumley
+  I want to make sure that the bio description of what they do is correct, and also that my understanding of the Git response and the endpoint is correct.
+
+13:18 - Kushagra Agarwal
+  I mean, bio, I'm not sure about that because like every person has a different bio. But like, if some of those ones are good enough, then I understand what you're asking for.
+
+13:31 - Alex Lumley
+  Oh, okay. And I'll send it to them so that we make it easier to at least get like, basically, to make sure that we get some in right away so that we look better on.  So this description is fine.
+
+13:45 - Kushagra Agarwal
+  I also need a field called primary function, and primary function will be like a lot more concise. So for example, for Jarvis, Jarvis, is an autonomous AI agent that understands users' risk level and optimize yield by managing liquidity, pool positions.  So for Jarvis, let's We can do the signing on our end, but I think for someone like Extremely, which is also doing, let's say, yield and risk optimization, I think it kind of depends what they're looking for.  Ideally, even they can return us all the different call data that we need to sign in order to execute the particular workflow that they are offering.  Okay.
+
+15:28 - Alex Lumley
+  We can do that as well.
+
+15:31 - Kushagra Agarwal
+  So, yeah. The only, I think, question over here is the bigger one is, I think, GigBot. Because GigBot is a marketplace in itself for more like a demand aggregator, and then agents can go and consume the open gigs from there.  So the thing is, how do we interact with them? Like, do we want to? Do our agents consume their jobs or how does that relationship work?  I'm not clear right now.
+
+16:11 - James Young (Collab🤝Land)
+  So that's the only question that I have right now on this.
+
+16:15 - Kushagra Agarwal
+  Okay.
+
+16:16 - Alex Lumley
+  So I'll tell you what, I guess two questions. Curve if I'm wrong, but you had mentioned at some point, like if the intuition data is like a little bit incorrect, it can be like a little bit of a and they asked us to update it.  Maybe I misunderstood that. I'm just asking in terms of for the primary function, do you want the teams to define those primary functions and make it emergent?  Or do you have a list of primary functions or would you like me to create a list of primary functions?
+
+16:42 - Kushagra Agarwal
+  Primary function, we don't have a list right now, but like, because we're like pre-filling this information, just asking the teams to like cross-check it.  Maybe we can like, you know, do it ourselves and just ask them to have a look at it that, hey, this is what we think you guys do.  And this is what is the data that we are putting on the registry. Just give us a yes or no, or like, you know, update.
+
+17:02 - Alex Lumley
+  So I think that's fine.
+
+17:03 - Kushagra Agarwal
+  Like, let's reduce all the work from there.
+
+17:07 - James Young (Collab🤝Land)
+  Cool.
+
+17:08 - Alex Lumley
+  That sounds good. I'll do that. And I'll start getting some of those sent out ASAP as soon as I get the message and we can go from there.  And then I'll work on getting the nearest ones in to. So I think my two goals for the week, and I'm going to write this out in the Slack, is getting the closest agents into the registry, meaning the ones that were easiest that are like the closest with just getting some in right away.  And the second thing is starting to develop the proposal for these launch pads so we can get larger numbers in.  Like Ola said, they would bring some in, seeing if FlowAI or any of the other ones want to bring teams in.  Yeah, yeah, yeah.
+
+17:49 - Kushagra Agarwal
+  Because that'll increase it way more than individual teams. Yeah, I think, uh, so I think, uh, for the fast track approach, I think we can like, uh, go after a lot more.  All the different ones that we've already been in conversation with, maybe you'll be preparing, let's say, the agent description and all the different things that we can pre-fill, what we require from them is the endpoint and the request-response model, right?  So maybe that, okay, like, you know, reach out to, like, from our list, let's say, to 20 agent builders and, like, we try to get, let's say, 10 of them onboard, or let's say we have the details for 10 of them by the end of the week, so we can, like, just add their endpoint.  Yeah, so let's try to just put some numbers onto it so we can, like, you know, also track it.  So, like, also understand where the problems are, what is the issue in terms of, like, onboarding and stuff. Sounds good.  Yeah. So, that's good.
+
+18:53 - James Young (Collab🤝Land)
+  Sounds good. Yeah. I think that these engineering calls are going to be more. Yeah. We morphing into kind of marketing standups, so maybe we can even change the title of them as we move forward because I don't think there's really that much more to build middleware-wise, and this fast track, I think, is not something we need to coordinate wider on.  When it comes to the MCP, we just need to tell our partners that they just need to create their own MCP services.  Everyone's moving to MCP anyway, and so if they're not, they're going to get left behind. And we were on the mother side, we're just rapping.  We're just an MCP rapper, essentially. Do the chiefs need to create their MCP now, right?
+
+19:39 - Alex Lumley
+  Like submit to the registry, fast track, and also create an MCP server, or no?
+
+19:43 - James Young (Collab🤝Land)
+  So it's only Intuition, Recall, Nevermind. They all, I think, already have SDKs. So however they want to turn their SDKs into MCP services, we will just rap.  So it's not So from an engineering perspective, I think we have everything. Again, this is now going to be focused more on the marketing and gaining traction side.  Just to clarify, the agent teams don't need to create MCP servers.
+
+20:18 - Alex Lumley
+  No, no.
+
+20:19 - James Young (Collab🤝Land)
+  It's just Intuition, Recall, Nevermind, and Collabland. Those are the only four partners that need to create MCP servers. That's it.  So this is just the middleware. This has nothing to do with agent devs. This is just the middleware that we have.  Now it's all baked into the starter kit. We're turning the starter kit into an MCP server, essentially. And we just need Intuition, Recall, Nevermind, and Collabland to create MCP servers.  Cool. Works for me. All right. Any other questions?
+
+20:59 - Alex Lumley
+  best, please. make card. I think we're good. I will point out, I'm going to start sending these out. think Kush, one place where I will need your help and there will be back and forth the teams will be for the teams that have like the gig bots or other teams who have multiple agents, like which part and stuff, extremely even like blaze.  Hey, which, which agent do you want in? that'll be kind of like some back and forth that I'll need you on.  I'll just make sure to call you out because, and even like Solange, right? Solange has potentially seven different agents.  which one and like, what if it's not like those sorts of things, that's where I'll need your support. But other than that, it'll just be the back and forth and I'll make sure to tag you when I need your help.  Yeah. Yeah. Yeah, absolutely, man.
+
+21:43 - Kushagra Agarwal
+  Let's do that. So James, just a question over there on like the media where that Stan was working on, because I think like through that, we can basically enable like tool calling as well, right?  Of different other agents. So, I mean, if let's say. In case of these agents who are like, in case of these teams who have multiple agents, like if let's say they're able to, you know, integrate that in whenever possible, I think that's like even better for these teams because they can like selectively choose to like, you know, integrate the entire system, but selectively choose to like open one tool or the other for the registry.  Yeah, I mean, I hear what you're saying.
+
+22:26 - James Young (Collab🤝Land)
+  I would really like to focus on just getting agents in the registry without having to incur more engineering work upfront, you know, and I think we'll figure out where to slot in Stan's code.  I do think that the, depending on the work with 7943, I think it is the EIP that EPOC is doing, getting clarity in that, and we're waiting for MetaMask to respond.  What we can So is actually have Stan's Code be the orchestrator mother agent for now, but I don't want to create that dependency yet just to do engineering work, even though we will have the cycles, because I think that might distract us on the focus of just strapping the registry and getting, you know, people to start engaging on Discord.  think that should be the main focus organization-wide.
+
+23:27 - Kushagra Agarwal
+  No, aligned on that. That makes sense. Yeah. But to your point, I think it's ready to go whenever we need it.
+
+23:34 - James Young (Collab🤝Land)
+  So we have more than enough code and more than enough stuff sitting on the shelf to integrate. It's just that the product mother is lagging from like a PMF perspective.  So we can keep on building, but we're building into nowhere. That's why we really, really need to focus on getting agents in the registry and people tipping so that we have the demand and the supply side going.  on telling we're the what And then based off of the needs there, we can take things off the shelf, have plans to MPPIs, we have a bunch of different options, but we're just kind of shooting in the dark at the moment, if we don't at least get some market feedback.
+
+24:17 - Alex Lumley
+  Makes sense.
+
+24:19 - Kushagra Agarwal
+  Yeah, makes sense. Awesome. That's just my two cents here.
+
+24:25 - James Young (Collab🤝Land)
+  No, I think that makes a lot of sense.
+
+24:27 - Kushagra Agarwal
+  Yeah, let's get some users on board first and then keep on building. Yeah, yeah.
+
+24:34 - James Young (Collab🤝Land)
+  And then just get feedback from the market. We saw that it was too hard to integrate, so we create the fast track program.  Let's see now, it just should be a minute or two to integrate, and let's see where the bottlenecks are now.  Right. And then let's see what it takes to get people tipping in Discord or getting that funnel from X into Discord.  If we need more reach, then we have to ask partners like we take one problem at a time.,疲れた Tartman.  for for It Here, and let's try and tackle the most important problems that are the most pressing now. Yep.  Because it's too easy to like get caught up in engineering work, like, you know, all the detail. And that's a lot of busy work that makes it feel productive, but really doesn't move the needle from a product or from a project perspective.  So we always have to be brutally honest with where are the major bottlenecks? And that's kind of what I see now is like, we don't have agents, we don't have users engaging with agents.  And that's, I think what we, what we need.
+
+25:38 - Kushagra Agarwal
+  No, I think that's so, that makes sense. I learned on that. Sounds good.
+
+25:43 - Alex Lumley
+  Cool. Anything else?
+
+25:46 - James Young (Collab🤝Land)
+  No, just again, we're focusing, maybe we'll change these meetings to like marketing syncs, because it's really now just go to market, kind of how we're doing.  And it might not just be marketing.
+
+25:59 - Alex Lumley
+  It's more like. Product growth, right? Because it's the overlap of, but yeah, I hear your point. Yeah. Yeah.
+
+26:06 - James Young (Collab🤝Land)
+  And I, you know, we may come up with things. I mean, like even, you know, Coach J can put his way into a dashboard.  So it's not like we even need engineering to kind of do that. It may take an hour of our time to help support Coach J, but the focus is on this marketing or DMF.
+
+26:24 - Alex Lumley
+  Sounds good. It's product market fit is what we're trying to figure out here.
+
+26:28 - James Young (Collab🤝Land)
+  Makes sense.
+
+26:30 - Alex Lumley
+  Coach J, I dropped you a message in Slack, if you could respond to me. Otherwise, I will, I'll follow up in the chats and I'll talk to you guys later.  Excellent. Thanks guys. Bye. Bye-bye.
+
+26:41 - James Young (Collab🤝Land)
+  And tomorrow, I'm not going to be here, just to let you know. Good luck. Okay. Thanks. Hopefully an agent doesn't do it to you.  Cheers.
+
+26:48 - Alex Lumley
+  All right.
+
+26:49 - Kushagra Agarwal
+  Coach Jim, going to cover this, yeah?
+
+26:54 - James Young (Collab🤝Land)
+  Looks like he froze. He's thinking . . . All right, I'll see you guys. See you guys. Bye.
