@@ -1,0 +1,253 @@
+Mother Daily Standup - April 29
+VIEW RECORDING - 40 mins (No highlights): https://fathom.video/share/SAX1MDycEZ4xtZa6oB4As_pMsKozf-5Z
+
+---
+
+0:00 - James Young (Collab🤝Land)
+  Um, so, oh man, they keep, I admit all and they keep on coming. Um, okay. So I have some ideas.  I don't have like a formal agenda. I have a status update, but wanted to open the floor first. If anyone has any agenda topics that they want to discuss.  No, I have a feeling today will be a little bit of a shorter call anyway, so I'm good.
+
+0:21 - Natascha Tiotuico
+  Yeah. Yeah. Awesome. I had a question to yesterday's call cause I caught up a bit. So if I could, um, get more insight in what I would need to do to do the LLM TXT, that would be great.  If we could add that shortly on the agenda. Uh, that's actually what I wanted to talk about.
+
+0:42 - James Young (Collab🤝Land)
+  Um, and so in terms of status update. Let me start with there, unless there's anything going once, going twice.  All right. So, um, what, uh, I did was I also added another agent, uh, which is, um, uh, uh,  I'm adversarial agent, kind of like a red team agent, as we go through this, because I think a lot of what we're doing, I need it to be checked, and so instead of just checking and going through it on myself, was like, I'll just make this an agent.  I don't know if you know, real quick, side note, at Netflix, they have this program called Chaos Monkey, and what Chaos Monkey does, it is a system to throw wrenches or to, like, try to take down Netflix, and that's how they're able to have such uptime, because they have this AI that, like, throws curveballs into the system, and they use I that to then self-prepare, and know what the different attack variables are, and as I'm coding and doing things, I have the AI agent become an expert auditor, but  Then I got down this little rabbit hole of, like, having an adversarial agent try and put and attack the system.  And then it says whether or not it was able to, like, do an attack successfully. So that, you know, it's one of those, I don't know if you know Sun Tzu's Art of War, it says you have to know the enemy better than the enemy knows itself.  So as we go into the adversarial environment, this is kind of another agent that, you know, we can get into the philosophical aspect of it.  But this is what I've been kind of sidetracked on. But what this also allowed me to do was think about how do we, and going back to what Natasha was talking about, with this kind of how do we do this LLMS.txt, and just continuing our conversation from yesterday.  What I've began to understand is, like, especially in a decentralized organization, we have to have context. If we have  The context, then we can operate and let people do whatever they want, as long as there's a great context.  And so what I'm trying to think about, and I also was just remembering what Alex was saying, where he'll go into ChatPRD or go into the other chat systems, and he refines the ideas, and then he puts them into Notion.  And Notion is for what humans need. What I'm saying is that we come up with a strategy, take meeting transcript notes, and have an AI parse that, and then create an LMS.txt file.  And the way process-wise, kind of how I'm thinking if you all use like ChatGPT, ChatGPT has operator mode, where you can actually take the content of your chat, and then feed it into Notion, feed it into GitHub.  So it can be that you're using the AI, whatever AI you use, to summarize and do your process. And  For Alex, it's like putting it into Notion so humans can read it, but also then taking that and then storing it into GitHub and creating an lms.txt file.  Why do you want to create an lms.txt file? Why do you want to use GitHub? GitHub has an amazingly robust API.  And so what we can do is we can have an agent through the GitHub API, take these marketing repos, community campaign repos, all of these different repos, and then get context.  And it can also then take the context from the code repo. And then if it has a context, then it can write itself, like new features that we can't even think of.  And then what I'm thinking is we also have an agent, the orchestrator agent, I'm going to give it permission in Discord to read all the chat history from all of the chats and then save that summary into GitHub as well.  Bye. And I, what I wanted to talk about is, and I'm already going into solution, I think, but wanted to get feedback of like, how do we reorient ourselves so that this core group, we have context for everything.  So I can provide context for code. You know, there's a community campaign context and there's all these different contexts.  How do we have one source of truth for that? And I'm guessing, and I'm hoping, I'm advocating, but I'm technically biased.  Having that main context be GitHub. It can also happen outside. You know, you may want to like put it in notion.  I'm not, we don't choose one or the other. But what I want to do is start a work stream where we have shared context for everything that we're doing.  Like this meeting, this chat transcript will go into a context for the LLM and then we check that in every day.  And we work on that process. I want feedback from everyone. So, for example, I spent a little bit of time talking with 08 after our call, everyone else left, just talking about grants, for example.  That could be another context because we need this complete shared context because the problem with remote-only distributed teams is all this context gets lost because not everyone comes to all meetings.  And so if we have a shared repository of context, then someone catching up, like Ash could just, if this was all recorded yesterday and put in LMS.txt, she can just chat with the AI because it has that context and go, okay, what was this meeting about?  What do I need to know? What are action items? Blah, blah, blah, blah, blah. And we have all of that.  We And this really feeds into this kind of, and actually I did not yesterday put into the chat. I'm going to do this right now.  now Which was the initial post, let me find it. Give me a sec. I don't want to lose my train of thought.  Okay. So, this is it. I'll put it here in the chat so that the recorder can get it. But this was a very illuminating post that really talks about this next form of AI, which is experiential AI, capital formation.  Because crypto, what it's really good at, at the highest level, it's quick capital formation. And there's this whole kind of thing where, I don't know if you guys know Alliance DAO.  They actually launched an app yesterday called Believe with Nikita Baer and they're saying, I'll give a little snippet. That who you know doesn't matter anymore.  Networking doesn't matter. And in the latest cohorts for Alliance, and what they tracked was people with the highest social capital and reputation actually did not perform as well as people that used AI, essentially.  So in the age of AI, and this YouTube kind of snippet, and it's just one snippet that I don't know where the whole complete interview is, is that you don't need to network anymore.  Because what will happen is if you're successful using AI, your personal assistant in the distant future will be able to then talk to other personal assistants to then network.  So capital formation is what matters. And how quickly, you know, this hyper-allocation of capital is what crypto really is about.  So it's another tangent, but... Going back to the main point here, trying to pull myself back, how do we get context, how do we get this shared context, how do we get this so that we can then set up and tee up to then have an agent pull from this, and the best we have right now is this LLMS.txt file, which is the emerging standard for context for LLMS.  Yeah, Alex.
+
+9:27 - Alex Lumley
+  James, I almost want to, like, before we go into everyone asking the question about how do we get context, and everyone trying to, like, discuss that, I'd almost want to reframe it of, like, right now you are kind of the one instigating this, and I think you're on to something, and I don't want to distract from allowing you to, like, go with it, but I also want to be able to, like, support you and enable you in some way.  So my question is more like, how do we make sure that we allow you to. What you're thinking, because I think you're spot on, and I'd almost rather let you finish that thrust and then bring us in in some way.  Does that make sense? Yeah.
+
+10:10 - James Young (Collab🤝Land)
+  So the reason, that's a great point, because when I'm yesterday working on the quiz agent, I had some questions, but I don't want to just put it into chat.  It's just hard to articulate. I forgot what that context was, that specific nuance question. I wish I could ask an agent that had the spec and could tell me, okay, this is what is thinking.  And this is why I want to put it into context, so that you guys don't stop in terms of your strategy.  And the strategy may change. And so when the strategy changes, the context changes. And then I can just, when I start my day in trying to do the quiz agent, I can see what the latest context is.  And then it fills in my thinking without having to meet, without having to coordinate. This is why I'm asking about that.  It allows us to run in parallel together, and the AI is this glue that helps, and it'll get better the more info it has along the way, and more of that memory of all of the different check-ins, so that we can work independently, but together, and it's a coordination issue.  So I think that makes sense.
+
+11:29 - Alex Lumley
+  Obviously, this is more of a meta question on top of what we're trying to build for the orchestrator, and I think it makes sense because it does end up being impacted a lot for the orchestrator.  What I would propose is that we almost look back at the three questions that you asked and say, where is that context now?  Where can we place that context? So that then you can ask the question again and see if you get the context.  Let's just do those three, like the three questions you asked, and then we can figure out. So would we do next time?  Yeah, yeah, let's iterate.
+
+12:04 - James Young (Collab🤝Land)
+  I think this is just, we're building these new processes. So what I am asking for is a place where if you guys are having side meetings, or there's updates to a doc, or the latest thinking, how to check that in.  And then, like, GitHub has version control. So it will, I will, the agent, when I ask, goes, okay, what's the delta between check-in one, two, three, and four, so it has that continuity of memory, and know how things have changed.  So it's not just getting the latest, it's getting the history. And this is how this experiential AI, we're actually refining our own model in a way, our org model.
+
+12:49 - Alex Lumley
+  So what I would propose is that for the rest of this, like 15 minutes of this call, is like, just kind of laying the plane a little bit.  We pick, like, two or three, we pick the community dashboard. That Tosh made, the marketing review, the one with the three kind of verticals, and then yesterday's transgrading, and we just placed those into a GitHub, wherever you say, we'll put them somewhere, and then that way you can go back and ask the questions.  We'll see if it works, but at least we've started with something. Yeah, yeah. I mean, I would default say let's put it in the mother AI repo.
+
+13:28 - James Young (Collab🤝Land)
+  Perfect. It's one of those things, though, it's like, we're giving our, this is our secret sauce, because we're going to get it wrong, and then we're going to get it right, so let, and maybe this is part of building in public, so maybe we should, but then it's like, we're giving, divulging everything at that point.  Do we want to do that in an open-source way? I can go either way on that at the moment, because it kind of shows, you know, and it gives people confidence in terms of us moving forward and ahead.  And if this works out, we have proof, and it could be verified. And underlying what's really interesting is that GitHub uses cryptography under the hood.  So whenever you check something in, you get a git, a repo, you get a hash, and it's this cryptography.  So you know who committed the code, all of that. And it's really interesting. It's a different cryptography than, you know, it's not elliptical curve, it's not 256, but it uses the same notions there.  And, like, GitHub then becomes kind of not only a source of truth for the code. And, you know, when you verify and you download apps, like, if you update your iPhone, it verifies that, like, no one has messed with the code, update.  And so it, like, it does hash verification. It's all the same cryptography. So it's like we're using blockchain, new tech, but the cryptography, everything is, like, 20, 30 years old.  And it's just really just kind of. Makes sense now. Things are becoming kind of clear because you just need to verify everything.  It's whole other tangent. But yeah, so practically speaking, if you guys want to just put stuff into GitHub, save it as lms.txt.  We'll put it in a mother AI repo. We'll just check it in. And then I'll tell the agent, whenever I'm doing anything, I'm going to say always load it That's the latest context of whatever's checked in.
+
+15:32 - Alex Lumley
+  So what I'm hearing is like the delivery for this week is two things. One is like this kind of cluster of orchestrator agents, like orchestrator and all the five ones that like you named yesterday.  Like that delivery. the second thing is like this MVP of a context pipeline that you can reference as you're building.  And that MVP. Probably be like three documents placed into GitHub using LLM.txt. And so then what I would say is like for this call right now, just to make sure we get one done, maybe, James, you take your fellow from yesterday and just share your screen and just download and just walk us through how you would do it and then place it into GitHub.  So that way, at least we have one done and then we can go about the process of uploading more things to that.
+
+16:27 - James Young (Collab🤝Land)
+  Yeah, so what I would do, let me think, let me think about that for a minute, because what I would do is I use Fathom, I would download the transcript and I would, maybe it's just saving all our meeting transcripts.  I think that that's, I think that's where we start with the meeting transcripts.
+
+16:49 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I looked and Fathom does not have an open API right now, so it is going to be a bit more manual at the start, think, but other AI tools do have, I'm just like.  Fireflies has an API, and I also looked, and we can create scenarios where once Notion documents are feeling more on the complete side, we can actually create an automated link that any time there's a change in a Notion document, it updates automatically in GitHub as well.  Yeah.
+
+17:23 - James Young (Collab🤝Land)
+  So there's a lot of stuff that we can do there, so we can start really migrating to GitHub and using that as our single source of truth for like all things I'm not sure.
+
+17:31 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, yeah, even in like investor calls, right?
+
+17:34 - Alex Lumley
+  Yeah.
+
+17:34 - James Young (Collab🤝Land)
+  Because that's part of it as well, and all the grant calls, like we put those transcripts in, and then the orchestrator can then suggest, well, this call, that call, and all of this, like you should do whatever.  Like, this is how we get the AI to get that shared context because we can't be everywhere all the time, but AI can.  So, so for the, for the, like, let's just start with a call from yesterday.
+
+17:58 - Alex Lumley
+  So for the call from yesterday. So for And then the acceptance test, the acceptance criteria will be like, can Tosh ask it a question to get some information, whatever questions he was going to ask.  And can James ask the two or three questions that like he was asking earlier this morning. And so then if you want, like, how would you want to do it, James, to put the Fathom or the Fellow link, just download it and put it into LLM.  Like, use a converter to put it into LLM.txt and then upload that to GitHub, or what?
+
+18:30 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I think we should, I think we should download the transcript and like, for meetings, especially, I think there should almost be like a coding system for now, just to kind of like make sense of it.  And that like dated, so that the LLM can tell that there's like a, an evolution in how the meetings are going.  Just to start capturing some of these last meetings of the last few weeks. Maybe that's kind of where we go.  So it's going to be high. Like, I'm going to load this through an AI and see like, how do we.  Can organize all this in GitHub as well? Is it all like an llms.txt? Because I was looking at the formatting, and you can include links.  Is an agent going be able to read the links, or should we include? Okay, so then that makes it much easier, because I'm just going to include, for Notion, I'll include a public link of the community plan.  You know what mean? I don't need to copy and paste it. Same with a lot of these meetings, like I just need to link to the transcript essentially, right?  That's it.
+
+19:33 - James Young (Collab🤝Land)
+  The issue is that, like, you want to capture the notes, because what you want is, what the AI will learn over time is how the meetings evolve.  So it's like each transcript should be saved, and then somehow referenced. I was initially thinking we would just transcribe.  Get all the transcripts and then save the transcripts into GitHub as like in a meetings folder by date. then like the transcript says who showed up and all of that, and then save that to GitHub.  And then like every time a new note transcript is saved, because the assumption is we're all remote only. So we don't have to record an in-person meeting.  And so we can transcribe everything. So I'm thinking out loud. So we have a notes folder, like the meeting, and then you just like put, put, I don't know, links to the transcript or the transcript itself, the raw data in there.  That's like the raw data is almost like pre-training data for us as an organization. And the lms.tex is the refinement of, okay, where are we?  And the lms.tex is the refined learning. And then we... we... we... we... And Yeah, I think that is maybe as simple as we can do it right now is just have a practice of manual or via API eventually or whatever, just saving every meeting in GitHub.
+
+21:15 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I think it will be manual to start and then we'll get the systems down. And we talked about this, I remember months ago talking about this, like, basically the AI executive director of Mother or the AI, like, CEO that has all the context and kind of, like, directs us, basically.  Right, right. So, so, James, like, all right, I just downloaded the text.
+
+21:38 - Alex Lumley
+  Where do you want me to play? I just downloaded the text from yesterday's call. Where do you want me to place that?  In GitHub. Make a new repo called Meetings.
+
+21:44 - James Young (Collab🤝Land)
+  And then we'll just have a Meetings repo. Does everyone have access to the Mother GitHub already?
+
+21:49 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I don't think everyone does, but I have, I have admin access, so I can get everyone access they need.  I have, hello, Mother minus AI access.
+
+22:00 - Natascha Tiotuico
+  Mother, that's the one, right? that's the one. No, it's hello, yeah, backslash hellomother.ai, yeah.
+
+22:11 - Razvan Matei Popescu
+  Since we're pausing, I just wanted to make a comment. You said something in the beginning, James, about we being a decentralized organization.  So should we organizationally be decentralized at the moment? I feel we should be centralized. This is just my take, like, organizationally, we should be centralized and, like, the products should be decentralized and then maybe decentralized.  Because, like, if we start decentralized, we're probably going to become very slow.
+
+22:45 - James Young (Collab🤝Land)
+  Yeah, so we are kind of, we are theoretically decentralized. We don't have a governance token, but we are working kind of like a centralized org.  Kind of, we're, we've just made these decisions. We've made the decisions to do the quiz, you know. We're moving kind of like in a centralized, but it's a little bit more consensus-driven.  So we are a consensus-driven organization right now. We're not really decentralized at the moment. Yeah, perfect.
+
+23:19 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So let's just start there.
+
+23:21 - James Young (Collab🤝Land)
+  And then whenever you guys have meetings, when it comes to marketing or community management and things like that, I will start to then just, before I begin, just check in with my IDE agent and just say, okay, well, like, is this what I'm building?  Is this like in alignment with what's happening in terms of like the latest marketing campaign? What do I need to change?  And that way we don't have to have a meeting about it and we don't have to all decide. We can, you guys can just work and be fully autonomous in...  What you're doing, because the development shouldn't lead what and how we market. And then what I'll do is I'll check in my code.  And then when you guys have your meeting, you can check in to see the code of where it's at and ask, OK, can we prioritize this feature, this functionality?  And then this is how we work async, but stay coordinated.
+
+24:24 - Natascha Tiotuico
+  I understand from a theoretical view how that should be, but how does it actually look like? Like, do I have to do a pull request?  Do I just upload the file? How do I, like, where's the interface to ask? We're making, we're making, you know, we're making this all up as we go along.
+
+24:48 - James Young (Collab🤝Land)
+  So these are great questions, but I don't think anyone in the world has any of these answers. And we just got to take it step by step.  So I would say the first thing is no PRs, just upload transcripts. step smudging Thank And then what you can do, what I do, and maybe this is going to inform what you do.  I use WindSurf and I use Cursor. And then I just take the repo URL and I feed it in to my IDE agent.  And then I ask it questions. And so I use that as my chat interface for now. I've been doing the same thing with Claude.  Claude now has like a GitHub thing.
+
+25:24 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Just like whenever I'm working on my side project, I just copy the pages in and I can just have a conversation about what to do.  It's super easy. So I just created a folder called Meetings. I created a README, it says the files should follow like this naming formatting.  Year, year, month, month, day, day, and then name a meeting. Let's see what happens. Let's do it. And what I'm coding, it's really interesting.
+
+25:48 - James Young (Collab🤝Land)
+  What I code in my repos, in my README, I just tell the IDE agent what the developer should prompt.  I'm assuming. do I mean, everyone, like from this day forward, is always going to use an IDE agent to like pull down the repo and do everything.  So myllm.txt file, and this is part of the conversation that you weren't there for yesterday, myllm.txt file has all that context to teach the IDE agent how to handhold the developer if they're stuck or if they get their errors.
+
+26:26 - Alex Lumley
+  So just to do a final check, Jonathan, were you able to add yesterday's call? I literally just created this folder right now.
+
+26:35 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, sorry. Yeah.
+
+26:36 - Alex Lumley
+  I was going to, because, so then with GitHub, because I wanted to like just test it. Yeah. Like, because now there's GitHub.  Now, how, I guess we can't access it yet unless we have something that points to the GitHub API, because unless we're also.  No, you, you just check in the, you download the transcript, Alex.
+
+26:58 - James Young (Collab🤝Land)
+  Just check it in.
+
+27:00 - Alex Lumley
+  Yeah. Just follow that naming convention format. Sorry, I was saying one of the acceptance criteria tests that I was making up as we went along was Tosh had a question earlier that she wanted to clarify about the call yesterday.  Yeah. I wanted her to be able to try to ask that to our meetings notes, but right now she has no way to access the meeting notes through an LLM.
+
+27:21 - James Young (Collab🤝Land)
+  Well, so what Tosh would do is use, like, I think OpenAI can lead links, and this is all open source, so this will be available.  So what Tosh would do is she would just need to know what the repo link is for today's meeting, and then she would say, hey, you know, give me a summary of this meeting in ChatGPT.  And then, that's the context, because the context is the transcript of the meeting. Cool.
+
+27:55 - Alex Lumley
+  Well, in the meantime, Tosh, did you have a question you wanted to ask? Whew.
+
+28:00 - Natascha Tiotuico
+  Okay, yeah, I guess I'm too old school programming that I thought I have to, like, install the, like, I have cursor somewhere, but my laptop is, like, really old and slow.  So, but I guess that answered that I have to, like, just feed it all into ChatGPT, and we're fine with that right now, or do we want to use a Gaia node?  Let's just use ChatGPT for now.
+
+28:28 - James Young (Collab🤝Land)
+  Let's remove all barriers and just test and refine this, and then using a Gaia node, yes, we will eventually, and then we'll just have it scrape all of these meeting notes.  But, like, ChatGPT is already set up. If you have, I'm assuming you have ChatGPT, Tosh, and then you'll know what the link is for the meeting, and then you can just ChatGPT your way through it.  And we'll just start baby steps. Like, this is probably going to be things that we iterate on quickly, and we'll throw away old processes and refine them.  But.
+
+29:01 - Natascha Tiotuico
+  So I would put in the link of the meeting and say, I want to create an LLM.txt file.
+
+29:11 - James Young (Collab🤝Land)
+  I would say right now, maybe we don't even create an LLM.txt file for now. We just practice getting, and let's see, the acceptance criteria is, did Tosh, was able to like, without having to read the whole transcript, be able to, based off of that link, get, little Tosh's questions answered, that she had about yesterday's meeting.
+
+29:34 - Natascha Tiotuico
+  Okay, so just with the normal Fathom meeting link, not with anything from the GitHub. Yeah. Okay, just making sure I, because I was like, oh, we're working with GitHub and everything.
+
+29:51 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I think all we're going to do right now is, let's just start creating this repository. Let's just like, make sure that all the data is in one place.  It's, I think it Thank I'm suggesting GitHub because it has just a ton of API endpoints that we can call from and actually use it.  So that's it. So if you have any meetings, Tash, or even if you read articles that are shaping how you're thinking about how to go about the community strategy, let's just get that in there as well so that we can have this hide mind going and we can use this as a thinking tool in the future.  But we're starting to build a context now, so any documents that we really like, let's just get them in here as well.  Same with, like, Notion Docs and stuff.
+
+30:32 - Natascha Tiotuico
+  But we are putting them in GitHub because I don't see your meeting folder in the, maybe I'm on the wrong repository.  Really? Yeah. I'm at hellomother-ai backslash-mother. Oh, no, no. It's hellomother.ai.
+
+30:50 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Hellomother.
+
+30:55 - Natascha Tiotuico
+  Please, don't and my... Ken
+
+31:03 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So there's actually 10, oh, there's 10 repositories. Actually, I should create a separate repository for this stuff. I put it under hellomother.ai.  I apologize. Let me create a new repository. Yeah. And then actually call it, like, I don't know, like context sharing or something like that.  Yeah. then we'll use that and we'll have that as the thing. So I apologize. Let me get that all set up for us.  And then you can just share that for everyone in Slack.
+
+31:32 - James Young (Collab🤝Land)
+  Yeah. Great.
+
+31:36 - Natascha Tiotuico
+  Okay. Do we need, do you need to know my handle, well, my handle for letting me access it or is it public?  This is public and I'll just, you're basically making push requests and I'll just push everything through. Okay. Okay. Yeah.
+
+31:57 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Cool. So I just created this. I'll put it in Slack. Back, and then let's do, let's run this experiment.  I know Alex has his hand raised. Oh, Alex's got his hand raised, yeah. Oh, sorry, I didn't realize I saw it raised.
+
+32:17 - Alex Lumley
+  But what I would propose is that if you guys are cool, Tasha, if you're cool with it, I'd propose that maybe you could start to shape this a little bit, similar to what you did with the agents.  So, um, no pressure, just an idea for you because I know you enjoyed it.
+
+32:41 - Natascha Tiotuico
+  Well, the thing is, I think we wanted to do it the other way around that we're just like putting raw data, like dumping the raw data on, onto, um, the agent, but then I can ask them questions to try to generate.  uh, uh, You mean that, that I'm trying to, like, generate out of the question asking the document I created?  Yeah, a little bit.
+
+33:08 - Alex Lumley
+  Just, like, having you, like, experiment with it a little bit of, like, okay, can we actually pull this in all the way through?  Like, let's try the Chachapiti. Like, let's ask it the questions. Let's see what happens. And just sort of being the, like, if James is being the thrust of it, you can be the, little bit of the, shaping it a little bit, if that makes sense.  Yeah.
+
+33:29 - Natascha Tiotuico
+  And I'm happy to, I'm happy to help you in any way, but I just know you did a really good job with all the community dashboard stuff last time.  Thank you. Jonathan, we have our meeting tomorrow, so I'll try to dig into it. And then, in the worst case, can we go through it if I don't get it running?  Yes. Yeah, yeah. Okay. might need to move our meeting, but I'm available, like, all afternoon.
+
+33:55 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And frankly, in the morning. Just, I need to move, I just have something right at that time. Yeah. Yeah.  Okay. Are we good?
+
+34:01 - Natascha Tiotuico
+  Are we good to drop? James, do you feel good on this other we talked about?
+
+34:06 - Alex Lumley
+  Yeah, yeah. I mean, we've got to start somewhere, and we're going to iterate on it together.
+
+34:11 - James Young (Collab🤝Land)
+  And this is just the beginning, so we're going to get it wrong. So it's okay, but we'll refine it.
+
+34:17 - Alex Lumley
+  And then for the what we shipped this week, what I'm thinking, Tosh, is that, like, let's have you talk about the what we shipped in this thing.  Does that make sense? James can back you up. But at least you have something you can talk about, right?  Yeah, I'll try to get it on Wednesday and Thursday.
+
+34:36 - Natascha Tiotuico
+  It's mostly good for us. It's good. You're going to do better. It's just us talking to ourselves again. Yeah.  Okay. Awesome. Thanks, guys. I make a lot of people aware of our what we shipped.
+
+34:51 - James Young (Collab🤝Land)
+  Yeah, yeah, but it, you know, I don't, I think it's going to be, this is historic, I think. And we'll look back at this time, and how we  And how we shape this, and that's a context that I think gives confidence to the community, and so if people aren't watching the actual recording live, we're creating this shared context over time, and we'll make this available, and we'll have a summary agent or something about what our organization is about, and that's going to feed into Discord and automations and things like that to help.  guide people on quests and all of that. So I think this is a really good starting point, is how I would say.  And I think we just got to start somewhere. So I think that this is the beginning of it, because we need to now have, we're basically, in real time, training our own agent.  is it. Cool.
+
+35:55 - Natascha Tiotuico
+  Okay. Also about agents, Katerina. Um, reached out to us from Together Crew that they already have, like, this re-engagement retention, um, solutions for communities.  I'll see next week. Um, they're planning to meet up with us or, like she said, we'll have a call and then we can talk about it.  Yeah, yeah.
+
+36:26 - Alex Lumley
+  James, how familiar are you with Together Crew? I'm not that familiar.
+
+36:30 - James Young (Collab🤝Land)
+  So it's like, have the meeting, talk about it, save the transcript, putting in, put it into chat. I can also look at the recording.  I understand that Together Crew at a high level, but I don't know where they are at. I don't know what the status is at the moment.
+
+36:43 - Natascha Tiotuico
+  Fair enough.
+
+36:44 - Alex Lumley
+  Because I was going to say, like, two of the things that you're kind of trying to create for the orchestrator, there are other things that are similar to them, like what you're creating.  But all I want to do is just provide you some of those inputs. then you can leverage that in how you're designing it or shaping it or doing whatever.  Um, like one that, uh, that, There is a team that, I'm going to look up who they are, but they have, no, it's not Solenge, it is, it's another one.  So there's, there's Kawhi, which is like an SWE. Yeah. but then there's also another team that is purely an, like, they're not so much an agent, but they're actually living in your IDE and testing your code for a re-entrancy.  Yeah. Yeah.
+
+37:26 - James Young (Collab🤝Land)
+  So like when we, I, uh, when I have my, my auditor agent, if they have an MCP server, I can just connect to it.  Right. And then that it, it augments everything. This is the power of AI. It's so extensible. And so just because I'm creating this like auditor agent, I can actually take in feeds through a tool calling to others.  And the more you have, the more robust it is. So that orchestrator agent is multi-agent. The auditor agent is also multi-agent because like the Kawhi.  or whatever, probably won't have all the vulnerabilities, but if they're like five or six of these kind of collides, that just makes the auditor agent even more robust, and we'll just keep on extending the auditor agent with other agents, so it's multi-agent, it's multi-agents all the way down.  It's just turtle all the way down?
+
+38:20 - Alex Lumley
+  Yeah, that's right. Okay, perfect.
+
+38:24 - Natascha Tiotuico
+  Excellent. Awesome. And then, Tosh, did you have any other questions?
+
+38:29 - Alex Lumley
+  Are you good? No, I think with PlunoAI, should I follow them as well?
+
+38:34 - Natascha Tiotuico
+  Oh, . I rescheduled.
+
+38:37 - James Young (Collab🤝Land)
+  I missed, I totally spaced. So, I will get back to it. Thank you for reminding me, Tosh. Okay.
+
+38:48 - Natascha Tiotuico
+  Great. Yeah. Yeah, otherwise, I'll try to get that running with Coach J tomorrow or by myself before and have questions for the evening.  If it doesn't work out, cool. Amazing.
+
+39:04 - Alex Lumley
+  Excellent. Thanks everyone.
+
+39:06 - Natascha Tiotuico
+  Do you have a minute? Yeah, sure. Cool.
+
+39:10 - Alex Lumley
+  Um, I'll just, I'll just, I'll just call you real quick.
+
+39:15 - Natascha Tiotuico
+  Actually, hang out for one second.
+
+39:16 - Alex Lumley
+  I'll send you a Google Meet.
+
+39:24 - Natascha Tiotuico
+  Oh, but send it on Telegram, maybe. just, I think.
+
+39:29 - Alex Lumley
+  I dropped it here. Can I copy it and go in?
+
+39:34 - Natascha Tiotuico
+  Okay, I'll try to get in by my phone. Okay. Talk to you soon. Bye. Talk to you soon. Bye.
