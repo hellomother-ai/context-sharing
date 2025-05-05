@@ -1,0 +1,145 @@
+Mother Daily Standup - April 23
+VIEW RECORDING - 29 mins (No highlights): https://fathom.video/share/AHMXzeZfoyPwQe3eJg4LNF86S4VzftJJ
+
+---
+
+0:00 - Natascha Tiotuico
+  Yes, let me just join in companion mode and bring it up.
+
+0:07 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So basically, the way that we're approaching this is like, this is like a rough sheet. It's probably not the best format, but Tash just wanted to get it in one place and it kind of works.  Just to kind of show you what our game plan is across these different pieces that need to move forward, which is marketing community and like kind of like the more technical development slash agent onboarding side of things.  from the marketing side, like basically like it's really straightforward. It's actually overall, let's take a step back. One thing that's going to make more sense is that this is community driven and from a community perspective, we're targeting, we're tackling this basically in two phases.  Phase one, we're calling like engagement and testing, which is what we're going to do first, right? We're going to engage actual people.  We're going to be testing out, you know, these agents and actually engaging. Using the tipping, et cetera, with a much smaller group of people.  And then we're going to open up the floodgates, if you will, and start talking more about points and actually get a lot more transactions on these things, have a quest, et cetera.  We just want to be careful because once we open up the floodgates, it's going to be really hard to close it.  So we're just focusing first on getting some key agents up and running and ready and having those challenges to engage with those agents up front to make sure that they're working okay.  So that's kind of like the two phases. So if you can imagine, basically, the way that Tash and I talked about it was the first thing that we're going to do is we'll aim for like an event, say it's already Wednesday.  We'll aim for an event next week that's called like our introducing the mother orchestrator and our first agent, which is like, put prediction, we put prediction marketing, prediction market line, but it's probably going to be a simple polling experience.  Something really simple like that, right? And the poll agent has its own specs. It's a really simple one. And there are some transactions that will be embedded within that spec.  So, like, for example, if more than 10 people respond to the poll, the poll creator gets a transaction. Or, you know, the choice that gets the most votes, everyone gets a transaction.  Like, there's a few of those things kind of specced out in the spec doc separately. that we'll want to play around with.  Yeah, it's in here. This one actually, Tash, we need to create a separate polling one specifically, because this is, like, a prediction markets one.  think this one's going to be tougher to build. But also, like, such a good idea. It's so cool. So, yeah, that's kind of, like, the idea behind it.  And so, basically, like, we would love to run this as soon as we can. And this is, James, where I kind of will punt it over to you of, like, how long we think it will take to build these things and have it ready to go.  The prediction market one would be kind of like a mini poly market pull situation where you can set something in a bet and people can, or the admin can set up maybe a bet, and then people can use their seeds to bet on the outcome and another winner lose seeds, which I think is just, like, so good, such a good idea.  Yeah. James, did you want to just show something real quick? I was just going to say a dad joke.
+
+3:36 - James Young (Collab🤝Land)
+  We have to seed the market. Dang. Seeding the market, if you will.
+
+3:45 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Dad jokes are always welcome, by the way. Jonathan, we're trying to drop the link to this in the chat.
+
+3:53 - Alex Lumley
+  Yeah, sure.
+
+3:53 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Let me do it just because, Tash, you're on two different, or do you want to? Jonathan. Thanks, just want $200.  think really It's also in the growth channel, the community-driven roadmap. This is not the ideal long-term format, but it's just something that we can all get on the same page and we can stop playing Spider-Man.  So you can imagine that this first challenge, you can see here, it's actually a great job. Basically, it's going to be in the general chat where we're going to focus most of our attention.  There's going to be kind of like a live event with details TPD. There'll be like a tutorial and we can add announcements and stuff like that.  And then like the challenge for the day, the week, whatever it is, set up your own poll, get more than X votes or receive seats.  Like there'll be like a challenge aspect to it. And that's kind of how we'll go with this first agent getting on board.  And then from there, we would continue to ideally be able to introduce agents and continue with the same kind of format of challenge where...  We'll have, and a few days later or the next week, we'll have another challenge. There's going to be a live event where we get together, and it's about setting up a quiz or completing the quiz or something like that, and you can earn seeds all through it for engaging with the quiz, et cetera.
+
+5:17 - James Young (Collab🤝Land)
+  Yeah, for the quiz, can it be the actual format that a poll is taking so we can just reskin the poll as a quiz?
+
+5:28 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  If we can have, like, multiple poll questions that add up to a score. What does that mean? Okay, so basically a quiz is kind of like an array of polls.
+
+5:45 - James Young (Collab🤝Land)
+  I see. Right? So it would be, like, multiple polls batches. It's like a multiple choice quiz, you will. And there is like a true-false, right?  Because if it's quiz, we've got true-false changes in the background.
+
+6:08 - Natascha Tiotuico
+  It's less, like, okay.
+
+8:00 - James Young (Collab🤝Land)
+  Yeah, and maybe we want to do animations and stuff, like, of course, like, to glue it together, to make, like, an MVP, we can misuse.  Use the poll format, but if we want to continue developing the quiz bot afterwards, like there would be things like animation, giving points, doing multiple questions, doing open questions, like where you type something to estimate, oh, how many agents do you think are on the registry?
+
+9:21 - Natascha Tiotuico
+  Or, like, those kind of questions could be in a quiz, but don't look like a poll. Got it. Okay, cool.  Yes. So, yeah, a bit more complicated, but I still, if we build this, like it's a super valuable, and like Tash is in other communities, so we're taking her work for it, that this is a very valuable tool for lots of community events.  It's extremely valuable. There are bots already that do this as well. Can you point me to some bots, Tash, so I can just get inspiration in terms of what that looks like and what the user flow is?  Yeah. really about the user flow. Yeah. Okay. Yes, I have, so if we don't use the poll style, there's quite a bit of like survey and quiz bot formats that Xavier showed me.  Um, like you could use buttons to do the answers, or you could use like a drop down. Um, I'll, I'll ask Xavier to give me one of his favorite ones, because he said the last time he integrated one, it was quite a while ago, and they evolved so quickly.
+
+10:34 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So, um, he didn't have one on top of his head. Okay. Um, what would be actually, uh, ideal, just to kind of cut to the chase, is if there are screenshots that Xavier could put into whatever the notion doc, if we use this.
+
+10:54 - Natascha Tiotuico
+  Um, I can, uh, I can see that. a configuration of power, et cetera. If we go and see that, agent is more full, like, switch them out.  And I deal with the stream, so we see it going, right? That format is just forming, as I say, know, there's a lot of things to make this discord friendly.  Like, and then what does that, the output is a, a well formatted discord message? I'm trying to under, I'm all just thinking right now about user flow.  what does that look like? So when, oops, where I went, a user flow. Uh, so normally sometimes like, uh, uh, savior's announcement look like this.  Um, so ideal would be, we actually input just this text and, uh, we would maybe get a suggestion like this, uh, that we can maybe re-edit.  Because it's harder to do like the estimation of the emojis and stuff. So for sure, uh, MVP would be very low level, but we want agents to learn and be.  better in the future. So ideally, this is like the vision. But at the beginning, it could be okay, I see that there's a paragraph, it's probably a heading.  So I put a heading format. Then I see there's like a name, maybe I do the name in bold, or there's like excitement with the exclamation mark, and I put a fire.  I don't know what's easy to do for the beginning.
+
+10:30 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I imagine this is like a simple, like, call to an LLM that has like a pretty basic prompt in the background of like, just rules that it follows, like check for headings, add emojis for flair, like, like kind of like some of those things as like just like a starter.  I don't think it'd be pretty, pretty straightforward, pretty easy.
+
+10:52 - Natascha Tiotuico
+  Or like here we had like at everyone it blocked it so that you don't see. That's. So. So I added this as a use case example, and the question could be, can you make the following look nicer or look like an announcement?  There's a lot of things that we can add here later, like specific formats for communities that like to do their announcement in a certain way.  But yeah, for the MVP, we take what we get, input text, and then it gets beautified, like title headers, fitting emojis using bold and italic, links and add correct formatting, identify quotes, identify words to amplify, ability to copy and edit if something's not feeling quite right.  Here I still added it to quiz, but maybe it might be a bit extensive for quiz since it's not native.
+
+12:01 - Alex Lumley
+  I'm guessing, so I'm thinking that this is actually something that we could leverage a Gaia, a Gaia node for, and I'm just trying to find ways we can leverage Gaia, because potentially we can actually leverage the resources, and I think they would get excited about that.  James, like, do you know if Gaia has any resources they can actually help us do some of this with, or is it still just you?  It's just me right now.
+
+12:25 - James Young (Collab🤝Land)
+  think Toby is not working at Gaia, so it would be asking Sydney and or Matt, but I would think Sydney would be the most appropriate, because Gaia, and I agree with you, I think that they can spin up nodes with open source LLMs, and then as Coach Gia was saying, we just have to make sure that we just pre-prompt, and and then like, I would assume, and this is the research, that it would be great to get help on, from maybe like,  Toby, for example, like for the Discord formatter, for it just to be fine-tuned with the Discord.js, STK, or there are websites that will format Discord messages for you and just point in to those sites, you know, it's just simple rag stuff, but it requires coordination.  I think the biggest issue we have is just us coordinating, and I think when I look at just like in the chat, talking with Olas and everything, things get lost in the coordination pipeline.  So that's why this first poll bot, I'm just going to do it, just so that it's just like less coordination issues, because it's just meeting upon meetings and nothing really moves forward.  We were waiting for them, they're waiting for us, then we have like 15 different chats, people are not all in the chats, and we have to say what works and what doesn't, and everyone's kind of assuming someone else will.  Pick up the next step and things don't move forward. So I want to say that Gaia and Toby would be great to get this going.  And then it's like, okay, that's a to-do item, but then it just never happened, right? And so this is why I want to figure out how do we better coordinate and communicate?  Because this is what the problem is with, like, decentralized organization. And we noticed this, too, like, the whole thing, like, the other day talking about the Spider-Man meme.  Everyone's just, like, waiting for everyone else. That's just the, we have all the pieces and we're just all, like, sitting and waiting, thinking someone else is going to do the work.  And this is why I'm like, okay, basically,  it. I'm just going to do this first pull thing, just set the ball in motion.  And, but I agree that I- Lily, would be Gaia and, like, Toby, but it's just so frustrating because, like, we're all kind of just sitting on our hands, so I just want to push through that initial, no one wants to take the first step, so I'm going to take it, with this pull bot.
+
+15:18 - Natascha Tiotuico
+  Great. And along the way, like, with our first three agents, I think we'll see how the evolution of Mother Orchestrator also looks like.  I'm still hoping that maybe during this journey we get, like, either Pluno AI or Together Crew or Intro AI on board, because they already have a product, so we could focus on what does the Mother Orchestrator have to do to integrate them in Discord, like, how would that exchange look like?  And so when we have up to three bots running and feel confident about That's when we decide if we haven't reached the four to five K people yet, do we want to open the flooding gates now from CoUnity experience?  Everybody comes to us as how do we get rid of these farmers? How do we separate them from our community in a nice way?  Now we're trying to, like, get them. So I'm very wary about it. We can make the infrastructure so that they will have the garden for you to play around with and and start like being funneled.  But of course, my ideal thing would be, hey, maybe the when we start showing our product, it starts blowing up.  And with Twitter and everything, we can start start getting those people on board. And Alex, I'm not seeing your, your chat.  And okay.
+
+17:11 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, sorry, did you want to share anything else, Dash?
+
+17:15 - Natascha Tiotuico
+  Sorry, I think that's pretty much it. Like, then we go into the flooding strategy. We should have conversations going with more agents.  We know what the first three agents brought on challenges. So I think that's when our product will start getting that flow.  Yeah. So I want to go over two more things before we kind of, like, wrap up this conversation.
+
+17:41 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So the first, I want to quickly go over the specs of the Mother Orchestrator, just to make sure that we're on the same page.  And then I want to talk about GigBot real quick. So you'll take a look through the Mother Orchestrator. I think it's a lot of what we've already talked about.  So none of this It would really be surprising to you. The one thing that I wanted to go through was actually an example flow of how I think that we're going to operate earlier on in this process when we don't have a lot of agents in our registry.  So you can see here we have some examples of what it might look like to engage with GigBot or what it might look like to engage in a poll.  We have to decide if there's very specific language or there's just general language that needs to be used. And then whenever we don't have an agent that can do a job, so you can ask the mother orchestrator, like, hey, can you do this DeFi swap for me before we have an agent that can do that?  And then it will return with something like, I don't have an agent that can handle that right now. Here's a form where you can fill out agent requests or, like, we can have some sort of default answer.  But yeah, I guess I wanted to just kind of ask about that. I imagine we want this to be a pretty natural language request where the mother orchestrator is picking up a gist of like.  They kind of want to pull in more words than one, like pull is wanted here or something like that, right?  Because that's the long-term vision of it, or is that like version 3 and right now for v1, it's like much more simple with more clear commands?  Yeah. Can you restate that? I don't even need to know the answer. I'm more curious, I guess. Can you restate that?
+
+19:24 - James Young (Collab🤝Land)
+  I didn't quite understand. It's more of like the slash ask command and how it works.
+
+19:29 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  But honestly, it doesn't matter, James. Like you do what you think is going to work best for us and like make it work.  And you tell us how it works. All Yeah. Yeah.
+
+19:41 - James Young (Collab🤝Land)
+  I think just to kind of, if I understand, and I appreciate that, Coach J, what I'll do is it really depends on the model that we use and how well it's pre-prompted.  So that's an investigation that I have to do. And so this is something that, yeah, I think we'll iterate there because, you know, at the very beginning, my intuition is that it's going to hallucinate.  So it's going to say, oh, like, oh, you want this DeFi thing to happen? Oh, here's a poll or something like that.
+
+20:21 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And then we'll just have to refine it and iterate over it. Okay, cool. Sweet. Okay, great. So I wanted to go through this.  So this is available for you, and we'll, I don't know where you want all these docs to live, but this is all in the AI, community AI agents.  Like, this one's done. And then let's talk quickly about GigBot as well. So Corbin came back to us. I just, I really want, like, to have, like, agents that we're not building on this thing.  But, like, his is not, like, the way his is set up is that it's not ready to accept testnet tokens.  Like, we can only really play with real . So we can hook it up and stuff, but I just think that the odds of people coming into Discord and playing with actual money, that we can't necessarily track as well either, is the only way to play with GigBot at this point in time.  Unless we talk to Corbin and be like, Corbin, dude, we're running this experiment, the more seeds you collect, the more I drop.  the thing with Corbin, he's not in it for the money, he just wants to like make this thing work, so.
+
+21:31 - James Young (Collab🤝Land)
+  Yeah, yeah, you know what I'll do is, I will see what we can do and let the bold and the brave, instead of using seeds, like use, I don't know, what GigBot accepts, I'm assuming like USDC on base.
+
+21:47 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, I've been using, I sent them to USDC, but they've been paying out to DJs and, yeah. So, what we can do is.
+
+22:00 - James Young (Collab🤝Land)
+  next Probably do, like, USDC. Let me see about getting USDC through the mother AI orchestrator for those that really want to spend real money.  Like, let's YOLO. Let's just go. A lot of people won't do it. But if I think if we show to Corbin that he's making money through Discord, I think that will be pretty exciting for him.  And that will be our first, like, bellwether use case of a third-party agent going, like, . Like, I can make money through Discord.  That's an MVP.
+
+22:35 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Like, we officially have an MVP. That's, like, the checkbox is, like, some sort of revenue passing and a recurring idea, right?  Yeah. So let me push on that and see if I can do that.
+
+22:48 - James Young (Collab🤝Land)
+  So give me a day to kind of, like, figure that out. Okay, cool. But I think so. So what I'm hearing from this is that, like, pollbot, ASAP, and then, like, a gigbot.  platform. let's you. It rhymes so you can remember it.
+
+23:05 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  would also add Mother Orchestrator as well, obviously. So that's the assumption, Mother Orchestrator for all of us. For sure.  Okay, cool. And then, and that's it. And then what you can do is you can keep us posted on how the development is going.  Poll sounds really straightforward and easy. I'll start engaging with OLAS to figure out what it looks like to use their prediction market technology.  Because if we can ease, like if it's already kind of like a lot of the mechanics are built and we can easily integrate that, I think that would be like a really cool agent to put in here as well.  So I'll run on that. So you don't just forget about that for now. Just focus on Poll. And then the next version of that, building on that, is Quiz, which we can do like multiple choice quiz kind of thing.  Really simple. Yeah.
+
+23:52 - James Young (Collab🤝Land)
+  So the way I think about this off the top of my head is we have to do a homegrown poll agent.  And... And... I'm going to design it in such a way that it can get swapped out and put in like Olas, but then Olas probably won't know how to return a Discord formatted poll, but this tees up the Discord formatter agent as well, so we can go with Polymarket or whoever, and then that also tees up for like a quiz.  So if you have some like quiz generator agent to be a Web 2.1, you through the Discord formatter agent could then just create the quiz for us, you know, and then return back.  So this is where the swarms begin to kind of interplay as well. Yeah. Amazing. Okay, that's it.
+
+24:44 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  That's what I think that's awesome.
+
+24:47 - James Young (Collab🤝Land)
+  I think the lesson here or now the new path is like we got to like start just doing this ourselves instead of asking agents to integrate and all of that.  And then once we see and know how the system works, we can drop, replace in all office, GigBot. Like we can drop and replace.  This is how we get the registry kicked off. This is kind of how we were refining the go-to-market strategy.  And this is all about just growing the mother AI Discord. That's kind of the overarching campaign we're doing with the side product or byproduct of it being like, getting all these other agents on board and getting that momentum.  Yeah. I think that was, yeah.
+
+25:37 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  We're obviously hitting this roadblock where like agents don't want to or are not ready or like they just can't see the value quite yet.  So we're just going to build some agents ourselves, have them starting to make money, and then show others that that's what's going on when you sign up to the mother registry.  I think the most important part is also for us the learning how much adapting.
+
+25:59 - Natascha Tiotuico
+  stop at How much do we have to adapt the Mother Orchestrator and everything to let the agents do their expertise?
+
+26:09 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  This is us testing the CollabLand bot. This is us testing the MVP of the Mother Orchestrator, essentially, that aspect of our tooling.  So it sounds like a worthwhile endeavor right now. I wish that I could support you, James, in technical, but I will definitely get in your way if I'm involved in it anyway.  There is one thing that you could do, Jonathan.
+
+26:33 - Alex Lumley
+  I dropped to Gaia an ask. Yeah, I saw it. Jonathan, if you can drop the specs of what you're asking for in just a quick description, then Harish, he's also on IST.  And Harish is probably the best one who knows the most about what has been built and what agents have been built.  So at least, James, he could potentially give you some reference information. Okay. Cool.
+
+27:02 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I'll do that right now. Awesome. Okay. Cool. Sweet. Sounds like a plan. Yay. And then lastly, I just want to double check something.
+
+27:16 - Alex Lumley
+  For Olaas and the other crew, there's nothing we need to do right now because we're holding off on them.  However, Tosh and Coach J, you are both in the chats with them. And what I would recommend is that whenever we do want, like, I think it's probably like next week, whenever we do want to go to connect with them, just bring in, just have the spec or whatever you guys think you need that way, rather than just having them.  Does Together Crew already have, like, I looked at their page, they already have an AI assistant or so.
+
+27:46 - Natascha Tiotuico
+  Like, what do they already have on product? Because if there is something like Pluno AI, like Dan also mentioned, look at Together Crew.  If they already have a finished product, then it's like the similar state where we We are with Pluno AI, where we could maybe already start talking about, okay, how do we cut the product and ask for it in Mother.
+
+28:11 - Alex Lumley
+  Yeah, and they have a couple of things, but I know one thing that they are actually pitching to the Arborsmith DAO is a summarizer, like a Telegram summarizer, which I imagine they have an endpoint that you could also leverage in Discord.  But they have this information that will allow people to get a summary of what's happened. So they have a summarizer, and they also have a knowledge graph of how much different people interact with different people.  Okay.
+
+28:40 - Natascha Tiotuico
+  I have like a rough specs on the summarizer and the recap.
+
+28:48 - Alex Lumley
+  It's probably worth you asking for like more information from them, but because, to be honest, they've done a lot of things and they're kind of iterating, and I think they're actually very, they were very open to working with us on collecting.  Yeah, I saw Katerina at the beginning in Telegram very much, so.
+
+29:05 - Natascha Tiotuico
+  Cool. Okay. Thank you. Good job, This is awesome. Thanks. Excellent. Thanks, everyone. We're at the bottom of the hour.  See you. Bye. Ciao.
+
+29:19 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Bye.
