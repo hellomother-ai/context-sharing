@@ -1,0 +1,163 @@
+Mother Daily Standup - May 27
+VIEW RECORDING - 27 mins (No highlights): https://fathom.video/share/zGT1Xymt3VP5Cfs8xdzgnNFCfzh2vfSo
+
+---
+
+0:01 - James Young (Collab🤝Land)
+  Okay, we'll just give it a, let's see here, just got to admit all the note takers, yesterday it was just me and 08, so we had a chat.  I think he brought up a lot of great points, or he actually brought up a lot of great questions, and they're all over the kind of map, but I think holistically he was just really trying to focus in on how he could help and best contribute.  I think that we're at a good spot. I'll give up, I'll give my update. So Intuition is closing out their pre-sale on Legion.  I think they are tomorrow, and it looks like it's going well. Gaia's going to have their launch, and so is Lit.  Gaia. So I think what we should start doing is focusing in on what does this campaign look like for the orchestrator agent, polls, quizzes, and quests.  I took a little bit of a detour with the orchestrator agent, and I incorporated, I said this yesterday, but I will say it here for the rest of the group that was here on the call yesterday, to integrate intuition.  Because on Friday, intuition launched their MCP server, and it's just like super simple to integrate the biggest challenge I have integrating intuition into the current orchestrator is how to design it, because nothing like this has ever been done before.  So I spent a few hours just going over graph theory with ChatGPT, which is, I learned a And I think I've settled on a very simple design, so I'm going to continue iterating on that, essentially down to, do we want all of the quizzes, each quiz on intuition?  This way people can discover just outside of just the registry, so we have the agent registry that's using intuition, and then we'll put in all the agents that are in a specific Discord on intuition.  So you'll be able to see Discord communities and what agents they're using on intuition. And then you can have, I want every quiz to be on intuition, so you can see the interactivity and how people are getting scored.  So you can imagine if there's. community that is going to TGE and you as an investor are like, should I buy this token or not?  You can just get all the graph information. And this opens up the floodgates to see, okay, well, these users are in Discord A, those users are Discord B, am I affiliated or associated with any of them?  How are they doing in terms of building communities and all of this? it isn't quite that we are creating a reputation score, but a reputation score can sit on top of intuition based off of all this interaction.  So I would imagine request, every poll, every quest, every kind of interaction that an agent does, that action could be logged in intuition.  And, oh, sorry.
+
+4:01 - Alex Lumley
+  I was going to ask. I'll write it. I don't want to interrupt you. Go ahead. Oh, OK.
+
+4:07 - James Young (Collab🤝Land)
+  And so this can help speculators as they are looking to buy tokens for a token to see, like, how healthy a community is.  And so the main question is, should quizzes be all the quizzes be on chain or a summary of the quizzes or how many of them?  I'm just going to keep it really simple right now, but I have the designs for actually a complex system, but I'm going to defer that because I just want to get this out the door.  There's so many little rabbit holes I can go down into, and I'm trying to, like, really stop myself, but I don't want to paint myself in a corner.  So I kind of expand, and then I, like, totally contract and then get to a minimal implementation. Yes, I it.  I think that that's super interesting.
+
+4:57 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  What comes up for me is, like, it really sounds... It was like the quiz agent is becoming like another product of ours, and I don't know that that's necessarily the wrong path, but I'm just trying to go back to why we're here.  The reason that we're here is because Alex was going to these projects, and consistently, these projects were unprepared to actually integrate.
+
+5:20 - James Young (Collab🤝Land)
+  Even when we asked them for, you were on a few calls, James, when I would say, look at the Emptown for Natural Language request coming in, they couldn't do that.
+
+5:28 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Like, these projects are just unprepared, and what was missing here was this, like, example of how does an agent, what does it look like to call an agent in Discord?  Yeah. And it's some of those initial agents, and we thought, okay, let's do a useful agent. And so now we've created this, like, incredibly useful quiz agent, which it sounds like it's going to serve not just the basic quiz function, we're almost talking about it as an investor token function.  Like, so the only kind of, like, thing I have about that. Is figuring out a way to communicate.
+
+6:02 - James Young (Collab🤝Land)
+  We want to grab one on these somehow, right? That's right. Audiences will be the challenge for us. So let me respond real quick.  And then I am purposely nerfing this quiz agent because I want it to be good enough so people can see the potential.  But I don't want to go down the rabbit hole of creating a full bore like quiz agent. Because I want someone to come in and say, I can do better than that.  So like with that in mind, the idea of this quiz agent and all the quizzes being on intuition and being able to speculate on it.  That is just you can do that with any agent. Right. And so it's it's a meta pattern that I'm trying to showcase here that really shows the power of intuition.  Okay, so it's not exclusive to this agent. This is just the first.
+
+7:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Many use cases, any agent that's talking to multiple communities is essentially going to be able to be used as kind of like a benchmark of the health of these communities, different communities, et cetera, compared to other ones.  That's right. That's right.
+
+7:15 - James Young (Collab🤝Land)
+  And then the agents will decide what atomic unit, depending on what that agent does, to put in intuition. The thing about this is that like all this stuff is on-chain.  What intuition really does is organize the information into a graph because all you see on-chain on a block explorer are wallet and transactions.  And that's it. There's zero context. So this provides that context and it's up to each agent decide how much context that they want to put and organize on intuition.  It's going to be different case-by-case depending on the utility of the agent. Yeah, Alex? Alex? You're on mute. You're on mute.
+
+8:06 - Alex Lumley
+  I'm going to sideline the intuition conversation for a minute because, transparently, I'm not sure I fully understand how intuition sort of works and what the value prop is for a community, like, outside of technology and why it's so valuable for a community.  So I'm going to sideline that for a minute. But, like, the thing that I have on my plate for this week is to basically get on calls with two or three of these potential partners and basically say, like, the people who are either at TGE or going to TGE understand what their kind of roadmap is.  So to see if what we're trying to build here can fit in to that, because the goal is to be able to build something valuable enough where we could actually get some sort of service from our contract with them and close that first loop of like, OK, we're getting the value from these.  James, and then more agents will want to come in that way, more agent builders. Now, to get there, one of the things I would love to have would be some sort of demo of what you're building so far, James.  But I guess I don't understand how far away we are from that because you kind of had it last week on Friday.  But I'd love to be able to show them something so then I can have this conversation of, hey, here's the value we could provide.  What do you guys need and how those side are going.
+
+9:33 - James Young (Collab🤝Land)
+  Yeah, I got sidelined with the intuition integration because they launched the MCP server on Friday. So it's probably going to take another day or two.  But I'm hoping to get something in like this week that we can alpha test in the mother AI discord or early next week.  think it's going to be a bit janky from a UIU perspective. So we're going to need feedback. So it's not going to be polished, but it's going to be.  Functional. That's fine.
+
+10:02 - Alex Lumley
+  so what I'm imagining is, Tosh, maybe we can say after a few minutes of this call, basically we can take whatever is functional enough and all I need to make is a two-minute video of here's what's possible and then here's a few other options.  So then we can go to them and say what's on your roadmap and what else we're thinking about and make sure those two things align.  Does that make sense?
+
+10:33 - Natascha Tiotuico
+  Yeah, I think along comes also like the consulting from like the community perspective of why it's important. I don't think they will automatically say from themselves that it's important, but we have to build that story around it, why it's important, like why it's important to have quizzes, why it's important to have it on chain, why it's important to have the polls, it's important have  Quest to start segmenting your community, so all those wisdoms come along with selling the product, because it's just like when before you sell a mouse and then you're like, why do I need a mouse for my PC, you have to demonstrate it first and give like the context, what you could do with it when we went from, okay, I think it's an old example when you went from DOS to like actually working with the mouse, so I think, yeah.
+
+11:35 - Alex Lumley
+  That definitely makes sense, and Coach Dave, maybe this is something that you, me, and Tosh, and maybe Zero, if he's interested, can do, because as you're putting together this like quiz campaign, then we can start to think about how do we sell the value prop of the quiz and these other tools that are coming, while also doing the research with these three other teams to figure out what's  I don't think we should coordinate with them just yet.
+
+12:05 - James Young (Collab🤝Land)
+  think we need to really focus. I would opt for focusing on this one use case and validating that first instead of reaching out.  think that is what Tash is saying. Correct me if I'm wrong, Tash. We got to just nail this one proposition first.  Let's just focus on that. Get that narrative going because it's two separate things. Let's just do one thing right now because we have these moments where these projects are going to TTE and let's just hone in because that window will go.  We tried to coordinate with all these other agents and stuff like that. They don't see the value prop. We have to make that value prop.  That's why I have taken on myself to create the quiz poll and quest agents. We got to solve the very specific use case and I'm defining that right now.  The use case isn't to like I'm talking about selling to communities, Lit, Gaia, and Intuition, right?
+
+13:10 - Alex Lumley
+  And my concern is like, Gaia is probably going to TGE in two months or something. Lit already went. They're probably going to have some next event after that.  And Lit probably has something else coming up. Lit hasn't had their TGE yet.
+
+13:24 - James Young (Collab🤝Land)
+  None of them have had their TGE yet at all. This is why this is the moment. Lit had a fundraising.  A pre-sale. So that is what Intuition is doing right now on Legion. The token for Intuition is not launching until like August.  Okay, cool.
+
+13:42 - Alex Lumley
+  Yeah. And that's what I'm trying to get to is like, I want to understand how far away, how much time we are so that we're getting into their plans now, right?  That's exactly what we need.
+
+13:51 - James Young (Collab🤝Land)
+  We need to build this first and then we need to have the narrative first and we need to coordinate internally first.  And have that story. So talking. talking. With all these other agents, we've got to figure out our story here and show that it's adding value.  That's what I want to focus on, you know what mean? Okay, and be clear, I'm not talking about other agents.
+
+14:14 - Alex Lumley
+  I'm not saying we're going to talk to other agents. I'm saying we're talking about other communities. The three, like, pilot communities, right, for lack of a better term.  Intuition, Gaia, and basically saying, like, here's what we're building. Is this useful to you? Yes or no? What are your plans for TGE, and how do we make sure that we are setting ourselves up to make sure that we're It's not about, I think, for these three communities, it's not just is it useful from a community tool perspective.
+
+14:40 - James Young (Collab🤝Land)
+  It's showcasing their technologies. We're using Gaia, we're using Intuition, we're using Lit. It's showing what they're going to TGE for.  It's a use case. Sure. Like, however we want to sell to them, whatever.
+
+14:55 - Alex Lumley
+  My only point is, like, I'm just trying to make sure that we have, and it sounds like- I guess the two things we need is if we know the dates to make sure that we're not losing, we're not putting ourselves in the wrong place for those dates, and the second thing is that we will need some sort of demo or something to be able to sell it and show it to them.  Yeah, that's what we're building right now. I don't know the dates.
+
+15:17 - James Young (Collab🤝Land)
+  We should find out. don't know, Matt. I don't know if you are able to disclose the dates for Gaia or any of that.
+
+15:24 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  A time frame, like a gist of when we can do that, so that we can start building that. There's three different launches we're going to be coordinating with, right?  Intuition is most best going to launch after August 15th.
+
+15:38 - Matt Wright (GaiaNet)
+  Ours is, yeah, again, don't share this anywhere, but ours is end of June. Okay, cool.
+
+15:47 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, so basically we're starting to really talk about this very publicly. The build needs to be done and this narrative that we're talking about is basically starting kind of like at the end of the month.  James, do we imagine this? Starting to talk about this, like right before some of these TGEs or like soon after Gaia launches, then we're kind of coming in and like, you know, promoting Gaia's token launch, celebrating it and saying like, this is how you can start using it kind of thing as well.  That's the question.
+
+16:17 - James Young (Collab🤝Land)
+  This is a marketing comms thing. Like, how do we want to position? I had no idea. Yeah, you know, this is a great question.  This is what Zeret was asking about kind of yesterday. And, uh, we're going to meet on this. Tasha, have your hand raised?
+
+16:33 - Natascha Tiotuico
+  Yeah, I think if we can make it, I would like to be like before the TGE to kind of get that, um, suspense, um, so going back to what Alex said, we can warm up conversation with these partners, Gaia, Lit, and Intuition, just to like start warming them up to what can mother do.  And in the parallel. By the end of this week, we should probably start alpha testing in Mother, the quiz, then we can bring them on the journey of, look, this is how it is working in or showcasing in Mother.  So we have this friendly conversation. So we're not hard selling because we're we're also selling their tech or like showcasing their tech.  But this is like friendly conversations, but taking them on the journey. A few weeks before TGE, you should start inviting Mother Orchestrator.  You should start warming up people with quizzes, starting to get more serious with polls, start segmenting your community with quests.  So I think we can start warming up the collaborating communities. And that's where it's like, okay. Let's do it as tandem.
+
+17:59 - Alex Lumley
+  Sorry, just, just. Just. To finish off with Tasha, now that we're trying to get some of these dates, like obviously we're not sharing publicly, but Gaia, end of June, that's in a month, right?  Lit, sorry, Intuition sometime after August 15. So then the question is, and Lit, we'll find out when the date is.  But then the point is, is with Gaia, we have to figure out, like, can they use the quiz? Or if not, like, what do they need now to be able to support them for their team?  And Tash, maybe that's what you know, and it is those three agents that, that, yeah, and I can, I can introduce you to the team that's leading that.
+
+18:38 - Matt Wright (GaiaNet)
+  Um, they can give you kind of the lay of the land, um, and how we're looking at it. Uh, we're also using like three other vendors for kind of TGE, um, kind of XP programs, CollabGland being one of them.  Um, but happy to, you know, of course, I want to use my other orchestrators, so I can introduce you to them.
+
+18:57 - James Young (Collab🤝Land)
+  Yeah, that'd be awesome. Thank you.
+
+19:00 - Alex Lumley
+  Thank you. Awesome. Thank you. Yeah, I just wanted to say that.
+
+19:03 - James Young (Collab🤝Land)
+  Oh, go ahead. No, please go ahead. Thank you. No, go for it, man. Go for it, Sarah.
+
+19:09 - Razvan Matei Popescu
+  Yeah, so I just wanted to, yesterday when I spoke with James, like, we also talked about that maybe the teams could use, like, the quiz agent internally to kind of figure out what they want to do.  But besides that, we should kind of create a playbook for them. We should have a playbook set, like, based on what Natasha said, so the teams know what to promote and what to get people to do in the respective communities.  So we don't put another load on them. That makes sense.
+
+19:47 - Matt Wright (GaiaNet)
+  I was just going to give my quick update and blockers. I have our dev roles are going to start joining our mother calls.  I can only allocate, like, 20% of their bandwidth, but I want to start bringing. And then to, you know, 100% demo on, you know, the Friday, what we shipped calls as well.
+
+20:10 - James Young (Collab🤝Land)
+  I want them to be helping do some education in the Telegram channel on what makes up decentralized AI. we can start building some kind of go to market traction and then, oh, James, do you mind meeting?  Okay, thanks, man.
+
+20:29 - Matt Wright (GaiaNet)
+  And then we'll have them fixing and deploying more Gaia nodes. I know that was an issue in the last demo, so I had a talk with them today about it.  And so, yeah, they'll be a little more prevalent. We have Miaoui, we have Toby, and we have Harish, who will be kind of joining the chats.  I'll keep you guys updated. All three are devs. There aren't time zones, but... James, hopefully, we can work together and figure out how to get some work off of your plate, too, so they can help out.  Yeah. Yeah, and then, Alex, I'll introduce you to, you know Ryan, our head of marketing. He's got a team member named Hamza, who's done various TGEs, go to markets, so we can introduce you there.  And then I'll actually introduce you to Ian as well, who's on our ecosystem team. He's running point on our XP program, so he can help you out as well.  Cool. I'll set up a thread.
+
+21:37 - Alex Lumley
+  Yeah, and please make sure you include Tosh in that, and I know, Tosh, like last time, Matt, you gave Tosh permission to tell me pretty much anything that I needed to know for the TGE stuff, just to make sure that we're involved in the Gaia TGE and we're actually bringing value to them, because then that'll set us up for the next TGs that are upcoming as they kind of stack on top of each other, lit, and intuition.  you. Thank And And it is ours eventually. Cool. Thanks. All right.
+
+22:07 - James Young (Collab🤝Land)
+  I know we're over 12 minutes. So just open the floor if there's any other questions or I think we have an idea of our trajectory.  Yeah.
+
+22:20 - Natascha Tiotuico
+  I had a short question about the quiz agent also being able to pull quizzes upon the live streams. Is that like a big rabbit hole?  Just a question, not like a request. Yeah.
+
+22:37 - James Young (Collab🤝Land)
+  I would say that if Tobi, Miaoui, and Harish are going to be joining the calls, that would be a question I would imagine for them, how to get that data into the mother Gaia node.  Okay. Cool. Cool.
+
+22:57 - Natascha Tiotuico
+  And still an outstanding question. Before I.
+
+23:00 - James Young (Collab🤝Land)
+  As I'm building this out, I would love to carve out some space with the orchestrator agent. I'm not going to implement it now, but if you can launch a token through a Gaia domain, community comes in, has the orchestrator agent, they mint a token, we can do a pump.fun, add liquidity, blah, blah, but we can enrich all of that with the quiz, poll, and quest agent.  And if it's on intuition, then people can see how real is that community, right? And so do they want to invest in that community?  Do they want to buy that community's token? So it's not quite an agent launchpad or a minting, token minting launchpad.  It's kind of a combination of both, where you launch an agent and a token for your community. I think that is an interesting trajectory.  So not that we implement it right now, but that could be kind of a tool in the chest so that, you know, it just adds more value to the mother orchestrator agent and, hence, like Gaia as well.  So that's just something to noodle on because I think that this is – because with these pump.fund and all these token launch pads, you have no idea what's happening behind the scenes.  Here, you can actually have this data, and that's what we want to kind of expose, and that's what would be useful for investors and also to help build communities.  So any information, Matt or Sydney, with regards to minting a token, that would be great. So it just gives more fuel to the fire to, like, use Gaia, use Mother.  Yep, working on that for you.
+
+24:57 - Matt Wright (GaiaNet)
+  Awesome. Excellent.
+
+25:01 - James Young (Collab🤝Land)
+  With that, we are 10 minutes over. Happy Tuesday, and we'll see each other tomorrow. Awesome. Thanks everyone.
+
+25:11 - Alex Lumley
+  Tosh and Jonathan, do you have any time tomorrow that we can talk or work on what to communicate to Gaia, and you can share with me what information you have on Gaia.  Yeah. I think I'm supposed to meet with Matt right now. Otherwise, I'm happy to chat after this, but I know it's pretty late for you.  Yeah, I think I have to also take it easy still today.
+
+25:43 - Natascha Tiotuico
+  But tell me, when is your earliest possible working time tomorrow? Or when would you have time tomorrow? Um. I'm meeting like two hours before our  Our mother call, I'm meeting with 08 James and Coach Jay to align on marketing stuff. Cool.
+
+26:12 - Alex Lumley
+  Right before the call?
+
+26:14 - Natascha Tiotuico
+  Yeah. earlier?
+
+26:16 - Alex Lumley
+  Well, and I'll drop a few notes on like kind of what I want to understand. But like, basically, we have four weeks to add some value for them.
+
+26:25 - Natascha Tiotuico
+  So, yeah, it's, um, yeah, I'll write you a bit to that as well. I gotta, I gotta, I gotta go talk to Matt, but, um.
+
+26:36 - Alex Lumley
+  go talk to Matt.
+
+26:38 - Natascha Tiotuico
+  Bye. See
