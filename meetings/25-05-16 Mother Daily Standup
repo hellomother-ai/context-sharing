@@ -1,0 +1,73 @@
+Mother Daily Standup - May 16
+VIEW RECORDING - 12 mins (No highlights): https://fathom.video/share/K4j6uA19L7sJ345szksx2LyxxoqekdMv
+
+---
+
+0:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Waiting for this deployment. So, I mean, great work. And, yeah, I think that I'm kind of just, like, ready to roll.  Once we're feeling like it's about time to start communicating this, I will put together the plans and, yeah, we'll start communicating about it.
+
+0:18 - James Young (Collab🤝Land)
+  Yeah, just to let you know, I spoke with Ian, who also has been in contact with Tosh at CoUnity to see if we can actually get this POC in the Mother AI Discord, but then potentially start using it somehow, potentially, for the Gaia TGE.  So it's TPD. Could you share that recording?
+
+0:47 - Alex Lumley
+  I'd love to hear what he said about it. Like, I guess, yeah, what were the takeaways? Uh, for the, con-
+
+1:00 - James Young (Collab🤝Land)
+  Conversation with Ian from Gaia, the takeaways were one, they're going to have a budget because in Collabland, we have what we call community messaging, essentially it's advertising, to advertise Gaia TGE across all of our communities at Collabland, and then two, it was just him getting up to speed with what's happening with mother AI and orchestrator agent, and essentially I just presented kind of a TLDR of what we saw.  today, and that he said that he's been working with CoUnity, and I said, great, working with Tosh directly, and he's going to be on standby to just wait until he can actually touch the orchestrator agent, the quiz aspect of it, in the mother AI Discord.  Cool.
+
+1:52 - Alex Lumley
+  And I know, Tosh, that's like a work stream that you've been focused on, is like getting Gaia in with.  Um, in. Getting Gaia as like our first real client and kind of getting some payment there and stuff. So one thing, two things I'm thinking is that one, we probably just had, we need to have like a single page with like our outcomes that we're looking to get by next week.  And so like some of the projects that we have so we can just keep an alignment, make sure these different work streams are pushing forward.  I'm happy to take a stab at that. And then the second thing is that I know, and I think one of those kind of key goals of work streams, Tash, is that getting Gaia in.  just make sure, I think what I'm saying is that James, if can make sure that Tash is included in those calls or some way so that she can keep in contact with that.  Yeah.
+
+2:46 - Natascha Tiotuico
+  So like I'm the account manager for CoUnity working with Gaia and doing the strategy for their community. So I already have it on the roadmap.  That that's a possibility. So any conversation that goes on there would be great if you loop me in. But yeah, I'll be starting talking to Ian about that next week.  Cool. Great. And for like Monday, I won't be here, but I'll inform Xavier because he has to anyways, give a channel where you can add the orchestrator.  So I'll inform him that you're working on that and will need some support from the Discord. Because I'll probably be not attending the daily on Monday.  If everything works out, I should be back Tuesday. Awesome.
+
+3:50 - James Young (Collab🤝Land)
+  Thanks for that update. Um, okay. Uh, I think that, uh, we are kind of good to go and let's see what happens over the weekend.  Provide status on Monday. Anything else? The couple, I was just starting to write up what the streams I see are.
+
+4:13 - Alex Lumley
+  One, just so you guys know, I'm going to continue doing the strategy stuff with Matt. Two is that I will provide a one-pager with my proposed roadmap of how we push this forward.  Basically, kind of the summary that they gave in the call. Three, I will provide kind of just a high level of what are some of the products that we have so that we have something we can point to and start to look at.  And, Coach J, I'll check that with you to make sure it makes sense to you. I'm not saying project management.  I'm saying like a single page that we can just point to and say, cool, are things getting pushed forward?  And then, and I think, and I think really the only kind of, the different work streams that we have.  Fathom are this first deployment of the org creator and the campaign around that, and that iteration of that as mother of the reference point, and that's all tying marketing as well as the engineering side of it.  Two is like there's something around how we're working together as a team, meaning like working with Gaia and how we're bringing things in and defining some of that strategy stuff.  And then three is kind of this context pipeline, how we're getting all that and setting up the Gaia node and things that fall under that.  Is that fair, or is there anything else that you would add to the streams that we kind of have?
+
+5:42 - James Young (Collab🤝Land)
+  What I'd like to do is feed all this context, everything that we're doing, every write up, everything that people want to contribute, let's feed it into a Gaia node.  We need that Gaia node up and running like ASAP, and then we can all like coordinate around. So that we don't have to circle around documentation, we don't have to circle around meetings, we can circle around just our conversations with the AI and see what the AI has to say.  Let's start incorporating that because we really, really need to, I believe, start using AI to help us reduce coordination costs, right?  And so we should be managed by the AI.
+
+6:32 - Alex Lumley
+  So two things. One is, okay, then who owns the Gaia node? Is that Toby? Currently, I'm working with Toby on that.
+
+6:41 - Natascha Tiotuico
+  So I'm helping him understand the context, what I need, what features and everything. Like right now, we're at the point, he should just fill it in with all the meetings we had, and we're supposed to be able to fine tune it by text, but coming.  And next, we'll define some features on what, what do we need more from that agent, how, how, like, how can we train it better, will it maybe, like, later on, we could even see if it writes up something in Notion or updates the streams or something like that, but I would like to see the context working first and then see what the next challenge is.  Like, then we'll use it, see if it's hallucinating, if we can ask it properly, and from there on, we will solve the challenges as they come.  That's my proposal.
+
+7:42 - Alex Lumley
+  And, and that, that sounds good to me, and James, my, my, the only thinking here is like, you're right, we, we do need to start being the Gaia notes that I've been doing all that, but it just takes time.  And until then, we have to kind of, we, my sense is we need some kind of definition around where we're headed just to make sure things aren't getting disorganized.  And so all I'll do is I'll make the phase, and then, hey, here's the things we're thinking about for the next two weeks.  And that's it, and that's enough. And even if nothing else, that's something we can feed into the LLM, and then we'll look at the next two feed it into the LLM.  I mean, like, I don't understand what's taking so long to get the Gaia node set up.
+
+8:17 - James Young (Collab🤝Land)
+  I mean, it took me less than, like, two minutes to do this with OpenAI. So let's just use OpenAI for now so that we don't get slowed down.  And then whenever Gaia is ready, then we'll just switch over to Gaia. But it's just, like, I don't understand these kind of bottlenecks here.  So if the Gaia node isn't set up by Monday, I'll make sure that there's one set up for OpenAI.
+
+8:45 - Alex Lumley
+  Cool. And, Tosh, I know you're out. You're moving this week and weekend and early next week, right? Yeah, exactly.
+
+8:54 - Natascha Tiotuico
+  Like, I'll try to come on Tuesday. I can't make promises, but latest one. I'll be back. So Monday, Tuesday, I'll be out.  I can read my messages in between, but I'm kind of trying to unpack and get my things together.
+
+9:14 - Alex Lumley
+  James, what I would say then, if you're saying it takes less than two minutes to set it up with OpenAI, if you're set up with OpenAI, if nothing else, I'd also force Gaia's hand because Todd will be out this weekend.  Well, I can follow up with Toby.
+
+9:28 - Natascha Tiotuico
+  Like, he's giving updates. He's getting heat, I think, also from Sydney and Nat. They wanted to approach him, so he knows it's a priority.  I think he also streamed on X, how he's, like, the exact thing he had with chunking. The challenge he had, he also put on X in his daily stream.  So he's making progress.
+
+11:00 - James Young (Collab🤝Land)
+  But would love to learn and help him if he's facing issues. I'd rather spend my time and energy there than setting up something with OpenAI and then having to switch later on.  Cool. All right.
+
+11:13 - Alex Lumley
+  So it sounds like... Sorry.
+
+11:16 - Natascha Tiotuico
+  Maybe it can also be cut down, like if it's just the knowledge feeding issue, then I can do that afterwards by just feeding it in.  So if it's just needing the node to be up to integrate and I can help like feeding the documents afterwards, maybe we can unblock him in that way.  Sounds good. That's a good plan.
+
+11:41 - James Young (Collab🤝Land)
+  Let's try to work together as a team here and try to help support one another. I think that's a great idea, Natascha.  Awesome.
+
+11:49 - Alex Lumley
+  Anything else? Yes. Happy Friday. Cheers. Thanks. Cheers, guys. Take it easy. Bye.
+
+11:59 - James Young (Collab🤝Land)
+  Bye-bye.-bye.
