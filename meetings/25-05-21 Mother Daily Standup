@@ -1,0 +1,100 @@
+Mother Daily Standup - May 21
+VIEW RECORDING - 22 mins (No highlights): https://fathom.video/share/-tSf24-_CU2cAja5cZ1YtqQ1ef-MT_HH
+
+---
+
+0:00 - James Young (Collab🤝Land)
+  to see where we're at with Mother. Again, so it's just that's happened this week. So there's something going on.  I'm not sure what. In terms of news about Mother or the markets coming back or something is happening because I've been getting just pinged in several different ways.  So that's just a random, I guess, status update. But to kind of jump into it, we're one minute after the hour.  I'm just trying to keep this a tight team. I'm just super bullish when it comes to this orchestrator. It's just, it's amazing just how things are, how easy it is to one shot now.  And it's just, it's just, yeah, pretty exciting. So, I should have something soon, what I've been doing is refactoring along the way, because it's so easy, and instead of deferring things off to later, where I lose or I forget all the nuance and the context, I just, like, optimize at that moment in time because it's easier, and it just allows me to then just close the chapter on, like, the smart contracts.  You know, the quiz side or the poll agent side, and I'm going to get to a point now, I've kind of moved past the quiz agent and doing some other kind of abstractions, I will get back to, because I see that Toby and Harish have the deployment of the Gaia notes, so I'll get back to that probably tomorrow or early Friday.  You But other than that, there's Altlayer, there's Olas, there was Authentic, they come back, oh, there's another group called, they're called Taco now, they used to be, it's the same group from, called New Cipher, they're like an OG group from like, eight years ago.  They have their own kind of alternative MPC network, and they're really interested in collaborating with Mother. And there is, I think, a lot of interesting design surface, because of the Petra hard fork that happened earlier this month, with 7702 and 7710.  Where it is kind of, and this is my understanding, talking to other Ethereum developers in the space, it's really confusing and it's really dangerous, actually, because if you sign a message now, your whole wallet can get completely drained.  It's essentially, signing a message gives people the authority equivalent to you giving them your seed phrase, that's how powerful 7702 is, and there isn't any tooling around this yet, where there are safeguards and precautions, the MetaMath Delegation Toolkit is set up, the going and let's go to to to See  It could be a higher level abstraction, but there are a lot of things that don't exist in the ecosystem now, moving from EOAs to smart accounts, and I think there's an opportunity here for kind of agents to fill in the gap, so I've been talking with Taco about that, so there might be some really interesting opportunities, and they would love to connect with CoUnity as well, to kind of understand kind of the use cases there, so that was the fourth group.  There was someone else, I'll put it in Slack once I remember, but that's all the updates I have today, but things are moving forward and looking pretty good.  I don't know if we actually need, and I said this yesterday, I don't think we need So many more developers, we just need ones that are highly aligned, like where it's almost like if you have a small group that can like finish each other's sentences, essentially, you can vibe code or vibe market or do all of this kind of with a small group.  And I would propose that we, as mother, keep the group tight, really small, but super aligned, and try to experiment with that kind of organization structure there.  But that puts a lot of onus and responsibility on every single person. So yeah, with that, I would like to just see how we could use AI to be able to inform us, whether it's talking to investors and investor meetings, put the transcripts.  In GitHub, all the marketing meetings, all the strategy meetings, we start putting in some of these bots in Discord for the mother AI Discord, kind of like the Summa AI that's in Telegram, that just like will read all the channels, get all the sediment, and then we start getting that flywheel going.  And that allows us to keep our team small and highly aligned.
+
+6:25 - Alex Lumley
+  I think that makes sense, and Tosh, correct me if wrong, you're still kind of owning that content pipeline or context pipeline into the orchestrator slash PM of mother, correct?
+
+6:39 - Natascha Tiotuico
+  Yeah, so Toby shared something that, unfortunately, we sometimes can't reach, as I saw, but that was going to be the next steps for me to test that, and kind of use it to see how I can create those flows for project management.  Or what specifically, like how to integrate that in the processes that I do or that I see that you, Jonathan, are doing or maybe even like moderators in the community, how they can benefit from that.  But I would try to put some use cases together as soon as I try it out, and then we can work from there how to use that context for each of the different working streams.
+
+7:35 - Alex Lumley
+  And Tosh, is like, maybe tomorrow when we talk, is there any way that you could come with a few notes on what that, I don't even have a good name for it yet, but it's kind of like this context PM orchestra type of thing.  And I think, like, if you come with a few notes that in my mind are almost like a theory, and then we somehow plot that theory into the .  chat.tvt interface with our Gaia node, then I think that can be kind of expanded out. But my sense is when a lot of times when you work with all of the conversation we've had, you have to start with the theory and say, hey, find me all this information.  So I think if you can do that, and I'll come with the two docs that the one that I have to write on, like what Matt sees is happening in AI and what is the mother kind of roadmap, and at least begin kind of expand on those with all the recordings that we have.  Yeah.
+
+8:30 - James Young (Collab🤝Land)
+  Cool.
+
+8:33 - Alex Lumley
+  The last thing I'll say is the two things I'll call out from what you said, James, I think you're spot on and that like we can do a lot of things with a very aligned team.  The two kind of risks that I see are one, my sense from work with chat.tvt is like I like I mentioned, it comes back to starting with a hypothesis or having set up the AI well enough where they  See things in a way that intuit how you might see things and call it out. The second thing I'll call out is that I think you're right on having an aligned small team.  I think the risk is here is that right now everyone is part-time. And until we actually find a way to get some funding, we're not going to have a way to have people be fully aligned and fully committed to that.  And the third thing I'll just kind of call out based on what you said, James, is one thing I think that happened previously in the previous iteration of Mother is that we had so many opportunities, but we didn't have like, we were like, we were like someone without a backbone.  We had so many different ways we could go and we had so many opportunities and then we got distracted by them all.  Yeah. So to answer your risks, I think that's why I propose these things.
+
+9:48 - James Young (Collab🤝Land)
+  We have a small team so that we stay aligned and we have a, what you were saying, like a backbone.  We have a focus, I think that there's an opportunity with these TGE. That are coming up to be able to get some revenue via the TGEs.  So it's not like we are signing these service contracts, but we're getting paid in tokens when these TGEs happen.  And I think that's the immediate source of revenue. And it's in alignment with where we're going as, you know, community building, free and post TGE.  So there is a through line there that we should be trying to focus in on. And I think being highly aligned in helping these other communities to TGE, setting ourselves up for the mother TGE, answers the funding question, the alignment question, and keeps us with a very narrow backbone.  So I want to make sure that we are highly aligned on. And it could be wrong. It's a bet, but we have to make some kind of bet, and I think that this is an opportunity here.  We can try and surface a bunch of user interviews, do the risk analysis, and see if it's worth it or not, but I think we're so small and the budget is so tight that we just make the best of the opportunity that is just right in front of us at the moment and just double down.  For sure, and I don't disagree with you on TG and all this stuff, and that's part of what I'm writing in this doc that I'm sharing with Tosh tomorrow is that you're spot on.
+
+11:40 - Alex Lumley
+  It's just the next circle outside of that, if it's like the legion or the gay thing or some of those things we kind of just got to be careful of.  Anyways, those are my points.
+
+11:49 - James Young (Collab🤝Land)
+  I know we're almost at time. Sorry, Tosh, go ahead.
+
+11:55 - Natascha Tiotuico
+  Just a question. So tomorrow when we meet, we will also be talking about. Sandbox and GaiaNet, how they fit in with the POC?  I don't think so.
+
+12:07 - Alex Lumley
+  My sense would be no, because we can first make a decision on, hey, here's our strategy, here's the roadmap, and then based on when we get more information from Matt on Sandbox and GaiaNet and those things, then we could say, does this fit yes or no?  But it's again, starting with the theory and then saying, does things fit yes or no? I think, oh, sorry, yeah.
+
+12:27 - Sydney Lai (GaiaNet)
+  I spoke with Toby, so he's getting started on a PRD for the Sandbox integration. It's going to be kind of similar to what we've all done with Minecraft.  But that PRD is going to take a few more weeks. It's not as important just yet, but he's starting as of this morning.  Is that something that Toby would work on, Toby would own, and it really could fall under Gaia in Sydney?
+
+12:58 - Alex Lumley
+  Or I guess we can just wait till we read the PRD. PA he wants toкиd Well, Yeah, yeah, yeah.  Just hold on tight.
+
+13:02 - Sydney Lai (GaiaNet)
+  But it is happening. It's happening in the background, just so you all know. Cool.
+
+13:06 - Alex Lumley
+  That works. And Tash, guess, like, just to answer that last part is, I think it kind of sounds like it's happening either way, and it's more of a Gaia thing than it is a mother thing right now, in my sense.  Okay.
+
+13:19 - Natascha Tiotuico
+  I just wanted to make sure, like, if we have people approaching us, and it halfway fits in our roadmap, we should take those opportunities, because those kind of are, are extreme demands.  mean, when people take the effort to ask us, it means they're willing to pay money for it. So, we should just not lose those on the way, but give those even maybe more attention on to validate our roadmap.  Awesome.
+
+13:52 - Alex Lumley
+  Zeroye, did you have your hand up real quick? Yeah, sure. just wanted to quickly ask, like, what do you think about the livestream?
+
+13:59 - Razvan Matei Popescu
+  Should we... Should we doing them? Should we do more? we do less?
+
+14:05 - Alex Lumley
+  In my head, I would totally give that to you, Coach J, and to Francesco. Whatever you guys think, but what I would guess is that whatever we do, we probably do need some variation of it, where we can find a way that it actually still drives more value towards mother.  My sense is right now it's getting a lot of good, and Coach J knows this better than I would, but my sense is that it's getting a of good publicity for Francesco and getting those things out, and it's like setting up a bunch of things, but it probably isn't driving more like users, investors, or something else.  I don't know what the answer would be to that, but that's my sense.
+
+14:51 - Razvan Matei Popescu
+  Yeah, it's that it's also like product discovery because we're discovering a lot of products, and we're talking with a bunch of teams, so we have like a hundred groups.  So And we will be ready to do something like we should leverage all those groups. Yeah. And to be honest, once we set up the mother AI node, it feels like that should be its own node.
+
+15:12 - Alex Lumley
+  Like that feels like a great stream of information to be its own node. had all those interviews in one place and train a Gaia node on that.
+
+15:25 - Natascha Tiotuico
+  And I think like the first use case, using the quizzes, that will kind of update that feature and would be great for content on that.  Like polls, quests, and quizzes all align with the live streams and give us new content to talk about. Yeah, true.  for me, the big question is like, how can we leverage everything that we have done until now?
+
+15:52 - Razvan Matei Popescu
+  Like with the live stream, the groups, the teams, like all the communities we're in contact with, all the new products that we know that are not like...  ... Yeah, I think it's a good question.
+
+16:11 - James Young (Collab🤝Land)
+  think, so let me start with the live stream. I think the live streams should continue. I think that there have been a lot of them and those have attracted attention.  I would say fewer live streams with higher caliber people. Like the recent one with the Dragonfly, I think it's great.  And just at that level, and because we have a history of those live streams, I think that there's credibility there and you can leverage that credibility to get higher caliber of people.  So not just anyone, but just like some super high quality people, maybe like Ilya from Near, you know, all these other people.  And this is going to help us when it comes to building momentum. And that's how we leverage the live streams.  And then, then. With that, it builds towards the mother TGE, which we help facilitate these other TGEs that are happening.  I'm talking with Billy on Friday because they're launching on Legion tomorrow. And this all builds up to potentially, and this is where we want to really try and create this playbook, these communities can launch a token.  And this is where, you know, I'm asking, Matt, he had mentioned that through a Gaia domain, you can mint a token.  And if you can do that and have it all via AI-based with this orchestrator agent in these communities, it's not just another pump that fun, but it also is signaling the community, getting community help post TGE.  So I think that is how we build up this momentum, so we can use our track record on our history to just get higher calories.  So if we get higher-caliber livestream interviews, that leads to higher-caliber communities that potentially we can serve for TGEs, and it just brings in higher-caliber agent devs, and this is how we should be building our momentum.  I hope that helps answer your question. Yes, does. does.
+
+18:31 - Razvan Matei Popescu
+  The one with Hasib was kind of hard to pull because we had to wait for a month and a half.  But yeah, I'll continue doing that. And if you know any high-quality founders that are in your network, we would appreciate if you like...
+
+18:49 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And Zuriya, it might be worth even reaching out to some folks that may have already been on and do like a round-two touch-based thing because now people have been on like three, four months ago.  Yeah. thought that If we can get someone like Nader or Shah back on to talk about V2 or what's new at Eigenlager or what are they saying newly, those might be some we can arrange within the next couple of weeks kind of thing.  And Francesco has relationship with them. He's literally talked to them for like 30 to 45 minutes. Yeah.
+
+19:22 - James Young (Collab🤝Land)
+  And then I would also try and expand to like Web2 AI companies that are looking into Web3 as well to kind of expand the network.  And so these interviews are a way to showcase these interviewees, but at the same time build up the mother network and just let's just keep the caliber increasingly high.  And, you know, if it takes longer to secure these interviews, the better. And then make sure that we have fewer interviews, but they are very high quality.  I think that's going to be the draw. very much. Thank you. you. Thank you.
+
+20:04 - Sydney Lai (GaiaNet)
+  I was just wondering if there was a list of speakers because, you know, like, you know, some of us have contacts with Ilya.  So if we want Ilya, we just need to reach out to him and give him a proposal. You know, I'll be at ETH Berlin or Berlin Blockchain Week in like two weeks.  So if we want to do some of these live streams in person, I can do that with, you know, with Nader or something.  I've done that during ETH Denver as well. So we can also do some stuff live if it's helpful for the stream.
+
+20:38 - Alex Lumley
+  Those are the two things that I would actually propose is, Sydney, I don't know if you actually have a podcast or live stream or something already because I know you've interviewed some people.  Do you have your own for Gaia? Not for Gaia, but I have equipment for all of that stuff.
+
+20:53 - Sydney Lai (GaiaNet)
+  Because what I would actually propose is if we were to change up the live stream, I would actually have Francesco move back.
+
+21:00 - Alex Lumley
+  to one a week with high-quality people, and then find a way to have Sydney have her own variation. And honestly, James, a lot of the calls that you're doing, you and I have talked about this in the past, James, a lot of the calls that you're doing with people on just like catch-up calls, you could do those as podcasts.  It would actually be more bang for your buck, and people would really like that. So that would actually be my proposal.  And Jonathan and Coach Jay, you've done an awesome job setting up those systems. You can probably fan it out to have it across the three of them in different ways.  Sounds great. I got to run. Talk to you later. Awesome. Yeah, we're a few minutes over. Thanks, everyone.
+
+21:40 - James Young (Collab🤝Land)
+  Thank you. Bye-bye. See you guys. Bye-bye. Thank you. Bye-bye.
