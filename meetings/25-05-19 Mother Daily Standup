@@ -1,0 +1,76 @@
+Mother Daily Standup - May 19
+VIEW RECORDING - 13 mins (No highlights): https://fathom.video/share/G3B8LYGH_5gq2fsybWvP11DkEqN41j_-
+
+---
+
+0:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  My search engines, which is like not what I expected. So I didn't even know those words existed, client service rendering.  So now I know there's server-side rendering, and there's also something called static site generation, where it like takes the raw HTML and then like packages it up and like serves that to the crawlers.  So that's what I'm navigating right now. Fun stuff. You're getting into it.
+
+0:27 - James Young (Collab🤝Land)
+  Yeah, there's some basics to figure out, but I don't think you need to like get into the weeds too much in terms of the coding specific.  But yeah, the fundamentals when it comes to whether it's server-side rendering and dynamic one-page rendering and all that stuff.
+
+0:45 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Exactly. Now I'm creating a NetDiplify account, and I'm hoping to host it there, and I think the free version will work, I hope.  So yeah, it's so funny. All these services I didn't know existed, but now I'm like very well aware of them.  Yeah. That's right. You've been Yeah. You've been vibe coding, Jonathan?
+
+1:06 - Matt Wright (GaiaNet)
+  Yeah, yeah. Tons. Oh, amazing, man. I love it. Yeah. I have a murder mystery generator.
+
+1:13 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Oh, sick. Yeah. We host like some parties at our place and our friends love it. So I basically created this IP that you can create any murder mystery theme with as many players as you want.  And it spits out this host guide and character guides and everything. So I'm creating a web app that basically, you know, has like authentication and everything.  create an account and then you can create your own preview version. And then if you want to unlock the host guides and character guides, you just pay like five bucks and it unlocks it for you.  So I'm like this close to the finish line. And it's been all vibe coded as well, which has been cool.  And I'm working on some other projects as well, some other vibe coding projects using like automations as well. So think that's deal with me because.  Yeah. Make is great as well, I'm feeding the content through Make, turning it into a JSON, parsing it, doing all this stuff, and then spitting it out and putting it into SupaBase so that it serves on the website.  Anyway, that's my little journey. Very cool, man. Yeah. So, shall we jump into it? Yeah. Let's do it. Let's do it.
+
+2:23 - James Young (Collab🤝Land)
+  So, from a status update perspective, excuse me, the Orchestrator is moving along. I was able to work on it and add some more use tests, and it's still going.  I'm hoping to get it into the Mother AI Discord by this Friday, so making some good progress. I had to use OpenAI on the backend for the quiz generation because it's still waiting for the Gaia node to be up and to be.  Yep. like Up and running. I had some ideas, actually, while I was vibe coding. It's interesting, and this is just something I'll throw out real quick.  It's kind of a tangent, but each quiz could be tailor-made for the actual individual user. It doesn't have to be like, oh, you know, you create a quiz.  It could be very personalized and customized. And this could also help out because I was running a bunch of unit tests for the smart contracts to verify quiz, and there's some attack vectors when it comes to this on-chain quiz.  Each quiz could actually be generated, like, programmatically because it's AI. So that's something we may want or may not want to consider.  So you can have custom quizzes, custom polls, and then custom quests, depending on, let's say, how many people are following you on Twitter.  How many retweets you get, so it doesn't have to be like a static thing, and as the AI learns about people, the individuals and what they contributed, the more information they have on you as an individual, I think the more customized it can be, so that's just something to throw up there, but that's progress on my side, awesome, thanks Matt, I'm just reading the chat to get the mother agent deployed on Gaia would be great, and then, it would also be great to get, still waiting on more info with regards to, how to commit tokens via Gaia, because I think that could be something that would be very interesting, but that's all the updates I have on the technical side, I know that there are other updates as well, with regards to I have a clarifying question about the mint tokens, so do you mean, having like a token launcher coming from Gaia, is that what you meant, or is it more?
+
+5:00 - Sydney Lai (GaiaNet)
+  Yeah, so Sydney, like how you and me and Frank jammed on how you could deploy tokens from the domain side.
+
+5:05 - Matt Wright (GaiaNet)
+  Yeah, okay, that's right, he makes yeah. Do we, do think we can get James like a, like a, if one page, just some paragraph on like how that would work?  Cause Frank, Frank gave me some info, I can relay, but you and can put that together. Yeah, works for me.
+
+5:23 - Sydney Lai (GaiaNet)
+  Yeah, I could do a quick one page. Yep, just like some notes. Okay.
+
+5:30 - Matt Wright (GaiaNet)
+  Thanks dude. Sydney, do you want to go? can go after. Yeah, my biggest update is more white paper oriented.
+
+5:39 - Sydney Lai (GaiaNet)
+  So Amin's been onboarded, he's going to be like the PM for the white paper. Where we are blocked on internally is, we're trying to set up like a white paper domain, so that it, like Mother can run its operations off of the white paper as a knowledge base.  So that's the development there. No other updates on my end. Yeah. Yeah. Yeah. Awesome.
+
+6:03 - Matt Wright (GaiaNet)
+  From my side, yeah, to answer your question on the node and domain, James, I put it in the chat, but for everyone else, I relayed that to Toby and Harish from our team.  They had this early last week, so they should be wrapping up. Sydney, maybe you can check in and see what's coming, but basically we just see the mother nodes and domain.  on the Gaia side so that the orchestrator agent or any other agents we use for mother, they can use, you know, mother.guy domains API instead of OpenAI.  Or at least we can experiment and see the differences between the two. For everyone, it be like educational. So yeah, I'll get an update from them shortly.  And I've just been getting a lot of the like Slack and Google admin stuff handy. Over from Punkar and kind of sorting through some of the foundation, Loaning Week Fruit, had a call with our director last week just to kind of get everything in order, understand what the kind of burning priorities are right now.  We seem to be okay on that side. The fundraise in TGE Workstream, I had a good amount of meetings.  I interviewed three potential shops, but I think I'm more interested in working with Architect, you know, I chatted with Token Dynamics and Open World and others, and Republic, of course, too.  So I think I've made up my mind, but, you know, still kind of reviewing some of the docs. More importantly, I had a meeting with Gate, which is an exchange, last week.  They're excited about Mother, they even have a VC, I think I mentioned this on the last call, so I'm chatting.  So I'm this week to get a little more ideas, but I had a sit down meeting with one of my market makers that will be the market maker for Gaia, or for Mother, which is STS, they're out of Switzerland, really great team, they're former G20 guys, they were giving a lot of advice on how to approach the TGE, and kind of think through the timing of it, and so do a little write up for you folks in the just like in Telegram, just like how we should be approaching it, but I feel like the TGE is probably more of a July item.  So, you know, we should really find some way to, you know, perhaps close some checks if we need capital right now.  So yeah, I'm just gonna, I gotta figure out the order of operations for that, but I have a lot more clarity on TGE timeline, which vendors we're going to use, and also, So, you know.  The market makers are going to support us, so a lot of progress. Awesome.
+
+9:08 - James Young (Collab🤝Land)
+  That sounds great. I know that Tosh isn't here because she's moving. Hopefully, she'll be back tomorrow. Alex, do you have your hand raised?
+
+9:21 - Alex Lumley
+  Yeah, I think Tosh is going to try to sign in on Tuesday, but nothing ever goes right with moving, so it'll likely be Wednesday.  The two things that I'm working on is, Matt, I know we're speaking tomorrow on the strategy stuff. I owe you kind of a one pager on how I would propose and kind of push forward with some of these items in terms of like an order of operations for kind of like launching like the product and TGA and those sorts of things.  The other thing I'm also going to attempt, Matt, is kind of a one pager on the like some of the background AI stuff that we had talked about.  The thing that I pitched to you that you should ask one of your VCs. to do like a market forces or like a driving force of what's going to happen with that.  So I'll try one page of that, and I'll have those two things for you tomorrow, Matt. Thank you.
+
+10:11 - Matt Wright (GaiaNet)
+  Yeah, to everyone else, like for context, Alex and I, we're going through kind of the current landscape of decentralized AI and open source AI.  I'll try and explain kind of the, like where we fit in and how we can explain who we are.  And Sydney, maybe you and I can find one of our investors that, you know, would love to do like a, you know, one of those like ecosystem maps of, you know, what DAI looks like today.  Maybe we can get them to do the busy work and kind of show where mother and Gaia fit in and where Collabmon fits in.  I wonder if Outlayer is into that. I wonder if Steak is into that. They all, yeah, like let's see what I like sync up today because someone will be, someone's probably already working on that.  But yeah, I thought it was a great idea because. Yeah. They're always looking for ways to help, and that's one of them.
+
+11:04 - Alex Lumley
+  Yeah, yep, yep, perfect.
+
+11:08 - Sydney Lai (GaiaNet)
+  Awesome, excellent.
+
+11:10 - James Young (Collab🤝Land)
+  We have five minutes. Anything else?
+
+11:13 - Alex Lumley
+  And since you guys are going along with that stuff, Sydney and Matt, you guys don't have to have any kind of market landscape or teams you guys talk to for more collaboration tech tools, like collab tech tools or something like that.  Just because those are kind of some of the early things that Mother Wright might replace in going after communities on Discord.  Can you maybe, what kind of tools, sir?
+
+11:39 - Matt Wright (GaiaNet)
+  Yeah, I got lost. Yeah, like collaboration tools, right?
+
+11:43 - Alex Lumley
+  So if you think about what are the existing solutions today that people are using within Discord, there are a lot more things that aren't like three, Wixie, a lot of things that CoUnity uses.  But I'm assuming that you guys don't have anything set up of like, here's the current kind of collaboration tools that people are using.  The reason why we ask is because those are the existing solutions that Mother could immediately go after and replace if we're targeting specifically Discord.  I see. see. No, nothing top of mind.
+
+12:14 - Matt Wright (GaiaNet)
+  Cool. Awesome. Awesome, y'all.
+
+12:19 - James Young (Collab🤝Land)
+  Welcome to Monday. Let's kick some butt, guys. Let's do it.
+
+12:26 - Matt Wright (GaiaNet)
+  Thanks. Okay, guys. Bye-bye.
