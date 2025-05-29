@@ -1,0 +1,258 @@
+Natascha Tiotuico: 00:00 
+ Anjali before that. She's going to be in Lisbon and I can finally meet her.
+
+James Young: 00:05 
+ Oh, that's awesome. That's great. It's always great to meet people face to face.
+
+Natascha Tiotuico: 00:10 
+ Yeah. So I'll at least meet her. Or are you coming as well?
+
+James Young: 00:15 
+ No, I'm not coming. No, no, I have to. I'm doing dad duty.
+
+Natascha Tiotuico: 00:23 
+ Well, maybe. I thought maybe they're already on summer break and could come, like do a family trip.
+
+James Young: 00:30 
+ Oh, yeah, my daughter's working over the summer.
+
+Natascha Tiotuico: 00:33 
+ Ah, okay.
+
+James Young: 00:34 
+ So, yeah, and then my son is doing some like camp thing or something, so. Hold on one second.
+
+Natascha Tiotuico: 00:49 
+ Okay. Hi, Sarah 8. Oh, no, you left. Oh, hi, Sarah 8.
+
+Jonathan Miller: 00:57 
+ Hey.
+
+Natascha Tiotuico: 00:59 
+ Coach Jay said he'll come as well. So sweet. At least he check marked.
+
+James Young: 01:12 
+ All right.
+
+Razvan Matei Popescu: 01:13 
+ Yeah, I think he told me he's at the class and he'll join from mobile or something like that.
+
+James Young: 01:22 
+ Oh, okay. Okay, Kick it off.
+
+Natascha Tiotuico: 01:26 
+ Yeah, so maybe I'll give 08 or you the. The agenda start. Because I'm. I wasn't a hundred percent in the context when you said let's do this meeting. So before I override everything, I'll listen first.
+
+James Young: 01:46 
+ Oh, okay. Yeah, yeah. It came from a conversation we had on Monday and so zero. Do you want to kick it off?
+
+Natascha Tiotuico: 01:56 
+ Yeah.
+
+Jonathan Miller: 01:57 
+ Hey, sorry, I'm going to be off camera today just for this golf. No worries.
+
+James Young: 02:01 
+ All good. We're about to begin. Oh, sorry. Oh, go ahead.
+
+Razvan Matei Popescu: 02:09 
+ So we have a lot of documents about community strategy, stuff like that growth. I'm gonna share this one in the chat. So the things that were on my mind that came out after our discussion, James, were basically a couple of things. So because like we're still small, so we ideally need as much leverage as possible from a marketing POV and a funding pov. So to couple those together, like our main vectors of attack, there are intuition lit and Gaia. So based on that, create a step by step, step by step marketing community plan that we can execute and like reiterate on, including the protocols we mentioned, like who owns what, like how we're gonna keep ourselves accountable and when we start. So those are the main things, like I think we discussed, like, please correct me if I'm wrong.
+
+James Young: 03:17 
+ No, I think you're absolutely right. I think this call is for us to all get on the same page, to have shared context. And I think maybe the best thing to do is start with kind of our roles and responsibilities so they're clearly defined so that we know who's responsible for what. And I think that before we get into the Roles and responsibilities. We're trying to figure out what the overall objective is and we can get on the same page. Once we understand that we can divide and conquer with our roles and responsibilities. So let's just start from like the basics here. And I apologize if this seems rudimentary, but I just want to make sure we have a base foundation if that's okay with everyone.
+
+Jonathan Miller: 04:08 
+ That sounds great. I think that's actually exactly where we need to start because when we came up with this plan, like many weeks ago, I just. Yeah, it's going to be helpful to just kind of like, let's get grounded in like, the what. So in the context of the situation so that we can create this plan from the same place.
+
+James Young: 04:24 
+ Awesome. I think that is well needed. And. Okay, so I will start with. There is a hypothesis that a curated registry for MOTHER that MOTHER is doing is going to be vital in this upcoming year because they're going to be so many agents. And if these agents are going to be in charge of crypto funds or a user's funds, they have to be verified and they have to be curated, else there's going to be way too many attack vectors. That's the core thesis for MOTHER and how we get there. I think we've tried many different approaches and they haven't worked, to be quite honest. And so what I want to do in my intention is for us to very narrowly focus. And it may be so focused and so narrow that it may not look like we're building a curated registry. But I want to make sure that we all know that we're building a curated registry. The core issue I see is that third party devs are not going to just start populating this registry if they don't think it's useful. So I've tried to, we've tried to circumvent just us as mother, creating these reference agents first. But what I've realized, I guess about a month ago, and as Kush was transitioning out of mother, like, I just have to build these, like, core agents. Like, there's no getting around that. So that's what I started to do. And then I was like, okay, you know, we have a need to help support our discord, our mother AI discord. And this is where Tasha was saying, okay, what if we had quiz polls and quests? Because these are like fundamental rudimentary things that communities all need. So I said, aha, that is just kind of like my foot in the door. And I am. And this is. I'm just going to give you a little bit of background. You know, my, the only startups that I've seen that have been successful are the startups that solve their own problems. So I said, okay, that's a problem we have and let's see if we can solve our own problem. I need to build some agents. We need to get quizzes, polls and quests out so maybe I can figure out how to create these agents. And so I was like, okay, let me start with the quiz agent. That's really simple. And I was like, wait a second, we're not in the business of building individual agents. And so this is where I came up with the orchestrator that would then reach out to the quiz agent. Oh, Tosh, you have your hand raised.
+
+Natascha Tiotuico: 07:43 
+ Maybe before we get too deep in the story, I wanted to maybe point out the overall vision of mother, I think was to get the symbiosis between humans and AI. How do we govern and exist together? And we tried out different things and AI seemed to be evolving too quickly that one of them gripped. So maybe using that as a vision will tempt people not to forget that those failures or pivots are just necessary to realign what is necessary for the human AI interaction. And like the whole web3 space as I see it, is just a layer to help us govern and kind of get that trust and everything in like document that trust. So just coming from that point and then of course continuing with our, the community, maybe that makes more sense for the, for like or the wider community to understand why we're pivoting so often.
+
+James Young: 09:06 
+ I really like that and I think you're right. You know, my kind of bias is always from a technical perspective, which is very dry and esoteric. I think what you're saying, Tosh, is great because it like really can speak to people, the non technical people and we need to focus on that. So I agree with you and what I would say is that like, you know, to be devil's advocate, I would say like, well, OpenAI exists, anthropic exists. Like, you know, that is already the human to AI connection. But in response to that being devil's advocate, maybe it's like we are focusing this on groups in, on communities because tokens are about shared assets that you own together. And that is, I think a great, I think that is the message. How can groups use AI to help, you know, better do what they need to do? Because a lot of people are doing personal agents and individuals and that's great. And that does not compete with groups because you may be part of a group. And you can decide if your personal agent will interact on your behalf, but that's up to you. But what we're doing is creating AI that can help groups out in communities. And so I think that's a great, great feedback. But going back real quick, I'll try to summarize this in a minute. And so with this initial quiz, I was like, okay, this is really easy. But then I was like, okay, well we should start with a new foundation. And so this is where I took some time and adopted the emerging standards MDP and 8A create the orchestrator agent. And then at the same time I was like, whoa, wait a second, like guy's gonna have a tge, let's gonna have a TGE intuition. Like it caught me by surprise that they were doing Legion. And I was like, whoa, you're doing. So I reached out to Billy and I was like, wait, these are people that are poor to mother, they're having TGEs and like they're gonna need a discord and some community involvement, something for tge. So that was a second kind of, kind of foot in the door, if you will. And what I. This was not planned. This is all being opportunistic through emergent design. And this is where we're at. So I don't have like a, a six month roadmap. I, you know, and I want us in this meeting to like have that history because I, I'm just kind of, it's like improv, just trying to like, you know. Yes. And this to like get to pmf because we have things and we just got to utilize what we have. As Zurich was saying, like, we have very limited resources. So we just got to grab what is like right in front of us. And that is really where I'm coming from. And that's kind of the context. So from roles and responsibilities. I don't know about marketing, I don't know about strategy. I have experience running collab land in terms of communities and what they want. But I've been on the technical side. So my role and responsibility is just to deliver this Orchestrator agent with quiz polls and quests. And my goal is because we have these three tges coming up, I'm going to incorporate those three technologies because those are technologies that we're going to be using in MOTHER anyway. So I'm going to front load the priority in terms of the technical implementation to make sure those three technologies are used because I think it gives these projects an incentive to use the MOTHER Orchestrator agent because it's showcasing their technologies as they're going to teach. So I think that there's a story there. I don't have it planned out, I don't have it mapped out, but I'm just dealing with the puzzle pieces in front of me and trying to make a picture, a complete puzzle from the pieces. And I think that's what this call is about. How do we do that? So that's where I'm coming from and I'm feeling really good about the Orchestrator agent and vibe coding and doing all of this. So that's kind of where I'm at. And I'll pause there. I spoke a lot.
+
+Natascha Tiotuico: 14:07 
+ Maybe to continue from there. In addition to the quizzes, polls and quests that we have, we also have the tipping functionality. So that's been alive and in the mother Orchestrator for a long time. So maybe we keep on forgetting that we have that already, but it is part of the package that we can kind of. Because a few communities struggle with like reward points or testnet tokens or stuff like that. So we can sell this ability very well in the package of either TTE or even after TGE when and they want to keep the token separate from like community value things. So that's also on our list.
+
+James Young: 14:58 
+ Yeah, that's a great point I think of, you know, I definitely think that the quest will expand to do things and you're going to need tipping to kind of give people those rewards. So it's a foundation that, that an XP rewards will sit on top of. And you know, really the way I think about quizzes and polls are actual like mini quests, if you will, that allow for rewards to happen. So you. Every single time we have some type of feature for the Orchestrator, my assumption is it's going to cost money to implement. You have to like for the quizzes, for example, you have to put us a pot of like a certain amount of tokens and then you get rewarded for that for answering right or wrong. So there's always. You're doing something, you have to seed it with like no pun intended, with seeds right now in the mother discord. And then you get rewards. And this, this is, this is the interaction the that I think that allows people to understand this AI human coordination in a community context. And that is kind of the goal. And I have no idea how we create a playbook that can potentially be, you know, cut and paste to other communities and maybe tweaked a little bit. And we're going to try it out with these TGEs that are happening. And I think another part of the narrative is that people are not going to want to pay for this potentially because they're the first ones. We don't know how much it costs, like all these things. So just as we bootstrap, we can get paid in these TGE tokens because that aligns us with them having a successful tge. And then once we have some of these use cases, then we will have a real like opportunity to, you know, quote unquote, charge. So that's also kind of I don't want to get into because my strength isn't like go to market strategy or something like that. This is just what makes sense in terms of what I think is right in front of us.
+
+Jonathan Miller: 17:29 
+ Coach J. Yeah. So one quick question I have is just like in terms of the value proposition that MOTHER is offering to Gaia, to Lit to Intuition, is that we're offering exclusive access, like first glimpse access to the MOTHER orchestrator and this specific agent in the discord, is that kind of like what we're offering to them? Because I know that they are bought into our project. Like, it's Matt, it's Dan and it's Billy. Right. Like they have all like expressed like, we want MOTHER to succeed. So that's like an easy win. But I guess like, because you're, you're talking a lot about the narrative and that's what I'm kind of missing as well is like, what is that narrative that is going to have them, besides the fact that they want us to succeed, what is going to have someone who's not within those ecosystems? Notice like, hey, mother's doing something like really interesting here, you know. Yeah. So I'll just pause there. Maybe I've just been word vomiting a bit, but that's kind of like, would love to hear words related to that.
+
+Natascha Tiotuico: 18:37 
+ So maybe I can go into there and come with community strategies. So this, the story around it is that like communities. So James did it very nicely said. You have like the carrot, so you have like first the context, then you need the attention, then you go into refinement of everything and then you have that alignment within the community and then you start thriving what the alignment brings out. So TGE is very like similar. You need to build the context and what is the project about and then you build that tension. You have marketing strategy to bring people to your community, but then you, you need to refine and see how can you bring meaningful engagement in the community. And that's where we, you, we leverage AI with these Toolings with the quizzes, with the polls, with the quests to give. The people that are coming together with the topic that they want to, they are hyped about. And what we are doing is putting their actions on chain to see how meaningful is their engagement. Are they just hanging around for like an airdrop or are they actually interested in the project? And how do you find that out? You make quizzes about context. What is the project about? What are the topics the product is covering? So, so you find these blogs to create quizzes and people will take part in the quizzes. Then you see how many answer correct, how many are just maybe guessing. You have the polls where they can show their true interest of maybe some facets of your product. Then you have the quest to segment your community into. Like for example, with Gaia, it's builders and AI enthusiasts. So these, we chose these features because they're very versatile and not very dependent on the community, what they're actually building. But there's still measures that can be used in the community to build the storytelling and build the analytics on what their community is actually doing. And with this analytics, they, they can then prove to investors that this is a real thing going on and that the interest is kind of real.
+
+Jonathan Miller: 21:32 
+ So when you're using, I want, I want to get grounded in like what this actually looks like because it's still a little conceptual for me right now. So we're talking about specifically like Gaia, that we know they have a tge or let's talk about intuition, because they actually like are the closest one to tge. They're going to do this tge. They're gonna want to get this community rolling in Discord. And your all your example is that they would bring in the collab, like the MOTHER orchestrator. I don't know how it's going to work technically, but they're bringing in this feature of MOTHER and say, hey, we're using MOTHER to run these polls and to run these quizzes. I don't think, I don't know if we're doing quests necessarily, but I know for sure. Polls and quizzes. And that's kind of how we're getting involved in their growth plan so that we can go to other audiences and hey, look, intuition. They're hooked up with mother. See Gaia, they're hooked up with mother. C Lit. They're hooked up with mother. I can imagine that post on X. Like in the last three months we've helped get three TGEs to market. Like, is that okay? That is The. I'm seeing lots of hearts and claps. I think that that's kind of the narrative that we're building is that we're building this useful tech and we are focused on the MOTHER discord. Sure. But actually the real juice is going to happen into these up and coming communities.
+
+Natascha Tiotuico: 22:59 
+ Correct.
+
+James Young: 22:59 
+ Right.
+
+Jonathan Miller: 23:00 
+ Cool.
+
+Natascha Tiotuico: 23:01 
+ So not only are we using this tech and saying, but we also have the concrete anal analytics. Analytics, sorry, on like the onchain. What. Why is it so important to have this on chain and not some quiz bot?
+
+Jonathan Miller: 23:22 
+ Yeah, and this is, and this again, this is the, the larger vision of like, this is just the start of mother. Wait till you see what else we have in store.
+
+Natascha Tiotuico: 23:31 
+ Yes.
+
+Jonathan Miller: 23:32 
+ This is like the first real use case of real communities tapping into the MOTHER orchestrator to make use of some of the agent. We're going to maybe use more vague language like some of the agents on our registry, even though it's like at this point in time, one agent. But we'll use that kind of language to show like, and then we can talk to the agent projects and we're going to be saying like, hey, like what are you waiting for? Like you could have been part of this tge. And then we're also talking to just general users, investors, general audience, like getting them excited about mother's tech. Because in the future, you know, we'll eventually have our own. There's, there's no, it's not, it's not a hidden story that we're going to have a TGE at some point because that's central to how we're going to be curating our registry. Right?
+
+Natascha Tiotuico: 24:16 
+ Yeah, we'll be testing like our, our discord is going to be the early adapters. So they will like test the AI with us. They will have a high interest because we have builders, we have AI interested people of what AI is even doing. So, so we have all the early adapters and interested people in our discord. So we can make mistakes there, we can improve there, we can say what was the learning like? They're interested to see the journey, not only use the product. So that's the narrative for, in our community and towards others. It's like use these tools so you can get a grip on your analytics, on engagement, on putting out the topics in a fun way that people are engaging with, with the education or the, the information you're releasing. And then we'll attract a lot of other agents that want to be on our registry because they say, ooh, for those communities. I also have something that I want to be a part of. And then we'll make this, like, billing system. Is it pay as you go? Is it a flat rate? How do we pay out these agents that want to come onto the registry? And at the same time, we have. We build up, we curate this system of how much are agents used, are people reporting that an agent malfunctioned? And then we build up the registry information on how good are the agents performing and how trustworthy are they.
+
+James Young: 26:03 
+ Yeah, yeah. And I want to point out two things, and I don't want to get ahead of myself, but I think what can be important is we don't want to lose sight of the mother tge. So what we're doing for Gaia, lit and Intuition is giving them a value prop because we're the mother orchestrator agent is using their technologies. So their best interest is to promote mother because they're going to be promoting their own technologies as an actual use case. And we need to leverage that for the mother tge. So we already get hype for the mother TGE because Lit, Intuition and Gaia has hyped mother because they're hyping themselves for their tge. And so I think the part of the. Again, I'm not a marketing person, but, like, I think that aligned incentive could really give us better amplification than us just promoting ourselves. And so we want to weave that into when we are getting to help these other, you know, these three tges out. We are helping them so that they can help us. For the mother tge, is essentially what I'm saying.
+
+Jonathan Miller: 27:36 
+ Yeah, yeah, yeah, yeah.
+
+James Young: 27:39 
+ And then. And then the second point is that I think for the mother AI discord, because I 100% agree with Tosh that we should use kind of the mother discord as a petri dish, kind of a testing ground. Right. I think that we want to rally the community in the mother discord there. What I don't have a clear vision on, but I think maybe important is that, like, we want to court agent devs in the mother AI discord because they will earn seeds, and then the seeds are going to turn into real tokens that they will use when the mother TGE happens. So we align the mother devs mother agent devs there in the mother AI discord, and we're using AI to kind of show these agent devs the possibilities. And that's where the mother AI discord becomes the shelling point or the petri dish for agent devs to say, okay, well, I think I can help out. Because if you're if, if we are using your agent because we expand the functionality in the mother AI discord, you're going to get seeds. Seeds are points so that when we have the mother tge, you're going to benefit from it. So that's kind of the incentive alignment there on the mother AI discord.
+
+Jonathan Miller: 29:15 
+ I think too, before you share, one thing that's kind of like coming up for me is like the execution of this comes up. It's almost like tell me if I'm like off base, but it's almost like the mother discord becomes like. It's almost like the first step for agents to get on the registry at this point in time is like you come and you test your stuff out in the mother discord and you earn some seeds and let's see if you even got what it takes. Let's see if the community's even interested in your agent. We make it kind of like a scarcity thing, like exclusive thing. Like if you want access to these communities, first you gotta test your stuff in the mother discord, earn some seeds, see how it works. And then upon like the check boxes will move you to the live net where you're actually interacting with real communities and you're going to be making real money with these other communities. That's kind of how we can set up getting people in, collecting seeds which are not valuable right now, but will be valuable, and then eventually expanding them to actually making money and stuff like that.
+
+Natascha Tiotuico: 30:20 
+ Yeah, yeah, I just wanted to expand like our Personas are not just the builders. That's very important. Like that's a super important part that you and Jonathan just mentioned. But we also need the testers that give us the feedback that are like, hey, this is cool or not cool. Because if we have builders testing other builders, it becomes like one of those tech wars. Like, oh, you didn't do this deep enough. You don't have this use case. Even though like an end user might not even be that interested in it. So it's important to get like we couldn't try to get high quality airdrop farmers that are just generally interested in AI and they receive rewards by not just hanging around and talking, but actually testing the stuff and saying, hey, this is cool. Like Dupus does a lot in health. So if we would have a health agent, she would probably give super cool input on that. So, so trying to also find those people who just don't know, like attract those people that just are interested in AI and where is it heading and are like tolerant to not 100% working.
+
+James Young: 31:40 
+ Yeah, I think that's a great point. And we can't lose sight of that too, because builders are only going to want to come if there's users. And so it's a kind of a balance of being able to court the builders and, you know, the testers there as well, and both of them will earn seats. And then maybe part of the quizzes could be, oh, how great was. How do you think this agent was useful or not? So we're incentivizing the interviews, we're incentivizing the feedback there. And so I think the quizzes, the polls, and then eventually the quests are good foundational features that will help us in many different dimensions of what we're doing. And so I think that from this, we have to try and figure out what the go to the specific go to market strategy is. But I think unless there's any questions, I think we kind of have that shared context now.
+
+Razvan Matei Popescu: 32:53 
+ Yeah, that was the whole goal, to kind of get a line. And if coach can do that, like, it would be sweet because, like, he's.
+
+Jonathan Miller: 33:01 
+ Yeah, I could. I could put together a first draft plan and I'll get in touch with the Gaia team, the lit team, and the Intuition team to kind of find out what they're planning and their timelines are so we can really plug in before they have TGEs, even while they have TGEs. Like, we want to be able to make sure that we're as in sync as possible. Right?
+
+Natascha Tiotuico: 33:20 
+ Yeah. At the moment I just want to go in there because somehow we didn't invite Alex to this meeting. And I think I just noticed when we started, but Alex is starting to approach these groups and I think, like, he wanted to get aligned. Exactly. On this topic. How is the storytelling?
+
+Jonathan Miller: 33:44 
+ I can just incorporate it. It's not a problem. I won't hit them up twice or anything. I'll make sure Alex is coordinated. I want to be mindful of our time because we have 11 minutes left, and I want to know what we want to get accomplished in 11 minutes.
+
+Razvan Matei Popescu: 33:57 
+ I would say my idea at least. Sorry for intruding, is can we. In my brain, the biggest question is, can we create a plan in which it's. It's adaptable, but, like, something that we could stick by for the next, like, two, three months, just to be focused on growth, to, like, make sure we all nail this, like. And so that's how I.
+
+Natascha Tiotuico: 34:24 
+ Yeah. So from my view, the plan is James will try to put the quiz agent. I think it was this week Right.
+
+James Young: 34:32 
+ I'm going to shoot for this week, definitely next week, but I'm going to shoot for this week for the quiz agent in the Mother Discord.
+
+Natascha Tiotuico: 34:40 
+ So then we will have like one week of testing within the mother. We can. Jonathan, maybe we need to sync up how to like what is the marketing around that going to be for the Mother Discord. Right. To rile them up. And then 08 and Blazy will help with the moderation. If I could ask that. And I'll keep an eye on it. And then from there, like depending on how fast polls and quests go, we will start releasing them as well. And in parallel we will start talking to these, to the, the communities and get their input on like right now we have quizzes with the URL. So we should start asking them for resources, look through what is the product about, how can we do the resources, how can we showcase their tech? Like what can be the story around their text since they're very specific to mother. And then we would start getting those resources so that we can test that it works in MOTHER and have like a list of things that we can do for pre tge. Wild TGE to start using those agents very specifically for those communities.
+
+Jonathan Miller: 36:24 
+ Great. And we've been recording all of these meetings. Take a Look at the GitHub under the context sharing. If you're noticing that there's any meetings where anything was discussed that could be valuable context to have, make sure to add the transcript in there as well. Because I mean like I have. I'm going to take all of the meetings and upload it as a knowledge base for when we're coming up with these plans, including this meeting here, including all the meetings that Alex will have as well. So I think it won't be terribly difficult coming up with these narratives and stuff like that. Like the AIs will give us lots of really great options and we can choose which one we think is going to work best and go with it. So I'm not overly worried as long as it's all captured somewhere in the transcript.
+
+Natascha Tiotuico: 37:05 
+ Okay. Because currently we have a Gaia node up. But I think Toby just put like a snapshot of the last meeting. I don't think he like connected the GitHub to the Gaia node that it's constantly synced. So I would need.
+
+Jonathan Miller: 37:28 
+ Excuse me, I can reach out to Toby and get that sorted.
+
+Natascha Tiotuico: 37:31 
+ Yeah. Okay, great. Then let's get that sorted. And for, for the next eight minutes, I don't know what, what's missing. Like do should we look into the responsibilities and roles.
+
+Razvan Matei Popescu: 37:52 
+ Yeah, we could. Because, like, yeah, sorry.
+
+James Young: 37:57 
+ Yeah, let's do it. I think, Tasha, you kind of broke it down already, though. Like, yeah, I'm on the tech side. I'm gonna be doing the Orchestrator and the quiz poll H and Quest agent. And then you're saying 08 and Blazy will help with the moderation. Tash, you're going to help PM this. Coach Jay is going to help get the GTM strategy going and helping feed everything into the Gaia node.
+
+Natascha Tiotuico: 38:24 
+ And Alex is doing business development. Like, how do we sell this whole thing and how can we measure the value and make sure that it's set up? In a way he's. He's going to be the guy who's asking all the questions to challenge us that we're heading in the right direction.
+
+James Young: 38:44 
+ Yeah, that's right. Yeah.
+
+Razvan Matei Popescu: 38:47 
+ On my end, like, it's. I'm also thinking, like, I think I will need to help coach with, like, marketing on X to, like, just, like, maybe he doesn't want to be a reply guy, but, like, that's always very helpful to grow and we should also. I'm also going to think about how to be more strategic with the live stream. So maybe we. Maybe when we do these things, we get. We actually get people from Intuition lit Gaia on the live streams to talk about stuff and. And just.
+
+James Young: 39:19 
+ So, yeah, I. I think that's great because they're gonna want to market their tge. So, like, this is all aligned and it's just finding paths to alignment. I think those are great ideas.
+
+Natascha Tiotuico: 39:34 
+ Cool. So I think we're all. We're all getting alignment.
+
+Jonathan Miller: 39:39 
+ Six minutes.
+
+James Young: 39:42 
+ Real quick. I would like to bring up one caveat, one thing that we have to be kind of cognizant of. And I could be wrong on this, but selling into Lit, Gaia and Intuition, these tges are all about hype and they're gonna want to just drive the hype. And it's weird, but there may be pushback in terms of actually showcasing their technology. Because as soon as you actually go from hype to actual utility and usefulness, it's completely counterintuitive. But these token launches just want speculation and promise the world kind of thing. So when we are approaching these projects, even though we're using their product, they may not. It's really counterintuitive. They may not necessarily like it because they're like, whoa, we can't show any utility because then that's going to. It may dampen the current playbook of all these tokens because it's all hype and speculation. But I would say that that is a counter force that we as MOTHER are trying to fight against to legitimize the ecosystem. But we have to be aware of that kind of that pushback, even though it's not. This is why people think of crypto as gambling. So just, we just have to be aware of what we're getting our stepping ourselves into. Yeah.
+
+Natascha Tiotuico: 41:28 
+ Sorry, a question from my side. Like, wouldn't it be like, if, let's say Gaia lit or anybody doesn't want to showcase the tech, we could use MOTHER just to showcase what it's doing, but not mention that it's the tech of lit. If they don't want to, like, know that it's underlying and then when it's like, proven, they can say, ho, ho. And by the way, we had the tech in all along. Like, I think that storytelling. If we, even if we get pushback on saying, okay, just don't officially say we're using lit, don't officially say we're using this. We can still use it under the COVID And then after TGE say, hey, and by the way, the whole time our tech was along the ride.
+
+James Young: 42:23 
+ I think it's going to be something, a mix of that and each project is going to come at it with their own mix. So just want to be cognizant of that because you would think that people would want to use the tech, but this is crypto, so, you know, we have to fight against the whole fomo, not fight against it, we have to use it because that's why we're working with these projects that are going to tge, but we just want to be aware of that.
+
+Natascha Tiotuico: 42:59 
+ But would that be enough just to say that, like, not to mention that MOTHER is part of their tech, or would people still notice that that's like kind of, kind of the tech?
+
+James Young: 43:09 
+ We can downplay it for sure. So this is part of the crafting of the message.
+
+Natascha Tiotuico: 43:13 
+ Okay.
+
+James Young: 43:13 
+ For. And each project, I want to craft the message a little bit differently.
+
+Natascha Tiotuico: 43:17 
+ Okay, so. So that's like a note that Jonathan and Alex need to take to, to fine tune how our communication is and. Okay, great. Two minutes left. Is the seed versus XP clear enough, James? I know I have it on the agenda and we haven't spoken about it. For me, it was still unclear, like, do the seeds really become the part of the token later or are they generally in the community as recognition currency?
+
+James Young: 44:00 
+ I think that's something that I'm, I I don't have a strong opinion on. So it could be either a mixture of the two or something like that. So the seeds may not one for one be given out for real tokens. Maybe there's like every thousand seeds, you know, maybe it depends on how the seeds are distributed and we can figure that out later how that converts. But where right now we can just think of it as an XP point system.
+
+Natascha Tiotuico: 44:30 
+ Okay. Because like Gaia has the XP system that you already checked the API. So I think we can just use those reward points as the seeds as we're using them similar in mother.
+
+James Young: 44:45 
+ That's right. They can work together.
+
+Razvan Matei Popescu: 44:48 
+ Small note here. Like if Natasha brought this up, like maybe coach could you think about or like I can also toss some ideas like when you craft the go to market strategy, like how to. How we're gonna leverage the seeds into points into like community campaigns that make sense for us to drive like the most people that we can with the, with the inputs from this convo as well. Like.
+
+Jonathan Miller: 45:14 
+ Okay, cool, cool.
+
+Natascha Tiotuico: 45:15 
+ Okay, thank you.
+
+Jonathan Miller: 45:19 
+ I'm gonna check my. I'm gonna check my note taker, but if someone has the notes for sure because did my note taker get in? Let it be. Get let in at the beginning. I don't know for sure because I.
+
+James Young: 45:29 
+ Was on mobile, it was a little late. But I can share my notes.
+
+Jonathan Miller: 45:34 
+ Yeah, if you could share yours. Just a link to it so I can download the transcript and then I'll put it on the GitHub because this was like a pretty important call to capture.
+
+James Young: 45:42 
+ Yeah, sounds good.
+
+Jonathan Miller: 45:44 
+ All right, thanks everyone and we'll see you all like shortly. We're going to do the stand up today as well.
+
+James Young: 45:49 
+ Yeah, we'll do the one o' clock.
+
+Jonathan Miller: 45:51 
+ Okay, we'll see you soon.
+
+James Young: 45:52 
+ Thanks. Bye.
+
