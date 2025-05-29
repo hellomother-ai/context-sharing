@@ -1,0 +1,247 @@
+Mother Daily Standup - May 28
+VIEW RECORDING - 35 mins (No highlights): https://fathom.video/share/_qfEGZ7ATs5niPz4qDG7qNZCzgYJYW6U
+
+---
+
+0:05 - James Young (Collab🤝Land)
+  Seven note-takers and two people. I was wondering, is there any other humans here?
+
+0:14 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I couldn't tell for a second. There's going to be these Zoom meetings, Google Meet meetings, where it's just all AIs talking to each other.  I mean, at some point, you can, like, I hope that they modify the UI so that, like, they can detect human or non-human.  it's non-human, it just kind of goes into the corner. It doesn't really have to, like, take up a whole, you know, a whole quadrant.  right. That's right.
+
+0:43 - James Young (Collab🤝Land)
+  It's hilarious. Hey, Tash. All right. We'll give it a minute for others to join. Hello. All right. But, um, okay.  So, uh, we'll give it a minute for others to join. I can give a status of where I'm at, and then I don't know if there's any other items on the agenda.
+
+1:15 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Didn't we say that we were going to, is Toby coming, like didn't Matt say that we're going to get some dead rails on this call?  Yes, he said that yesterday.
+
+1:24 - James Young (Collab🤝Land)
+  And that would happen today?
+
+1:27 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Starting today, yes. Okay, so those people are theoretically going to be coming, hopefully very shortly, and one of them is Toby, and we wanted to ask Toby something about a node setup and the content.  And it's Toby's birthday today. And it's Toby's birthday, so obviously we're just saying happy birthday remotely to Toby, which will be nothing short of an absolute disaster, but we should probably try it.
+
+1:57 - Natascha Tiotuico
+  It's so hard to sing. It's I've tried tried to sing sing on... Thank
+
+2:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Google Meet and Zoom, but the echo and the delay, everyone's like kind of, yeah. I can barely do it in person, but here we go.
+
+2:11 - Natascha Tiotuico
+  But I'm not even sure if they're coming to the daily stand-ups or if they're just planned for the weekly what we ship.
+
+2:22 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, I understood the three times a week thing, but if they're not, we'll give them like another minute or two, but then I would say that.  Is there a reason why we need the DevRel specifically from Gaia?
+
+2:35 - Alex Lumley
+  I don't think so. I don't know what the exact intention was to bring them in.
+
+2:40 - Natascha Tiotuico
+  The intention was that they can maybe start taking a few things from James, for example, like the quiz agent.  I was looking into like, for example, mother even, it would be nice if we can't just reference URLs, but can also reference YouTube videos.  Like the live streams, like different types of content. And that's where they could take it off James' plate and kind of further develop the agents.
+
+3:13 - James Young (Collab🤝Land)
+  Yeah, I think that from just past history here with Mother, if we can just give them line items, and I think it's them working more async because the coordination time and meeting is actually more time than the actual, like, you know, development usually.  So just to optimize for less meetings, I think. All right, you know, we're almost a third into the meeting, so maybe we should just begin.  So I'm hoping to get the equation deployed in the Mother Discord. I don't know who has access to the Mother Discord.  We'll probably be, I'll say, pre-alpha ready by Friday morning so we can show it off the of what we ship, and I'll continue hammering on that, but that's my update, so yes, Alex.
+
+4:22 - Alex Lumley
+  I have a quick update, so I had a call with Matt yesterday as well, and one thing he's really looking for is like a 30-60-90 plan of kind of where we're headed, and so the focus of this week for me, and I think with Tasha as is going to be making sure that we're starting to get set up with Gaia, because as we looked at the 30-60-90 plan, really the highest priority for us is getting in front of the Gaia TGE and supporting and enabling them.  So then we can use that as a proof point as we're going to other people and really having that opportunity to learn through them, and then also just because there's you here there's you  I have a hypothesis that if we get in front of the Gaia TGE and we work with the DevRel team, that'll be a really good focus point to get the DevRel team and their engineering team to support us and actually help get the ball rolling.  So that's kind of why Tasha and I will have a call with Ryan tomorrow, Ryan Palmieri, who leads their head of marketing, or leads their marketing.  And then we'll continue to speak to some of their other people on our team to figure out, like, what is Gaia doing for the TGE?  And is there anything else that we can take from what we're doing and overlap with them? And so that's that's what we're doing tomorrow.  then any questions on that? Yeah. So I was just reading that the Lit Protocol is before.
+
+5:54 - Natascha Tiotuico
+  I think so. And the intuition as well, maybe. Intuition is probably. You know, end of summer.
+
+6:02 - James Young (Collab🤝Land)
+  They are a couple of months away. When is Litz?
+
+6:08 - Alex Lumley
+  I think Litz is right around the corner.
+
+6:13 - James Young (Collab🤝Land)
+  Cool.
+
+6:15 - Alex Lumley
+  Either way, it's June. Early June. Oh, I mean, that's like three days. Yeah, right around the corner.
+
+6:23 - James Young (Collab🤝Land)
+  So we may want to reach out to David and ask him. But they've had multiple delays. I mean, they were supposed to have their TGE March of 2024.  So I don't know how real this June deadline is, but the TGE delay dates are getting shorter and shorter.  So I think they're getting closer to TGE. So you may want to ask David Schneider. I'll reach out to David on that.
+
+6:55 - Alex Lumley
+  Either way, I'm still going to focus more on... ... ... ... ... We would just be around for the lit one to ask them questions and support them and see if there's anything that we can do.  But either way, for me, the higher priority is Gaia because I think, as we've seen with the DevRel stuff, if we can get any of their engineering support to help them build and set things up, it'll just be a good focus point for the Gaia mother community team.  So, anyways, that's my next step. Makes sense. And, Coach J, does that make sense within the context of what you guys are doing with the mother AI Discord community stuff?
+
+7:34 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I think so. I think the number one question I have when you're going to talk to Ryan is like, and Tash, I think you're going to be there as well, really just try to pull up, like, what are those key dates that have been confirmed?  And what, like, especially because Ryan is not Matt. So, like, I don't know how bought in Ryan is to the mother project.  Like, it's kind of like more of like a side. That's So I want to make sure that we're like really clear on how we can have Gaia, because when they're going to do the TGE, like it's going to be super busy for them.  Like we're going to have like a really intense marketing plan and how can we be part of that and how can we amplify their plan and then also have them reciprocate like so that like maybe it's like a few days into the TGE and there's like a mini activation where they're like, wow, like, or, you know, like, like, wow, we're using mother's quiz, we're using the mother orchestrator to call on this quiz agent and it's so helpful.  You know what I mean? Like we want those kinds of call outs, because that will show our utility to the entire Gaia audience.  And we want to do that for lit and intuition as well. So Alex, when you're listening to this conversation, you're listening.  What are those opportunities where it's easy for him to say, yeah, I'd love to do that, and how we can plug in from that perspective.  And if we need Matt to kind of tell Ryan to do that, we can also do that as well.  For sure.
+
+9:14 - Alex Lumley
+  And the thing that, Tash, maybe we can talk for a few minutes after this, the bigger thing I want to understand is I'm actually looking specifically for easy agents we can build that help Gaia do what they want to do to the point where Ryan's like, oh, I actually need to work with you.  Yeah. The Ryan or whoever those other people are, because my sense is, is that through all the stuff that James has built out and with the quiz agent, there's probably a few things that we can get quick wins in sooner so that as it's happening towards the TGE, we can actually get in.  That's right.
+
+9:45 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  If you can identify something that's really easy to build, and remember, if they're potentially going to TGE, he said end of June, which is I doubt, but let's say he's actually going to do it around end of June.  Bye-bye. And it's something really easy that we can, James, might mute, thank you, and it's something that we can really easily build.  Otherwise, we already have something built. It's the quiz agents and the polling agent, and we collect on-chain data, and they can use that data to understand more about the communities and stuff like that.  So, I say yes and yes. Cool. Just to note that we're using Gaia for the quiz and the poll agents, so it's actually using their tech.  there's also that too, yeah. It's like that symbiotic thing, like, all of the agents that we, all of the agents we have so far are using, like, the Gaia tech and the Lit tech, right, and the Intuition tech.  So, when we're broadcasting this more publicly, we're like, wow, Gaia, we're so proud to be partnering with Gaia for their TGE, you know, da-da-da, like, that's kind of like the messaging that we're going to go with on our side.  And... Like building that hype for Gaia's TGE and then also hopefully having Gaia reciprocate that, which is super important for us, right?  Creating that legitimacy for this project. Alex, you thinking? Does that make sense for you? Yeah, yeah.
+
+11:17 - Alex Lumley
+  And the thing that Matt, like I talked to Matt yesterday about it, and one thing she's really looking for was like a use case, like Mother is another use case.  And when they have the Korea Blockchain Week, they want to be able to do those sorts of things and talk about Mother as a use case on top of Gaia.
+
+11:33 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Korea Blockchain, he mentioned that that's going to be a big activation for them, I guess, right? Yeah.
+
+11:40 - Alex Lumley
+  Cool. And then Tosh, was there any other context you wanted to add about Gaia and what they're doing with the TGE or what they're doing kind of roadmap just within this small kind of group?
+
+11:50 - Natascha Tiotuico
+  Yeah, so I'm, I sent you the meeting from before. I somehow missed to, I didn't. The context of the meeting, so it was helpful to kind of align where the storytelling is going and how we're selling this to the public.  So if you could watch that, it was very insightful. And so tomorrow I'm meeting with Ian to talk through the Next Steps collaboration with CoUnity, where I prepared some pre-teachee things that are outside of the scope of mother, but like things that aren't automated yet and can't be automated.  But I don't have further info, so the info will come when we meet with Ryan. I guess we'll meet with Ryan first, since he just said it's okay.  Are you going to set up the meeting? Yeah, I'll set up
+
+13:00 - Alex Lumley
+  I was going to send an invite just because they're like, Gaia has 15 hours apart, so we'll just set one meeting at a time.  We'll figure out how we go from there. Okay. Cool. That makes sense. Yeah. And then I guess, Tosh, do you know, will Gaia use the quiz agent and the polling agent?  Yeah, that's what we're aiming for.
+
+13:25 - Natascha Tiotuico
+  So Ian was already talking about, is this the same agent that CollabLAN had? Because Ian already had the conversation with James, and James, I guess, already also introduced, like, not only CollabLAN, but also the mother orchestrator.  So I think he's not aligned yet. What are the, what is the differences between where does CollabLAN stop and where does the mother orchestrator begin?  Yeah, I can give some clarity on that.
+
+13:57 - James Young (Collab🤝Land)
+  So in CollabLAN, we We what's called community messaging, so we can token target messaging to different tokenized communities, so that is on the Collabland side, so they want to promote their TGE to other Discord and Telegram tokenized communities, but that's a separate product.  And then I was also pitching the mother quiz agent, but that's on the mother side, so that was all in the same conversation, so I think he might have been confused.
+
+14:34 - Alex Lumley
+  Yeah, I was going to ask, wait, Collabland has tokenized communities advertising? That's brilliant. That's super smart.
+
+14:42 - James Young (Collab🤝Land)
+  Yeah, and then what we're doing is that ad revenue is going to be shared with community admins, so you can potentially, if your community is large enough, if you are using Collabland, you can make money as a community.  you. But that's something that we've been working on. That's a separate kind of initiative, but it was in the same conversation.  So Ian might've gotten confused between Collabcellent and Mother. I represent both to Ian, but I try to make it clear that they're separate, but it was in the same conversation.  So he might've been confused. I'm trying to help him on that as well, because I'm in the same boat.
+
+15:28 - Natascha Tiotuico
+  Like I'm with him on CoUnity, but then I'm also on it as like being in the group now. He said, okay, let's take it easy.  And then I'm in this group and I'm like, okay, but I'm in this group as the mother core team member, not as CoUnity.  Like, of course, I'm still kind of CoUnity mother as well, but it's like a different context, a different role.  And Ian hasn't separated that correctly yet. So we need to help him when we discuss. . These things with him, to bring that clarity and alignment to him.  Yep, that makes sense.
+
+16:09 - Alex Lumley
+  And that's all, I guess, the last question, guess, and then I think we can kind of wrap up. Tosh, like, just to solidify, is, like, does Gaia already do polling and quizzes?  Do they already do it?
+
+16:25 - Natascha Tiotuico
+  Or they do polling for creating different company, country channels and stuff like that. They don't do a lot of quizzing yet, but they do a lot of gamification, like, fun community things.  So, I think they will be open to quizzing. Cool.
+
+16:57 - Alex Lumley
+  All right, that makes sense. And the other thing I'll figure out is, like, I'll just talk with Ryan and just kind of get a sense of it.  And I'm not going to put a price in anything. We're just going to see how things kind of work.  But we will make sure that we are doing something that we're trying to get some funds up front or some funds as we're kind of going along.  And we'll have to figure out what the pricing looks like and all that. Any questions on that for when we talk to Ryan?
+
+17:23 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Ryan is less, less emphasis on funds and more emphasis on just making sure that they give up, they lend us the credibility as the TGE happens, because having that, I think that having the track, like getting the funds, it will just be so minor, I think, in comparison to having a hyper successful TGE that's, that has the three case studies of us supporting our the Lit, Intuition, and Gaia TGE.  You know what mean? Like the amount of money that we collect before we have a TGE will be like in the few thousands of dollars.
+
+18:01 - Alex Lumley
+  There's three different companies, right? So I guess at the end of the day, I just don't think it's a lot of money.
+
+18:12 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So I wouldn't fuss about it. If it's going to distract from them really giving us some big shout outs during the TGE hike phase and afterwards as well.  You know what I mean? I want to keep them focused on pump up mother and lend us your legitimacy.  I would agree with that.
+
+18:35 - James Young (Collab🤝Land)
+  for these three. Just for these three.
+
+18:39 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, just for these three.
+
+18:41 - Alex Lumley
+  To be honest, I'll think about it, but my pushback would be they're going to give us the legitimacy anyways, right?  Because as James has pointed out several times, we are a use case of them. So they're going to want to talk about it too.  They don't have to though. They don't have to give us legitimacy.
+
+19:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Ryan, again, you're going to see on the call, he's going to be very distracted, and if we're asking him for too many things, he's going to start forgetting things.  I don't want him to stay hyper-focused on just delivering what we really want from him, not worrying about money as well.  He's got so much  on his plate. He's just terrible at getting back. No  on him. I think he has too much on his plate.  And so I want him to stay hyper-focused on just getting us that one thing we need. I think that's what's going to make him a successful call.  Okay.
+
+19:33 - Alex Lumley
+  I don't... The thing I'm not clear on is, like, that one thing we need is... Tell me how a shout-out translates to money.
+
+19:43 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Because what it's going to do is lend us the legitimacy so that when, in the future, we're getting ready to launch a TGE, which is the core of what we're doing.  Like, need a token to create this registry. Like, this is how we're launching the registry. We have no registry without a token.  So in order for us to get to TGE, which we need to do, we now have these three very valuable case studies that people have been knowing about for a while, and we can go to people and say, like, because our TGE will be successful based on the level of hype and utility that we are proving as well, right?  If we don't have those use cases already, then it's not going to matter. And so I really want Gaia and Lit and Intuition to really come to bat for us so that during their TGE, they're pumping us up, and then after they're done their TGE and we're getting ready for our TGE, they're also pumping us up.  That's what is going to be much more valuable than charging, like, a little retainer fee of, like, $500. Like, yeah, it's not going to make a break.
+
+20:45 - Natascha Tiotuico
+  We can figure out the price for the continuing clients. We can figure out the price from the experience we create in these three clients.
+
+20:56 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, I think I'm grandfathered at the free price. You know what I mean?
+
+21:00 - Alex Lumley
+  The thing is, is that, and I'm happy to write this up to you, but the thing is, is so, because I'm working on this 30, 60, 90 day plan, I don't see any way, and I did this to Matt yesterday, I don't see any way that we have a TGE in 90 days.  There's no way. Too much stuff has to happen. We're not going to have virality in the next 90 days.  The stage gate that we have to hit before we go to TGE is some sort of virality. You don't get that from three, supporting three TGEs, right?  So the question is, like, what would give us that virality? What would allow us to have some, some, get to, get to, to.  I would disagree. I would, I would disagree.
+
+21:37 - James Young (Collab🤝Land)
+  I think the, like, being co-marketed in a TGE, because the TGE is the most marketed event for a token.  For sure. And so, like, I don't know of any other TGE that has had three other TGEs backed by it.  That doesn't happen. I think, like, the marketing of the helping, like, What Coach J is saying, it's going to produce virality for us because mother, lit, Gaia, I mean, Gaia lit intuition, just ramping those up and all three of those TGs are happening in a short amount of time, people cannot not know about mother.  Like those just, it, I think those are the marketing events and like, as Coach J was saying, like a few thousand dollars, even if it was like a hundred grand, pales in comparison to the marketing value that we're going to get from Gaia lit and intuition.  Yeah.
+
+22:41 - Alex Lumley
+  So, so, so to be clear, like right now, the amount, the, whether we're getting the cash or we're going up to TG, that's like a separate conversation.  And like, I, it's like right now we're talking about, can we get to a PGE in three months? Which is great.  Yes, I think so. Can we get to a success?
+
+22:59 - James Young (Collab🤝Land)
+  We can get to a Can we get to a successful TGE in three months? And what would need to happen in order to get there?
+
+23:09 - Alex Lumley
+  A successful TGE is being able to sell out.
+
+23:13 - James Young (Collab🤝Land)
+  And it doesn't even have to be like a TGE event. It could be just a pre-sale event. Like what Intuition is doing with Legion, they just raised 1.5 million a week, right?  Like if we can ride on the hype of these other TGEs, I think we could have like a successful Legion pre-sale of a few mil or whatever it may be.  may not be the TGE event, but enough hype has built up. I definitely think we can do that in three months.
+
+23:46 - Alex Lumley
+  By the way, I agree more with your second part about potentially doing a Legion pre-sale. Not a TGE, yeah, because those are very different.  But either way, I do think that we funding event. Yeah, yeah, some sort of funding It's a funding event.
+
+24:05 - James Young (Collab🤝Land)
+  A funding event for mother, right? And I think that's what we want to get to. And we need a TGE, as Coach Jay was saying, to be able to do the registry.  But then at the very least, we have an initial funding event in like three months. I think that could definitely happen.  Like, if we nail Gaia, Lit, and Intuition, there's no way we can't have a funding event in three months.  Yeah, and we're going to be would be like 100% guaranteed.
+
+24:36 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  We're basically going to be talking about this. Like, I hope to have like a little draft GTM for you.  I'm thinking about the end of the week would be even more ideal, but let's see when we can get in touch with Intuition and Rhyme and stuff like that.  But like, we're basically already- we're going to be starting to talk about this like basically in the next couple weeks for the next three months.  What which which GTM are you talking about? Like for mother for mother or increasing the- Yeah, getting getting-
+
+25:00 - Alex Lumley
+  Getting ready for RTGE, essentially.
+
+25:01 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  We should really start thinking about this work back for launching soon after. Who's the last one? Intuition. Soon after Intuition, within a month, we should be doing our fundraising event, our first fundraising event.  That's right. That's right. Yeah. So if they're doing end of summer, if they're doing end of August, like in September, latest, we should be doing a month.  We should be having some sort of fundraising event of our own. And that whole time, again, we're talking about Gaia.  We're built with Gaia. They have their TGE. They're shouting us out. We're shouting them out. We're kind of like thumping our chest, showing like, look, look how they're using our tools.  Look how they're using their agents to curate an incredible community. Look at the insights that they're gaining. And then Lit joins the party as well.  And then Intuition joins the party. And then we're saying, okay, we're doing a fundraising event. So all communities can benefit from this way.  Kind of like how we keep that hype going as much as we can. Yeah.
+
+26:00 - James Young (Collab🤝Land)
+  Say that one successful TD event is viral enough, so we have three shots at it. That's how I look at it.  If we nail all three, there's no way we will not have a funding event like within three months. If we nail all three, but that's a very high bar because we're just going out right now.  But if we just need one to be successful. Yeah. And what do you mean by nailing, James, just to clarify?
+
+26:30 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  That's what I was going to ask.
+
+26:32 - James Young (Collab🤝Land)
+  So what I mean by nailing is that we have a hypothesis that we may not say this publicly, but because of Mother, let's say one of the TGE events was able to increase their token value by 10% or not go down by 10%, something like that.  That is legitimacy. That would be a viral event. like that That would be a KPI that is directly tied to the token value of the TGE and how Mother helped increase the value of the TGE or something like that by whatever percentage.  So if they say, okay, well, we want a strike price and after 30 days, we want the token to be a dollar.  And because of Mother and the coordination that we have in the Discord and the Telegram groups, it's like $1.10, like that's huge.  It's like a multimillion dollar increase in market cap.
+
+27:37 - Alex Lumley
+  So this is the story that would be good for us to define a little bit, just to get clear enough, not have an exact answer, but get clear enough so we can have something to work backwards against.  And to kind of be able to start test that story, because Matt wants people to start to pitch some investors, right?  And this is the kind of story that he can start to pitch. is, and say, is You're start to test it out and make sure that it's actually working towards the right thing.  And if we think about, take the Gaia, take the Gaia TGE as an example. And let's imagine the Gaia TGE is in two months, so we have some time to actually build something.  If we were to tell the story that Mother helped the Gaia TGE by increasing the token value X amount, say the way that could happen would be because there was a polling agent, we had more engagement in the community, and we can show that the people that participated in the quizzes ended up buying more relative to the other people, or they ended up staking and doing more relative to the other people.  That's the kind of story that we need to be able to tell. And it's easier if we start to figure out to tell that story now, then we can work backwards from that.
+
+28:50 - James Young (Collab🤝Land)
+  Yeah, that was a meeting that we had earlier this morning, just to kind of get that context so that we can actually have that story.  And what I'm saying is if one of them... It was just talking about, like, you know, getting contacts. Okay.  Okay. I was very confused. It was, like Coach A was saying, was a marketing meeting, trying to kind of get what that marketing is.  And this is exactly what we're talking about now, is that narrative. If we can just have one of those TGEs be successful and say, mother helped out and, you know, increased whatever, like, that's all we need, is just one.  But if we could do all three, and we could prove it, and we kind of nail it on Gaia, Intuition, and Lit, and we show we helped all three of them, it's like, we have to have a funding event ASAP.  Okay.
+
+29:56 - Natascha Tiotuico
+  So we, we defined that the next steps are. For us to talk to the three communities about what kind of resources do they have and try to test, like, see what our quiz agent can do, what kind of resources do they have to trigger the conversation, collect those kind of resources, align with their marketing plan to make sure that we create different campaigns around what the GGE will contain, like, what kind of things they are doing, so that we can look for the resources that match the quizzes that we want to put in different channels.  Like, we have to do a bit of community research. How is the community? What are they talking about? What are they dealing with?  And what would kind of look into the crystal ball? What could they be things when the GGE happens? like, how can we keep that conversation going?  And influence that conversation with quizzes. Yeah.
+
+31:09 - Alex Lumley
+  Sorry, I didn't totally catch everything you said, but just to wrap up the other point, Jonathan, one thing I want to be clear about is that the fundraising is different from marketing.  The funding event is different from the TGE. I'm in the GTM for the TGE, and because, one thing that has been- TGE?  The mother TGE? Yeah, from the mother TGE, right? Yeah. The marketing is going to help.
+
+31:42 - James Young (Collab🤝Land)
+  The marketing is what we need in order to, like, get buy-off and hype from investors. Exactly.
+
+31:50 - Alex Lumley
+  Yeah, because, like, it's like power law dynamics of the majority of your fundraising money will come from a few people with a large amount of money.  But those We'll People want to see large numbers, and they'll put money in, then once you get those people in, then you start to get these little pieces.  But I just wanted to be clear, Jonathan, that when we're talking about getting people in to the Discord, we're not also asking them for funding.  It's getting them to then bring all the- no, it's different.
+
+32:19 - James Young (Collab🤝Land)
+  It's different. Yeah, just want to make sure.
+
+32:21 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, they're all different. From the same page. All right. Let's call it there. Let's regroup tomorrow. Let's noodle on what was shared so far.  Alex, catch up on this meeting that we had earlier. And I also have a massive headache, so I'm going to go offline.  And let's regroup tomorrow, same time, and answer last questions so that we can start kind of like crafting what this is going to look like over the next several months, like truly.  So are you We were working on a 36890, because I was supposed to do that, but I don't know what.
+
+33:05 - Alex Lumley
+  I was just going to work on it from like a communications and marketing standpoint.
+
+33:10 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  But we can work on it together. Yeah, sure.
+
+33:14 - Alex Lumley
+  I just didn't realize you were also doing it, which, cool. I didn't realize I was going to do it either until you brought it up.
+
+33:23 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Cool.
+
+33:25 - Alex Lumley
+  Tosh, you have time to prep for the Gaia?
+
+33:31 - Natascha Tiotuico
+  I have like a meeting for right after this, but I can meet with you after that. shouldn't be like I shouldn't be in there longer than half an hour, like 25 minutes.  Can I ping you after 25 minutes? For sure. That works. And I'll look through these notes.
+
+33:54 - Alex Lumley
+  Yes. Okay, great.
+
+33:57 - Natascha Tiotuico
+  So then we'll regroup at 9 p.m. Sounds good. I'll talk to you guys later.
+
+34:03 - Alex Lumley
+  Okay. Thanks, everyone.
+
+34:05 - Natascha Tiotuico
+  And before everybody leaves, I enjoy that we're having these heated discussions because it means that we're really on to something.  I just wanted to underline that. Like, it's always a good sign for me. Sure.
+
+34:26 - Alex Lumley
+  Sounds good. Bye-bye. Thanks. Bye-bye.
