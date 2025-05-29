@@ -1,0 +1,533 @@
+James (never DM first):
+summary 
+
+Jonathan Miller - March 04
+
+VIEW RECORDING - 47 mins (No highlights)
+
+Meeting Purpose
+Discuss Collab🤝Land's growth, tipping feature rollout, and potential collaboration with Mother for agent integration and testing in Discord.
+Key Takeaways
+Collab🤝Land is experiencing significant growth, approaching 100k communities and 150M potential users
+Plans to introduce in-chat transactions, starting with tipping, using non-custodial smart accounts
+Proposal to test agent interactions and micro-transactions within Mother's Discord server
+Minecraft-based visualization suggested for demonstrating multi-agent coordination and scalability
+Topics
+Collab🤝Land Growth and Features
+Approaching 100k communities (currently at 95,403)
+Serving ~40 different blockchain networks
+Introducing in-chat transactions, starting with tipping
+Non-custodial smart accounts for users without leaving Discord/Telegram
+Leveraging EIP-4337 for gasless transactions and token swaps
+Tipping and Community Engagement
+Cultural aspect: recognition and appreciation within communities
+Use cases: onboarding new members, rewarding contributions
+Comparison to Twitch's tipping model and Discord's Nitro
+Agent Integration in Discord
+Proposal to integrate Mother agents into Discord for easy user interaction
+Potential for agents to perform paid tasks within the chat environment
+Aim to provide distribution and real-world testing for agent developers
+Minecraft-based Agent Demonstration
+Suggestion to use Minecraft for visualizing multi-agent coordination
+Plans to integrate with Twitch for live-streaming agent perspectives
+Potential for agents to tweet actions, showcasing cross-platform capabilities
+Testing and Implementation Strategy
+Start with Mother Discord server for initial testing
+Focus on stable coins for transactions to avoid volatility concerns
+Aim for end of March to begin implementation
+Next Steps
+Jonathan to create a project overview document (PR FAQ style)
+Coordinate with Dan for Discord admin access
+Work with XO (formerly Smoodle) on no-code agent launching for Minecraft demo
+Aim for initial Minecraft-based demo by next Friday
+Plan for integrating payments and agent interactions in Discord the following week
+Target end of March for broader implementation and testing
+
+transcript 
+
+Jonathan Miller - March 04
+
+VIEW RECORDING - 47 mins (No highlights)
+
+
+@0:00 - James Young (Collab🤝Land)
+people having to yell, so you sometimes get people spitting in your face. I don't know how you, I have my protocol.
+
+@0:09 - Jonathan Miller
+It's Akanisha just saying, what you see and think? That's what I do every day.
+
+@0:14 - James Young (Collab🤝Land)
+But it was fun, I mean, I saw people that I haven't seen for like six, seven years, just like randomly pop up.
+And so it was really interesting to see people that I've worked with a long time ago, then for whatever reason they kind of fell off the radar, and then now they're back.
+AI brings everyone together, I guess. That's what it's looking like.
+
+@0:43 - Jonathan Miller
+Yeah.
+
+@0:44 - James Young (Collab🤝Land)
+Yeah. But where are you based? I'm in Valencia, Spain.
+
+@0:49 - Jonathan Miller
+Oh, that's awesome.
+
+@0:51 - James Young (Collab🤝Land)
+So it's like evening time for you right now. It is a good evening time. Yeah, I usually wrap up like, I mean, I work pretty late as Spain is a pretty late culture.
+We love to stay up late.
+
+@1:00 - Jonathan Miller
+here and wake up late. Yeah, I'll usually work a little bit later. It works pretty well. And then I have that morning when no one's online.
+And I just got the done. Nice.
+
+@1:10 - James Young (Collab🤝Land)
+Nice.
+
+@1:11 - Jonathan Miller
+Now good up with that article too. thought it was like, so good. Yeah.
+
+@1:18 - James Young (Collab🤝Land)
+Excellent. So I think we wanted to talk a bit more on like the Collab land side of things. It's hard to kind of juggle sometimes if we have people working on both projects.
+like with the summer, I was like, put your mother head on or your Collab land. I should actually get Collab land hats or something and we can put them on so we can visually know what we're talking about.
+But with Collab land, we're experiencing some significant growth. We are going to be rolling out tipping. And we are doing what's called
+I'm calling them in chat transactions. So, you don't have to leave Discord or Telegram to do transactions, and the same infrastructure is what we're providing for Mother.
+Because it's also really great surface for agents. Absolutely.-transaction kind of thing, agent agent.
+
+@2:25 - Jonathan Miller
+Super-interesting. Yeah. Yeah.
+
+@2:27 - James Young (Collab🤝Land)
+so, that serves as a base, not only for Collabland. Because Collabland, I don't know how familiar you are with what we do.
+I'm token gating on Discord and Telegram is the gist, and I know you have this starter kit that you started to get separate.
+Yeah. it's read-only. And we do token gating, and we're really popular last cycle. And so, I'm trying to reimagine how do we leverage the community that we serve.
+We're about to cross a hundred thousand communities.
+
+@3:00 - Jonathan Miller
+It was 53, so that needs some updating there.
+
+@3:04 - James Young (Collab🤝Land)
+Oh yeah, yeah, we kind of really stopped counting by communities because it really, it's like a vanity metric. But we keep track of it internally, and I guess the latest numbers were at like 95, 403, so gonna probably cross 100.
+Well, by the end of the month. And I think all the things that are happening when it comes to regulation, NFTs are not securities.
+Now, I don't know if you saw the news. It's huge news, yeah. Yeah, and so we're, we get the first kind of wave of that across multiple chains because we service about 40 different chains right now.
+So when something like that happens, and you can kind of see a blip on maybe face or Ethereum or arbitrum or Solana, patezos flow, all these blockchains.
+But we see it all kind of combating. because we do all these different chains. what we're trying to really focus on, we'll always do token games, but we want to focus in these in chat transactions because what we do from a Cleveland perspective is we're a SaaS-based business.
+And with SaaS-based businesses, you can only grow so much. It's totally what Web2 does.
+
+So you have in Web2 subscriptions, which are SaaS-based businesses or you have advertising.
+So we have that right now. So we have a bit of advertising and collaboration and we actually have SaaS-based businesses, but in Web3, where the real money is at, is transaction fees.
+So like if you're on a DAX or you're centralized exchange, that's how all these centralized exchanges make their money.
+So what we want to do is we want to capture some of that revenue. We want to do it not in a trading paradigm or a trading context, but in a community context.
+So giving each other, giving each other, and so, you know, If you're having to deal with this kind of unprecedented growth, this is growing a lot faster than we grew last cycle, but I think it's because there's so many other change now, like before you last cycle, like 2020 is what I consider like the last major, at least on the NFT side, the last major NFT run with 2021 2020 and 2021.
+And so that's when the board dates came out, that's when all these like doodles and haji, like all of these, you know, kind of now they're considered vintage came out.
+But we're seeing more growth now because people are now on top of NFTs, you have meme coins and you have these meme coin communities that are emerging.
+So we could definitely use help there. we're trying to figure out how we want to grow would love to work with you and figure out what we can do.
+There's a lot of things beyond tipping is we want people to be able to mint tokens. within Discord and Telegram, and like they start a private community, maybe three or four, five, ten people or whatever, and you may just roll gate it, and then you're meant to token, and people get rolls, however they want to get rolls, however you define your community.
+And in those specific channels, you can mint a token, and then from there you can start token gating, and you can put other transactions.
+And a lot of what we're trying to do with Collabland is try and kind of spark this like agent world.
+So the way we think about using mother and the registry is when the registry is populated, how are you going to like interact with your agents?
+Each agent dev is going to have like maybe their own dap or their interface. What we think we can do with Collabland is expose all the agents on mother in Discord.
+And the way that we're thinking about doing that is like in Collabland, you can have the slash command. each bot has their own slash command.
+What we do with Collabland is we give every user a smart account. And this is how we do the in-chat transactions that we're going to start with tipping.
+But you have to go through Collabland to do it, because if we, this is why we have the starter kit, so that other bots could actually have these smart, the agents can have the smart account.
+So agents that have smart accounts, I consider like B2B. But how do you as a customer, B2C, interact into this B2B world?
+So we have the Collabland bot. So if you're in a Collabland managed discord or telegraph, we want to give you as a bot agent distribution.
+We're crossing a hundred thousand communities and we're crossing over a hundred and fifty million. potential users. in Clabland, you'll have a general channel, right?
+Everyone can join a general channel, but we only have about 7 to 8% of those people that are in a Clabland managed Discord server connect their wallets to their Discord or Telegram username.
+So, there's over 90% of people in a Discord or user names that want to know about NFTs or viewpoints, but they don't know how to do Metamask.
+And once they know how to do Metamask, they don't know how to get the gas token for the chain, right?
+
+@8:37 - Jonathan Miller
+That you validated that it's mostly like a don't know situation.
+
+@8:41 - James Young (Collab🤝Land)
+It's not I don't want two situations or like I don't So, to unpack that, if the context of a token community that is managed by Clabland, it's a I don't know how.
+But in the wider Discord universe beyond and collab land. It's I don't want to. Got it.
+
+@9:04 - Jonathan Miller
+Okay.
+
+gamers, all it's like, they, they, they Yeah. They hate it. So we're just talking about a subset of still within the 100 million that you're talking about the 90% of the 100 million are still people who have have opted in to be part of these communities, these, you know, crypto based communities, but don't as haven't connected their wallet, mostly at this point.
+Right. Right.
+
+@9:33 - James Young (Collab🤝Land)
+so we have all these admins going, okay, do this. Here's a link, blah, blah, blah asking and fielding the same questions over and over.
+Okay. So we tested out like having kind of a, before they were called agents, we had an LLM connected to the collab land and in certain communities, you know, the community admin would just say, do this flash help command and then the slash help command would just automate that, but still people were having problems.
+with it. So we're like, okay, we just have to give people in a non-custodial way a wallet. And so we've worked on this infrastructure for about two years with Lit Protocol.
+That's why we know Lit really well and it was easy to start Mother because I had a relationship with Matt and Gaia and I had an independent relationship with David Snyder and Chris from Lit Protocol.
+And so it was really easy for us to kind of riff and jam and kind of that was I think the real seed of Mother to begin with.
+And so now you can have a non-custodial access to your account without having to live Discord and Telegram. But then you fought faces other issue.
+You need to be able to give or you have ETH or whatever the gas token is for that chain, right?
+And you can have an L3, like DJN, but it still costs DJN to like do a transaction. So we had to work on that.
+So we have that is called, I'm not sure if you're familiar with 4337, which is an EID.
+
+@11:06 - Jonathan Miller
+I don't, can you describe it though? don't walk here, I think it working on 4337 as well.
+
+@11:12 - James Young (Collab🤝Land)
+Yeah, so it is an alternate network of relayers. So it's not an L1, it's not an L2, it's this separate network that anyone can start up that allows for a user to do a transaction without having to pay any gas.
+
+@11:35 - Jonathan Miller
+Okay, so it's almost like a testnet kind of really easy to use thing.
+
+@11:39 - James Young (Collab🤝Land)
+It's not a it's not it's not a blockchain, it's not a blockchain, it's like it's a really interesting kind of helper network.
+Okay, cool. And so what happens is that if I'm sending you an ERC-20 token, right, now you have that ERC-20 token, you don't have ETH or BASIC.
+eat or arbitrum eat or whatever. So you're like, okay, great. got these tokens. Now what? But you can do is you can we make it automatic.
+So you don't even know that it's happening. You are going to send tokens, the ERC 20 token to like mother tokens, let's say, like you're sending mother tokens out to some other new user because you want to onboard them to crypto.
+And this, this, it's called a real network. This relay network, what it will do is it will take some of that mother token as payment.
+And then it will convert that to ease. So you as a user, don't have to think about it at all.
+
+@12:41 - Jonathan Miller
+Oh, amazing.
+
+@12:42 - James Young (Collab🤝Land)
+Okay.
+
+@12:42 - Jonathan Miller
+Cool. Got it.
+
+@12:43 - James Young (Collab🤝Land)
+And so now, now you have like the ability to trade tokens within discord and telegram without having to leave the platform.
+Okay.
+
+@12:53 - Jonathan Miller
+I'm waiting for that functionality on even like a metamask. I think metamask actually maybe sneakily does it, but yeah, it's.
+very useful function. That's kind of like, so it sounds like that's already set up. I didn't know that existed even because that's kind of like the future of crypto where I just came with whatever crypto I want and it's just accepted automatically by anyone and it converted it back on, right?
+Yeah, yeah.
+
+@13:14 - James Young (Collab🤝Land)
+And so we've been beta testing this for almost a year and it works and it's solid and it's production ready.
+
+We have these private data with these communities and they're happy with it. But the problem that we have, the reason why we haven't launched or deployed this widely yet is that you have another problem.
+People don't want to transact on ETH. They want to transact on whatever chain. But now, you know, if we make it easy to onboard and you don't have to have the native gas token, like they get stuck because they don't know how to And this is where agents come in.
+agents can just through natural language, take these queries and that was what got me initially into AI was kind of solve this problem.
+So this is what also now got me interested in mother because I don't want to create all these agents.
+I want to help create that environment for all these agents to exist and then Calablan could tap these agents to be able to use them.
+I was wondering who is our target market? It's so I think and this is what I want to do is I want to provide distribution because these agent devs that are building agents they want they need distribution.
+We have 150 million people waiting in the wings to unlock all this. I'm really excited to get the registry up and going.
+I don't want to have to bet all these agents. They're going to be in Discord and Telegram and so
+You know, that's really kind of why I'm interested in mother too, just to get on-boarding, get these agents. I'm super excited about agents as well.
+And not a lot of people know this, but like majority of our efforts at Collabland are to fight scammers because these people are interested in crypto.
+The reason why we haven't launched Tipping widely is because we know that they're going to be different attack vectors.
+We've seen a lot of different scams. We have fake Collabland bots with fake Discord servers that have fake users.
+And they just honeypot people to come into these cores and they talk to them and they scam them. We can't do anything about that because we have no idea that they exist.
+And, you know, we also have fake Collabland bots in different servers that we report, but as quickly as we report.
+For them, you know, ones come up.
+
+@16:01 - Jonathan Miller
+It's just, it's really hard. It's a hard this way. I work on get quite passport for a year in a bed and it's a the civil problem is very, very hard, very, very hard.
+
+@16:14 - James Young (Collab🤝Land)
+Yeah. And so, um, and I think we have, and this is what took us to eat like, it didn't take a long time to like make the technology work.
+But we can't just deploy it out and like, let's scammers in. So most of the work is trying to create an environment and a system that's at least hard to scam.
+
+@16:40 - Jonathan Miller
+Yeah.
+
+@16:41 - James Young (Collab🤝Land)
+So I think we have this system. Okay. Um, and so we want to roll it out and, but we've been facing this like, tremendous growth with Colab Lab.
+So we can't, when we were a small team, so we have to put our resources into our current business before we
+go into this new business, but we're really interested in this new business and this is where I think, you know, with your context of agents and helping, I think, it could be more than just, okay, here's tipping or here's this other thing.
+I think that there are like new playbooks that can be created with communities in mind that want to mint tokens that want to do things.
+And I also want to talk to Dan about this as well. And maybe work together kind of as a side project to like help get this going.
+What I think would be really interesting to kind of dip our toes in the water because I want to take this slow, because the worst thing that can happen is this blows up and is successful.
+And then we find a bug or something happens, then we're like. So what I'm thinking is we can start first in mother discord and start practicing with this and practice with tipping.
+And then allowing maybe like stable coins at first because people like I don't want people to complain about oh I got to this token and now it's no value I thought I was going to make money.
+
+So maybe just start with like stable coins because it's really easy to grasp. And then what I want to do maybe not this week or next week but by the end of March.
+I want some agents that are in the registry to be members of the discord server. Like we have mother as an agent but in discord to the user the bot is actually just kind of like another person.
+There's really I mean there's an app and there's some labeling but the way that you interact with the bot is very similar to how you would.
+interact with another human you know and being an agent it's really like how robust of a response that your agent how much character or how much liveliness your agent has is the interest but what I'm thinking is we could actually have these agents perform work so let's say there's like a DeFi agent in the registry with mother we can actually have users interact and pay the agent within Discord through just more using the same system that we have at Colabland for tipping we can send essentially what can be considered a tip to agent once that agent gets out those funds it can perform an action like here's a dollar make it a dollar 10 and it does it's DeFi thing comes back the agent takes its fee and then can actually send back to the user the dollar 10
+It made $1.12, it takes two cents and it gives back the $1.10, but I wanted to set this context as kind of a baby step into understanding what we've built, because I'm having to deal with all the growth of Kaleblan and we have to ship with Mother.
+So I don't know how I can start another completely new initiative. You can maybe sit in the middle and we can test out in the mother dial discord and then as we get everything settled with our new Infra, have you kind of see what the opportunities are like and then you have contacts.
+Okay, cool. How does that sound?
+
+@20:42 - Jonathan Miller
+I think that I still have some more to grasp with it because I'm not super, I'm not part of a lot of online community, I'm actually quite an IRL person, but the idea of testing out this tech is intriguing to me.
+One curiosity I have is why we're I mean, I can see why you're motivated to test out like a tipping in a discord, but are we also building an interface for people to interact with Mother as well?
+
+@21:12 - James Young (Collab🤝Land)
+So this Friday is what we shipped is going to showcase Smootle, which is an interface to launch your agent.
+Okay, yeah, they have that.
+
+@21:23 - Jonathan Miller
+I mean, they're the no code. There are no code partner, like no code agent launching partner.
+
+@21:28 - James Young (Collab🤝Land)
+Okay. Yeah.
+
+@21:29 - Jonathan Miller
+Oh, yeah.
+
+@21:30 - James Young (Collab🤝Land)
+Yeah.
+
+@21:31 - Jonathan Miller
+Well, they're going to integrate it.
+
+@21:32 - James Young (Collab🤝Land)
+So we're going to, I hope they ship by Friday. So we just had an engineering meeting about it today.
+And I think they're going to be able to move really quickly because they're all like physically at BRC. I'm not at BRC right now.
+So they're physically at BRC and they're able to iterate really quickly on that. So that's the agent interface to launch an agent in a no code environment.
+But it's up to the agent dev to create their own. app so that a consumer can like.
+
+@22:03 - Jonathan Miller
+Okay, but they can just plug into the discord and then that's what the agent can live technically is that kind of the idea?
+
+@22:12 - James Young (Collab🤝Land)
+
+That's the baby step that I'm thinking about because that's the easiest to deploy because what you will have is if you are in a tokenized community I'm assuming you're going to be able to get tokens and you're already halfway there you're not going to have to convince a normie to get into crypto and you as an agent dev you don't have to build out a UI you can just do it straight and chat and that's what I think he give us as with mother and kalablan a competitive advantage because we already have the distribution of this tokenized communities and then these consumers can just go oh okay I want a minute token how do they'll be like a minute I'm assuming who I don't know who's going to build
+But they'll be like a mitt bot, I'm assuming, right? That like is going to an agent to mint the token.
+And so now you can, as we have the open registry, and we're going to go into this close registry, in the open registry, if they're just populated in Discord and Mother, it drives traffic to Mother, and people can kind of bang the tires with these agents in a way that's like super low friction.
+
+@23:26 - Jonathan Miller
+Yeah, okay, got it. So basically, lots of these agents may or may not have interfaces, but the idea is that we're plugging them into Discord so that they're really easy to interact with.
+Like, am I basically, like, is it, I'm trying to visualize it for myself, is it almost like each agent has a panel, or I'm in the general chat, like a bunch of pop up, so I can help you with that, or whatever it is, like, what does that actually have to experienced?
+You're just chatting with an agent.
+
+@23:51 - James Young (Collab🤝Land)
+Like, if I wanted to chat with you, I can go, I don't know what your Discord handle is, but let's say it's at Coach J, right?
+I can say, at Coach J, Hey, hey, how are you doing today? You'll get a notification, right, in Discord, and then you respond to me.
+It's just as easy as like chatting with an agent. So you're just like at TipBot.
+
+@24:14 - Jonathan Miller
+So I might already know about TipBot, or I know what TipBot's function is, or I know about the rep.
+I guess we're just testing the tipping function and just interacting with agents on Discord first. The logistics of how we discover and all that kind of stuff, that's gonna come later.
+We're just testing this functionality, this initial functionality of interacting with a specific agent in Discord and having and activating them and being able to practice with the micro-transactions in particular to have them go and do work.
+So we're kind of skipping the interface step where we're just going right through Discord.
+
+@24:47 - James Young (Collab🤝Land)
+And, you know, in the community context, not the one-on-one context, if I'm going to adapt, I have to read instructions, I have to do this.
+But what will happen is if I'm lurking in a Discord, and I see someone else tip somebody, I'm like...
+Oh, okay, I can follow that same pattern or I can ask someone in the community. Where's the tipping bar?
+And then someone will like chat with me. So it is like wider community group support. What's the incentive?
+
+@25:15 - Jonathan Miller
+I never got into like the whole like tipping and like the tipping. What's the incentive for people within a community to like really want to do that?
+Like we were talking about stable coins. imagine we'll probably run a test. We'll probably throw, you know, actually amount of stable coins.
+We'll give it to like, you know, 10, 20 people and then we'll just see how they interact within our Discord as like a little experiment.
+Why are other communities doing it? who are these people who are like, I want to tip you? Like, that's just not something that comes up for me, but I guess.
+
+@25:42 - James Young (Collab🤝Land)
+Yeah. what happens is you have all these people that are interested in like an NFT community, right? And a lot of these NFT communities have ERC-20 tokens.
+Yeah. So if you're chatting with someone and they're like, hey, I want to join this community. I don't have a.
+wallet. I don't know how to get involved.
+
+I'm going to send you some pengu token. And it's only like $20, $30 worth of tokens.
+But now you have a token. Now you can actually tip other people. It's a way of like getting them into the community.
+Getting from like outside kind of sidelines, they're interested, but we want to just reduce the barrier of onboarding.
+
+@26:25 - Jonathan Miller
+So picking gives them- running an NFT project. I'm often like giving out these little like mini grants, micro grants to people in order to get them to join the community.
+Like that's common practice.
+
+@26:40 - James Young (Collab🤝Land)
+Yeah, it's it's really common on Twitch. It's super common on Twitch. So Twitch, their business model is they allow people to tip.
+I don't know if you saw that NPC name where there was this woman. She's just like ice cream, tasty, yum yum.
+and she would only do that if she got tipped so she was live streaming pretending to be NPC these big twitch streamers they get tipped a lot and all they and so the reason why they get tipped and they would tip a creator is because they're i guess famous in whatever niche they're in and the it's kind of cultural these creators these streamers they will they will acknowledge you they will recognize you and that's all people want is recognition and so there's a huge gifting culture within twitch discord because it doesn't have tipping it's not as big but in discord you have nitro right nitro is a form of gifting because you can unlock for everyone in the server added functionality but you don't have to be the community admin and pay for it anyone in the community can pay for it okay got it um cool
+
+@28:00 - Jonathan Miller
+I guess like yeah, that makes sense to me like I'm on Reddit for example. It's like Karma or I'll give up Karma.
+That doesn't like cost me anything. just like a boat or whatever it is. And so that's why the mic would think I'm like I'm like literally giving someone my money that I may not know but it sounds like it's a cultural thing.
+It's common and it's how I like vary in a very real way show my appreciation or invite someone to kind of participate more.
+And and that's something that is happening in these communities. So that's why this function would be desirable for a lot of communities.
+
+@28:33 - James Young (Collab🤝Land)
+Yeah, oftentimes it's not just purely gift fitting, right? Like you're not going to be able to make a living off of tips, but you're like an influencer, you're wanting to get into web three and what you're you talk on discord and then let's say you're the influencer and you have a big following on Twitter.
+You tweet something about the community and then like you show the tweet. you put the link into discord and then I'll tip you for it because you're helping me spread the word about the community.
+
+@29:07 - Jonathan Miller
+There's a signal there as well. you go and do this good thing, the signal is that you're going to get rewarded for it.
+encourages this pro-social behavior, guess, makes more sense in that context. Yeah. just realized we're already at the top Yeah.
+
+@29:26 - James Young (Collab🤝Land)
+Let me check. Wow. I'm totally into this interaction. So I totally lose track in time. Yeah, I happen to the half hour if that's a shot.
+Sorry, I took the whole 30 minutes just to set the data.
+
+@29:42 - Jonathan Miller
+I'm super curious. I had so many questions. It's not a realm I'm familiar with, but I think you've spotted it is that I can understand the tech behind it.
+And then the human psychology aspect is missing a bit for me. And I need it. I would want to understand both so that, you know, you're talking about new.
+it looks. I want to understand what people are thinking and how they might use this text so that we can, you know, help curate those playbooks or encourage others to create those playbooks and then find them.
+
+@30:12 - James Young (Collab🤝Land)
+Yeah, tipping is really just the very beginning. I guess it's the tip of the iceberg, right, where it's like the most basic interaction.
+
+But where I want, and I distribution within all of Kaleba, but let's just start with mother. So if you have an agent dev, you have an agent, you're in the registry, we will only allow agents in the mother discord that are in the registry.
+And if you're just in the registry, then people can now start interacting from a consumer persona to the agent without having to leave this court.
+I think that's kind of like we've got to make it super easy. So that's interact with the agent.
+
+@31:01 - Jonathan Miller
+Yeah, I love I'm so excited about this. This is like the supply side and onboarding like reducing the friction like when we say there's early revenue generation opportunities like we are not kidding like if you win a registry like you can already get into a server where there is money floating around and if your agent performs tasks they will earn money like it's like it's a promise we can keep that's super exciting.
+
+@31:25 - James Young (Collab🤝Land)
+Yeah, yeah and so uh so we have from a mother middleware perspective we have the the bare bones registry where you can register an agent and agents can be each other the missing link is how do consumers pay the agent right like where does the initial intake of past flow come from it's gonna I think come from Discord from telegram I want to also because there's a huge tipping culture in twitch just to get to twitch but once
+get to Twitch, it's going to be like touching the third rail. So let's just keep it like tryfying it in Discord and then kind of go from there.
+Cool, come in, let's do it.
+
+@32:13 - Jonathan Miller
+Okay, awesome.
+
+@32:16 - James Young (Collab🤝Land)
+I want to see, I don't know how we're going to demo this but, and I don't know if I apologize.
+I don't know all the realm of responsibility that you do versus like Dan or like because I've been just so focused on Collabland and just shipping the middleware.
+So I don't know what the appropriate way of doing this but I wanted to start with you because you reached out and you said okay well you want to see opportunities outside of this mother with Collabland and I think the kind of in the context of just doing it in mother because I'm so kind of underwater with work.
+We can start there but I want you to know that it will. expand into clabbling, but this is all the bandwidth I have for right now at the at the moment.
+
+@33:05 - Jonathan Miller
+Yeah, that sounds great. Yeah, love it. Let's let's try this out. This sounds great.
+
+@33:12 - James Young (Collab🤝Land)
+So, do you do you have admin access to the Discord or does Dan? I can get that.
+
+@33:19 - Jonathan Miller
+Oh, yeah, Dan. Dan, like, I'll enter Discord, Dan. I will ask them. I think I've asked them in the past and I'll ask them again, and I'll tell them that I'm going to be working to bring in this.
+And I think they've been a little protective about it, but I'll just make sure that to communicate with them and keep them a little bit.
+Okay, awesome.
+
+@33:39 - James Young (Collab🤝Land)
+So, I'll work with you then on on this. Yeah, yeah.
+
+@33:42 - Jonathan Miller
+And have you been working with Dan from CoVUNY on this? No, okay.
+
+@33:46 - James Young (Collab🤝Land)
+No, no, I have it. That's fine. So, I don't I don't know, like, if I'm supposed to, or like, I'll take your lead on this.
+
+@33:52 - Jonathan Miller
+I don't know, and because none of us have any rules or responsibilities, and none of us are going to need and all this kind of
+
+I think it's all kind of Wild West so I'll send it to if there's any like potential feelings and stuff like that I'll make sure to try and I like I want to make sure everyone's playing nice until we like actually have to like some hard decisions about who's staying on and who's doing what yeah so yeah I'll keep you on that okay cool yeah so what do you see is like some next steps to like kind of really gets kind of kicked off like in terms of like actually because I think what I'm taking away is like what our first milestone is is getting just a few even like one agent if we could but just a few agents into the discord and like so then state is a few agents in the discord and 10 people with you know 10 USDC like something like that like some nominal amount of people with nominal amount of money and then see what happens yeah so this is where I'm trying to figure out how to round
+
+@35:00 - James Young (Collab🤝Land)
+off this multi-agent coordination. people seem to be liking the Minecraft visualization. It's so good. Yeah. And so what I wanted to do is maybe like, and I'm just spitballing here, we can riff off of it, right?
+we can actually in Discord pay an agent to do some work in Minecraft, because it's like Minecraft, I think, is a good visual to kind of be the metaphor, so that you're like, wait, I'm never going to pay an agent in Minecraft, but I can easily imagine just being outside of Minecraft and having an agent pay for my booking on my flight or whatever the case may be.
+
+@35:48 - Jonathan Miller
+I think that is such a good idea because what we can do is we can come with specific tasks, like build me a house in Minecraft.
+then I tip them for that and everyone That's right start to finish and then we can like package that up and show everyone and it's very visual I love it.
+I think it's such a good idea.
+
+@36:08 - James Young (Collab🤝Land)
+Yeah, it's more entertaining than like going Oh, I'm going to the travel booking side and all of that, right?
+I'm using it all and etc. so good.
+
+@36:17 - Jonathan Miller
+then you can have a walkthrough videos and like, okay, I'm in the discord right now and I'm gonna call up this bot and I don't know how to tell them to do this But like you can just demo it live and people will lose their Yeah, that's what I'm hoping to do.
+
+@36:29 - James Young (Collab🤝Land)
+So this week what we're doing is getting Smootle to like use their no code platform to launch the agents in Minecraft and what we're going to do is we're going to see if we can get Twitch integrated so that like if you have two bots in Minecraft, you have kind of like God view.
+You're like third person but what we want to do is get each of these agents to live stream and twitch from their perspective so that you can see them like coordinating and building a house
+
+@37:00 - Jonathan Miller
+Yeah, that's what we talked about today. so I'm hoping we can ship that on Friday.
+
+@37:06 - James Young (Collab🤝Land)
+So that's a little bit of Alpha Friday Alpha for you. And then maybe next week we can have this beginning of payments and stuff.
+There's a lot of technicals to work out there, but that's what I'm thinking. Because what I'm thinking is what we want to show is these agents can live anywhere.
+You don't have to go to a website. You can actually look at it in Minecraft, you can look at it, you can have.
+And what we're hoping also to do is every time an agent performs an action like, I built a house, it will tweet that out on its Twitter account.
+So we can show these multiple platforms kind of combining together and then you can imagine your own workflow from that.
+
+@37:55 - Jonathan Miller
+Okay, cool. And so these initial agents, like it's basically smart. Smoodle is I think they're called exo now. Oh, sorry.
+Yeah, we are they're building these initial test agents Or should we be like Francesco and I have been like interviewing like a ton of agents But we want to focus on some of these agents who are less useful and can do things in Minecraft, right?
+those those are ideal test subjects now.
+
+Maybe a mother that does just Stuff like talk to me like a character AI and then the rest is like We could we want agents that actually do things mother would be more of a chatbot not an agent, right?
+I think there's a key distinction to there.
+
+@38:34 - James Young (Collab🤝Land)
+There is a key distinction What I think that they're two separate categories and the reason why I want This like Minecraft agents to work what I want to do is I want to have a thousand agents in Minecraft because Because if it's in Minecraft and you're telling the swarm of agents to build a house and
+And having to look at logs, you can usually go, was that house built or not? Exactly. It's really from an engineering perspective, and the systems scale.
+That's it. Just because you can do it doesn't mean it can scale. Minecraft is the easy way to verify visually and in an entertaining way.
+Oh, did the agents do their job? there's a whole other category of like you're talking to actual agent devs that are doing useful things.
+That's little bit hard to like, you know, verify. Because you're like, okay, I want my agent to register for this conference, register to all the side events, book my ubers from place to place, plan my route, and then plan my hotel and my airline.
+It's a little bit more difficult to get the airplane airline, take a receipt, hotel, receipt, the registration from the thing.
+Like there's a lot more coordination with Minecraft. It's all. like in this like one environment contains world totally and I'm holding across different websites and all that stuff.
+
+@40:07 - Jonathan Miller
+I totally get I love this idea and I'm like a huge into this is like using that's why I'm bullish on my pack it's like a great launch pad of a case study for what's possible so this is just in a yes this isn't just in one environment but this is going to scale to multiple environments and here are the things you can do and all I need to say is build me a house and then like these thousands of agents have to bid on figure out who's going to do what and who's going to do it for the lowest price and who's going to do that and all the mechanics are there and we can then scale it to real world applications yeah yeah yeah that's right it's like I treat like the Minecraft as like a sandbox yeah simulate it's a it's a simulation right so we can figure out scaling does because there are lot engineering or technical questions of how fast these agents can like barder or
+
+@41:00 - James Young (Collab🤝Land)
+at a price and all of that, that we need agents at scale. But if we have real-world agents competing for buy, we have to find the users that actually want to pay for that.
+And that will take longer, and it's a lot more coordination. So that's why I go, how do we do this?
+I was like, hey, let's just have fun doing it through Minecraft.
+
+@41:25 - Jonathan Miller
+So. OK, cool. So I have an idea of some of steps that I can take on this, unless you had any particular ones that you think are.
+No, I'm open.
+
+@41:35 - James Young (Collab🤝Land)
+would love to rip on this and get your feedback.
+
+@41:39 - Jonathan Miller
+What I love doing is I love creating things kind of thing. I love creating just like docs to start with.
+Like, I'm just going to create a notion doc with just kind of an overview of the plan, kind of like some high level principles that we want to follow for creating this, just outlining like the strategy of what we want to do so that we can really get on the same page.
+And then from like, how do of that project. I don't know how it is on the text tab, but that's what I do on the marketing side.
+plan like the marketing strategy as well. And that strategy would birth an actual implementation plan. Here's how we're going to do our first case study and I work with you and XO on it and we can figure out what do we want to do as our first three tests.
+
+then from there, with those three tests, we can figure out, I love your idea of having a Twitter set up and how are we going to activate this so that when we're running these tests, it's a really cool, really big deal.
+And anyone who finds out about this is going to like lose their and want to share it kind of thing.
+let's start with that initial don't. I love that. I love that.
+
+@42:39 - James Young (Collab🤝Land)
+So just to let you know, I used to get ment poured by Colin Breyer. Colin Breyer was considered, he was called Jeff's shadow.
+So Jeff Bezos from Amazon, he was Jeff's chief of staff. And they had a problem with like for Amazon, how do they go to more?
+circuit with certain products. So what they did, and the process was called a PR FAQ, like he wrote a book about this actually called working backwards.
+And the PR FAQ is a press release frequently asked questions. And before they like got into all the technicalities of building something out, they would start with the press release.
+What do we want the press release to say? They would work backwards from there. So I think that what I'm sensing is that you can like have a marketing plan or a press release, right?
+This is the press release and then we'll technically, we'll work toward that so that we actually don't get when we launch.
+It's not mired in all this like verifiable compute and blah, blah, blah, because people just eyes will glaze over.
+So we have to start with like, okay, what does this look like to the end user?
+
+@43:59 - Jonathan Miller
+And then, and then we'll
+
+@44:00 - James Young (Collab🤝Land)
+Build toward that not starting this Friday, but starting the Friday after that Now we need to kind of get out there now that we have the core system and the court in for a build out Okay, perfect.
+
+@44:12 - Jonathan Miller
+Yeah, that sounds great in terms of timeline Well, gives me lots of time to get this document and we can just shoot it back and forth and get it right And then I'm conveniently that neck not this Friday, but next Friday.
+I'm going on vacation for a week So I'm gonna be on reduced hours. I really told my partner that I'm gonna just like check messages and stuff like that But yeah, it's not aiming for end of March to like really get up and running.
+
+@44:36 - James Young (Collab🤝Land)
+So I don't think that'll be a problem If you want to start the document now Yeah, I read yeah, if you can have it ready before you leave Then then that's done and then we can kind of start building to that so you know, yeah, we can kind of go from there I'm going to start on it.
+
+@44:54 - Jonathan Miller
+I'll probably get started this week to be honest They work like with the growth stuff on mother like I'm
+And I'm in a holding pattern right now. I'm just waiting for some pretty big decisions to be made about all this kind of stuff.
+So, yeah, I got to just wait until we decide on the thing. So, you know, I got time to work on this one.
+That's why I messaged you. I'm like, you know what, I got some time. It's pretty chill on mother. We need to get funds first that I can only do so much.
+So let's on a couple of things.
+
+@45:24 - James Young (Collab🤝Land)
+Yeah, I think this will be fun and it'll be novel.
+
+@45:28 - Jonathan Miller
+Yeah, 100%. I'm really excited about it. Sweet. I will message you if for some reason I don't get these notes sent to my email.
+I'll message you because what I'm going to do is I'm probably going to take this and use this as like a launchpad to summarize a lot of what we talked about and start going to Sweet.
+Is there anything else that comes to mind? Do you think it's good for me to know before I start it or?
+
+@45:54 - James Young (Collab🤝Land)
+No, I think that as you get into it, you may have questions. So I'm here to help answer any questions.
+Or if you're like, should I say this, say that, think what you did was in terms of like Vitalix response, like, you just wrote something and I, you know, give some feedback.
+I think that was perfect and I don't mean to say things.
+
+I don't mean to be condescending or critical, just like, just, I'm just trying to be matter of fact.
+So.
+
+@46:22 - Jonathan Miller
+That's great.
+
+@46:23 - James Young (Collab🤝Land)
+That's exactly.
+
+@46:23 - Jonathan Miller
+I think it's great. Okay. Great.
+
+@46:25 - James Young (Collab🤝Land)
+Let's do it then.
+
+@46:26 - Jonathan Miller
+Actually, my dream role, actually, it's funny that you mentioned Colin Reyer is like, actually the role that I love to play is he goes back.
+That's kind of what I was doing at Bitcoin before was I worked with, I worked with like the head of marketing and who was my partner.
+And she's like a brilliant marketer and I'm just, I don't usually have like super strong visions. I love taking other people's visions and making them real.
+Like, that's my. Let's do it. So what I'll, I'll, I'll, I'll take all
