@@ -1,0 +1,1643 @@
+Alex Lumley
+00:03
+And then what can we do to actually fundraise?
+
+Alex Lumley
+00:08
+Then everything else is kind of like smoothing out some of the edges. But it's. To me, it's.
+
+Alex Lumley
+00:13
+Those are the two main focuses.
+
+James Young
+00:18
+Yeah, I think. So how do we help Gaia so that they can help us? Yeah, yeah, yeah, yeah.
+
+James Young
+00:30
+Let us help you so you can then help us.
+
+James Young
+00:33
+And if we help you and you're successful, that should help us.
+
+Alex Lumley
+00:39
+And in fact, when I was listening to the conversation you had with the guy at defrels, I realized there's kind of like two different, immediate, different surface areas eventually emerging, which are these workflow orchestrator agents, right?
+
+Alex Lumley
+00:55
+Or, sorry, these.
+
+Alex Lumley
+00:56
+These workflow kind of agents, the prompt agents that we were talking about, that kind of coupled with the context node.
+
+Alex Lumley
+01:04
+And then secondly, these discord bot agents, they feel different right now because, like, they'll eventually converge.
+
+Alex Lumley
+01:10
+But in my mind, I find myself saying, of those two things, which one would actually help the Gaia TGE the most?
+
+Alex Lumley
+01:17
+Which one would be a best. Which one would be the most helpful for them? For two reasons.
+
+Alex Lumley
+01:24
+One, because if they do well, we can do well.
+
+Alex Lumley
+01:26
+But secondly, because they just have a shit ton more resources than us.
+
+Alex Lumley
+01:30
+So if we get them interested, then they're more likely to actually do it rather than not doing it.
+
+James Young
+01:39
+This is where it's really interesting.
+
+James Young
+01:42
+The assumption that is surfacing, correct me if I'm wrong, is that there's this bifurcation because there's an assumption that there's an internal team and an external team, or you have a centralized company building a product to sell to customers.
+
+James Young
+02:07
+But I think with tokens, you blur that line. There isn't. So in the.
+
+James Young
+02:16
+In the debre call, Sydney had mentioned that Netflix is now kind of agent led, but it took them three years.
+
+James Young
+02:25
+But they don't expose that to their customers.
+
+James Young
+02:28
+Like their customers can't feed into their internal agent at Netflix.
+
+James Young
+02:35
+But with tokens, because you have that shared economic incentive, you blur the lines between an employee and a contributor.
+
+James Young
+02:45
+And so these internal processes for Gaia are actually going to also bleed into community management, because everyone that's in the community that has these tokens, they want the tokens to go up, right?
+
+James Young
+03:02
+And so we're creating this kind of new category and only can happen in.
+
+Alex Lumley
+03:09
+Crypto, where it's like a proper platform. What's the.
+
+Alex Lumley
+03:13
+Like it's a proper platform that this tool can allow you to do the things you want to do. What's.
+
+Alex Lumley
+03:18
+What's the word I'm looking for? When.
+
+Alex Lumley
+03:19
+When voters are disengaged when they're like disenfranchised and they feel like they can't do anything.
+
+Alex Lumley
+03:24
+Yeah, like the, the apathy.
+
+Alex Lumley
+03:25
+And what, what you're basically saying is that if DIA people have the tokens and they're able to actually do things because they have this workflow that allows them to do things.
+
+Alex Lumley
+03:34
+Yeah, I think that's spot on.
+
+James Young
+03:36
+And then this workflow extends to the token holders.
+
+James Young
+03:41
+So you're enlisting them, but they're not employees, they're contributors. Right.
+
+James Young
+03:47
+And the closest analogy I see is what happens in open source software.
+
+James Young
+03:54
+Yeah, but you don't, as a open source software developer, you don't get financially rewarded.
+
+James Young
+04:00
+What happens is you're intellectually stimulated.
+
+James Young
+04:05
+And this is where we have to be careful because you cannot financialize everything.
+
+James Young
+04:12
+There is this book by David Graeber called debt the first 5,000 years.
+
+James Young
+04:16
+And we talk a lot about this within Collab land, where in the story of that, in the book, this son, he turns 18 years old, right?
+
+James Young
+04:31
+And on his 18th birthday, the father hands him a piece of paper.
+
+James Young
+04:37
+And the piece of paper is every single thing that the father has bought for that child.
+
+James Young
+04:48
+The, the child works to pay that debt off and never speaks to his father again.
+
+James Young
+04:54
+So there are things kind of like this in, in, in communities.
+
+James Young
+04:59
+There are things like, for example, like if you ask your friend to move, this was what we were talking about in a meeting today at Collab.
+
+James Young
+05:08
+If you ask your friend to move, you're not going to pay your friend money.
+
+James Young
+05:12
+What you're going to do is you may reciprocate by beers, pizzas, taking them out to a fancy dinner to show that reciprocation.
+
+Alex Lumley
+05:21
+Yep.
+
+James Young
+05:22
+Because like, there's a difference between a financial incentive and like a social one. Right.
+
+James Young
+05:29
+And so it's like you have to be careful and understand in a community, you don't want to just financialize everything.
+
+James Young
+05:38
+You want people to be drawn in for that.
+
+James Young
+05:40
+In open source software development, a developer wants to contribute to projects, they believe in it.
+
+James Young
+05:49
+Well, they probably don't want to get paid immediately.
+
+James Young
+05:52
+They want to upscale themselves and things like that.
+
+James Young
+05:55
+But it's AWS and these cloud service providers that uses open source software and monetize it.
+
+James Young
+06:03
+So the incentives are all kind of skewed, but when you look at it from a lens of the social benefit and the financial benefit, you can kind of make sense of it.
+
+James Young
+06:14
+And so we have to be careful.
+
+James Young
+06:16
+And this is kind of the hidden rules and things that like, it kind of also gets expressed when you think of DAO participation.
+
+James Young
+06:28
+Like, you have these, like, whales that try to take over because it's purely financial motivated.
+
+James Young
+06:34
+But you have DOW members that get like pushed out to the side because they believe in it, but they don't have a voice because they don't.
+
+James Young
+06:41
+They don't have the financial incentive, but they're diehards that will never leave.
+
+James Young
+06:46
+So we have to make sure that as we're doing this and it's involved, there's a financial component when it comes to tges and things like that.
+
+James Young
+06:57
+We just have to be cognizant of the human factor kind of involved in this.
+
+James Young
+07:02
+This is more kind of social sociology or philosophy.
+
+James Young
+07:07
+And we, we have to have good intuition about that. And I don't know if that makes sense.
+
+Alex Lumley
+07:14
+Yeah, just, just before you guys go, I was just, I was just gonna ask James, James, can you tie it together for me?
+
+Alex Lumley
+07:19
+Like, what, how does that connect to what we were talking about with like, our focus is likely on two things.
+
+Alex Lumley
+07:26
+Gaia's tge. And I honestly forget the second thing.
+
+Alex Lumley
+07:32
+Basically, Gaia's tge and there's some second thing, but how does it tie back to that?
+
+James Young
+07:39
+So I think what you're saying is like, there are two things.
+
+James Young
+07:42
+One, the internal processes, these workflow agents versus the bots that are in discord, and they're different.
+
+James Young
+07:53
+I think we need to thread the needle and think deeply while we're doing this, because I think these workflow agents with inside of Gaia will also permeate into the community.
+
+James Young
+08:07
+For sure, if I'm an employee of Gaia, I'm financially motivated.
+
+James Young
+08:12
+But if I'm in the community, I may not be just financially motivated because I believe in that project.
+
+James Young
+08:19
+And so you don't want to over financialize these bots.
+
+James Young
+08:23
+And the workflow can needs to absorb not only the financial incentives, but the social credibility that you gain in the community by being part of the community.
+
+James Young
+08:37
+That is.
+
+James Young
+08:37
+And this is where it's like, interesting where, you know, the more you know about the community, you have 100% on all your quizzes.
+
+James Young
+08:46
+Right. You get a financial benefit. But that might not be the reason why I'm taking these quizzes.
+
+James Young
+08:52
+It's to show that like, you know, on a leaderboard or something, like, I'm the guy in the community, like, you know, because I believe in it.
+
+James Young
+09:02
+So there is this kind of mixing when it comes to workflow and the rewards.
+
+James Young
+09:09
+And that's what I'm trying to get at.
+
+Alex Lumley
+09:12
+And just the last thing, 08 and Tosh, the reason why?
+
+Alex Lumley
+09:17
+Because Tosh asked me why I see them like different as well.
+
+Alex Lumley
+09:20
+The reason why I see them different is mostly because they feel like different surface areas of work.
+
+Alex Lumley
+09:28
+Eg, the workflow agents that Gaia is working on is like they are a team that is working on that they have to develop the Gaia, et cetera and we can support them by creating reference limitations and do all that.
+
+Alex Lumley
+09:39
+But the people that we're talking to for that is not Ian and Ryan and those people who are working on the community and we're helping them drive more TG stuff for the community.
+
+Alex Lumley
+09:51
+That's why I say that there are two different surface areas of work is mostly who is involved in those ones right now.
+
+James Young
+09:56
+Can we create a hybrid? Because it's all based on AI.
+
+James Young
+10:02
+Can we create a hybrid and is there a sliver of a PMF there where it's like you get the community's involvement that are not financially motivated to help the Gaia team from a financial commercial perspective and those are the kind of agents that we really want to focus in on.
+
+James Young
+10:22
+Right. And that's the flywheel.
+
+Alex Lumley
+10:24
+That's a great question. I don't know. I don't know yet. Sorry, go ahead. You're right, Tosh.
+
+Razvan Matei Popescu
+10:33
+Yeah, I think James is spot on with that. Like and we like Alex knows how it's in Dowland, right?
+
+Razvan Matei Popescu
+10:40
+Because like in Arbitrum it's exactly that, like it's exactly that situation that the people that are die hard fans like tend to be pushed to the side because they, they're not like huge wells but on the middle ground we all saw like what happened with that Stay Loudio experiment on X.
+
+Razvan Matei Popescu
+10:56
+Right. I don't know if you saw guys saw that, but it was, I don't know, impossible not to see.
+
+Razvan Matei Popescu
+11:02
+But so they kind of hit the middle ground there because they kind of created the decentralized distribution model for like attention.
+
+Razvan Matei Popescu
+11:12
+So it's on the community strategies. That's what we should strive to do.
+
+Razvan Matei Popescu
+11:21
+We should like it's kind of you say empowerment but like maybe like I don't know, too narrow of a term to describe it, but it's just like allowing people to get involved because like as I see it, I think if we manage to get people to co build agents with us and get them excited like we will win.
+
+Razvan Matei Popescu
+11:43
+Like it's impossible not to.
+
+Razvan Matei Popescu
+11:45
+But most communities like have the issue, especially Daos in the expansion phase.
+
+Razvan Matei Popescu
+11:52
+Like when they expand like they do silly stuff, they spend a lot of money and then they attract the wrong types of people.
+
+Razvan Matei Popescu
+11:58
+And not always track who the.
+
+Razvan Matei Popescu
+12:01
+Who the people that you really want to incentivize to build, which you are. Like it's.
+
+Razvan Matei Popescu
+12:06
+I've seen that like multiple times in like five years. So it's. And the dows always collapse.
+
+Razvan Matei Popescu
+12:12
+Like so Just my train of thought.
+
+Natascha Tiotuico
+12:19
+Yeah. So I have two, two topics on that.
+
+Natascha Tiotuico
+12:25
+Like one, of course, yes, we want this true community that wants us to succeed and contribute.
+
+Natascha Tiotuico
+12:33
+So there's like various ways we can.
+
+Natascha Tiotuico
+12:37
+Like nowadays you do automations to know the NPS scores and stuff like that.
+
+Natascha Tiotuico
+12:42
+But we would try to employ an agent to actually catch the gist and engage the person right away to align with our roadmap or with the tasks we're doing and to encourage them to continue contributing or how can they contribute.
+
+Natascha Tiotuico
+13:02
+Like many people might be like, I have this skill set and I believe in you, but I don't even know how to contribute.
+
+Natascha Tiotuico
+13:10
+So our agents would support catching those people and keep getting them where they're at because they might be in different time zones, might be with different knowledge sets.
+
+Natascha Tiotuico
+13:22
+The person that might work with this person might be busy on a different campaign.
+
+Natascha Tiotuico
+13:28
+So we want to enable agents to grab them where they are and that's kind of where these project management workflows, roadmap workflows and everything goes.
+
+Natascha Tiotuico
+13:42
+Like, how can we reflect what our goal and vision is to the community?
+
+Natascha Tiotuico
+13:47
+When they, for example, Dupus asked, hey, I would like to build one of those fun bots and stuff, fun agents.
+
+Natascha Tiotuico
+13:57
+And like I was like, hey, any builders here?
+
+Natascha Tiotuico
+14:01
+Because that would be a great agent to demo through the mother orchestrator.
+
+Natascha Tiotuico
+14:07
+If they built it, put it through the mother orchestrator.
+
+Natascha Tiotuico
+14:11
+They're going to like, when are they going to leave our community? Not very soon.
+
+Natascha Tiotuico
+14:17
+Like they're part of it.
+
+Natascha Tiotuico
+14:19
+From they were agent number two or an agent number four, so they have a huge thing they can be proud of.
+
+Natascha Tiotuico
+14:29
+So if we would have agents to kind of catch those gists and align them with our roadmap, that's where these workflow agents come together with the community.
+
+Natascha Tiotuico
+14:42
+Second thing, to engage not only financially.
+
+Natascha Tiotuico
+14:46
+That's why I'm a big advocate of keeping like the Test Note TestNet token actually reward points because they're separate, they can be tied to some airdrops and stuff.
+
+Natascha Tiotuico
+15:01
+But I wouldn't actually like convert them because it's a different level of commitment.
+
+Natascha Tiotuico
+15:09
+So I would actually encourage communities that are working with the mother orchestrator to leave those separate from their actual token to just like show recognition and have that like recognition socializing money which doesn't have a financial value, but it's like, oh, cool.
+
+Natascha Tiotuico
+15:35
+Like, maybe we can add them to NFTs or something, do something more fun, have something innovative happening with it, like seeds.
+
+Natascha Tiotuico
+15:45
+They lose their ability to become seedlings at some point, so they can kind of regenerate or they can maybe become seedlings and not be like a seed anymore, but a seedling.
+
+Natascha Tiotuico
+16:02
+So I think there's a lot of room for us to play there.
+
+Natascha Tiotuico
+16:06
+In the context that James was saying that people don't always want just money, but they want recognition and appreciation, which, with these X point reward points, we can kind of play that lore of giving this to people and building that kind of habit within the community.
+
+Natascha Tiotuico
+16:32
+Yes.
+
+Alex Lumley
+16:32
+Alex, did you have something you want to add? I was going to change the topic.
+
+James Young
+16:37
+Oh, yeah, real quick. I just want to just add on to what Tasha is saying that we can't lose sight.
+
+James Young
+16:45
+It's not.
+
+James Young
+16:46
+People are not just primarily financially motivated, but if they're gaining reputation and credibility and social status within these communities, and on top of that, they get paid, they're like, I'm never leaving.
+
+James Young
+17:04
+Right. That's kind of how I view the social aspect or the social side of it.
+
+James Young
+17:10
+But I don't want the people that are financially motivated to be closed out from that as well.
+
+James Young
+17:18
+So that's why there's this, like, gray line.
+
+James Young
+17:20
+There's this balance that only crypto dynamics really, like, you can only do in crypto. Right?
+
+James Young
+17:30
+This is very unique to crypto.
+
+James Young
+17:33
+And if we add AI to it, then, like Tasha was saying, you know, we don't.
+
+James Young
+17:39
+We're not creating these campaigns arbitrarily because we don't know Joe Schmo in the community.
+
+James Young
+17:46
+Discord can really benefit, but there's no campaign for them to match.
+
+James Young
+17:50
+So the AI can then, like, craft customized campaigns to maximize what they can contribute and what.
+
+James Young
+17:58
+Where their motivation is and if.
+
+James Young
+18:01
+And so I don't know how we segment that, but, you know, I think that if we go into this bluntly by just saying you can make money, I don't think that could.
+
+James Young
+18:13
+That's not going to best service a community. And we just have to have awareness about that.
+
+James Young
+18:19
+And I'm glad we're talking and kind of understand this.
+
+James Young
+18:22
+And, you know, it's hard for those that haven't experienced this to, like, really grok.
+
+James Young
+18:29
+But as Zuri was saying, like, this is why daos fail, right?
+
+James Young
+18:35
+And so, like, we understand at least we're one step ahead of others and this is the competitive advantage that we have that that's all I wanted to add.
+
+Alex Lumley
+18:47
+Like it cool. So a couple things next week. I know, Tosh, you're out next week, right?
+
+Alex Lumley
+18:54
+You're out Monday through Friday.
+
+Natascha Tiotuico
+18:58
+Monday, Tuesday. I'll still be kind of part time here, but Wednesday to Friday. Yeah.
+
+Alex Lumley
+19:04
+So I see like kind of four work streams over the next week or so.
+
+Alex Lumley
+19:11
+Just one, this community discord bot delivery towards the Gaia tg, which includes, it bundles the Orchestrator, bundles, the quiz bundles, a few other things.
+
+Alex Lumley
+19:22
+But that, that also includes not only the development, that includes adoption by Gaia for these items.
+
+Alex Lumley
+19:32
+And I'll just briefly go through them, then we can kind of talk about them and I'll make sure that I write out something to send it out.
+
+Alex Lumley
+19:39
+The second one is the fundraise. So that's like kind of Matt's thing, right?
+
+Alex Lumley
+19:44
+It's the fundraise and how, like he wants to get some funds in immediately.
+
+Alex Lumley
+19:48
+So part of that is like, we need to make the argument of, you.
+
+James Young
+19:51
+Know, why should someone invest?
+
+Alex Lumley
+19:52
+What does that look like? How does it all include.
+
+Alex Lumley
+19:54
+And another part of that is this registry or this yellow page that we're talking about.
+
+Alex Lumley
+19:59
+Having something that investors can look and feel with and play with is great for the guy at TG and great for mother looking.
+
+Alex Lumley
+20:05
+So that's like another part of that.
+
+Alex Lumley
+20:07
+This third one is this kind of like kind of operation/strategy, Massfin setting up Telegram, group Slack, you know, getting the meetings right, who's involved in what stuff, etc.
+
+Alex Lumley
+20:19
+And I would even argue that part of that that is included is these like Gaia meetings or, sorry, all of our meetings and putting them into the Gaia node now, because that is actually critical just for how we operate.
+
+Alex Lumley
+20:34
+The fourth one, which is, which is something that the devrel team of Gaia is working on is this Gaia context node and just making that work, like before we get out to all the agent workflows and all that stuff.
+
+Alex Lumley
+20:47
+Right now it's just not working.
+
+Alex Lumley
+20:49
+And I think we need to make it work and allow us to actually input everything.
+
+Alex Lumley
+20:52
+So to me, those are kind of the four things that I see.
+
+Alex Lumley
+20:55
+I think there is a fifth one of the community, of the MOTHER community and kind of what are we doing with that?
+
+Alex Lumley
+21:02
+And I think like that's something that 08 tosh coach J are kind of defining.
+
+Alex Lumley
+21:08
+Like, what is the roadmap for this? Is that fair?
+
+James Young
+21:12
+Yeah, I would say that.
+
+James Young
+21:14
+The way I would shortcut a lot of this is just to use OpenAI right now as a reference implementation because it works, it's centralized.
+
+James Young
+21:24
+But like I think that if we can point to a system that is somewhat working and then we say to the Gaia devreaus, it's missing these four or five things.
+
+James Young
+21:37
+Yep, that is a better kind of prd, if you will.
+
+James Young
+21:43
+Then having to figure out what all the requirements are, get everyone on the same page and coordinate.
+
+James Young
+21:49
+This allows us to move forward with our hypothesis and then understand the process and how we adjust.
+
+James Young
+21:59
+And let's not create a roadblock or dependency on the Gaia dev rails to get Gaia up and running.
+
+James Young
+22:07
+Let's circumvent that by using a centralized system.
+
+James Young
+22:11
+And I think Matt was saying that's their strategy at Gaia as well. They play around with OpenAI.
+
+James Young
+22:17
+That's why the Gaia API is one for one compatible with OpenAI, because then you don't have to reconfigure your system, you just switch over to the Gaia node.
+
+James Young
+22:28
+For us to just stay nimble and move quickly and not be bottlenecked by the Gaia devs, let's just use OpenAI, let's use the ChatGPTs there and let's refine how we coordinate so we're not waiting for Gaia devs or the dev rels to boot their thing up.
+
+Alex Lumley
+22:50
+I guess you have some thoughts around how we can actually use the ChatGPT with the Gaia node has all the context and all the notes or sorry, with the GitHub.
+
+Alex Lumley
+23:01
+That's cool. So we're still uploading everything to GitHub and we probably need to.
+
+Alex Lumley
+23:05
+So then in this kind of context node, the Gaia. In this context.
+
+Alex Lumley
+23:10
+No, in this, in this context, repository. That's, that's a better term for it.
+
+Alex Lumley
+23:16
+Gaia is like one substream of that.
+
+Alex Lumley
+23:19
+The other one is that we just need to get better about uploading everything.
+
+James Young
+23:22
+Yeah, like, because when, when you point the chatgpt to a live stream, it knows how to transcribe and get all of that already.
+
+James Young
+23:35
+We don't have to wait for the guy at DevRels to create that system, but it allows us to kind of fine tune our process without having to wait for the Gaia system to do what we want it to do.
+
+James Young
+23:48
+Because the ChatGPT system already does that.
+
+Alex Lumley
+23:52
+Yep.
+
+James Young
+23:53
+Not that we're just going to use OpenAI or ChatGPT, but let's start with it.
+
+Alex Lumley
+23:58
+I think that makes sense.
+
+Alex Lumley
+23:59
+And so as I look at this list, just a reminder, like the community Discord bot, Orchestrator agent fundraise this kind of operations, which includes strategy 306094 is this context inside a kind of Gaia node.
+
+Alex Lumley
+24:13
+And then fifth is like the community of Mother gtm.
+
+Alex Lumley
+24:15
+James, I actually think the biggest risk here is on the community Discord Bot and the Orchard agent for two reasons.
+
+Alex Lumley
+24:24
+One, because it's so soon the guy at tge.
+
+Alex Lumley
+24:28
+Two, because it's just you and it's even though you're awesome, it's just you. Right.
+
+James Young
+24:34
+And I have a full time job.
+
+Alex Lumley
+24:36
+Oh, yeah. So just 30% of you. Right?
+
+James Young
+24:41
+Yeah.
+
+Alex Lumley
+24:43
+So my question is on that.
+
+Alex Lumley
+24:48
+My understanding is that you're going to deploy the Orchestrator and then you'll deploy the Discord Bot reference implementation and you'll have this kind of workflow that I can come to you with a GitHub campaign that if I have a campaign drafted, then you can sit with Windser for 10, 30 minutes, an hour, three hours to build that out.
+
+Alex Lumley
+25:09
+Is that correct?
+
+James Young
+25:11
+Yeah, depending on what that is.
+
+James Young
+25:14
+If it's just, oh, go to this GitHub, you star the repo or you fork the repo and then you get some seeds.
+
+James Young
+25:21
+That's simple. So I'm really hoping to get that like marketing requirement as soon as possible.
+
+James Young
+25:28
+Then I can scope out like how much work it will be cool.
+
+Alex Lumley
+25:35
+So I can draft that marketing requirement. And what I still foresee the risk there is like cool.
+
+Alex Lumley
+25:41
+You're going to deploy the Orchestrator, it's going to have bugs, you're going to want to change the ui, you're going to want to do these things.
+
+Alex Lumley
+25:46
+Should be a bunch of time and stuff on that.
+
+Alex Lumley
+25:48
+And then if we work backwards from I think I heard they're aiming for June 25th, say we have three different features, right, that we want to put three different agents that we want to deploy for Gaia, by the time you deploy early next week, the Discord Bot, then we make some improvements with the Orchestrator, that's ended next week.
+
+Alex Lumley
+26:06
+Then we have to get adoption from them and that's another week and then you're still working, maybe making changes, we're testing it, et cetera.
+
+Alex Lumley
+26:13
+Or all of a sudden getting close to the middle of January or June.
+
+James Young
+26:16
+Yeah, it's tight. It's very tight. That's why we have to stay focused.
+
+James Young
+26:22
+But it's like there's this trade off of if we get another dev or something to help out, then I have to coordinate with them, which means I don't have time to code.
+
+James Young
+26:34
+And then there's like an upfront cost, sunk cost before that other dev becomes proficient in order to scale so it's like, it's this weird thing.
+
+James Young
+26:48
+Hold on one second.
+
+Alex Lumley
+26:49
+Okay, is this helpful? This is what kind of what we're talking about.
+
+James Young
+26:57
+So you know, the easiest hack. What if I, if I can bring Gita back? That would, that would.
+
+James Young
+27:12
+Because there's no context and he can just immediately help me because he's fully up to speed already rather than like some other dev that even push.
+
+James Young
+27:26
+Toby doesn't would need to kind of.
+
+Alex Lumley
+27:31
+My sense is Toby's a little bit junior and he tends to go hard down. Doesn't.
+
+Alex Lumley
+27:35
+It doesn't seem like he's coordinated as well with us.
+
+James Young
+27:37
+He's. Well, yeah. I mean I've just worked with Geeta for, you know, multiple years too. Right.
+
+James Young
+27:43
+And so there's that relationship and short handing of things because it's just easier.
+
+James Young
+27:51
+I, you know, and Toby is like different time zone.
+
+James Young
+27:54
+So realistically when I look at what's in front of us, Geeta would be the, the person to do it.
+
+James Young
+28:02
+But to be quite honest, like Geeta has been a little bit like soured on like because he doesn't even have his contributor agreement signed and Matt's working through all of that and all, all of that.
+
+James Young
+28:15
+So this is where you know, he's just like. It's been a weird kind of.
+
+James Young
+28:21
+Because I'm his boss at Collab Land so I could like tell him to do stuff but at the same time he doesn't have the best feelings when it comes to.
+
+James Young
+28:31
+To mother and I don't want that to sour his kind of contribution at Collab. It's kind of tricky.
+
+Alex Lumley
+28:39
+I get that.
+
+James Young
+28:41
+You know what I mean? His morale is what I'm trying to protect.
+
+Alex Lumley
+28:47
+So. So then okay, that makes sense.
+
+Alex Lumley
+28:50
+And so if we like say we scope it down because I think in reality it's almost like whatever we can get done by next week and depending on if they end up shifting stuff.
+
+Alex Lumley
+29:00
+It's like can we have the orchestra done and can we have orchestra discord quiz and polling and maybe this GitHub thing.
+
+James Young
+29:08
+Well, well I tell you with the GitHub thing, I know Geeta can do it in like a day, but let's say three days, let's triple it.
+
+James Young
+29:21
+Yeah, it's a sure thing.
+
+Alex Lumley
+29:25
+But yeah.
+
+Natascha Tiotuico
+29:27
+So if I understand it correctly, what, what like we're trying to find either a plan B, some support to you.
+
+Natascha Tiotuico
+29:35
+How. How can we. Like what are our options? So here I see the option.
+
+Natascha Tiotuico
+29:43
+We could solve it by talking to Matt.
+
+Natascha Tiotuico
+29:46
+Please help us make a piece of paper, do a contribution agreement.
+
+Natascha Tiotuico
+29:54
+With Gita to show that there's more security there.
+
+Natascha Tiotuico
+30:01
+And then it would become an option to discuss this together. Yes. So.
+
+Natascha Tiotuico
+30:09
+So the blocker is Alex, and maybe you have the best thing. But Matt or Matt's fellow.
+
+Natascha Tiotuico
+30:18
+Max fellow could tell him, let's task his pillow with him.
+
+James Young
+30:25
+Yeah, exactly.
+
+Natascha Tiotuico
+30:26
+To remove this blocker or this bottleneck, we would need a contribution agreement with Gita.
+
+James Young
+30:36
+Yeah. I mean, this is totally my opinion.
+
+James Young
+30:42
+Is that, like, just to, you know, I don't want to, you know, speak for Gita, but he's asked many times for many months, so I need to think about.
+
+James Young
+31:00
+This is a human side of things.
+
+Alex Lumley
+31:02
+Yeah.
+
+Natascha Tiotuico
+31:03
+And I think, sure. Like, we can't just come. Okay. Sign the piece of paper and now everything's good.
+
+James Young
+31:09
+Right.
+
+Natascha Tiotuico
+31:10
+We would need to do something nicer around it and show that it is a court contribution or.
+
+Natascha Tiotuico
+31:17
+Or maybe like, even scope an agent out and say, okay, let's do this as.
+
+Natascha Tiotuico
+31:22
+As your contributor of an agent. Maybe that's also a way to go to. To show the.
+
+Natascha Tiotuico
+31:34
+The immediate expression of what. What this can bring to him personally.
+
+Alex Lumley
+31:41
+Yeah.
+
+James Young
+31:42
+There's, like a range of, like, you know, gonna say no completely and gonna say yes completely.
+
+James Young
+31:49
+He's not starting in the middle at zero.
+
+Natascha Tiotuico
+31:51
+No.
+
+James Young
+31:52
+You know what I mean? It's a little bit more yes. You know, so, like, how quickly can we.
+
+James Young
+31:57
+And what is that? I don't know. I'm not. I can't speak for him.
+
+Natascha Tiotuico
+32:02
+Yeah. And maybe it's even better for Alex or me to speak to him instead of you so that.
+
+Natascha Tiotuico
+32:07
+So that you don't have that impression on him. Okay.
+
+Natascha Tiotuico
+32:13
+You as collab land boss as asking him for the favor, but maybe it's a thing that Alex or I could.
+
+Natascha Tiotuico
+32:20
+Could take off your plate to.
+
+Natascha Tiotuico
+32:22
+To remove that level that Gita feels comfortable telling us no, or that's not the way I want to go.
+
+Natascha Tiotuico
+32:29
+And you're still fine with it, no matter what comes out of it.
+
+Alex Lumley
+32:35
+So what I would propose is that either way, we.
+
+Alex Lumley
+32:37
+I need to talk to Matt also, because I no longer like.
+
+Alex Lumley
+32:40
+I don't think we really have, like, a notion or a place to store, like, where our work goes.
+
+Alex Lumley
+32:44
+We don't have, like, a canvas of where to work now.
+
+Alex Lumley
+32:46
+But I think either way, there's this major potential red flag in terms of delivery in enough time to drive adoption for the guy at tge.
+
+Alex Lumley
+32:55
+And we have to look at the options of what could be included in that.
+
+Alex Lumley
+32:59
+Whether it's Gita and setting up a.
+
+Alex Lumley
+33:00
+Setting it up in some way that he might say yes, whether it's scoping down and saying we're doing less or.
+
+Alex Lumley
+33:08
+Or potentially saying it's still scoping down and also bringing.
+
+Alex Lumley
+33:11
+Asking Toby to come in, but giving Toby more other things that are kind of further along until he gets ramped up.
+
+Alex Lumley
+33:17
+Either way, we can.
+
+James Young
+33:20
+Yeah. To me it's like, because he's.
+
+James Young
+33:23
+Kobe's employed at Gaia, the trade off would be the work that I would.
+
+James Young
+33:29
+I thought that Toby was going to lead, was helping get the Gaia node to a place where it can ingest and like, that work won't be done.
+
+James Young
+33:38
+But if we go with OpenAI, then we can have like kind of a patch for now, but then that's not going to show for the guy at TGE how we worked out.
+
+James Young
+33:50
+So there's like all these kind of.
+
+Alex Lumley
+33:52
+That's why it comes back to me of. I was almost.
+
+Alex Lumley
+33:54
+I was actually thinking about sending Sydney a voice note, being like, hey, Sydney, the real question is what is more valuable for the Gaia tge?
+
+Alex Lumley
+34:01
+Because if the goal is what will help Gaia the most? And I talked to Ryan Palomari a little bit.
+
+Alex Lumley
+34:05
+They're head of marketing about this and what they want is use cases.
+
+Alex Lumley
+34:07
+They want to be able to talk and show about use cases.
+
+Alex Lumley
+34:09
+Well, then which one is the use case that will actually show the most?
+
+James Young
+34:13
+Right. That's the question. So this is where it comes from. Demand generation. What are they demanding?
+
+James Young
+34:18
+And then we. We fill in the pieces there based off of our resources or our constraints.
+
+Alex Lumley
+34:25
+Cool. I can frame that up as a question to the right people. What is the.
+
+Alex Lumley
+34:30
+What is the thing that will drive the most use case engagement? And then we're just.
+
+Alex Lumley
+34:42
+And I think either way, we're still trying to get. As.
+
+Alex Lumley
+34:46
+As Tosh said, we're still trying to get pathways towards these different surface areas.
+
+Alex Lumley
+34:51
+And it's a matter of versioning when and how much for each one.
+
+Alex Lumley
+34:55
+Because we're still going to have the Orchestrator, we're still going to have this other stuff, so.
+
+Alex Lumley
+34:58
+Cool.
+
+James Young
+35:00
+Yeah. But I think that. I think you defined the risk accurately.
+
+Alex Lumley
+35:09
+Cool. Tosh, anything else? Because I know we talked a bunch about this earlier today.
+
+Natascha Tiotuico
+35:14
+Yeah. Maybe digging into the timeline. So next week, like, we're. We're testing out the quiz agent.
+
+Natascha Tiotuico
+35:23
+So I'm not available. Savior, do you have like, do you have enough admin rights to.
+
+Natascha Tiotuico
+35:32
+To implement it in Mother, or do you need Savior or me for that? Savior.
+
+James Young
+35:38
+Yeah, Xavier would be helpful because then that allows me to stay focused and not. Context switch.
+
+Natascha Tiotuico
+35:45
+Yes.
+
+Natascha Tiotuico
+35:45
+Okay, and so when we deployed the quiz agent, how long do you approximate for like the poll and the quest?
+
+Natascha Tiotuico
+35:57
+Can we support you with any requirements or. Well, it all comes from the campaigns basically.
+
+Natascha Tiotuico
+36:05
+But what, what would be our estimates? Like would we per week roll out a new one?
+
+Natascha Tiotuico
+36:13
+Would that like, is that realistic?
+
+Alex Lumley
+36:16
+Who knows?
+
+James Young
+36:16
+Well, so for me, by myself because you know, at Kleblin I have to do, I have to.
+
+James Young
+36:25
+I'm kind of like the janitor. So I don't know what mess is going to come up and what I need to clean.
+
+James Young
+36:32
+So that takes my priority where I know, like I know with Gita and what is on his plate right now with collab land.
+
+James Young
+36:43
+This aligns. This totally aligns. And I know that if, man.
+
+Alex Lumley
+36:53
+My.
+
+James Young
+36:53
+Mind is just going like I know with Gita we can get all of this done in probably like two weeks max.
+
+James Young
+36:59
+I would say a week and let's double it two weeks.
+
+James Young
+37:01
+We can get all this, we can get like the X cards, we can get the GitHub and we can get the quiz poll and quest agents have this multi platform thing, at least a poc of that.
+
+James Young
+37:13
+Because he's working solely on the account kit, I can easily communicate to him and I can show him in demo code how the platform is all stitched together via OAuth.
+
+James Young
+37:26
+I've actually talked to him about this and he's like, oh, that's a great idea.
+
+James Young
+37:30
+I was going to put it on my plate to do it, but this would align with him because he's a core developer of the account kit.
+
+James Young
+37:39
+I know that he'd be able to implement this straight away just what he's.
+
+James Young
+37:46
+Because I know intimately what he's working on right now because I assign him the work.
+
+James Young
+37:50
+So like this totally aligns and so I have all his context, I have the context of mother and what we're doing here and yeah, yeah.
+
+James Young
+38:05
+So it's an interesting, it's an interesting conundrum. Yeah, yeah.
+
+Natascha Tiotuico
+38:14
+So Alex, could you take this to do and, and make your magic?
+
+Alex Lumley
+38:22
+It's amorphous. I, I, yeah, it's, it's amorphous.
+
+Alex Lumley
+38:26
+Like at the high level we want to just be able to reduce the risk for, for delivery and originally I was going to call it delivery of the Discord agents, but I think in reality it's delivery of whatever will help the guy at TD the most.
+
+Alex Lumley
+38:41
+Whichever.
+
+James Young
+38:42
+That's right.
+
+Alex Lumley
+38:44
+Yeah, I can, I can take it as a to do and continue to ask this question.
+
+Alex Lumley
+38:48
+And James, I'll follow up with you on like what the next steps are.
+
+Alex Lumley
+38:54
+But I, and I think, I think a little bit of what we need is to just write out a few notes of what these things are.
+
+Alex Lumley
+39:04
+And by the way, James, one thing that I will get to reduce the risk that Gaia doesn't adopt it as much is Ian is the one who is handling a lot of the Discord things.
+
+Alex Lumley
+39:15
+He knows what quest they're doing and Xavier intimately knows what kind of stuff they do in Discord.
+
+Alex Lumley
+39:21
+So I'm getting from them the specific requirements of okay, what would they actually adopt?
+
+Alex Lumley
+39:26
+And getting agreement from Ian so that, so that we know, okay, at least we'll have the adoption on that end.
+
+Alex Lumley
+39:31
+Now can we actually deliver it? That's where the question of Toby.
+
+James Young
+39:35
+Yeah, the biggest kind of question mark and where, now that we've talked about this is that we just gotta, I think just gotta get Matt like up to speed because, you know, I think Ian reports to Matt and like Matt is like, you know, doing the contributor, like all of that.
+
+James Young
+39:58
+So there's some context that we don't know where Matt's coming from.
+
+James Young
+40:04
+So we just have to give our context fully to Matt and then say we got to make a decision by, I don't know, three days from now.
+
+James Young
+40:12
+Right.
+
+Alex Lumley
+40:13
+What decision? Oh, the, the decision on the contributor.
+
+James Young
+40:16
+Agreements or the decision to say, okay, well then, because Matt is the stakeholder here, that could help cut through a lot of this stuff.
+
+James Young
+40:27
+Right.
+
+James Young
+40:28
+And we can try and coordinate around Matt, but if, and I don't know what Matt's situation is, but if we can get Matt to like give him all of our context and tell Matt, hey, what do you think?
+
+James Young
+40:42
+Sit on it for a day or two and get us your, your opinion here.
+
+James Young
+40:49
+And then he can coordinate with Ian, he can coordinate with, you know, everyone.
+
+James Young
+40:52
+He can get this higher level context and then make a decision, help us, guide us to a decision.
+
+Alex Lumley
+41:00
+Yeah, and I, I think we can get Matt's, we, we can get Matt's feedback on it.
+
+Alex Lumley
+41:05
+But at the end of the day, like we still need to go to Ian and understand what.
+
+Alex Lumley
+41:09
+Because Matt doesn't know what Ian is doing in Discord in the nxp. So I still need to go to him.
+
+Alex Lumley
+41:17
+But, and Matt doesn't know exactly what Toby is doing because Sydney's running that. Right?
+
+James Young
+41:24
+Yeah.
+
+Alex Lumley
+41:25
+So, but anyways, I hear you, but.
+
+James Young
+41:28
+Then Matt can talk to Ian, Matt can talk to Sydney and say, hey, give me the tldr.
+
+Alex Lumley
+41:32
+Okay.
+
+James Young
+41:32
+And then he can get briefed by them because they all work at Gaia and Hierarchically, he's the one in charge.
+
+James Young
+41:38
+So then he can. And I trust and assume that like Matt will make the best decision for Gaia. Right.
+
+James Young
+41:45
+And so we just have to let him know where we're at.
+
+James Young
+41:49
+This is kind of the coordination organizationally.
+
+James Young
+41:52
+Like if we had this all working, I would imagine in a future state, Matt instead of having to like listen to the recordings, blah, blah, blah, he would just ask his AI and his AI would like, you know, all of that kind of stuff.
+
+James Young
+42:03
+But we, we're getting there. Um, but this is what I think we're. The.
+
+James Young
+42:10
+The missing piece is Matt in the room.
+
+Alex Lumley
+42:12
+Cool.
+
+James Young
+42:12
+Is what I know.
+
+Alex Lumley
+42:14
+I know Matt said he wanted to catch up with you one on one. So you can either brief him on it. I'm.
+
+Alex Lumley
+42:18
+I'm also happy to write a message to him or just feel free to, to, to invite me if you need me to call.
+
+Alex Lumley
+42:26
+Yeah, yeah, that makes sense.
+
+Alex Lumley
+42:32
+By the way, the last thing I will say to you, James, I pointed this out to Matt on the call that he and I had the one on one on strategy stuff.
+
+Alex Lumley
+42:39
+It's interesting the way that you frame things and how he frames things.
+
+Alex Lumley
+42:42
+You always come from the community perspective. He always comes from the agent's perspective.
+
+Alex Lumley
+42:47
+We need X amount of agents. We. And you're thinking about the communities etc.
+
+Alex Lumley
+42:50
+And that's where it was this realization of, oh, we need both those and we need both those for different reasons.
+
+Alex Lumley
+42:54
+So. Right.
+
+James Young
+42:55
+So the way I think about it, I think about it from a supply and demand side.
+
+Alex Lumley
+42:59
+Yeah.
+
+James Young
+43:00
+Like we try to do it from the supply side. And I think that's where Matt's at.
+
+James Young
+43:04
+Because he wants to sell agents because Gaia works and is successful, the more useful agents there are.
+
+James Young
+43:12
+But I think that in order to tap into that supply, we actually have to have.
+
+James Young
+43:19
+We have to start from the demand side, was my insight.
+
+Alex Lumley
+43:21
+Yep. I think that's right.
+
+James Young
+43:23
+And the demand comes from communities that are. Or projects that are having these TGEs. That. That's.
+
+James Young
+43:30
+That was my insight and turn us just flip it.
+
+Alex Lumley
+43:34
+By the way, I found out from lit that they are in July.
+
+Alex Lumley
+43:37
+So it is nice that like they're targeting July.
+
+Alex Lumley
+43:39
+And I think all these teams might end up being a little bit delayed, but I think in reality they're starting to line up.
+
+Alex Lumley
+43:44
+You know, Gaia, Gaia end of June, the Lit sometime in July. Intuition sometime August. Yeah.
+
+James Young
+43:54
+If we just bang them out once a month and then like August, September maybe if.
+
+James Young
+43:59
+Depending on how those TGEs go, might set us up for the mother TGE the month after that.
+
+Alex Lumley
+44:05
+Yep.
+
+James Young
+44:05
+And it's just we, we bang it out.
+
+James Young
+44:07
+So this is the kind of emergent design that it seems to be lining up.
+
+Alex Lumley
+44:14
+And one, and just, just one note on the tge, the thinking is we would fundraise something before then.
+
+Alex Lumley
+44:20
+Yes. Yeah. Like some sort of pre sale or something.
+
+James Young
+44:25
+Yeah, absolutely.
+
+Alex Lumley
+44:26
+Cool.
+
+James Young
+44:26
+Yeah.
+
+Alex Lumley
+44:27
+Anything else, guys? All right. Okay.
+
+James Young
+44:33
+Happy Friday. Thanks.
+
+Alex Lumley
+44:36
+Happy Friday yourself. Talk to the.
