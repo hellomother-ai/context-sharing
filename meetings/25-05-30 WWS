@@ -1,0 +1,1424 @@
+Alex Lumley
+00:03
+I think it. I do not see it. Tosh.
+
+James Young
+00:08
+We have three people, humans and we have eight recorders. I see twice.
+
+Alex Lumley
+00:16
+Tash, she's on her computer.
+
+Natascha Tiotuico
+00:19
+Yes, I'm on my computer to see what. What's demonstrated, so.
+
+James Young
+00:24
+Oh, I see. Yeah. I don't see your fireflies or what do you use?
+
+Natascha Tiotuico
+00:31
+Fireflies.
+
+James Young
+00:32
+Yeah, I see.
+
+Natascha Tiotuico
+00:33
+It hasn't asked yet.
+
+James Young
+00:36
+No, not yet.
+
+Alex Lumley
+00:39
+And just.
+
+Alex Lumley
+00:40
+James, while we're waiting for some other people to join, I'll just quickly tell you, I didn't get a chance to respond to your message, but I actually loved the message that you sent and I actually shared it with Tosh because I thought it was a very good approach.
+
+Alex Lumley
+00:53
+This is the Slack message you sent me a few hours ago about.
+
+Alex Lumley
+00:56
+I was asking you to kind of demonstrate what you've built. So two things.
+
+Alex Lumley
+01:01
+One is that I now have like I did a little bit of work with Tasha.
+
+Alex Lumley
+01:05
+We have a better understanding of where things are in the GitHub.
+
+Alex Lumley
+01:08
+I'm going to do some work over the next few days and try to unpack it myself a little bit more.
+
+Alex Lumley
+01:13
+And then anything that I don't understand, I'll just come to you for questions and I can put it in a channel in Slack and ask them openly.
+
+Alex Lumley
+01:21
+And your point on creating the software architecture document from that, I'll do it myself and then we can figure out does this pass?
+
+Alex Lumley
+01:32
+Can I ask it that way so you don't have to share anything extra today?
+
+Alex Lumley
+01:37
+Secondly, I will say the reason why I brought up the software architecture thing is because when working through with Matt kind of this investor pitch, we need a software architecture thing for the investor pitch and also so that we can tell the devs how things work.
+
+Alex Lumley
+01:52
+And so I'm kind of doing one of those first steps of and I understand this well enough that a dev can then come in and see see how it works.
+
+James Young
+02:00
+Well, you know what I would recommend is that we use this as training for a investor agent or a PRD agent.
+
+James Young
+02:14
+Like it's. We're not going.
+
+James Young
+02:15
+It's not going to be perfect at first, but we have the raw materials to train and refine it. Right.
+
+James Young
+02:23
+It's not like you have an agent and the agent is perfect.
+
+James Young
+02:26
+Like this is where we need to be refining it and telling it, but we don't have those.
+
+James Young
+02:33
+And this is what I was hoping we.
+
+James Young
+02:34
+And when I was talking with the guy Debros yesterday that I'm hoping we get help with to refine that.
+
+James Young
+02:41
+So let's say, and I want to turn this on its head and maybe we're not ready for it yet, and maybe the market isn't ready for it yet.
+
+James Young
+02:49
+But the investor meeting should not be the first touch point.
+
+James Young
+02:55
+It may be very casual and social so that you can see who the humans are behind the project, but the investor, instead of having to read documents and view a slide deck, is asking the investor agent all the questions and it's completely up to date.
+
+James Young
+03:11
+There's no lag, there's no, you know, miss holes or anything.
+
+James Young
+03:18
+And we want to train these like different work stream agents and we have the raw materials for that.
+
+James Young
+03:26
+But, you know, instead of.
+
+James Young
+03:29
+And we're going to have to transition into like this kind of, of working, but this is going to be how we stay highly aligned and it allows us to focus on our own roles and responsibilities and let the AI do the kind of busy work, the coordination work.
+
+Alex Lumley
+03:46
+So I'm not going to go down the. What's up, what's up, Alessandro? We'll get into the.
+
+Alex Lumley
+03:50
+What we shipped momentarily. I'll just finish responding to you, James, on the investor agent thing.
+
+Alex Lumley
+03:56
+I'm not going to go down the rabbit holes, like what it could look like and do all that.
+
+Alex Lumley
+03:59
+I will say, though, that I don't talk with Tosh, work with Tosh.
+
+Alex Lumley
+04:03
+There have been moments where we have said this is the place where we could train and, or create a workflow agent, like a roadmap agent, or even potentially using an investor pitch or make it a lean canvas.
+
+Alex Lumley
+04:16
+The problem is that right now Tasha and I don't have the underlying structure that we need to be able to create, deploy and train an agent to do that.
+
+Alex Lumley
+04:31
+And I think that's what a lot of your call was yesterday with the Devrel team was like, how can you guys make, how can we make prompts or GPTs within Gaia so then Alex and Tosh can actually do it and have it connect to the context.
+
+James Young
+04:48
+Yeah, I think that's going to be hugely important. This is, I think, how we use agents as well.
+
+James Young
+04:58
+Like consider this part of what we're building. Right.
+
+James Young
+05:03
+It's not, because I think the framing of it is kind of obsolescent now. Right. We're coming.
+
+James Young
+05:17
+We're trying to do this in a skeuomorphic way.
+
+James Young
+05:20
+And I don't want us to take old frameworks and apply them to the new technology because this is how you limit yourself.
+
+James Young
+05:32
+So I would encourage us all to go through the trials and tribulations, the mistakes, to make sure that we're creating something net new, like this, that's going to be exponential returns for us in like a month or two.
+
+James Young
+05:53
+It's not even that we're investing like a lot of time and energy, but this is the moment and this is the time to like, maybe take a little bit of a pause to make sure that we have this all constructed correctly, because this is going to be part of our narrative.
+
+James Young
+06:12
+So I know that the tools don't exist, so I'm not. So let me take a step back.
+
+James Young
+06:18
+I'm not saying that we need to implement these tools, but at least in this moment in time, while it's fresh in our head and while this is a pain point and this is something that we can all coordinate on this window of time, let's at least try and figure out what it would take to do that and then we can decide if we want to do that or not, instead of just it aside and just continuing the old way of doing things.
+
+Alex Lumley
+06:45
+So, so just. Oh yeah, and by the way, I'm totally on board with that.
+
+Alex Lumley
+06:51
+My only point is that right now, like, Matt made an awesome strategy document yesterday for us to take all our conversations and have a.
+
+Alex Lumley
+07:00
+There is no good way for us to take our conversations and have a strategy agent right now.
+
+Alex Lumley
+07:06
+And that's what's kind of missing.
+
+Alex Lumley
+07:08
+Like we can do it in ChatGPT, but we have to upload all of it ourselves.
+
+Alex Lumley
+07:13
+So I think that's like, if we can figure out how to do that with the guy at DevRels to set up that basic infrastructure so then we can iterate on that.
+
+James Young
+07:22
+What if we did this? This is just off the top of my head.
+
+James Young
+07:26
+What if we did it using ChatGPT and that becomes a reference implementation so the dev rels know exactly what to implement because we figured out at least we're one step ahead in terms of the process and we have like a base model instead of asking them things that don't quite exist yet and try to imagine and be on the same.
+
+Alex Lumley
+07:49
+Page as us, I think that'd be awesome. And here's the first one that like I did.
+
+Alex Lumley
+07:54
+So I wanted to make a lean canvas for mother, right?
+
+James Young
+07:56
+Yeah.
+
+Alex Lumley
+07:58
+And so I made a GPT, right? And I just put in a bunch of books.
+
+Alex Lumley
+08:01
+And what I found was that there's two big pain points that I found.
+
+Alex Lumley
+08:06
+One is that I was putting in PDFs of books and GPT doesn't do great with PDFs even with all the models getting better then, right?
+
+Alex Lumley
+08:14
+It doesn't do great with PDFs and doesn't do great with large PDFs.
+
+Alex Lumley
+08:17
+The second thing was that then all of a sudden I had to figure out what am I uploading to this creator to give the context of mother.
+
+Alex Lumley
+08:24
+So it needs like the scaffolding of the agent and it needs to context the mother.
+
+Alex Lumley
+08:27
+And so if we could figure out how to take something like these GPTs and actually connect it to the Gaia node that has all the context and say here's the node, reference this and leverage the scaffolding, that would be terrific.
+
+James Young
+08:41
+What I would recommend then is to. I see your hand up real quick.
+
+James Young
+08:46
+Just a response to Alex, Launch the GPT.
+
+James Young
+08:49
+Have all of us install that GPT and then in that GPT, because I think GPTs also have memory.
+
+James Young
+08:57
+You can say to that GPT when you're chatting with it, you point it to the GitHub URL and then you say save it to your long term memory.
+
+James Young
+09:07
+The GPT is part of a project. There might be a Lean Canvas project.
+
+James Young
+09:15
+In that Lean Canvas project you have this Lean Canvas GPT with some base rag stuff like you're doing in terms of knowledge and then you point it to the context and you can maybe even point it to another LLM endpoint.
+
+Alex Lumley
+09:31
+Actually this is the difference, and I'll take this as a tool to explore this.
+
+Alex Lumley
+09:36
+But one big difference, that this is a GPT not within the actual conversations themselves.
+
+Alex Lumley
+09:44
+It's a GPT in and of itself.
+
+Alex Lumley
+09:46
+Because you know how like in the projects in ChatGPT you can add a bunch of context and relevant knowledge, but then I can probably store that memory and pull it out of a GPT.
+
+Alex Lumley
+09:53
+You know what I mean?
+
+James Young
+09:55
+Well, I think you can have the GPT because the GPT inherits the kind of base chat from OpenAI.
+
+Alex Lumley
+10:02
+Yeah.
+
+James Young
+10:03
+So you can have that. Your GPT be your, your agent, essentially.
+
+Alex Lumley
+10:09
+Gotcha.
+
+James Young
+10:09
+And, and so it's like you're doing it at different levels.
+
+James Young
+10:12
+You don't want to do it all at the core GPT level.
+
+Alex Lumley
+10:17
+So, so what, what, what I promise is I will explore this Lean Campus creator one and see if there's a way that we can tie it to the Gaia node.
+
+Alex Lumley
+10:24
+I'll explore that.
+
+Alex Lumley
+10:24
+And then, Matt, just because we've already been talking about it, the, the investor deck, let's see if we can do the same thing with the investor GPT, because I know there's a bunch of those basically making a deck for, for mother.
+
+James Young
+10:37
+Yeah, and, and I apologize. I just wanted to clarify this. I see. Tosh. And then Matt.
+
+Natascha Tiotuico
+10:45
+I think the Solution was actually that we're supposed to sit or for example, for the roadmap agent that I sit together with the dev rels, use the context agent, say where I'm like kind of having troubles and like kind of live stream it to see how, how we can approach this solution instead of just giving them a reference, but kind of also saying, okay, this is what I want to achieve.
+
+Natascha Tiotuico
+11:14
+And working very closely with the devrels to kind of also stream this and get some marketing around it to slowly make progress in the right direction.
+
+James Young
+11:26
+What I'm suggesting is that we actually do this all in.
+
+James Young
+11:30
+If it's okay with the team, do it all in ChatGPT, OpenAI for now and then we have the base process because OpenAI can read YouTube and it could do all of that already.
+
+James Young
+11:44
+And then once, once we get that kind of like process going, we'll figure out the holes that ChatGPT does not meet and then we can, instead of like trying to stumble through this with the Gaia dev rails, what we're doing is we're creating like a, a strawman that it's only temporary just to kind of get us off our feet and help us all look at something specific.
+
+James Young
+12:11
+Because when we're talking about this, I don't think the Gaia devils have full context in terms of what we've been exploring this last month.
+
+James Young
+12:18
+They want it to be kind of embodied in like a product.
+
+James Young
+12:22
+And if we use kind of OpenAI chatgpt as a reference and it's easier to say, hey, it's like this, but blah, blah, blah, rather than saying all the things that we wanted to do, it might be a better, faster kind of shortcut approach is what I'm proposing.
+
+Natascha Tiotuico
+12:45
+Okay, I'll try it out.
+
+Alex Lumley
+12:48
+Makes sense to me. Cool. Well, sorry guys.
+
+Alex Lumley
+12:50
+I guess we started on a topic, but for the what we shipped call.
+
+James Young
+12:56
+Wait, I think. Oh, Matt's gone now. Yeah, Matt.
+
+Alex Lumley
+12:59
+Matt just left quickly.
+
+James Young
+13:01
+Oh shoot. He had his hand raised. Oh man, sorry.
+
+Alex Lumley
+13:04
+He actually told me. Oh, there he is.
+
+James Young
+13:07
+Matt, you had your hand raised. Sorry, didn't mean to ignore you.
+
+Matt Wright (1)
+13:13
+I was in the subway, I couldn't get Internet.
+
+Matt Wright (1)
+13:17
+Yeah, so I think like what we tell folks from the guy side at least is to use OpenAI like learn your kind of application pattern and then at some point you can slowly start to decentralize with Gaia by swapping out your APIs for a guide node for certain use cases or contexts.
+
+Matt Wright (1)
+13:37
+So yeah, I think that's the right approach.
+
+Matt Wright (1)
+13:39
+It would be really cool to at least Work with the team and build something that's useful for internal use and then slowly start to figure out how we decentralize and, you know, have our internal knowledge base not be given to, you know, centralized provider.
+
+Matt Wright (1)
+13:55
+So first on that and then just to give a quick update too on, you know, been discussing with Alex and some of the folks on this week, then James, you and I should probably catch up later today.
+
+Matt Wright (1)
+14:05
+From like on the Orchestrator agent side, it looks like we're like tracking really well so that, you know, that's definitely what we want to stay focused and we want to build out.
+
+Matt Wright (1)
+14:16
+There's other agents that, you know, drive kind of this on chain transaction volume so we can kind of demonstrate, you know, what, you know, what MOTHER can do.
+
+Matt Wright (1)
+14:28
+But then also we want to focus on the registry for kind of, let's just say like, go to market approach, just getting agents on the registry and so like, you know, just getting them registered to a point where, you know, our North Star should be, you know, getting 10,000 agents registered with, with intuition with the mother registry to have some sort of visual interface as well.
+
+Matt Wright (1)
+14:52
+And again, these other three agents that are actually, you know, fully in production are doing, you know, mountains of tasks.
+
+Matt Wright (1)
+14:59
+This is just kind of establishing the real estate of, you know, the agents that can exist in our ecosystem and kind of, you know, getting them listed at least and then starting to explore, like, how do we actually get them to do more, how do we get them to have more further application.
+
+Matt Wright (1)
+15:16
+And so Alex and I are mapping that out.
+
+Matt Wright (1)
+15:19
+We'll kind of communicate to the team and get everyone aligned.
+
+Matt Wright (1)
+15:22
+But I think the three KPIs we can look forward to and that should be our scoreboard that we kind of drive the team towards is number of community size or number of developers we're bringing to our community, number of agents registered.
+
+Matt Wright (1)
+15:37
+And lastly, it's, you know, transaction volume that James, you and the collaborative team are driving with, with the Orchestrator agent.
+
+Matt Wright (1)
+15:44
+And we, we basically want to take those agents that are getting registered and figure out how we convert those to transactions by introducing them to the Orchestrator agent.
+
+Matt Wright (1)
+15:54
+And sounded like, you know, yesterday from our update call, it looks like we're working from, you know, two separate ends of the stick but going in the same direction.
+
+Matt Wright (1)
+16:01
+So, yeah, very excited about it. A lot of other kind of back office stuff is underway.
+
+Matt Wright (1)
+16:09
+Just if anybody wants an update on what MOTHER is doing.
+
+Matt Wright (1)
+16:12
+I'll be giving more of an update to the community on Telegram shortly.
+
+Matt Wright (1)
+16:15
+Just trying to get organized and obviously there's a lot of things we can't share.
+
+Matt Wright (1)
+16:20
+It's just a bit sensitive in terms of like raising capital and kind of building a team.
+
+Matt Wright (1)
+16:28
+But on the tech side, it looks like we have a lot of progress and I would love to help with this internal tool.
+
+Matt Wright (1)
+16:34
+I can get the devrels to support and perhaps on next week's what we shipped, we can have them showcase something.
+
+Matt Wright (1)
+16:42
+Toby should be running points on that. He should be in contact with you guys now.
+
+James Young
+16:49
+Awesome, that's great to hear.
+
+James Young
+16:50
+I think that if we want like thousands or 10,000 agents, we have to just start populating them ourselves.
+
+Matt Wright (1)
+17:00
+Exactly.
+
+James Young
+17:00
+Let's just into Intuition and I think Alessandro, we're ready or Intuition is ready to do that.
+
+James Young
+17:07
+So that could be a separate kind of work stream there and then I'm.
+
+Matt Wright (1)
+17:12
+Sorry to catch up. I think like even EXO could just get a very simple composable.
+
+Matt Wright (1)
+17:18
+They already built a no code, one click.
+
+Matt Wright (1)
+17:22
+Guy had no deployer from our like dev docs that we're going to ship pretty soon.
+
+Matt Wright (1)
+17:26
+And so if we work with them to just encapsulate an ID to the registry, that, that in itself is an agent.
+
+Matt Wright (1)
+17:33
+It's not a, you know, again, it's not a crazy operator agent that's, you know, doing sophisticated tasks.
+
+Matt Wright (1)
+17:40
+But you know, it can take in context and it can push out API calls if it's tasked in, you know, AI tokens.
+
+Matt Wright (1)
+17:47
+So in all intents and purposes it's an agent.
+
+Matt Wright (1)
+17:50
+So I think we can get a bunch of those, you know, populated on the registry.
+
+Matt Wright (1)
+17:55
+People can start, you know, branding them as like, you know, different kind of types of agents.
+
+Matt Wright (1)
+18:01
+And then we've worked with the community to, you know, level those up over time.
+
+James Young
+18:07
+Yeah, what I would recommend is since, and this was just dropped last week, Intuition actually has an MCP server.
+
+James Young
+18:17
+So if xo, when you're launching an agent and using Gaia as inference could automatically just.
+
+James Young
+18:26
+If every EXO agent launcher also just registers itself in Intuition, then it's just programmatic.
+
+Matt Wright (1)
+18:37
+That'd be amazing.
+
+James Young
+18:39
+So I, I would think that I'll.
+
+Matt Wright (1)
+18:42
+Talk to, I'll talk to the team. Siraj.
+
+James Young
+18:45
+Yeah, maybe Alessandra and Siraj should communicate and get that MCP integration going.
+
+James Young
+18:52
+Then it's just automatic.
+
+James Young
+18:54
+And I think, you know, it aligns incentives because I think on the Intuition side they just want more tuples, more subjects predicates and objects in, in the, in the registry.
+
+James Young
+19:06
+And this is a.
+
+James Young
+19:07
+This aligns with now getting agents into the registry, making it easy for users to do use.
+
+James Young
+19:16
+Then the orchestrator agent can then have, like, the ability to reach out to these agents that are the.
+
+James Young
+19:25
+The Orchestrator agent will use the registry Intuition graph to see if there's any agent available to be used.
+
+James Young
+19:34
+And these agents, if XO is using MCP to then call out to the Intuition Registry via MCP and automatically log those agents.
+
+James Young
+19:50
+And if XO is launching these agents that are MCP aware, then the Orchestrator agent could use MCP and just without any coordination because they're on the registry and the registry is a point of coordination, could then go, oh, okay, let me query the Intuition graph to see if there are any agents that can perform this arbitrary task.
+
+James Young
+20:15
+This is the shelling point through the registry that combines, as you're saying, kind of working at it from both sides and we can converge that way.
+
+Alex Lumley
+20:29
+Yeah, that makes a lot of sense. So.
+
+Alex Lumley
+20:30
+And what one thing I'll point out is having a large amount of agents up front is great for many people's distribution type events that are potentially upcoming.
+
+Alex Lumley
+20:42
+Right.
+
+Alex Lumley
+20:43
+So we can version this very much by saying, I'll start with just an index of any and all agents.
+
+Alex Lumley
+20:49
+Like I put something that we had put it before, and then over time come back to, okay, which ones have a 2A, which ones have MCP, which ones can be called on the registry, et cetera.
+
+Alex Lumley
+20:58
+But this is something that Alessandro, maybe we can.
+
+Alex Lumley
+21:02
+You and I can chat on how to do this sooner rather than later with. With Intuition.
+
+Alex Lumley
+21:09
+So, because one of the key things that I was talking about, Matt and James, I realized you and Matt have had different perspectives on things, and Matt's been thinking a lot about how do we go with investors, how do we make this infrastructure, how do we get those big numbers?
+
+Alex Lumley
+21:21
+And you're thinking about how do we deliver and help people for tg.
+
+Alex Lumley
+21:24
+Answer is we need both sides, as we said. Right. And this getting a bunch of agents on.
+
+Alex Lumley
+21:30
+On a yellow pages helps us look good for.
+
+Alex Lumley
+21:33
+Helps Gaia look good, helps Intuition look good, it helps Mother look good for. For investors.
+
+Alex Lumley
+21:38
+Getting immediate value helps us make things real, also for investors and also for agent builders and also just to make sure that we're actually having a wedge for a gtm.
+
+Alex Lumley
+21:48
+So it feels like we're aligning on this.
+
+James Young
+21:49
+But yeah.
+
+James Young
+21:50
+Yeah, it's like a Venn diagram and we got to see where everyone overlaps and that's where we focus.
+
+Alex Lumley
+21:55
+Exactly.
+
+James Young
+21:57
+Yeah.
+
+Alex Lumley
+21:59
+Cool. I know. Matt just left.
+
+Alex Lumley
+22:04
+James, did you have anything you actually wanted to show or demo or anything?
+
+James Young
+22:09
+I mean, it's the same demo I'm working on. It we just, I'm just tuning it right now.
+
+James Young
+22:19
+What I'm doing, it's really more of the devrel experience and making this really easy to integrate.
+
+James Young
+22:31
+I don't have anything to demo but I'll talk about what I'm doing and what this week is shipping about.
+
+James Young
+22:38
+The major learning is that there is integration friction.
+
+James Young
+22:46
+When we had the AI agent starter kit, we had to try and convince and coordinate with these agent devs to integrate into a starter kit.
+
+James Young
+23:01
+We had the starter kit starting in December.
+
+James Young
+23:07
+In the meantime, in the last four or five months MCP and ADA has hit the scene and has become the standard.
+
+James Young
+23:16
+This is how quickly the industry is moving and that removes this coordination friction point that you know, we are we've been experiencing to get agents populated into the registry.
+
+James Young
+23:31
+So I want us now to shift over to assuming that MCP and ADA is how all these multi agents are going to integrate.
+
+James Young
+23:46
+And this is what I've been doing.
+
+James Young
+23:48
+The Orchestrator agent is MCP and ADA aware and it's easy to connect to these agents.
+
+James Young
+23:55
+I've been building out the quiz agent and the poll agent and the quest agent.
+
+James Young
+24:02
+Along the way I figured out how we can seamlessly tie different platforms together via OAuth so that a user, when they are trying to interact with an agent can do so without having to leave.
+
+James Young
+24:18
+Discord, Telegram X and GitHub. I can't show anything because I can come up with my own use case.
+
+James Young
+24:28
+But this is where we were talking about yesterday.
+
+James Young
+24:31
+How what approach should be is we should lead by what the marketing campaign is and then whatever the specs of the marketing campaign is, I'm just going to vibe code to that and that will take the prd, that will take all of this.
+
+James Young
+24:47
+This is why we need like this one kind of repository so that we can be a bit more efficient so that it's not like engineering is leading the 30, 60, 90 day roadmap.
+
+James Young
+25:03
+It's we're taking demand and meeting the market where it's at.
+
+James Young
+25:06
+And because coding is not a coordination event, coding software is content creation.
+
+James Young
+25:14
+And so what I'm I want to do is have us be is changing our processes so that we are kind of marketing led.
+
+James Young
+25:24
+So what's the context of the marketing?
+
+James Young
+25:26
+It's these tges, what do they need and what are they asking for?
+
+James Young
+25:32
+And then we save those recordings, we have the LLM then create the PRDs, the 30, 60, 90 day roadmap, all of that and we're just.
+
+James Young
+25:41
+I can just point it because I have the foundation of MCP and ADA and whatever is lacking, hopefully we can fill it in with these agents in real time.
+
+James Young
+25:52
+And that's this kind of new model of go to market so we don't have to have humans translate what's happening.
+
+James Young
+26:03
+It's marketing led, and that's what crypto is really. Crypto is like 99% marketing.
+
+James Young
+26:11
+And the software and what you build out is just the content to help the marketing effort.
+
+James Young
+26:17
+So there, at least that's kind of how I'm thinking about it right now.
+
+James Young
+26:24
+And we're set up technically to make that happen. I know that's kind of.
+
+Alex Lumley
+26:30
+No, I think so.
+
+Alex Lumley
+26:33
+And James, this is one of my favorite parts about work with you is a lot of times you are very abstract.
+
+Alex Lumley
+26:37
+So I've recently realized with Tasha and I have been talking that, oh, some of the work that Tasha and I end up having to do is like, or coach Jay or Zera.
+
+Alex Lumley
+26:45
+Everybody's like, let's. Let's make shit real. How can we test this?
+
+Alex Lumley
+26:49
+So in response to something you created, Abstract, which is honestly fucking brilliant, one of the tests will be, we have a Gaia.
+
+Alex Lumley
+26:56
+We have Gaia's community, which is growing. Right. So I spoke to Ryan Palmari from the marketing team.
+
+Alex Lumley
+27:02
+I'm speaking to Ian Chung.
+
+Alex Lumley
+27:03
+There's a few things that they're doing that could potentially be built with our agents.
+
+Alex Lumley
+27:09
+One very obvious one is can they run a quest for Discord users to fork and or star the GitHub.
+
+Alex Lumley
+27:19
+So I will draft a campaign, just a quick campaign, and we'll test it in the mother Discord, because you have this workflow.
+
+Alex Lumley
+27:27
+So now can we actually test with the campaign and see if it works and then we can just iterate through that workflow until it becomes more smooth.
+
+Alex Lumley
+27:35
+But as you said, it's not just becoming marketing led from like what we're defining, but it's actually becoming voice to consumer led.
+
+Alex Lumley
+27:43
+If the real level up is when we can say to Ian or we can say to Ryan or we can say to Matt, hey, what are your requirements?
+
+Alex Lumley
+27:52
+Cool. Just do this and launch it.
+
+Matt Wright (2)
+27:56
+Yeah, I think that if we find the pmf, it's definitely going to scale to other projects in the MOTHER ecosystem that are looking to have token economies and developer communities that are building out the components of decentralized AI.
+
+Matt Wright (2)
+28:14
+So I think it's awesome we're doing it for Gaia first.
+
+Matt Wright (2)
+28:19
+We're happy to be a guinea pig, but I definitely want it to be beneficial to the collective.
+
+Matt Wright (2)
+28:26
+Yeah, really cool initiative.
+
+James Young
+28:30
+Yeah.
+
+James Young
+28:30
+I think this is kind of the emergent organizational process and the emergent design that's happening.
+
+James Young
+28:38
+There's no way that we could get insight into this if we were not quote unquote in the arena.
+
+James Young
+28:43
+And now we're just being opportunistic in terms of how do we actually deploy this now instead of us thinking we're going to build something and they will come, you know, let's, there is demand.
+
+James Young
+28:57
+Let's meet the demand where it's at and then iterate from there.
+
+James Young
+29:05
+So instead of like starting on the supply side, when it comes to like getting agents hoping that these agents will generate demand, we have demand.
+
+James Young
+29:15
+Let's, let's focus on that demand and then see what we can pull from, from supply.
+
+James Young
+29:23
+I think demand side generation keeps us closer to the customer than supply side generation first.
+
+Matt Wright (1)
+29:32
+I
+
+Matt Wright (2)
+29:32
+think that's what, that's okay. No, you're 100 correct.
+
+Matt Wright (2)
+29:38
+I think, you know, as we said earlier, if we get these agents on this registry that are, you know, perhaps just taking up space but you know, have basic functionality and are kind of just the initial framework or templates to go with decentralized agent and then we start and that's kind of just like getting distribution out there.
+
+Matt Wright (2)
+30:03
+And then we have the demand side where we're actually validating use cases.
+
+Matt Wright (2)
+30:07
+We can eventually start to connect the two where we're saying, look, there's a ton of demand for agents that can do XYZ.
+
+Matt Wright (2)
+30:15
+If you want your agent, your 200 agents you have running, if you want them to be active and actually picking up work, you know, go talk to this team.
+
+Matt Wright (2)
+30:24
+They're actually looking for, you know, someone that wants to run the backend operations of the agent.
+
+Matt Wright (2)
+30:29
+So I think there's, the worlds will come together, but I think it's, I think that's the right call.
+
+Natascha Tiotuico
+30:37
+We also already have now like a community member asking how, how would I build my agent?
+
+Natascha Tiotuico
+30:43
+Where I said, hey, is there any builders here wanting to like build with you?
+
+Natascha Tiotuico
+30:48
+So if they come together, then I can already like push them towards the mother orchestrator and kind of have them give them access to the mother registry.
+
+James Young
+31:03
+Well, I think this could feed into exo if EXO is a no code platform to launch agents and whenever you launch an agent through exo, it's automatically in the open registry.
+
+James Young
+31:13
+And then like that seems to be the fit there.
+
+James Young
+31:16
+And like we'll have thousands of agents in this open registry, but when we go for the mother tge in a curated registry, like maybe 5% of them will, we want to Set a very high quality bar for them.
+
+James Young
+31:32
+But in order to set a high quality bar, we have to know what we're working with.
+
+James Young
+31:38
+And so that leads us up and keys us up for the teacher mother tge.
+
+Alex Lumley
+31:45
+So I think we're getting close to kind of wrapping things up.
+
+Alex Lumley
+31:49
+And at the end here, if Alessandro, if we could take maybe five, 10 minutes, if you can talk about what went through shipping, and then if we could make five or take five, 10 minutes and just briefly chat about what, what an agent Yellow Pages would look like with Intuition, Alessandro, that'd be helpful.
+
+Alex Lumley
+32:13
+The last thing I'll notice, I'll give a shout out to Tosh on this because I spoke to Tosh about these two different perspectives on things.
+
+Alex Lumley
+32:19
+And Tosh, now I don't want to speak for you, Tosh, so make it better, what I say.
+
+Alex Lumley
+32:23
+But basically we realized that there's a series of experiments running close to the consumer and voice the consumer side.
+
+Alex Lumley
+32:29
+Right? Like, what are these small features?
+
+Alex Lumley
+32:31
+And we're starting with Gaia, expanding potentially to lit, maybe Intuition and other teams like that.
+
+Alex Lumley
+32:36
+We're also then getting a bunch of these registry type agents and getting these shared numbers up and showing the world, hey, there's a.
+
+Alex Lumley
+32:43
+This is where the possibility is.
+
+Alex Lumley
+32:45
+There's also this third kind of series of experiments which is can people like tosh, Alex coach J Bat 08, can we actually deploy an agent from our own ideas?
+
+Alex Lumley
+32:58
+And that's the workflow that James is kind of building, which is campaign driven and then can it be created with the ide?
+
+Alex Lumley
+33:07
+And if we kind of leverage those three different workflows, we're running three different series of experiments that all go towards creating a better ecosystem around that.
+
+Alex Lumley
+33:16
+So Tosh, was that kind of fair how I framed it up?
+
+Natascha Tiotuico
+33:22
+Yeah, I think, like I explained where we're seeding three different pathways and kind of nurturing them.
+
+Natascha Tiotuico
+33:33
+They don't have to be perfect, but it's a way for people to see how, how AI works in different contexts.
+
+Natascha Tiotuico
+33:42
+So these three experiments are supposed to help other people understand AI and the importance then of decentralized AI from different perspectives and how they can kind of find the way, how they want to join the AI experience.
+
+Natascha Tiotuico
+34:04
+So I think it's very important, what we're doing is covering different aspects of this to enlighten the people that are not like daily encouraged to innovate and see where AI is going.
+
+Alex Lumley
+34:22
+I like, I like the seeding the three different pathways and now onto one of the pathways to make it a little bit more real.
+
+Alex Lumley
+34:28
+Alessandra, if you're there, how, if, if.
+
+Alex Lumley
+34:32
+If we look at making like a yellow Pages that we've talked about for a while, what's the best way to do that?
+
+Alex Lumley
+34:37
+Through intuition. With Intuition.
+
+Alessandro Voto
+34:40
+Yeah. Hey guys.
+
+Alessandro Voto
+34:43
+So I've been chatting with James and a few folks via Telegram about the exact implementation, on how we structure the claims and tags and everything like that.
+
+Alessandro Voto
+34:56
+So we're kind of figuring out the data architecture for how all the registry entries are going to look.
+
+Alessandro Voto
+35:03
+We're also working on a doc that should make it really obvious how to write to Intuition.
+
+Alessandro Voto
+35:08
+I've shared with James that our MCP server is currently read only, so it cannot write to Intuition.
+
+Alessandro Voto
+35:18
+So you'll just need a.
+
+Alessandro Voto
+35:20
+You guys have already built the form that registers an agent with those inputted fields into Intuition.
+
+Alessandro Voto
+35:29
+So you guys already know that flow and it's basically just updating that thing to the way that you want to write stuff in.
+
+Alessandro Voto
+35:36
+As for how it appears on the other side, I think I might have demoed at some point in the past our portal, which I can bring up in just a moment.
+
+Alessandro Voto
+35:48
+Demo gods, smile on me please. But if our main app breaks then that sucks.
+
+Alessandro Voto
+36:01
+So I could just search for a thing like arborthing ecosystem.
+
+Alessandro Voto
+36:05
+So this is a list and basically the agents would just appear here and any given thing you click, you could go learn more about it, see positions on it and stuff the like we're there will be more specific information that we're trying to basically like improve for agents.
+
+Alessandro Voto
+36:34
+Like based on what we learn with you guys, we want to make a page that's kind of like more similar to this, where you'll be able to see like tags people have attached to the idea.
+
+Alessandro Voto
+36:44
+You'll be able to see claims that folks have made about it and just like all sorts of activity relevant to it recently.
+
+Alessandro Voto
+36:54
+People who are following that agent and any tags that the agent themselves might have added.
+
+Alessandro Voto
+37:00
+But basically like a place where people can see all this stuff.
+
+Alessandro Voto
+37:03
+And if you look at like our Explore page, just basically being able to see a list of tags like this, or a list of agents like this and who supports or opposes them is kind of what we're moving toward.
+
+Alessandro Voto
+37:23
+So all that to say like each agent would have its own little card, it would have tags associated with it that you could view.
+
+Alessandro Voto
+37:32
+Like it has use case X, you know, whatever it had links, it had stuff like this so that you could see it and click on it, which actually looks pretty similar to the mock that you have, Alex.
+
+Alessandro Voto
+37:43
+So we would just want to make Sure.
+
+Alessandro Voto
+37:44
+A, the data is all in there as you guys need it, but then further that the UI on Portal, if you guys choose to use that or if you build an app on it, you know, we can help you build an app on it, but that might take a little bit of effort.
+
+Alessandro Voto
+37:58
+But if you wanted to just direct people to our Intuition Portal for them to see all of the agents at a glance and like browse their use cases and stuff, that the data is reflected there in a way that's easily viewable for people.
+
+Alessandro Voto
+38:09
+So open for feedback on the UI there.
+
+Alessandro Voto
+38:12
+And then on the right side, you know, we'll have an end to end doc that you guys could follow just as a reference point, but we'll work with you on Data architecture to make sure that you could write all the stuff the way that you expect to.
+
+Alex Lumley
+38:23
+That makes a lot of sense. And Matt, how does it look to you? Because I know a lot of this.
+
+Alex Lumley
+38:27
+Like, I think that the easiest one was, as you put it, awakening the thousand agents that are on Gaia and even just posting those ones on this.
+
+Alex Lumley
+38:38
+How does the way that Intuition has it set up, does that make sense to you right now?
+
+Alex Lumley
+38:47
+Might still be in the subway in that case.
+
+Matt Wright (2)
+38:51
+Alex, can you
+
+Matt Wright (1)
+38:51
+repeat that, sir?
+
+Alex Lumley
+38:52
+Yeah, yeah.
+
+Alex Lumley
+38:54
+So I think that the easiest win in terms of having like a yellow pages would be to have awakening the thousand agents that are on Gaia nodes.
+
+Alex Lumley
+39:07
+And, and, and I think we can.
+
+Matt Wright (2)
+39:09
+Actually list those on the registry. That's 600,000
+
+Matt Wright (1)
+39:11
+right there.
+
+Alex Lumley
+39:12
+Oh, shit. Yeah. So is there a.
+
+Matt Wright (1)
+39:15
+Like,
+
+Matt Wright (2)
+39:15
+totally just
+
+Matt Wright (1)
+39:16
+realize that.
+
+Alex Lumley
+39:17
+Yeah, that's, that's a lot. So is there a way that we could do that?
+
+Alex Lumley
+39:22
+Or like, what would be the best way to do that? Alessandro? With Intuition, we could do this.
+
+Alessandro Voto
+39:27
+We could do this in a matter of days if we just help you guys create a script to write to Intuition100.
+
+Matt Wright (2)
+39:32
+I think we should also, on the marketing side, we can do a full blitz like campaign that's like, hey, Gaia node operators, go register your.
+
+Matt Wright (2)
+39:43
+Your agent on mother registry. We can do a whole thing around
+
+Matt Wright (1)
+39:46
+that.
+
+Alessandro Voto
+39:47
+Well, if, if there's already the agent to agent MCP info already, then you don't have to, they don't have to do anything.
+
+Alessandro Voto
+39:54
+You just like put it in there.
+
+Alessandro Voto
+39:55
+But if we want them to add, like, they can review that information and make claims, you know, in that way, editing is a little bit tough on Intuition.
+
+Alessandro Voto
+40:06
+It's something that we're working on.
+
+Alessandro Voto
+40:08
+You know, people can add claims on top of stuff, but they can't.
+
+Alessandro Voto
+40:11
+Like, there's no single canonical version that somebody owns necessarily, which is like a feature and also a tough challenge around it.
+
+Alessandro Voto
+40:20
+So we just need to do a little bit of thinking about if someone were to somehow like quote unquote, take ownership of it and like correct stuff, how would they do that?
+
+Alessandro Voto
+40:27
+And make sure that that's reflected as like, you know, the right way, the right URL to hit, for example, and also make sure that someone can't put a malicious link there instead.
+
+Alex Lumley
+40:38
+So, so, so what I'm thinking Matt, is that we can, we can explore how to, how to just effectively Bulk upload the 600,000 Gaia domains onto Intuition.
+
+Alex Lumley
+40:51
+Then secondly, we can, we can explore like if there's any sources of agents that we can also put on to put onto Intuition and in some way have it appear as a mother Yellow Pages or initial mother registry as we start to develop and get that closer to the Orchestrator.
+
+Alex Lumley
+41:14
+Jim, does that sound about right?
+
+James Young
+41:16
+Yeah.
+
+James Young
+41:17
+Because as soon as those agents are in the Intuition, since Intuition MCP servers read only, I can have the Orchestrator agent like only look at the ones that have been like bulk uploaded and see when a user has a request, can one of those agents in the registry fulfill that task?
+
+James Young
+41:41
+And then we can fine tune the orchestrator in that way.
+
+James Young
+41:44
+And then if we have the marketing requirements, the marketing requirements will drive what the orchestrator agent will reach out to, to be able to like, you know, orchestrate.
+
+James Young
+41:57
+And the orchestrator agent has this feature since it's on chain.
+
+James Young
+42:03
+If you're going to elicit the orchestrator agent, you have to pay in crypto.
+
+James Young
+42:08
+And if any of those agents that are in the registry, those 600,000 that were bulk uploaded, if they're used, the Orchestrator, what it does is it reserves some fundamentals funds from the payment in crypto for that Orchestrator agent to kind of quote unquote cash out.
+
+James Young
+42:29
+And so then that gives the incentive for these Orchestrator devs or not or the agent devs to then like get more involved because they basically have money sitting and waiting for them.
+
+James Young
+42:42
+And if the demand on the community side From Discord, Telegram, GitHub and X is there, they're paying for it.
+
+James Young
+42:51
+So it's like there's an opportunity to like create the shelling point where we reduce the coordination so we're not having to then go out to these agent devs and say, hey, integrate and maybe you'll get paid.
+
+James Young
+43:07
+What we're saying is, hey, we put you in this registry and here's some money sitting and waiting for you.
+
+James Young
+43:15
+And if it's driven by the demand that's happening from these communities, then that should hopefully give these agent devs the attention that they want.
+
+James Young
+43:24
+Because their agents are being used.
+
+James Young
+43:26
+We're creating shelling points instead of having to actually coordinate and get these agent devs into the registry, like all of that, because we know that it's difficult to bootstrap.
+
+James Young
+43:39
+So we're creating a different bootstrap cold start mechanism here.
+
+Alex Lumley
+43:46
+It's awesome. Anything else to add from anyone before we kind of wrap up this call? Awesome.
+
+Alex Lumley
+43:58
+Well, this is helpful, Alessandro. Anything else to share from the intuition side?
+
+Alessandro Voto
+44:01
+No, I'm stoked.
+
+Alex Lumley
+44:05
+Some next steps.
+
+Alessandro Voto
+44:07
+That sounds good.
+
+Alex Lumley
+44:07
+Yeah.
+
+Alessandro Voto
+44:07
+There'll be some hard problems to solve, but it's exactly the kind of thing we want to work with you guys on.
+
+Alessandro Voto
+44:11
+So very happy about that.
+
+Alex Lumley
+44:13
+Love it. Sounds good.
+
+Alex Lumley
+44:14
+Well, thanks guys and ladies and people and everyone, I'll talk to you guys soon.
+
+James Young
+44:17
+
+And then we'll take a five minute and then go into the daily.
+
+James Young
+44:22
+We'll start 10 minutes early on the daily. Thanks.
