@@ -1,0 +1,1448 @@
+Alex Lumley
+00:02
+So Tosh is just to kind of introduce you guys. Tosh is. She works with co unity.
+
+Alex Lumley
+00:10
+She's speaking a lot with Ian and we've talked with Matt. She's been a part.
+
+Alex Lumley
+00:14
+She's also working like part of the Mother team for the past few months.
+
+Alex Lumley
+00:19
+And I'll explain why that's so important, but basically.
+
+Alex Lumley
+00:23
+So she knows a lot of stuff that's happening with the Gaia.
+
+Alex Lumley
+00:27
+The Gaia kind of distribution and all that. And then.
+
+Alex Lumley
+00:30
+But I've asked her to be here because she has more of a sense of what's going on with Gaia and how things are working in the discord.
+
+Alex Lumley
+00:38
+And then. Yeah, and. And then Ryan. Awesome, dude.
+
+Ryan Palmieri
+00:43
+Thanks.
+
+Alex Lumley
+00:44
+Yeah, awesome guy.
+
+Alex Lumley
+00:45
+And I feel like, dude, I can already tell you, you feel way more subtle than we talk.
+
+Alex Lumley
+00:49
+Like, you know, five months ago.
+
+Ryan Palmieri
+00:50
+Oh, oh, dude, that's. That's because I'm exhausted. If you got me, I'm. No, it's a. It's. It's.
+
+Ryan Palmieri
+00:58
+Yeah, if you believe. I'm more tired. No, it's been a ride past couple months. I'll say that.
+
+Ryan Palmieri
+01:05
+I think the last time we spoke or last time, you know, kind of gave you, I guess some insight is like, you know, I took over, I told you in January, officially took over for.
+
+Ryan Palmieri
+01:15
+As director of marketing, running marketing for Gaia.
+
+Ryan Palmieri
+01:18
+And then the goal was we had no structure, foundation set in place.
+
+Ryan Palmieri
+01:23
+So it's like, let's just throw as much shit against the wall, try to get.
+
+Ryan Palmieri
+01:28
+Just make sure Gaia keeps his hype machine. And we didn't know when TG was happening.
+
+Ryan Palmieri
+01:31
+And then mother came up and all these things.
+
+Ryan Palmieri
+01:33
+And then so Q2 has just been like a little bit of like, okay, now let's become like a real, like, let's stop messing around, become a real actual mark, functional marketing org and build it from the ground up.
+
+Ryan Palmieri
+01:44
+And so that's been kind of what we've been working on for past couple weeks in terms of everything from just resources to go to market, updating that.
+
+Ryan Palmieri
+01:56
+And then of course TGE coming in, playing for that and a couple other crazy projects. So it's been.
+
+Ryan Palmieri
+02:03
+We still are kind of lean and mean and. And then hopefully as kind of post tge, we start to kind of.
+
+Ryan Palmieri
+02:09
+We're able to scale kind of in a seamless way. And you know, so that's been a challenge.
+
+Ryan Palmieri
+02:14
+And as we lead up to TGE, which I believe is going to be June 25, so a little under a month, it's just all hands on deck craziness.
+
+Alex Lumley
+02:24
+So I actually have some good news on that part.
+
+Alex Lumley
+02:26
+So I'll give you a quick background, kind of like where we're at with mother.
+
+Alex Lumley
+02:31
+But the tldr is that like the reason why I want to have the call is that one, I think MOTHER actually is now a use case that you guys can start to talk about.
+
+Alex Lumley
+02:40
+Show off that mother's using a Gaia node.
+
+Alex Lumley
+02:44
+Two is that MOTHER has refocused towards specifically communities and within that, specifically discords.
+
+Alex Lumley
+02:53
+Because that's what we know.
+
+Alex Lumley
+02:55
+After working with Collab land, we have a tool that we can use that should allow you guys to continue to get more engagement as you're leading up to tge.
+
+Alex Lumley
+03:05
+Part of that is we want to explore as we're going towards tge, are there any small wins that MOTHER can support you guys on?
+
+Alex Lumley
+03:13
+So if we understand your roadmap, what are some small wins that we can help build to help you get continue to drive that engagement as you're working towards tg?
+
+Alex Lumley
+03:20
+Cause as you said, it's all hands on deck.
+
+Ryan Palmieri
+03:23
+Yeah.
+
+Ryan Palmieri
+03:23
+I think going back to some of the tools that we could apply to Discord, I, you know, full disclosure, we brought in Ian, who I know you're going to set up a call with.
+
+Ryan Palmieri
+03:33
+Ian is awesome.
+
+Ryan Palmieri
+03:34
+He's great and he's kind of really, again, kind of taken chaos and he's starting to kind of mold it into something that's functional.
+
+Ryan Palmieri
+03:41
+And so we've grown. We're.
+
+Ryan Palmieri
+03:42
+We're able to actually we've been slowly kind of growing and building our discord and actually cleaning it up and making sure that people are engaged and that's somewhere where people feel comfortable talking about projects, but also, you know, getting support in every way to build these projects.
+
+Ryan Palmieri
+03:58
+So I think from that end I would love, I think that's more of a conversation with Ian.
+
+Ryan Palmieri
+04:04
+I don't want to just say, hey, we should use this, we should do that because I don't want to.
+
+Ryan Palmieri
+04:07
+I know Ian has his own plan. Although we were kind of. We're in sync a lot.
+
+Ryan Palmieri
+04:12
+I just want to make sure that's a conversation to have with him.
+
+Alex Lumley
+04:14
+Yeah, and I was going to talk to him and I kind of figured that.
+
+Alex Lumley
+04:17
+And so the reason so we were hoping to get today was one, I'll briefly show you what we're building anyway so you can get a sense of it.
+
+Alex Lumley
+04:23
+But then two, I also would love to just get more higher level on the tge because a lot of this, like we've spoken to so many agent builders that there's Ways to get agents into your discord and quickly, especially with what James has built out into this or into this orchestrator.
+
+Alex Lumley
+04:40
+So there might be ways to pick up small wins and make things easier for you guys as, as you're leading up to that.
+
+Alex Lumley
+04:45
+That I can only see the dots if I understand kind of where you guys are headed with this tg.
+
+Ryan Palmieri
+04:50
+Yeah, I think, well, one of the big things that I think we've, you know, we have to kind of reevaluate, you know, it's like what, what do we.
+
+Ryan Palmieri
+04:59
+Who we are.
+
+Ryan Palmieri
+05:00
+And so we're actually doing several like brand and go to market workshops internally and who we are and what are we offering and what can people actually do with Gaia.
+
+Ryan Palmieri
+05:10
+And so what I love, what I think is for me from a marketing perspective, number one is the website, don't get me started.
+
+Ryan Palmieri
+05:17
+Drives me insane. So we're working on that.
+
+Ryan Palmieri
+05:21
+But on the other hand is actual agents that you can play with.
+
+Ryan Palmieri
+05:25
+I think understanding the products and from a builder perspective, okay, what can I actually build?
+
+Ryan Palmieri
+05:34
+And from a retail for a tg, if, if I'm a retail buyer, why am I actually going to hold your token and not dump it?
+
+Ryan Palmieri
+05:42
+And so why am I investing in this? What is the value?
+
+Ryan Palmieri
+05:45
+And so if we are able to demonstrate something that we can actually play with, you know, it's not some chatbot or it's not an agent that looks like a chatbot really or you know, we have some demos that we've built that are just like very one dimensional, you know, and, and not that they, they're not valuable or interesting.
+
+Ryan Palmieri
+06:04
+It's just we need something that's like, I think for me to actually again demonstrate to retail investors, hey, keep this token because this is the value we provide and the things you could use to use us.
+
+Ryan Palmieri
+06:15
+You know, these are the use cases.
+
+Alex Lumley
+06:17
+So, so yeah, so, so I'll show you kind of what we've done with MOTHER so that to, to start the conversation on how can you show what MOTHER is, how MOTHER is a use case.
+
+Alex Lumley
+06:28
+And then we can talk more about other agents I've seen to see if there's any quick wins we can get there and see if they can get brought into that.
+
+Alex Lumley
+06:36
+So this is a really crappy demo because James gonna make a video of this for tomorrow when we have our.
+
+Alex Lumley
+06:42
+What we shipped. But basically we built a quiz bot agent.
+
+Ryan Palmieri
+06:46
+Right.
+
+Alex Lumley
+06:46
+So the way. Sorry, I'll show you in a second.
+
+Alex Lumley
+06:50
+Basically the way you can imagine it is that the, the MOTHER orchestrator is like a portal that because it's then in the discords, then you can start to get more agents coming into it.
+
+Alex Lumley
+07:01
+And because we have a to a set up, because we have MCP set up now, it should be easy for more agents to come in and continue to come in.
+
+Alex Lumley
+07:09
+And also, oh, hey, you're going to come into the Gaia. You're going to come into the Gaia community.
+
+Alex Lumley
+07:12
+You might as well replace your OpenAI endpoint with a Gaia node. A guy.
+
+Ryan Palmieri
+07:18
+That's great.
+
+Alex Lumley
+07:19
+So and so basically a quiz bot agent just enables communities to get more engagement from members.
+
+Alex Lumley
+07:25
+And it's just a quiz.
+
+Alex Lumley
+07:26
+I know in your Discord you guys already have a quiz bot, but it is, this one's built with a Gaia node.
+
+Alex Lumley
+07:30
+The way it kind of just quickly works is like you can take a URL, you can add a custom token, claim amount, etc.
+
+Alex Lumley
+07:37
+And then it starts generating a quiz from the URL and then you end up getting a quiz kind of like this.
+
+Alex Lumley
+07:42
+I know it's kind of blurry, but it's because I took it from most of you.
+
+Alex Lumley
+07:46
+But you can imagine, I know you guys just published like a couple of blog posts.
+
+Alex Lumley
+07:50
+You can take those blog posts, feed the URL into Discord.
+
+Alex Lumley
+07:53
+Now every individual gets their own quiz and all of those, all those quizzes and the answers are stored then on chain so that then you guys can start to collect some of that more analytics around who is this person?
+
+Alex Lumley
+08:08
+All that. Yeah, the other cool thing.
+
+Ryan Palmieri
+08:11
+Yeah, great.
+
+Alex Lumley
+08:12
+The cool thing is that that goes to a Gaia node, right?
+
+Alex Lumley
+08:15
+So the Gaia node turn is does the formatting does all these things. So I'll stop there.
+
+Alex Lumley
+08:20
+Any questions on this?
+
+Ryan Palmieri
+08:22
+No, this is great. I love this. Nice.
+
+Alex Lumley
+08:24
+So the cool thing is that that should be like something that can be used in the discord.
+
+Alex Lumley
+08:29
+That can be like, oh, this is built with a Gaia node consistently.
+
+Alex Lumley
+08:34
+And then we have a few other things that we're working on, such as a polling agent.
+
+Alex Lumley
+08:38
+I know you guys sometimes do the polls, like, should we open this new channel, whatever.
+
+Alex Lumley
+08:42
+This is an easy way for the Discord moderators to create those polling agents.
+
+Alex Lumley
+08:46
+There's a couple other things that we're exploring, but this is where we want to understand from you.
+
+Alex Lumley
+08:51
+What is your roadmap? And then we can tie into that.
+
+Alex Lumley
+08:53
+I'll quickly tell you the two other things that just from thinking about what you guys might want is I think there's a way that we can make like a quest to get people's GitHub and tie it to their discord.
+
+Ryan Palmieri
+09:07
+Oh, wow.
+
+Alex Lumley
+09:08
+Basically say, hey, has this individual starred, forked or done whatever within GitHub?
+
+Ryan Palmieri
+09:14
+That's sick. Yeah, that'd be great. Yeah, I think.
+
+Alex Lumley
+09:17
+Go ahead.
+
+Ryan Palmieri
+09:18
+I know that Ian and I, we're actually waiting on budget approval.
+
+Ryan Palmieri
+09:22
+There is something that he's building that James and Collab land are a part of. It's.
+
+Ryan Palmieri
+09:26
+I don't know if you're a part of it as well, the communities or something.
+
+Ryan Palmieri
+09:33
+It's a drop that's part of our XP program that will eventually.
+
+Ryan Palmieri
+09:38
+Eventually people will be able to earn tokens. Sorry, Natasha.
+
+Natascha Tiotuico
+09:43
+Oh, sorry. Yeah, like the mother orchestrator. What maybe Alex didn't pick up on.
+
+Natascha Tiotuico
+09:52
+Well, so the mother orchestrator additionally to this quiz bot also is connected to like in mother we use.
+
+Natascha Tiotuico
+10:04
+So James already inspected that the XP point from engages IO have an API.
+
+Natascha Tiotuico
+10:13
+So we could transfer that kind of recognition system and point system.
+
+Natascha Tiotuico
+10:20
+So these quizzes, they would actually distribute to the winner like how many answers you have right and wrong.
+
+Natascha Tiotuico
+10:30
+They would distribute a certain amount of points to your wallet, to your smart wallet.
+
+Natascha Tiotuico
+10:36
+So that's also a part of the mother Orchestrator.
+
+Ryan Palmieri
+10:40
+Yeah.
+
+Ryan Palmieri
+10:41
+So maybe that's cool. Yeah, I think like, I think that's something that Ian can kind of plan out.
+
+Ryan Palmieri
+10:49
+I think what we're trying to do is we have this XP program that was started by.
+
+Ryan Palmieri
+10:53
+That wasn't really started in November, December really from our Singapore office wasn't really well thought out.
+
+Ryan Palmieri
+11:00
+So Ian's done a great job of actually making it something and that and kind of growing participation and building out like a real leaderboard that people, you know, and kind of really getting the community to participate, like I said.
+
+Ryan Palmieri
+11:14
+So I think what he. What he and I are trying to do and he's getting.
+
+Ryan Palmieri
+11:19
+He's spearheading it, but we're working on this kind of drops and let me see if I could pull up the project spec real quick.
+
+Ryan Palmieri
+11:28
+Pardon me. But maybe even he could share it and so Sorry guys.
+
+Alex Lumley
+11:36
+No worries.
+
+Ryan Palmieri
+11:38
+So yeah, this. It's like a pre tge, like airdrop, but it's with our XP program.
+
+Ryan Palmieri
+11:45
+So basically it would be open bounty and boards target best for hire. Yeah. So I will let him.
+
+Ryan Palmieri
+11:55
+I'll see if I can share this with you. But it is.
+
+Ryan Palmieri
+11:57
+It would integrate into the XP program pre TGE and we would try and he's working with James.
+
+Ryan Palmieri
+12:02
+But I think like, I think the. The mother and the seeds thing is actually really interesting.
+
+Ryan Palmieri
+12:09
+So maybe there's a way we can kind of play with that.
+
+Ryan Palmieri
+12:11
+But yeah, I Think that's another conversation for him because I don't want to step on, step on or over, speak out of, turn on some of the stuff he's building or.
+
+Alex Lumley
+12:20
+And then what's like, what are you handling versus what he's handling on the TG stuff.
+
+Ryan Palmieri
+12:25
+So I'm handling just the actual roadmap or the actual plan for content for the actual.
+
+Ryan Palmieri
+12:34
+The entire marketing strategy in terms of like messaging, legal compliance, you know, we have a social, like our response playbooks, every, everything that goes into.
+
+Ryan Palmieri
+12:44
+Into a kind of like full TG strategy, understanding, like what success looks like, you know, a lot of, A lot of content.
+
+Ryan Palmieri
+12:54
+And on that note of content, it's really again, demonstrating like the actual things you can build.
+
+Ryan Palmieri
+13:00
+I think there's.
+
+Ryan Palmieri
+13:01
+It's still not clear like going back like last week our dev rel team did a live stream.
+
+Ryan Palmieri
+13:07
+I'm building a chess agent which is. I play chess. That's cool for me. But you know, it's not 1998.
+
+Ryan Palmieri
+13:14
+It's not, you know, it's like chess has kind of been overdone.
+
+Ryan Palmieri
+13:17
+So I know I'm kind of all over the place.
+
+Ryan Palmieri
+13:19
+But again, that's like an example of like, we need something that's a little more interesting to people and like actually shows the possibilities of what agents can be and how Gaia can support them.
+
+Ryan Palmieri
+13:29
+And if we bring in Mother, you know, I think that's like again, kind of demonstrating how the handoff between and how Gaia and MOTHER work together and then speaking to this kind of larger ecosystem, I think that's really something that we could really use and demonstrating the larger play, like how we fit into a larger ecosystem.
+
+Ryan Palmieri
+13:51
+I think that's going to be clarified as well. Yeah.
+
+Alex Lumley
+13:54
+Tell me like, you made the comment about like, why retail should. Should hold this token.
+
+Alex Lumley
+13:58
+What is the value prop of why retail should hold this token?
+
+Ryan Palmieri
+14:01
+Yeah, I think right now it's. We have some.
+
+Ryan Palmieri
+14:04
+I don't know, I don't know if Matt has shared some details on some of the upcoming projects.
+
+Ryan Palmieri
+14:11
+One of the big ones that we.
+
+Alex Lumley
+14:13
+Have going on, I heard about a big one in Korea is what I heard.
+
+Ryan Palmieri
+14:19
+So that's probably.
+
+Ryan Palmieri
+14:21
+And so what that involves is being able to connect, having your own GPT if you're a dev tools on it and having access, basically you make.
+
+Ryan Palmieri
+14:37
+Become your own node. And so there's all these kind of potential tools that will be on there.
+
+Ryan Palmieri
+14:43
+So I think one of the big things with Guy is like how we can integrate with the.
+
+Ryan Palmieri
+14:47
+We can actually enhance the kind of User experience, even on a device like that.
+
+Ryan Palmieri
+14:54
+I think that's a really building like an AI tool that you can actually control and you're a part of and you're not using ChatGPT and you're not training another model, but you can actually have a physical device and that you're able to control your own data and build what you want on.
+
+Ryan Palmieri
+15:09
+I mean that's, that's pretty big interest for some.
+
+Ryan Palmieri
+15:13
+So that's like one example I think for the actual builder inference as a service, that's.
+
+Ryan Palmieri
+15:18
+That, that's something I know we're developing.
+
+Ryan Palmieri
+15:21
+You know, building the domain, having your own domain and, and kind of building out your own network.
+
+Ryan Palmieri
+15:27
+I think you, you know, a great example is video language.
+
+Ryan Palmieri
+15:29
+I don't know if you've seen that a while ago. So someone built a. So they had a domain.
+
+Ryan Palmieri
+15:36
+It's a video translator that.
+
+Ryan Palmieri
+15:39
+The video translator and it has like a million, you know, or it's had a million videos uploaded so far.
+
+Ryan Palmieri
+15:45
+But that's a great example of like a domain that someone created.
+
+Ryan Palmieri
+15:49
+They were able to kind of build out their network and then they license it.
+
+Ryan Palmieri
+15:53
+Basically you can license it out to certain, you know, for, in an enterprise sense for, you know, like, hey, now I'm licensing out my translating agents.
+
+Ryan Palmieri
+16:03
+And so I think there's like, there's use cases there that are interesting, but I think the big one is going to be this Korea project.
+
+Ryan Palmieri
+16:11
+So. Yeah, yeah, sorry if that's long winded there.
+
+Alex Lumley
+16:14
+No, no, no, that makes no sense. And so what, what you guys most need is.
+
+Alex Lumley
+16:18
+You guys need more, more use cases.
+
+Alex Lumley
+16:21
+Like right now, if I like this quiz bot agent, how would you leverage this, this use case?
+
+Alex Lumley
+16:25
+Is there enough there? Would you need something else? Like.
+
+Ryan Palmieri
+16:28
+Yeah, I have to think, yeah, I should connect with Ian about this because I think since it brings in the XP program, I think it's more of a community play and really it's less like.
+
+Ryan Palmieri
+16:44
+Yeah, I just have to think about it.
+
+Alex Lumley
+16:45
+I think to be clear, I was just more so trying to understand like what do you need, Ryan, in terms of showing off as a use case?
+
+Alex Lumley
+16:50
+Like assuming it all works on the XP side. Assuming.
+
+Ryan Palmieri
+16:52
+Yeah, yeah, yeah. Like if we have a use case, I literally need like content.
+
+Ryan Palmieri
+16:57
+I would need, I would need content to support and actually, you know, in terms of content, live streams, demos, I would love to.
+
+Ryan Palmieri
+17:07
+From.
+
+Ryan Palmieri
+17:07
+For Mother specifically, I'd love to have some sort of like Matt, like we used to do with Matt and Francesco, I believe.
+
+Ryan Palmieri
+17:14
+Let's get like some really high profile Ones like that where I need to get Matt front and center, most importantly.
+
+Ryan Palmieri
+17:22
+And I think we have some, we have some stuff planned, but I think having a mother Gaia scream where it's like an event that's like, I would love to have that in the next couple of weeks.
+
+Ryan Palmieri
+17:32
+Maybe one or two of those.
+
+Alex Lumley
+17:34
+We can do that. Yeah, we're, we're all about that. We're definitely into that.
+
+Alex Lumley
+17:37
+And, and so, and, and so what we'll make sure of.
+
+Alex Lumley
+17:41
+And so we're actually using a Gaia node in two ways.
+
+Alex Lumley
+17:43
+We're using a Gaia node quiz bot agent, but we're also using a Gaia node.
+
+Alex Lumley
+17:47
+We're taking all of our meetings team and we're turning those in and we're uploading those into GitHub and then GitHub has been tied into a DIA node.
+
+Ryan Palmieri
+17:55
+That's awesome.
+
+Alex Lumley
+17:56
+That Toby set up.
+
+Alex Lumley
+17:58
+And so what we're now starting to do is create like almost prompt specific agents or like workflow specific agents.
+
+Alex Lumley
+18:03
+So you could say like roadmap agent or a project management agent that is checking these things.
+
+Ryan Palmieri
+18:07
+That's great.
+
+Alex Lumley
+18:08
+So those are the, those are two of the things that we're exploring which we're happy to share that with you.
+
+Alex Lumley
+18:12
+Happy to do any content around that with you.
+
+Ryan Palmieri
+18:13
+Yeah, yeah, yeah.
+
+Ryan Palmieri
+18:15
+I think that, you know what, what we've had some success with are these kind of dev rel demos.
+
+Ryan Palmieri
+18:20
+I know I mentioned the Chess agent.
+
+Ryan Palmieri
+18:22
+There were actually, there were some decent engagement and we had some views with that.
+
+Ryan Palmieri
+18:25
+I think these like live demos and like actually explaining that like the thing is like with us, the Living Knowledge Network is our, you know, that's our brands and everything.
+
+Ryan Palmieri
+18:35
+And, and I, while I appreciate, from a creative standpoint, I appreciate it from a creative standpoint, I will say that that kind of branding, we have to be very literal.
+
+Ryan Palmieri
+18:46
+We have to kind of get a step back a little bit and be very literal in our messaging and very clear what we're building.
+
+Ryan Palmieri
+18:54
+We can't like, if someone. Yeah, we can't just like explain it. Hey, hey, what is this thing?
+
+Ryan Palmieri
+18:58
+And like get people in the conversation. We have to just very plainly say this is what we, we do.
+
+Ryan Palmieri
+19:04
+And so I think a live demo would be really cool if we schedule one or two of those of that roadmap agent.
+
+Ryan Palmieri
+19:12
+Like, that would be huge.
+
+Ryan Palmieri
+19:13
+We can, you know, we can plan about, we can market that in many ways and get the messaging out.
+
+Ryan Palmieri
+19:18
+So that would be really helpful.
+
+Ryan Palmieri
+19:20
+I think like Ian is down, he loves getting a live stream, so maybe there's like a.
+
+Ryan Palmieri
+19:25
+We could do a Discord kind of live stream.
+
+Ryan Palmieri
+19:28
+So that's like the content I need to support the value of God, what we actually bring to the table.
+
+Ryan Palmieri
+19:34
+And you can. How you could use Gaia.
+
+Alex Lumley
+19:36
+Cool. And do you guys, like, do you have a bunch of smaller agents that are using Gaia in these ways?
+
+Ryan Palmieri
+19:42
+Yeah, we have. I can give. Find a list of kind of agents that are out there now.
+
+Ryan Palmieri
+19:48
+But yeah, it's nothing, you know, it's nothing that someone on the outside would really be interested in, as I would say.
+
+Ryan Palmieri
+19:55
+And maybe I'm making an assumption, but I think if you're not really into the AI, decentralized AI, AI specifically, you're not that.
+
+Ryan Palmieri
+20:02
+Not. You're not really going to be attractive.
+
+Ryan Palmieri
+20:05
+But I think that's like the goal is the hurdle to get over.
+
+Ryan Palmieri
+20:08
+It's like once we show people that you listen, you know, these aren't tools of convenience.
+
+Ryan Palmieri
+20:13
+These are tools that can enhance your life. Yeah. Like. Yeah. So. Yeah.
+
+Alex Lumley
+20:20
+Cool. That makes sense.
+
+Ryan Palmieri
+20:21
+2.
+
+Alex Lumley
+20:21
+Two more questions for you.
+
+Alex Lumley
+20:22
+One is, one is what kind of agents are you guys using on your marketing, on Twitter or content development or anything like that?
+
+Ryan Palmieri
+20:34
+So right now. So that's been another interesting thing I'm trying to instill and build out.
+
+Ryan Palmieri
+20:41
+So as an AI company, we hardly use any actual AI tools.
+
+Ryan Palmieri
+20:46
+And so we have the general automators and everyone here, whether they like to invent or not, uses some sort of.
+
+Ryan Palmieri
+20:55
+Uses Chat GPT, Matt especially. It's funny, but we don't have anything. We don't have anything.
+
+Ryan Palmieri
+21:01
+Like we need to create graphics, motion graphics, right.
+
+Ryan Palmieri
+21:05
+To do that, you have to build it out and then you have to bring it to Runway and.
+
+Ryan Palmieri
+21:09
+Or Chat GPT or something or whatever you draw up. And they have to.
+
+Ryan Palmieri
+21:13
+Then, you know, there's all these kind of like these, these steps that you have to go through to just get a piece of content.
+
+Ryan Palmieri
+21:18
+And so I'm trying to figure out what some way, whether some way to actually get Gaia specific content.
+
+Ryan Palmieri
+21:26
+Build an agent that actually creates. That creates that stuff.
+
+Ryan Palmieri
+21:30
+I think for marketing, I would love to see some.
+
+Ryan Palmieri
+21:32
+We, we're using HubSpot, which is kind of, you know, just again, like web2, web3ish.
+
+Ryan Palmieri
+21:36
+I really want to start, you know, like we're, we're working with Schizo.
+
+Ryan Palmieri
+21:41
+They're formerly Schizo Terminal, now they're Minecraft mind, not mine. But we're building out.
+
+Ryan Palmieri
+21:48
+We're creating like an intern agent, a guy intern agent.
+
+Ryan Palmieri
+21:51
+And so I think like things like that where if we had an agent that actually communicates, like in its own X account that, you know, communicates and kind of preaches about, you know, decentralized.
+
+Alex Lumley
+22:02
+AI all day, we actually have a team that can build that for you. That's been building.
+
+Ryan Palmieri
+22:07
+Yeah. So I think, like, that's interesting. Yeah. You know, and that's a low lift, I think. Right.
+
+Ryan Palmieri
+22:12
+It's not.
+
+Ryan Palmieri
+22:13
+It's really just training of guy, like training the agent on what guy is as a brand and then we could generate content from there.
+
+Ryan Palmieri
+22:20
+I think one of the big things I see and we were talking to Matt about was creating like a mat agent.
+
+Ryan Palmieri
+22:27
+So there's a blocker we come across.
+
+Ryan Palmieri
+22:29
+There's this one blocker with getting thought leadership content out because we have someone in house writing it and she's great.
+
+Ryan Palmieri
+22:35
+But Matt has no time to read through this thing. No, has no times. Right.
+
+Ryan Palmieri
+22:39
+So what if we created a mat agent? We trained it with how his.
+
+Ryan Palmieri
+22:44
+How we developed this brand for Matt and how he speaks and how he writes, and we generated op EDS from that.
+
+Ryan Palmieri
+22:50
+You know, I think that's like, that's going to be a future thing where that.
+
+Ryan Palmieri
+22:53
+Where ip, if you are, you know, you are like lead in the state or have the estate of like some very famous writer, you'll be able to license that out as like a tool for young up and coming writers to learn how to write.
+
+Ryan Palmieri
+23:10
+Like Stephen King. Private Stephen King. Right. So that's gonna.
+
+Ryan Palmieri
+23:13
+That's an interesting tool that we're kind of like working into. You know, internally.
+
+Ryan Palmieri
+23:17
+We're kind of trying to figure out for the marketing side.
+
+Ryan Palmieri
+23:21
+But, you know, I could always use in terms of like functional.
+
+Ryan Palmieri
+23:24
+I can always use marketing, like try to figure out. I'd love to have.
+
+Ryan Palmieri
+23:27
+Try to figure out marketing tools that automate things more and, and turn that, you know, be more reactive as a marketing org.
+
+Ryan Palmieri
+23:33
+So.
+
+Alex Lumley
+23:34
+So a lot. I actually do have two more questions. The two more.
+
+Alex Lumley
+23:36
+Please keep up what you're doing on the Twitter growth stuff, because I think I have an idea for that.
+
+Alex Lumley
+23:40
+The second one is like, what is the hardest part for the TG for you?
+
+Alex Lumley
+23:43
+I believe you said it's getting retail to understand why they want to keep the token and I guess like use cases for that or I think it was also just communicating content.
+
+Alex Lumley
+23:56
+Communicating this. Here's how the TV is going to work. Here's all that stuff, right?
+
+Ryan Palmieri
+24:00
+Yeah. I think internally, frankly, and I don't think it's not that there's any secret.
+
+Ryan Palmieri
+24:07
+I think there's just Been there's a lot of cooks in the kitchen. Shocker.
+
+Ryan Palmieri
+24:11
+As you know from other previous. There's a lot of cooks in the kitchen.
+
+Ryan Palmieri
+24:15
+We have our Singapore office and so I think for me it's just, I've been playing detective a bit in terms of finding out what the actual mechanisms of our airdrop are, you know, like.
+
+Ryan Palmieri
+24:25
+So I think for me that's been a big challenge.
+
+Ryan Palmieri
+24:28
+But in terms of kind of externally, I think it's, it's really just I want to make sure that we communicate that by buying, holding our token that this is something worth investing in, but also that there's an ecosystem and once our foundation is set up and dao that you'll be able to vote and actually participate in how these agents are built shapes and so on.
+
+Ryan Palmieri
+24:52
+So that's been, you know, all those questions.
+
+Alex Lumley
+24:56
+That's going to be so many questions.
+
+Ryan Palmieri
+24:58
+We got it, we got it. We're going to do it.
+
+Ryan Palmieri
+25:00
+I, I, I'm hell or high water but you know, it's been interesting.
+
+Ryan Palmieri
+25:06
+I'll just say that it's been, you know, Matt is hand, Matt is a running point in the foundation and so I know there's a few hiccups there, but I think we're in a good spot and so we'll see how we go.
+
+Ryan Palmieri
+25:17
+But then on the other hand, hand this Korea project completely came out of.
+
+Alex Lumley
+25:22
+Yeah.
+
+Ryan Palmieri
+25:22
+Left fields in February or March and then Shank basically had to go out and raise more money to.
+
+Ryan Palmieri
+25:31
+Yeah, so then there's that and that kind of like there's two enormous work streams side by side and so yeah, it's just been a challenge.
+
+Ryan Palmieri
+25:41
+But we're good.
+
+Ryan Palmieri
+25:42
+I think we're in a good spot and post tg, we'll be able to definitely bring out many more, a lot more resources and I'd like to actually again start kind of having these ideas, these agent kind of brainstorms haven't actually come into fruition.
+
+Ryan Palmieri
+25:57
+Fly them and so on.
+
+Natascha Tiotuico
+26:00
+I already have a backlog for our co unity what to do with Gaia.
+
+Ryan Palmieri
+26:05
+That's awesome.
+
+Alex Lumley
+26:08
+And by the way, that's part of the reason why, because we're working in communities and Discord and all that stuff.
+
+Alex Lumley
+26:13
+That's part of the reason why community is so important.
+
+Alex Lumley
+26:15
+This one of the things I was going to ask you was did you end up seeing the Twitter card that we created?
+
+Alex Lumley
+26:24
+Must have been two months ago we created some Twitter cards and we were actually having agents compete.
+
+Alex Lumley
+26:28
+Of which agent do you like most?
+
+Ryan Palmieri
+26:30
+I actually didn't see that. No.
+
+Alex Lumley
+26:32
+The reason why I asked this, I can send you the link, but the reason why I asked this is because that's actually something that I believe we could probably kind of allow you guys to leverage.
+
+Alex Lumley
+26:44
+And it's something that is very unique on Twitter that many other people haven't done.
+
+Alex Lumley
+26:48
+And it's probably something we could also build on top of Gaia.
+
+Ryan Palmieri
+26:51
+Yeah.
+
+Alex Lumley
+26:51
+By doing that, then there's two things.
+
+Alex Lumley
+26:53
+There's something in Discord that people are playing with and seeing every day that's built on top of Gaia.
+
+Alex Lumley
+26:57
+Then also something within, within Twitter that is that. That is built on top of Gaia.
+
+Alex Lumley
+27:05
+Most importantly, that that Twitter thing allows us to get smart wallets.
+
+Alex Lumley
+27:10
+We have smart wallets in Twitter. We have smart wallets in Discord.
+
+Alex Lumley
+27:13
+And now there's a way to potentially for people to actually purchase things on chain within Twitter or within Discord.
+
+Alex Lumley
+27:22
+So during your tge, then things can actually happen.
+
+Ryan Palmieri
+27:26
+Yeah. That's amazing. I'm.
+
+Ryan Palmieri
+27:27
+I'm a big fan of and I've been following a banker and so I think like that is a great.
+
+Ryan Palmieri
+27:34
+You know, again, that's something similar. Right.
+
+Ryan Palmieri
+27:37
+I think like something that you can interact with right there.
+
+Ryan Palmieri
+27:40
+Hey, Bankerbot, buy me, you know, by $100 worth of Toshi on base. You know, I think like.
+
+Ryan Palmieri
+27:48
+And it does it for you. And I think like that is something like a very.
+
+Ryan Palmieri
+27:52
+What I assume is a little bit of a low lift and we can just demonstrate that and then apply it to bring in Gaia.
+
+Ryan Palmieri
+28:00
+I think like there's. That's something that maybe in the next month or so we can be.
+
+Ryan Palmieri
+28:04
+Or prior to tge, we can get going.
+
+Alex Lumley
+28:06
+And the last thing is just kind of quickly give me a sense of like, how is the CG going to work?
+
+Alex Lumley
+28:10
+Like from what. You know, because I'm sure it'll kind of change.
+
+Ryan Palmieri
+28:12
+But yeah, I mean, in what sense? In terms of the rollout, like, what's.
+
+Alex Lumley
+28:19
+It going to be on? What's it going to be on? What's the mechanism?
+
+Alex Lumley
+28:22
+I'm sure you guys are going to have an airdrop. Are people going to buy tokens? Like, how.
+
+Ryan Palmieri
+28:26
+So we have, we have. We're on Ethereum Mainnet.
+
+Ryan Palmieri
+28:33
+We are basically from my, from what I'm planning, we're going to announce it the week before.
+
+Ryan Palmieri
+28:39
+I think another hurdle and why we've pushed it so many times is really since we took a lot of our focus and put it on Korea because they're the largest retail investment market for crypto in the world, and then the markets have shifted dramatically.
+
+Ryan Palmieri
+28:55
+Luckily, we're in a good spot now or better spot. I think that's been a challenge.
+
+Ryan Palmieri
+28:59
+But right now we're waiting on one more Korean exchange.
+
+Ryan Palmieri
+29:02
+And so we have Binance, I believe we have Bybit.
+
+Ryan Palmieri
+29:07
+I think we're waiting on update and just top secret, you know. Yeah. Okay, cool.
+
+Alex Lumley
+29:14
+But what I'm almost looking for is like if you guys have.
+
+Alex Lumley
+29:16
+Is if there's anything that we can, if we can get a sense of how your TG is going to work.
+
+Alex Lumley
+29:20
+Like if you guys, if there's any document, I can also ask Matt this.
+
+Alex Lumley
+29:23
+But then that can help us make sure that the things that we're looking to build or the agents that we find can actually enable that to do better.
+
+Ryan Palmieri
+29:32
+Yeah, I think if you don't mind.
+
+Ryan Palmieri
+29:34
+So my goal for today, we had a kind of a pre TG marketing war room the other day where we have this kind of master list of just action items, content and everything.
+
+Ryan Palmieri
+29:44
+And then we have built it on the Figma file and then they have our just our, our, our go to market TG strategy anyway.
+
+Ryan Palmieri
+29:53
+So I think if you give me a day to just kind of give a recap and so it's clear for I can hand it off to you so you can kind of absorb it.
+
+Alex Lumley
+29:59
+That's great.
+
+Ryan Palmieri
+29:59
+And you'll get a sense of like what is actually happening in the next couple weeks and what needs to happen.
+
+Ryan Palmieri
+30:05
+There's just been again, there's, there's, you know, tallies handling our delegate portal.
+
+Ryan Palmieri
+30:11
+I just did our hedgy. We just, we did.
+
+Ryan Palmieri
+30:14
+Everybody tested our airdrop portal and I think that the marketing market perspectives.
+
+Ryan Palmieri
+30:18
+A lot of work needs to be done on that.
+
+Ryan Palmieri
+30:21
+You know, we're announcing our airdrop where the airdrop will be live.
+
+Ryan Palmieri
+30:25
+But I'm still trying to kind of get a sense of how long that airdrop is.
+
+Ryan Palmieri
+30:29
+And then we're allocating, you know, 5% I believe of all supply to the airdrop.
+
+Ryan Palmieri
+30:35
+But how much of that 5% is going to be just for airdrop number one.
+
+Ryan Palmieri
+30:38
+And so I'm still trying to gather that information so.
+
+Ryan Palmieri
+30:42
+But I will share what I have probably by tomorrow once I kind of, I'm doing this kind of comprehensive recap and.
+
+Ryan Palmieri
+30:48
+And then we can kind of go from there. But I think in the immediate.
+
+Ryan Palmieri
+30:52
+I love to, I think definitely sync with Ian. I think one of the things with Hamza just.
+
+Ryan Palmieri
+30:59
+I have to jump in a sec. But Hamza was brought on as kind of a consultant. He's from another agency.
+
+Ryan Palmieri
+31:06
+He was a colleague of some of the guy that's working our marketing.
+
+Ryan Palmieri
+31:12
+He's great seasoned marketer but he's only kind of in a consultant role.
+
+Ryan Palmieri
+31:17
+We only have him for like a month for X amount of hours.
+
+Ryan Palmieri
+31:20
+Matt though kind of like assumes he's just like on the team already. And so I don't want to waste.
+
+Ryan Palmieri
+31:26
+I think I'd like you to meet. I want you to have access and I want you guys to meet.
+
+Ryan Palmieri
+31:31
+But I think right now let me just make sure it's within scope and Matt's aware that's like yeah, this.
+
+Ryan Palmieri
+31:38
+He's part of the team now. It's like no, he's. He's just.
+
+Alex Lumley
+31:41
+I feel, you know.
+
+Ryan Palmieri
+31:42
+Yeah. So. But yeah, let's. Anything else.
+
+Ryan Palmieri
+31:46
+I definitely schedule a call with Ian and then let's all you Ian and I and if Honda's available, we'll connect.
+
+Ryan Palmieri
+31:52
+Let's hash it out. But I appreciate you reaching out and giving you. Let's, let's. Let's jam for sure.
+
+Alex Lumley
+31:59
+Sounds good, man. I'll talk to you soon. Cheers.
+
+Ryan Palmieri
+32:00
+I'll see you guys later.
+
+Natascha Tiotuico
+32:02
+Bye.
+
+Natascha Tiotuico
+32:17
+It
+
+Natascha Tiotuico
+32:43
+that
+
+Natascha Tiotuico
+34:25
+it's,
+
+Natascha Tiotuico
+41:13
+
+it's, it.
