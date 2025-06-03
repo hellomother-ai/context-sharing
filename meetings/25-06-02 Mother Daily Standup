@@ -1,0 +1,175 @@
+Mother Daily Standup - June 02
+VIEW RECORDING - 31 mins (No highlights): https://fathom.video/share/1dwynEi5DBN6JsmX15H5W1CTmNh8GGxU
+
+---
+
+0:00 - James Young (Collab🤝Land)
+  port this morning, so she'll be landing there probably at night tomorrow.
+
+0:07 - Natascha Tiotuico
+  Yeah, cool. I'm going to definitely meet her out for a coffee. Awesome. Awesome. Very cool.
+
+0:16 - James Young (Collab🤝Land)
+  Yeah, we'll give it a minute. Any kind of general updates, I guess, while we give everyone a minute to hop in?  If not, we can maybe we're one minute past so we can jump into it. Cool. So I think what we left off on Friday was we were going to just try and use OpenAI or ChatGPT.  I really don't have a preference, whether it's Cloud, GPT, or, you know, any of these kind of frontier models to use.  I think maybe ChatGPT is the most familiar because it has the GPTs. And so, you know, we have that on our way here.  There is this really interesting issue that I'm dealing with right now when it comes to the quiz bot, and it's because the AI doesn't have so much context on the Collablant account kit and all that stuff.
+  ACTION ITEM: Deploy initial quiz bot in Mother AI Discord this week
+ - WATCH: https://fathom.video/share/1dwynEi5DBN6JsmX15H5W1CTmNh8GGxU?timestamp=85.9999  So interacting with the blockchain has been really interesting to debug, but I think I'm over the hard part now.  I'm hoping we can get this deployed. will be unoptimized this week in the mother AI Discord. So that's still ongoing.  And what I want to do is revisit once I get this initial quiz bot and all of that going, it's going to use intuition, Gaia, hopefully.  Great. Thank Thank Thank Thank Thank I know Harish was saying that they're going to give us some, like, dedicated node or something like that.  He put in the mother Gaia chat. So for now, I'm just using OpenAI to generate the quizzes, but it should be a seamless switch.  It's just an endpoint change. And we're using Lit as well. We always have been. Actually, they had an outage over the weekend, so I had to deal with that.  So there's, but I think we're over the hump there with all of that. But that's the status update when it comes to the quiz agent.  What I want to do is just let everyone know that there's probably going to be some refactoring that we'll do with the orchestrator agent post-launch in the Mother AI Discord.  There's some really interesting things that are happening that I want to take advantage of when it comes to. Thank you.  To MCP specifically, because I talked with Matt, I think over the weekend or some Friday or sometime, I forget exactly when, there's an initiative that's not directly related with Gaia, but Michael, who is the CTO of Gaia, has a side project, separate project for Open MCP.  And probably will use the Open MCP standard there when it comes to, when I refactor the orchestrator agent. And there's some kind of work, I think, that's hidden now that will get exposed when it comes to putting the Gaia nodes on the intuition registry.  And then the orchestrator agent coordinating with the agents that. Populated on the open registry, and then there's going to be some work that, some thinking that we're going to need to do in terms of a story with regards to how the open registry will then translate into the curated registry, but that will emerge, I think, in the next few weeks, not something to focus in on now, but something that we want to consider, and from a technical perspective, I'm baking some of that foundation in, in anticipation.  So there's going to be a general refactor of the orchestrator agent post this initial, let's call it V1, of the quiz, polls, and quests.  But that's my status update. I don't know if there's anything else.
+
+4:54 - Alex Lumley
+  Were you able to talk to Matt at all about, um, some of the, uh... The, what was sort of like the, the, the, the, the contributor agreement to stuff like for Gita?  Uh, I, he said that he's still working through that.
+
+5:11 - James Young (Collab🤝Land)
+  Okay. Uh, and I did have a chat with Gita and, uh, he, over the, I chatted with Gita today over the weekend, and I didn't know this, he spoke with someone, Sordi or something like that.  And, uh, okay, I think so. Um, and, uh, he was saying, and he had just told her over the weekend that, uh, he's going to pause, continue to work.  So, um, just to give, I don't know if this is too much information for Gita, but he got accepted to the master's program at NUS.  NUS is like the MIT of Singapore, essentially. awesome.
+
+5:56 - Alex Lumley
+  Yeah.
+
+5:56 - James Young (Collab🤝Land)
+  And so, uh, he is saying that he wants to. He needs to get his loans, his living situation, his immigration, and all of that started.  So he's outside of Collaboard, that's his priority, he was saying. So he doesn't have the kind of room. So, yeah, so that's something that is going to need to be addressed, as we talked about on Friday.
+
+6:33 - Alex Lumley
+  And Matt, saw that you're here, I'm glad you're here because we wanted to talk to you quickly about, like, after the what we ship call on Friday, we talk through kind of some of the, like, the five biggest projects that we have, and I have to write a note to everyone of, like, what those are, but as we look through the five biggest projects, right, you know, basically, like fundraising, like fundraising, fundraising, like like like fundraising, fundraising, fundraising,  The Gaia node, doing some of the Gaia workflows, some of these other things, and I'll write that out. The obvious biggest risk is actually delivery of these discord agents because that's a bunch of engineering work that has to happen.  And James Walletalented, obviously, is the head janitor at Collabland and has a bunch of stuff going on there. So we talked about, like, how can we reduce that risk given especially the potential, like, how near things might be happening with Gaia's kind of distribution event.  So there were some different options. One of them was potentially working with Geeta. Another one was potentially bringing in Toby or doing something else.  But if the first three of these kind of agents, we have to sort of build out a reference point and not to, like, as well as for the arbitrator, I was wondering if you had any ideas about how we could reduce that risk of basically only having a 25 percent.  Develop engineering capacity.
+
+8:02 - Matt Wright (GaiaNet)
+  I'd want Toby's role is supposed to be focused on agent development, so I'd love to get him some, like, we need to outline, like, a PRD for what agents we actually want to build specifically.  I just have to limit the creativity on my team, like, so they stay focused. So as long as we map out what are the technical requirements that need to be built, they can move pretty fast.  But if they have to get creative, they're going to take a lot longer. We can map those out. We can map those out specifically.
+
+8:38 - Alex Lumley
+  Yeah, keep it light, too.
+
+8:39 - Matt Wright (GaiaNet)
+  Don't, like, hopefully that word doesn't scare people. But anytime I do a project, I have a scoping doc. So we need a delegate to these guys, and they'll handle it.  Just give them a timeline. Cool.
+  ACTION ITEM: Communicate w/ Sydney re Toby's involvement; work w/ Alex Boto on expanding dormant agents on registry; pay web dev; create Twitter thread on Mother status; complete strategy doc
+ - WATCH: https://fathom.video/share/1dwynEi5DBN6JsmX15H5W1CTmNh8GGxU?timestamp=539.9999
+
+8:52 - Alex Lumley
+  And so I know, like, Sydney kind of runs that engineering team. Like, if you say work with Toby. Talk to Sydney for, like, more so on that to figure out what his capacity is or what's the best way to work with Toby and Sydney on that?  Yeah, that's the best. They love doing async.
+
+9:10 - Matt Wright (GaiaNet)
+  I can talk to her. I know you're coming, but let's coordinate over the mother's slack. I need to get her on top of that.  But, yeah, you can talk to Toby directly. don't have to. I'll just give her a heads up myself. Cool.  We will make the PRDs.
+
+9:26 - Alex Lumley
+  And I know there's like kind of two things, two potential places where Gaia DevRel team might be helping. One is this kind of workflow agent, setting up this Gaia node, doing all sorts of things.  And the second part is this development of the orchestrator agent and these like Discord agents. Is it mostly Toby who would be helping Mother?  Where do Harish and Sydney fit into that?
+
+9:52 - Matt Wright (GaiaNet)
+  Mostly Toby to lead, but keep them in the loop. Keep Harish, Sydney. Harish is more working on like internal.  All like DevOps, so like if it requires like maintaining a domain, creating a node, Harish has more specialty there.
+  ACTION ITEM: Reach out to Toby/Sydney re Discord agents dev; draft note for Ian on Gaia TGE focus
+ - WATCH: https://fathom.video/share/1dwynEi5DBN6JsmX15H5W1CTmNh8GGxU?timestamp=612.9999  it's agent development, Toby, and then Miaoui or Sushimita, she can also be helpful as well. Sydney's more like org alignment.  Cool. Okay.
+
+10:23 - Alex Lumley
+  I'll take the next steps in that in like reaching out to Toby or Sydney and kind of letting them know what's coming.  And in terms of making a PRD, the biggest, one of things we talked about yesterday, or sorry, Friday was the two key things that were driving mother for the next kind of 30 days, or like 30 to 60 really is one, the Gaia TGE, right?  Because we're trying to deliver value to the Gaia TGE. then secondly, is the fun, like going towards a fundraising event, like a presale, not a full TGE.  So given that we're, we're focusing specifically on these discord orchestrator agents that would support and enable you guys. Right now, see three ones, and I'm going to check this with Ian when I speak to him tonight, Matt, but wanted to get your feedback of one is kind of questing and polling within Discord.  The second one was having to be able to run a GitHub quest, right, so you can make sure developers actually have forked and started and done everything with the Gaia node.  And the third one is, like, the ability to actually complete transactions in the Gaia Discord, e.g., if someone wants to participate in this e.g., they can do so within Discord.  Yeah, those are great.
+
+11:31 - Matt Wright (GaiaNet)
+  I think, for me, the bigger ones I want to work towards are, like, those, I think, for one, orchestrator, like, hands down, but the ones I think we're missing are, like, a community manager agent, which any one of those can kind of, you can kind of say they're community managers, so I guess that one's okay, but, like, a hackathon agent.  I want to take the agent that we built out from the hackathon that was taking in submissions and then distribution.  I think payment on which teams, you know, were rated the highest from the AI's opinion, that's one that I wish we had up and running 24-7 because we could basically automate a lot of the innovation process.  Like, I feel like if at any point we feel like we need to build stuff in-house, then we're not doing a good job at incentivizing our developer community.  And I feel like something like that would be a massive engine, but it's not an easy build. So I guess it's taking a while, but that's something Harish could build, or Toby.  can, like, figure out which one of them could handle it.
+
+12:38 - Alex Lumley
+  And to be clear, and Coach J, I know you have hand up, so I'll wrap this up quickly. Like, on the community agent, is there anything else that you were thinking would be valuable?  And just were prioritizing based on what would be valuable for the Gaia TGE?
+
+12:54 - Matt Wright (GaiaNet)
+  Marketing-wise? Yeah, marketing-wise, I've always wanted a node or nodes that are... We on mother so that it could actually tweet or answer questions if prompted, you know, essentially like I wish we had a Twitter account that was like its own mother personality or some like character that was acting like a community manager.  We've had nodes like this provide that support since May of last year on Gaia. Like we basically automated Farcaster and Twitter integration where you can tweet at the node and it'll respond over the APIs.  Yep. And for me, that's like a huge marketing community push, but also like internally, like if we're training the model and we ask, you know, hey, like, you know, what's the timeline look like for, you know, the engineering roadmap?  Like it would answer those questions. So it's kind of like a support agent as well. And is that, and that would be helpful specifically for a Gaia through the market about what's being used for Gaia, like what Gaia nodes are being used for?
+
+13:59 - Alex Lumley
+  Okay. Cool. Cool. Yeah, build it for Gaia first and do it for Mother later, whatever we think is better for go-to-market.
+
+14:05 - Matt Wright (GaiaNet)
+  I don't want to focus too much on Gaia. I want it to be useful for the entire ecosystem. So as long as one foot before the other makes sense, I'm down either way.  Cool.
+
+14:17 - Alex Lumley
+  And then lastly, you said the hackathon agent. Is there some specific hackathon that's coming up that you'd want it to go towards for that?  No, I want to run around 24-7.
+
+14:30 - Matt Wright (GaiaNet)
+  I don't want to have a dedicated event that takes months of playing. would rather every weekend this agent picks off a campaign where it says, hey, here's all the partners that want to put up bounties and challenges.  Here's the money that's up for grabs, submit your project by this date and time. And if it meets the criteria, if the Mother orchestrator agent decides that, you know, these teams are the winners and they're receiving money, it ought to be  I think it gets distributed, humanless, uh, innovation pipeline. Do you, do you happen to have, uh, do you guys have a judge agent or anything like that for Gaia nodes?  Uh, yeah, that's what we did when we did the autonomous hackathon that was all ran by the agents and then we never took it forward.  Oh yeah.
+
+15:19 - Alex Lumley
+  Cause, because, because what I was imagining like in discord, having, um, a judging agent be able to anytime, like basically going through and judging all of the Gaia nodes.  Cause that's something that makes total sense that's happening before TGE. And then any new one that gets deployed, let's judge it on this set of criteria, et cetera.
+
+15:34 - Matt Wright (GaiaNet)
+  We could do that too. You could also, that's the, that's the cool thing is like the, the agent could be configured to judge which nodes are being the most performant or, uh, useful.  And then you can also have, um, an agent that is judging proper, like net new platform integrations or extensibility that, you know, are, are, uh, solving a certain challenge.  Uh, we can structure it in certain ways and run different. campaigns, but overall, like the actual underlying tech is the same pattern.  It's just judging context that's incoming, and then it's deciding or analyzing, you know, what is the criteria it was trained on, and then it's distributing pay autonomously through either, like last time we used Coinbase's agent starter kit, but I think now with Orchestrator Agent or with NCP, we can probably just do it our own way.  That, I think, is really, really cool, and that's something that every project would adopt, like they would love to have an in-house 24-7 hackathon.  Yep. Okay, that makes a lot of sense.
+
+16:43 - Alex Lumley
+  I'm going to draft up this note for Ian for when I'm talking tonight, and Matt and James, just for you guys' reference, basically the way we're doing is we're focusing on the Gaia TGE because it allows us to, like, constrain the problem, and we're finding out what is valuable for Gaia, and then also looking at what we are being on the  Like building, and we're basically going to say, okay, oh, these are things that are valuable for Gaia. Do we know any agents that are already building those things?  Can we plug them into Orkstrader? If not, is it valuable enough for us to actually start to build it ourselves?  If not, let's deprioritize it, but starting with what is the most valuable thing for Gaia TG, and then we do the same thing with Lit and Intuition, et cetera.
+
+17:19 - Matt Wright (GaiaNet)
+  Yeah, I think you and I can sync up on the side, too, because we can, a couple of the teams that are already building in the space, we can probably have them build towards this challenge area, and I can maybe work out some sort of deal with them with like future Mother or Gaia tokens.  Like for example, the intern team, I think they could probably pivot to a Hatchathon agent. And we already have a lot of the scope.  I think we just need to figure out what V2 looks like. Yep.
+
+17:48 - Alex Lumley
+  And to be clear, like this is something I found in the past, was that we have a bunch of teams who are kind of building their own thing based on their own requirements.  And then we kind of have these loose requirements, but we didn't have a way to kind of instigate or  Start it to make it accessible enough for the teams who are kind of building their own requirements to say, oh, there's value here.  Let me go and build for that. So that's kind of how we're trying to map it. Cool. Thanks, Matt.  Coach J, Natasha, I know you had your hands up. Yeah. Okay.
+
+18:13 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  You actually kind of captured the end because I'm hearing a lot of things about us building, and I heard that there's a TGE happening on June 25th.  So when I hear stuff about refactoring by the orchestrator and building stuff, I think I was just curious as to, like, what the timelines all look like.  Because I'm creating a launch plan, and actually after that, after hearing that conversation, I'm feeling actually a little bit better about it.  I thought I was missing a bunch of things, but whatever we build, at the end of the day, the success metrics are the same.  It's how much are we increasing engagement with agents that are accessible through the mother orchestrator, and how much is that improving the performance of, for example, the token price or whatever it is.  Like, that's what it comes down to, right? No matter. Or if we have just the one agent, our quiz agent, or if we have, like, we managed to get 10 agents on the registry before the TGD happens.  Yeah, so great, great question.
+
+19:09 - Matt Wright (GaiaNet)
+  So, and I think you heard me on the, on the, shipped on Friday. We, like, we need to start showing fraction on, like, developer and kind of end user community, which I think you guys are doing a great job on.  And then second, it's number of agents on the registry. And then lastly, it's, you know, what James is, uh, accountable for right now and pushing, which is, uh, you know, transaction volume.  Um, and so for the agents on the registry, I need to work with Alex Boto. I already reached out to him to, um, the, the simple thing is like, let's just, let's just start, um, expanding some kind of dormant agent, uh, agents on, on, uh, on the registry.  And so like Gaia nodes, we have, we have that already, so we can kind of, uh, I hate to use the word, like cheat the, cheat the metrics, but like.  We've of done all the work already, so we can start to now bring that onto a registry and then think through, okay, what are the agents that are going to get rewarded for actually doing things?  That'll be the next phase that I'll work with Alex on and my team, but for the marketing timeline, for all intents and purposes, I think it should be around immediately, like, how do we create marketing around the agents getting on the registry?  How do we do product-led marketing around the registry being something visual people can see, and so I spoke to a few of you guys last week on, like, a visible registry that would live on the website that people can kind of just sort through our Craigslist pages of agents and see what people are kind of putting on the board, and then from there, sure, Gaia has RTGE, again, very confidential, but we have RTGE, end of June, June 25, for Gaia.  And essentially, like, you know, we'll have the ability to do some kind of rewards to the mother ecosystem as well as it's kind of also going to be supporting Gaia so we can get there when we get there.  But we need to push the go-to-market this next month on, again, like the registry and the orchestrator KPIs. And then, you know, I would say, like, if we're limited on resources and we don't want to waste too much energy where a lot of us are part time, I think the workshops we do or the webinars are great for marketing, but I would also, I would consider maybe pivoting to projects that are marquee projects on the registry.  So how do you do a webinar with, again, like the intern team or GigBot or EXO or even the orchestrator agent, like, get James on, you know, we can talk more focused.  on the traction happening there, rather than boiling the ocean. And like, I think that'd be a really good use of time.  And then by the time we want to launch the mother token, which I'm estimating for end of July, August, based on kind of pushing up this market kind of capture, I think we'll have plenty of momentum by that, if that makes sense to you guys.
+
+22:25 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, should, Matt, should think on time, because I have a different schedule in mind. It's like a little bit further out.  Because the way that I was, the way that I was conceptualizing it, I'm not attached to this idea, can change it.  But like, I was conceptualizing, like, we're going all out for GaiaTGE. Like, let's make this as big as possible.  But GaiaTGE, though, like, I'm really seeing it as our proof of concept, like a study creation phase. Okay, so we're just documenting, we're capturing benchmarks, and then we're using a lot of the success that I know mother is going to drive.  The Gaia TGE to then start building the case, and then we also have lit happening shortly afterwards, and then we have intuition happening afterwards, and we're taking a lot of success from Gaia, and then we're shopping them around to agent projects, because we have had the hardest time onboarding these projects.  They're just like literally not ready to be onboarded, and they're not seeing the value. Gotcha. Which we do when saying, we're in the Gaia Discord, and there's people paying to use our agents.  Do you want in? Yes. And here's how it works. We have a demo, we can actually show you, blah, blah, blah.  That's kind of like how I was envisioning it. I'm open to like accelerating the timelines a little bit. But I was playing it a little bit slower just because we had a few amazing partners like Gaia and Lit and Intuition all launching right around the same time.  might as well take advantage of that and build a super strong narrative. Yeah, happy to.
+
+23:50 - Matt Wright (GaiaNet)
+  I'd also like, I think we're more in the, what I've always wanted to do with a lot of this is to make an announcement that, you we hired our  We're first AI-only team of agents, so if we do have like a suite of three to five agents that are helping on the TGE, helping run some of the innovation pipeline, you know, I'd love to set an example for that, you know, yeah, it's big PR, super, super strong, yeah, yeah, kind of like when like FWB got hired to be like, like FWB as the DAO got hired to be the creative director for Nike or whatever it was back in the day, like I picture this really cool PR person where it's like, you know, mother, like Gaia hires like first AI agent team out of mother, that would be cool.
+
+24:39 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, so I guess the number one blogger is just like figuring out what can be done before, you know, not even June 25th, like a week before June 25th, so we can really get our dubs in order, but that's my only flag, it's like, what can we realistically get done in the next two or three weeks, let's see what we can do.  Awesome, man. Yeah.
+
+25:00 - Matt Wright (GaiaNet)
+  Yeah, let's link up so we can chat through the, yeah, sure, I'll have some, maybe one's there, there's that, cool, yeah, awesome, man, and then while I'm on it, I'll just give my quick updates too, since, yeah, I'm talking to you, I got the multi-sig kind of rearranged, now it's, I believe, myself, who is it, Christine, who's like kind of our foundation operator with Mugen, and then Max, who's our director on the foundation with Marfire, uh, so just three, two out of three signers, um, we are, like, aligned now, and then Jonathan, I need to pay out your, uh, web developer, so I'll get that handled, now that it's, kind of, sorted.
+
+25:44 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Great, and then he will also be thrilled to do work for the guy website, as well, I'm sure he'll be even more thrilled.  the big, yeah, no, dude, they did great, I think we're gonna need his help to do, um, the, the registry interface, and so  I want to make sure he's happy. great. He's also a product designer as well. So he's just amazing. Yeah, he's a superstar.  So, yeah, let's talk to him.
+
+26:07 - Matt Wright (GaiaNet)
+  And then, you know, transparently for everyone here, like, I think the big blocker on my side, just like time wise, but the, you know, Gaia, like we kind of cut off payment to mother, like we put in like 250K already.  And so it's just like, you know, internally, I'm hitting a wall until we do our TG. Um, so we're trying to make ends meet, uh, uh, just to like, make sure we're not bleeding into the, into the mother project right now.  Um, we'll be available to later, but, um, the, uh, yeah, the web developer, like, you know, requires like, uh, I think it's like 10K, um, for work they already did.  There's also like a bunch of outstanding payments, especially for you folks, um, that we have accounted for. Um, just to like, get us through like the next month or two, we like, we'll need to pay out this way.  Guy from the NFT revenue that we got from the initial sale. I just want to be transparent with folks.  I think the blocker I need to do is just communicate this transparently on Twitter. need to do a thread on where Mother's at, what we're doing, so people don't feel like we're rugging people.  But I just want to keep you guys in the loop. Hope you know I'm very transparent. I've been busy, but that's kind of the plan.
+
+27:29 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I mean, um, Tash, you have your hand up?
+
+27:35 - Natascha Tiotuico
+  We also have Katerina asking which, um, communities we are working with, because she's strongly trying to convince her developers to use MCP or A to A to, uh, connect.  Can I, I, like, disclose that we're talking with our partners, Gaelit and, um, Intuition and, Doesn't necessarily say that there's going to be a TGE, since they're partners of mother, would that be okay for us to disclose that information?  I think that's fine, yeah, as long as you don't give this specific date and or even like the month.
+
+28:18 - Matt Wright (GaiaNet)
+  Yeah. Just say it's imminent. That's totally fine. Okay. Katarina's from where? Together Crew. Oh, yeah, dope. Amazing.
+
+28:28 - Natascha Tiotuico
+  Yeah, so they have like a community guardian that they're trying, a summary agent. So they all play into the community manager roles and like specific things.  So I would love to get them on because those are a lot of agents that actually play into this nice community use case.  Awesome. Awesome.
+
+28:58 - Matt Wright (GaiaNet)
+  I know we're a little over time. Any other? other? other? other? Any uh, James, I just have one question for you, James.
+
+29:09 - Alex Lumley
+  I know you said you were thinking about reconfiguring the orchestrator or trying to deliver the orchestrator and the quiz agent this week.  Is there anything else that we can do to help reduce the scope on any of those things and to let us start to test those out?  Take work off your plate? I don't think so.
+
+29:35 - James Young (Collab🤝Land)
+  It's just getting this out. I may need help when it comes to support when we QA and we test and all of that.  Cool.
+
+29:47 - Alex Lumley
+  Yeah. I'm like, I think in the future, we could have Tosh help you more with that. But Tosh is like getting me out later on this week.  So I'm happy to help support you on that. And then the biggest thing that I'll make sure is that we start to get Toby up to speed for you.  James, then we can go from there. Cool. Cool. Awesome. Anything else?
+
+30:11 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Thanks, everyone. Thanks. Thanks. Hey, actually, Matt, sorry.
+
+30:15 - Alex Lumley
+  had one last question for you.
+
+30:16 - Razvan Matei Popescu
+  Yeah, I can stay on.
+
+30:18 - Alex Lumley
+  Any other updates on the strategy doc or any other thoughts on the investment kind of argument? What would you do with that?  Yeah, I've been working on it this morning.
+
+30:26 - Matt Wright (GaiaNet)
+  I should have it by the end of the day.
+
+30:29 - Alex Lumley
+  On the investment doc or on the... On the strategy, which will give an outline on the investment ROI.
+
+30:38 - Matt Wright (GaiaNet)
+  And then next is I got to do the deck. But I can probably make that pretty quick. I'll just get the team to help me out.  Yeah. As long as you make the story, the deck is always easy.
+
+30:48 - Alex Lumley
+  It's the hardest part of the perfect story. Exactly. That's kind of what I'm trying to nail down so it's taking so long.
+
+30:53 - Matt Wright (GaiaNet)
+  Cool. No, no, no. No worries.
+
+30:54 - Alex Lumley
+  I'm going to focus more on helping to getting this engineering stuff going. Then we can get the rest. So thanks, dude.  Cool.
+
+30:59 - Matt Wright (GaiaNet)
+  Thanks, Thank Bye.
