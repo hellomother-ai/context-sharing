@@ -1,0 +1,265 @@
+Mother Daily Standup - June 04
+VIEW RECORDING - 35 mins (No highlights): https://fathom.video/share/3VXF9cKGnkGGLpZJnpbmX9zdr1Z5zMsu
+
+---
+
+0:02 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So we were like halfway through the trip, just started listening to a lot of sound and music as our main soundtrack, and then it worked out really well because we were kind of traveling with a bunch of other people, like our friends were here from overseas, and their family was in Switzerland, and there were some other people, and so one morning we were supposed to do this walking tour, and a lot of these folks we were traveling with were Colombian, and they just were so slow.  When you're working with clubs, you just got to like add on like a bunch of extra time to basically do anything, and so we were like in New Zealand, which is this like beautiful city, not far from where Francesca is in Zurich, and we were just not getting the tour done, like it was just not happening, and so I just, it was like this beautiful moment where we like, my partner decided to make the best of the situation, so we put on our like the Bluetooth headphones, and just started like listening to the soundtrack, the soundtrack.  She was, like, dancing in the street and, like, singing to me and stuff. It was so funny. So I have very positive associations now with the soundtrack, even more than just, you know, the fact that it's an iconic film.  Yeah, all I remember is, like, arms spread out open and spinning around.
+
+1:16 - James Young (Collab🤝Land)
+  Yes, the sound of music, the opening track where she's, like, spinning. And there was no drones, so they definitely had an airplane.
+
+1:23 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  was a crazy shot right at the beginning. Totally. Yeah. This is not on Sound of Music, so do you mind if I propose something real quick?
+
+1:33 - Alex Lumley
+  Yeah, yeah, of course. So what I was going propose is Matt's made a comment a few times that he wants to change the structure of the meetings of these stand-ups.  And I realized that, like, Matt's had a few ideas, but what I realized we could do, maybe the best thing is to keep the stand-up the stand-up, meaning it's, like, blockers and here's our status and here's our rat.  And then if something else requires a meeting, then we can shift to that later on. For example... Coach, like what I did yesterday or what Tosh and brought up yesterday, that question, we should have pushed it to the end and scheduled an extra 15 minutes or 30 or your GTM approach.  But if we just make the stand-up the stand-up and then have a separate meeting for the other stuff. I think that's great.  I love it.
+
+2:16 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I think that's mostly what it is. Sometimes we may not have any blockers and we just kind of check in, say hi to everyone, and then we can call early.  I don't have a problem if that's how we want to run these stand-ups. That's great.
+
+2:28 - Alex Lumley
+  The other thing, I would propose this as an idea, not like that we have to do this, but the other thing I would say is that it might be worthwhile, just because of how we are, to almost have like blocked off co-working time where people are available if you need to ask questions, like, and you kind of have a response to something I've done with Tosh a little bit, and that's actually been very helpful to like say, oh, I know I can get like, I know I can speak to these people if I need to then.  Yeah, like office hours.
+
+2:59 - James Young (Collab🤝Land)
+  Cool. Should we do the stand-up, like, what you're working on? Yeah, I'm working through some debugging, but everything is looking good here.  And so I want to deploy – there's some rough edges. The biggest issue that I've had so far, it was difficult to test all of the on-chain kind of interactions because that just takes time, but – so it's been a little bit more slower going, but I'm hoping to wrap up tomorrow, so happy to, like, figure out how to deploy into the Mother Discord, and maybe that is part of the demo for Friday, so.  Awesome. I have a – can I have some quick questions about it?
+
+3:54 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I know you're kind of, like, debugging and refactoring and whatnot. Do you think that, like, early next week –  We could get, because I remember you did a demo last week, so maybe not this week, because it's already Wednesday, we'll see how much you can get done by this week, but maybe early next week you can do, again, one more quick demo.  I really want to get grounded in exactly how the transactions are tracked and all this kind of stuff, so that when we start building these case studies, we have all the benchmark kind of already set up, like the parameters already set up on what we're collecting, yeah.  Yeah, happy to do that.
+
+4:27 - James Young (Collab🤝Land)
+  Okay, super.
+
+4:30 - Alex Lumley
+  What I was going to touch on was, because actually what I'm working on is similar to that, I realized I've been pitching this orchestrator a couple times to Ryan and Ian and other people, and I've gotten feedback on like, oh, this is what would actually be valuable to them.  And I realized that I don't actually know exactly how the orchestrator works, and so I was like, okay, can I create just a documentation, because I also need to ramp, because we also need to ramp up Toby, right?  And so I started making that documentation. that documentation. I dropped so it. so The link here, and I also proposed what, and the link is very rough, just because as a side note, one of the things I realized is like, oh, there's like four potential sources of what the quiz bot does.  How do I, which one is the one to actually go and do this? The what we ship calls, the fellows, the GitHub, the GitHub repository with all our calls, my calls, et cetera.  So I started to put that there, and then I needed to figure out, like, what that is. So I'm working on that.  James, I'll check it with you to ensure that what I have as an understanding is what you are actually building, because then my next step will be to, from these calls that I've had with these Gaia teams, there's a few requests that they have that I need to make sure are kind of incorporated into how we're building things.  And right now, my guess is, is that they're probably not. A few quick. examples would be, like, they won't use seeds, they would use XP, right?  A second one is, like, they have a request, like, oh, can we actually use multiple languages? Because they actually have languages with different channels.  They also have a request of, like, can we do bulk upload and have all the quizzes created and have the quizzes automatically deployed?  Some of these, I believe, are probably features that we could add on, but then some of them also would have to be, like, bare minimum things for them to actually implement.  It would be great to capture these requests so that we can all share them across the org.
+
+6:37 - James Young (Collab🤝Land)
+  I think this is, like, important to have, just to understand where the demand is. That's what I'm doing right now.  And I was trying to write that document when I realized, oh, I don't actually know.
+
+6:47 - Alex Lumley
+  I'm not actually confident in how the QuizBot agent currently works today. Well, just asking about the demand, like, what do they want to see?
+
+6:56 - James Young (Collab🤝Land)
+  Not trying to figure out, like, what can the quiz bot agent do, but like, what is it that we need so that we can talk about this?  Yep. That's what I'm doing in this doc that I dropped on the side.
+
+7:08 - Alex Lumley
+  I'm doing both of those things. Like, what is the demand? And then what is also how it actually works?  Because it's kind of like a user interview.
+
+7:17 - James Young (Collab🤝Land)
+  And we need to share that across the org.
+
+7:23 - Alex Lumley
+  So I have the interviews. I'm pulling those in and putting those into it. And I'll have some of those features.  But that's why I highlighted the three things that, because one of our keys is to get Toby on board.  And I don't think I saw, James, I believe you confirmed this, but this is my understanding of what of, of, what Toby should focus on.  Well, what, what, what is the, what, uh, what Toby should focus on.
+
+7:55 - James Young (Collab🤝Land)
+  I'm just dropping a link here.
+
+7:58 - Alex Lumley
+  Oh, look at that. Hey guys. Hello everyone.
+
+8:04 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Apologies for not speaking up soon.
+
+8:08 - Tobiloba Adedeji
+  Sorry. It's nice to see all your faces again. Sorry, I can't turn on my camera. But yeah, I wanted to bring up something.  I shared it in the chat just now because I've been chatting with Alex to sort of like give me a couple of dogs to give me context and stuff.  So I'll just go through those to catch up. But I had a chat with Sydney today and she mentioned that we need to build like an indexing, the indexing sort of interface for Moda.  So we can add a Gaia layer for it or something. And she made like a context video a while back.  I don't know if any of you saw it. I just shared the link in the chat to the Slack message.  Has anybody seen that, James, most especially because I wanted to get your, thoughts on your It's something to, if you are okay with us collaborating on that, or maybe if you have any sort of views.  Yeah, I think I saw it like two weeks ago or three weeks ago or something.
+
+9:14 - James Young (Collab🤝Land)
+  So I don't remember it off the top of my head. So I'll have to like review it and watch it.  But, yeah, do you, so this indexer is what's going to like take all of the meetings, the notes and everything, and then allow for the Gaia node to be able to ingest that info?  No, no, no, that's a different one.
+
+9:41 - Tobiloba Adedeji
+  Um, that one is a separate, um, work stream, uh, this one is more of a, um, building like a website front-end thingy, with an indexing backend, something similar to the graph, uh, from other, that we can sort of use to see, oh, these are Gaia agents.  Thank
+
+10:04 - James Young (Collab🤝Land)
+  I'll watch the video, refresh my memory, but it was a few weeks ago, so I can't recall it off the top of my head, but that's your number one kind of priority right now, Toby?
+
+10:17 - Tobiloba Adedeji
+  Yeah, that's like number one priority right now. Okay, so let me review the video after this call and then we can communicate async and slack.
+
+10:27 - James Young (Collab🤝Land)
+  Yes, please.
+
+10:28 - Tobiloba Adedeji
+  You can just drop any feedback you have on the video in the chat and you and I can chat through things.  I'll be off like tomorrow and next tomorrow, but I'll be available in sync. Oh, okay, cool.
+
+10:46 - Alex Lumley
+  One thing I'll point out, that is this indexer registry, I dropped a link to what Matt had talked about.  This is the whole intuition registry getting agents and basically being able to show up. And I think this is where we need to sync to make sure that we are aligned on what the priority is, because I would argue that from what we've seen, the priority is probably the orchestrator and deploying a couple of agents for the TGE, unless, of course, the thing that would most help Gaia for their TGE is to have a large index of agents that people can see automatically.  That's the thing we have to confirm. It's like a lead board? It's more of a registry for agents. Remember the whole conversation we had with Intuition of, like, can we see all these agents in one place?  Like, all the agents that are the Gaia codes and that they have, like, can we see them all in one place so that it's almost like a yellow pages of agents and then evolving that.
+
+11:49 - James Young (Collab🤝Land)
+  Doesn't Intuition already have a front end for that? Not for Gaia specifically, but if you restrict the query parameters to Gaia, then you should just see all of the Gaia nodes.  going going to see each Thank
+
+12:00 - Alex Lumley
+  So I don't believe, and this is what we have to double check, and Toby, you might know better, but I don't believe that the Gaia nodes are actually on intuition, so they'd have to be ingested, one.  Two, I'm not sure if just having it on intuition is enough for Matt's ask based on, I believe why they need that is because it makes investors go, oh, , you actually do have enough nodes, especially for their upcoming TG.
+
+12:27 - James Young (Collab🤝Land)
+  So my understanding, and maybe this is the initial action item for Toby, instead of me mediating that, Toby, if you can talk with someone at intuition, I would recommend talking with Alexandro Vodo, and they're willing to help do that work, as long as the Gaia nodes are like populated on intuition.  And Alessandro had mentioned that. They're more than happy to create a script that populates if you can give all the raw data of like what the GaiaNode names are and what the URLs are, and they'll populate it on Intuition.  Okay, this is great.
+
+13:16 - Tobiloba Adedeji
+  But could you do me a simple, like a small favor? You could, in that thread that I shared with you, if you could tag Sydney, because I would need to go relay this to Sydney.  I don't want it to, I don't know, I don't want to miss any details. But like, if you could help just tag Sydney, because she's a thread in that conversation and maybe respond to her with that, yeah, you can just walk off of it.  I'm already in the FCG. Like, I'll just walk with them from there.
+
+13:46 - Alex Lumley
+  Toby, I'll take it as a next step, because I spoke to Matt about this, and I'll take it as a next step.  You get Alessandro into the Slack, so we can have the conversation. In the right place around in the Slack, I'll also take as a next step to pull out what Matt said to me about how he was thinking about it, and so we can have at least some understanding of some agreement, and then I'll also write out in this document of, in this message, the crux of this question of where should be the focus of your time, is it on this registry UI, or is it on the orchestrator slash agent, because I think that's the crux of the question.
+
+14:30 - Tobiloba Adedeji
+  Yeah, that would be helpful also, yeah, no problem, just let's talk about the async, and yeah, I'm available just like being when you started this conversation.  Okay, cool.
+
+14:52 - Alex Lumley
+  All right, anything else?
+
+14:56 - James Young (Collab🤝Land)
+  Toby, I'm going to ask one more question for you on behalf of, I sent you some
+
+15:00 - Alex Lumley
+  Documents, like there's, there's three GitHub links. I sent you some, some, some, we shipped. Is there anything else that you need to ask James at a, at a high level, um, in order to best, uh, understand all the information?
+
+15:15 - Tobiloba Adedeji
+  Um, uh, one, do we, are we still pushing on open MCP integration and, um, is there already steps in place for that?  And two, um, uh, you mentioned some, about an MCP server for, uh, for Moda that already exists and that we are, we don't, we no longer use CollabLAN framework to connect to Moda.  Um, so yeah, could I get like, um, maybe a demo somewhere that you have interacted with, uh, Moda using that server.  If you have done something like that or the repo alone is fine. Yeah, the, the rep, repo is, uh, where all the context is.
+
+15:55 - James Young (Collab🤝Land)
+  So you can just, there's a context folder and that has all all the different. LLM.txt files, and you can just chat with it, and you can get all up to date with where things are at.  I'll push to the repo probably today so that you can get even further context. And when it comes to that, the answer to your second question, the first question with regards to integration with OpenMCP, I'm happy to do that.  But I think we're in the design or talking phases with OpenMCP directly. I don't know if we need to coordinate with Michael.  Yeah, real quick on that one, James. I spoke to Michael this morning.
+
+16:39 - Matt Wright (GaiaNet)
+  The new version of the of GaiaNet that we're releasing pretty soon is going to be like MCP standard, MCP standard compatible.  So we'll give him an update on that.
+
+16:53 - Tobiloba Adedeji
+  Yeah, yeah. So as soon as all the- Go ahead, Toby.
+
+16:57 - James Young (Collab🤝Land)
+  Honestly, I already tested one month.
+
+17:00 - Tobiloba Adedeji
+  That's just talked about now, but I wanted to get, I just wanted to get fees on whether or not you already have that update.  Yeah, I can also open line integration in case you need any help because I already tested usage issues as soon as we release, of course.
+
+17:17 - James Young (Collab🤝Land)
+  Yeah, as soon as the Gaia integration with the OpenMCP is done, we should directly then connect. I think there's just a dependency there.  So, is there any ETA on that?
+
+17:34 - Matt Wright (GaiaNet)
+  Yeah, I'll get back to you on that. I would say soon, but I also mentioned like I took the mic and it's not necessarily that the OpenMCP protocol is integrated.  That was my earlier kind of misconception. He's just enabling the Gaia node to be MCP standard compatible, because. Because.  That's why. why have They haven't even released a testnet of the OpenMCP protocol network, but that will probably be like a month later.  I'm still trying to get more details out of them, but at least the node itself will be able to talk to the orchestrator.  Okay, so as soon as a node can do that, let's figure out what the scope of work will be.
+
+18:23 - James Young (Collab🤝Land)
+  It's really hard to know from the orchestrator side unless we know what we're going to integrate into. And as soon as like a preview alpha or a POC is available, then we can begin that.  I think it might be a bit premature to do that from the orchestrator side first until we have the receiving end to connect with exists.  Whatever stage it's at, but something. What kind of receiving end, like an API endpoint or?
+
+18:54 - Matt Wright (GaiaNet)
+  Or an MCP endpoint. You need an MCP endpoint?
+
+18:57 - James Young (Collab🤝Land)
+  Okay. Yeah. Yeah. So let me.
+
+19:00 - Matt Wright (GaiaNet)
+  Talk to Michael and figure out how the nodes will do that and figure out a timeline. then, you know, the goal is to get all these agents or these nodes on the registry.  I think the operators of nodes will take some time to upgrade to this new version. But that's like a whole campaign we can run between guy and mother is like upgrade your node and, you know, link it to the registry and have it talk to the orchestrator.  Your agents, we seem to make sure that, yeah, your orchestrator has a, has an MCP endpoint. Okay. Toby, do you think maybe you can talk to Sydney about that?
+
+19:42 - Tobiloba Adedeji
+  Yeah, currently, I would, I would talk to Sydney about it, but for my test with a few of the setups, it allows you to actually create an open MCP.  It's that, well, it's open MCP under the hood. It allows you to create an open MCP server and then connect.  So a Gaia node kind of acts like an open, like an MCP client, but you can actually write your own MCP server, deploy it, and maybe with server sense events, you can easily interact with it from anywhere, you just need to have an MCP client.
+
+20:15 - James Young (Collab🤝Land)
+  Yeah, so this is how I would imagine the order of operations would go. What that you get a Gaia node that's MCP compatible on the intuition registry.  The orchestrator agent will query that intuition registry and it will find that one Gaia node. And in the metadata of the registry on intuition, the orchestrator will know how to connect to that Gaia node.  And this will serve as a first reference implementation of like connecting. Once we get all the bugs and everything fixed and figured out.  Then we just, you know, whatever GaiaNode, MCP that's available, we populate in the registry, and the orchestrator will then have more to choose from in terms of connecting.  I love that.
+
+21:18 - Tobiloba Adedeji
+  So from the GaiaNode to the registry, what you need is just like the backend server URL for the GaiaNode, right?  And how, how to connect via MCP, there's different protocols, you can do an HTTP, you can do an SSD, you know, there's, you know, I get what I mean, I get what I mean, but what I'm saying is that the GaiaNode itself will be MCP powered and enabled, and you can have as many MCP servers as you want, from what I'm saying, because it's like a goml file, like a terminal file, you can just configure as much stuff as you want.  And then the GaiaNode, once it started and it's running, it already has all these servers connected, and it does it with it.  And every Gaia node tends to have an OpenAI compatible backend URL that you can easily just interact with. So you interacting with that URL grants you access to everything that a node can do, MCP or not.  With MCP, well, if the node has already had MCP configured and you ask it something like real-time data or something like that, or maybe it has a search server, a search MCP server, for example, and ask you to search something from just the API call, the node would know to call the MCP server to search for stuff and then give you the response back.  So that's what I'm saying is that, do you want to interact with the direct Gaia node URL, or do you want the separate MCP server to be on the registry?  Yeah, separate MCP server on the registry.
+
+22:50 - James Young (Collab🤝Land)
+  And you can, and this is where I think this is Gaia specific, and we can start out with the metadata.  can start with the data. Once the Gaia node is inside or is registered on Intuition, it could have maybe API endpoints as well.  So that is yet to be kind of decided based off of the task that the orchestrator is trying to delegate to the Gaia node.
+
+23:20 - Matt Wright (GaiaNet)
+  So maybe it makes sense that because Michael is trying to find, you know, some product market fit right now, and this might be it for him.  I feel like the registry would be our opportunity to attach like OpenMCP servers. Is that kind of what we're getting at?  And those are connected to nodes? That's right.
+
+23:43 - James Young (Collab🤝Land)
+  OK. OK. So let me propose that to him.
+
+23:47 - Matt Wright (GaiaNet)
+  I see. OK. Yeah.
+
+23:50 - James Young (Collab🤝Land)
+  And then so what's happening is what we're doing is we're kind of using intuition as a search engine for.  And so, like, we're going to intuition our way to instead of Google our way, and the orchestrator agent knows what its intent is.  Like, you put a Google search in, and it will know what the intent is, and then the orchestrator agent will be able to then go, okay, which Gaia node should I use here?  And the MCP will be what's available in terms of the services and things like that. There may be some direct API calls that are needed based off of the task at hand.  So that kind of needs to be designed, but it really, let's not try and boil the ocean and create a general spec for it.  Let's focus on, like, the TGE use case and just get a Gaia node up on the registry that will help with, like, TGEs, right?  That's how we kind of, like, take a baby step in. to this and stay really practical and we, and we generate demand.  Makes sense. Got it.
+
+25:07 - Matt Wright (GaiaNet)
+  I can work with the team on that. Got it. Awesome.
+
+25:11 - James Young (Collab🤝Land)
+  Sorry.
+
+25:12 - Tobiloba Adedeji
+  One more question that sort of corroborates what we said earlier. So from what you just said now, it kind of sounds like intuition already is the model indexer, right?  That that's the, that's why it's called a registry. It's, it's the registry. It is the index of, of all of it.
+
+25:35 - James Young (Collab🤝Land)
+  And then what happens on intuition is that people can traverse because it's, it's visible because it's on chain. And what will happen is in the future, if we just focus on the TGE events, then speculators can come in and instead of like trying to get alpha and hype, they can query intuition to see how active that community is.  To see what is really really really happening. And then they can, like, get more data signal about a token.  That's why we want to use the TGE events as a shelling point. Okay, got it.
+
+26:10 - Tobiloba Adedeji
+  The reason I asked was that one of my research courses was to build an indexer, like I just told you now.  But it seems that that is not relevant again, since we can just use that, right? Yeah, it's not only an indexer, but I think Intuition already has a UI for it.
+
+26:27 - James Young (Collab🤝Land)
+  You just have to restrict the query parameters to the Gaia nodes itself. They have this all built out already.  It's all, you know, using GraphQL. Okay, that's awesome.
+
+26:39 - Tobiloba Adedeji
+  So that means you can even query for, with, like, the front end somewhere. I would love a link to that.  Or I think Alex said to add Alessandro. Maybe we can have a chat with him.
+
+26:50 - Alex Lumley
+  Alessandro's email. So, Matt, whenever you're available to add him to a chat, he can. I can give you the email.  Yeah, so.
+
+27:00 - James Young (Collab🤝Land)
+  The UI, I would imagine, for Gaia would just be a query filtering for Gaia nodes on Intuition, and that's it.  And then you can design the UI you want, or you can have people go directly to Intuition UI. You can do it however you want, depending on the marketing and the go-to-market for the TGE.
+
+27:21 - Tobiloba Adedeji
+  I mean, as long as there's an API, it sounds like we can do anything we want to. Yeah, okay, sounds good.  Okay, I think this actually makes sense, but I'm assuming to, like, see maybe, like, a practical or, like, a visual, sorry, not visual, maybe, like, a spec outing for the MCP plans that you have, because I would love to actually hear more about that, and maybe when you have.
+
+27:49 - James Young (Collab🤝Land)
+  Yeah, and that, so this is a coordination event, so the indexer already exists, so Toby, I would recommend when Alessandro is in the Slack, you coordinate with.  And then that's on the UI side and the indexer side. The other part, when it comes to the MCP integration, there's a dependency and we should work with Michael on what he's building with OpenMCP so that when that works, then we can actually do this orchestrator kind of MCP connection to the agent.  So we use intuition to discover the agents and then we use MCP to actually connect once we've discovered, once we get the search results, then we know what to click into via MCP.  So it's very much like Google, like if you can imagine it. Oh, I think that makes sense. We're creating the Google of agents.
+
+28:45 - Tobiloba Adedeji
+  Yeah, all the agents are sort of like, they are within an MCP server and the agent itself can sort of grab whichever one he wants to use for an operation on them.  Make sense? Yeah. Yeah. Yeah. Yeah. 1. No. I know we're about to go over two quick things.
+
+29:04 - Alex Lumley
+  So, Matt, if you have one more minute, one is that we made a change on the stand-ups. Well, we're trying to basically have a stand-up be a stand-up and just have 15 minutes of updates, blockers, those things.  And then if we need something else, if we need to have a conversation around something, then we can schedule a separate call.  But then we'll likely have something like an office hours or a mother. So everyone is available from three to four.  We're co-working and we're available to have those calls that we need to in that time. Or 2.30 to three or whatever.  The second thing, Matt, is just to call out going back to, like, for Toby, if our focus is around supporting the Gaia TGE and what can best help the Gaia TGE, is it actually having, like, the orchestrator agent and some of these, like, smaller Discord bots so that, so Toby can support that, like, in the next three weeks?  Or is it actually having... Something like a Yellow Pages of Gaia Nodes through Intuition. Like if you had to pick one, which one actually drives more value for the Gaia TD itself?
+
+30:10 - Matt Wright (GaiaNet)
+  Right now, it's probably the Discord distribution for like the XP program and getting people to, you know, test out nodes.  And then, and like perhaps like onboard their community's knowledge to Gaia Nodes. The registry, I think, is more valuable to mother, like mother-to-dee.  Cool.
+
+30:37 - Alex Lumley
+  So, so then what I propose based on that is like, let's, let's start working on the registry in the back end as we're starting to spec it out.  But we'll let kind of, we'll, we'll, we'll work with Alessandra on that. And, but, but then given, given what Matt said, Toby, if you can focus on the orchestrator and supporting and enabling some of these, some of these Discord bots to make sure they meet the MVP.  They're tested, and they're aligned with what Ian, Ryan, and the growth team need to best enable the TG. Does that make sense?  Yeah.
+
+31:12 - Tobiloba Adedeji
+  From the data I saw in the Slack chat, is James currently working on this, or maybe there's something to work off of?  Yes, James is currently working on the Discord orchestrator and the agent.
+
+31:32 - Alex Lumley
+  All that information is what I fed you into Slack of, like, here's what we shipped, where you can actually see where James talks about it.  That's also, he's uploaded everything, all his context from his IDE and everything into the GitHub. So you can just point your IDE and stuff to the GitHub, gather all the context from that and explore it that way.  And I'm also creating a document on, like, here's the current understanding of how the orchestrator works. And then secondly, what  The features that need to get added to make this great for the Gaia 2G. Okay, okay.
+
+32:05 - Tobiloba Adedeji
+  So from what you just said now, are you saying that the orchestrator currently runs as a Discord bot or it's not gotten to that stage yet?  Nope.
+
+32:17 - Alex Lumley
+  That's the deployment that James is going to have this week. And like this week, it should be up in the mother Discord and starts to test and iterate it through that.  Oh, yeah, that makes sense then.
+
+32:28 - Tobiloba Adedeji
+  I'll look through all the things you shared and I'll also be looking forward to, I'm also in the Discord, so I'll be looking forward to testing that out.  Cool.
+
+32:40 - Alex Lumley
+  And just the last question, is there a specific place where we talk about the orchestrator agent and the orchestrator agent and the Discord agent, or is it just in the product or which channel, just to make sure we're not losing everything?  I can create orchestrator channel if you want to.
+
+32:59 - Matt Wright (GaiaNet)
+  Whatever works.
+
+32:59 - Alex Lumley
+  I just want to make sure we're I'll talk about it in the right place. For now, we'll just keep it all mother, and if we need to go somewhere else, we will.  Cool. Anything else, guys? No, I'm cool for now.
+
+33:16 - Tobiloba Adedeji
+  We're looking forward to talking with Alessandro and the orchestrator agent, testing the orchestrator agent also. That's all for my end.  Cool. Thanks, guys.
+
+33:30 - James Young (Collab🤝Land)
+  Zero, you have your hand up. Yeah, short question.
+
+33:33 - Razvan Matei Popescu
+  Maybe I missed the first minute of the meeting, but are we going to discuss Coach's GTM strategy tomorrow or another day?  Let's do.
+
+33:45 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  If you can leave any comments async, that would be helpful. The main thing I'm looking to drive is before the end of the week, we're all in agreement.  This is what we're doing, and that's it. And then, especially you and I, 08, we've got to... back have Let's do  Start talking basically on Monday, how to actually make this plan happen, if that makes sense. Yeah, yeah, most definitely, and thanks for doing it.
+
+34:11 - Razvan Matei Popescu
+  Like, I skimmed through it, like, really, really good stuff. Okay, I need a little bit more criticism than that, but that's okay, I'll allow it.
+
+34:19 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, the criticism will be in text form, so.
+
+34:23 - Razvan Matei Popescu
+  Okay, okay, thank you. See you guys. Awesome.
+
+34:26 - James Young (Collab🤝Land)
+  Excellent, thanks everyone. Thank you so much, guys. See ya. See ya.
