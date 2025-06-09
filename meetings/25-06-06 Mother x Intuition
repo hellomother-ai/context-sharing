@@ -1,0 +1,214 @@
+Impromptu Google Meet Meeting - June 06
+VIEW RECORDING - 30 mins (No highlights): https://fathom.video/share/W_Gk24p3KumrxaMrxzHiyC18GiFoNth2
+
+---
+
+0:00 - Matt Wright
+  We're basic or MVP of taking an LLM, vectorizing some data, and hosting it as an API, and then, so we want to just create some real estate, and we can, so the next version of our guide nodes will be MCP compatible.  Right now, they're waiting to upgrade, so I'm going to push the engineering team on that, but if we can get people to at least just get on the register, it gives me KPIs to take to investors or community or exchanges.  And then it's the responsibility of the folks that, you know, bring those agents onto the registry with, like, say you're like Ember, the Ember team is like, you know, they're DeFi agents, but say they create an Ember knowledge base agent on the registry, you know, they can use that in their architecture, and they can use OpenAI, they can use other things, but at least what's on the registry is the agent that we dedicated.  they're just like... Yeah. Kind of a standard of registering an agent. Yeah. That's all we're looking to do right now.  And then we can, you know, we can get those 600,000 nodes on the registry, but they would have to upgrade the node to the new release that's coming out so that it's MCP compatible, to my knowledge.  Yeah, makes sense.
+
+1:21 - Alessandro Voto
+  So from our end, like next week, we're going to have our kind of longest standing engineer think through a flow where you guys could just like a script where you guys could just bulk upload.  So you give us a, I don't know. I don't know if that's like a CSV or if that's like a live thing where there's a form like what Mother had done where like, okay, you just click migrate.  It sucks the data into that form, sends an API request. And then, you know, I don't know if that's like an account where we give you guys or where you have like a budget or just like, you know, does it or.  You know, if you, I don't know, so we will figure out a flow basically for you guys to bulk upload stuff by, like, hitting an endpoint of some kind, and we can work with you on what that looks like.  There, if you tell us, like, so what we need is what, and this is kind of a consequential decision, some of which we've already discussed at length months ago, is what is an agent in the registry?  Like, what, what is the schema and the stuff that we want to store for them? Because that becomes kind of like a standard.  We can do a means of, like, updating, like, okay, it used to be use case, now it's use cases or something.  Let's just, like, provide a way to bulk create an updated claim or something. But, like, we have to take a good first stab at, like, here are the required fields for everything to be considered an agent.  That's probably an endpoint, that's probably use cases, tags, that's probably, like, um... I don't know what else, James, like protocols, like is it MCP-enabled, like, you know what I mean, I don't know what else you guys want to actually store there as metadata.  Now, that's minimum, right? Yeah. You can create a view that shows at minimum those things. That doesn't mean, and what's great about intuition, I think, is you can just go off the deep end and put as many other metadata claims as you want after that.  But at minimum, need to know, like, what is something that all agents, regardless of if it's you guys, if it's Fleek, if it's Collabland, if it's whoever, are all going to need these like four things, you know?
+
+3:43 - James Young
+  I would say price is one of them, like how much it costs to interact with these agents, because we want them.  I mean, the price could be zero, but we want a price field because like these DeFi agents are going to want to take a cut.  a bit. Some
+
+4:02 - Alessandro Voto
+  Do you think that the orchestrator might take all the things that fit a DeFi use case and then request quotes from all of them?  Do you think that price might be dynamic? Because the thing to note about intuition is it's an on-chain event and a limitation that we will be working on is how to update information and quote delete information, which is to say, mark it for deletion because everything's permanent.  So price changes a lot, probably, or will change a lot. You know what I mean?
+
+4:42 - Matt Wright
+  I have something about which LLM, too. Oh, go ahead, sorry.
+
+4:47 - James Young
+  No, that's a good point. Go ahead, Matt. Sorry.
+
+4:50 - Matt Wright
+  Yeah, like the bare bones, like right now, and this can always be upgraded, but like right now, I think it needs to be known which LLM the agent's using, at least one of them.  Because they're probably They're going to hit a bunch of endpoints here, to what you mentioned, but that's why if it's registered using a Gaia node, they could have their node registered with a Quen model, Mistral, Llama, DeepSeq, I think that's a criteria to be an agent on the registry is that you have a verifiable, I think when you make a design decision, I feel like a lot of these agents, they're not going be to use a Gaia node.  They could stack a bunch of Gaia nodes to do some complex tasks, but we're still not even there yet.  That's not the win we have at Gaia right now. The win is getting scale and distribution, but I feel like a lot of the, let's just say five of the agents that we work with who do complex tasks, they're going to be using OpenAI APIs or Claude and Grok, etc.  And so if they're using those for like competitive tasks, but ... ... ... ... The core or the sole of the agent is this Gaia Node LM and that's registered.  They can have other stuff that's stuck on top, but I think just having at least one verifiable node. I'm biased, of course.  Totally.
+
+6:17 - Alessandro Voto
+  As a product manager, I'm going to be super strict or as a service to you guys, be very strict on what has to be there versus what can be an additional bit of useful metadata information.  Or platform specific or like product specific thing. I would suggest that probably that's like not maybe not Gaia specific, but like very pertinent information for people like I don't want to send anything chat GPT or to open AI.  So it's important for me to know that metadata. That's like maybe not necessary. Maybe I just want to I just want to pull created.  I don't care who does it. Go reach out to these endpoints. Ask them if they can just do it or.  If there's going to be a price, if there's a price involved, send that back to me or whatever. So I think you have to have an end because otherwise there's no way to interact with the agent.  You have to, that might be it, and maybe it needs a name, I don't know if it needs a name.  You know what I mean? It's pretty bare bones. It might be one or two fields to be honest. Just fine, yeah.
+
+7:25 - Matt Wright
+  We do want to have an interface eventually so people can not be confused when we tell them what we're doing, but you know, it doesn't have to be crazy sophisticated.  It could be, yeah, it could be some very basic fields to start. And then again, we have you know, the community, that community give us some feedback on, you know, what other features or fields they want to see.  Yeah, let me show you what this emerges as.
+
+7:51 - Alessandro Voto
+  And I shared this in the the, um, so in the, in the thing, cause Sydney was like, Oh, it'd be great if it was organizing this thing.  like it's We created this to show a view of, actually, I think I showed this on one of the things, but we gathered a bunch of info from our like launch pad where we had people ask questions.  And basically, it was like, what's the best wallet for DeFi on base or something like that or Arbitrum. So you were able to choose the blockchain, you were able to choose like, show me NFT projects on base, we created this web page because we didn't yet have the native filtering stuff in our like, flagship kind of portal thing.  But eventually, the goal is to move move this functionality into there. So there's not like a separate page. But what you'll notice is that, like, this is a required thing that all of these had to have was what is the blockchain?  This is the thing that groups all the info together. And then these are the use case, right, that that allowed them to be grouped.  Further, there was a verified only in that that can come into play of like, was this Yeah. Yeah. Entry for the agent created by a known address that is trusted.  So that's something to consider, like, was there a Gaia admin form agent thing that, like, someone tries to add themselves, like, oh, I'm good at DeFi and I'm registered there, and you're like, wait a second, that address isn't one of the verified ones.  So verification of who is making the ultimate claim to put it into intuition might be relevant. So anyway, this is how stuff gets filtered once it's in the graph.
+
+9:29 - Matt Wright
+  Yeah, we have, you know, like, a Gaia node and or domain, you know, they all have their own Ethereum address, and I believe, yeah, we can actually, I'll double check, it's not like you meant, well, you kind of do mint a node, but we can actually connect the originator of that node, or at least, like, they might be able to sign that they are the owner of that So you can actually you can you you can can actually  If you're looking at the registry and you're looking to hire one of these agents, you might find an agent that is on the registry, but there's no owner listed, or there's one that is similar, but the owner's listed, the owner's present, the owner's supporting any development of the agent.  Maybe that's a way to trust the agent a little bit more.
+
+10:21 - Alessandro Voto
+  That's what intuition's about, too. It's kind of like, tell me what you believe is trustworthy. And if there's metadata about it, then we can make a more informed opinion about it.  You know what I mean? So anyway, I'm only showing this stuff as like background for like, we're gonna take a bunch of stuff.  Hopefully, eventually, it'll be modifiable or deletable, because like, that's important, right? If the author changes or the endpoint changes, or like, it turns out that they focus on another use case and tune it to something different.  You want to be able to update that. So updating is a thing that we really need to think through.  If you guys, yeah, or if the agent sucks and you're like, don't use this, or becomes malicious. Like, hey, I lost the keys to this thing.  It would be nice to have some sort of feedback mechanism.
+
+11:05 - Matt Wright
+  don't know what it looks like. You probably don't want to have a community voting necessarily. It'd have to be like, you know, the only folks that can give feedback on the agent are those that perhaps interacted with it or hired it.  Yeah. Isn't that the kind of part of the curated part of our registry, right?
+
+11:25 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Like the idea is that an agent comes in and I, as like a user, I have a job for an agent or agents to do.  They complete the job for a certain price and then like there's verifiable on-chain transactions and maybe some sort of like approval rating and then they will continue to build their reputation online.  Yeah, that's how I always imagined it is like this online verifiable reputation that's embedded within our registry. It could, it could be worth looking at some other verified credentialing kind of tech out there and see what.
+
+12:02 - Alessandro Voto
+  So as a result of putting in an intuition, you don't get a choice. You have reputation built in. So you see support or oppose, it's like hashtag trustworthy or has use case DeFi, you can stake for or against on it.  Like by virtue of being, you're going to get activity even from random people you don't trust at all saying, yeah, it's good for this.  And you're like, where did that come from? This is where the filtering part comes in of like, where did that support or oppose activity come from?  Was it a wallet that we trust that we've seen? Was it the user or something like that? So we can think through that rating thing on intuition if you want.  My point is it exists whether you like it or not here. And you can use it or not to, you know, the orchestrator can either listen to us or not.  And it can have its own query. There is no guarantee. Thank And if you guys want to listen to a particular signal, we can help you define that query.  Love it. Yep. the to-do is tell me the absolute bare minimum fields. And then, Matt, you can share the laundry list of additional stuff.  And then work with your guys on preparing the data out of those fields. And we will work with you to create a list, a set of well-formed claims.  turning those things into claims and atoms. And then we will work on the script to bulk upload those. Yeah, Alex, when do you need this by?
+
+13:47 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Well, us a firm deadline because you still got to take time to write the script. And we're really aiming to have this all-is it safe to say June 25th?  Like, kind of when we want this all to be wrapped up and, like- And we can claim we have X amount of agents on the registry, like that's kind of what I think we're aiming for at the end of June.  I'd like to get a few initial agents on there by that time. Alex, is it like a phase thing, like you'd write a script for one or a few agents just to test it, and then you'd bulk upload the rest?  Is that kind of the...
+
+14:26 - Alessandro Voto
+  I mean, we can be as dirty as we go to that portal I just showed and like write in the fields and make the claims one by one.  Like we can construct a prototype of what this looks like and then show how you filter for it so that you are like, yeah, that looks good.  It's all on testnet. And then we can do the script for one agent, make sure that the data is getting sucked in and converted and looks good.  And then we'll do like the whole bulk upload.
+
+14:56 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So what are we thinking in terms of who and by when? So No, we don't. No.
+
+15:00 - Alessandro Voto
+  Schema for sure like Wednesday and then probably want some data, Matt is it too aggressive to think in the next week that you can have someone prepare a way to send out to an API the data that we need.  We can get that done by Friday.
+
+15:33 - Matt Wright
+  Let me pass to Sydney. I'm going to be out of office next week guys. I'll be available if you have anything urgent.  I'll give you guys my cell phone, but I will hand off to Sydney that seems to get our engineering team to get you that compatibility at least started like Monday and then hopefully by Friday you can have something annual and then we'll also, and Here  Put the upgrade of the node architectures to be MCP-compatible, so I'll put her on that, and then she'll bring her team too, so any of the dev roles can handle some piece of that, we'll assign it.  The list of nodes, like the node IDs at the URLs, I'll get you a proper spreadsheet, I guess, or some DB, I have to figure out how I can get you that.  Again, Sydney will help you with that, and then the schemas I will do today, and I'll try and get you that before I go offline.  again, I'll pass it to Sydney, and they can think through some other fields, etc.
+
+16:46 - Alessandro Voto
+  Yeah, this is a bit standard-y, so we'll take what you guys have, we'll take your feedback on what you think is required, versus like, here's a bunch of extra stuff that we think would be really helpful.  And then, James, you do a pass on, like, here's what I think my agents would need. you. Yeah. We might even, if you guys were open to it, we could reach out to Fleek and be like, here's what we're thinking for the absolute bare minimum, if you agree with that, and then from all that, we'll be like, this feels standardy enough that we can go forward with that as the base for the registry.  We're working on Fleek on this? We are speaking separately with them about taking their... They're great.
+
+17:23 - Matt Wright
+  Yeah.
+
+17:24 - Alessandro Voto
+  So I just was like, we want them on this registry, too. We want everybody to on this thing. That's awesome.
+
+17:32 - Matt Wright
+  Yeah, I want to talk to... So I had a call with Recall. We're about to do a lot of some Recall as well.  I think once we get our footing, there's someone... That's a group that probably should give their two cents as well and a bunch of agents.  Yeah.
+
+17:46 - Alessandro Voto
+  And we should just push, like, here are the two fields you need. If you put those in, you're on the registry.  And then you can do whatever the hell you want.
+
+17:53 - Matt Wright
+  I it. love it.
+
+17:56 - Alessandro Voto
+  Okay, cool. Those deadlines sound reasonable because, like, Wednesday, then we... If we know the schema, we can start even mocking stuff up and be like, here's what it's gonna look like.  then by Friday, so Matt, CSV is like how we've done things to date, which is like, if you want to bulk upload, we've done like hundreds of thousands of atoms or something like, I think it was like 10s of 1000s or hundreds of 1000s.  If you give us CSV of all this , like we could just chunk it with our existing stuff like no nothing needed.  That'll create a static thing on it. Like they will be on intuition then. And then, so if that's the fast track way, and then we need some way of like, recurring, like if someone creates a new node, how does that automatically get put on?  And then if someone changes something, how does that now get reflected in intuition, we need to delete the old one and put the new one, you know what I mean?  So that's the stuff we need to work through.
+
+18:55 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And that's stuff that we can take care of kind of as we go. It's not like in the next week.  Bye. You need to kind of start this, OK, Chris.
+
+19:02 - Alessandro Voto
+  Yeah, so baseline CSV of just the two or whatever three fields that you need. Great.
+
+19:10 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And then, Jonathan, let me urge Sidney to have a tighter line with you. That'd be great. That'd be great.  I promise it will only be for important things. No, course, of course. But like minimal means. Of course.
+
+19:26 - Alessandro Voto
+  Sick. I think that's all I need. Cool. And James, if you want to jam any time on like for your poll stuff, like what the orchestrator looks at and how that gets, you know, like the query for like what it reaches out to Intuition for to be able to like link to it or any of other stuff like we can talk about that stuff too.
+
+19:50 - James Young
+  Yeah, let's do that next week. I want to just call this off this weekend and so early next week I'll reach out.  Hi.
+
+19:59 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Bye. Great. Matt, if you still have five minutes, I'd like to walk through, especially knowing that you're done next week.  Can I take those five minutes to walk you through what I sorted out today? I'm just going to go through our project management system, so you're free to drop.  I will drop.
+
+20:16 - Alessandro Voto
+  So stoked to work with you guys. It's finally happening.
+
+20:20 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  It's finally happening.
+
+20:21 - Matt Wright
+  Yeah, we slimmed down the teams. I think we're getting a lot faster.
+
+20:25 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, feels like it. All right. See you guys. Bye. Okay. So really quickly, I just want to run you through.  Basically, I like have kind of like gotten a grasp of what's going on. I think I have full clarity in terms of what Alex is working on.  So basically, here's kind of like how I've done it in this system. Like we have the Gaia TGE, which is kind of like what I'm tracking first.  So basically, off of our conversation, I've kind of ranked things on priority. Where's my priorities? Ranked things on priority.  I'm seeing like kind of the highest priorities are the quiz agent that James is working on. The Mother Orchestrator, obviously, without those two, don't have anything.  The Gaia Node Connection, which this meeting happened, so this was a big kind of like checkbox, and now we're going to deliver on that by the end of next week and get it set up in time.  And then I'm coming up with this case study framework where we're actually going to measure the impact of having Mother in the Discord during the TGE, so I'll take care of that.  One thing that I kind of put as high as well is this agent visual registry that we talked about.  So really, really important before you go is to pay Harry today so that we can get that to him square.  He also is like going to send another late fee on Monday if we don't pay him because then it'll be two months.  So take care of that today, and then what we need to decide is, is Harry going to do this or is Toby going to do this?  Because I remember the conversation we had on like Thursday, Toby was kind of figuring out what to do. was either it was Mother Orchestrator, it was the, you know, the agent.  So I don't know who we want to have do it, but as soon as I know, then I can start running with the person to read brief for them.  I think I'd love to put Toby and Meowie on our side.
+
+22:13 - Matt Wright
+  Let me see what their bandwidth is. They're really good with these interfaces. Just because we're trying to get close to zero spend right now.
+
+22:22 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  That sounds great.
+
+22:23 - Matt Wright
+  Yeah, I think for an MVP, I think, you know, they can get something out. And then, you know, if we need to integrate it with the website and polish it, we can do that with Harry later.  But I'll get him paid regardless.
+
+22:35 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, great. So that is what's going on agent. So I put that as high as well. And then we're going to do marketing.  I put the judge agent as low for now. I'm going to scope it out. I'm going to pitch you up and send me up to see like if Harish has capacity to do something like this or anyone has capacity to do something like this.  But like it's more of a nice to have, like if we could get that up for the June 25th, like that would be great.  So I'll at least have it specced out for us so we can just see if we can pull it off or not.  And then the other things that I'm kind of thinking about is I need to fill in a form for LIT.  Is this in the mother? Okay, cool. It's in the mother project. Awesome. is the mother. I just reorganized all this.  Yeah. Bro, you're a legend. Amazing. So for LIT, we need to sign up for their TGE so we can get an airdrop.  So James, I'm probably going to hit you up for details because I don't fully understand their tech and like how we're using it and stuff like that.  So I might need your help with that. The other thing is LIT. In terms of like the intuition and Gaia and LIT as our like three main partners, LIT is the one I'm definitely the furthest from.  Like I barely interacted with them, just with Dan and Eli and like Telegram and that's pretty much it. So it's not urgent, but either next week or the week after the latest, I need like a strong introduction to them.  Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. No. We need to have them say, be a yes to like us being a core part of their TGE.  Like I don't know if we've talked to them. Yeah. I don't know. Yeah.
+
+24:09 - Matt Wright
+  Jonathan, I'll just give you some context setting. So we love David. We love the, we love the LIT team.  I will say that we do like, we have an integration with LIT. And then James and I, when we first were starting Mother, it was initially with LIT, like with David.  We like David and I call, we inspired the autonomous hackathon and then I called James and then like this whole thing snowballed.  However, like David has a tendency to kind of create some bureaucracy. So just setting some expectations, you know, just approach it with a two foot pole, you know, push the integration.  But if it, you start sensing that there's some, you know, friction, that's, that's normal on that side of things.  Okay. Cool.
+
+24:59 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Have you, have you. Have gotten to know Eli at all, his team of staff? No. Okay, I'll reach out to him because I've communicated with him more than David, so maybe Eli will be more amenable and I get him on a call and kind of explain what we're doing with Gaia and see if they're interested in being part of this with us.
+
+25:16 - Matt Wright
+  Yeah, just keep it focused on the integration on the registry and make sure the trade-off is not anything that jeopardizes what we already have in the architecture.  They're just a very opinionated technical team and they have opinions on perhaps how we're structuring Mother as a fundraising TDE.  So just keep it focused on integration, but if there's any technical trade-offs that impact Collab, Gaia, intuition, we have to just be cautious.
+
+25:46 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, yeah, I was mostly just going to pitch about having Mother integrated into their Discord for their TDE so they can take advantage of our...  Keep it focused on that. That's great. Yeah, that's all I want because that's just more data for us. Okay.  So yeah, that's it. Everything else is like two or four months apart, which feels like two years out. So we'll just focus on those things for now.  But yeah, I just wanted to let you know. And then the other thing I put in here, Matt, is just some investor stuff.  So if you do want me to start putting together, I feel like we've made like seven different pitch decks already.  So if you have an idea of what it is that you would like in an ideal deck, I don't know how serious it is that we want to start approaching investors.  I know maybe you have ETC. kind of a potential location to do that. We can, if it's ETC, then we have time.  We can talk about that when you're back. The alternative is if you want to send me a word vomiting voice note or text message or whatever it is, like, here's what I I'll to Milena.  Yeah, yeah, Sorry? I'll introduce to Milena, who's our head of partner marketing and events. She's running the Builder House thing.  Oh, Mills. Mills. Yeah, yeah. I already connected with Mills. Dope, dope, dope, Yeah, so I'll remind her. I'll sell her.  I'll
+
+27:01 - Matt Wright
+  Let's get MotherLogo on the event and let's have you help out with the Agent Day, like we're going to help introduce a bunch of Agent Builders to VCs, that'd be super cool if you have availability.  James, are you going to go by chance or saying back?
+
+27:24 - James Young
+  To, what is it?
+
+27:25 - Matt Wright
+  ECC in France, it's like June 28th through July 3rd. Yeah, Anjali will be there for sure.
+
+27:33 - James Young
+  I don't know if I'll be there.
+
+27:35 - Matt Wright
+  Yeah, she's going to Monaco.
+
+27:37 - James Young
+  She's in Lisbon right now. Oh, what a legend.
+
+27:41 - Matt Wright
+  She'll be at Khan. Okay, cool. Then I'll make sure she's looped in. Awesome. Cool. Awesome.
+
+27:48 - James Young
+  We can add Collabland logo to that Builder Day as well.
+
+27:55 - Matt Wright
+  We'll just need you guys to tweet it out.
+
+28:00 - James Young
+  do it, can do it. Happy to be, too.
+
+28:04 - Matt Wright
+  All right. And then, James, before I leave, I'm going to get you your contract and I'll make sure that you have a clear path with our ops team to just get that over the line.  Make sure you're not waiting for me on anything. Awesome. Thank you.
+
+28:21 - James Young
+  Appreciate it. Yeah, of course.
+
+28:23 - Matt Wright
+  Did Jonathan leave?
+
+28:25 - James Young
+  Yeah, he was frozen. I was like, he must be really focused, but I think he was frozen.
+
+28:31 - Matt Wright
+  He hates us. He left.
+
+28:34 - James Young
+  I think his internet went out. It looked like he was stalled.
+
+28:38 - Matt Wright
+  We'll chat in sync with him. He can listen to our notes. But yeah, I can give you some updates on back office stuff if you want.  Cool.
+
+28:51 - James Young
+  Yeah, yeah. But I know that you're going to be out starting today for the week. Starting tomorrow.
+
+28:58 - Matt Wright
+  Starting tomorrow.
+
+29:00 - James Young
+  Bye. Bye. Yeah, happy to catch up if you want.
+
+29:02 - Matt Wright
+  Yeah, well, I'll just give you a quick update, too. So, like, I let Alex go yesterday. He's probably going to follow up and have a chat with you individually and Jonathan, but he's fine.  I think it was, you know, he had to agree on the situation. And then I would call Gita later.  So we could chat one-on-one later if you want. But handling those things, no major red flags. Awesome.
+
+29:30 - James Young
+  Yeah. You know, I know you're busy, too. I'm happy to chat, but, you know, it's totally up to you because I know you're wrapping up for the week.
+
+29:41 - Matt Wright
+  I think I have a clear, like, path of what I need to be doing. So, unless you leave me for anything.  No, no, I think we're good. Same, same.
+
+29:51 - James Young
+  I just want to spend this time to, like, just get this over the line so I have more of my weekend free.  Yep. Let's do it, man.
+
+29:59 - Matt Wright
+  Thanks for your time. Yeah. Thanks. All right. Thanks, Jonathan, when read these notes. Yeah. See you. Bye. Bye.
