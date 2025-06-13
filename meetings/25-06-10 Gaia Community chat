@@ -1,0 +1,169 @@
+CoachJ and Rancher - June 10
+VIEW RECORDING - 23 mins (No highlights): https://fathom.video/share/Wyz-d4NdpaFhf3EEUbdURX_jHJNf5W5Q
+
+---
+
+0:00 - Natascha Tiotuico
+  AI agent that's a meeting secretary that sends one note to everyone.
+
+0:05 - Rancher Zhu
+  Yes, yes, absolutely.
+
+0:07 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I'm surprised they haven't changed the UI, at least, because right now my note figure comes up as basically a person, right?  So it would be great to have it not take up a space as a person so I could see you all more closely, you know what I mean?
+
+0:22 - Rancher Zhu
+  Yeah, Google is not going to like it, so Google is not going to like it. There's no incentive for them.
+
+0:30 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Anyway, thanks for pushing us to get on this call. I'm still kind of getting caught up a little bit, but yeah, I'd love to get like an agenda set for like what we want to get out of this call and what do you think is a good use of our time.  And yeah, I'm just kind of getting caught up. So I just know that you and Alex spoke and I don't know what you spoke about and I don't know what the purpose of it was and what you wanted to get out of it.  So yeah, I'll let you leave the whole call and then I will ask lots of questions.
+
+0:59 - Rancher Zhu
+  Thank you. Thank you. Yeah, for sure. I literally had the call with him like a day before he was gone.
+
+1:06 - Ian Chong
+  So I was like, oh, , I gotta have to redo this again.
+
+1:10 - Rancher Zhu
+  But all good, all good.
+
+1:11 - Ian Chong
+  So, Ian, together, my teammate, Rancher, is here as well. So I'm hitting an ecosystem. Rancher is helping to run the community channels, including Discord and Telegram.  So I think the discussion with Alex was how do we kind of integrate orchestrator, design orchestrator agent to support us pre- and post-TGE.  So we're going to speed the two timelines, right? One is pre-TGE and one is post-TGE. So pre-TGE, I think the main focus is how we're going to use Collabland anyway for marketing purposes.  But what will be very strong is to show the community how we are dogfooding our own technology. And a good way to do that is to build an orchestrator agent together.  And I'll be able to run simple quizzes on Discord where they earn points, EP or XP or whatever. Rancher can decide that.  I think most likely it be EP, extra points, which would then help them to potentially get more airdrop of tokens when doing TGE, right?  So that's one. And surrounding that, Ryan, Head of Marketing, I've already informed him of this as well, is that we could do a whole narrative around how are we using an agent built on Gaia to run our own pre-DG campaigns, right?  So it's a very strong message. Rather than just, you know, Gaia is using our own product and we're getting good results out of it pre-DG, right?  These are the results. So that's number one, right? Maybe I'll stop there first. Any questions so far with the phase one?  No, actually.
+
+2:53 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So phase one, I think that we're actually quite aligned. And just, I don't know how much Alex shared, but I kind of got like...  So we have James from Collabland, one of the founders of Collabland, he's been building this agent, so what he's built, and it's going to be ready by Wednesday for us internally to check it out, and then we'll be able to send it to you soon after, is he didn't build a mother orchestrator separately, he kind of built this monolithic agent that basically is kind of a quiz poll agent, and the plan is to just kind of deploy that in the Gaia server whenever we feel like it's ready, and also when you're ready to have it, and yeah, absolutely, we got your requirements on XP, or EP, I don't know what the difference is, but it's with Engage or something like that, so it's a point system, so you will have that, and then I also brought up again yesterday the multilingual support, so that's 100% a huge priority, those are the two main features that we're going to work on, I've heard a bunch of other things, like,  We're going to focus on these two for sure, and we're like 100% gearing to get this ready for you as soon as possible.  Like I said, Wednesday, so like literally tomorrow, probably in the morning your time, James is planning to deliver the very first version of it for us to test in the mother discord.  And then since Tash is on your team, as well as the mother team, when she's feeling like it's ready, which should take a handful of days to kind of test out, then we can get it into the Gaia discord server.
+
+4:34 - Natascha Tiotuico
+  I also saw Rantra already joined the mother discord, so I will ping you when that's ready there, and then you can also check there and can align on when to onboard on Gaia.
+
+4:47 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, super. And then I completely agree with the fact. This agent is built with Gaia Tech, and you know, we want to promote that as well, and we're going to be measuring like, oh, Rancher, did you want.  Do to share anything?
+
+5:03 - Rancher Zhu
+  Yeah, so I joined the mother . Hey, Rancher, you're cutting out. You're cutting out a bit. Yeah, yeah, yeah, please, please, please.
+
+5:34 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Cool, we'll hear from Rancher, but I think Ian, you get the gist, right? Quiz Agent ready to go and built on Gaia Tech, and we definitely want to drive the narrative, because what we're trying to do on the mother's side is that we're trying to, I don't know how much Alex got this, but one of our, like, our main plan, Rancher, I'll get to you in one second.  What we're trying to do is, we're trying to bootstrap mother, and the way that we're trying to do that through the Gaia TGE is  We're trying to create like a narrative or a case study that basically at the end of the TGE with Gaia, we want to be able to say something like, if you use the mother registry for your community activations and TGEs, you will have more successful TGEs, better price, higher token price, more engagement, all those things.  Like we want to say, if you use mother, you get this. And then hopefully that creates a lot of interest in mother and that will kind of like bootstrap and kick off mother's journey.  That's kind of the idea. Yeah. I want to hear from Ian, but Rancher, did you want to share anything?  Because you were saying how you joined the mother discord?
+
+6:50 - Ian Chong
+  I think Rancher's having a bad day today. Yeah. Yeah. I. Give me.
+
+6:58 - Rancher Zhu
+  Hello. Hello.
+
+7:18 - Ian Chong
+  Thanks for summarizing it. 100%, I think we're aligned there. I think my main question, I guess, is just on my own, on my side is, if we want to show like the delta we've using versus not using the orchestrator agent, how do we want to show that baseline?  What is the baseline of a successful or unsuccessful TG? So that's one. The second one is I think the other worry that a lot of our TG projects would be is how big of a crash that token price would be, the initial spike and then that crash.  I think what might be interesting is also how using the quiz agent and an increment of engagement actually helps to impact the data.  The volatility of the price, right? Because if you want to retain, you go on a lot of people crashing it or crashing it.  Yeah, I think that might be also interesting storylines to tell. Agreed.
+
+8:13 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Agreed, yeah. I wrote all those down because I don't know what the answer to those are, but that's what I'm going to work on.  The only thing that we need to prove is exactly what you just outlined. Rancher, is this third time the charm?  Are you going to be able to? Yeah. Is it okay?
+
+8:31 - Rancher Zhu
+  Sorry.
+
+8:33 - Ian Chong
+  Yeah. Yeah.
+
+8:35 - Rancher Zhu
+  Actually, I totally agree with Ian. So we just need to engage our Discord community. So if we have some good board to engage the community members, that will be good.  Yeah. I already joined the Discord. Another Discord, I will try to find some board. go, we'll see We will test it, but yeah, but I haven't tested any, you know, boards about our mother agent, so yeah, if we have some boards, I can test it, yeah.  Not yet, later this week, you'll be able to test it, yeah.
+
+9:20 - Natascha Tiotuico
+  What you can test, what you already have, is the seeds. So the seeds would be kind of a concept we can put for the XP points, so the tipping and stuff like that, we can actually reuse with the XP points, but I can walk you through that separately off this call, I'll write you.
+
+9:48 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And what they want to use in terms of that, because with LabLand, you get abstracted wallets that you can use for all of your users, so there's all sorts of cool.  you next time. Bye. Bye. Bye. Bye. Functionality that Collabland has that's not necessarily related to Mother, but Mother's kind of a testing ground for that as well.  It's the future of agent payments through Discord. So anyway, we're not going to get into that. Ian, where do you want to go from here?  So it sounds like we're on the same page for Pre-TGE and what we need to measure and what success is starting to look like, right?  Yeah, for sure. I think direction works out.
+
+10:23 - Ian Chong
+  I think the next steps, think, okay, so for Pre-TGE, I think next steps is on tomorrow once it's being launched.  It'd be awesome if you could give us a final thing if could go, hey Rancher, like, go check it out, go check out this particular bot, right?  I bet Rancher's Discord is, like, maniacal with, like, -tons of Discord and notifications everywhere. So it might really help him to be able to kind of, like, zoom into the right bot to use.  Then Rancher wants to test it out if there's any feedback on potentially how it might be different with the experience that you think would be suitable for our community.  Do sign it out as well. think those will be very valuable feedback for James and team. you. you. Thank you.  To kind of like modify it. But if not, anything with the head mind space of it being like an MVP, something that we could really roll out and really actualize and use the execute and gain real-life feedback this month.  Then the next step is I think for the quiz board, maybe let's find out, maybe we guys can send Rancher like the format or the content or the ideal content that the links and whatnot that needs to be done to get the quiz board up and ready for for Gaia Discord.  The process of uploading a link or stuff like that, how do we train the Gaia agent to be Gaia agent.  I think that these two might be the most imminent next steps, I would say. Then once that's done, there's all about a marketing piece.  I'll bring Brian in, I'll bring the marketing team in, and we can plan out the rollout as well.
+
+11:55 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, cool, yeah. Tash, you don't mind taking point on that because you're going to be the one going to be the really  Kicking the tires and playing around with the bot, I mean, because we already tried, we literally just took the mother, like, introductory blog posts, and it worked perfectly, so maybe Tasha, can play around with uploading a bunch of different articles and see what, like, which ones are janky and which ones work really well, and then help us create some guidelines, because I imagine what's great is that CoUnity will probably use this in the mother discord, but the Gaia discord, but you might continue to use it in and some other other things, so it'll be helpful to have that unlocked, no?
+
+12:35 - Natascha Tiotuico
+  Yeah, so what would help is creating a list of blog posts or information, educational information that's very close to Gaia that you would like to promote, because what we will do, so the quiz agent currently doesn't learn on the content, but on, like, creating the questions out of each blog post, so if we have a huge  list of URLs that are suitable for quizzes, then we can already gather them. We can try some out in Mother when it's live and see how that works.  But like pre-work is already the selection of URLs to make that happen. Super. Yeah. Yeah.
+
+13:25 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Super quick. You literally just put in a URL and it takes like 10 seconds and it generates a few questions for you.  Yeah, Rancher, you already have the URLs, right?
+
+13:34 - Ian Chong
+  Since we did run quizzes before, you probably have URLs ready. Perfect. Is it? Rancher, can you confirm? Do you have URLs already?
+
+13:50 - Rancher Zhu
+  I need to try. I need to test. Yeah.
+
+13:55 - Ian Chong
+  Okay. Okay, cool. Sweet. test. Yeah?
+
+14:08 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  All right, Rancher, I'm putting you on listening duty for the rest of the call. You're on listening duty. You have to let us know async if you have any questions.
+
+14:18 - Ian Chong
+  Yeah, should we add Rancher to the Slack?
+
+14:22 - Natascha Tiotuico
+  Yeah, sure, yeah.
+
+14:27 - Rancher Zhu
+  Yeah, because it's a little bit hard.
+
+14:31 - Ian Chong
+  me see if I added him already, believe. No, yet. Rancher, let me add you. then, yep, done. So you're part of the group already.  Rancher's already in the Slack.
+
+14:44 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Ah, okay, sorry, that's another group.
+
+14:48 - Ian Chong
+  Cool. Nice.
+
+14:49 - Natascha Tiotuico
+  Then I can tag you and you can like send me a link to the doc and I can support like looking through it with the Hey.  I you. see Bye Thank Okay, awesome.
+
+15:04 - Ian Chong
+  Yeah, think then the next phase is a little bit longer down. This is great. I think we have all the tasks that we need to do to execute this.  Looking forward to the thing tomorrow. Yeah, this works better eventually. least our text is not lacking. Okay, so the phase 2 is post-TGA.  So post-TGA for Q3, I think Matt and I, we're going to be building up an entrepreneur in Renaissance program.  So what that really is, is a program that is targeted at founders and builders, I would say founders and businesses that have existing traction, existing business, right, that wants to implement some form of AI into their product, right, to either make it more augmented, more optimized, or they want to branch up to a separate product to sell, expand their product offerings, right.  But they're not necessarily technically savvy, right. So I think the program really is the launchpad for these businesses. to allow them to vibe code or to assist them to launch something like that within that process.  So I would love to see how we could include Orchestrator after the TGE as part of that dedicated toolset that all businesses can choose to employ just because the community building and stuff is going to be quite tough and engagement is quite tough.  having an AI agent help simplify that process would be very useful. So that's one. And then part of the AI program as well, I think there would be some potential grants and stuff that we can co-run with you guys if there's any potential programs that you are running for builders or developers or startups.  If there are credits or whatnot, we could include that credits. I don't know what's the business model behind Orchestrator, but if there's going to be credits or points, we're happy to put that as part of the program.  Then we go to market with it. We're going to put up with our own grant amount and that's going to be like a bigger sum of like total sum of value.  Yeah. So that's pretty much it for post. Okay, super.
+
+17:03 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  It sounds like then, if that's Q3, then what we can do is we could probably reconnect post-TGE maybe later in July.  We're going to be in touch, obviously, about the quiz agent and making sure that TGE is as successful as possible.  And then after those initial few weeks, we can reconnect and start thinking about the EIR program and figuring out how we could help with that.  The Mother team is just only two other people. There's James from Collabland and then one other person who's kind of helping us on community marketing as well.  So James is the only technical person. He doesn't have a lot of capacity to develop agents. So when you mentioned grants, that's something that Matt also mentioned as well.  And that's probably our biggest constraint right now for Mother is funding. Like we're all working essentially for free right now.  I've been working on this for like six months for free. I can only put in so much time on this project.  Because there's no money there. But once we start Talking about grants. We can hire developers. I can burst my time so I can have more time to support on these kinds of things as well.  All sorts of things open up once we have funding. So that's why post-TGE is like a whole new world.  Let's just make sure that it's as successful as possible so that the treasury is as large as possible and that really gives much more room to create a very robust ecosystem that really meets your needs.  So, yeah, go ahead. Awesome.
+
+18:34 - Ian Chong
+  Then, in this case, is it possible because I mentioned Matt, right, because my, you know, Gaia and Mother, because of the people, there's a lot of cross-linking.  I think for my end, what I wanted to be to make sure that nothing gets licked up to cracks and stuff because in terms of all these conversations going on, is I would draft up maybe like a very simple partnership scope of work if that's not really drafted up.  And then that kind of like clearly defines like the next step, phase one, phase two, phase three. right. Yeah.  Great. and what the deliverables are for both marketing and operational deliverables, so that way we really know if we can tune into what needs to be done for this project in phases, and then from there we could add in and add them to say, hey, the phase three would be that Q3 exploration contingent of focusing on phase one and two, whichever that we've discussed so far, I think that would be, would that be something that helpful?
+
+19:23 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Super, super helpful, yeah, because even still, I'm missing some of the details around this later part, so, yeah, any details you want to just actually write down, the more specific we can get in terms of the scope, the better, yeah.
+
+19:35 - Natascha Tiotuico
+  Maybe you can use the backlog idea and the agile working functionality, so I can support on creating that for us, and then we see like along the way how fast we progress and what we can do, so I can support on that.
+
+19:54 - Ian Chong
+  Awesome, yeah, sounds good. will draft the partnership dog, it has all those details that you can I think easily plug into your backlogs.  Then we kind of make sure that it's properly managed as a project one. Because I know Gaia, think Matt, he's being put in multiple places.  I think for him, like, two days later, we're like, I know what's going on, you know, and all that stuff.  So we've got to have a way to kind of, like, really be locked in. Super. Sounds good.
+
+20:21 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Awesome. Awesome. Yeah, I think I'll go.
+
+20:25 - Ian Chong
+  Alright.
+
+20:26 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Easy peasy. Um, Ian, do you have an option?
+
+20:30 - Natascha Tiotuico
+  Because like right now, and we don't have that much Gaia tech involved, because it's very unstable. Maybe if you can, like, support the support of the nodes in the domain, the mother domain to stabilize, then we can easily switch that over as well.  If you have some kind of option to prioritize that. Okay. Okay. Okay. Okay. Okay. Right now it's mother.gaia, right?
+
+21:05 - Ian Chong
+  There's already a domain that is up?
+
+21:08 - Natascha Tiotuico
+  Yes, domain and node, but it's been instable a bit. So if you could underline the priority from your team as well on demoing the tech, then we can go forward.  Because currently we had a few issues.
+
+21:31 - Ian Chong
+  For sure, let me check in with the tech team. Harish will be the best person. He's really inside Harish and Tobi.  Tobi is really smart, right? So yeah, I will check in with Harish to make sure, find a way that we can stabilize it.  I'll probably have a direct call with him, and then after that I can get back to you guys.
+
+21:51 - Natascha Tiotuico
+  Yeah, because he said he will come back to us and everything, but when he hears it from multiple people, maybe we can get it.  Yeah. Stabilize quicker or like longer. Great. Thank you.
+
+22:11 - Ian Chong
+  Thank you. Amitra, do you have anything else?
+
+22:18 - Rancher Zhu
+  No.
+
+22:25 - Ian Chong
+  Nice. Awesome. Thank you, guys. appreciate it. Bye, Natascha. likewise. Thanks for taking the time. Bye, Anja. All right, bye-bye.  Bye-bye. Bye.
