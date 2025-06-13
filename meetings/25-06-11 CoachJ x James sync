@@ -1,0 +1,91 @@
+Mother Status - June 11
+VIEW RECORDING - 14 mins (No highlights): https://fathom.video/share/ohkzVyRJAjtWcD59YfexbRoPAPrEfAtw
+
+---
+
+0:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  9 p.m. Okay.
+
+0:02 - James Young (Collab🤝Land)
+  Are you a night owl? I am definitely not a night owl.
+
+0:08 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I'm definitely a morning person, but my wife, my partner is a night owl. So that's why we moved here because we were working a lot with folks in North America.  And now, of course, she's not working in crypto, but we were working with a lot of folks in North America, and she loves starting nice and late.  And now I'm just Spanish. So the Spaniards here, they're like children running in the streets at 1 in the morning.  Just like everyone is super late in my culture in Spain. I think it's because they eat dinner here is at like 9, 9.30, 10 p.m.  Oh, wow. That's late. Super, super late culture. And I think it started in World War II because Spain was run by this dictator named Franco, who was in charge like up until the 70s, right?  And he was allied with Hitler. Hitler. And so if you actually look at Spain on the map, Spain is like in line with the UK, but we are in the same time zone as France and Germany and stuff like that.  So the everything here is just like super late. So the sun stays up super, super late, even though we're like quite far south.  So that's why I suspect that it's a late night culture. one of the reasons, at least. Right. Yeah. And how about the heat?
+
+1:24 - James Young (Collab🤝Land)
+  Maybe does it get really hot? The heat also.
+
+1:27 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, definitely. Like this time of year right now, like now that the sun is going down, the weather is just so good.  It's so good. I love going outside of this time. It's so good. Yeah. Yeah.
+
+1:40 - James Young (Collab🤝Land)
+  Yeah. Yeah. Yeah. Confounding factors. Yeah, exactly.
+
+1:44 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. Cool. Well, I have only a few things to cover with you. I'll start and then maybe you can share.  I just talked to Eli from Lit. So he's super excited about it all. They're in. so everyone. Yeah. I just confirmed that all they need to do, by the time they have their token launch, which is mid-July, as expected, mid to end-July, they just need to have the Collabland bot installed.  That's it. And on your end, you'll enable this Discord server to have access to the Orchestrator and to Tipping, right?  Yeah, that's right.
+
+2:26 - James Young (Collab🤝Land)
+  Yeah, I will follow up with Eli, too, because we've been working Collabland and Lit for multiple years now, just to make sure that nothing falls through the cracks.  But you're absolutely right. So I think Lit, and thank you for that, it's just kind of a layup here, and I'm super excited about these TGEs and getting us ramped up.  Oh, so I don't know if there's any other updates.
+
+2:55 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, I have one more thing in the GTM, but do you want to share about your quiz bot first?  that asserting you?
+
+3:00 - James Young (Collab🤝Land)
+  Well, so I need like an extra day because I didn't have time to work on it like I did because of Collabland-related work.  I will say as a side note, with WindSurf, what I've been doing is I've been telling the AI to like give updates.  It's all in GitHub. There's Markdown files and whatnot. WindSurf released yesterday this added planning feature, which essentially is what I've been doing, but I have to direct the AI to like, according to these files constantly, it's kind of an extra step, kind of a burden, but now with the latest version of WindSurf that was released yesterday, it will like document, few minutes planned, and it basically does what I've  I've manually telling you to do it, and now it's fully automated, and it's actually a level jump. Okay, cool.
+
+4:11 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Levelable and bold introduced that as well, like a chat feature that you can do before, and then what it does is you say what it wants, and so you enable chat here, this blue icon, and then you can chat with it, and then what it does is once it comes up with a plan, I don't know, I have it right here, it just says implement the plan, and then you can implement it.
+
+4:30 - James Young (Collab🤝Land)
+  Yeah, yeah, it's like that, but it's fully integrated into the IDE, so it's just a little less friction, and it will, but now what will happen is like WindSurf will start spinning for like 10 minutes, like looking at the plan, checking it, double checking it, and when I do it manually, sometimes it's kind of weird.  The way I imagine the AI working is, it's like 10 clones, like If you have quadruplets, but you don't know which version you're going to get, so some of it doesn't have full context all the time, or it drops context, even if I point it to the markdown files and all of that.  But with this new plan feature, I highly recommend it. I hadn't had any issues with going into loops and circles.
+
+5:27 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. Okay, cool. So Windsurf over Cursurf? And Windsurf, man? I use both.
+
+5:34 - James Young (Collab🤝Land)
+  Cursor is more low level. It's like a senior engineer. Windsurf is like a junior mid-level engineer, but with this planned version, it's kind of creeping up to Cursor, but Cursor is like the gold standard.
+
+5:49 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay.
+
+5:50 - James Young (Collab🤝Land)
+  However, Cursor, I think it's more useful if you know how to code as well, and you're like more coding.  Windsurf is just like more of... You know, on the no code side of things.
+
+6:03 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay. That sounds more up my alley. Okay, great. Okay, cool. No problem. We'll just send an update to 08.  Yeah. Let me just send it now. One more day needed for a quiz agent. Yeah. Okay, cool. Sounds good.  Last thing for me is the GTM plan that I've been working on, specifically the case study, because that's the big one, is really just nailing this narrative of like what we can do, what we can say to VCs, what story can we create from the success of all these TGVs.  Yeah. was really wrapping up my brain. the story that I want to say is if you use Mother, your token price will go up and blah, blah.  I'm having a really hard time. Tying that to data to say that that's true. I just don't know how we could possibly prove that.  And so where I landed was, and maybe you can tell me otherwise, is where I landed is like, we're positioning mother as not just another thing.  It's kind of like we, the mother's quiz agent generated contest specific quizzes from like, you know, Gaia's own blog post and documented, you know, an X percent of the community took those knowledge based quizzes proving genuine engagement with, you know, Gaia's technology rather than simple reward farming kind of thing.  So like what we really just focus on the engagement piece rather than the actual and tying it to the token, which I want to do, but I don't know how we would necessarily do it.  Right. Because especially if the airdrop, I'm using one address to claim the airdrop and then I'm using my attractive wallet on thing.  It's going to be like literally impossible to tie them together. So unless I am not seeing something. Yeah. I think we just stick with the engagement narrative and go from there.
+
+8:04 - James Young (Collab🤝Land)
+  Yeah, I think that this is something that we're going to have to craft over time and I hear what you're saying and we don't want to make any false statements because then we will lose credibility.  So I don't want to venture into that just until we have the data. This is the issue we have when we're like bootstrapping because we don't know and we don't have any info.
+
+8:26 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  But I still think it's a strong narrative. I was talking to Eli and I'm like, Eli, we're going to prove that if you do have mother, which is easy and free to have in your Discord, you will have a more engaged community before, during, and after your TGE.  He's like, where do I sign? So I think that's an easy spell for anyone who's doing a TGE.
+
+8:51 - James Young (Collab🤝Land)
+  Yeah, yeah.
+
+8:53 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So that's what we'll go with and hopefully that VCs are also seeing that interest and I just got a whole  Toby and Meowie today, so I'm going to send them the brief for the kind of like, I don't know, I'm calling it Yellow Pages for some reason, I think it's because Alex had something called Yellow Pages.  Right. Anyway, display of all of our agents, a lo-fi display. So hopefully with those things, we can get some immediate traction on this, even after the doctor.
+
+9:22 - James Young (Collab🤝Land)
+  Yeah, the quiz is really just dipping a toe in the water. But the way that the orchestrator is written, I think we should try and after the GaiaTGE move quickly into like figuring out how we can get these live tokens in Discord to be state, just to remove the cell pressure.  And it's going to be those kind of metrics. So there'll be like community engagement metrics, which are kind of soft and are more like kind of qualitative.  Versus like what I think you're trying to get at in. We can't pinpoint and quantify the, oh, we'll make your token go up by 20% or whatever that number is.
+
+10:10 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Too big of a claim. can infer, we can infer, but we can't back it.
+
+10:15 - James Young (Collab🤝Land)
+  So the way I would, my mental model would be there's a qualitative and a quantitative. The qualitative is going to be the quiz, interactions, and polls.  But after the Gaia TGE, we should have like a staking agent, and that will be the quantifying. So we can say that X number of people in the community use this staking feature to remove cell pressure off of the token, and that has, then you can do the math.  How many people have staked? How many people are in the community? And then you can infer from that, the token price has gone up by like 5%, 6%.
+
+10:57 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, cool. Yeah. right.
+
+10:58 - James Young (Collab🤝Land)
+  The more programs you So the way I'm imagining, and I'm riffing right now, is that prior to TGE, you want to do all of the qualitative stuff, the community engagement stuff.  Once you have TGE in Discord and Telegram and X and GitHub, what you want to do is have these programs so that you remove cell pressure from the token.  Yeah, yeah, 100%.
+
+11:25 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Oh, yeah, we got to talk about that. Let's get this quiz agent done first. Let's start brainstorming on that, because that sounds like the nail in the coffin for us.  So that sounds really cool. Yeah, so let's get that done. The last thing I wanted to chat about was, oh yeah, one thing that Ian, who is kind of overseeing the community at Gaia, one thing he mentioned, he's super excited about the quiz agent.  He's going to be a huge champion for us within Gaia, so I really want to make sure that we come through for him.  One thing he did mention is, is making sure that we are actually . Right now, we're planning not to, right?  So we really need to talk to Matt about how we make sure that we're not using the OpenAI API we are actually using.  It's going to be such a strong narrative, and he's going to be so excited. He's so bullish on it.  I really think that's going to be key to a feature to lock in. We'll make sure that we use the Gaia Influence node when we launch.  Even if we launch on the June 25th, the June 25th launch is just Binance, which is big, but it's just the one exchange.  So even if it's not fully ready then, but for the next launches we do have it ready, I think that that's okay.  But if we can just have it ready from the beginning, major, major, yeah. Let's plan for that. Okay, amazing.  All right, that's the updates. Awesome.
+
+12:51 - James Young (Collab🤝Land)
+  Excellent. Welcome to Wednesday, hump day. Yep.
+
+12:55 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay. We'll do the rest of the day, and we'll see you around. Oh, yeah. The lit form. Make sure to do lit form.  I talked to Eli, and he said, you know what, I'm just going to fill it in. I'm going to fill it in.  I'm going to give you the TL. He said, don't worry too much about the description. I just need a wall to address.  I know that you guys are doing the thing. So, yeah. And I think they're going to give us a big, I kind of try to sell it up.  I'm like, you know, you guys are going to give us tokens and like, we're going to hold on to those tokens.  Like we're going be involved in your governance. Like we are, we have so much at stake because your protocol is at the core of what we're building.  And so I think that that will be helpful. Sweet. Awesome. Excellent. Okay, cool. All right. I'll see tomorrow. Awesome.  Thanks. Have a good night. Bye. Bye.
