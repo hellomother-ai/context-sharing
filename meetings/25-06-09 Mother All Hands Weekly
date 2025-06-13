@@ -1,0 +1,265 @@
+Mother All-Hands Weekly - June 09
+VIEW RECORDING - 48 mins (No highlights): https://fathom.video/share/-QQ7sGMfv2knfFUbC3ihjguJtpox2jUc
+
+---
+
+0:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I think discussion is needed, but hopefully we can resolve more and more async. finding it to be much more efficient.  When I was at Gidcoin, I was using Loom all the time because I did like videos, but it was just so much more efficient that way.  Yeah, that sense. Let me pull up a document. So I just, side note, so I've been playing a ton with Lovable, and I recently switched to Bolt, and I absolutely hate it.  It's just, it's like not, it is just as stupid as Lovable, because Lovable is not like great, and I work on my prompts really, really hard to get it right.  But I've had like, I was hoping that Bolt would be better, and it's not. So I think I'm going to switch to Cursor, because I heard Cursor is amazing.  And I just need to figure out how like I can have like a visual thing, like I can like show it on my, I think I can show it like locally on my computer.  I Like, show it in a browser and actually see the changes that I'm making, because I don't know how to code, so.
+
+1:08 - Natascha Tiotuico
+  What are you, are you trying to do, like, websites and stuff, or, like, also things like, like, automations and AI agents, because I was looking into relevance AI.  Not, not, not automations.
+
+1:24 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Automations I use, like, N8N and Make, but I have, like, this website that I have, like, a murder mystery generator, and it's, like, almost done, but it can't quite get to the finish line.  So I need it just to do some, like, little edits on, like, visual things. It's having such a hard time, like, moving this text box and moving this button to flip them.  Like, it, the last time I did a prompt and moved this text box to the top, and, like, you can see it's not doing the coloring right on here.  And I don't know how to get into the code, like, I might just learn how to get into the code to actually just change it.  It's probably pretty simple once you know it, but. make sure we NgokқiVS. teeTG I'm not technical at all, so...  What did you use for this? Hey coach. Sorry? What did you use for this? Loveable. Yeah, I used Claude to come up with my prompts and then I put them into Loveable.  Did you try Repli?
+
+2:19 - Razvan Matei Popescu
+  No, I haven't tried Repli yet.
+
+2:21 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I can give Repli a go if it's a better one than that thing.
+
+2:28 - Razvan Matei Popescu
+  You'll have to fight with it a lot, but like it's... That sounds familiar, so...
+
+2:34 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah.
+
+2:35 - James Young (Collab🤝Land)
+  For UI, purely just UI stuff, you can use v0.dev, and it does a good job of the UI, and then you can take that code in the UI, or you can actually, from v0, post it to GitHub, and then have cursor point to that same GitHub.  Hub, and then do the logic behind it. V0 is pretty good. V0 is from the same company that sponsors and who started Next.js.  There's a ton of code there. So I've never tried Replit, but I've heard a lot of good things about it, too.  So it's really kind of figuring out your own AI cocktail.
+
+3:27 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Wonderful. Okay, so let's kick off the meeting here. So there's two things that I suggest we do differently. So one thing is, so you all know, Alex is not working on the project anymore.  So this is kind of like our core team right now. Matt is also more available than before, which I think will make a huge difference in terms of the success of this project.  He happens to be off this week, of course, but he is more available and we're meeting more often.
+
+3:58 - James Young (Collab🤝Land)
+  And so hopefully that's going to help.
+
+4:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Drive some decisions that actually we can like materialize on the way that I envisioned kind of us running these meetings is once a week we'll have this all hands.  This is kind of the way I did it at Gitcoin and it worked really well. We'll try it here.  If it doesn't work, we can change it. But basically, I've been playing a lot of notion. And what I'd like to do is use this as kind of like our dashboard every week.  And we can put things here. And what I was thinking of doing is I wanted to create a document.  Let me see. It will go somewhere here. Anyway, we'll do it here for today. We'll put like our agenda items here.  But normally what we do is we co-create an agenda. The agenda is basically like anything that anyone wants to talk about that we can't do like basic.  So basically the way that this meeting will work is we're just going to roll through any notes and announcements.  We're gonna just do a quick look at async updates. One field that I changed is this one here. It's called what got done last week.  And my request is that everyone takes like five minutes right before this meeting, or even at the beginning of this meeting, to just update what actually got done next week.  Let's not talk about what we're going to get this week. I don't really care what we're going to do this week.  It's more about like what actually got done. That goes in here. And we do that for all of the projects.  I can't actually select all the projects. This meeting will be a little bit longer because I'm actually going to go through all of this with everyone just because I want to clean it up.  But that's kind of like the idea is we just talked about what got done. And in this way, our update takes like less than five minutes.  We had a section here for any one on one. So like TASH and 08, if you all meet on community strategy, and you make a decision of like, here's how we want to do point allocations moving  forward, you can just put that in here, and then async, like James and I can read this and go, okay, cool, Tash and Zero8 made a decision on how we're going to do points.  It's like really just much faster this way. This way we don't have to have a whole conversation in front of everyone.  You just kind of put any key decisions or insights that you had can go into here. We have not been doing enough kudos, so obviously we'll do a kudos moving forward.  Even though there's only like four of us in this meeting, I guess we'll just all kudos to each other for the first bit, and then we have people changes here, so like Matt's out of office this week, Alex is not working on the project at this stage, he might come later, and then you can leave any feedback here as well, I mean, there's only...
+
+6:43 - Natascha Tiotuico
+  Do we have any feedback on that, why Alex left the project? Is it this place to ask? Yeah, yeah, yeah, absolutely.  Matt asked Alex to leave the project.
+
+6:57 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  We were finding... Like, I gave... him be okay as well. Just in discussion, my biggest takeaway was that he wasn't quite like getting it right now, and he was really distracting the project with a lot of questions that weren't really on point with what we needed to do.  That's not to say we can't ask questions on this project, but I know that what Matt had mentioned specifically, like this has been like ongoing for months now.  So it was kind of like we're in game mode right now, like game time, like Gaia TGE is literally in like three weeks is the first version of it.  And then TGE, I'm going to get info this week, then intuition TGE, like this is it. This is the plan.  And if this project works, then, you know, this project works. And if it doesn't work, it doesn't work.
+
+7:47 - Natascha Tiotuico
+  Because he was taking care of a few things like talking to Ian, he was the point of contact. So we need to redistribute those responsibilities so they don't fall through the cracks.  Sure. If you. Ian, of those that are falling through the cracks, let me know.
+
+8:02 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I'm pretty sure I got everything. I'm talking to Ian tomorrow, and I've already, I think, captured most of the things that he was thinking about in terms of the Quiz Agent and all its features, Gaia Node Connections, and the Mother Orchestrator, and then I know he was on some, I know the biggest gap is that he was our main point of contact with a lot of different projects, and over the coming weeks, I'm going to introduce myself as the main point of contact.  So hopefully that kind of covers our bases, and I think it'll work pretty well, yeah. Cool. Any other, I appreciate that, I appreciate you bringing that up, Tash.  Any other concerns? And so yeah, just maybe like making notes of like, because I know you and Alex were meeting pretty regularly, so like if there's anything that he was working on and that you want support on, or you think that he had and you didn't, that like, just let me know or put those in the
+
+9:00 - Natascha Tiotuico
+  Yeah, so I think it would just be good for me to think with you on what you're taking over because I know, like, okay, I can fill the gaps or take something else over that I see that's not on your plate yet.  Sure.
+
+9:15 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, great. So that's what I want to use this meeting for. Let's kind of use this as a grounding meeting.  And what happens is I do want to cover the agenda. So if there's anything else you want to talk about, just put it here.  Do you all have access to this? I think this is on the, like, this is like the new homepage of Mother.  I'll just paste this link as well here. So this is like co-created agenda thing at the top. James, I think I already added you to, yeah, you should have, you were invited.  Oh, it's James, not James Young. This makes sense. Okay. Okay. Requestful. Okay, I need to. . . Thank This is very complicated.  Because we upgraded, lost, like, it made things so much more complicated with Notion. So if you plan to upgrade, never downgrade because you just lose all sorts of functionality.  So hold on a second here. Let me get this impersonator, James Young, out of here. And let's get James at CoLabLand in here.  Okay, here you are, CoLabLand account. We got our first symbol. Yeah, this is it. I knew it would start so soon.
+
+10:38 - Natascha Tiotuico
+  And we even invited it ourselves. Yeah.
+
+10:44 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  For some reason, that's not working. Okay, James, I think I'm going to to get you in this afterward. need to, like, look through this because right now it's asking me to upgrade because I need to, like, remove you from this.  guys. Let's Thank Tell OK. what a headache um oh yeah here because guests there we go to remove guests because we got 10 exactly you can probably remove some people but everyone here needs to see stuff so okay let's add one more i have a kind of non-related question like uh do we know uh which are the active contributors right now so it's only you uh you only us right like yeah and then francesco is gonna help with um the live stream and um i don't know and then matt matt yeah and like people from gaia and we'll talk about the gaia stuff a little later um um when that's here because yeah i just want to see what how much we can count on them  My experience with the IU people right now is that they have another job to do, so yeah, we'll see how...
+
+12:07 - Razvan Matei Popescu
+  I'm in a quite sensitive personal situation, because like Sorana, for example, Joe knows her from me because she's a family friend, and she did some, I don't know, advanced Excel stuff at Gitcoin, that's how they know each other, and like she was keeping track of should I tell her?
+
+12:30 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  What's going on? can reach out to Sorana, I know Sorana well as well, from Gitcoin, I know Sorana very well.  Yeah, she's, yeah, she's a personal family friend, so like I don't want to be caught in that. I will, I will take care of that, I will, I'll get in touch with Sorana tomorrow, and I'll get on a call with and explain what's going on, and yeah.  Okay, thanks, I really appreciate it. yeah, of course, of course. Um, we definitely don't want, like it's kind of like Matt said in Slack, like we don't want anyone kind of like...  Feeling like they're cheated from this project, wherever it is, and this has always been an unfunded startup, and none of us are getting paid anything until this proves any traction whatsoever, and we're all taking a risk by putting time into this right now, hoping that, and gutting that, this project does indeed have value to offer.  So, now you show off access, so if you go to the home page, you can see this like weekly dashboard, you can click on that, and then what you can do here is, under here for now, I'll turn this into like a rolling document, but you can put any like items that you want to discuss, like I want to talk about the lit airdrop, and we'll also go through some other stuff here, but for today, let's go actually through all of these projects, and just make sure that we're all on the same page heading off today, and then next time we can go a little faster, because we're just going to update what we got done, and we already know what the baseline is.  for this seed's points activation, activation, this. It's kind of like a legacy project, because I know Tash, like I started it a while ago, then you took it over and made it yours, so I'm wondering if like earlier this, early this week in the next few days, you can go through this, just kind of like clean it up and see what's still really relevant and all the tasks are still relevant and stuff like that, is that something you can do?
+
+14:20 - Natascha Tiotuico
+  Yeah. Let me just see what you put, where did you put it? It should still be under projects. Oh, It's under Gaia TGE, because I have it that Gaia TGE is our main focus right now.
+
+14:34 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  If you want to take it out of there, we can take it out of there as well. Yeah, let me revisit that and bring that up.
+
+14:42 - Natascha Tiotuico
+  Amazing.
+
+14:43 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And part of the cleaning, this is like a request for Tash and ZeroLate, is to like, you know, we're going to talk about the Gaia TGE, but like, again, I really want you all to own the community strategy.  Like, you all tell me what should it look like in Discord. What The flow will be whatever it is, and then once that's sorted in terms of points and what activations we're having and how we're talking to people, all those kinds of things, you just communicate with me what are the things that need to be communicated, and then I will create the content for the actual marketing campaign that goes out to partners on X, et cetera.  Cool?
+
+15:24 - Natascha Tiotuico
+  I'm thinking if it really belongs under the Gaia TGE, or like we probably have a mother seeds point activation, and then we'll take some of those templates and put it in the TGE.  So then I'll just put it under community strategy. Or else it's separate. You'll do it? Okay, yeah. Yes.
+
+15:46 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I took it out for now, so now it's like separate. can see it's down here, it's on its own, it's its own project.  But yeah, I agree. We could even class this into another thing if it makes more sense. Absolutely. Like make this yours, as long as we kind of all know where everything lives.  So for Gaia TGE, what we're really focusing on is, I have some priorities, actually I took that off, so our kind of like highest priorities are the quiz agent, so I just really want to quickly touch on the quiz agent and what needs to get done for the quiz agent, because I think there's a few pieces there, James, I wanted to check in with you, where it's at, and then like what you're thinking in terms of timing, I know that there was a bunch of features that were specifically requested by the Gaia team, and I want us to kind of prioritize them, because I don't know, especially based on the fact that you have other work to do, like what is realistic to be done before, by the way, the timing is the 25th is like, is the start, but they have a special TGE launch with Binance only, and then it's in the beginning of July, where it goes to all the exchanges, including the different, and  In ones, which are like where their main audience is. So it's kind of like a tiered launch, if you will, but we still want to aim to have everything ready for June 25th because it's finance.  Finance is like huge. So I'll just pause there, James. Where are we at with QuizAgent and what are your thoughts on that?  Yeah.
+
+17:23 - James Young (Collab🤝Land)
+  So I had a major issue with CollabLand this weekend. We're actually having to do our infrastructure because there's a vulnerability in one of in Kubernetes, essentially.  So I wasn't able to get it worked on it this weekend, but I am hoping to get it out to test in the other Discord.  Or let's say Wednesday at the latest. Oh, wow.
+
+17:52 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay. So this week, I was expecting next week. That's great. Perfect. And that's with... None of these, like that's just like the quiz agent in its most basic form with seeds and stuff like that.  That's not multi-language support. It's not XP compatible.
+
+18:09 - James Young (Collab🤝Land)
+  It's not bulk uploads.
+
+18:10 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  It's none of those kind of things, right? That's right. Okay. Yeah.
+
+18:14 - James Young (Collab🤝Land)
+  And there is also, just to give everyone an update, there's a refactor of it where I think I showed it on Friday.  So what that does is, you know, because I implemented the quiz agent kind of a UI with the, you know, 75%, 25% claim, blah, blah, blah, all of that.  And that caused a lot of unknown UI interactions that I said, this isn't great. So, uh, what I did was modified it so that each quiz is generated on the fly for each user.  And, uh, You would, as a quiz creator, just put in the reward amount if you get it correct, and reward amount if they get it wrong, and it's just instant payout.  It just keeps everything super simple. So that is my refactor, and it was just making the blockchain interaction really complicated with the original spec design that I did not anticipate.  And there's like a lot of timing issues with blockchain interaction, like a bunch of stuff that was just making the user experience pretty poor.  So this modification is just instant, quick, easy, less UI hassle and things like that. So that I'm hoping to get out by Wednesday.  Okay, cool.
+
+19:48 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Sweet. Then maybe toward the end of the week then we can start talking about, because basically like I wrote down everything that was, because I'm just kind of getting into this project now, it's like,  I wrote down like all the things that were mentioned and like there was stuff like bulk upload feature and all this kind of thing and I wanted to basically, James, with you, prioritize like what can actually be done for Gaia launch like I think something like the XP compatibility we talked is a mandatory but the multi-language support would be like a no-brainer if half their community is Korean.  So yeah we but I think we have time on that we have till the 25th so we literally have like two and a half weeks and this is like it's this you're working on and then the mother orchestrator really like those are the only two things so I have a sense that I have a feeling that we're gonna those are gonna get done like on time with the features that we want as well.  Yeah the multi-language should be pretty straightforward because then I'll just add in a dialogue box like what language should the question and answers be turned yeah yeah the way I'm doing on my app is like there's like the landing pages of like is in Korean or whatever it is but if you're typing  So the AI in Korean, like, you're going to get that response kind of thing. Yeah.
+
+21:06 - James Young (Collab🤝Land)
+  Dash?
+
+21:07 - Natascha Tiotuico
+  There is, like Harish said, they have a very good Korean translator agent. So it might be an idea to use that for maybe the translated, like, if the quiz agent could talk to the translator, like, the translator would read through the blog, translate it in English, then create questions, then maybe retranslate it to Korean with the translator that would also show a collab of two agents.  I don't know how hard that is to create. Let me look into it once I'm done. It's a good note, so thank you.
+
+21:49 - James Young (Collab🤝Land)
+  Do you have access there?
+
+21:51 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  you going to message Harish?
+
+21:55 - Natascha Tiotuico
+  I'm sorry, the question was for you, James. Yeah, yeah.
+
+22:00 - James Young (Collab🤝Land)
+  I will coordinate with Harish in the mother of Gaia at this point, I mean Telegram. Okay, super.
+
+22:06 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, there's like 20 people in that group. We've got to thin it down. Also, yeah, this is kind of like one side note.  Maybe I've got to talk to Matt about it, but I feel like working with the Gaia team is like pulling teeth.  They have other jobs. I don't know James, I've never heard from Yaoi. Ryan is like impossible to get a hold of.  And he's also just like either very forgetful or extremely busy, maybe a combination of the two. So, yeah, I don't know how to like handle that, and Matt's out this week.  So maybe just something to bring up with him, guess.
+
+22:45 - Natascha Tiotuico
+  Normally we can ping, I think, Sydney also for support if we're stuck somewhere.
+
+22:51 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  just like, I'll message Sydney and just not hear back from her. Because I know Matt wants to do this like lean.  He wants to use research. He has access to, but they don't listen to me, definitely. Yeah. I've had the same experience.  Okay, okay, so maybe we just need Matt cracking the whip, and that's how that works. It's just all proxy through that.  Okay, we'll come back to that once Matt's back. Also, let's talk about quickly the mother orchestrator. So, yeah, how are things going on that right now?  Because I think that you were going to refactor it, but it's like mostly done.
+
+23:32 - James Young (Collab🤝Land)
+  Yeah, so the orchestrator and the quiz and the polls are kind of this monolith that needs to be decomposed, and so once I launch the quiz on Wednesday, I think we'll get polls for free, or it's just a minor tweak, so we'll have aiming for quiz and polls and the orchestrator on Wednesday.  Okay. Okay. The orchestrator is not going to be able to call out to the intuition registry and all of that, because it's all kind of bundled in one thing.  So on Wednesday will be the orchestrator poll and quiz that will get delivered, and then I think that will be good enough, I'm hoping, for the Gaia TGE, and as we progress, we'll begin to decompose as we get these Gaia nodes onto intuition.  And we'll reach out to them and, like, have other agents for the other TGEs, and we'll roll that out.
+
+24:37 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, because the Gaia TGEs, those are going to be in the intuition graph, like, for the TGE, aren't they?  Like, within the next couple weeks, aren't they? Or am I misinterpreting the timelines on that? Because I thought it was happening all really easily, really quickly.  Yeah, I'm not depending on it right now.
+
+24:57 - James Young (Collab🤝Land)
+  Okay. I'm trying to reduce the coordination.
+
+25:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  You're just trying to make sure that it works from the UI perspective kind of thing, from the user perspective.  Well, yeah, I want to make sure that it all works end to end.
+
+25:09 - James Young (Collab🤝Land)
+  So I'm doing all of it right now. Yeah, that's great. Just to reduce the risk, because like there's also issues sometimes the Gaia inference node goes down, like all of that kind of stuff.  So like I'm actually just using OpenAI right now. So, yeah, it's easy to switch back and forth, but I'm trying to reduce and maybe it's a little bit too paranoid, but I'm trying to reduce any kind of dependency.  I want to not increase dependency. I want to reduce it.
+
+25:41 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  That's fine. We it's interesting, like Gigbot just Corbin just messaged us. He's got an NPC for the server finally built.  So like we could get him on, but it sounds like our number one goal for Gaia TG is just get this like mother orchestrator combo, quiz agent combo, whole agent.  be right back. Live, so that they can use that, we measure it, we show the success of that project, and then for lit slash intuition TTE, that's where the refactoring starts to happen, and we actually see how they can do more than just the combo agent, right?  Okay, cool. We're on the same page. Okay, sweet. So this was kind of like on hold for now. Basically, we're just kind of waiting until post.  In terms of the mother orchestrator specifically, yeah, I think just specifically that, because I see it almost as like this is kind of like collapsed into one project, but I'm seeing, I'm going to keep it as two separate projects, and this, I'll probably just move this from GaiaTG into its own project, because it's going to need to be refactored.  Sorry, this is just so it makes sense to me, and I can make sure to crack the whip if y'all are slacking.  Okay, next is the Gaia connection. So Matt, James, and I talked to intuition on Friday, so that's on lock.  What's happening? Do you know, James and Matt sent over the minimal viable schema? I don't know if he did.  I don't think so. Okay. Okay. I'll just keep following, but then there's something to do. But we do need to pick that by Wednesday.  So hopefully we can. And Matt, we do have a cell phone number if we need to do that. Because I think it's like really like name, wallet.  So it's super simple. And URL.
+
+27:26 - James Young (Collab🤝Land)
+  And URL. Yeah. It could be just that, right? Everything else metadata. Okay.
+
+27:31 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Then what we're going to do is we're going to create this agent visual registry. So Matt said Toby and Matt Miaoui could build it.  Let's see if they actually are willing to. So that's what this is here. And I created an actual PRD to.  Yeah. just created a document for them so that they could review it and see if it's actually useful for them.  Mark TG marketing. I'm going to work on this week. I guess you'll need information from Ryan, and then the case study framework, this is kind of like the big one, of like how are we measuring the success of our quiz agents?  So I'll work on that this week as well, because of what we're measuring. Yeah, Juley. So, short question.
+
+28:15 - Razvan Matei Popescu
+  If we're going to launch the quiz agent in the mother Discord, shouldn't we have like a mini campaign? Yes.  Like to be ready at launch and to try out. So I think in my mind, like I'm a visual thinker, so in my mind, I think that's connected with like the seed points activation, right?  Like, although I don't know how the final thingy would look like right now, like because like our product changed, but I feel that's kind of like me and Tash, what we would do, like.
+
+28:59 - Natascha Tiotuico
+  Yeah, so... We want to make sure that it's up and running before we announce something, but what we would prepare is like some resources, so I already asked Blazy to collect some general AI resources, and then we can like start using the quiz agent and show what it can do and how it looks like, and the feeds are coming through the answering, so it is part of the recognition program as well.
+
+29:29 - Razvan Matei Popescu
+  Yeah, thinking like, and this is also, we would need help from coach, like if the agent works on Wednesday or Thursday, like maybe on, maybe we play with it ourselves, like for one day, two days, and then maybe on Monday we do a like marketing.
+
+29:46 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I think that's the way, yeah, so like today's the 9th, Wednesday you get it, and then you use Thursday and Friday to play around with it, and then Monday we'll do some more like concrete, we can start doing it.  it. Remember, this is when it's going into the Gaia servers around the 25th. even on Monday, we still have like a week and a half to play around with this thing.  So we really have lots of time to kick the tires in our Discord and figure things out. What would be really great then is that Tash and Zero8, focusing on earlier this week, this is the best of your ability because we don't know what the whole Seeds campaign is going to look like, but what is the gist of the Seeds campaign?  What's like the minimum viable structure of it, such that as we add new ideas to it, we're like, okay, we're adding this and then here's how it looks with the Seeds campaign.  It's Seedified, if you will. I don't know how to better explain it. Yeah, so basically we're starting from first principles.
+
+30:46 - Razvan Matei Popescu
+  Yeah, exactly.
+
+30:47 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Just design the first principles and then like the whole point of this GTM plan, and the PowerPoint that I sent through is that like, we're going to make it up as we go.  We just, we don't know what's going to happen over the next coming months, right? We're just going to do...  Unless we can, all we know is that Gaia TG, we have these three TGs coming up, let's, as we get information, adapt our plan.  So if y'all can just think of the core of like, what are seeds, how are they used, how much we want to distribute for what of actions, and that kind of thing, and like, what are our main objectives?  I think that will work really well, and we can just kind of make  up as we go, and let's not try to worry too much about like, making it perfect and getting it right.  I know Zero8, you love the grand vision of how it all ties together, but I just don't think we can do that at this point.  And maybe you can, I don't know.
+
+31:33 - Razvan Matei Popescu
+  No worries, like that was the plan I had in mind for this, was just like some extra marketing leverage, so we announced like on X that we have that, we have this points campaign, just to kind of get more eyes on the project.
+
+31:45 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, we can definitely do that, we can still do that, we can announce all that stuff, and I don't need a lot of notice to do that as well.  Like, if y'all send me on Friday, like, here's what we want to do on Monday, that's not a problem.  Like, I can do, I can do that stuff pretty quickly. I have like a big knowledge base of everything we're doing with Mother, so at a lot of these meetings as well, so it's really easy to develop the right content that's on point right away, yeah, cool.  Nice. Tasha, Tasha, that's good for you? I see a lot of not consuming as good.
+
+32:19 - Natascha Tiotuico
+  Yeah, yeah, yeah, yeah. I know you're quick on that, so I think we're just going to see how it works, and like if it's a bit stuttering, I would do a slower campaign.  If it's like ready quick and easy, then we can do a bigger campaign. Super. And the seeds, like we introduced them with the meme and art submission thing, so we can just tie that story around it as well.  Perfect, perfect. Yeah, yeah, you get it, you get it.
+
+32:50 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, great. So that, and yeah, that kind of ties into community strategies, seed point activation, so I know Tash, you'll run point on it, and 08, you're going to help.  Let's Let's Tash with whatever they need. Matt also talked about an initial fundraise, so I'm just keeping this on here, you know we are going to, Matt has expressed interest in potentially fundraising again, I'm like really relying on him, so we'll see if we can do that, that's why we're creating this visual registry, that's why we're doing these TGEs, is to just get some hype around us, and hopefully get some, secure some investments, so we'll keep you all posted, this is probably going to happen maybe later in July or August kind of thing, but it's on there.  So for the Lit TGE, I'm talking to Eli, I don't know how to pronounce his name, but I'm talking to the Lit team this week, on Tuesday or Wednesday, so I'll get like the TLDR, what they're doing for their thing, then we can start planning already for their TGE, which is great, one thing James I need help with, is I was about to fill out their form, and I'm like, I should not be filling out this form, so to get the airdrop, to qualify for the airdrop, here's their form, I'm filling  I can help if you give me the right information, but a lot of it is like, please describe your integration with Lit.  And even if I have all the white paper and all this kind of stuff, I don't know if it's accurate or not.  Okay. Yeah, the deadline for this is June 15th, so if you want, you can do it over the weekend.  We just can't forget to do it before the 15th. Yeah.
+
+34:28 - James Young (Collab🤝Land)
+  Okay. Let's do... I'll see if I can do a pass right after I get this quiz and poll agent out.  Okay, I'll work on this. So, yeah. Hopefully, let's try and get this done by Friday. Okay, cool. I'll follow up with you on Wednesday just to see where you're at with it.
+
+34:49 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Cool. Thank you. Yeah, Tash, what's up? When I go through the seed points activation, we do...
+
+34:59 - Natascha Tiotuico
+  Yeah. Like, I don't... And in the Gaia TDE, but we are using their XP points as like kind of the seed template.  So I should kind of maybe already be taking the templates out that fit to Gaia and start a project there.  Yeah, that would be great. That would be so helpful. Yes, please. OK. Yes.
+
+35:19 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I just moved it out of here because you're right. This is kind of like the umbrella of where we're storing a lot of this information.  And then we might have the Gaia version of points activation and an outlet.
+
+35:29 - Natascha Tiotuico
+  OK, so we can think later this week to discuss what what you might want to talk to Ian, because Ian always wants a bit of like planning before, like he's not.  Have you met Ian or no? I'm the Gaia account manager of CoUnity. So I work with Ian directly on that, but it's good if it's kind of separated for mother and for that.
+
+35:53 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I'm talking to him tomorrow at 9 a.m. your time if you want to join. Yeah, sure.
+
+35:59 - Natascha Tiotuico
+  Like invite me to. Then I can kind of work in the background on the community stuff and hear what you're saying.  Okay. So that might be great. I just added you. Thank you. great.
+
+36:13 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  The other thing for Lit, it was their airdrop. Oh yeah, the other thing I have here is white paper.  guess, don't know if James, this is a question for you or for Matt, but we still don't have a published white paper.  Should we have a published white paper? And then who can I hound for that? Because I was hounding Sidney for a while, and then I was hounding Joe, and then I was hounding Matt, and you know how this goes.  So yeah, Francesco was hitting me up today, and he's like, we've got to get this white paper done. It gives us even a small semblance of legitimacy.  So what are your general thoughts on, and what you're seeing in the space in terms of trends? Yeah, you know, I don't have, uh,
+
+37:00 - James Young (Collab🤝Land)
+  I strong opinion on the white paper. My guess is that Matt should drive it because the white paper really is ahead of investors or investment.  My understanding is that Sydney was in charge of it, but I do think that it has to pair well with whatever Matt is talking to investors about because the white paper is really for investors, from my understanding.  Okay. Yeah. Okay.
+
+37:39 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Honestly, I have a feeling that we're going to work on this at ETHCC together. Like that's where I know that I can like, Matt, stay focused.  Look at me now. Look at me now. What are we doing? My experience with Matt is that he is just like an absolute visionary and I love working with visionaries.  and are right. hearing One thing that I just can't do is sometimes pin them down and actually get them to do something.  I know he has a vision for Mother. What are the odds that we're actually going to fundraise based on your experience working with Matt?  My experience working with Matt is that he came into Mother, he had a bunch of visions, and then he peaced out and went to Korea for a while.  So I haven't seen him deliver a ton on the Mother front, but I also know he created Gaia. Yeah.
+
+38:27 - James Young (Collab🤝Land)
+  Yeah. Yeah. I mean, I think to your point where the evidence is that he's able to get Gaia going, and it is no small feat to get listed on Binance.  So his going to Korea, I think, was poor timing on the Mother side, but great timing on the Gaia side, his because he has in-depth knowledge on the Asia market.  it. And I think that is where a lot of big time investors and funding in crypto comes from at the moment.  So I think he has a really good understanding of the Asia market, which will, I'm assuming, influence the white paper.  There's just a lot of just knowledge he has that, like, I'm happy to help on the technical side, but I don't really think that the technical whiz-banging stuff in the white paper is going to sell it.  No, I don't think so.
+
+39:39 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, let's wait till next week to talk to him and figure out what the timeline is on that thing.  Like if we need a ready for ECC or have it ready after ECC and then we can go from there.  I think that's like what I'm hearing for myself. Yeah, and I know he's probably going to get really busy with the Gaia TGE as well.
+
+39:57 - James Young (Collab🤝Land)
+  So that's, his time is probably going to... Be even more limited, because his focus is to get the Gaia TGE successful, because there's so many unexpected things that happen.  Yeah.
+
+40:14 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, I put the Quest Agent down here as its own project. I put it in low priority. I think just for what everyone's working on right now, it doesn't seem like we're gonna get this done for Gaia TGE, so I don't think we should worry too much about it.  Maybe for Lit or Intuition TGE we'll have it. I think that's about it. I'm gonna start reaching out to Agent Projects.  I actually don't know if I'm gonna start reaching them right away. I might wait one more week and then start reaching out to them before ECC and just see if they're coming.  And try to meet them with as many as I can, and then start onboarding them immediately after the Gaia TGE or immediately after ECC.  Yeah, just lots of sales conversations there. And that's it. So this is our- It's Create Kind of async, like moving forward will be async, but this is kind of like the new project tracker, and what we want to do again is next week before the call, just put in like if anything got done and what got done in this column here, and then this way, this update will take five minutes, and if anyone has any like burning questions like, oh, I saw, you know, 08, you finished V1 of the community strategy.  I actually can't find the link to that, and then I can just get that stuff, like really quickly, or, oh, James, you delivered the quiz agent to Tash and Xero, can I share this with community managers at GaiaNet, or like whatever it is, like I can just get those clear, we can all ask our clarifying questions real quick based on the async update, cool?  And then- So how does the async update work exactly?
+
+41:54 - Natascha Tiotuico
+  Do we have like a daily channel where we just write in? No, no, like I mean, let's keep communicating
+
+42:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I'm in Slack, but I'm just talking about our Monday all-hands, like this all-hands. Today we went through all the projects, but I'm very Dutch-dominated in the conversation.  I don't want that to be the case. I want this to be a meeting where we're co-creating the agenda, and that's what we're talking about most of the time.  So I find that this is our, like, sync time, there's four brains doing work right now, and that's a lot of brain power.  And so I'm just trying to find ways, if there's just a status update that needs to happen, we should almost never be updating each other on status updates.  Sync. We should try to do that async, because it takes me, like, seconds to read through this and get a good glimpse of exactly what's going on across the board, instead of talking about it for 30 minutes.  When we sync, I want it to be like, we're solving this problem, and we're doing it live because it's really important.  We need to make a decision, or there's a problem, I actually don't know how to make a decision on it.  Those are The kinds of things I wanted to talk about, and we can co-create that agenda, so like, you know, next time we meet on Monday, you can say, yeah, you know, we're really blocked around the seed points allocation.  Can we have a quick five-minute chat to talk about that? Sure, let's do that. We can go into it for five minutes, time box it, and if we're finding it's taking too long, we can either, we can choose at any point to continue talking about it or to talk about other agenda items and book another meeting to just talk about that.  That's kind of how I see us doing. That's how I worked in the past. worked really well. I'm open to other formats and stuff like that, but yeah, I learned this all through the Ready.  They're like an organizational consulting agency, and they're just like super, super efficient, and I just love their stuff. So Joe is also a huge fan of their stuff.  He tried to influence a lot here, but we're a small team, so. Okay. It's not, it's 45 after, this is like when the meeting ends.  Is there anything that we didn't cover? Again, I told you I dominated the meeting today, but is there any, like, items that's on anyone's mind of, like, ooh, I'm feeling blocked around this, or I don't know how to move forward on this?
+
+44:15 - James Young (Collab🤝Land)
+  I don't think that there's any current blockers, but I think we alluded to anticipating blockers that we feel like will happen.  And I just want us to keep that in mind if we can route around that. Like, if the white paper is of urgency, then instead of, like, relying on Matt, then I would think that Matt, and this is an assumption, Matt would be able to context to Sydney, and then we just get Sydney to do it.  So it's like anticipating that Matt's going to be super busy, but how do we get alternatives for that so that we don't get slowed down?  Sure.
+
+44:58 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, that's going to be the big reason. Blockers, like, the math decision-making stuff. We do have regular one-to-ones with them.  I'm hoping that will really move things along. But I appreciate that call-out. Tess, did you want to add anything?
+
+45:14 - Natascha Tiotuico
+  It was just, like, mentioned 08. You wanted a community call later this week. So should we create a time?
+
+45:27 - Razvan Matei Popescu
+  Yes, I think the perfect timing is after we have the agent, like, ready.
+
+45:35 - Natascha Tiotuico
+  Yeah.
+
+45:36 - Razvan Matei Popescu
+  Or do you think we should have the meeting before or after?
+
+45:39 - Natascha Tiotuico
+  No, then let's do it on the day when James pings us that the agent is ready and up in Discord, and then we can, like, create the ideas while trying it out and see how we can create the strategy around it to fit perfectly.  Yeah, that's what I'm thinking.
+
+45:59 - Razvan Matei Popescu
+  I don't know if it's better.
+
+46:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  to have it before or after, like for me it's better after because like I would like to look at it yeah okay let's do it that way yeah y'all this is we're not like this is not like urgent urgent time we have some deadlines but we also have lots of space none of this should be like close to full-time work for any of us this is all kind of like steady-as-you-go stuff so I think yeah y'all are on the right track with meeting afterwards and putting it together then I think that that's great okay okay super cool amazing 08 you're good yeah yeah I'm good like it's just weird to be working part-time in AI like that's kind of a well once we have and build your first agent you know the scope build your first agent that's true if you want to build a hackathon agent Matt has requested that that's that's a full-time job right there because like if I if I get some resources within our team
+
+47:00 - Natascha Tiotuico
+  I'm definitely creating CoUnity agents to then plug in with going towards TTE. But I need to clarify that first.  Okay. All right. Thanks, everyone. Thanks for your time. Thank you. Ciao. Ciao.
+
+47:30 - James Young (Collab🤝Land)
+  Bye.
