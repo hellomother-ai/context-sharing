@@ -1,0 +1,130 @@
+Mother All-Hands Weekly - July 07
+VIEW RECORDING - 39 mins (No highlights): https://fathom.video/share/PYyP-uuYaG1h4xw_Di4CdgjDy9shAoFz
+
+---
+
+0:00 - Sydney Lai (GaiaNet)
+  Oh, God, I cannot live without it. Oh, yeah. Yeah, must.
+
+0:05 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, we will jump into things. Let me pull up the notion here. Okay, so... Okay. Um... Let's talk about...  So I put some stuff here. don't know if you all had a chance to put in any notes here.  Just some more announcements side of things is the Gaia TGE. We're still slated for July 15th. I know Ryan mentioned that he was still waiting on, like, one piece of information from Shank.  So, like, there's a possibility of moves by, like, a few days, but I think it's days. at most. Yeah, I think we're...
+
+1:00 - Sydney Lai (GaiaNet)
+  I think we're trying to figure out if we announce the phones first, because the phone might impact TGE. Okay, cool.
+
+1:07 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So that's why I'm in as part of that. Oh, yeah. Also, yeah, this is very relevant to me because I'm working on this phone bank.  this phone bank, there are a lot of lockers to getting the phone out. From an engineering standpoint or from a PR standpoint?  No, no, no, no, from a marketing standpoint. Oh, okay. It's like a complete, is, I'm genuinely concerned. I've been like working on it all day today.  I'm like, ooh. We can talk about it right after the call if you want to do a quick talk.  Yeah, let's talk about it right after the call. Yeah. Let's do that. Okay, so we're just keeping an eye on that from a mother perspective.  Also, I mentioned on Friday, Ember joining as my co-founders. That's just like to be confirmed. I'll just wait for those details from Matt.  I'm also going to talk to the Ember team and just see what they had in mind. Matt's like, you know, Matt loves-  You know, he's a sales guy, so let's see what he, yeah, so basically Ember would join as co-founders. Essentially what they're going to do is we're going to integrate their Vibe Kit, which is great, that's kind of like our agent launchpad, but they also might give us developer resources, and I want to actually confirm that that's true, in exchange for being a co-founder and getting a token allocation and everything.  So I need to talk to Sebastian this week and get that, like, sorted, because we want to integrate the Vibe Kit, basically ASAP, I think.  So that's an FYI, and then James, I just noted the recall TGE happening before, I said. And then if you have any others in mind, you said you had a couple of partners in mind, once you have kind of some initial chats with them, loop me in so we can start coming up with a calendar of what we're going to be doing to support.  Yeah, that would be great. Let's dive into the agenda. Matt's not here, so we're going to skip that. Let's talk agents.  Quiz agent. When is it going to be deployed? Ian, a guy, is waiting. He's like, let's go. Yeah, very close.
+
+3:19 - James Young (Collab🤝Land)
+  I hit a snag with the ERG20 token approval deployment. It's a minor detail. But yeah, I worked on just making it more economically viable.  Okay. So very, very close this week.
+
+3:38 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, great. And then that follow-up question I have is the staking agent development timelines. I know we said it's easy, but is that like a whole day's work easy?  Or is it literally like a few hours easy? What are your thoughts on that?
+
+3:56 - James Young (Collab🤝Land)
+  If the staking contracts are already available, to be little bit going I would say, let's say, like half a day to a day easy.  Okay. Okay, that sounds pretty easy.
+
+4:15 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  That sounds like something we can do before the 15th. If QuizAgent is going out like this week, like not Friday this week, but like Wednesday this week, that means that like a half day to a day over the course of the week slash weekend could, maybe take it to the finish line.  Okay, perfect. What I'm going to do is out of kind of like our positioning in what we're going to be sharing as the Gaia TTE happens, we'll obviously omit the Quest Agent for now.  Quest Agent can come later. Oh yeah, Lit just got back to me today. So they're pushed back to August, of course.  So we have more time on that front. So maybe we can have a Quest Agent ready for them. Yeah, that'd be great.  Yeah. Is there a…
+
+5:00 - James Young (Collab🤝Land)
+  Is to link, like not couple, but kind of associate the Gaia and the lit one if they're happening or if there's a co-marketing opportunity?
+
+5:13 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  This is a good question. This is one of the things I want to talk about. Actually, I didn't even include this.  Billy at Intuition, this is what he's really interested in. He's just like, how do we tie these TGEs more closely?  How do we create kind of like a brand narrative of, you know, you have lit, Intuition, Gaia, Recall. You know, everyone's working on their own things, but they're all ultimately committed to like AI sovereignty and this kind of like movement and this narrative.  How do we kind of create this very clear cohesive narrative between all of them? How do we link the TGEs?  How do we actually like monetarily link the TGEs? Like if you're a token holder at Gaia, that unlocks tokens with lit, unlocks tokens with intuition.  That's what Billy was super interested in. How do we kind of tie them together? don't know how others have done it.  Sydney, have any ideas?
+
+6:05 - Sydney Lai (GaiaNet)
+  One of the things, and I just peened Alessandro, one of the things that I am looking for is the cost breakdown and the architectural breakdown from Alessandro.  So how we're doing this like next steps is we're thinking of like we've already internally at Gaia talked about like how do we essentially make, if you will, DEX for all of these agent token launches.  Because you're able, through intuition, through the Gaia network, you're able to see all the different agents that are launching their own token.  When I say, I say the DEX extremely loosely because it's like, you know, is there a front end or is there a front end?  But to answer your question right now, I'm trying to go back and forth with Alessandro on like, what does the technical architecture look like?  What does the cost breakdown look like? I know this is something that James really cared about. And then we discussed.  have all the answers. And then how do we scale this across agents, all these agents who live across different index networks?  So I don't have a concrete answer for you, but this is something that we're actively working on.
+
+7:13 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay. James, did you have any thoughts? Because I think that we were going to talk about this very briefly, but I'll just pick that out.  Oh, yeah.
+
+7:21 - James Young (Collab🤝Land)
+  I think that there is a great marketing narrative here because I've never seen projects that were so close together in TGEs.  Not that this was something that we constructed or planned for. It just kind of has fallen to our laps.  How from a marketing narrative, what does that narrative look like? And it could be as simple as, you know, you participate in one TGE that gives you the ability, to be allow listed into another.  . . You could be, like, staking in one with tokens to be able to unlock, you know, I think if we can start with the marketing narrative first and get agreement for the different projects on the marketing narrative, that not only helps their TGEs, but can we also kind of use this for mother to be able to then say, okay, you participated in Gaia, Lit, Intuition, and Recall.  That sets you up for, like, the mother TGE as well.
+
+8:51 - Sydney Lai (GaiaNet)
+  Yeah.
+
+8:53 - Natascha Tiotuico
+  Tash, yeah, Tash, please. Maybe we could even tie in the storyline somehow using, like, The quest, not the quest, the quizzing to ask questions about like the mother orchestrator and to link, oh, where else can you find the mother orchestrator and therefore link the TGE airdrop kind of quest to do or how to collect those different extras from like different TGEs coming together.  And maybe showcasing what mother does with each technology, that would be kind of like a nice storyline to bring them together from a marketing standpoint, because I think all TGEs have some stake in the mother orchestrator, like they've contributed a certain part.  That's why we're, yeah, that's why I think we're particularly interested in this.
+
+9:54 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  That's a great idea. What's going to be really interesting, and I almost think it's little challenging about it, is that whatever...  We plan now is going to evolve so much because like, for example, even by the time Recall has their TGE, like, I hope we have like hundreds of functioning agents on the registry.  Like it's not even just our suite anymore. Our suite is going to last for like one or two launches and then like we're opening it up.  Right. Here's what I do. I don't want to talk about this too much more because we have other things to chat about.  But what I'm going to propose is I just put an hour in my calendar. I probably need like maybe two hours tomorrow to put together a plan around this that I can then send to Gaia and I can send to Intuition and blah, blah, blah.  And just kind of like just put forward a strong recommendation that kind of ties all of our ecosystems and see what they think.  I'm talking to Ian as well, who is the ecosystem lead at Gaia. I'm talking to him on Wednesday. So that's why I want to do this tomorrow and then I can run it by him.  He's probably like, he's really close to the airdrop mechanics. So if I can get his buy-in. Before the Gaia TGE, I think that will really help move that along.  Yeah, that's kind of my thinking of how we can move forward on that.
+
+11:10 - James Young (Collab🤝Land)
+  Yeah, the kind of reference here that is very loose is that there are chains that actually help promote their different projects.  And every time their projects on their chain have a TGE, they help promote them. And they use different communities that are on the same chain to be able to cross promote.  We're kind of doing something similar, but we don't have our own chain. But we're affiliated all together through Mother.  And so Mother acts as the kind of shelling point for that. And we're going to showcase that it's kind of this really interesting recursive thing where Mother is using all this tech under.  Yes. Thank Beneath the Hood, Gaia, Lit, Intuition, Recall. And so for the projects to be promoting Mother is a use case in the tech for their TGE.  And then that sets up for the Mother TGE in retrospect as well, if we can string these along. I think it's going to be one of the first of its kind, actually, if we can do this right.  Okay. mean, I love that. That framing makes a ton of sense to me.
+
+12:31 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  James, before you log off today, can you do any brain racking and also reach outs? Is there any other tech that's deeply integrated into Mother that we can count on to be part of this that I should reach out?  Because otherwise, right now, my list is Gaia, Lit, Intuition, Recall. But if there's one or two more, we should, if you can get that to me by end of day, then tomorrow I can include  Do that in the initial plan, because then beyond the initial plan, I don't know if we're going to make two, I don't know what, maybe we can, if it's really flexible to make lots of changes, but I don't know, let's just get all the information we can now.  I think, does Ember have a token as well? Are they tokenized? I have no idea.
+
+13:21 - James Young (Collab🤝Land)
+  Ember would be the only other one and it's, you know, that just happened last week. Yeah. So, I can't think of any other projects off the top.
+
+13:32 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay. Okay. Like what about Authentic? What about Lagrange? I don't know if we're using them a lot.
+
+13:40 - James Young (Collab🤝Land)
+  We're not using, we may be moving over to Eigencloud.
+
+13:46 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So, I don't know if we're going to necessarily use Authentic. Okay. Was there anyone else? I don't think there was anyone else that was like a particular significance.  zuush else? like Right. Okay. Yeah, never mind. They're not going to be launching a token anytime soon. Okay. Okay, cool.  Yeah, lots of agent projects, but I don't see any infrastructure. Okay, cool. That sounds great. So I'm going to commit to doing that tomorrow.  Let's go to the next piece here. So QuestAgent, I wrote down technical integration with Gaia inference notes. I think that was just like a note that was left over.  Is that like good to go, James?
+
+14:29 - Natascha Tiotuico
+  I'm not sure because I checked the mother domains today and they were linked to the English domains. So I asked Toby to ask Arish about that.  If it's just for the web portal, but when I put mother.gaia domains, it just lets me use the English domains, not the old meetings and stuff.  Okay.
+
+15:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay.
+
+15:00 - James Young (Collab🤝Land)
+  But on the mother orchestrator agent, we're all good, but I think what Tash is saying is a separate work stream from the orchestrator agent.  Okay.
+
+15:11 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Tash, you want to tie up that loose end and make sure that it's clear?
+
+15:15 - Natascha Tiotuico
+  Yeah. Yeah. Let me follow up with Toby and Harish on that. Just making sure we have the right back end.  So James, all the old meeting notes and everything is working for you. Are you using the context agent? No.
+
+15:35 - James Young (Collab🤝Land)
+  I'm just saying that the quiz agent and the mother orchestrator agent using the Gaia inference notes, it's good to go.  So it's completely separate. Okay. Got it.
+
+15:54 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay. Cool. Moving on. We got This data collection piece, so this is a request for Tash to get Gaia information on current discount discount, discord count, the past four weeks of discord analytics, because if they're going to launch next week, let's capture all those benchmarks.  I've created kind of like a case study template of all the metrics that we're going to capture once the TG happens.  So those are some good ones to get started on. And there was one thing I'm going to measure in terms of like time saved, because I was thinking about our audiences and we're targeting agent projects.  We're targeting VCs kind of just like to tell in this idea, but we're also targeting other community managers who may be kind of like the champion internally for integrating mother into their discord.  Right? So. So I wanted to kind of just get this metric, I don't know how valuable it is, but like the amount of time saved during a TGE, using the agent versus setting up a quiz themselves and stuff like that, I want to kind of get with some of those, a little bit of those more qualitative things, even though this is like counting how much time.
+
+17:20 - Natascha Tiotuico
+  Okay, can you introduce me to Lit so that we can get access to their Discord? Yeah. Can you maybe do an intro?  Then I can ask the team to start putting in everything that we need to use to get the analytics.  Can you also share what you, which kind of KPIs you want to track so I can make sure that we got those available?  Then I can start that conversation with Xavier and get that all going. Yes.
+
+17:57 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yes. Okay. So I just, I did it. I did this.
+
+19:00 - Natascha Tiotuico
+  On this and then give you feedback on what we can do and how we track it so that we get the tracking ongoing.  Yeah, and this as well, check success metrics.
+
+19:15 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So this is actually it, and the other one is more of a case study format that I would fill out afterwards, but this is actually, I went through each of these things here, and this is approved, I deleted a bunch of nonsense.  and stuff that got offered to me, and this is like, I think everything here we can measure and want to measure.  So it's called success metrics for TGK studies, and these are like easy, medium to, like difficulty to measure, and then these ones are a little bit harder.  Cool?
+
+19:53 - Natascha Tiotuico
+  Yeah, for sure. I'll take it and DM you if I have questions. Thanks about yeah doivent I Okay, sweet.
+
+20:01 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, so that's all I had on the agenda. I'm to focus, like I said, on the multi-TGE proposal. And now that I know CrestAgent is probably going to come not for the Gaia TGE, I've been more comfortable starting to put together an actual marketing, like a campaign brief to actually get all of our communications and stuff ready for us and pass it along to Ryan and like the content team at Gaia so that they know what to share about how Mother is involved with the TGE and stuff like that.  That was like a missing piece of information for me. Anyone else have anything that is on their mind for this week?
+
+20:48 - Natascha Tiotuico
+  Um, maybe not for this week, but we did talk about the Mantle was wanting to integrate the Mother Orchestrator.  How do we have to get back to Yeah, they're just waiting for the quiz agent.
+
+21:05 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  They want the quiz agent to be deployed in the mother discord and then they want to go check it out and once it's deployed in the mother discord, we should just deploy it on their discord and have them create a private channel that everyone can see and then they can play around with setting up the agent.  So once it's deployed, they want to kind of use it before they share it in the community. Makes sense.  That's what I would do. Yeah. But yeah, Mantle as well. I'll add that on here as a follow up.  Anything else? Okay, easy peasy. 25 minutes back.
+
+21:56 - James Young (Collab🤝Land)
+  Awesome. Excellent. Um, Sydney, we want to stay on and... Can chat real quick, Simsa?
+
+22:07 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I'm going to take your silence as a yes.
+
+22:13 - Natascha Tiotuico
+  Okay, we'll see y'all.
+
+22:14 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  My microphone was messed up. Okay, cool.
+
+22:17 - Sydney Lai (GaiaNet)
+  Okay, bye-bye.
