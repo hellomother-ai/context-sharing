@@ -1,0 +1,106 @@
+Mother All-Hands Weekly - October 20
+VIEW RECORDING - 14 mins (No highlights): https://fathom.video/share/qxSadEQXPs6yA4Nu8hXydUsBpecuXdaW
+
+---
+
+0:00 - Sebastian Varela
+  Some, and also make sure that this matches with, I guess you sent over some information to Tom, end of last week, James.  So just make sure that that part is built in to get the agent reflected on the registry. We're, I think, going to have a demo with some agent-to-agent interaction happening, AP2 payment rails for the service.  It's probably going to be, you know, the same DeFi strategy, just broken down into a couple kind of composable pieces.  Beyond that, I guess, well, the other thing, I don't know if you have any info on this, James, but it's okay to do it on Testnet, but it would be cool.  Do you know about a mainnet deployment for the 8.0.0.4 Contrast? Yeah, it's going to be before the end of the month.
+
+0:56 - James Young (Collab🤝Land)
+  Okay. Okay, okay.
+
+0:58 - Sebastian Varela
+  I forget the exact date. Yeah, no worries. And I guess they also have this community call happening on Wednesday, they were asking if anyone wanted to demo.  My thought was if we're able to get this, you know, full loop built out, maybe without the agent to agent payment piece, in time, it would be cool to showcase there, get people building on the ByteKit and kind of the mother stack, or just getting some stuff out there immediately.  So that's where our heads are at, right now. Yeah. Oh, and I guess one other thought, thought or thing, I, you know, this idea of the DID and kind of the, you know, cross chain, identification, paradigm, is that something that you guys have thought of, as far as like building is into the, like how that goes into the metadata for the agent, know, exactly how it fits.  the That's to the 8.004 standard and how we can build that into the map kit?
+
+2:04 - James Young (Collab🤝Land)
+  Yeah, I think that it's just part of the ATA card. You just have your DID identifier.
+
+2:11 - Sebastian Varela
+  Gotcha. And those are generated through Billions or what's the connection there? is that just, yeah. Yeah.
+
+2:18 - James Young (Collab🤝Land)
+  So, I mean, you can just follow the Billions standard in terms of DID integration, but they have a bunch of other kind of services if you register with them.  And what I learned last week from Ravi is that, and correct me if I'm wrong, Alex, but Billions was saying that the AI agent stuff is like alpha.  It's not quite ready yet. Right. Okay. Because it's centered around humans, where their paradigm is that a human or an organization actually will be the  Main identifier and then the agent is like the child and what Billions does through their DIDS system using DIDS under the hood is essentially when they come out with their agent SDK, it's almost like a birth certificate slash resume kind of thing where it's like, oh, where did this agent originate from, whatever its capabilities, yada, yada, all part of the ATA standard.  And then with that will become the did entry. Gotcha. Okay. Okay. Yeah.
+
+3:34 - Sebastian Varela
+  So maybe we don't need to kind of rush to make that a part of the stock. Okay. Yeah.
+
+3:40 - Tom Daniel (Ember AI)
+  And I guess I know Tom. Yeah, there you go. Just had one question for James as well. James, you mentioned last week, you know, thanks for that ADIP.  Yeah. You mentioned, though, that there could be an issue with the nested agent card JSON object. Is that resolved at this point?  It is getting resolved right
+
+4:00 - James Young (Collab🤝Land)
+  Right now, from what I understand, I had a call with Alessandro. He's going to get back to me. I also had a call on Sunday with the community leads at Intuition, and they're less technical, but they said that all of that should be supported.  And so I have a word out. I'm waiting for some async responses from Intuition in terms of ETA because they're launching.
+
+4:30 - Tom Daniel (Ember AI)
+  I don't know.
+
+4:30 - James Young (Collab🤝Land)
+  I think the Intuition TGE is delayed or something like that. don't know all the details, but they're also launching in L3.  And that's where they want all the transactions to be posted.
+
+4:44 - Tom Daniel (Ember AI)
+  Gotcha. OK. Yeah.
+
+4:46 - Sebastian Varela
+  Do you think it would be a good idea for us to reach out to Alessandro and anyone on the Intuition team directly to work through that?  Or are we kind of in a good work stream as is? That's a good question.
+
+5:03 - James Young (Collab🤝Land)
+  I would say get on Alessandro's radar and let him know that we're working together at the very least and let him start connecting the dots.  And I think that could help because if there are potential roadblocks, because I don't know what the delays are, what the issues are, the context, that intuition.  So maybe if Alessandro has direct connection with you and whatever the potential roadblock is, if he knows that we're working together and I'm maybe doing something else, he can always reach out to you.  I think more communication, the better, essentially.
+
+5:42 - Sebastian Varela
+  Yeah, for sure. Okay, awesome. No, I'll reach out to him. We met in the past, so I'll just kind of react to that.  Cool. Awesome. Yeah, that's it on our side. Sweet.
+
+5:53 - Alex Sotiropoulos
+  Coach J, good to see you, do you want to go? Yeah. I heard Tash.
+
+6:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  This question about driving to Discord, and I think that we had an agreement that we were going to drive to the Intuition Discord was going to be the game plan.  So I want to check what the parameters around that are. I don't know if this is a question for James, or I just don't remember.  I remember having a conversation about this, but I don't remember who made that suggestion. Yeah, so I can clear up a little bit of the confusion.
+
+6:28 - James Young (Collab🤝Land)
+  There were some issues that are now resolved to deploy the quiz agent in the mother Discord. So the decision to go to Intuition prior to the resolution of the issues on the mother Discord.  So that being said, though, we may want to revisit, you know, which one do we want to focus on or prioritize on now?  Because timing-wise, we can do . Both. And do we want to split the attention on both? Do we want to do one over the other?  Maybe have like a quick conversation? I don't have full context. So maybe we can just decide in real time on this call.  Yeah, I'm pretty easy about either.
+
+7:20 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I guess like, eventually, we do want to continue to foster like the mother discord over the long run. I don't see a downside of like, honing in on intuitions for for now.  But I think the only reason we were going to do that in the first place is because we couldn't run into the mother thing.  So I don't know what the incentive is of, it could be like a little confusing of like, hey, mother's doing this, go to the intuition discord.  Unless it was like under unless it was like the AI agent, the AI sovereignty alliance talking, but this is mother talking and mother, its own distinct project.  So as I talk it out, I think that Going to the Mother Discord again is probably the move. Okay.  Sounds good.
+
+8:05 - James Young (Collab🤝Land)
+  Yeah. We'll coordinate again with Xavier. I think it will be minimal coordination with Xavier from CoUnity to get it on the Mother Discord.  So Tash, what does that open up for you and what does that mean for you?
+
+8:22 - Natascha Tiotuico
+  That means that we're going to like start moving discussion like when people join, kind of bring the attention to the quiz agent.  We'll use the quiz agent to refer to different AI agent educational blogs, et cetera, that can also be from partners from Intuition and our other partners.  It's more like introducing the first product that's being used. Like we can also demonstrate, hey, this is where it's been used in Gaia and this is how it's being used in Intuition.  But just starting that. Discussion on something we already created. Okay, cool.
+
+9:05 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And then from the perspective of promoting anything on X and stuff like that, either you can pass me materials.  I also don't mind delegating the account to you and just have you slash Xavier just post for Mother.
+
+9:21 - Natascha Tiotuico
+  Yeah, it's more maybe on the big streams or when you post something to just put in the Discord tag to invite people to join the Discord.  Okay, yeah, yeah, yeah. things we're posting anyways.
+
+9:36 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Sure, no problem. Mostly what we're talking about on X right now is these live streams because we did with Ravi last week and I need to make a video, like a clip of that.  And then we have Don on Wednesday, Don Gossin from Neverminds. And then Billy said yes as well, but I don't think Billy has booked a time yet.  So this should be some great chats. And then we need to Get back on the 8004 Builders Club. I didn't actually get any intros from Marco to the other co-authors, so I'll just follow up on that.  Okay, sounds good. Yeah, and that's the update for me as well. Just kind of like going to continue with these live streams and keeping an eye on 804.  Is the testnet live yet? Does anyone know? I think it was supposed to go live like last week, but.  For what? For 8004, like. Yeah, we've deployed an agent.
+
+10:29 - Sebastian Varela
+  Oh, so it's on Sepulia. Yeah, I'm testing, right? Okay, okay. Yeah, it's live on, I think, base and main, like, Ethereum, and then they're going to Arbitrum, Linnea, and another one.  Okay. Soon, trademark. Okay, great. Yeah, let's definitely keep talking to them then.
+
+10:53 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Cool, yeah. That's kind of, I think, the update for me. I don't know if there's anything else that, marketing-wise.  Okay. Cool. James? Yeah.
+
+11:06 - James Young (Collab🤝Land)
+  Just been working on the quiz agent and now looking forward to now that all the roadblocks are out of the way, getting it deployed on Mother.  I don't know if there's going to be a specific campaign associated with that or not. We maybe want to talk about that a little bit.  But other than that, it will also post to Intuition as well. So this will be the beginnings and you'll see the registry in action in the Mother Discord via the quiz agent.  So that's pretty exciting. Awesome.
+
+11:49 - Sebastian Varela
+  Matt, any updates? No updates for me, just working with Alex on the deck.
+
+11:56 - Matt Wright (GaiaNet)
+  I think biggest blockers are we need we need A GUI or some sort of UI that we can show how the registry actually works for kind of that side of the market.  And then, you know, still like looking at the deck, like we don't have the fraction metrics that are appealing to VC, so I need, I know we were blocked on that in the past, but I need to get the Gaia nodes compatible to the registry or at least onboarded.  I think it was more of a financial question, so I'm going to, I'm to see what we can do on our side to maybe do that more efficiently with intuition.  Sweet.
+
+12:40 - Alex Sotiropoulos
+  Yeah, Matt, before you joined, I'd mentioned that I'm already going to work on creating like a base repository for the GUI side of things and just getting started there.  I know we mentioned we wanted to get a UX guy to help design it, but I figured I can get the ball rolling.  But yeah. again. get today, Can I think that's pretty much everybody, so unless anyone else has any other matters to bring up, we can adjourn for the day.  All right, sounds good. Sounds good.
+
+13:14 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  We'll probably talk next week, Tash, about, yeah, if we're creating more communications or driving people to the Discord outside of what I'm already planning to do.  Yeah.
+
+13:27 - Natascha Tiotuico
+  Yeah, we can, like, we're at 470 members, and it's not growing much, so I would like to, like, push them a little bit of growth, but maybe we can talk to Intuition and Gaia to kind of promote Mother once we have the silent launch of the quiz agent on there.  Perfect. And see it perfectly running. And then, like, once the numbers go up, we can do a bunch of fun things.  Perfect. That's what I was thinking as well. Cool. Cool. Okay, sweet. See you, everyone.
+
+14:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Bye, y'all.
+
+14:02 - Matt Wright (GaiaNet)
+  Take care.
