@@ -1,0 +1,229 @@
+Impromptu Google Meet Meeting - November 13
+VIEW RECORDING - 35 mins (No highlights): https://fathom.video/share/3pcNAppXnibmRosFX2ytkFT8pPVoCjDZ
+
+---
+
+0:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I said no there and I'm like oh my gosh you're right I totally said no. It's like very very infrequently but like nuanced things like subtle very subtle there's like situations where you want to be in like a scene and someone's like I don't know but like you know how to do this thing right and then you're supposed to be always like of course I don't want to do this and then like you're supposed to go with it but sometimes my character is just like no I don't really know how to do it but you like it's way better.  if you just say yes and like pretend to know how to do it like those kind of right yes too yeah right right you have to keep in the back of your mind that you're actually doing improv even though you want to be in character and the character may be opposed to that I'm not a great actor James surprisingly I'm not I'm not good I'm just too I'm like you know I just discovered kind of like in the very recent while like I'm like a little bit autistic but like super high functioning and I'm I'm not...  It to the point where like, kind of like Elon Musk, like Elon Musk is very obviously autistic, but like the world is built for that kind of autism, like the world is built such that the systems reward his level of autism, right?  And same with me, like my hyper competence, like the, you know, our capitalist system very much like rewards that on many different levels.
+
+1:19 - James Young
+  So, um, just because you're not, just because you are not like the majority of people and the majority of people are not successful.  Who really has the dysfunction? Yeah.
+
+1:35 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. Yeah. It's like, yeah. Who is really new or neuro normative, right? Like what is, what is the norm?  The norm is the average.
+
+1:44 - James Young
+  The average is just to, do you want to be the average is really the question defined by you know, normative standards.
+
+1:52 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  It's a good point. it's a good point. I don't what point we'll take him. All right. That's how I turn a negative.  That.
+
+2:00 - James Young
+  That's how I turned the negative no into a yes. Oh, very good.
+
+2:03 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  You would be a natural. You'd be a natural, James. You got to give it a go. Yeah, yeah, yeah.
+
+2:08 - James Young
+  My wife does improv a lot. So, you know, I'm more of like the food critic where I like to eat or be entertained rather than being the chef preparing the meal.
+
+2:22 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So, you know what good improv looks like and less good improv looks like. And you'll kind of give that.  But you like to consume the improv. Not necessarily like, yeah, totally. Love it. Yeah, yeah.
+
+2:35 - James Young
+  All right. Well, thanks for hopping on here. There's a lot that I think is going on. And I just have a feeling I have a feeling like this is the time to like go like triple hard.
+
+2:53 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Cool.
+
+2:54 - James Young
+  And I think we have enough pieces in place. Yeah. And I wanted to talk to you. First, even before talking with Matt, because I think, you know, Matt was there at the beginning, but I think that Matt is kind of caught up in the technicalities of things.  So this is what, let me unpack that a little bit, if you'd let me do my little soliloquy for like a minute or two.  As you rightfully, as we both rightfully recollected, we were just going to launch a DAO and then just have a token and then like go, right?  And then we're like, , we need to build all this infrastructure. And we went down this like Moses in the forest or whatever, wandering in terms of, you know, building up this like registry and our SDK and all of this stuff, because we needed the tooling to then do what we wanted to do.  So I think from like. Arch to until 8004 really came out, we were talking about MCP, 8AA, AP2, X004, and then 8004, and we got stuck in this like infrastructure building because that's all of crypto, crypto is just selling infra to other crypto people, so I think Matt is still there, but what happened was the crypto gods have blessed and ordained us with MCP, 8AA, AP2, X004, and X402, right, we were trying to do Nevermind, we tried to do the launcher, we tried to do all, and then the market has like mutated into like marketplaces and things like that, but you know better than Matt, and as you communicated to me, it's a lot of vaporware, so...
+
+4:59 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  you heard that, you heard I in our last call. At least you saw Matt's messages. He's convinced it's an education gap.  He's still convinced that we just need to put up more content and walk people through it. And I don't think so.  I don't think so either.
+
+5:13 - James Young
+  I don't think so either. So what I'm trying to now, in this feeling that I have, and you're the first person I'm communicating this to, we go back to original plan 1.0.  We launch a token. We have a DAO. We start giving out rewards. It has little liquidity, all of that.  But that is in stark contrast with kind of what the slide deck is on right now. So I want to see if there's like a compromise here.  And I wanted to talk about that. But I don't want to come from a, we show the infrastructure, we show all these things.  We actually need to do something. And you came up with this kind of, you know, guardian angel technique. And how do we do that?  In a way, and my addition to what you're saying, is we use the watch trading agent to amplify what is already, like, you know, there.  And so I don't know what kind of watch trade agents or different worker agents we need to build, but we launch soon.  We have a quest system, right now it's quizzes, and we maybe, I can build out some poll agents, some other agents, and then we also have this watch trading agent that uses that, and it's kind of like hard to tell the difference between the two, and we smooth out, we're almost market making reputation.  That's what we do, we're market making reputation, because reputation right now is zero cost.
+
+6:54 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  That's right, that's a great point, it's zero cost, yeah. there, Yeah, Oh, And we just need to have things happen and reputation builds, and we can do that basically an infinite amount, but like, I mean, we can just start with a little bit, yeah.  Okay, so, yeah, so this is how I think about the implementation.
+
+7:13 - James Young
+  Like with the quiz agent, you have this point system. This point system is actually going to be reputation. And then based off of your reputation, you get to, you know, participate in airdrops.  And we lead to the billions airdrop, getting the Gaia and the intuition communities involved in knowing and understanding about billions.
+
+7:38 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, cool.
+
+7:39 - James Young
+  I talked with David, the co-founder of Billions, and they are planning to have their token launch in December or January.  Okay, yeah. 8004 Mainnet is landing in December. And the sell that I made to billions, this is through Collabla and not through Mother.  Finch Butch they're sorcerer. I Everyone knows the impending agent slop that's going to happen, and so you need a reputation for agents.  What I am saying here, we're going to use the 8004 standard, and we're just going to apply it to humans as well.  This is how reputation from a human perspective can start being conformant with 8004, and why do we want to do that?  It's because Coinbase, Ethereum Foundation, Google, and the Linux Foundation are behind 8004. Really? I didn't know that.
+
+8:38 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, cool. Yeah.
+
+8:40 - James Young
+  So with that, we're just going to bootstrap reputation through the quiz agent, through the poll agent, through all these different agents.  And the interest in billions is to be the identity provider for Collabland for that.
+
+8:58 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  They're going to be the... They're going to be the identity layer? For Collabland.
+
+9:04 - James Young
+  For Collabland.
+
+9:05 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  What identity situation does Collabland mean?
+
+9:09 - James Young
+  So with Collabland, I'm going to take a... This is a side tangent to the... Yeah, I want to ask you to understand, yeah, yeah, yeah.  So I'm just trying to map this so I can get back to the original point, but this is a side quest here right now.  With Collabland, I will tell you, we are a SaaS-based product, and we make money off of community admins paying a monthly fee, depending on the size of their community.  Okay. So our customer base is 50,000, 60,000 customers, because that's how many communities we have. I would rather earn a fraction of a penny from 100 million users than have to charge the community admins a SaaS-based fee.  Got it. it. So the Collabland profile will... We'll identify every single Discord user, whether they have a wallet connected or not, with a did, a billions did.  And then we will sponsor transactions or we'll like maybe have a way to say, you know, pay a 99 cent kind of fee in fiat and we'll take care of the crypto rest of it.  So we don't have to worry about onboarding so we can introduce different ways of onboarding because we're a SaaS based product to members.  And then know that we have the liquidity to do that exchange. And we've been thinking about this for many years, but I think the regulatory climate is such that it's OK to do that right now.  We want to be the first ones to do that. OK, cool. OK, so, you know, because there's all this money transmitting and all of this stuff that needs to happen.  And this is why we wanted to stay very clear regulation. But I think we have a big enough opening now here.  So... Thank And the final, the final thing that made me want to go all in, I don't know if you saw Hayden a couple of days ago saying that they're going to do, they're going to finally, finally turn on fee switching on Uniswap.
+
+11:12 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I saw that they turned on fee switching on Uniswap, which is really interesting because there's a bunch of ramifications on that as well, yeah.  Yeah, didn't they invert the fee switch a while ago? They had a governance vote.
+
+11:24 - James Young
+  But Uniswap as a foundation has always stopped it. But now they're saying like, we're ready to go. That's why people bought Uni many years ago.  So they're like, but Uniswap, the foundation said no, because there wasn't regulatory clarity. But now that they're able to do this, and so I've spoken with several like crypto lawyers about this, and it's given me enough confidence to say like, let's go on the collab land side.
+
+11:55 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah.
+
+11:56 - James Young
+  But the way that I want to position this. Collabland is the supply, mother and the registry is the demand.  And the systems that we use will be the same architecture.
+
+12:12 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So it will be seamless.
+
+12:15 - James Young
+  And this is how we're going to bootstrap and this is how we get the community going. And so I want to launch as soon as 8004 launches to mainnet.  So that we ride off. This is my feeling. I think that there's a window. It's a feeling that I have right now.  And I think that going back to kind of the main point now here is that like, I think there's a window of opportunity.  I don't know when it starts or how long it's going to last, but I would like to do it.  Drafting off of the 8004 announcement going to mainnet because we know the EF and everyone is going to. We were like, yes, we're going to do this for agents, but we're also doing this for people through all of this.  And so this is where I want to launch the token before that announcement for people to be able to enjoy maybe the early benefits of that.  I'm presuming that if we market this correctly, timing, and I hate to do timing, but I think that the timing is right.  If we do this timing wise, it could be beneficial. And this is where this is where we give the allocations to previous people that have helped on Mother, because I think we need to make sure that we make right by them.
+
+13:41 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  The node holders.
+
+13:42 - James Young
+  And this is why I was like asking you questions about like the node holders. We have to like the list.  We have to make everyone like feel like they want to promote Mother. Yeah, cool.
+
+13:56 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Great. And cool. Cool. Great. I'm going to save my comments for when we're, my mind is already like, I told you, I love taking visions and turning, I already see how this is rolling out.  I already see the actions that maybe got taken to do that.
+
+14:12 - James Young
+  I think that this needs to be some undertone in the white paper. That kind of like undertone feeling and building, we want to do this right, needs to be part of the white paper.  And the white paper doesn't need to be this, Oh, we have this complex architecture and all that . Right?  What does this mean for me? And not hide behind the technicalities of it. We'll have a separate technical. If you want to walk through and verify everything you can, but that's not the point of this.  We're not going to be sold on a technology. We're going to be sold as we're bringing reputation for agents through mother, but also we're, we're working with collab land and billions, and they're going to bring the humans with this.  Under the same system, so there's this like reputation advantage we get, and I think Sydney in the call was worried like, are we just another registry?  Rightfully so. And so, exactly, rightfully so, and we see like registries pop up now every week because 8004 is getting traction.  Yeah. So, as Sydney was also saying that, you know, the 8004 core team is going to look at reputation and verification early 2026, and I think we need to be there as the example.  Amazing. Cool. Let's do it.
+
+15:44 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Let's make it happen. So that's my feeling, my intuition.
+
+15:49 - James Young
+  I don't know how to better express this in terms of action items and bullet points. Okay, cool.
+
+15:58 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  A few questions before Before I kind of, what I'm hearing and seeing is, what do you think would get in the, what do you think is stopping us from doing that?  Like say, we do want to do it before mainnet. Mainnet is like, literally in one month from now. Like I think it's like December, probably 18th sounds about right, and that's perfect, it's December 18th is when I go offline.  So if we, say we launched the token, and we said December 15th, that's the day, whatever day that is for now.  Um, what do you think would get, what do you think is going to get in the way from us being able to accomplish that?
+
+16:35 - James Young
+  Uh, communication internally with the team. That we are not locked and loaded and have like full focus on that.  There's going to be other things that come into play and we're not like a top down run organization. So really the only thing that's going to get in the way is ourselves.
+
+16:54 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I think one of the biggest barriers is going to be enrolling Matt in this vision because. Matt is very committed, I think, to going the path that he knows, which is fundraising with some sort of situation there and then doing like a public sale later.  And he's been building for that for weeks now on Mothers specifically. He's doing it with Oasis. So I think that's kind of what he has his sights set on.  How do you want to navigate that conversation? Because this is very different. I would love to pick your brain.
+
+17:26 - James Young
+  And because you know what Matt's been doing with Oasis and how he's thinking, how do we combine these two ideas together so that they are mutually aligned?
+
+17:36 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  What is it about Oasis that we need to kind of like uncover? I think it's pretty straightforward so far.  It's a prediction market. Yeah.
+
+17:45 - James Young
+  So I'm not talking about features at all with Oasis. What I'm talking about is Matt's mentality in terms of how he wants to fundraise for Oasis, which is different than what I proposed right now.  And I don't want them to be diametrically opposed. Because I think that's going to cause friction in the organization and it's going to cause us to stall.  So I want to talk to you first because you have insight in terms of Matt's thinking about his fundraising approach for Oasis, what he did for Gaia, and what he's thinking about Mother.  How do we combine these two so that they're complementary to each other instead of opposing one another?
+
+18:22 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, I'll give you like a quick TLDR on what I know about Oasis and what is happening. So Gaia right now, I don't know if you know, is illiquid.  They hit a cash crunch like a month or two ago. I don't know how. I don't know why. Probably some decisions that were made that didn't pan out.  Right now they're having a hard time unlocking liquidity. And so they are like desperate to find something to fundraise with.  They can't even unlock staking until they get listed on exchanges. And of course they're having a hard time getting listed on exchanges without unlocking staking.  So they're kind of like in a bind and that's why they double down on Oasis. That's I think that they're seeing that's their most clear path to creating some quick liquidity in the business.  So what they're doing is building this prediction market, which is actually not a solid moat. The whole thing is that this prediction market is their wedge into using markets to verify inference and the effectiveness of inference.  Across the board. like they want to, they actually, this is a play for the benchmarking market. Like benchmarking is a multi-billion dollar industry.  Right now there's no standards for benchmarking. There's like eight different standards. Well, what if you had markets decide what the actual benchmarks are?  And that's the game that they're playing. Yeah. So they're, they still don't know what language to use because they were like, like straight on ahead.  I have like a light paper. I don't know if you read it, but like they're straight on ahead with fundraising on this prediction market.  I don't know, I never know with partnerships with Gaia, because the Samsung phone was such a  disaster, like, every other day, it's just like, yo, we got to get like this announcement out with like Pudgy, we got to get an announcement out with like Dojo West and some of them like, cool, do we have a contract?  And then like, I'm calling out in meetings, and then they'd have arguments about each other, because they don't actually have it locked down.  Like, they're constantly like, trying to go ahead without actually firmly landing on a yes, this is done now. So now the new players are Linnea, and PSG, like Paris Saint Germain, we have a connection with their labs unit who have invested in the past in tech, they're formalizing, they said they're very interested, it's a handshake, but that doesn't mean anything right now.  But of course, I already know all about it, because they're like, it's going to happen imminently, it could happen in a couple months, we'll see.  So that they are very keen on getting these partners to fund this. Because they'll get some quick liquidity in this thing, and they're trying to unlock the rest of Gaia.  So that's like some insight that I'm seeing in terms of how they're playing this game. And the advantage also of doing it with Linea and with PSG is that there's the hype factor, which they hope will get them listed on the exchanges, and then will unlock all of the staking and all that kind of other stuff as well.  So that's like the mindset in there. So that's what I know about Oasis so far is that they're treating it, they're not 100% sure, but they're pretty sure they're treating it as a separate product from Gaia.  It's this like partnership-enabled project, and that they want to use it as a fundraising vehicle so that they can create enough hype and unlock the rest of their business.
+
+21:46 - James Young
+  Okay. So first off, I will say there's a difference between urgency and desperation. Number two, I would say... That if Matt's just doing what he thinks he knows is right, learning from the Gaia launch and how there have been non-perfect incentives mapped out, and he's in this crunch, and he's taking that learning and trying to do a fundraise from OASIS.  I don't know how to pitch Matt. would say to Matt, hedge your bets, go the OASIS route here with the way that you know, and then have a different way of doing it with Mother and something like that.
+
+22:44 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I think that's super solid because otherwise he's going to be in the impatient founder, I want to raise money mode.
+
+22:52 - James Young
+  And so we say, and we have to approach him in a way where it's like, we're just going to launch now.  Now. Now. Now. Now. You The token. And then we're just going to organically do this. And this is something else.  The critique I have with Gaia is that they should have foreseen this crunch.
+
+23:21 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, dude, I'm being paid half my salary to work full time as an agreement that it's and I got a token.  I'm still waiting for my token contract, my vesting contract, but it's being furloughed. So supposedly, once we raise liquidity, I will get paid.  But like, who the  knows what that is. It's very, very, I'm very unimpressed with the fact that that happens.  Very unimpressed. Yeah, that's not something that smart business people have happen, you know, unless they're moving too quickly. Yeah, I would agree.
+
+23:53 - James Young
+  And so thinking that Oasis will help verify their that And how that comes back and helps Gaia could make sense logically on paper, if everything goes perfectly the way that they want it to go, but that doesn't happen.  Ever.
+
+24:20 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Ever.
+
+24:21 - James Young
+  So what I'm saying is like, let's have a contingency plan this time and have mother go a different direction.
+
+24:29 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  The only thing is, I don't know if we should position as contingency only because it's too short a timeframe.  Like he, I don't even think he's ready to fundraise yet. Sorry, I'm interrupting. No, no, it's okay. Fundraise for what?  For mother. For mother. Like he has it in his head that Legion is like salivating at the mouth, ready to  sink their teeth into this mother project.  I think that's what's going on in the background, you know? Expand. here. Maesta. We want I I would question that assumption.
+
+25:03 - James Young
+  That assumption may lead to optimizing for the best-case scenario. And the thing I don't see is how that's counterbalanced and looking at how to minimize the downside risk.  Because if you're being furloughed and dangled future tokens, it's always just focusing on the future of if this happens, look, and let's all get aligned there and let's get all hyped and let's do this and all of that.  What I'm saying is that I've sunk almost a year into this, right? I am wanting that to happen, but I want to give light to being able to minimize the downside risk of this as well.  Yeah. Because time has already been sunk in.
+
+26:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Can I also offer a potential, this is like maybe a slight digression, as a potential angle, because I'm thinking about, I'm thinking about how this is going to go down.  This is a conversation that we have had with Matt. I imagine maybe just the three of us. I'm looking at his calendar already.  He has lots of time tomorrow. We can grab him. Let's do it. And I'm thinking about how to prepare for this call.  One thing that's super interesting is I saw this post from OX Jeff just the other day, and he was talking about how poorly AI projects have been launching lately.  So, man. Q3 and Q4 has been brutal for AI launches. Lit protocol. Under Legion round. 60 to 70% under.  Yeah. Um, Gaia also hanging in there. You know, like these, these projects are not good. They're bullish on things like Theoric.  Remember, Theoric has been like almost going to TGE for like a fricking like year. Uh, Centient AGI. don't know.  Intuition, also. I looked at their launch. Same thing happened. They set the price at $0.16 or $0.15 or something like that.  And they had this big spike and then it kind of went back. But that's it. They're back to exactly where their token was initially meant to sell.  FDV, $155 million. Definitely better, but it is definitely on a downward trend. Like, for sure. You know? People are selling up.  They're not holding on. AI launches are not going well right now. And I wonder if that can be part of our argument of, like, let's try something different.  Especially, I saw the Uniswap article you shared with me here. Great new mechanism for community, for fair fair launches.  We can try the, what's the other one? I think it was Aerodrome had the community launches as well. Those kinds of things.  Let's try something. I like this angle of, like, We're not sure if this is going to work, and the timing is so important now.  Why not, let's just try something different and see if it works. So that's the framing for the conversation for tomorrow ahead of us.
+
+28:15 - James Young
+  So that Matt comes in knowing instead of having to like defend his position. We can focus a conversation on, can we open up?  And I understand kind of where Matt is coming from and the pressures that he has financially that may skew or have him not be able to fully hear an alternative because I also am a founder and I understand the pressures, and I'm sure you must understand the pressures that Matt is in and sympathetic to that.  How do we yes and this?
+
+28:50 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  How do we yes and this? Yeah, because the yeah, I think that what we should like, let's make sure that we the one thing I do in coaching conversations.  I often frame the conversation. So like, here is what this conversation is about. We are not here to convince you.  What we want to do is we want to partner with you and find out, can we do this? Can we launch a token in a month?  And how can we do it? And we should weigh the pros and cons together. Like we should have, Matt, what do you think are the pros?  What do you also think are the cons? And like, collaborate from that perspective. Then we can do a board or whatever it is that we need to do.  Yeah, he's super visual. So I might spend the day tomorrow just like, based off this conversation, maybe either making some slides or getting this onto a fig jam.  He really loves fig jams. I just learned this. So he's also a neuro spicy individual, probably ADHD, like many founders.  So maybe that can help him kind of like conceptualize like the pros and cons of this situation. Yeah, I think that would be huge.
+
+29:55 - James Young
+  And I think I want to go straight to the source.
+
+29:58 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, this is why I want to have.
+
+30:05 - James Young
+  I wanted to get your feedback on this as well. I don't know 100%. Again, this is just a feeling that I have.  So I want to sit with it a little bit longer and I want to be thoughtful about it and not just be reactionary, too.  But I've thought about it long enough where I feel like I needed to say something. Yeah. This is where I'm at.
+
+30:34 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, so here's the deal. Let me just see here. Matt can chat. Well, it's probably best if we do a conversation tomorrow, if we want to have those visuals.  Otherwise, we can get him on a call today. Let's have a preliminary call.
+
+30:54 - James Young
+  I want to be as transparent as possible. I don't want this to look like I'm scheming or anything like  We're just trying to adjust here. There is a difference between urgency and desperation. We have to make sure that when we listen to the pros and cons, where are those pros and cons coming from?  Are they coming from because we believe in this or we're desperate to go, okay, let's just do it because maybe this is a shock.  So I think that that's why I thanks for telling me all of this kind of other backstory, because I think that if we do this out of desperation, we've already lost.  100%. I could not agree more.
+
+31:43 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And I feel like that is the undertone of what's happening on the other side of this. There's a lot of that.  And it's just not good decision making happening. It's a lot of just extra focus on, like, how do we hype this as much as we can and, like, make it seem like things are happening when they're not.  And, like, I have stats to show that, like, that  doesn't work. People don't care. So, yeah, I guess, like, the challenge will be, like, how do we, like, we'll figure it out in the conversation.  How do we have Matt see that, see those lenses, those lenses with looking at this through, right? I think that we just say it.
+
+32:23 - James Young
+  I will say it.
+
+32:24 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I'll just be upfront and just say it. Yeah, you might be looking at this through this lens kind of thing, yeah.
+
+32:31 - James Young
+  Yeah, I mean, I don't want to do this in an accusatory way. I want to do this so that we can be all on the same page.
+
+32:41 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. That is my intention.
+
+32:44 - James Young
+  Okay, cool.
+
+32:47 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Sweet. I'm going to try and book him for today. I just mentioned him right now because I know he's not on a call right now, but he's not answering, so.  Okay, might not- have a a I have a doctor's appointment.
+
+32:59 - James Young
+  on a um, Yeah.
+
+33:09 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay. Yeah. I mean, two o'clock, two o'clock. That's like 10 p.m. for me. That's getting a little bit right.  But we can. Oh, but you have it at two. So you couldn't meet right before. No, I could.
+
+33:19 - James Young
+  So in my appointment, I'd take in travel time.
+
+33:23 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Oh, okay. Sweet. So then I can book him at 1.30 p.m. It looks like he's free. I So booking him, there's like a 50% chance, 50 to 70% chance he shows up if his calendar's open.  Okay.
+
+33:39 - James Young
+  Okay, cool.
+
+33:39 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I'm going to book him then for tonight for a preliminary conversation. And then let's not necessarily, we don't need to necessarily make like a firm decision.  We just need to warm them up for the idea. And then what we'll probably end up doing is at the end of that conversation is like, let's book another call tomorrow to continue this conversation and see where it's been sitting.  And let it begin. I think that's a great approach, I agree with it. Sweet, well I will send you, if he gets back to me in the next like 10-15 minutes, I'll send you a message on Slack, the best place.  Cool, I appreciate it. Yeah, and then maybe we can get on a call before the top of the hour, otherwise, let's hopefully see each other at 1.30pm your time.
+
+34:23 - James Young
+  Awesome, I really appreciate this candid conversation, Coach Shea. Yeah, let's do this, I'm ready.
+
+34:28 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Let's do it. Awesome, thanks. Okay, James, down. Bye.
