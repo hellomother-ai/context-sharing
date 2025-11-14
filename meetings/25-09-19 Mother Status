@@ -1,0 +1,392 @@
+CoachJ <> James - September 19
+VIEW RECORDING - 37 mins (No highlights): https://fathom.video/share/ndcZuuCNCb1Qwy4bJ8U1JHtw_wxwFGz-
+
+---
+
+0:00 - James Young (Collab🤝Land)
+  There was, oh, let me admit my other note taker. This is the note taker I actually want.
+
+0:07 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yep.
+
+0:07 - James Young (Collab🤝Land)
+  Let me see if I can remove my other note taker here. Remove from call. OK, so we had a meeting, just to provide context.  I think his name is Marco from Gaia.
+
+0:26 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  He's Marco's, yeah, yeah, he's like one of the chiefs of staff. They have a chief of staff, I think.  Yeah.
+
+0:31 - James Young (Collab🤝Land)
+  And then there was someone from product, I forget her name, Allie or something. She was in that meeting. She helps with coordination on the product side.  There was Sydney, and then there was Asha. I think, yeah, maybe Asha.
+
+0:52 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Asha is Matt's chief of staff. OK. Yeah. Yeah.
+
+0:57 - James Young (Collab🤝Land)
+  And then there was Sydney.
+
+0:59 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. Yeah.
+
+1:00 - James Young (Collab🤝Land)
+  then Alex. And they were all in the room. I was the only one remotely logged in, and it was just looking at Matt's face, but then I could hear things and everyone could hear me speak.  And Matt was just giving a lowdown and a history of what happened with Mother. He disclosed all of the kind of misstarts that we had with Disruption Joe and trying to get some financing going and what happened with Manu and all of that.  But the main point that Matt was trying to make is that in two weeks, Alex needs to come up with a slide deck for Legion.  Yeah. And so it was just talking about just the background, catching him up on history, and then also just like  Letting him know the approach that we want to have, and Matt was really pushing for a TGE in December, and then working backwards in terms of the deliverables, and so the first deliverable is at SlideDeck.  I have a meeting with Alex. I was supposed to have it yesterday, but Alex was saying if we could actually push it off to today.  So I'm going to talk with him this afternoon about how to help there on the product side, but Alex has taken the responsibility to be the EIR and really be the person that helps coordinate everything.  So he needs a high-level view on what's happening, and essentially what Matt was saying in terms of a high-level theme is not focus on the tech, but really focus on marketing to be able to get investor hype going for this pre-sale on Legion in December.  I don't think that there was anything like... He there was a bunch of detail in history, Alex, it was a lot of information, so Alex is still kind of absorbing it a bit, but it seems like at the moment, he's able to kind of grok it, and I'm going to get his response and his synthesis of all of this when I meet with him today.
+
+3:20 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I mean, he was building a similar product, so he probably has some sort of base understanding, he just needs the mother-specific context of it.  That's right, exactly right. Yeah.
+
+3:33 - James Young (Collab🤝Land)
+  Yeah, so that's what's going on there. I have a call with Intuition because I've uploaded some of the Collablang community IDs and the smart accounts that are associated with these Discord servers or these communities.  Yeah. And we actually have, it's presented in the Intuition. next let's get you and UI, which I can show you, if you want to you haven't?
+
+4:05 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, yeah, I've been following up with Alessandro, because he's not been responding to me. And that is going to be absolutely instrumental to us having a successful, you know, TGE and RAISE and all this stuff that we're going to do.  We need to have a UI that users can interact with. Okay.
+
+4:25 - James Young (Collab🤝Land)
+  100%. And it's this intuition interface.
+
+4:27 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Nice. So let's move on to that. Okay.
+
+4:31 - James Young (Collab🤝Land)
+  There's a lot to unpack here. Okay. So please feel free to interrupt me. I'm holding my chair out of excitement.
+
+4:39 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Let's do it.
+
+4:41 - James Young (Collab🤝Land)
+  So I'm going to tease you a little bit here. So before, I'm going to set some background. The idea first was just to post the Discord server IDs onto intuition.
+
+4:53 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  That was step one. That's right.
+
+4:55 - James Young (Collab🤝Land)
+  Step two was to post the smart accounts associated with. with these Discord servers.
+
+5:03 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay.
+
+5:03 - James Young (Collab🤝Land)
+  And then now what I'm gonna do over the weekend is have the quiz agent be posted on intuition. So you'll have three main identities.  You'll have the community IDs, the users, and then the quiz agent. From there, we're gonna post the interactions, the aggregate, like, I don't know if it's quiz results, or they just- Whatever that is in the Excel sheets there, right?
+
+5:29 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Like, you're catching each of those instances kind of thing? Yeah, and then posting that onto intuition.
+
+5:35 - James Young (Collab🤝Land)
+  So now you get to see which users are interacting with what agent in what specific Discord community.
+
+5:42 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  That's the- So cool, so cool. Okay, amazing.
+
+5:48 - James Young (Collab🤝Land)
+  Okay, so now with that, I'm going to break your heart.
+
+5:54 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  No.
+
+5:57 - James Young (Collab🤝Land)
+  So to avoid infin- Do you see- Share my screen anyway, okay. So the UI is this generic UI. It has nothing really useful right now in terms of information, but what you see here is that the Collabeland community, this attestation is attesting that this is just sample data.  These are actually, let me start here. Sorry, okay, actually I'll start here. So what it's attesting is that there are these four Discord server IDs that now Collabland has attested to that are managing the Collabland, their Discord servers.  Yeah. Collabland bot is managing these specific Discord servers. Okay. right. Okay. Now... This is very problematic because there's a UI, but it's not built for this use case of being able to parse this data.
+
+7:15 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, because I was wondering, this is very like, okay, I can see each individual user, but you want to be manipulating the data, right?
+
+7:21 - James Young (Collab🤝Land)
+  You want to, as a user, go, like, the user's like, what the hell is this?
+
+7:26 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. Right?
+
+7:27 - James Young (Collab🤝Land)
+  So these are Discord server IDs. Okay. And because I don't want to let on to, like, potential competitors or, you know, have third party people be able to scrape this data and make sense of it, I have not put the Discord server name uploaded yet.  I have not put in the Discord invite URL in there yet. But the idea is, if you were to click on one of these, you should.  See all of that metadata, but the UI is not built for that right now. Got it. OK, so that's number one.  Number two is if you go here to this Discord server ID, this Discord server ID is the Collabland Discord server, the official Collabland Discord server.  When you click into it, you see this. It's pretty meaningless. What you want to see is here are five users that are associated with that Discord server want see the user profile.
+
+8:37 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  want to see what else that they're involved in and da, da, da, da, da. Exactly.
+
+8:41 - James Young (Collab🤝Land)
+  You want to see a user profile. Sure, 100%. Yeah, 100%, right? But they only have one UI for all of their use cases.  So I have a call with Intuition today, and I'm telling Intuition, you need to be able to have different temp.  You need like a profile template, you need based on the use cases. Have they not tested this out at all?
+  ACTION ITEM: Call Intuition today - discuss UI templates, Discord OAuth integration, profile template proposal
+ - WATCH: https://fathom.video/share/ndcZuuCNCb1Qwy4bJ8U1JHtw_wxwFGz-?timestamp=548.9999
+
+9:09 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  It seems like we've already, in five minutes, you've already been able to identify like, oh, yeah, it's missing. It's very obviously missing a couple of these things.
+
+9:19 - James Young (Collab🤝Land)
+  So this is what I'm going to propose to intuition. Okay. Okay, so what I'm going to propose to intuition is when you upload this, the discord server IDs, not only will I upload the metadata, the discord invite URL, but there will be a URL to a front end template, which will be the profile template.  So that intuition can allow any third party dev to reconfigure the UI based off of their specific use case.
+
+9:57 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay.
+
+9:57 - James Young (Collab🤝Land)
+  intuition right now is taking. So up that work. Okay. What template should we create? I'm like,  that. Oh, I see.
+
+10:05 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay. Yeah. You know what I mean?
+
+10:08 - James Young (Collab🤝Land)
+  I don't have my own use case. And there is an assumption on the Collabland side that we don't want to dox users.  We don't want to associate their Discord username and their profile image and all the Discords that they are associated with or any of that.  Because when you join Collabland, you're not making that implicit agreement. You're just connecting your wallet and you're expecting token gating.  So this is what I'm going to propose to Intuition. Intuition, when you go to the portal, they should have a Discord OAuth.  And then they should say, like, you know, Intuition should own that Discord user. So when they, a user going into the Intuition portal, OAuth via Discord, Intuition will get all that profile information.  made the next session. See And what they'll do when they are OAuth-ing, they will hit the Collabland API, and all we'll do is send them back the smart account address associated with that Discord username.
+
+11:11 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay.
+
+11:12 - James Young (Collab🤝Land)
+  So we're not doxing anyone. The user is initiating that they want to be doxed on intuition.
+
+11:18 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  They're agreeing, like explicitly agreeing. Explicitly taking the action. Their own profile. Yeah.
+
+11:24 - James Young (Collab🤝Land)
+  And then, so we need to have Discord OAuth. We need to have a profile template. Now, this serves as a reference implementation.  Because now what I'm going to pitch to Intuition is that, like, if they're going to OAuth via Discord, and then Collabland is going to give them back the user, like, smart account address, then they can, like, see what other smart account addresses and map to if other Discord users are going to Intuition to be able to see what your Discord friend list, who is.  more questions. Thank Bye. In other Collabland communities that they don't know about, and it becomes a discovery thing, but not only that, what intuition can do is then reach out to Kaido, reach out to Legion, and the profile is not just your Collabland smart account address, but your Legion score, your Yapper ranking on a leaderboard, and so now this becomes an aggregate identity profile.
+
+12:31 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  This is like what everyone was talking about always. This is like the on-chain reputation, your on-chain reputation, dah, dah, dah.  So this is an aggregator of that reputation is what you're saying? Yeah.
+
+12:41 - James Young (Collab🤝Land)
+  And this is what's going to help sell the intuition TGE. Amazing.
+
+12:46 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So we're doing a huge, you're doing a huge service to the intuition team.
+
+12:51 - James Young (Collab🤝Land)
+  Yeah. You know, this is positive sum.
+
+12:55 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. know? Yeah.
+
+12:57 - James Young (Collab🤝Land)
+  And so this is, this is what I'm going to- And so that's where we're going with intuition. I don't know, and then when, so that's Collabland communities, and then like members in a Collabland discord, right?  And we solve for the user willingly, explicitly doxing themselves. So that helps where we can maintain this privacy that we have on the Collabland side.  Yeah. And then this also opens the gateway for this aggregation, and we should talk to billions about this as well.  And that becomes, intuition becomes the shelling point for this aggregate identity, so that they can reach out to billions when they OAuth and all of this.  Now, this is just Collabland discord server IDs, and the users or members that are part of that discord. And so there's a third part.  There's agents. So the quiz agent then now will also be on intuition, and then the quiz agent will be able to say, this member took a quiz in this community, and that information will be on intuition as well, so that other projects can use intuition as a data source to then go, okay, these are legitimate users.  They have interacted with this intuition TGE, and so I'm going to then reward these users if they also, if this other project has a Collabland managed bot in their Discord servers, to be able to say, okay, if you take a quiz in my server, you get, I don't know, some bonus, because now...  Which is what we had planned to do, right?
+
+14:55 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Right. This is how it all kind of comes together. Okay.
+
+14:59 - James Young (Collab🤝Land)
+  But there's work on the... Yeah, okay, cool.
+
+15:04 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  That sounds great. One question I have is I'm thinking about mother now. So from mother's perspective, quiz agent, great.  But one thing I think that's going to make a huge difference is seeing more than just one agent on the mother registry, being able to visualize that and action around that.  What do you think comes after we, you know, this sounds like a full-proof plan. They have TGE in a month from now.  I imagine that this will get sorted within the next month. Great. It's working. Intuition's TGE is going to be wildly successful.  Thanks to the mother team. Look at this agent, blah, blah, blah, blah. Now, how do we start, like, for example, all the Gaia notes, how do we get them as all of the agents and have them, yeah, all that kind of stuff.  Yeah. So actions necessarily with those notes or will there. Yeah.
+
+15:52 - James Young (Collab🤝Land)
+  So this is where we need to coordinate and I want to rely on you in terms of now, know, and you've prompted me with this.  Well, We need other agents besides the quiz agent, right? So I've been working with another project called Kalani. Did I ever tell you about Kalani?  No.
+
+16:13 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Kalani, K-O-L?
+
+16:15 - James Young (Collab🤝Land)
+  K-H-A-L-A-N-I. No, I don't think so.
+
+16:21 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Kalani.network.
+
+16:23 - James Young (Collab🤝Land)
+  Okay. So Kalani, Kevin is a founder of Kalani. Kevin and Tanner are co-founders of Kalani. Okay. Kevin, oh, , I forgot the name of the chain that he launched a few years ago.  It was popular in Asia. Tanner was a researcher at the EF. Okay. And so they got together to create this new intent-based chain using what's called formal verification.  Okay. It's highly, highly technical, but you can think of it as an intense chain, and the first step with working with Kalani, Kevin hired the VP of BizDev and Partnerships from Galaxy.  Galaxy is a questing platform.
+
+17:20 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  That's why I know Galaxy. familiar, yeah.
+
+17:22 - James Young (Collab🤝Land)
+  So, Patrick Young, understands the importance of all this being on-chain and not being siloed, and he has been advocating and trying to get Galaxy to do things on-chain.  So, that's why he left Galaxy to help start these on-chain questing platforms for Kalani. And I've been telling Kevin, we have distribution.  So, Kevin and the Kalani team specifically Specifically, Patrick goes, I know what quests work and what don't work, and so I'm bringing in Kalani, specifically Patrick, to tell us, based off of his previous experience, what to do.  Good.
+
+18:20 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I mean, specifically from a questing perspective or just a business development perspective?
+
+18:27 - James Young (Collab🤝Land)
+  We were a little questing agent in the past, and I don't know if we were going to plan Yeah, so we're going to build the questing agent, but we're going to get real-world experience of what works and what doesn't work from Patrick and the Kalani team to help guide us.
+
+18:45 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  With Kalani, how does this, it feels different, but also similar to what Gaia is going to be doing. Because if they're a chain and they're processing intent, I'm getting  Intents mixed up with inference, that's what's going, they're both I words, I'm very, sorry, okay, so this is completely separate, this is like a completely different thing, but it's nice because this connection is, this connection is here.
+
+19:12 - James Young (Collab🤝Land)
+  Yeah, so what will happen is Kalani's chain uses formal verification to verify that the agent mathematically, because there are formal proofs that the agent is doing and only doing what it's intended to do.  But isn't that the same thing as the AVS, like isn't that similar to that? It's similar, but we will use the AVS to also verify.  So this is an extra guarded like protection. Double layer. Double layer. And we're going to use Kalani and Patrick to help build out this questing system.  So they're going to be free resources for us. And at the same time. same I'm love sponsor It'll be a double-layer because Kalani needs to have some use cases in production.
+
+20:05 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, I was going ask what's in it for Kalani here because it sounds like we're going to benefit tremendously from this because we're going to integrate their chain with Mother, but it sounds like they want Mother to, like, talk about how we're using their chain to verify all these interactions that these agents are having.
+
+20:23 - James Young (Collab🤝Land)
+  Yeah, so what I'm trying to do is create these shelling points of positive sum alignment. Cool. That sounds great.
+
+20:33 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Very cool. Super. It feels like it's all coming together. I mean, it's all about execution.
+
+20:40 - James Young (Collab🤝Land)
+  Theoretically, it makes sense, but  happens.
+
+20:43 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  True, yeah. Right?
+
+20:45 - James Young (Collab🤝Land)
+  And so what we need from the Gaia side is, like, we just need them to post this data so that it displays incorrectly, and then we can say, what the ?  That's why I just- Postsing blood data?
+
+21:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Post what data? All the nodes from Gaia onto intuition, at least three or four or something.
+
+21:06 - James Young (Collab🤝Land)
+  So we see from a UI perspective that this UI is wrong, and then we can tailor the template accordingly.
+
+21:16 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  How soon do we need that happening? Because everyone's flying out today, tomorrow, in We needed that yesterday. Okay, let me, let me, hmm, Harish is probably our guy.  To do that. The only thing is I do not feel adequately versed in the technicalities to make that request and manage that process.  I want to get a convo between us. Well, right now he's in India, so I mean like for him it's almost 11 p.m.
+
+21:51 - James Young (Collab🤝Land)
+  So this I think is going to be a new responsibility that Alex needs to manage. Okay, got it.
+  ACTION ITEM: Create "Mother Node Coordination" Slack channel. Invite Alex, Harish, Matt, James
+ - WATCH: https://fathom.video/share/ndcZuuCNCb1Qwy4bJ8U1JHtw_wxwFGz-?timestamp=1319.9999
+
+21:59 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, and you'll talk to him about. We spoke about that.
+
+22:03 - James Young (Collab🤝Land)
+  That was one of the things that we spoke about. We need these Gaia nodes on intuition ASAP.
+
+22:10 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I can create a channel, by the way, in Gaia Slack and invite Alex into that channel and Harish into that channel and put Matt into that channel.  And we can call it Mother Node Coordination or something like that. I can put you in the channel as well.
+
+22:27 - James Young (Collab🤝Land)
+  Sure. Like, we just got to get this done. Like, it's time to rock and roll.
+
+22:31 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, that really fell off. It fell off like a long time ago, didn't it?
+
+22:36 - James Young (Collab🤝Land)
+  Yeah.
+
+22:40 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Let's see if I can. Yeah, I can create.
+
+22:43 - James Young (Collab🤝Land)
+  We just need, so here you see the Collabland servers and members in a server. It's only three or four.  That's all we need. We don't need 700,000. Right?
+
+22:54 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  agree. I agree.
+
+22:55 - James Young (Collab🤝Land)
+  We just, we just need a reference example because everyone does, expects what. to The UI should look like it and all of that.  We need to see it. And then once we see it, we can go, oh, this is wrong. But so we have to do it wrong in order to do it right.
+
+23:14 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. Okay, cool. I'm just going to start this conversation and we can get it going. I think Harisha's offline, but we can try to get it going Monday.
+
+23:26 - James Young (Collab🤝Land)
+  And then what I want to do as part of the pitch that Alex pitches to Legion is what I talked about.  If we have a profile and it has Collabland information, what I want to pitch to Legion is that we can actually also get that user's Legion score.  And this helps with Legion in general. And that motivates them and incentivizes them to put us on that pre-sale list.  Because we're amplifying Legion as well, and then this becomes this aggregate identity platform, and then once we have Legion or Billions, we'll get the other one, so we need to also get Billions on board, and we need to do this, or at least tease this out, if it's a POC, if it's in production, whatever it is, ahead of the intuition TGE.  And then this will help the Billions TGE as well, because this shows group coordination, and this will also, I hope, sell us so that we can get front of the line access to pre-sale for Mother on Legion, because we're doing this integration for free for them.
+
+24:54 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And do we need to enroll Matt in this at all, or should we just start moving on this? Do you want to chat?  so we're to open today. you,,還licers, Matt and make sure he's like, because the thing is with Matt, he gets really excited about it, but then like, you know that when he does his thing, when he gets excited about it, and then like he'll send out one message about it, and then he's like off for the next thing, you know what mean?
+
+25:12 - James Young (Collab🤝Land)
+  I say we get Alex to manage Matt.
+
+25:16 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Alex is now going to be the EIR, the person that is helping coordinate all of this. Okay, I just have access to Matt's calendar, so I feel like I have a special privilege here, and I just like, oh, I can see Matt's here for you at 6pm, that's perfect.  I can just pop in 30 minutes with you and Alex and Matt, and then it happens.
+
+25:35 - James Young (Collab🤝Land)
+  It's just going to be another threat, Matt's going to get excited about it, but then he's going to immediately forget about it, because he's going to go to Korea, and he has all these other things that are lined up.  So let's focus this on Alex and see if Alex can deliver on this, and how Alex manages and coordinates all of this.  Okay, cool.
+
+25:55 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Great. Well, I created a channel, and I sent an invite to you and to- Alex, and let's start just talking here.  Harish is super helpful and super responsive, and I can just underscore the urgency of this situation to get it started, and I bet you he'll do it much faster than we think.
+  ACTION ITEM: Discuss w/ Alex this PM - Intuition UI, data integration, Legion slide deck content, coord Gaia nodes on Intuition ASAP
+ - WATCH: https://fathom.video/share/ndcZuuCNCb1Qwy4bJ8U1JHtw_wxwFGz-?timestamp=1570.9999  We just need to be really clear about what it is that we need.
+
+26:21 - James Young (Collab🤝Land)
+  Okay, and so what I'm going to do when I speak with Alex this afternoon is talk to him about this because you're the first person I've explained this to.  I've had it in my head, but it was hard to articulate because you need to see something, even if it's wrong, and then it clicks.  So I'm going to talk to Alex about that, and what I'm going to position Alex is, this is food or fodder to be able to put into the Legion slide deck.  So that Legion score could be shown on intuition, it's coming through mother, it's all of this. I know, Coach J, you have been talking with billions, so I need your help to get billions on board with
+
+27:01 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, think Ravi is going to be super easy to get a hold of. Do we want to get him on board ASAP or after we get this sorted with Gaia?
+
+27:12 - James Young (Collab🤝Land)
+  Simultaneously, because if we close Legion first, that will help us close Billions. If we close Billions first, that's going to help us close Legion.  Okay, so I'm just going to invite Ravi to this as well, to this channel.
+
+27:24 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Should we have this conversation all in this channel?
+
+27:27 - James Young (Collab🤝Land)
+  I think what we need to do, I think what we need to do is we need to have a context setting meeting with Ravi, get him hyped on this.
+
+27:35 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. Okay, cool. I think he is based in India as well, so I'd be a little bit late for him, but...  Is he going to Korea or Singapore?
+
+27:42 - James Young (Collab🤝Land)
+  I think Evan for sure is going, but I don't know if he's going. Okay, so I'm happy to meet with Ravi early next week, and me, you and Ravi can have this conversation.  I think that's how we kick, but you tell me. I don't, I haven't spoken with Ravi for like three or four months.  So... I don't know exactly where he's at right now. What do you think is the best way to kind of close this as quickly as possible?  Yes, let's get Robbie on board.
+
+28:08 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Evan's super, Evan's just like a big thumbs up to all of this stuff. No, Evan from Billions.
+  ACTION ITEM: Msg Ravi (Billions) to sched mtg next week re Intuition integration/TGE support
+ - WATCH: https://fathom.video/share/ndcZuuCNCb1Qwy4bJ8U1JHtw_wxwFGz-?timestamp=1696.9999
+
+28:15 - James Young (Collab🤝Land)
+  No, but Evan is kind of at the same level as Matt. He's a bit, she's a bit high level, we need to get- Robbie's the guy that does things.  Yeah, so we need to get to Robbie first and let Robbie manage Evan.
+
+28:27 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  A hundred percent, so I've already messaged Robbie and I ask him for a time next week. And yeah, they're just really focused on like just their day-to-day activities and they have a TGE in November.  So I think that he's like thinking about that, but I don't think that that should stop us from meeting.
+
+28:47 - James Young (Collab🤝Land)
+  So we need to pitch Billions that this is going to help their TGE. Yeah, for sure.
+
+28:56 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  For sure. sure. Once we get Billions, once we get Legion, we're going to-
+
+29:00 - James Young (Collab🤝Land)
+  Both straight for Kaido.
+  ACTION ITEM: Begin warming up connections w/ Kaido & Banter (lower priority) for future integration
+ - WATCH: https://fathom.video/share/ndcZuuCNCb1Qwy4bJ8U1JHtw_wxwFGz-?timestamp=1740.9999
+
+29:03 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Kaido. Do you have connections at Kaido? I don't, but I know Matt does.
+
+29:08 - James Young (Collab🤝Land)
+  Very, very loose connections.
+
+29:11 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  All right, so we need to find a connection to Kaido, or Kaido. We have a BD person.
+
+29:18 - James Young (Collab🤝Land)
+  So we need to find someone at Kaido, or a Kaido competitor, so that we kind of get I have a Kaido competitor, they're called Banter, B-A-N-T-R.
+
+29:28 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  They've been also hunting us, like, hounding us from a BD perspective. I think they're, like, a rival-ish answer. Yeah, so they have a proposal.  They're, like, basically, like, Kaido, but on-chain, all on-chain. So let's do that.
+
+29:43 - James Young (Collab🤝Land)
+  So what we need to do is, because Kaido is the big fish, right? If we can't get to them directly because they think, oh, we're Kaido, and who the  are you?  they're good.
+
+29:53 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  They're super responsive. We just need to get their BD person on first, and then we need to- I'll to people.  I'll take probably a few conversations.
+
+30:00 - James Young (Collab🤝Land)
+  Yeah, so let's warm that up, and then let's warm up banter so that we can say, oh yeah, we're working with banter, and maybe that helps move Kaido.  And then with banter, we can say, we're talking to Kaido, and maybe that helps move banter. We need to position this so that we use external incentives or competitive forces to be able to make people move.
+
+30:25 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, cool. Okay, let me get some time in with their ... That's like soliciting on the sponsorships. Okay, cool.  Priorities are Billions, Kaido, who else?
+
+30:52 - James Young (Collab🤝Land)
+  The priority is Legion, which Alex will manage because he's working on the slide deck, and then Billions. this, choice.  Let's just focus. Focus on those two, that's it for now, and then warm up as a lower priority, Kaido and Banter.
+
+31:09 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, cool. Banter is going to be super easy to get on the call, so I'm not going to message them yet.  Okay. Okay, wait, so Billions and who's going to win? Legion. Legion. Okay, yeah, because I'm not going to follow up on Legion, Alex is going to follow up on me.  Yeah, that's right, but that's a priority. Swimper, okay, cool. Okay, sweet. That's it. Okay, cool. Well, I have, like, I, on the other hand, have put together, like, a kick.  I'm, like, so stoked on this content. I don't normally get excited about campaigns, especially content, but I think this is really good.  And it's going to be all Renaissance-themed, and it's because, and it's wild, man. I was putting together this, like, brief, and, you know, I work with AI on these briefs, and then AI just put together, like, put together out Renaissance.  I never mentioned Renaissance, and it just so happens that Gaia is doing a brand campaign all around Renaissance. If you can see it, they've already started it, which is silly, but they started it already here.  Let me show you what it looks like. It's so cool, and I have one of my designers from, oh.  Ah, there he is. Did you need a draw for a call, by the way? No, no, no.
+
+32:35 - James Young (Collab🤝Land)
+  I was trying to stop my screen share, and I hit the end of the button instead.
+
+32:39 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, Yeah, so, like, my designer made this, like, glitch Renaissance thing going on in the background, and the aesthetic is, like, so cool, and, like, I brought on these two exceptional designers onto Gaia part-time, and so I'm going to get them to do a bunch of other stuff, because they have-  So our stuff is going to look really good, it's going to match Gaia's visuals as well, so it'll be really strong, and we can match up with this meta that they're going to be driving all the way from basically in two weeks from now, post KBW, all the way into DevCon.  Nice. Yeah, and our whole DevCon booth is going to be related to this as well, like the Gaia booth, and Mother is going to be, by the way, this is the last event that Mother is, the last initiative that Gaia is doing that Mother won't be a part of.  Okay. So they're doing an EIR program, like an entrepreneur residence program accelerator type thing, it's going to be the Gaia X Mother EIR program, and then their accelerator, I'm going to try to make sure it's Gaia X Mother Accelerator, and all of the DevCon stuff is going to be Gaia X Mother at DevCon.
+
+33:50 - James Young (Collab🤝Land)
+  Amazing.
+
+33:51 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So it's, yeah, the accelerant is being poured onto the, I don't know, I don't know what accelerant is, but, accelerant, that's the word.  We just. just. just. We what highly fire
+
+34:01 - James Young (Collab🤝Land)
+  That's right. We're going to explode faster, sooner than later.
+
+34:06 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Exactly. So I'm excited. I'll share more, I guess, on Monday about the actual content play of it and stuff like that and how it works.  But yeah, this is kind of like the visuals. It's going to look so good. And the content is super on point.  It's all about AI sovereignty, but it's also about this renaissance, this rebirth, where we're taking control of our AI, and Mother's at the center of it, and that's our contribution as well.  So I'll walk everyone through the briefs so you don't have to hear it twice. But yeah, excited. I'm feeling like this is the momentum we've been waiting for.  Like, this is the momentum I felt at the very beginning of the project, and this is it. And I think this is the go.  Like, we have to make this work. If this go for some reason doesn't work, I don't know if this project has much legs on.  Absolutely, 100%.
+
+34:57 - James Young (Collab🤝Land)
+  Like, yeah, we tried. in a very naive way, and you had, we can only be in this place because we were in that other place.
+
+35:10 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, yeah.
+
+35:12 - James Young (Collab🤝Land)
+  And so we need to really learn and reflect back and not make the same mistakes twice. Let's make different mistakes this time.
+
+35:19 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  100%. Very well said, yeah. Cool, man. Well, I'll let you know, make sure to accept the Slack invitation, let Alex know that I also invited him to Slack, because it took him a while to get into the mother Slack, so tell him I sent him this invitation and to accept it as soon as possible.  My request for you and or Alex is put in what we want to do into the Slack channel, like do that today, so that on Monday, I'm going to follow up with Harish and be like, hey man, can we get this on the pipeline, in the pipeline as soon as possible?  Yeah. What would it be for you to do this today or tomorrow?
+
+35:54 - James Young (Collab🤝Land)
+  Let's let Alex manage that so, so that we can have division of labor. I could do it, but. And I would be robbing Alex of, like, his ability to coordinate, which we need him to step up on, because it's not only just Allegiant slide deck, but it's just kind of coordinate as no, I completely agree.
+
+36:13 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  That's a good patch. So tell him, like, today or the weekend, but, like, it has to be before Monday, because on Monday, I'm mourning my time, I'm going to see this request, and then I'm going to tag Harish and be like, hey, Harish, let's meet about this ASAP this morning, so we can figure out how soon you can do this.  That will be my follow-up message. But Alex needs to put something in first. Yeah. Yeah. Okay, cool. Understood. Sweet.  All right, sir. Thanks. Have a great weekend. You too. Cheers. All right. Bye.
