@@ -1,0 +1,226 @@
+Mother All-Hands Weekly - August 05
+VIEW RECORDING - 39 mins (No highlights): https://fathom.video/share/8vLM5MsLH4jSimzd7SiASvxXy4MMcxxc
+
+---
+
+0:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Quiz, the Alliance in general, and I think just one thing on my mind is like our GTM and just like what's next for Mother here because we did this big milestone for QuizBot and like are we steady as she goes with our existing plan, how do we want to pivot or edit now that the Gaia TGE is live and lit's coming up and like are we still steady as she goes or is there more things we want to build and we're still not resourced.  We still just have James building, so I think those are all the things that I want to talk about.  Anything else before we kind of dive into anything in particular? Does anyone have any other agenda items?
+
+0:41 - Natascha Tiotuico
+  So with the QuizAgent, I would also talk about like releasing it in Mother and stuff like that because we just have it in Gaia currently and I think it's at a state where we can also put it in Mother.
+  ACTION ITEM: Coordinate w/ Xavier re QuizAgent release in Mother Discord; update branding to Mother; integrate w/ Intuition; add poll functionality
+ - WATCH: https://fathom.video/share/8vLM5MsLH4jSimzd7SiASvxXy4MMcxxc?timestamp=49.9999  Okay, okay.
+
+0:56 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, let's do that. Okay. Okay.
+
+1:00 - James Young (Collab🤝Land)
+  I can, should I coordinate with X on that, Xavier? Yeah.
+
+1:08 - Natascha Tiotuico
+  I'm not sure if he already gave you the admin rights to it, but if not, you can coordinate with him.  If you need support on that, I can also take over at some point or follow the discussion in case you need more support.  Yeah. I think I have admin.
+
+1:29 - James Young (Collab🤝Land)
+  I just want to know how this properly set it up so that which roles will be able to be allowed to create quizzes.
+
+1:37 - Natascha Tiotuico
+  Yeah, currently I would put it to the mods, but yeah, I can get into the details and maybe write it all up in a ticket.  So who needs to be able to create polls? I would do that like first let the people enjoy it and then we'll maybe after two.  weeks or so. Release it. Cool. Sounds good. Cool.
+
+2:06 - James Young (Collab🤝Land)
+  Hey, yo, GM.
+
+2:10 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Hi.
+
+2:12 - Matt Wright (GaiaNet)
+  Yo, yo.
+
+2:13 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  He's back from TG land.
+
+2:15 - Matt Wright (GaiaNet)
+  actually have, I have, why am I saying, Dan from CoUnity is coming to my office in a few minutes.  Oh, lucky done. Amazing. That's great. Love that. Yeah, post TG feels good. It's a, my God, we're still going through it.  We have the airdrop tomorrow, but yeah, what a, what a  show. A good  show. Things are going well. Sure.
+
+2:42 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay. So quiz and mother that feels like a check mark in terms of that agenda item. Tash. Totally. I see a gentle nod.  Yeah. As an agenda item or you mean already done.
+
+2:57 - Natascha Tiotuico
+  We're going to cross it off the agenda item.
+
+2:59 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  forward So, take you
+
+3:02 - Natascha Tiotuico
+  I would just see if there's still changes needed for the Gaia community, because I remember at some point it was the question if we're going to do the quiz agent as like the mother symbol and how we name it.  How can we get that resolved as soon as possible? Because that's still just lingering out there.
+  ACTION ITEM: Send Mother brand assets to James; reach out to Sebastian (Ember) re joining weekly all-hands; join Matt's call w/ Legion
+ - WATCH: https://fathom.video/share/8vLM5MsLH4jSimzd7SiASvxXy4MMcxxc?timestamp=204.9999
+
+3:21 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I think that we can make some decisions. What do we need to resolve that? Just branding. How do we want to brand this?
+
+3:30 - James Young (Collab🤝Land)
+  We call it the mother orchestrator and we put a mother logo on it.
+
+3:33 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Let's do it. We just need to coordinate the brand assets and stuff.
+
+3:38 - James Young (Collab🤝Land)
+  Who do I send that to?
+
+3:40 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Send it to me. Okay, yeah. It's on our Notion under brand assets. So I'll send that to you right now.  Yeah, just send the link. That'd be great.
+
+3:52 - James Young (Collab🤝Land)
+  And then as questions come up, we'll just deal with it async and Slack. They're probably like little miscellaneous questions here and there.  But I don't think we need to take a- the time for the whole group to coordinate that, but we'll just coordinate ASIC and Slack.  I'll get that done. And I think now when it comes to, I'm looking at the chat that Coach J put in, there's a quiz bot.  Any other feedback with regard to the quiz bot? I'm working through some of those issues with Ian and Rancher right now.  It's ongoing. They asked for an API and modifications to the API, which was a little bit out of scope, but I'm happy to do it.  So I'm just working through that right now. And I want to move forward this week with integration with intuition.  So all the quizzes would actually, and the communities would actually that are taking the quiz. And this way, future TGEs or even Gaia, if they wanted to see who's active and who's doing these quizzes, they could actually see it in intuition and do easy queries for like future airdrops.  This sets the stage for the lit TGE so that those that have participated in the quizzes for Gaia could be allowed listed for the lit TGE.  So I've been chatting with Alex Alessandro about this and Simonis, one of the lead engineers at Intuition, is finishing up an SDK for this requirement.  So I think that's the next order of business for the QuizzAsian. At the same time, I'm going to add the poll.  . So there'll be a quiz bot or a quiz agent and a poll agent. The poll agent I'm hoping to get done this week as well.  So we'll have that in motion. And then I think to round it off is just gathering requirements for the quest agent.  And so if we can get that going, then what will happen is I don't know about getting all the integration with intuition done this week because there's a dependency on the intuition side because they have to update their SDK.  But ideally, if they get that done, I can get the integration with the quiz, poll, and intuition all done.  And then this sets us up for more broad sweeping the quiz agent, I mean quest agent. So then now.  You can have arbitrary type of actions to be performed, and it could be a combination of taking quizzes, doing polls, liking on GitHub, or whatever the requirements are.  And then this would all be posted on Intuition, and it shows Gaia, Lit, Intuition all kind of working together.  So I think the Quest agent, sorry, is going to probably start next week, and depending on the requirements, we'll see how long it takes to get that done.  But that's kind of how I see the next two, three weeks-ish going. Okay.
+
+7:41 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Can we use that conversation to kind of segue into GTM? Because we're kind of getting already ahead. I know there's a few conversations we wanted to have around just checking in in general.  How is this going? And what's the game plan moving forward? Are we steady as she goes with the alliance and the game plan?  How is this We're to keep working with you, James, as our only developer resource. Yeah, I want to talk about, James, I know that you kind of had some ideas around that, and now we have Matt here as well.  Do you want to set the stage for kind of, like, that conversation? Yeah, yeah, before I do, I know that Tosh, I think Tosh had her hand raised.
+
+8:20 - Natascha Tiotuico
+  Oh, it was just about, like, if we're also having a lit technology on the radar, because that's, like, the most important for Lit to show off their technology, so when we had Gaia.  But then you mentioned that this next step will also include the Lit protocol, so my question's answered.
+
+8:41 - James Young (Collab🤝Land)
+  Oh, okay, yeah, because using smart accounts, Lit is already baked in there, and so there's already been, like, a blog post on the Lit blog about smart accounts and how we're using it at Collabland, so I think it's just going to be further promotion of  Okay, so going back then to what Coach J was saying, as we go from the context of we have polls, quizzes, potentially quests, how do we want to GTM for Mother, especially now that we have Gaia launched?  And I think we wanted to kind of use this meeting today to kind of get an idea. I know the TGE is less than a week old, so it may be a little bit early, but I think based off of or if there's any information or insight to be had now that the Gaia TGE has happened, does that shape or inform our go-to-market strategy?  And I would love to get Matt's feedback on this. Like, what I've come to learn to understand is that, like, we can either go, like, the centralized exchange route or we just go the bottoms-up community route.  I think that's the big question to ask. And then, depending on which strategy we use, there's going to be a lot of detail.  And so I think this is a good time to kind of take in what the market sentiment is now, just in general, how or if there are references to other projects that may be somewhat categorically similar to us to kind of get us in one direction or another.  I don't know if this meeting will be able to settle on one of the two strategies or not, but just wanted to maybe...  Spend like five, 10 minutes just talking about that and getting everyone's assessment so that we can get our bearings for this GTM.  I know it's a big question. So let's just try to iterate through it.
+
+11:16 - Matt Wright (GaiaNet)
+  Yeah, yeah. So, so we brought an architect on the Gaia side with the contract was really meant for them to help structure some of the like governance stuff.  So I'm starting to not call them DAOs anymore, but like a lot of governance work stream. And then part of the deal was they would help do the mother token economics.  So now that we've kind of kicked off with them, I can start getting them to consult on that piece of things.  I would say in terms of order priorities, like we need someone who would kind of be the owner of the, of that work stream.  of second I'm I'm that like Previously it was Disruption Joe. It's a very sensitive work stream. I can handle it to some extent, but it's very operational.  I think high level the plan is we develop the token economics and token cap table. I have a clear idea of how we would structure it.  I don't think it should take too long. We need to figure out which partners will be kind of these early rewards into that ecosystem.  So Gaia Token, you know, Intuition and Lit and whatever. Let's keep it pretty lean for time being. The other piece is like we're still waiting on Gaia Engineering to release the OpenMCP compatibility of the node so we can start doing go to market on, you know, take your Gaia node and, you know, onboard it to the registry.  have to do that whole flow. So if we can start doing all those things in parallel, one work stream that I'm looking to...  it's Theória 이전ers, aentesis up to... you... I've toгрay There thanks I know originally we were thinking, let's not do a separate fundraise, let's perhaps just like run off of grants or off steam.  But I just met the co-founders of Legion last week, and we have a lot of mutual friends, we have a really good combo.  They might be able to get us on Legion now that we have some traction. And so that might be an option where we can just raise like a small seed round.  Again, we have to discuss here if that's what we want to do, it could impact the timeline of TG.  And then in terms of like the technical, like actual deployment of the token, like it's just a ton of heavy, heavy work with the exchanges, there's a lot of KYC involved.  Now that we're kind of over that with Gaia, later in the year I'll probably have a little more bandwidth to go through that work stream again.  But I, you know, repeat once again, like I. I do need a point of contact who would handle the ops on that side of things is very brutal work stream.  had, you know, Archie, we have two chief of staffs and like two EAs who were able to handle all that work stream with the exchanges, like super technical applications.  It's a lot of work. So I, you know, from, from a few of the folks I've talked to, like, we should still do centralized exchange first, but that kind of comes with like the, the token economic strategy we want to do.  So with architect, they can kind of coach us in which direction. But if we did just decks first, we'd have to have a ton of virality already.  So, you know, if we think we can get there, sure, but it's a massive risk and we do have access with the exchanges.  Like they're, they would be very keen to work with a product that's like aligned with Gaia. And even with these other projects that are, that we're also introducing, like Billy, I've introduced.  you. Just do a exchanges. Mother would be like really appetizing for these folks. It really just like I'm blocked on having like a chief POC who kind of works with the Mother Foundation on, you know, filling out these exchange applications.  I'm happy to be the KYC person, but just the operations of it is a painless. That's one blocker. think we have a couple other blockers, but I'd love to know your guys' thoughts on how you want to go about this.  No, I appreciate that.
+
+15:41 - James Young (Collab🤝Land)
+  So I'll give my feedback and then answer in chat. So it sounds like we want to go with centralized exchange.  That would require, I think, some capital infusion in order for that to happen. But we're already kind of on our road to the tokenomics.  And call now. So the two issues are that we need an operational lead to help with this kind of token economics and then filling out all of the and maintaining the relationship.  It's like, you know, full time BD work with these exchanges. And not only that, we that assumes that like we have like a pre-sale so that we have some capital to work with because it's going to cost money from what I understand dealing with these exchanges.  So those things need to be ironed out in terms of what do we expect financially from like a pre-sale and how much of that budget goes to getting listed on the exchanges.  Yeah, no, totally agree.
+
+16:54 - Matt Wright (GaiaNet)
+  So that's, I forgot to mention this. So Legion, they it's it's confidential right now, but. They're releasing a new feature that is a full TGE product, so that was kind of what we were talking about.  They'll help you with the raise, but they can also help you with the TGE go-to-market. My experience too, one learning post-mortem would have been just paying Kato and Cookie to do a lot of the marketing, although it's expensive.  To be honest, that's kind of where a lot of these eyeballs are going. It's like probably 100. Cookie, I think, is more like in the 50K ballpark.  Kato's like 150K a year, but you spend 200K and it gets you like a 50 mil market cap. It might not be so bad or 20 mil market cap, whatever.  But James, your point, how do we hire that kind of person? How do we cover the inherited costs we have already?  How do we we we make do make it? it? it? How We have two options. can do the Legion raise and just kind of pull ourselves up by our bootstraps, or we could just go straight to TG through like a DEX and hope to God it does well, but, you know, I think there's still like, there's a lot of risks there.  And then you do it once, you can't really do it again. And there's also the opportunity to like wait till Gaia can, you know, provide a grant, which we changed our strategy about a month ago.  The reason our FTV is low, you know, confidentially, ignore this recorders, but, you we want it to be there.  We don't want to see this massive chart where it's a billion, you know, 500 mil to a billion out the door and then the only people that lose are retail and developers, it's like only a exchanges and market makers who win, and it's just not a good look.  So that's why we're starting low. You know, some people are comparing it to other projects, they see this and they're expecting  We could do similar strategy with Mother where it builds up over time, but we'd still need some cash to, again, go pay these exchanges later to list us, or we would need to pay an operations person, probably put some marketing budgets aside.  And then if everyone here is cool with taking tokens and like a light MSA, then there's that as well.  But that's how I'm thinking of things. I can put it on paper if it's so easier to visualize.
+
+19:39 - James Young (Collab🤝Land)
+  Yeah, I think what I don't want to do is go through this kind of like months of conversation and racking up bills, like what happened with Disruption Show.  And so we just need a clear strategy as we go into it and be clear about it before we engage with third parties, I think.  And so. might be more conversations to have here, but I still hear that the recommendation is to kind of get a raise going, at least some funding, so that we can do the centralized exchange listing because going the community route just really means, like, being able to bring our own demand, which I don't know if we have yet.  So, and bringing up our own demand, you know, will require, I think, other types of work, specifically marketing that we don't really have a lot of the resources for either.  So I think we're still kind of at a crossroads here in a bit, a lot of questions to answer still.  But I think that, yeah, I think, I don't know if we're going to be able to answer it in the next seven minutes.
+  ACTION ITEM: Chat w/ Legion re costs & potential raise; create high-level token strategy doc; schedule call w/ Legion (incl. Jonathan & James)
+ - WATCH: https://fathom.video/share/8vLM5MsLH4jSimzd7SiASvxXy4MMcxxc?timestamp=1249.9999  So maybe, maybe not seven minutes.
+
+21:00 - Matt Wright (GaiaNet)
+  guys. Yeah. But I think high level, just zoom in out again, like, I do need to have another chat with Legion and understand costs and or potential, like what we could potentially raise and like just understand more logistics there.  If anybody's able to join me on that call, that'd be great. Might help give some clarity. And then, you know, I, I really, I, again, the, the, the plan A we had with, with Gaia token was, you know, around later this month in September, we would have a little more capital to, you know, just do this ourselves, but we took a safer approach.  So we're, um, that'd probably be more later in the year. So I, you know, if we want to, if we do want to TGE by like, like before dev connect, like in November, which I would love to do that.  Um, or even like in September, like around when we have all these activations, um, then like we need to raise now and luckily like a lot of the entity.  T is spun up, like all that stuff is handled, but it just really comes down to money. Like we need like that ballpark, probably like half a mil to just like get this thing over the line.  Yeah. Yeah, I agree.
+
+22:11 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  went down that path and we didn't have a ton of luck. Maybe the messaging wasn't down, but it didn't sound like a lot of people were that, I think the biggest kind of like, I think we've talked about it before, but like Cypher Fund, we applied for a grant with Cypher Fund a while ago.  And they chose 300 projects, and we weren't even in the top 300. And now it's just like, okay, so either we, we're not seeing the need, the problem we're solving, you know?
+
+22:41 - Matt Wright (GaiaNet)
+  There's more agents out there now. So I think, I think there is definitely room to like, yeah, I didn't put this on paper.  And I think we should just align on the strategy now that we have, like now that I have a little more time, sorry, you guys were kind of just waiting on me.  But I feel a little more. At ease that we got through that first part of the TG, so we can maybe get more light on this strategy.  Okay, cool.
+
+23:08 - Sydney Lai (GaiaNet)
+  Yeah, marketing is going to take a really big priority, because I think to Matt's point, even a post-modem, we're like, oh, we could have done X, Y, and Z from a marketing perspective.  So learned a lot, and you know, hindsight's 20-20.
+
+23:21 - James Young (Collab🤝Land)
+  Yeah, yeah, you don't know until you go through it, and then the learnings kind of happen after the fact.  But I do think, like, the kind of initial course of action, I think to answer Matt's question is maybe Coach Jay and I can get on a call with you, Matt, and Legion, and we can just kind of understand, you know, what our approach is there and what they think of it, as Coach Jay was saying.  Like, you know, our initial response, just putting ourselves out there wasn't an overwhelming success. So maybe getting some advice and guidance from Legion as well.  much see Thank Thank Bye And the market has changed, too. As Matt was pointing out, are more agents there.  So I think that marketing strategy, as Sydney was saying, it needs to be on point. And we've got to get that narrative going no matter what.  But it sounds like we want to pursue the centralized exchange. We'll probably need at least somewhere 5, 750 to kind of get this over the line.  And the tentative kind of dates there potentially is somewhere like September, October-ish. So that kind of sets what we need to do as we work backwards in terms of fundraising, about marketing, about how we want to go from a strategy perspective.  So this is a bit clarifying, a lot more questions than answers, but at least it seems to be like some forward movement.  So I think we should try to get on to Legion as soon as possible. Amen. Zure, you had your handrails?
+
+25:04 - Razvan Matei Popescu
+  Yeah, hey, so a question for you guys, like, Matt, when you said that you regret not going the InfoFi route, like, what do you think that would change, like, in your TGE?  Because, like, if we go with a Legion race, like, should we do a campaign with, like, Kaido? Because I feel that's way superior to Cookie, in a way.
+
+25:29 - Matt Wright (GaiaNet)
+  Yeah, yeah, so the deal was with Legion, the reason we didn't do this, like, earlier in the year was because, one, to fundraise, it's, like, like, I can't be raising for two projects at same time.  was just, like, really, really difficult. My investors were kind of, like, you know, turning their heads. But now we're done fundraising, so it's, like, I can say we're raising for a separate project.  So a lot of it was just timing. We also, there's, like, kind of a... X component here, so in the US, a lot of folks were US persons, so if you raise that seed round on a certain valuation and then you go and immediately launch a token, you're subject to some pretty crazy tax implications.  So you have to do what's called a 90 day cool off, so you finish your raise and then you wait 90 days and then you can go and deploy a token and distribute those to the team and there's no massive tax implications.  I'll have to go double check exactly what we're looking at and I think we found a workaround, but I just got to go double check and Legion probably has some sort of workaround as well.  But like again, if we can just do a Legion round for context, Legion is very similar to Echo. We did Echo this last year for Gaia, again, different project, but we raised like a million.  1.2 million in like seven minutes or something like that. So it's like the whole point of those platforms is you can raise capital really quick.  Intuition team did their raise on Legion. I can't remember what they closed at, but it's a great way to raise capital and get a community behind you.  And then, yeah, to your point, like with Keto and Cookie, Cookie's a lot cheaper. You can just pay Cookie like I think they said 50K and they'll like target these kind of, you know, BTG campaigns.  And then Keto just kind of pulls from Twitter kind of which projects are buzzing or yapping, you whatever the terms are.  But you can pay Keto as well to like create a dedicated Keto campaign. I felt like I was looking at Keto.  I had a weird feeling that some projects were being featured on there because they, you know, paid to play.  So we weren't super featured in Keto. But like we got it. It's kind of happening. Those platforms, and then, yeah, there's just some, like, legal concerns with the fundraisers, as well.
+
+28:10 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay. Matt, I'll give more mental bandwidth now.
+
+28:14 - Matt Wright (GaiaNet)
+  By the way, just parenthesis. Go ahead, Duran.
+
+28:22 - Razvan Matei Popescu
+  I think, like, if you want to raise your mindset, you can also go with Kayto, like, post-TG, because, like, but I don't know if it helps your token necessarily, because, like, Arbitrum is doing that right now, but it's not, like, it's raising the mindshare, but not helping, like, the token price at all.  Yeah. Like, what your goal is. Our goal is to launch a token and raise funds successfully.
+
+28:46 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So, it sounds like we would need to make some decisions on that. I want to be mindful, Matt, you wanted to get out of here in 30 minutes.  So, if you want to drop, you can drop. No, I'm good.
+
+28:56 - Matt Wright (GaiaNet)
+  I had a call drop. Go for it.
+
+28:58 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So, last things is just... And updates on the Alliance stuff, so I'm a little bit behind this week because was traveling, but we're going to reduce the what we shipped calls down to every kind of two to four weeks, just because there's not a lot of people coming out.  And I think it's going to be easier for people to commit across the Alliance to show up to those calls.  I'm going to get on this week and figure out if we're on track for LITS TGE as well. And yeah, all the packages of information are done for everyone to cross promote and stuff like that, so it's really just cat herding at this point.  At the Alliance, which is great news. Has anyone heard from Intuition? I know that they had committed a while ago to have mid-July, kind of like a visual version of the Mother Registry.  I know it was like a couple of Fridays ago, Alessandro was meeting with you, James, but I don't know where that landed.
+
+29:52 - James Young (Collab🤝Land)
+  Yeah, that should still be on track. There was this SDK. chaos. So when I get a response from Simonis about the SDK, I'll ask about the visualization.  Perfect. That'll help with all of our conversations with Legion and everything like that.
+
+30:15 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Just the visual would just be super helpful. Do you want to say anything, James? Oh, just real quick.
+
+30:23 - James Young (Collab🤝Land)
+  Let me put this into the chat. I don't know if Capital Launchpad makes any difference. I know that we've been talking with Provado.  They now rebranded to Billions, and they're having their pre-sale tomorrow, and they're doing it on Capital Launchpad. They target to raise $5,000.  What's it called?
+
+30:47 - Matt Wright (GaiaNet)
+  It's called Capital Launchpad.
+
+30:49 - James Young (Collab🤝Land)
+  I put the link into the Google Chat. Oh, cool. Take a look. Yeah, sorry to step in.
+
+30:58 - Razvan Matei Popescu
+  It's launchpad by Caito, but generally... Mechanics work better if you're also, like, having rewards for yappers, so, because, like, strategy, there is, like, you raise your mind share, you reward, like, yeah, and then people know about it, and then they participate in the launchpad, so that's kind of the.
+
+31:18 - Matt Wright (GaiaNet)
+  Well, I spoke to the Kato team, so I can ask them if we could do, test out their launchpad as well.  I'm not, we're not stuck on one or the other. Yeah, maybe we can, uh, try to do some diligence on, uh, this.  Me? Can I just get to the chats, maybe? Yeah, yeah, that would be great.
+
+31:41 - James Young (Collab🤝Land)
+  Cool. Oh, I think we already have the Kato mother one.
+
+31:45 - Matt Wright (GaiaNet)
+  Um, anyway. Okay, um, yeah, and I'm connecting with Aaron, I think.
+
+31:53 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I'm talking to Aaron on Friday morning, like, at 8 a.m. Who's Aaron? I've been, sorry, I've been from... Oh, I've know.  It's just, if anyone's free at eight in the morning, Eastern time, I'm just going to talk to them about the alliance and just getting them aligned.
+
+32:11 - James Young (Collab🤝Land)
+  Yeah, maybe they could be part of this, as they are getting to TGE now, maybe they can be part of this cohort.  Exactly. As well. I would like them to.
+
+32:20 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay. Hey, it's Dan. Okay. Other things for, so for GTM, my takeaway is that steady as she goes, I'm going to get information about lit and we're going to continue building out these agents.  James, does that sound right to you? Is that sound right in your body that you're ready to take on the stress of building out some more agents?  Yeah. Yeah. Yeah. Yeah. Okay, good. And then the last thing was Ember. I don't know where those conversations have landed.  Yeah, don't know if that was like a, yeah, that sounds great. Or if they're like actually in. And I know Matt has a way of just getting people to say yes and corralling people, but if Matt disappears, then they disappear.  That doesn't work. So, yeah, just should we... That's so annoying, dude.
+
+33:15 - Matt Wright (GaiaNet)
+  Did they actually disappear?
+
+33:17 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Well, I just, I mean, like, I don't know what the commitment really is, and I don't think that they would know either.  And I don't know if they were like a full yes or they were just like, sure.
+
+33:27 - Matt Wright (GaiaNet)
+  They were a full yes. Like, dude, we like talked for a while too. That's so crazy. then maybe I just need to reach out and get a regular call going.
+
+33:34 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Like, one of their team members should be at this all hands every week. Okay, so let me reach out to Sebastian and see if he can come.
+
+33:42 - Matt Wright (GaiaNet)
+  me ping them too. So the main people, like Sebastian, so Varela, just get your main POC. Tom is the CTO, and then NFT Ranch, kind of like their ecosystem guy.  Who do we want at this call every week?
+
+33:58 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Um, let me, let me ask them.
+
+34:02 - Matt Wright (GaiaNet)
+  Sorry?
+
+34:03 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I mean, I'm texting them right now. Yeah, we only need one of them.
+
+34:06 - Matt Wright (GaiaNet)
+  Not all three of them need to come. Just one person from that team, I think, so that they're in the loop.
+
+34:11 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Because these are high-value meetings. Like, this meeting every week, we talk about the most related to the mother project.  So it would be good to have them here. Okay, cool. That's what I have on my agenda. So we covered QuizBot and next steps around that.  We covered the Alliance and next steps around that. Confirming that GTM is good to go. We talked about TGE and launch stuff, which is ongoing.  We talked about the Intuition visual. We're going to wait until we hear about their SDK. And then we talked about Ember being at this meeting moving forward.  That's what I put on the agenda. Anyone missing anything else? We've got about seven minutes left, if there's anything else.
+
+34:53 - James Young (Collab🤝Land)
+  Oh, did someone raise their hand? Nope.
+
+35:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Nope. Nope. Look, I can't think of anything else.
+
+35:04 - James Young (Collab🤝Land)
+  I think there's some still some outstanding questions. I think the next steps are just to get on a call with Legion and kind of get their feedback.  We have a goal now, I think, like 500k min to kind of get this over the line because we want to go with the centralized exchange listing.  But we still need to find a lead for the token economics and all of that. I don't know who's going to step up for that.  So that's still an outstanding question. And then looking into potentially, let's see if we can find anyone in Cato to talk about Capital Network and as an alternative to Legion.  It's always good to have more than one instead of just banking on one platform. And just see if we can get the best price or what's going to be a better opportunity.  And. We It's But from this meeting, not only did we go through the agenda items that Coach Jay had mentioned, but we've identified that we need someone to help coordinate and lead, and there's going to be a lot of cross-disciplinary support that's required there because we may need to understand the token economics through Architect, which will help us shape the narrative and the story.  And that has to do with what platform we go on in terms of Legion or Capital Network for now.  And it seems like we're going to go the centralized exchange route. We may want to do a Kaido or a cookie partnership, but then also how does that feed into everything else that we're doing in terms of what's coming up with Lid as well.  So all of this is all separate and kind of. Loosely coordinated, we just needed to get all organized, and so I think there's still a lot of work to be done there, and take on the learnings from what happened earlier this year with Disruption Show and how kind of the finances got out of control, and this time we don't want that to happen.  So how do we do this in a very streamlined manner? So it's a lot, and I think there's still some outstanding items that we need to kind of figure out.  And I think we will, but I think we also need more feedback, and I think the first order action is just hopping on call to Lincoln.  Okay, awesome. Anyone else?
+
+37:50 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  We got five minutes. Anyone else have any agenda items?
+
+37:53 - Matt Wright (GaiaNet)
+  I think action items for me is I do, I will have a very high level other strategy document for us to brainstorm on.  It's not going to be pretty, but I think we just need to get aligned on the general plan, now that I have a bit of clarity, I'll help out.  Awesome. Great. Anyone else?
+
+38:15 - Natascha Tiotuico
+  Just a reminder, we're not building bots, we're building agents, it's the AI that we're supporting, so just remember vocabulary, because when we dive into the community, we need to be aligned and be talking in that vocabulary, so everybody understands we're doing AI and not what already exists.  That's right, a good point.
+
+38:39 - James Young (Collab🤝Land)
+  Thanks, Dash. Agents. Anyone else? No, thanks for all your time, guys and girls.
+
+38:47 - Matt Wright (GaiaNet)
+  Okay. Awesome. Awesome. See you. Next week, ciao. Bye. Bye. Bye. Bye. Bye. Bye.
