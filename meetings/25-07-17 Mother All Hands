@@ -1,0 +1,190 @@
+Impromptu Google Meet Meeting - July 17
+VIEW RECORDING - 28 mins (No highlights): https://fathom.video/share/2tBhMKpEitJna4_XH78UasmPTUj3PSyU
+
+---
+
+0:00 - James Young
+  Any other agenda items? Yeah, let's do it.
+
+0:02 - Matt Wright
+  Let's run into it. I think the good news is, is that we all have concepts on Mother, so we don't have to go too deep on that.  And I'll let Ember team kind of give background on what they've been building. But, you know, met Ember team, of course, through the development of Mother.  I think Alex Lumley was the first one that introduced us. And high level, you know, Ember's building a suite of agents and also this Vibekit that, you know, enables for open source agent building.  Right now, it's kind of sitting with Arbitrum, but it is chain agnostic. And, you know, from the Mother side, like we're really looking for, you know, some core engineering team to help us scale Mother.  I think if we zoom out a little bit, the goal of Mother is, you know, to build agents with jobs, to essentially create this software for agents.  And the key the key focus right now is. MC compatible registry where agents can, you know, essentially be verified and be introduced to work and work can be introduced to them.  And so for kind of all purposes, like the project is, you know, led by a lot of the team from Labland and Gaia, even Intuition, Lit Protocol, Nevermind have all kind of played a role.  And the big technical hurdles we have right now are, you know, James's team is building out the orchestrator agent that can essentially coordinate on the registry.  And then we have the Intuition team that's building up the registry. And then we have a Gaia team that is going to take our 700,000 nodes.  We're making them MCP compatible in the next release, and we're going to try and onboard those to the registry.  And from there, we need to have some some demonstrable use cases of agency. And the more exchanges and wallets and chains that I talk to in the space, it's quite obvious they all just want DeFi agents.  And so I think if we're able to demonstrate agents that are out there on the Internet that are arguably sovereign and use all of this infrastructure that we're talking about, we'll have really amazing go to market and you can start building an immense community of, you know, not just projects, but also agents.  And so, you know, I think the goal here is to line on the technical roadmap for both teams. And then also, ultimately, we want the Ember team to roll into Mother as a co-founder with us and, you know, perhaps pick up some of this technical debt and or roadmap so that we can, you know, benefit the whole.  Like we're trying to build a joint venture here between two projects and we all will benefit with agents that are verifiable.  and problem with But But Out there and underneath the hood are a lot of the projects that we here are spearheading.  So that's the context. I can dive into any piece of that, but maybe Sebastian can give some quick color on Ember.  Yeah, lovely.
+
+3:17 - Sebastian Varela
+  First, I want to say thanks for putting all of that out there. I think from the moment that we just came in contact with Mother, there's been great alignment on how we understand this scenario.  of agents operating on the internet, having jobs, how we think about the collaboration between them and discovery, execution, all of that has been super in point.  I think we've kind of had this really good alignment around the pieces of the stack as well. What we've been working on recently, I think also lines in really nicely, which is kind of this agent building framework specifically built for these composable, discoverable, yeah.  . DeFi agents, right? DeFi workflows. Some of them obviously are much more constrained, and some of them being a lot more open-ended.  We have been working, I guess, the recent months with the OCL team pretty closely for building the BotKid Contract Mutant Fund, which is, you know, just meant to have builders of all kinds.  I think right now we've got about 20 to 25. OCL is off-chain labs, so the labs for Arbitrum. They have been bringing a lot of qualified leads, and people who want to build DeFi agents have been building agents around it, close to, especially, obviously, in the Arbitrum ecosystem.  And they've all, you know, found value in the Vibekit. It's pretty modular, and so, you know, some pieces are more interesting for one or others.  But, you know, at the end of the day, like Matt was saying, I think everyone is lying around the fact that we, you know, we want to build some agents that do stuff in DeFi.  Ember, you know. Just Ember, we have kind of the Ember Execution MCP server, so it's kind of this orchestrator, router, intent machine, right?  So taking in this request and then producing a transaction to be signed, we've talked about that before as well.  So yeah, very happy to, you know, kind of keep this going. Again, the alignment is entirely there, I think, between, you know, what everyone wants to be doing within their own teams and also, you know, within the context of Mother.  And yeah, happy to, you know, kind of work through the roadmap and figure out how to get this over the line.  Amazing.
+
+5:43 - James Young
+  Thanks for that. Yeah, have a question in the chat, but also, can you explain a little bit kind of high level about Vibekit just to kind of catch me up real quick and get the context?
+
+5:53 - Sebastian Varela
+  Yeah, I think it would, I'll give you a super short and then Tom can jump in if there's anything, you know, I'm just going to give it very high level.  But if. It's meant to enable both developers and non-developers to build and own code for DeFi workflows. That doesn't mean it's only usable in the context of DeFi, but that's how it was envisioned and kind of the main goal that we built it with in mind, right?  So you have kind of an insight, a habit, some kind of repeatable action in DeFi that you want to automate, and we have built a lot of tooling for kind of these AI-assisted IDEs, right?  So you can kind of vibe code these agents because we have these templates, we have the cursor rules, we have kind of just the pieces for the agents to be able to produce new ones with different workflows and strategies.  Yeah, maybe we can jump into it and then see how this integrates with Mother.
+
+6:43 - James Young
+  With the vibe kit, is it opinionated in terms of LLMs that you use or you just kind of bring your own model?  Yeah, you bring your own model.
+
+6:52 - Tom Daniel
+  So we have, yeah, you just plug it right in with whatever service provider you use. We have a service provider, like...  like...
+
+7:03 - James Young
+  And so the VibeKit, is it like you have templates, like different, like, for example, DeFi templates, or are you working with other, like, Morpheus or, you know, Hyperliquid or any of these, like, projects to get bespoke implementations, or how do you position the VibeKit as, I'm coming in as an agent, I have cursor, I have the rules, have these, like, cookbook or template or recipes, if you want to call them, and then you have specific recipes for specific strategies, is that correct?  Yeah. So we've been working with DeFi protocols on the strategies, right?
+
+7:46 - Sebastian Varela
+  So the idea is, for instance, GMX, Camelot, obviously, you know, kind of the Arbitrum mediated, but GMX, Camelot, Aave, Bundle, and we work with them to build the templates that kind of cover some core use case.  And so LP management in. We're working with GMX on a delta-neutral strategy, we are working with Fendl team for a looping strategy, you know, that kind of stuff, right?  it. And so you have these, and then everyone can take it wherever they want.
+
+8:15 - James Young
+  Oh, okay. So you have these primitives, these templates, and then these agent devs, coder or non-coder, they can vibe their way into implementing their own agent that uses these base templates, and they augment them, and then they bring their own model.  Exactly. And then how are keys managed for these agents? Right now we just have an embedded wallet.
+
+8:39 - Tom Daniel
+  So there's not anything more than environment variables managing keys right now. Got it. We've explored a few different, you know, wallet solutions, in PC, you know, solutions, so there's a lot out there.  We've also designed the Vibekit in a way to be able to plug in those. don't not I made I'm You through.  So that's one thing that we're really driving on the bike kit is that, you know, you have your LLM and orchestrate tool calls to get something done.  But the more you hand over to the LLM to make decisions, the worse performance you're going to get. And so when you, you know, just have regular functions for things like, I don't know, entity matching, like if you need to convert, you the user's message from USDC to an actual like chain ID and address that would live as a hook around the tool call itself.  So, you know, the natural language request would come in. The LLM would see the tool as just accepting, you know, a search string.  And then, you know, that hook would programmatically or through. An LLM specific call, translate that to, you know, concrete, like token entity, you know, there's a lot more you can do with the hooks as well.  But but that's, that's like part of the very lightweight framework that we have there.
+
+10:14 - Sebastian Varela
+  And so to touch more on the key management, I think you've been looking in and working with the MetaMask team is still very, you know, kind of high level, but the delegation toolkit being kind of like the Spectra compliant way of managing kind of bring your own wallet that is the thesis, I guess, behind how we think about it.  Oh, that's awesome. Yeah, that's right into the hook system. Yeah, that's awesome.
+
+10:36 - James Young
+  So at Collabland, we already have the MetaMask Delegation Toolkit implemented, so we could actually create an abstraction. So you can have your own hook directly into the Delegation Toolkit itself, but also have a hook through what we've implemented already.  And so with that, there are as well, too.
+
+10:59 - Matt Wright
+  I'll again. I'll It has the MetaMask Delegation Toolkit as well. Yeah, awesome. And then so there'll be several hooks.
+
+11:06 - James Young
+  So we have this kind of what I'm imagining this like modular plug-in architecture. And we'll get into the details with regarding that.  But maybe this is where I can dovetail into kind of where Mother is at and we can have this beginning.  I'm just going to be cognizant of time here. So should we spend the next 5-10 minutes talking about this then?  Or are there other agenda items or do you want to keep this high level?
+
+11:32 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I already gave Sebastian the TLDR of what we're doing from a GTM perspective. So I think we can just really focus on the technical side of things while we're here.  Yeah. Okay. And we had a good call on ETC around kind of the other, you know, sort of information.
+
+11:45 - Sebastian Varela
+  I think we're Yeah.
+
+11:45 - James Young
+  So the commercials, the BD, all of that you have context on. Maybe we can spend like 5-10 minutes talking about the technical details, but then really have a kickoff call tomorrow if that is better.  So I'll just keep this as high level as possible. So with the Mother Orchestrator agent, it's kind of this monolith right now, but it's prepped and coded in a way where it's MTP A to A.  And I'm not sure if you're familiar with ANS from Google. So it's their agent networking service. It's their equivalent of DNS for agents.  And I think that this will also work with Mother as well. So we have the Mother Orchestrator agent. What I see is that the Mother Orchestrator agent would call out to these different agents that are using VibeKit as well.  And they'll just be like a seamless integration. Now, I'm not sure. And there's this outstanding question with regards to how VibeKit integrates on the inference side with Mother, but it sounds like it's an environment variable option.  With account kit, there's the key management that we already have. So there could be like an environment variable that we would modify in terms of the VibeKit to be account kit compatible.  And the reason why we do this is so that people. And actually stay in Discord and Telegram in order to do the transactions with the mother orchestrator agent orchestrating them.  There's another component, which is intuition. And so we should think about how and what agents are being called. So it's not like any random agent can be called.  They actually have to already be registered on the intuition social graph. I also have a call with intuition, Alessandro, tomorrow, and we're going to go through like we finalized taking weeks in terms of the metadata and what we're going to do.  And there's also a separate conversation with intuition guy in terms of like what that looks like so that we can bootstrap all the notes.  So there's these like integration touch points that we just have to be aware of. But if everything is modular, then there isn't like a direct dependency.  So what I am imagining is that like with a vibe kit, agent devs can actually vibe and do whatever they want.  But if they want to be part of the mother registry, they just have to like hook into these environment variables.  Thank you. So there's some like modular work that needs to be done so that we can integrate but not create these bottlenecks or dependencies.  There's also an interesting, and I just reached out to the guy that runs the Arbitrum Gaming Fund to talk about, and this is where I put into the chat.  Arbitrum is trying to move heavily into SocialFi, and the way that they are trying to pitch SocialFi is DeFi for everyone.  So I think that this could also work together. So what I'm thinking about is we take these steps to integrate Mother with the Vibe Kit, which includes intuition, what we're doing with MetaMask on the Collabland side, but it could also work independently, and with what we're doing with Gaia.  So that... From a community perspective, as we go to these TGEs and post-TGEs, people can actually do these transactions in platforms that they're already used to, Discord, Telegram, we have the Xcard implementation, we're actually talking to, on the Collabland side, people at CalTalk in line, we're starting to get into Asia, so those are conversations that we're having, so that we can use these chat, well-known chat interfaces to be able to launch agents and hopefully this is, you know, this mass adoption onboarding for everyone, so that's kind of the larger context, and then I'm sure Coach Jay and Matt has talked to you about these TGEs that are lining up, so this is kind of how we'll go to market, so it's not just like, build it and they will come, it's actually these integrations that we're working on.
+
+15:52 - Sebastian Varela
+  One thing I want to throw in that real quick, just on the note of social flying, because this is something that they've been talking to us a lot about as well.  Very interested in posting towards social fun. The idea for the Vibkid right now, Vibkid also comes with a frontend, right?  So the idea is that we build a Telegram mini app, or sorry, Farcaster mini app for that frontend. Yeah.  So they are very, very happy to push anything that we do in that realm.
+
+16:17 - James Young
+  Yeah, we should talk about this a little bit more because I'm talking with Linda Zee and with Ted. They're both kind of, I guess, influencers on Farcaster and they all work for Farcaster.  So I think that this could be a great joint kind of, you know, integration. I don't want to spread ourselves too thin.  I think the lesson we learned from Mother early on was it was a coordination nightmare and nothing got done.  So we want to be very focused and strategic in our implementation. But at the same time, I think we can't just do this on our own.  And we want to be strategic about and very, and work with high caliber. So we can work directly with Farcaster, with Arbitrum, and maybe some of these apps that Arbitrum is pushing, like Noise and these up-and-coming ones on Farcaster in terms of mini-apps.  At Collabalin, we also have a mini-app integration. We've had it for a while, and we've gotten requests for community and token-gated support for Farcaster channels.  So I think that there's something here. So it's something to be aware of, but not something that we need to, like, directly push.  But I think, you know, these are kind of wins at the back of our sales, so it kind of pushes this forward to help us get wider momentum.
+
+17:40 - Sebastian Varela
+  Totally.
+
+17:44 - James Young
+  The issue, I think, right now is that, or one of the things that we're waiting for on the mother side is for the Open MCP to be integrated fully into Gaia.  So right now, we're just going to use API. So I think this environment variable approach. Go, check Until all of our partners are MCPs compatible and work, so we'll have this two-phase approach where it'll be mainly the, you know, environment variables, APIs, we'll use MCP if we can, but, and it sounds like what you are, we'll call it capable on the Vibekit side.  So we can start with initial implementation. Let's see, but I think that if we have a mix and match of API and MCP, it might get a little bit confusing.  So we may just do, if you have an API, just do API directly first so we can get these integrations all working.  And then once we have that reference implementation, then we can start unpacking when all the other projects are MCP compatible and see what this like complete tool chain, this tool calling chain looks like.  But I think the first- we're going to need API support anyways, because some teams may choose to-
+
+19:01 - Sydney Lai
+  So actually having both compatibility is good from a universal interoperability standpoint, and we can kind of market as that and as a staggered release.  So Jonathan, from like a marketing standpoint, it's like, you know, we're launching with API and then we market to MCP because having both stacks, there's going to be developers who would want optionality for both stacks.  And I think from a universal MCP compatibility for Gaia, it's going to be end of August. OK, awesome. So we'll target that.  And I think that's a great point.
+
+19:34 - James Young
+  So we should offer just meet the developers where they're at. And so it might take some time for these other projects or devs to be MCP compatible, but we can support both.  I think the sort of business then is setting ourselves up for tomorrow's call. And maybe here we can identify kind of what practically is a first implementation, like in terms of like the first project or the template or.  That we integrate Mother and Vibekit on. I don't know if you guys have an opinion on that. What template or cookbook is the most popular on Vibekit that will have the most traction initially that we can just have a practical implementation for?  Because right now, we don't have like DeFi-centric orchestration. It's just quiz, just basic community support stuff aimed for TGEs and post-TGEs.  So we're going to have quiz, pull, staking, and then quests. And then from these quests or these other kind of opportunities, you can do like a DeFi action.  And this is where I think the Vibekit can come in. So I don't know if there's an opinion here on the Ember side in terms of like what would be the best or the first best DeFi agent to integrate.
+
+20:53 - Sebastian Varela
+  I have two thoughts. I'll let Tom jump in as well because I'm sure he has some as well. But one is...  I think the... The primary building block for anything in DeFi usually starts with swapping, so my mind immediately goes there.  On the other hand, we have a couple of larger agents that we're building alongside the protocols that we're going to host as well, and so we expect those templates to be very viral with the partners, but they're coming in the following weeks and months, so maybe we can roll out in that manner as they come out.  But I would think starting with simple swaps or potentially lending protocol would be kind of the right way to go about it.
+
+21:39 - Tom Daniel
+  Oh, sorry. Go ahead. Sorry. No, I'm pretty much in the same perspective there. That's what came to my mind as well.  All right. Let's do it.
+
+21:49 - James Young
+  Is there like a reference implementation that I could take a look at and we can start with and I can prep for tomorrow's call?  Yeah.
+
+21:58 - Tom Daniel
+  So we have I can. . The link and shoot it over to you in our in our TG. Does that work?  Yeah, that's perfect.
+
+22:06 - James Young
+  Okay, let's start there. And let's just like, just jump into it tomorrow. I'll try to get as much context as possible.  And we'll start with swaps and we'll decide what to swap and where to swap it. I think it's really just getting mother orchestrator agent integrated into the vibe.  So the orchestrator agent can call the swap agent, and then just do a simple swap. I think that's kind of like the low hanging fruit and the reference implementation there and trying to get that done as quickly as possible.  Lovely. Yeah.
+
+22:36 - Sebastian Varela
+  And I think on that note, we have kind of these basic DeFi primitive agents that I think we could, you know, kind of go one by one pretty easily without much effort as starting points.  Right. And then we can from there look at like more automated or complex strategies.
+
+22:50 - James Young
+  Yeah, I think that the meta kind of goal here is to see how long the first integration takes and then how quickly others follow along and trying to you.  you. So increase that or not only look at the velocity of how many agents, but the acceleration of how quickly it takes to integrate each agent.  And hopefully that gets faster and faster. 100%. And then on a broader level, I know this is kind of outside, but I have a curiosity to question.  Like, Matt, do you think this integrates with like EXO or what was used to call Smoodle in any way?  Or is there integration there? Or do we, I don't know where they're at.
+
+23:35 - Sebastian Varela
+  I think there's plenty of integration.
+
+23:38 - Matt Wright
+  I think, you know, I think we prioritize our work here with Ember to get agents out there and to, you know, kind of build up this infrastructure.  I'll talk to EXO team. I think once we have a clear roadmap as a team here, I think there will definitely be some way they will plug in.  So I'd prioritize Ember team. Okay. Okay. Okay. Let's do that.
+
+24:00 - James Young
+  And then if I may ask, and we can close out because I see that we have two minutes left.  If I may ask Sebastian, who's the main kind of contact on the OTL side that you have with regards to this?  Because I'm getting messages back right now. During the call, I just telegram messaged Dan. I don't know if you know Dan from the Gaming Fund.  Danny Penn. Danny Penn. Yeah, for sure. That's right.
+
+24:23 - Sebastian Varela
+  That's right. Good guy. Definitely. But the main guy that we talked to is Chase. So he's the one running the AI initiatives, I guess, within OCL.  Yeah, I've spoken with Chase as well in the past.
+
+24:37 - James Young
+  And so let's see if we can connect the dots there and then work with Arbitrum as well. Yes. think there's that Farcaster angle and the DeFi Socialify angle as well.
+
+24:52 - Sebastian Varela
+  A hundred percent. And I think they're very, I've been talking to them about orchestration registries and all of this for quite a bit.  So Chase is at least very... Awesome. Perfect.
+
+25:03 - James Young
+  Lovely. Awesome. No, we're very happy to align around this.
+
+25:07 - Sebastian Varela
+  I guess next steps then is reference, implementation, swap agent, give it a whirl. Yeah, let's coordinate a call for tomorrow.
+
+25:17 - James Young
+  I guess, yeah, let's do that.
+
+25:20 - Sebastian Varela
+  I tried to get one on your calendar, but I don't think you had any availability on tomorrow. So I think any time before, I guess like Tom is probably the one who's the larger constraint here on the end side of the day.
+
+25:32 - Tom Daniel
+  ahead.
+
+25:33 - Sebastian Varela
+  What would be like the latest for you, like how many hours from now would be the end of your day?
+
+25:47 - Tom Daniel
+  Five-ish, four to five hours would be the end of the day.
+
+25:52 - Sebastian Varela
+  Yeah, so I guess anything, let's say three to four hours from now, whatever. I guess you're two or three hours behind me, James.  Sorry, the time zone situation. Yeah, I'm in Mountain Time. It's 10.30 right now for me.
+
+26:04 - James Young
+  Right. Okay. So 2, 3 p.m.
+
+26:07 - Sebastian Varela
+  would be, I guess, like the latest, but anything before that should work for us. We have a clear Friday.  Okay. Let's do 2 p.m.
+
+26:13 - James Young
+  Mountain. I don't know what that translates for you guys.
+
+26:16 - Sebastian Varela
+  Yeah. So that would be three and a half hours from now, right? Three and two.
+
+26:23 - James Young
+  Yes. Three and a half hours from now. Perfect.
+
+26:26 - Sebastian Varela
+  Yeah. Okay. You want to send out the invite? Yeah. me do that right now. we don't. One and then two.  One, two. All right. I'm going to call it a mother kickoff. Awesome. Any other questions?
+
+26:41 - James Young
+  On my end.
+
+26:43 - Sebastian Varela
+  Yeah, I don't think so. I think we can dig in tomorrow.
+
+26:46 - Tom Daniel
+  All right. appreciate it. We're more of a back office thing.
+
+26:49 - Matt Wright
+  We have a Slack we used to coordinate. So if you guys drop me your emails, I can get you on there.  Awesome.
+
+26:55 - Sebastian Varela
+  I'll drop them on TG right now. Okay. Thank you.
+
+26:58 - James Young
+  you. Thank you. you. you. you. Who should I add to this call?
+
+27:03 - Sebastian Varela
+  James, Tom, what about Jonathan, Matt? Do you guys want to be there? Sydney? No? It's going to be after.  So go a little over my head.
+
+27:14 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  If it's technical, you can add me.
+
+27:15 - Sydney Lai
+  If it's not, then not when you do.
+
+27:17 - Sebastian Varela
+  Yeah, I think being fully technical, I'll be along. All right. Excellent. Lovely. Thank you. Good talking. Great chat. All right.
+
+27:28 - Tom Daniel
+  Carry on. Bye, guys. Thanks. Later. Thanks, Oliver.
