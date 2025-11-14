@@ -1,0 +1,196 @@
+Mother Status - July 23
+VIEW RECORDING - 21 mins (No highlights): https://fathom.video/share/xCgnZgvtNHd4bxU4-k47kFfx1dpvuiGd
+
+---
+
+0:00 - James Young (Collab🤝Land)
+  in the next day or two, but got it done, so yeah.
+
+0:06 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Good job, holy jeez. Yeah, I'm a little bit low energy, so. Okay, I got that, I got it, I hear you loud and clear.  Well, I mean, we can keep things short and sweet because I think that that was the main focus for you this week.  Yeah. I'm a little bit behind as well. just, a guy just launched their like Samsung phone today, so I was also up at, you know, far too early.  Wow.
+
+0:37 - James Young (Collab🤝Land)
+  Tell me a little bit more about what's going on with the Samsung, because I heard about it a while ago from Matt, but then didn't really follow through on it.  He wanted Collabaland to be part of it, but, and I said, yeah, I expressed interest, but there hasn't been any more detail on it yet.  Yeah.
+
+1:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, don't know how Collabland would fit in, honestly. Maybe there was the AI agent starter kit at a time.  But basically, it's a phone that runs AI locally. So it's powerful enough to do its own thing there. And they're just trying to get partners to integrate.  So pretty large, pretty big paychecks cut so that you would have your app pre-installed on the phone. And yeah, that's kind of the deal.  That's like the very, very short version of it. Got it.
+
+1:35 - James Young (Collab🤝Land)
+  Yeah, I wonder how Collabland would fit. But yeah, maybe we can talk about that later. My mind isn't quite fully prepared to think about new things kind of at the moment.  But okay, so who's in charge of the Gaia Discord?
+
+1:55 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Ian and Rancher. Like Ian oversees the ecosystem and Rancher is like
+
+2:03 - James Young (Collab🤝Land)
+  I couldn't find any good times because he's available in the evening, my time, but because of, I think I might crash a little bit early today, so maybe I can get up early tomorrow morning, my time, and be still available.
+
+2:22 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  He's usually super responsive. Just whenever you're online, send him a message. We have until the 30th. So we still have a whole week.  Yeah, I want to just get this going.
+
+2:34 - James Young (Collab🤝Land)
+  So a stretch goal of mine is also to see, I have some CollabLand stuff, and I want to get a little bit of rest, but I also want to see if it's possible, if I, I don't know if this is a priority or not, to also do polls, if that's also something we want.
+
+2:56 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, think that, I think any functionality that we enable for Gaia, they'll like, probably. um, the reflective areas day it  We'll end up using it because they're just going to look for all sorts of novel ways to engage the community once the token and before the token launch and after token launch.  Okay.
+
+3:09 - James Young (Collab🤝Land)
+  And then do we want staking?
+
+3:14 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I mean, yeah, but I'm just considering what's possible. And I think I'm lacking information on what exactly is happening on the Gaia side in regards to locking up tokens after the airdrop.  Yeah. So maybe let me send Ian a message and see what's up. Because if they do have contracts, it might be worth setting up a bot that lets us just transfer to that contract.  I also am trying to wrap my head around the mechanics of how one would do that from Discord. And I do still think that there's going to be like a little bit of a barrier because essentially what they do is on with their wallet, they need to claim their tokens and then they need to send those tokens to the abstracted wallet on Discord.  And then. They need to stake it, right?
+
+4:04 - James Young (Collab🤝Land)
+  What we can do is have, well, so one question, just to kind of back up a little bit. Ian was talking about with Anjali from Collabland.  Yeah. They were talking about doing some advertising for the Gaia TGE in the Collabland Discord servers. Okay. And then Matt, yesterday when I talked to him, said that Ian had told Matt that there was also going to be airdrop functionality within the Collabland bot, but we never discussed that.  Yeah.
+
+4:55 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So.
+
+4:58 - James Young (Collab🤝Land)
+  Yeah.
+
+4:59 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Matt has. So many amazing ideas.
+
+5:03 - James Young (Collab🤝Land)
+  Yeah, but we want to make sure that we get on the same page here because I want to make sure that we're crisp in our communication.  Yeah. reason, the reason why I say that is what we can't. Say again? I'm still listening.
+
+5:23 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I just need to get a glass of water. Okay. And I apologize.
+
+5:27 - James Young (Collab🤝Land)
+  My thought process is just a little bit.
+
+5:29 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Don't worry about it. And we can all continue this. We can either continue this conversation async or we can chat on Friday after the Twitter space.
+
+5:39 - James Young (Collab🤝Land)
+  Yeah, I just want to clear this up earlier than later because I don't know if it's going to help clarify some other talking points.  So the reason why I bring this up is if, you know, in the mother discord, we have the airdrop functionality, right?  Okay. Yeah. If we can do the kind of airdrop, but use the raindrop feature that we already have, where people can claim tokens.
+
+6:14 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yes, yeah. Let me see what they're planning for airdrop, because I know that there's like a, there's definitely like a token claim aspect, so we can't win on those tokens.  Because again, they're claiming probably with an address that's tied to like their node, or whatever account has the XP or EP tied to it, and that's a pre-existing wallet.  But it could be that later airdrops, like there might be an airdrop planned immediately, or an airdrop planned in the future, and that's where we could Discord, like grounded in Discord.
+
+6:49 - James Young (Collab🤝Land)
+  So if that's the case, then those raindrop tokens actually go into the user's smart account. Yeah.
+
+6:59 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. And then.
+
+7:00 - James Young (Collab🤝Land)
+  And from that smart account, we can have the bot transfer, essentially tip, to the staking contract.
+
+7:07 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, that makes sense. What I need to do is I need to check with Ian, what's the plan for AirDrop, what's the reward mechanics, does it make sense to AirDrop into an abstracted wallet on Discord?  Because if it's EP, it's probably tied to their Discord account in some way, shape, or form.
+
+7:25 - James Young (Collab🤝Land)
+  Right, so right now, with the quiz agent, it doesn't have Engages API integration, so I wonder if I should, if we should, like, focus on that, but it's not integrated now.  And the trade-off here, or another option is, I can, because all the quiz result points are stored in a database, I can export that into a spreadsheet.  And then I don't know if there's going to be like a ratio, like is one EP worth one token or 100 EP worth one token?  And so what we can do is I can export a list, have the Discord username, the total amount of points that they have earned, and then a wallet address, the smart account address that is associated with their Discord username.  And then with that, they could airdrop it to that smart account for EP, not XP, but for EP. And then if they do that, then they can immediately stake that to, you know, the staking contract address.  But if we If use the EP and it's translated into Gaia Tokens, it's easy to get that spreadsheet and send it to the smart account, but then I would have to create like a withdrawal mechanism to withdraw so that they can send it to another EOA.  So I don't know if and how much time they have and how manual like intervention they want or if they want to prioritize the API access into engages and then send it to the smart account or if they want the smart account kind of being where all the assets are held.  Because I don't think Ian or Rancher kind of understand the smart account system that we have at Collabland.
+
+9:59 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. So.
+
+10:00 - James Young (Collab🤝Land)
+  Oh, you know, we're a week away, and I don't want to overcomplicate things. So I basically have just a bare bones implementation of the quiz agent.  It's basically a Web2 app. There's no blockchain, nothing associated, and there's no engages API integration at all. So I would like to kind of get an understanding of kind of what the next move is.  sooner than later so that I have enough time to kind of, like, get as much time to code. I probably want some, I need some downtime tonight just to kind of, like, refresh.  But I'll be available my morning, tomorrow morning. So what I'm hoping, and maybe I can ask you if it's okay, because you're kind of, like, the only other human in this room, is to help get that clarification.  Thank Thank you. Thank you. you. you. you. Yeah. Your morning, which will be my night, so that when I wake up, then we can understand kind of where they want to go if that's a reasonable ask.  Yeah.
+
+11:14 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, cool. That sounds great. I'm going to send a message to Ian. Full transparency, just like in terms of what's going on in my life, is I also was up way too early this morning.  slept very, very little. So I'm going to be, it's like nine something. I'm going to just like meditate and go to bed pretty soon.  Yeah. Yeah. Early tomorrow, I'm traveling to, yeah, I'm traveling toward the Alps. So I'm going to try and do it in the morning anyway.  I can't do much in the car. get super, super dizzy in the car using my phone. But I think I'll have like 30 minutes in the morning while people are getting stuff sorted to get this done.  Because Ian is in Singapore, so it's actually really important that I do it tomorrow morning. So just so you know, that's what's going on in my space.  Wow. And I'm very... We're to getting him this information so that you can have an answer by the time you wake up and we can have an idea of what we want to do.  I appreciate that. And we'll be prepared for the fact that they might just be like, too complicated, too complicated.  Yeah. Because we're very committed to mother success. I think Ian is as well. He understands that Matt has it as a priority.  We talk about mother every week at Gaia. So, yeah, I just need to make sure that it's broken down for him in a way that makes it seem like really easy and find out again about that airdrop and what they're planning.  Yeah, please let me know.
+
+12:39 - James Young (Collab🤝Land)
+  And I think that there's maybe some kind of not full communication between Ian and Matt. Okay. So, yeah, I think that might, just to anticipate some kind of getting everyone on the same page.  I was hoping that Matt would be joining this meeting so that. We wouldn't have to follow up with him, but I'm sure he must be super busy when it comes to the TGE as well.
+
+13:08 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  They announced their fundraise round closed. They announced that today. We launched Samsung. There's a lot. Okay, that all sounds good.  Yeah, and I apologize. I'm super behind on the marketing stuff. I'll try to catch up later this week, Friday, Saturday, just to make sure that everyone's ready to promote Gaia's TGE because that's part of the deal.  Like we're all promoting each other. So I have like the to-do list. We still have a Twitter space on Friday to talk about social fun.  Yeah. And yeah, I'll try to get that answer for you. Yeah, because I'm committed to making it work because the more things we can do on chain, the stronger our case studies will be.  And that's like our thesis. That's what it is at the end of the day. If we're not going to do that, then I don't know what we're really doing this for.  We might as well just go to our original GTM and wait until- Peace. He feels generous enough to pick us up, you know?
+
+14:05 - James Young (Collab🤝Land)
+  Did you also let Ian know that we just need to get this bot, quiz bot, integrated into the Gaia Discord ASAP so we can start, like, alpha testing this, and maybe we have just, like, a channel amongst the, like, a private channel or something, or we can start?  I haven't let him know that, but they're, like, ready to roll.
+
+14:23 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  They're keen. They, like, want it. Okay, so it's ready, and we just have to integrate it now. Yeah, they can't wait.  They're, like, so excited. That's why they keep following up. They're just like, where's our quiz agent? Let's do it.  Yeah, let's do it.
+
+14:36 - James Young (Collab🤝Land)
+  So now it's a Web 2.0-only, ready to go.
+
+14:39 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  That's totally fine. I think they just want to have the community entertained, and what's great is that it does run on Gaia inference, so it is technically agentic in that way, even if it's not blockchain-enabled.  Right. Yeah.
+
+14:54 - James Young (Collab🤝Land)
+  Okay, if you can, okay, if you, since you are kind of on the inside of Gaia, if you can help, just...  I'm going to lean on you a little bit, but I know that you're busy, and you're tired, too, and I'm- it.
+
+15:06 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I'll be good tomorrow morning. I'll be good tomorrow morning. So what do I need to do? I'm going to get in touch about all this kind of stuff, but in terms of integrating the quiz bot, what's the next steps there?
+
+15:16 - James Young (Collab🤝Land)
+  I just need to be able to get that bot and someone needs to install the bot. The command is slash mother quiz.  Like I have showed the demo before, it's pretty much the same.
+
+15:30 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay.
+
+15:32 - James Young (Collab🤝Land)
+  Maybe I can demo it to you right now. Sure.
+
+15:36 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Let me- Uh, yeah. We're recording this. This is perfect. Yes. Okay. So, uh... Because I remember your demo video.  It's pretty much the same thing.
+
+15:51 - James Young (Collab🤝Land)
+  It's really just the same.
+
+15:52 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. So in order for them to integrate it, they're already collab-langated the Gaia server? Yeah, but this is a different bot.
+
+15:59 - James Young (Collab🤝Land)
+  So this- Do they want it to be, like, the Gaia bot, the TGE bot? I don't think they care.
+
+16:07 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  TGE's not announced, so they don't want anyone to know there's a TGE coming up.
+
+16:14 - James Young (Collab🤝Land)
+  Okay. Shoot. Let me... I'm about to push some changes, the last changes, so...
+
+16:23 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  You want to record a video later or... You can either do that today, you can also do it tomorrow morning.  It's not the end of the world. can integrate it by Friday. think it's fine. Okay.
+
+16:34 - James Young (Collab🤝Land)
+  So, well, I'll do either this before I go to bed this afternoon, or I'll do it first thing my morning, well before Friday.
+
+16:43 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I think that's fine. Okay.
+
+16:45 - James Young (Collab🤝Land)
+  So, I just want to make sure that we're kind of on the same page here. So, quiz agent or quiz bot needs to be installed in Gaia Discord, and then we just need some clarification with regards to kind of next steps.  Do we want to... Do we polls as well? Do we want to integrate with Engages in terms of their API access?  Or do we want to use the smart accounts?
+
+17:16 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Is that a choice? They'll say yes to all of those things. I think we need to tell them what the roadmap looks like in terms of...  Or the only question we can ask is, which do you prefer? We can only get maybe around to one more maybe.  Yeah. Yeah.
+
+17:31 - James Young (Collab🤝Land)
+  Which one out of these options? Just one. I would guess EP integration.
+
+17:37 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay. And that's definitely probably the hardest one as well. But I bet that will be the most interesting to them because then they can literally reward people with their point systems through the quiz agent.  That's high, high value for them. Okay.
+
+17:51 - James Young (Collab🤝Land)
+  But then do they want... If that's the case, the follow-up question right after that is, what happens? How are they going to air...  Airdrop the tokens. That's this airdrop question I have, do they want it in the smart account or not? Cause that's going to take a few days to integrate as well.  So if, if the assumption is they want engages API access, I can prioritize that. But then like, what do you do with that?  Do they, do they just, how do they want a list of wallet addresses that they can airdrop to then from the EP?  Or do they want it to like create a script to get the Gaia tokens into a, a, a smart account.  But then with the smart account, there is like the withdraw and there's a bunch of other, other work that needs to happen there.
+
+18:42 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  what's the, what's the simplest way that, what's like the most direct path? Cause we can, again, I think we can make recos of like, here's, here's the most direct path that's simple.
+
+18:56 - James Young (Collab🤝Land)
+  So I think with, and I have to confirm this and I'll. I have to do this tomorrow morning when I have a clear head, the Engages API, I don't know if we can get them to, if the quiz points can then get pushed to the Engages API, and then through the Engages API, then just have, they can have one place where all the EP is stored.  And then I don't know how they work, just where I need a conversation with Rancher.
+
+19:35 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, how they distribute it in the place, and how, yeah, yeah, yeah, yeah, I'm almost thinking like, what we'll probably end up recommending is the spreadsheet manual is always probably like, the most cumbersome.  safest. Implement the safest for sure, because then it's like stored there, and you know, if they have a few hundred people doing it, that's just, yeah, you can write a script, you can figure out a way to kind of disseminate those in the right places.  Okay. Let me pose those questions to Rancher and Ian and see where we land. Okay.
+
+20:07 - James Young (Collab🤝Land)
+  And then when I wake up tomorrow morning, hopefully I will have a course of action so I can just figure out which direction to go.  Yeah, for sure.
+
+20:15 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. You wake up mighty early. Like we're going to land, the first leg of our trip, I'm going to land at like 1 p.m.  somewhere. So it'll still be like 5 or 6 in the morning your time. So I can still do it at that time as well.  Yeah. Okay.
+
+20:31 - James Young (Collab🤝Land)
+  So I'll try to, I don't know how long I'm going to, I'm like, I'm going to, I have to do some collab line stuff.  I don't know how long that's going to take. So I don't know when I'm going to get to bed.  So I don't know what I'm going to wake up tomorrow. I'm going to try to get up early, but we'll see where I'm at.
+
+20:46 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  You too.
+
+20:47 - James Young (Collab🤝Land)
+  And yeah, we'll sync, async in your morning or my morning. And I'll look for some messages for you in terms of updates.
+
+20:58 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Anything else? No, think that's it. That's it for me. That's it from my side. We'll be in touch async tomorrow and then on Friday on the Coder Space.  Awesome. Excellent. Appreciate you. See you, James. Thanks. Bye.
