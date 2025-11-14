@@ -1,0 +1,214 @@
+Mother All-Hands Weekly - November 03
+VIEW RECORDING - 36 mins (No highlights): https://fathom.video/share/zvuqidQAeQTRjvtswd6wMn97Shm1zmmH
+
+---
+
+0:00 - Sebastian Varela
+  Is it game seven today?
+
+0:03 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Game six?
+
+0:04 - James Young (Collab🤝Land)
+  Game seven was the final game, game seven of the World Series was on Saturday. I thought it was game six on Saturday.
+
+0:13 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  No, and then LA won the World Series, hence the conversation and why I'm wearing the hat.
+
+0:20 - James Young (Collab🤝Land)
+  That was the final?
+
+0:21 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  That's crazy. I'm from Toronto and people have been rooting, waiting for the Jays to win since the 90s, like all Toronto sports teams.  They suck. So they're just waiting for anything. They just couldn't get it. Yeah. Yeah.
+
+0:37 - James Young (Collab🤝Land)
+  There was this one, there was this one graphic during the World Series that was explaining the last time that, you know, Toronto had won anything in different sports and the label, the title of the caption was Canada Dry.  Oh yeah.
+
+0:55 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Dude, the Leafs since the 60s, the Jays since the 90s. Now the- Raptors did win in 2018, so that was a more recent.  Yeah, that's the most recent one. That was their first and only. First and only, yeah. Toronto's just got bad luck.
+  ACTION ITEM: Invite team to Kanban board - WATCH: https://fathom.video/share/zvuqidQAeQTRjvtswd6wMn97Shm1zmmH?timestamp=71.9999  They love sports, too. They love sports in Toronto, but, you know, they can't win. Alright. Should I kick things off?  Yeah, let's kick things off. Yeah, let's do it.
+
+1:21 - James Young (Collab🤝Land)
+  Okay, let's do it.
+
+1:22 - Alex Sotiropoulos
+  So, I kind of wanted to take a different approach to the weekly stands going forward. I created a Kanban board to kind of keep track of where things are at and what we're trying to work on.  It's pretty dumbed down right now and straightforward. And I'll invite you guys to this so that you could also add your own tickets and we could just kind of track everything as a whole here.  That way we're all on the same page and it's a good way to kind of see what's gotten done.  I could go ahead and start. I'm kind of juggling between a few things right now. The first being the.  Pitch Deck, Matt, Christian, Coach J and I are meeting tomorrow to go over that. I've also been working on the UI for the mother registry, coupled with the API there in terms of being able to register an agent into the registry using a valid A to A agent card, as well as being able to provide a URL to an agent card.
+  ACTION ITEM: Schedule sync w/ James re: registry implementation Qs - WATCH: https://fathom.video/share/zvuqidQAeQTRjvtswd6wMn97Shm1zmmH?timestamp=137.9999  And so I'm working on that, going to be probably going to reach out to you, James, because I have some questions around implementation there.  I saw your questions. Yeah. So we could talk soon. And then trying to also work with the Intuition team on getting that demo out there.  I poked them today to see where they're at, but I'm sure it's been pretty busy for them. next I don't looking  So I want to hold off and wait for them to kind of make first moves, and if it takes them a while, then we should probably just go ahead and figure out how we want to distribute it ourselves so I could work with Coach Jay on that.  And on top of that, too, kind of a lot today, I'm going to be working with Sydney and Amin on putting together white paper slash light paper.  Hopefully we can meet sometime this week to do that, and also need to start looking at getting Gaia nodes onboarded onto the registry.
+  ACTION ITEM: Add Kanban ticket: re-contact Eliza re: agent onboarding - WATCH: https://fathom.video/share/zvuqidQAeQTRjvtswd6wMn97Shm1zmmH?timestamp=207.9999  And I think that, Coach Jay, you had mentioned maybe reaching out to, I forget, like Eliza or someone to see if they could get some agents on as well.
+  ACTION ITEM: Define Gaia config.json→A2A mapping; implement /agents/gaia endpoint; add Kanban blocker - WATCH: https://fathom.video/share/zvuqidQAeQTRjvtswd6wMn97Shm1zmmH?timestamp=226.9999
+
+3:48 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, let me reach out again.
+
+3:50 - Alex Sotiropoulos
+  Maybe I could add a ticket for that just so we could keep track. James? Yeah, real quick.
+
+3:57 - James Young (Collab🤝Land)
+  Just with regards to the . Getting the Gaia nodes onto the registry, I think actually it will be really straightforward now with the Intuition API server.  We'll just create a Gaia endpoint like agent slash Gaia or Gaia slash agents, however we want to define it.  And every Gaia node actually has a config.json that it ships with automatically. Okay. So if a Gaia developer wants to just put their config.json inside of this like web page instead of a json card, what we'll do, just kind of how like we're mutating and injecting and flattening out the json and everything like that in the API server.  We'll just do a translation from what the config.json is outputting already to an A to A card. next time.  We'll see Bye. Bye. The fly, so that every guy, effectively, every Gaia node now has an ADA card. Okay, yeah, just perform simple mapping there, support it with whatever ADA fields are missing.
+
+5:14 - Alex Sotiropoulos
+  Yeah, that's right. Okay, cool. Yeah, we could talk more about that too. I guess that'll be step one before we facilitate the Gaia node onboarding.  So I will, I'll maybe add that as a blocker and shouldn't, shouldn't probably take too long for us to piece together that API bit.
+  ACTION ITEM: Schedule layer knowledge-share sessions w/ James; start GPT threads - WATCH: https://fathom.video/share/zvuqidQAeQTRjvtswd6wMn97Shm1zmmH?timestamp=330.9999  So, yeah, yeah, it's straightforward. And then, yeah, other than that, James, I have some, some cards on here for you with respect to doing, we discussed doing knowledge shares on each of the layers.  And kind of populating GPT threads with that information. And so that way I could kind of gain more insight on each of these perspectives and ask questions to GPT and also you.  And that'll be like the most effective way to accomplish that, I think. I have an idea on how to do that, so let's work together on that.
+
+6:21 - James Young (Collab🤝Land)
+  Yeah. Cool.
+
+6:23 - Alex Sotiropoulos
+  Who wants to go next? James, you want to just follow up? Sure. I'll go next.
+
+6:32 - James Young (Collab🤝Land)
+  There, so there's a lot that I've done kind of meeting wise and behind the scenes, been talking with Marco.  He's a co-author of the 8004 Spec and also head of AI at MetaMask and just talking to him a bit more about Mother specifically.  What now has has become clear. Here is, in respect to the 8004 spec, and this is the narrative, I think, moving forward.  With the 8004 spec, there are three registries. There's an identity registry, there's a reputation registry, and there's a verification registry.  Intuition will be the identity registry. This is what we're doing, right? We're putting everything on intuition. That's where everything is stamped.  What we're talking now, and this has kind of been in the works for a while, and Alex has been in this meetings with billions, billions can be the chain for the reputation part.  So there are things that will happen that are considered kind of off-chain, but that's where the attestations will apply to, and that will be part of the reputation registry.  And then, the verification registry I'm talking with, because we have the beginnings of an ABS, but- I've been talking with another group called Kalani.  They were actually at East Denver, and Tanner was part of the kind of mother offsite that was happening. Tanner is a smart guy.  Yeah, yeah, he used to be, before going to Kalani, he was an EF researcher. And so what they have tentatively agreed to is being the verification registry for 8004.  So the mother registry is this intuition, billions, and Kalani-like subsystems that are coming together to form the registry. So the intuition part with identity is done.  The Kalani version, we don't have to worry about because it's seamless integration in terms of verification. That's how Kalani actually works right now.  So... Our mother use case and the verification registry is actually a subset of what you can actually perform with CollabVia.  So we not only get a verification registry, we get so much more than that, rather than us potentially having to just write and update the ABS ourselves.  So we get a lot more headroom. So right now, and this is what I've been talking about, and this goes into these deliverables now, is how do we define reputation?  And this is what we were talking about in terms of the slide deck before, where we could actually incorporate the Legion score into this reputation that a mother will provide.  But I also think that we should take in like your billions identifier, your Gitcoin passport, your Yapper score, and all of that.  And so from that, and if we focus on that from the reputation perspective, and this loops back to where Marco was, and I'm talking with Marco.  So he.. He wants to develop a game, and he asked me not to disclose the specifics of the game, but the game falls in line with what Mother is now focusing on in terms of that reputation registry, because this game that he wants to showcase the different registries, I think we can implement, and this will showcase Mother, actually, as well.  So there's huge overlap there that I'm working on with Marco. Right now. Besides that, I launched the Quiz Agent in the Intuition Discord server.  That seems to be going, and what we'll now have, when you take the Quiz Agent, you'll be able to see everything on Intuition.  That's why we prioritize Intuition, because of their TGE. Once that is all, like, good and ready to go, it's just an easy install into the Mother Discord.  But we're just, I'm, my time is very limited right now. So, I just want to make sure that it.  The intuition quiz agent leading up to the TGE, post-TGE, everything works fine. And then it should be a simple addition into the mother discord.  But then this is where you can begin to see the pieces all kind of starting to come together. But it's a complex technical dependency tree that I'm having an issue or I'm having problems with being able to verbalize in a easy to digest narrative.  So I could use help with that as well. Yeah, definitely.
+
+11:36 - Alex Sotiropoulos
+  I mean, we can we can have more conversations and talk things through. And I feel like that'll just help with with the narrative as well.  Zero, did you have a question? Yeah, I have a short question for James.
+
+11:52 - Razvan Matei Popescu
+  So you mentioned some of the impulse to the reputation registry. Like, including the upper score. Like, how? Are we deciding those?  Because I may have some interesting ideas there, because I've been following InfoFight quite a lot, and I'm just asking what's the thought process, so just to kind of see if any more inputs would help or would complicate or would be redundant.
+
+12:20 - James Young (Collab🤝Land)
+  Now, this question that you say 08 is very insightful, because now we come full circle with Mother DAO, and there will be proposals on what should be part of reputation, there'll be ways, and I have a lot of ideas to make the DAO kind of reputation algorithm, you know, the interface be a lot less burdensome than you think of.  When you think about DAO proposals, forums, and voting, and quorum, and all of that. So we're going to use Agents and Discord to vote on DAOs, and it'll be amazingly fast, it'll be probably like...  We already have a DAO agent that's already wired up back in like April, but now finally, we're able to come full circle with that.  And so this is where token holders come into play and why you need a mother token. And there's a whole mechanism design that I've also worked on, TLDR, because Alex was talking about the white paper.  The idea is to get niche experts in a certain domain that can actually help via the DAO and human coordination to set up the algorithm score for that very specific niche.  OK, now this is how they begin to monetize their niche expertise. They buy a token when it's low, assuming and believing that their niche expertise will help the mother algorithm, which will make the mother token demand go up, which would increase the price.  So you're going to want these like. Niche, you know, experts that are experts in their niche, and we have to figure out which niches we go to market first, will then be able to add and contribute to the Dow and what the reputation score is.  So it's beyond just Yapper. Now, as a niche expert, I'm also want to go and buy mother because I know there's so many other niche experts like me.  And now we can get the network effect of monetizing and aggregating our niche expertise. This allows the mother registry and the agent to be able to be the best index or score of reputation.  And it's human curated at first, and then it will become automated. Once we have enough of this data, because you can't use AI at the beginning where it's difficult because it can't make decisions and it can't be autonomous if it doesn't have any, like, context to build on.  It goes... you. Thank Beyond just the pre-training of it, it's actually the inference, how you're building up inference for that agent.  And this is where that reputation is, where it will really shine here because we have all these people that are experienced with DAOs, what went wrong before, what can go right now, and blah, blah, blah, blah, blah.  Yeah, that's amazing. I'll stop there.
+
+15:23 - Razvan Matei Popescu
+  Yeah, so TLDR, like, the token holders will decide, like, what goes, which, for example, inputs the reputation registry has, right?  So that's pretty cool. And a side note, like, as long as we're discussing InfoFi, like, I don't know what the discussion about RTG, I don't know where it is.  But I think it might be in our best interest to try one of the EFI protocols, like, for example, in another project that I'm working on, we're talking with one of them.  Not Kaido, Kaido, because, like, they ask for... For 150k, which is quite expensive. But other ones don't ask for that much.  For example, my wallchain asks for, I don't know, like something like 30k and it can be negotiated. I know that for a fact.  And there's a cool playbook we can play there. It was done by TriLimitless. So the strategy is, I think I explained it a while ago.  So if we want to go forward with that, like they're asking for something like we would have to allocate between 200k and the minimum is $200,000 in our tokens to distribute via their protocol.  That's the minimum that they're asking for and some cash. So pre-TG, like, I don't know when we want to go to TG, but I think it might be a cool idea if we're going to race via Legion to try.  Bye. Because it's basically ensuring that we were going to raise even more money. The only problem is because there are so many protocols launching on Wallchain right now, we might have some competition.  But I think we're safe there because I also know they just hired a dude who's from Romania, he's kind of a digital buddy of mine.  Like he's the biggest KOL in InfoFile and he could maybe help us. yeah, it's just... No, this is great.
+
+17:35 - James Young (Collab🤝Land)
+  I think the limitless strategy and what you're saying here with Wallchain and the kind of token exchange there for amplification totally makes sense.  And if we launch on Legion and part of what we're doing in terms of our reputation takes in a Legion score.  I actually spoke with Matty, the co-founder of Legion, about three weeks ago. And he's totally down to do that.  that. ... Because it's just going to spread the Legion score anyway. So these are the kind of incentive-aligned, go-to-market strategies that are emerging and are becoming a lot more clear now.  Because it's not that we are moving faster, it's that people are finally catching up to us. So that we don't have to do the coordination.  Things are just falling into place. Because we've had this prep-up, ramp-up time to think about all this. And we know where things should slot in.  We've been organizing this moment, I would say, since the beginning of 2025, really not knowing that MCP, 888, APT, X004, X402, and like reputation with billions, TGE, intuition, TGE, and where the market is going, especially in the InfoFi space.  It's like all kind of, we're riding that momentum. And really what we need to be careful of is just making sure that we can execute now.  That people Well, we can ride the momentum and we're not just going to get steamrolled over because we're too slow or we don't have the right connections or things like that.  Yeah, exactly.
+
+19:12 - Razvan Matei Popescu
+  And the whole magic there is, because I don't know if I've been like articulate enough, like the whole magic with WallChain is to kind of try to get on them before we TG.  So that's the whole thing, because like on WallChain campaigns are done in two parts. So the first part should be pre-TG, we get some hype for 30 days.  And when we go to TG on Legion, then is where like all the ex-people, all the algonosas, we're popular and we're going to raise extra money because of that.  So it's a win-win. So it's kind of a lie. Yeah, yeah, no, I totally hear what you're laying down.
+
+19:50 - James Young (Collab🤝Land)
+  And this is an emerging playbook that I'm actually seeing so that we can come with oomph. Like the WallChain is really.  It's to be like a 3 to 5, maybe 10x multiplier on whatever we do. That's kind of how I see it.
+
+20:07 - Razvan Matei Popescu
+  Yeah, exactly. And if you play it right, it can be 100x, because Limitless did 100x, because they played Kaido and Wallchain at the same time.  We don't have those resources, but we can most definitely nail at least once. Yeah, that's right. It's smart.
+
+20:27 - Alex Sotiropoulos
+  Okay, Sydney, since we don't have you much, do you have any updates you wanted to share?
+
+20:37 - Sydney Lai
+  In terms of updates, I did meet with Alessandro on the intuition side, so I'm fairly aware of what some of the blockers are for him.  I'd say, I think on the mother stream, my biggest focus, Alex, to your point, is helping you unblock on the white paper.  If there's anything else that's needed for that. thinking... And... And... Thank you. And then for Alessandro, I need to focus on getting more agents indexed onto the network and help unblock on any kind of Gaia integration.
+  ACTION ITEM: Schedule whitepaper/lightpaper session w/ Sydney & Amin - WATCH: https://fathom.video/share/zvuqidQAeQTRjvtswd6wMn97Shm1zmmH?timestamp=1266.9999  Otherwise, not any kind of major updates on my end. Okay, sweet.
+
+21:17 - Alex Sotiropoulos
+  Yeah, we should definitely set up some time with Amin to talk Whitepaper sometime this week. You probably have a busier schedule along with him.  So just let me know what works for you guys. Okay, I'm going to send you a time right now for Thursday, and then you just let me know how it works.
+
+21:35 - Sydney Lai
+  And if not, I'm happy to find a new time with you. Awesome. Thank you. You're welcome. You're welcome.
+
+21:41 - Alex Sotiropoulos
+  All right, Coach J, any updates?
+
+21:47 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Website is up to date. Live stream, hopefully we'll be able to tomorrow, waiting for the exact time. And there's also this other group that we're in the chat with, 004 Builders.  I also request to get connected with had our group lead a or it's all We've SE Munks zietlier Well,  Q just put out 8004 scan, like literally like today, so hopefully we can get them on a call. And Alex and I, we're gonna start hopefully meeting, sorry for bumping it, I was not expecting to be fully integrated today.  So tomorrow, I feel like I had something really important to bring up, but I don't remember. So I will bring it up as soon as I do.  Yeah, that's me. Let's get other people talking, and I can let you know if I remember. Cool. 08, Tosh, anything on your guys' end?
+
+22:45 - Natascha Tiotuico
+  Yeah, so we're getting a bit of questions in the community already with it, which is good, but we need to start thinking what  We want to announce, and how we want to introduce the roadmap, and stuff like that. I also looked at the recording from last week, so I saw about the gamification part, and how we want to scale points, et cetera.
+  ACTION ITEM: DM James re: smart tags/tipping analytics - WATCH: https://fathom.video/share/zvuqidQAeQTRjvtswd6wMn97Shm1zmmH?timestamp=1390.9999  So my question to James, I'll probably write it in the DM, is how can I check the smart tags and kind of get an analytics of how the tipping went?  Because the original idea of how we wanted to do the points is not give the seeds as mother tokens, but the interactions of, like, how often did people tip, or, like, how many different people did they tip, and not take those seeds one-to-one.  Because, of course, we've been giving out seeds and haven't had... And, like, that we had the idea that seeds could also, like, reduce, like, turn bad.  So I would maybe start looking into that if James could show me how to kind of look at the analytics part of that.  And otherwise, like, the community, we just need to, like, have more of the product plan. And then I think once more people come into the server, we still have, like, 450 people.  So it's not really growing. So we still have time to kind of before the big marketing happens. Yeah, we should coordinate on this.  Actually, this is important.
+
+24:54 - James Young (Collab🤝Land)
+  We've got to get the community. It takes a while to get the community spun up.
+
+24:57 - Alex Sotiropoulos
+  So, one, what we need is.
+
+25:00 - James Young (Collab🤝Land)
+  More like Marcom stuff like roadmap and where we're at and things like that. And then two, Tash, what I'm hearing you saying is that like people have been giving out seeds like nilly-willy.  The seeds are not the points. The number of transactions you've done with seeds will then lead to points, all right?  So that we have a better way to adjust for an airdrop. So yeah, it's really like figuring... So we need the roadmap and some communication and we need to kind of understand how to better incentivize the people in the mother discord with on-chain actions.  And then all this all needs to lead up to some marketing campaign that needs some lead time from the community side.  And also, I think having like tangible product will help.
+
+25:51 - Alex Sotiropoulos
+  So like already this demo showing how you can onboard agent cards is hopefully useful things to post in the community.  putting it on, So, a But then hopefully as well, like the UI registry I'm piecing together, hopefully we could like start spreading the word on some of that as a means of engaging the community.  And when we get there, we can, we could certainly start working together on that Tosh and Zero it. Yeah, most definitely.
+
+26:19 - Razvan Matei Popescu
+  I think actually our community is pretty active for what we have like communicated to them. Cause like, if you look in bigger communities, like it's like, I think we're decent on that front.  I do have a question. So if you want to go down the info5 path with Wallachem, when we, should we start that conversation with them?  Like I'm in touch with their like BD and their founder, like, should we spun up a group chat to start that convo?  and who would be the best leader as well? Like, is it you or is it you James or like Matt on the specific economics side?
+  ACTION ITEM: Create group chat w/ Alex & Coach J; share Wallchain offer; schedule vetting call - WATCH: https://fathom.video/share/zvuqidQAeQTRjvtswd6wMn97Shm1zmmH?timestamp=1612.9999
+
+27:03 - James Young (Collab🤝Land)
+  I would say, just so that we can vet this out, I think this looks like a great opportunity, but we need to vet it.  So having a conversation with your contacts, and if you can create a group chat with myself, Alex, and maybe Coach Jay at the beginning to do the vetting of it.  And if we are aligned, then we bring in Matt. Okay, it makes sense.
+
+27:32 - Razvan Matei Popescu
+  What do we want out of that convo? Because I already have a group chat with them, and we already negotiated in it.  So I don't think they will give us more than what they're giving us in the other convo. So I don't know if we're going to go forward with them, but I can just DM you the offer, so you can check it.
+
+27:55 - James Young (Collab🤝Land)
+  Yeah, let's have a separate conversation about that then, if you've already gotten from a In other contexts, what we're looking at, and then we can start the conversation with Wallchain with that information and knowledge kind of in the back of our heads.  Yeah, sure, sure. I'm going to spin up a group with you guys and share it there, if that's okay.
+
+28:17 - Razvan Matei Popescu
+  Awesome. Thank you.
+
+28:20 - James Young (Collab🤝Land)
+  Cool. My pleasure.
+
+28:23 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Tosh, Zeroy, anything else, Wait, one question I had is just one thing that was brought up was around docs, and I don't know if that's going on in Kanban, if that's a priority at all, because I know that's something that has come up in conversation now and again, and we kind of just like put it to the side.  Is that something that we're seriously considering? Like developer docs, do you mean? That's just like the default. People are like, you know, I messaged 30 groups, like A to A cards, and then of the few that responded, they're like, cool, do you have any docs to share?  Yeah. So it's kind of like, I think it's also like just a thing that people say. But is it also an expectation that people have?  I'm not sure. I think it is.
+
+29:07 - James Young (Collab🤝Land)
+  I don't know how we prioritize it, though. Yeah. Yeah, me either.
+
+29:15 - Alex Sotiropoulos
+  I mean, I certainly, like, in terms of docs, like, my main goal is to have, like, a Mother Notion Hub where people can get a really solid understanding of, you know, what the project is, what we're working on, and things like that.  But in terms of, like, the developer side of things, and having, I guess, some sort of an SDK, I don't think we've started to talk about that.  Sydney, you want to go?
+
+29:39 - Sydney Lai
+  Yeah, I was going to say, do they want the docs just to help them onboard and register their agents easier?  Because I think what we were deciding on is having a client portal so that they can just seamlessly register the agents, rather than using some sort of backend integration to register the agents.  of I don't so. But you're Yeah, that's my understanding.
+
+30:02 - James Young (Collab🤝Land)
+  So the docs would just point to the portal.
+
+30:06 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  OK. So these aren't these.
+
+30:09 - James Young (Collab🤝Land)
+  So I think based off of what Sydney was saying and what Alex was saying to investigate, we don't need docs to support an integration.  We just need docs to, I think, start as kind of like what Tosh was even talking about in terms of like a roadmap.  Where are we going? What were we doing? And by the way, you know what? You want to try it out right now?  You can register your agent. Go to this link and then just input your Jason card. And boom, here's a link on the kind of call back to where it's in intuition or to where it is in our front end now, showing that that agent is in the open registry.
+
+30:53 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Sound good, Coach J? Sweet. Sweet, sweet.
+
+30:59 - Alex Sotiropoulos
+  All right, then, then, then, Seb. Kills.
+
+31:03 - Sebastian Varela
+  Yeah. All right. So I also had a good conversation with the intuition team last week. I guess we talked about the demo that you guys were trying to get together.  I'm not sure if I was hoping to hear back from Alessandro last week about how that went and if there was something for us to try out there.  At the end of the day, mean, I think we're just trying to figure out what actually onboarding to the mother registry looks like.  Yeah.
+
+31:34 - James Young (Collab🤝Land)
+  So Alex asked for an agent card, an Ember agent card, and Tom replied by giving an agent card back and we've put it into the registry.  So the Ember agent is on the identity registry, the 8004 part. There are three registries, identity, reputation, and verification.  Yep. It, the, the Ember agent is on the. Other Identification Registry. And so if you have any more agent cards, as many as you have, send them our way.
+
+32:09 - Sebastian Varela
+  Yeah, my question, I guess, following on there is you were talking about integration happening on a portal rather than on the back end.  So what we've been doing about, you know, the way we were expecting to approach this from the VODkit was to have part of the building process be integration into the mother registry.  But I don't know if those two things go in different directions. No, no, they're the same.
+
+32:35 - James Young (Collab🤝Land)
+  I mean, the front end portal is driven by the API server I created and now Alex is managing. And so in the VODkit, if you just want to have like a command line, I don't know what the UI is like, you want to register this on mother or you automatically register on mother, you just hit the API endpoint with a post and then it's registered.
+  ACTION ITEM: Send registry API repo link to Sebastian; then coordinate ViteKit integration - WATCH: https://fathom.video/share/zvuqidQAeQTRjvtswd6wMn97Shm1zmmH?timestamp=1973.9999  Perfect. Yeah, I just wanted to confirm that because of what Alex just said about not sharing about the SDK and black end.
+
+33:00 - Sebastian Varela
+  Yeah. Yeah. I could also share that demo with you, Seb.
+
+33:04 - Alex Sotiropoulos
+  I realize I haven't shared it with you guys. It's pretty much the API stuff is all on a repo that James put together, and you can pull it down and try it out yourself.  So I could send that over. Yeah, sure.
+
+33:23 - James Young (Collab🤝Land)
+  And you just post to it, and then whatever agent is using Vibekit gets automatically registered to Mother. Perfect.
+
+33:31 - Sebastian Varela
+  I guess as part of the process to build out an agent on Vibekit, you are kind of going through that process on 8.004 as well.  Like, do you want to register 8.004, what chains, et cetera? Yeah. And guess we just have that as an additional step of, okay, do you want this on the mother registry?  Hmm.
+
+33:50 - James Young (Collab🤝Land)
+  Okay, lovely. Yeah.
+
+33:52 - Sebastian Varela
+  And then I guess as the conversation with Billions, and who was it for the other registry? Yeah. Yeah. As those conversations evolve, we'll keep that going to have that be a part of the process.
+
+34:12 - James Young (Collab🤝Land)
+  Well, if you just register on the identity registry, then that we can take care of on the billions and on the Kalani side.  So we're done. In terms of like a third party registering an agent to mother, there's no simpler way to do that.  Yeah. Then just an API endpoint or just cutting and pasting and uploading just a one text field, just like a Google search, but you're just registering an agent.  No, totally. Yeah, gotcha on the process.
+
+34:42 - Sebastian Varela
+  Yeah, I guess just seeing the GitHub kind of being able to, yeah, just build this into the ViteKit process would be our ask.  And then, yeah, I'd love to see the front end as well and see if we can kind of bring that into the demos that we're like releasing on, you know, just more like the discovery.  and agent-to-agent payments and all that stuff. Cool. Yeah, front end will come this week.
+
+35:06 - Alex Sotiropoulos
+  That's the goal. So I will keep you posted on that front. All good. But all right. I think we went through everybody.  Any last comments, questions? Is the quiz agents, did we already go through timing of that getting on the mother discord?
+
+35:27 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Do we already cover that stuff? Did I miss that?
+
+35:29 - James Young (Collab🤝Land)
+  Well, what I said was we're going to showcase how the quiz agent now posts to intuition and how this quiz agent can have a reputation.  And I just want to make sure that that all crosses the finish line post TGE and everything like that.  And immediately after that, I'll install in the mother discord. Okay, perfect. Amazing.
+
+35:55 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  All right. Sounds good, everyone. Thanks, y'all. Good chatting. See See you soon.
