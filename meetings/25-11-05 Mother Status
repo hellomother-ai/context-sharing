@@ -1,0 +1,390 @@
+Mother Status - November 05
+VIEW RECORDING - 56 mins (No highlights): https://fathom.video/share/7jwh1xLLxd4uXUBr3-buU9qa7NtmshPd
+
+---
+
+0:00 - Alex Sotiropoulos
+  Yo, yo.
+
+0:03 - James Young (Collab🤝Land)
+  I love the background there.
+
+0:07 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So Spanish. Yeah, yeah.
+
+0:11 - James Young (Collab🤝Land)
+  Are we waiting for anyone else? Or is it just us? I don't think so. I think I say let's jump into it.
+
+0:15 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Matt's like in full Oasis mode right now. So I think we'd be lucky if he stops in. But we have enough to discuss just the three of us.  Okay, so let's dive into things.
+
+0:25 - James Young (Collab🤝Land)
+  Alex, where do you think we should start?
+
+0:29 - Alex Sotiropoulos
+  Yeah, mean, James and I have been in talks about the API side of things and kind of strategizing there.  I think we have a call a bit later today. So we can maybe hold off on discussion on our front there.  And I think you had mentioned that you had some things to share. Maybe we can start there. Do that.  So I have a few things.
+
+0:50 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I'm reaching out to agent projects and hearing why they are not getting their ATA cards to us. So basically...  So I want to talk about that, and then I want to talk about AI Sovereignty Alliance, and just like AI Sovereignty Alliance, I have not been leaning a ton into it.  I feel like it was started as kind of what I would call a random act of marketing. So, you know, I think it's lacking intention.  That doesn't mean we can't salvage it, it still exists as a brand. I think I need to, like, really be just, like, super thoughtful about it and actually resource it with time if we're going to do something about it.  I think for now, like, it's nice. We have, like, a little group going. There's a little, like, group of us that are, like, committed to it.  Almost everyone in the group helped promote the Intuition TGE today, which was nice. So I think that that's fine for now.  I feel like we have this other very clear plan where we're developing the UI and we're working on a pitch deck, that the AI Sovereignty Alliance, like, is not as important right now.  I'm open to being wrong about that. So I just wanted to let you know kind of where my head  Because I haven't been putting time into thinking about, oh, yeah, sovereignty alliance. How do I get the word out about it?
+
+2:07 - James Young (Collab🤝Land)
+  I think that we don't need to formally market it through mother, if that's what you're saying, but it's a good group.  It's like background group. exactly.
+
+2:17 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  It's a great group, and I think we can bring it back to marketing later.
+
+2:22 - James Young (Collab🤝Land)
+  And we have a banner. You know what? So what will happen is there are going to be opportunities, and we're like, wait, we have that already.  We have this AI siren, blah, blah, blah. It's going to happen. I think so, too. We don't have to force the dots to connect.  The dots will emerge, and we will connect. So I think it's good where it's at. It's actually, it's serving its purpose, I think.  Perfect. So we're aligned.
+
+2:47 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, so this is the juicy bit. Okay, so getting in touch with agent projects. Because I messaged 40 agent projects.  No one had HA. So, the next follow-up, a week later today, I messaged everyone, and the message, I think only James is in the group, but I said, hey, following up on message, I'm doing some research to better understand the agent ecosystem would really value your perspective, even if you're not interested in registering right now.  Quick question, what's the main blocker for creating an A-to-A card? Is it that you don't have work built, or it's not a priority, seems complex, you're not clear on the value or incentive, you're missing info?  And just try to understand if we're too early. So, of the responses I got, I probably got like five or six responses.  So, small sample size, but very clear to me, there's two things going on. Mostly, like, their words are, I don't have the time or resources, for lack of better words, right?
+
+3:49 - James Young (Collab🤝Land)
+  So, when I hear that, I hear that there's two things, okay?
+
+3:54 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  The first, the most important thing is there's no incentive for them to do it. Okay? Actually, one gave me a real  He thoughtful answer about it. Specifically, they said, let me pull this up because I'm going to read it so that I don't get the, I mince the words.  Here it is. He said, hey, Coach J, the main blocker for us at preprints.io and spinedow.com, who we work closely with, is use cases, to be honest, that justify it.  We are migrating to base at the end of the month and have a few applications in mind, but still haven't found anything for agent to agent communication is absolutely necessary.  So there's a slight education barrier because they don't realize that they're going to be communicating with the orchestration agent.  So that one's like an easy one. But for the most part, the answers were, we're just busy. You know, we're busy, don't have time, don't have resources.  So I think that the incentives are unclear. Like they don't recognize how much money they can, how much more money and how much more distribution there is.  Assuming that is a I'm going based off of what Matt said is a pain point of agents, is that if you have an agent project, your number one thing is you want either money or distribution to get you money.  So assuming that that's true, I would say that we need to incentivize them. We're going to talk about that in a second.  The other thing I think is, I'm still attached to this, and tell me if I should just let it go, is I don't think people are that knowledgeable about A to A cards.  And the reason is because if, James, you're telling me it takes 15 minutes to put together this card, they are unaware of that.  Because even if it's not a priority, who doesn't have 15 minutes to just whip something together? You're telling me that you're going to give me distribution for my agent, and it's going to make money?  Okay, here, I'll take 15 minutes, I'll whip something half-assed together, just do it, let me know if you need updating, whatever it is.  Move on with my life, right? But they're not even doing that. So I think that they haven't tried it.  And so they're thinking maybe it's like setting up an MCP server where you have to think about A few hours and really set it up and make sure it's all like, you know, matched up and working and stuff like that.  So I think there's two things. The main thing I think is incentives, because if the incentives are strong enough, if they see that there's a big enough pain point or like a big enough benefit, more of the latter, they will make the time to look into A to A cards and then realize, oh, , this is super easy.  OK, great. So I'm going to pause there for comments and then I'm going to have I have some solutions that I want to propose.
+
+6:31 - James Young (Collab🤝Land)
+  Oh, my mind is going to a form that we host that just has some fields and have a chance to, like, be part of an airdrop from other.  OK, done. Perfect.
+
+6:46 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  OK, cool. That's actually even better than my friend. OK, yeah, I'm really glad that you.
+
+6:53 - Alex Sotiropoulos
+  I was just gonna say, I'm glad that you reached out to these groups to get their actual feedback. For sure.  I was like, I was talking to my partner and I'm like.
+
+7:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I'm yeah, man, these Asian projects are just not responding. And she's like, well, why not? I'm like, I don't know.  she's like, well, isn't that your job? And I'm like, oh, my God, it is. So the other one I wanted to offer, it's a bit more of like a, I like James.  James is just like, this is the way we do it. Easy. Mine's a bit more of like a loop around, but I think it's very powerful.
+
+7:28 - James Young (Collab🤝Land)
+  And I'm going to explain what it is.
+
+7:30 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I think that we should make up some agents. I can build them because I know how to build agents.  We can just build a couple, super easy agents. One agent I'd love to build, dad joke agent, okay? We build a dad joke agent.  We attach some sort of economics model to it. And I can even put up the money myself. And I'm, and maybe I'll send, I'll send you, well, all three of us in this call.  Cause they try. I'll send you each $1,000, send 1,000 USDC, and we all send 1,000 USDC to one to three of these agents that I built.  And what I'm going to do is I'm going to start a Twitter profile. I'm going to be like, yo, I'm building these agents and da-da-da-da-da.  And then what we get to do from these transactions is we get to create an early case study. Aside from the quiz agent having 800 plus transitions, once we move to an actual economic model, the three agents in our Bayesian registry had over $3,000 of economic value pass through it.  Thoughts?
+
+8:42 - James Young (Collab🤝Land)
+  I love this. I love, I love, love the hustle. This reminds me of Alex Ohanian when he started Reddit.  He had like 30, 40, you know, fake accounts, right? And they were talking to each other essentially. Sort of funny, … …  And with this watch trading of this, it's ingenious because it's that Web2 kind of bootstrap hustle applied to Web3, right?  And that's exactly what we need. So that then when you do that, you're like, oh, I just, this is, I don't know, people might see through it, but you're like, but I just, I registered my agent here and look how much money I've made.  That's it. And then, and then, so that's, that's the marketing right there, right? And then you get a, you know, so you don't even have to, the incentive is like what you're basically telling them is make money without saying it, right?  Like that's, that's the next level meta cognition. You make them connect the dots and those that see it go, ah, okay.  Exactly.
+
+9:53 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So my follow up to these, all these people who didn't respond in a few months from now, literally, like in like December or January, something of that is.  Okay. Hey, we put together this case study, we opened our beta registry, we only had, you know, three or five agents, but they brought, we had, you know, X amount of transactions, and over $5,000 flow to these agents.  We're opening up now applications for phase two, would you like to be part of that? Here's the A to A form, fill it out.
+
+10:23 - James Young (Collab🤝Land)
+  I can create, I can, you can VOD code and create an agent that will do this. They'll do what?
+
+10:32 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  There's layers to this.
+
+10:34 - Alex Sotiropoulos
+  Yeah, exactly. There's levels.
+
+10:36 - James Young (Collab🤝Land)
+  It's levels. This is Inception. We're probably about 40 minutes into Inception right now. There's another level here. But what you described, you can VOD code.  And you just spin up, yeah, just spin up a multiple wallets. So you don't, and so you can just wash trade amongst them.  Oh, perfect. that like, you know what I mean? Because like what people. Well, dude, they'll look at the Block Explorer.  If it's just us two doing all of this, you're like, wait. Okay, yeah, yeah, yeah. You know, you spin up and you fund a bunch of these different accounts, and then that way looks a bit more organic.
+  ACTION ITEM: Draft bootstrap agent plan; share w/ James for feedback - WATCH: https://fathom.video/share/7jwh1xLLxd4uXUBr3-buU9qa7NtmshPd?timestamp=666.9999  Okay, cool.
+
+11:17 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, maybe what I'll do is draft some initial ideas. James, I'd really love to partner with you, mostly from a feedback perspective, figuring out how we can create, yeah, maybe 10, 20 accounts that are feeding money to these agents, and have three to five, I like the number five, I don't know why, but maybe six, six agents.  Really basic agents, because some of the agent stuff that we haven't really figured out is actually the economics of agents.  It would be cool to bring in Dawn for a call like this, like, how much does a dad joke bot charge for a dad joke, right?
+
+11:51 - James Young (Collab🤝Land)
+  That's right.
+
+11:52 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Like, we haven't actually solved that, but I want to just, like, show that it's possible.
+
+11:57 - James Young (Collab🤝Land)
+  Yeah, we can do that.
+
+11:58 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And people are not willing to pay, you know? Yeah. Yeah, yeah, that's right.
+
+12:02 - James Young (Collab🤝Land)
+  And then we just ask a couple of people, if this is an AI agent, here's the code to spin up your own AI agent, and they can do it themselves as well.  And they're just watch trading amongst themselves. Now, now we're like looking at like a crypto scam project. But we're not launching a token, right?  We're not creating this bot network. What we're doing is we're bootstrapping. Exactly. So it's a kind of a, it's an interesting area to explore.
+
+12:32 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  It's definitely, it's not meant to pump token prices. It's meant to build use case, like use case examples specifically.  It's actually a marketing. It's just like purely a marketing play. Like once we develop these case studies, we can essentially retire these agents.  Like they're not useful to us anymore.
+
+12:50 - James Young (Collab🤝Land)
+  I would only feel good about doing this after two conditions. has at of you You The other is successful, and that we are growing.  I guess they're one in the same. So what do you mean about those?
+
+13:15 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  What do you mean?
+
+13:16 - James Young (Collab🤝Land)
+  what I mean is that we should create a post of what we did. We have to fess up. You know what I mean?  Oh, got it, got it, got it, got it.
+
+13:28 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, okay, okay. So I understand the timeline here. The timeline is in the next couple of months, we're running, we're going to  do this.  And then we launched, we do TGE, we launched the token, we fundraise with Legion, all that  goes really, really well.  And then we go, Hey, we have a confession to make. This was actually a marketing tactic.
+
+13:47 - James Young (Collab🤝Land)
+  This is how we bootstrapped our network. So no, I would have, okay. This is what I would say before TGE, we have to make that confession.  Okay.
+
+13:57 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, cool. Okay. So before TGE, it goes for
+
+14:05 - James Young (Collab🤝Land)
+  For fundraise, we don't have to say it publicly. We say it in the pitch deck. Before TGE, we have to say it publicly.  Okay, cool. I'm aligned.
+
+14:19 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I do not want scams happening. I do not want this project to be based on that.
+
+14:24 - James Young (Collab🤝Land)
+  I just don't know how else to bootstrap this thing. No, so this is a very interesting area that we can play correctly, right?  But we're not trying to abuse it. We're not trying to be malicious about it. Okay, cool.
+
+14:43 - Alex Sotiropoulos
+  Do you guys think this is even pitch deck? I think it's great from a content. People need to get the sense that, hey, it's easy to register an agent, and this is happening.  Agents are transacting. People just need to get used to that. Like, I'm just curious from like the pitch deck perspective.  Okay.
+
+15:04 - James Young (Collab🤝Land)
+  I would revise that not in the pitch deck itself, but before we close with an investor. Yeah. Like, right before you close, like, yeah.  So like, let's say we raised from Legion, so post pitch deck, we're about to raise from Legion. This is communication in that Legion channel to those that are interested in investing into this because they have a right to know.  Yeah. Yeah. Yeah.
+
+15:32 - Alex Sotiropoulos
+  Yeah.
+
+15:33 - James Young (Collab🤝Land)
+  So you're right. And I appreciate that, Alex, not in the pitch deck, but in like, before people, there needs to be, there'll be some communication, past pitch deck, before funds come in, wherever in that phase is the most appropriate.  Yeah.
+
+15:49 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And to be fair, magic wand scenario, like we run this little experiment. I mean, I'm going to try and sprint to get this done starting in February.  I'm off starting like December 18th. And I'm
+
+16:00 - James Young (Collab🤝Land)
+  It's be gone for a month. Yeah.
+
+16:02 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So if we can get it started or done before then, I mean, ideally, like we launched this, we do a case study, and then that's enough to get other agents on board.  And then these agents, like, it's all like a very small, short timeframe, such that we don't need to keep these agents around because there's actual other agent builder projects.  Like it's meant to show them that this works. Yeah.
+
+16:30 - James Young (Collab🤝Land)
+  Yeah. It's like you're most likely to succeed in creating a dating app if you have a lot of hot friends and they just, you know what I mean?  It's kind of like you're going between the lines. It's not fully organic. Yeah. But at the same time, yeah, it's interesting.  And I love talking about this kind of stuff because, We always need to make sure that we stay values aligned as well here, and we set a proper example here.  So that's all. But I think it's a great idea. It's ingenious. I love it much better than my simple- Okay, it's funny.  I like yours more than mine, so that's good.
+
+17:17 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  My question, just in terms of getting this underway, I can book you for another call if I need, but in terms of backcoding these agents, I've never built an agent.  I was pretty sure it was going to be easy to build. I've built some to be with automation tools and stuff like that.
+  ACTION ITEM: Schedule 30-min agent-building walkthrough w/ James for Nov 6 12:30 MT - WATCH: https://fathom.video/share/7jwh1xLLxd4uXUBr3-buU9qa7NtmshPd?timestamp=1051.9999  How do you recommend just Vibecode and WindSurf kind of thing, or am I setting up an NAN, or what's that?  Yeah, yeah.
+
+17:42 - James Young (Collab🤝Land)
+  Let's take this offline and let's have a 30-minute chat. I would love to walk you through it. Okay, cool.
+
+17:50 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Do you want to grab some time tomorrow or Friday?
+
+17:56 - James Young (Collab🤝Land)
+  Let me see. I have like 10 million tabs open. So just switching off of Google Meet to my calendar is taking time.  What time did you say? We can do next week as well.
+
+18:10 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Tomorrow, like around 12, I'm free from 12.30 to 1.30 Mountain Time. Yeah, let's do 12, whatever that first time you said was.
+
+18:22 - James Young (Collab🤝Land)
+  12.30, I think, and 12.30.
+
+18:24 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Because what time is it for you right now?
+
+18:27 - James Young (Collab🤝Land)
+  It is 1.20. That's I thought, yeah.
+
+18:31 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  12.30, I'm grabbing some time right now.
+
+18:35 - James Young (Collab🤝Land)
+  I would pay five cents for an AI agent to just translate my timing and use my voice to then just say it in your local time, right, you know?  Yes.
+
+18:46 - Alex Sotiropoulos
+  Here we go, economics. The economics.
+
+18:50 - James Young (Collab🤝Land)
+  The compute cycles to do the time zone change is worth more than five cents to me. So anyway, yeah, perfect.  Perfect. Perfect. Perfect. I Let's do it. Okay, anything else? I think that's it.
+
+19:06 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Intuition TGE is live today. posted, Billy was very coincidentally on the thing yesterday with you. was a great conversation.  Billy always talks like, I love it. He always talks super meta. So his sound clips are like so  epic.  So I posted one, I posted that today and just mentioned their TGE. So that's super exciting. And I think that that is it.  And Alex and I have met a couple of times this week to do content. Nothing coming, nothing coming up yet.  But I have like basically I've been playing around with like creating this like what I call this content machine where I have this like, I have these prompts that I use in Grok to get the latest in certain metas related to mother.  And so I'm finishing up this content machine where all I need to do is type in this this big text.  I take the output of Grok, and then I pop it into this content machine, and then it ranks this content for me, and then I get to pick one, and it drafts the tweet and everything.  So yeah, I hope that I can start posting more consistently about very recent metas, metanarratives around 804, 402, and emerging agent metas.  Yeah. That's awesome.
+
+20:24 - James Young (Collab🤝Land)
+  Yeah, so that'll probably start next week. Yeah. Cool. Cool. So I think as, just to give me my update, and I know, Alex, we have a standing meeting later, and we could talk about that more in general.  But I think now things have solidified in my mind where I was thinking about the verification registry, and I was reading the 8004 spec again.  And, um... The verification registry is not where the verification proofs are. So I was mistaken. The verification registry is just an identification registry of verifier agents.  So what we would do is we have an AVS right now, and we're also talking with Kalani. And I thought that the AVS would be the verification registry with all the proofs that are verified.  But that actually is still needed, but it's going to be behind a verifier agent. The verifier agent just needs to be logged into the verification registry.  So when I realized that, we have all. Three pieces of the registry, because the verification registry is just a type of the identification registry.  The identification registry and the verification registry are logically separate contracts, but we are using intuition, which is a series of contracts.  So we don't have to deploy a verification contract or a reputation contract, or we're not deploying an identity contract, like the 8004 scan is.  They have their own identity contract, which is based off of that NFT, as Alex and I looked this morning.  We're just posting to intuition. So, mother will be the verifier agent in intuition. So, logically. We have the Identity Registry and we have the Verification Registry, because the Verification Registry is just a different JSON schema with a different hashtag.  So the only thing...
+
+23:18 - Alex Sotiropoulos
+  I was just going to say Verification in the sense of onboarding, not in the sense of verifying agent work, right?  There's the...
+
+23:29 - James Young (Collab🤝Land)
+  No, so what happens is you have a Reputation Registry, Identification Registry, and a Verification Registry in 8004. The Identification Registry is an identity of agents.  The Verification Registry is a identity of verifiers. A verifier could be a DAO, it could be an individual, it could be another agent.  be It Yeah, Registry... And so what happens... happens... doing happens is is that the reputation registry registers what the attestation is to build up that reputation, and it will have categories of what kind of reputation this is about.  The verifier agent is going to say, I'm verified to this type of reputation, to pull from this reputation registry.  And then the identity, the agent, is going to say, I allow this verifier to give me a reputation score.  That's how all the three registries work together. So really what we're behind on now, because I thought like we needed reputation and verification, we already have verification with the into an API server, but we just need to format the JSON.  According to the 8004 spec instead of A to A spec, and then we're done. So we can do that like theoretically today if we wanted to prioritize that.  It's just reading what the verification agent, what the schema is, and then applying that to JSON, that's it. So now we have the verification and identity registry done.  Now we have to really work on this kind of reputation registry. And I think that is really where mother is going to shine as well.  So this is really what we're saying when mother's building out a registry. It's this, the reputation, the attestation, and we're conforming to 8004.
+
+25:47 - Alex Sotiropoulos
+  Yeah, yeah. And I got your message earlier too about using reputation metrics as triples on the agent cards, right?  Right. Right.
+
+26:00 - James Young (Collab🤝Land)
+  So. Well, technically, the implementation will be any agent or any verifier can attach to that agent a tuple, right, about the reputation.  Only if that agent has confirmed and said this verifier can pass and give me reputational score. So there needs to be a signed message in the future between the agent and the verifier where the verifier can show a proof signed by the agent that they're allowed to, you know, optimize and that would be an intuition as well so that it can be verified.  Right. This is how it all plays together. So the question then becomes, we just need to now, on mother's side, because we're just using intuition as both the identity and the verification registry, we just got to focus on the reputation side of things.  And that's where the narrative of mother, when it comes to curation and things like that, come into play. That I think we need to have different experiences, so that people can help promote that reputation.  This is going to be probably done in Discord, and there may be an app, where because if it's in Discord, Collabcellent is already managing that server, we can create slash commands.  And whatever little games that we want to play to create interaction within the . The mother discord, and then the more interactions you have, the more potential airdrop of mother, like all of that stuff will happen to incentivize as coach Jay brilliantly created the proper incentive.  There may be some incentive like games that we play there to kind of get this going, but we really need to, what I, what dawned on me is that we really need to focus on this building reputation because we're going to be curating these agents that are going to be in this list.  And we need to start figuring out what are those curation, uh, heuristics. Absolutely.
+
+28:42 - Alex Sotiropoulos
+  Y'all, I'm going to, uh, have a call. Yeah. Sounds good. Good chat. Awesome. How do you think? Yeah. Yeah.  Um. Does that make sense, or am I? Yeah. No, no, no, no. It's off-board here.
+
+29:02 - James Young (Collab🤝Land)
+  No, it does.
+
+29:04 - Alex Sotiropoulos
+  And I need to, like, have it, like, marinate in my mind for a little bit. Okay, cool. That's fair.  Yeah. Yeah, no, I think now that you've mentioned it, I kind of remember when I read 8.004, the whole thing about the verifier agents and the different kind.  And I guess, yeah, in my head, I glanced over that and sort of just thrown AVS at it and said, okay.  Yeah. So this is good to consider now.
+
+29:41 - James Young (Collab🤝Land)
+  So it's all, like, actually, I guess it's because, you know, I'm doing CollabLand and I'm doing these other things.  And so I don't get to put the time and energy to concentrate on this enough. But if, but I, you know, when we were.  Talking about the UI UX, that's when it dawned on me, I was like, wait, this 8004 scan is just an NFT holding, and people think that this has to do with 8004, it has really nothing to do with 8004, it's just a, it's an asset holder list, right?  Yeah, yeah. And there might be some things behind it, but it's all, who knows, it's not shown in the UI, so I'm going to assume it doesn't exist, right?  And then you go to that other URL that I went to, and it actually, actually is more 8004 compliant, but there's all the stuff that you need to install, and, you know, if you want to use this agent, and I don't know how that reputation score is derived, you know, so something that I think we should study, as we get now into this nitty gritty of like, okay, this is really at the heart of mother.  It's like, it's able to... Curate and make sure that these, you know, the agents in the registry are reputable, because the mother token is going to be valued on the perception of how good the mother registry curates agents.  Right, right, right, because if people think it's super valuable, and we have the mechanism in the token design to enact stuff in the registry, then, you know, there's revenue generation and the token will have some some value that it can capture.  But if the curation sucks, then the token's worthless, because no one's going to want it, because no one's going to care.
+
+31:50 - Alex Sotiropoulos
+  Yeah, curation and also just, I guess, raw transactions going on on the network, but the two kind of go hand in hand, because the more like transactions occurring,  The less noise there's going to be in those reputation signals, which will help us curate better, and so it's this, like, I guess, flywheel of improving everything, yeah.  That's right.
+
+32:15 - James Young (Collab🤝Land)
+  So it's like, but they go hand in hand. They go hand in hand because, you know, Apple is a very technically advanced company, but it doesn't show any of, it's known because it's easy to use.
+
+32:33 - Alex Sotiropoulos
+  Right. Right.
+
+32:35 - James Young (Collab🤝Land)
+  And as you get, they thought really hard about creating this halo of you have a Mac and an iPhone, and it just all works together.  So they have this leverage effect from a product perspective. And the brand is, is what sells. And when they go to the Apple store, like, ooh, this price is too high.  But it's like, because it's a good brand, people will pay their We're locked in.
+
+33:01 - Alex Sotiropoulos
+  Yeah, and then you get locked in.
+
+33:02 - James Young (Collab🤝Land)
+  So in a similar way, like Mother has to be known as the best curator of agents, Absolutely, yeah, yeah.  And then when they go, ooh, that token is a little high, I'm going to buy it. I'm going to do it anyway because it's worth it.  Because if I buy this token and I'm paying like 100 bucks and I have better results in my AI, that could be worth, I don't even know how much, right?  Whether it's saving my time so I can one-shot this, or if it's like, oh, it's a better agent to do whatever specific niche I'm trying to do and I'm a lawyer and I want to win a case, or a doctor to find something, whatever.  Like, it could be very valuable, right, and worth it. And so, yeah, I think that we need to start talking about this.  It's, but we were, we were having the kind of UI. I and the kind of like what the investor deck is going to look like and all of that, which is very important and very short term and right now, but if we are successful at the short term and right now, how are we setting ourselves up to deliver on?
+
+34:17 - Alex Sotiropoulos
+  Yeah. These are the conversations that need to be had. Yeah.
+
+34:22 - James Young (Collab🤝Land)
+  So that's where I think we're in that phase now. Yeah. think before it was too early to have those conversations, but now we have a clearer path and we're kind of a few steps ahead of all of these eight zero zero four devs, because they're just trying to create a registry.
+  ACTION ITEM: Review advanced 8004 registry link James sent - WATCH: https://fathom.video/share/7jwh1xLLxd4uXUBr3-buU9qa7NtmshPd?timestamp=2074.9999  The first one is not even a registry. It's a list of token holders. It's crap.
+
+34:44 - Alex Sotiropoulos
+  Right?
+
+34:45 - James Young (Collab🤝Land)
+  And this other one that I sent you, it's the most advanced, but that just dropped this morning.
+
+34:51 - Alex Sotiropoulos
+  Okay. Yeah. Yeah. I'll to look through that one a bit more and get some inspiration.
+
+34:57 - James Young (Collab🤝Land)
+  think, yeah, I think we're still two steps ahead of that. But the gap is going to close really quickly.  So that's why I think we need to really shift into this phase now.
+
+35:13 - Alex Sotiropoulos
+  Right. Yeah, I don't even, oh, they have a lot of agents from, I think, I think this is ASI.  That's how they have so many agents, because Agentverse and U-Agent, that's all part of like the Fetch ASI ecosystem.  Are you familiar with that ecosystem? Very surface level in my pitch deck research. I've found that like a lot of the resources on their website are also surface level.  It's a little hard because they had that big merger with Fetch and I think Ocean Protocol. And so they didn't do the best job.  Rob of, like, consolidating all of those docs together, and so some things exist on the ASI doc side of things, and then they kind of point to the Fetch docs as well, so I almost wonder if this is literally just scraping ASI, because I think...
+
+36:23 - James Young (Collab🤝Land)
+  we may want to do the same, too, and we scrape everyone. Yeah, yeah.
+
+36:30 - Alex Sotiropoulos
+  Yeah, I've never heard of Open Router, but... I've heard of Open Router. Okay. Yeah, well, alright, so our...
+
+36:42 - James Young (Collab🤝Land)
+  So, for the identity, what we want to do, or for the A-to-A cards themselves, I think we think about what Coach Jay has said in terms of getting this going, and I will work with Coach Jay separately.  Yeah. But I think that, like, this... posting your agent card is still relevant, I think. I think posting the Jason card is still relevant, because what I wanted to say to Coach J in the meeting, but I wanted Coach J to finish, and I didn't get to say this, is that he's just looking at Web 3, you know, projects.  Web 2 projects, a lot of them have A to A cards, from what I understand. Yeah. So, and then you say, great, but they're Web 2, they're not crypto.  Well, this is where AP 2 comes into play, which is another protocol by Google, that is conformant with the A to A, because it's from Google.  There was some mismatch, actually, between A to A and AP 2, but those have now been resolved. So now, your agent can have control of your bank account, your PayPal, your Venmo.  And if that agent is sovereign... ... They can automatically do the swapping themselves to crypto, you know what I mean?  That's right, yeah, yeah, I mean… Or into stables.
+
+38:12 - Alex Sotiropoulos
+  Yeah, you completely, what's the word I'm looking for? Like, it's unknown to the end user, it's abstracted away from them.
+
+38:24 - James Young (Collab🤝Land)
+  So this is why I think that we still want to do that JSON card, you know, thing that you're working on now.  And I think, but it doesn't need to be the only way. What we're going to also do is incorporate Coach J just to get the Web3 people on board.  And then I think we're going to have a parallel but separate work stream to then work on getting Web2 people on board.  And then they're just, they can accept payments. But now, what we will offer them is a way to connect with crypto agents or all…  Agents should accept crypto, so the agents are doing crypto-to-crypto with each other, and then they can settle in Fiat afterwards.
+
+39:09 - Alex Sotiropoulos
+  Yeah, I mean, I almost think down the line that, you know, we don't even brand this as Web3 at all, because nobody needs to know.  It won't, but we need to start with the niche, right?
+
+39:22 - James Young (Collab🤝Land)
+  Like Facebook started with just EDUs, but it was not branded for EDUs, and then it took over everything.
+
+39:30 - Alex Sotiropoulos
+  We start with the niche.
+
+39:31 - James Young (Collab🤝Land)
+  So we're starting in the Web3 niche, and that's fine, but then, yeah, I 100% agree with you. It's all going to get abstracted away.
+
+39:39 - Alex Sotiropoulos
+  Yeah, yeah. Awesome. Yeah, okay. When we're meeting, I guess, a bit later. Do you still, do you have time?  Do you want to just, like, knock it out now? Let's knock it out. Okay, cool. Let's do that. Yeah, cool.  Let me... ... Let me kind of share and see, so what I've done so far is I've hooked up ethers, and I've updated the setup.ts here.  to point to a Sepoia wallet and to create the Sepoia config as well, and then alongside that, created this NFT.ts, which has the ABI for the register call on the NFT contract, and there's several other functions in here, like formatting the identifier, chain ID contract address, token ID,  And also helpers for checking if this URL exists with an intuition. One of the things I was thinking of is, so the subject for the agent card is going to be this NFT ID.  And I could zoom in a little bit here, too. There we go. So this will be the subject. And attached to this subject will be a bunch of the different triples.  And one of the triples will be has agent card URL, which is eventually what this queries here. But we're only querying within the context of the mother registry.  What do you mean? In intuition. In intuition. Yeah. Yeah. Got Go down to account.address, which should be just all the mother registered agents.  My thought is, is so that that triple, like, and this also is probably an edge case, and we could simplify for now, but I wanted to bring it up.  That triple has agent card URL can exist on other subjects, not just within the mother registry. And so there's, there's a lot of edge cases there, like, I think there's a dedupe function within, I mean, effectively, maybe this is a here, mint agent identity.  Yeah. let's that's it's I love It And But
+
+43:03 - James Young (Collab🤝Land)
+  Can you describe the use case of the edge case or the use of the edge case? Because I don't see where there's a conflict.
+
+43:11 - Alex Sotiropoulos
+  The use of the edge case, I was thinking, is like the workflow right now is we search for the URL in Intuition.  And then we grab the subject to see if it has a valid NFT already created. If it doesn't have a subject, we automatically assume that there is no NFT minted for that agent.  Correct. But there could also be an agent not on the mother registry with that subject, which already has an NFT card.  And so then we'd be duplicating an NFT card when it's supposed to be like one unified identity.
+
+43:59 - James Young (Collab🤝Land)
+  No- well, ???? ? It's not one unified identity. It's that we're claiming as the mother registry. It's our claim to that.  And when someone else wants to query, they can query who's claiming and who has a better reputation. So it actually, I think it's okay because there's going to be, if you think about it in general, not just this use case, there's going to be a lot of dedupes on intuition just in general, right?  Just a lot of dedupes. That's why you need to know who is the claimer, and you filter by the claimer.
+
+44:35 - Alex Sotiropoulos
+  That's the key to this whole thing.
+
+44:37 - James Young (Collab🤝Land)
+  You always, always want to query by the claimer.
+
+44:40 - Alex Sotiropoulos
+  Yeah, I think I was going into dedupe hell for a little bit. Um, but, uh, the, yeah, the, um, okay.  That, that, so I guess what I was going to say is this, this kind of, uh, I think, in a way draws parallels to the eight zero zero four state.  When they talk about the registrations field, where you are able to list all of the, I guess, registries that you're a part of.  That's right. That would already be something that we tag on for our end, like on the mother registry, we're using this NFT.  That's right. Exactly. It's coming together much better now. Awesome.
+
+45:29 - James Young (Collab🤝Land)
+  With that said, please don't hate me with what I'm about to say. I think when we were talking earlier this morning, again, I wasn't really thinking it all through, but as you're doing this, we're essentially handing over, and I didn't really connect the dots, we're handing over our ID registration.  really good. to this random project that owns the NFT, you know what I mean? Which I think is fine for now, but I don't think it's going to be sufficient.  We just want to get something out right now. But I think we need another kind of identifier, and I think that's going to need to be a wallet address.
+
+46:29 - Alex Sotiropoulos
+  Okay, we don't want to, I mean, certainly maybe for now, this is fine. But I think like, once we get these Gaia nodes onboarded, don't you think we need to be at a place where we could say like, okay, this is, like, this is good to go?  Because it's going to cost money to do that. Like, in a way, we kind of need to think ahead to make sure that we're set up well.  Bye. Bye. Bye.
+
+47:02 - James Young (Collab🤝Land)
+  Yeah, well, what I would say is that there are going to be too many unknowns that are going to come up, and what we need to do is get everyone on the same page.  I believe, organizationally, that's the priority, so that Matt can see, and they can see these things, because when they're abstract concepts that we understand because we're in it, then it's like, it's hard for other people to contribute, because they need spun up with all that context.  There is this story, where, I don't know if you ever heard of the band, AHA.
+
+47:41 - Alex Sotiropoulos
+  No.
+
+47:43 - James Young (Collab🤝Land)
+  So they were like a one-hit wonder in the 80s, and they really believed in the song that they were doing, and everyone loved the song, it's called Take On Me, and it's a hit.  Yeah, I know that one, yeah. Yeah. Yeah. And so, what they did. Yeah. was they're like, we want to create this music video, and MTV was just becoming popular, and the label's marketing team said, no, we're not going to spend money on a video.  So what they did was they created a horrible video, but everyone loved the song. And so they're like, wait, this is not going to work.  How can you make a video that's going to be up to par with the song? And they were able to secure their budget.  So what I'm saying with that is we kind of have to do it wrong first with the holes and stuff to get everyone understanding how the system works.  And this is going to be like a POC, and so there'll be time between, and we have to schedule this, time between when we launch this and we get the Gaia notes up, and then when don't have a survey,  we get the Gaia notes up, then we know this is the time to change the identifier from the NFP to something else.  I don't know when that will be, but that's kind of what I'm saying, because there's going to be a lot of holes and a lot of things.  And this is where you get into the spiral loop of trying to create a system and thinking too far ahead.
+
+49:26 - Alex Sotiropoulos
+  Yeah, that's true. I'm already kind of doing that in my head. It's slowing me down. So, OK, those are good thoughts to have.  Those are great thoughts to have.
+
+49:37 - James Young (Collab🤝Land)
+  And those thoughts need to be written down and noted. But knowing when to address them is really the key of execution.  When do we really need to worry about this problem?
+
+49:48 - Alex Sotiropoulos
+  Yeah, I think this is like my my quality assurance habits kind of coming out as a software because that's how I started doing key ways.  So I was just trying to break  all the time on a website. that's just a really I'll
+
+50:01 - James Young (Collab🤝Land)
+  The best developers started in QA, from my experience, because you learn this intuition and you learn this knack of, like, , first how to break things, and now you're on the builder side, you're like, how am I building this and how can it be hacked?  Or how is it going to fall down, right? Right. Because you have that intuition. That's a great mindset as well for Web3 developers, because Web3 is so adversarial.  You have to know your own weakness, right? And so if you come in at QA, you're already kind of trained to look at the weakness, and it's hard if you come straight from developers without that QA background, you don't come to it, you're going to come to it with a kind of mindset of, what I'm doing is so great, I'm not looking at all the blind spots.  Right. But when you come through QA, you're building and looking at the blind spots kind of almost at the same time.  time. Which is critical. It needs to be like a ticket. I mean, it really, it should be maybe with AI in the future, you can say, hey, blah, blah, blah, blah, you'll create a Github ticket.  And also the AI will know when to surface that ticket as a blocker.
+
+51:18 - Alex Sotiropoulos
+  Yeah, definitely. No, I've, I've found it, I've found it helpful for sure. But always, like, I kind of linger on, on just acting.  And so need to find like a good balance of the two. Both are important. Both are important. You have to have a balance.
+
+51:38 - James Young (Collab🤝Land)
+  Both are important. You don't throw one away. You want to keep that skill. And you just want to add to it now.  Kind of, okay, but is this the right time to think about this and address this issue? Right, right.
+  ACTION ITEM: Push A2A/8004 branch; merge to main; wire UI; demo dummy agents - WATCH: https://fathom.video/share/7jwh1xLLxd4uXUBr3-buU9qa7NtmshPd?timestamp=3117.9999
+
+51:51 - Alex Sotiropoulos
+  Yeah. So then the last thing, well, at least it's the last thing for now, is is Oh, I think I'm thinking in terms of, so I could push this branch up when it's ready, and maybe have you review it.  We won't merge it or anything. Give me feedback. I think things will need to be cleaned up. The readme may even need to be updated, so I could kind of work on that in the background.  But then we'll have to deploy this as well, right, using Heroku? Yeah. Okay. That's not something I've done before, but I'm sure it's not too bad.
+
+52:45 - James Young (Collab🤝Land)
+  So what happens, we have kind of a build script. As soon as you push it up to GitHub main, it relaunches Heroku automatically.  Oh, okay.
+
+52:59 - Alex Sotiropoulos
+  Cool. It's CICCD. Yeah, yeah, yeah, exactly. Yeah.
+
+53:04 - James Young (Collab🤝Land)
+  So don't worry about that. Okay, cool, cool.
+
+53:07 - Alex Sotiropoulos
+  Yeah, I think that's everything that I really have.
+
+53:13 - James Young (Collab🤝Land)
+  So is there anything else? So if we can ignore the D-dupe for now. Yeah.
+
+53:19 - Alex Sotiropoulos
+  So I'm going to do a simple, I'm doing a simple D-dupe where just within the mother registry, the mother of a registry, if it exists, then I just grab the NFT ID and I will still sync, but the sync is only going to update what's already there.  It's not going to go into an NFT. Correct. So that's where I am at. And then I think once, yeah, go ahead.  I think you're done.
+
+53:49 - James Young (Collab🤝Land)
+  Yeah, yeah, I think so.
+
+53:52 - Alex Sotiropoulos
+  So like once this is done and merged, then I'll be able to wire this up to the UI.
+
+54:01 - James Young (Collab🤝Land)
+  Merge it into main, just do it yourself, you have a contributor access now, merge it into main, if it breaks, it breaks, but this is how we learn, and it might take like 10 minutes or so for it to build on Heroku, because it has to go up to GitHub, GitHub has to do a webhook, over to Heroku, Heroku has to schedule that build, all of that.
+
+54:26 - Alex Sotiropoulos
+  Right, right, right, right, oh, this Docker Compose here, I was just thinking like the base URL for the Heroku, like the deployed endpoint, like do we want to make that mother specific, I think I saw somewhere that like, it's slash intuition, I'm already using like, v1 slash mother slash agent kind of path, pattern here, so I guess maybe if the.
+
+55:02 - James Young (Collab🤝Land)
+  So I think that's a refinement, and then that API can call another API, it doesn't matter, internally, right?
+
+55:09 - Alex Sotiropoulos
+  Okay, sounds good. Let's just try it and see. I'll try to get this out today and then hook this up to the UI and see if we can get some dummy agents showing.
+  ACTION ITEM: Cancel later API meeting w/ James - WATCH: https://fathom.video/share/7jwh1xLLxd4uXUBr3-buU9qa7NtmshPd?timestamp=3319.9999  Amazing. Love it.
+
+55:28 - James Young (Collab🤝Land)
+  Thank you, sir.
+
+55:30 - Alex Sotiropoulos
+  Thanks. I'll cancel the later meeting then. Okay, sounds good. Take it easy. soon. Bye.
