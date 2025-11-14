@@ -1,0 +1,203 @@
+Mother All-Hands Weekly - October 13
+VIEW RECORDING - 30 mins (No highlights): https://fathom.video/share/BggRMq8qBAeGszVcNzeondkNpKcesRWS
+
+---
+
+0:00 - Alex Sotiropoulos
+  It's working from here for now. Oh, okay.
+
+0:03 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Is it just like downpour rain?
+
+0:05 - James Young (Collab🤝Land)
+  It's just wind. It's raining, but it's mainly just the winds.
+
+0:10 - Alex Sotiropoulos
+  Like, they're not letting any boats leave. So, yeah. Oh, wow. So you're literally stranded on the island.-hmm.
+
+0:16 - James Young (Collab🤝Land)
+  Yeah, yeah. Wow. Not a metaphor.
+
+0:19 - Alex Sotiropoulos
+  Luckily, the Airbnb has said it's fine to stay, so that's good. But we're not fully stranded.
+
+0:26 - James Young (Collab🤝Land)
+  Cool. All right. Oh, hey, Matt. Looks like we got the crew here. Shall we jump into it? What's up?  Yo, what's up, man? Yo, Sebastian.
+
+0:38 - Matt Wright (GaiaNet)
+  Hey, what's up?
+
+0:40 - James Young (Collab🤝Land)
+  Good to see everyone here. It's a party. Is it a week?
+
+0:46 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, it's a good week. It has been.
+
+0:51 - James Young (Collab🤝Land)
+  A lot's going on. It's hard to contextualize everything, but we had a good stream. You Yeah. I thought, I didn't know I was supposed to be on a stream this morning, but it was like at 4.30 in the morning my time.  No, you weren't supposed to be on it, there was no way, yeah.
+
+1:09 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, so I, but I saw some trade or something. invited to it, but like I don't think that you were supposed to be on it, especially if was 4.30 in morning.  Yeah, okay, great. I just wanted to, I didn't know if I got my wires crossed or something, so, yeah.
+
+1:25 - James Young (Collab🤝Land)
+  Cool. Cool. Shall we pop in any items into the agenda?
+
+1:31 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I imagine we'll just kind of popcorn around, get some quick updates. We can even just do that. I don't know if we need to.  Yeah, let's popcorn.
+
+1:41 - Alex Sotiropoulos
+  All right. Alex, you want to kick us off? Yeah, yeah, I could.
+
+1:45 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, I could go for it.
+
+1:46 - Alex Sotiropoulos
+  So I was pretty much just addressing all the feedback that I got on the slides, and I think they're about ready for another round of feedback, and  And I'm mainly just working on like the go-to-market slide right now, but all the other slides I've tweaked and made some adjustments there.  So I'll probably nudge Dasha and then also Matt and James again to look over. Okay, great. And if we wrap up this call a little early today, maybe we can do that.
+
+2:25 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Just get that feedback live because we have Matt and James here. And I think that this is our number one priority right now as far as I'm concerned.  So getting that feedback is probably more important than giving updates, for example. So keep that in mind when we're giving updates.  Cool. Anything else? Otherwise, we'll pass it on to James.
+
+2:49 - James Young (Collab🤝Land)
+  Yeah, I've been working on the Quiz Agent. It's posting straight into Intuition and it's all A to A. There is AP2, but I don't think that has gotten a lot of traction so far.  That's mainly for Web2. So integration with X4.2 is pretty straightforward. We have Nevermind integration. And I've reached out to Don from Nevermind saying, like, how does Nevermind fit with X4.2, but I'm just going to add X4.2 compatibility.  It looks like Base and Coinbase are really pushing, you know, things forward there. And when it comes to the narrative with regards to what Base is trying to, Jesse really is trying to promote creator coins.  I don't know if there's this space for like us. Here with these agents in Discord and Telegram to create like community coins, I don't know, something like that, but there is some traction on base and it'd be interesting to see how we could connect with them as well, because even Brian Armstrong is pushing CreatorCoins.  Yeah, Alex.
+
+4:23 - Alex Sotiropoulos
+  Yeah, I was curious for the quiz agent, who's making the payments? Is it the project that hosts the quiz agent?  Whoever is the quiz creator is creating.
+
+4:38 - James Young (Collab🤝Land)
+  Yeah, is paying. Okay. There's a transaction fee inside of the smart contracts that the quiz agent uses. So quizzes are, this is before intuition integration.  Quizzes were being stored and that logic and calculation was happening via smart contracts. Thanks, Alex. Thanks, There is a whole set of smart contracts that I wrote for it for the payment.  What we can do, though, is instead of using those contracts, we could actually, because we have intuition integration and it's logged on intuition, we can create just another pay agent that takes that information and the quiz results from intuition and pays out.  So it's not a bespoke set of like quiz agent smart contracts. It's actually using and populating the registry. So it's this weird thing where intuition is on chain.  It's a set of smart contracts that logs the data. And then so I don't have to store all that data in a bespoke smart contract.  It's on intuition for it to be searchable index and all of that. And there could just be like a payment agent that just pays out.  It's similar to what we did when it came to the AI hackathon. So I'm new. So on that in terms of design, we could have a, you know, quiz agent that does a job, but then it's really the quiz agent was doing everything, but now I can break that out to a payout agent as well.  So this payout agent could be generalized if all the data is stored on intuition. Gotcha.
+
+6:20 - Alex Sotiropoulos
+  Sounds good.
+
+6:25 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, great. All good, James. If so, okay, let's pass it on to the Ember team. Seb, do you want to give us a quick update here?  Me too.
+
+6:35 - Sebastian Varela
+  I'll keep it brief, but I think we're looking to launch an Ember demo video by the end of the week.  Coreflow here is a kit agent gets deployed in 8.004. We want to showcase discovery on a registry of some kind.  I'm not sure if we can make this work with whatever mother has going on in the front and side.  Yeah, well, let's figure out how to. If that happened, then, you know, the actual agent workflow is more of this, like, delegation-enabled agent strategy on a user's wallet through 7702.  And then kind of on a similar take to James's here, like, leaving AP2 for Phase 2, looking to build it into, like, a multi-agent workflow and kind of figure out exactly how to showcase that.  But like you said, you know, narrative is really on 8.004 right now, so focusing on that element first. And then moving towards a, you know, AP2 and kind of agent-to-agent commerce, if you will, step two, hopefully the week after.  Perfect. Yeah, sounds good on that. Not sure if there's anything you want to add there, Tom, but I think that's another high level.  No, that's good. Yeah, James, we'll catch up tomorrow.
+
+7:53 - Tom Daniel
+  Yeah, so part of, yeah, so part of the kind of the quiz agent.
+
+8:00 - James Young (Collab🤝Land)
+  Posting to Intuition, instead of the code being inside of the quiz agent, I turned it into a microservice. So you can leverage the work and the microservice I did.  We just have to decide what that event is called that this will be posted to in terms of a registry.  I think it's going to be pretty straightforward. So let's chat about that tomorrow, Jonathan. Sounds good.
+
+8:28 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, great. Thanks for that update. Let's move on to Tash. Anything on the community front?
+
+8:36 - Sebastian Varela
+  One, sorry, one really quick thing. I completely forgot, but before you get started, so I don't interrupt you, Tash.  It would be great. We're going to be really leaning into the MetaMask Delegation Toolkit, kind of for the actual use case that we're demonstrating.  So if we can get some support from MetaMask, you know, kind of to amplify that as well, like both from the 8.0.0.4 side and Delegation Toolkit, would be a good option.
+
+9:07 - Matt Wright (GaiaNet)
+  We have Francesco on these calls, should probably add them to the next one, maybe. Yeah.
+
+9:15 - James Young (Collab🤝Land)
+  But regardless, Sebel, I'll ping Francesco.
+
+9:20 - Sebastian Varela
+  Awesome. I'll get you something a little bit more tangible to share with them as well, make it easier. Okay, great.
+
+9:29 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  All right, let's bounce to Tash. Okay, cool.
+
+9:34 - Natascha Tiotuico
+  So we've been announcing the tweet, the streams in the community. It's still kind of like the normal people in there, but few have joined and are being a little bit more active than G-Mother and stuff like that, but nothing near what we want to get it to.  So we'll just continue doing those announcements. I always try to prompt the question so that people get more interested and stuff.  On to what James was saying with base and everything, is it maybe an also an option for us to think of creating the quiz agent into a base app so that we just get more like traction or maybe that would be an idea how to work together with them and like put our agents into action in base.  Yeah, yeah, I'm totally open to it.
+
+10:41 - James Young (Collab🤝Land)
+  I don't know what the amount of work is required there. But yeah, the base app is getting some traction.  So it's something to watch. But I don't know. Do you have details in terms of their distribution base, size and, you know, DAU and stuff like that?  No, I just...
+
+11:00 - Natascha Tiotuico
+  No, then like people are assuming when people do like builds mini apps and stuff that they're getting airdrops and it might just be a nice thing for us to get some traction there, but I don't know any numbers.
+
+11:19 - James Young (Collab🤝Land)
+  Yeah, it would be good to just track that at least for now and then go, okay, this is the point when we want to release on base once they have, because I think traction, it's just going to take considerable amount of work.  to build up that momentum. I think right now it's a bit still insider and early, but that's my opinion.  That's why I want to see where the data lands. Cool.
+
+11:47 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Tash, all good on that front then?
+
+11:50 - Natascha Tiotuico
+  Yes, all good on my front. Like, if we're, I think these series are really cool. So, I hope that existing.  Members will see that and kind of get into the discussion in the Discord, but let's see how that continues.  Is there any support needed for Intuition? Because I know they're going live on Thursday. Is the quiz agent going to be up?  Can I maybe refer to that to like check it out?
+
+12:35 - Matt Wright (GaiaNet)
+  I'm sure they could use some help. They're changing their strategy a little bit on the timeline. I just talked to Billy this morning.  Can I ask if they want help for sure? But yeah, I guess I want to know like what is our approach on getting the community a little more like is I'm  Are like cracked, like, I feel like, you know, we might be kind of doing some passive approach on like, keeping the community warm, but do we do we have any ideas on how we'd want to like, bring more kind of token enthusiast folks into into our community?  Like, you know, I'm sure we can do like more campaigns in Discord or Twitter, even, you know, figure out ways to promote these kind of orchestrator agents, campaigns with these kinds of folks, like, do you have any idea on like, how would want to approach that either with the current budget, or like, if we raise the future budget, like, we'll let you know, like, how do we TEDx this community, you know?
+
+13:48 - Natascha Tiotuico
+  Yeah, with future budget, we can start doing more questing, I would love to have like, at least the, like, after intuition, and we might have of, um,  The quiz agent actually in mother and kind of play with that. Hey, what are you building? Do you want to have to test it out here?  Show us your agents kind of having more of those intensive campaigns. I talked with our community strategists and we have quite a lot, but it always involves like having questing platforms, et cetera.  So I'm really waiting for that momentum to build up before we like put a lot of budget in that will not grip the retention.  So like when we have more marketing to push people into the discord, then it makes more sense also to create that flywheel.  So I think we're doing a good start with the series on streaming. But we definitely should leverage maybe also posting and guide.  And intuition, like, talking about mother and what the sense there is, like, that it's actually everyone coming together. Also, when we have the AI surveillance, oh, my gosh, AI alliance, sovereignty calls, then we'll also have, like, a bit more seriousness in the discord.  So I'm looking forward for that all to come together and then activate our discord. I think with, like, 500 members and just, like, a handful active members, it doesn't make much sense to put the budget for, like, huge questing, et cetera.  Does that answer? Okay. But we do. I have plans in place when it starts picking up, like, and I do pop in once in a while and try to create more traction there.  So, Emilia, you want to take it next? Sure. Let's pass it on to...
+
+16:28 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I'll do my quick update unless there's anything else. So my update is we've had a couple of streams. We had Marco and we had Sumi today.  And so this week we'll do some fun, like, recap video things. I'm looking for, like, the next 804 builder to get on.  We also need to get Ravi on from the Billions team and talk about them being part of the alliance.  We've got to talk about DIDs and agents. So we have that. Bye-bye. Bye Bye. Kind of like rolling, and the graphics are going to get, they were supposed to get delivered today, but I hope tomorrow they'll be sent.
+  ACTION ITEM: Update website copy later this week.
+ - WATCH: https://fathom.video/share/BggRMq8qBAeGszVcNzeondkNpKcesRWS?timestamp=1021.9999  And otherwise, I will Alex some other bios. I'm probably going to update the website later this week as well, just to make sure that the copy is fresh.  And that's it. Just going to continue trying to get mindshare around these live streams and see, especially with 804 builders, where we can get James also on the call.  Because this way we just get them talking with you. And I think it went really well with Marco, because Marco obviously had not met you before.  And I can see Marco's eyes sometimes like, oh, this guy. Okay, good. So that's kind of like the objective, really.  So yeah, so we'll see. I think the live stream with James and Marco was okay. I'm going to talk to Francesca.  It like, I mean, the 804 just came out. So they spent time going over, you know, specs. So that kind of dominated.  I made it a lot of the live stream. I'd like a little bit more back and forth next time.  So I'll pass that instruction along, which I think it was like with Sumit more today. But yeah, now that 804 is like the spec is out or whatever it is, we don't need to talk all about the details of it.  We can actually get into what this means for apps and what this means for things being built in the future and actually have that back and forth.  Right. So, yeah, I think that's it. And then the other to-do, Matt, is around token allocation amounts. We talked about that.  So that's on your to-do and I'll keep reminding you. And that's it for me. Anyone else on this call that needs to give an update?  Noah and Tom?
+
+18:46 - Matt Wright (GaiaNet)
+  Yeah, Matt, go ahead, please. You can hear me okay? Sorry? Can you hear me okay? Yeah, do it. I'm saying a loud play, sorry.  Yeah, so a quick TLDR. . . . . I think an update is I am working with the Gaia team and a few other stakeholders on a urgent prediction market for kind of a new product I'm going to be working on.  There's a gentleman by the name of Don Brennan, who is ex MakerDAO engineering, ex Infira, and then he was one of the co-founders of BioProtocol.  He's going to be kind of quarterbacking that. We want to use Mother under the hood. We are also going to be working directly with Eliza and Linnea on this.  So we'd love to make sure Mother is properly integrated. So I guess the only blocker there is just keep up to date if I introduce you to Christian and that team.  We'd love to make sure Mother Registry is helping validate the agents that are on that prediction market. And I'll send Speck.  So you guys can kind of see what we're doing. The other thing is I want to get the front end UX of the registry tip so we can start tinkering with it in public.  I think I posted in the telegram chat for everyone, but however we can quickly get to some sort of a mockup with the intuitive interface, the more we can start talking about it with developers and agent builders.  So I would love to know like a timeline or scope on how we could get that fixed. And last but not least, yes, I'll work on token economic model lightly.  And then Alex, I'll provide you feedback to Jack by today. Okay, cool.
+
+20:51 - Alex Sotiropoulos
+  And yeah, James, I think, I mean, you were showing me that kind of intuition dashboard and mainly it just needs some, some, some clean up and like mapping.  And the metadata to like actual legible names. And of course, you know, things can always be made nicer, but I think it's pretty close, right?  Cool.
+
+21:15 - Tom Daniel
+  One quick question. Is this dashboard going to be ready? I don't know. What's kind of the timeline on that?  Because, you know, we, as Varela mentioned, we want to showcase 8004, the registry, and mother as closely as possible, if it's possible.  And, you we have the opportunity to come off that into our demo video if we need to, if it's not going to be live, you know, by the time we do the recording and everything this week.
+  ACTION ITEM: Prep for tmrw's mtg w/ Tom re UI/registry demo for Ember. Ask Alex (Intuition) about UI readiness for demo video. Ping Francesco re MetaMask support for Ember demo.
+ - WATCH: https://fathom.video/share/BggRMq8qBAeGszVcNzeondkNpKcesRWS?timestamp=1297.9999
+
+21:48 - James Young (Collab🤝Land)
+  Yeah, I think we have to coordinate. Maybe we should talk about that tomorrow, Tom. Yeah, sure. So, Can you rephrase that?  I think I understood, but I just want to make sure that we can set ourselves up for the meeting tomorrow and I can start coordinating today even.
+
+22:14 - Tom Daniel
+  Yeah, so basically, you know, part of our demo video that we're planning to launch by the end of the week, the very first part of that is discovering the Ember agent on an 8004 registry.  And, you know, we want to showcase Mother in that beginning process of this demo video. I see what you're saying.
+
+22:37 - James Young (Collab🤝Land)
+  And then you need that, that's associated with the UI because you want a visual representation? Yeah, yeah.
+
+22:45 - Tom Daniel
+  I mean, that would be ideal. You know, we can show terminals and stuff in the background, but the more visual, the better.  Yeah. Yeah. Yeah.
+
+22:55 - James Young (Collab🤝Land)
+  And that's for the end of this week? you. Yeah, yeah.
+
+23:01 - Tom Daniel
+  We're hoping to, I mean, we really want to launch this this week. So we can, you know, hack around it as well.  If you have some UI screenshots that we could come up, you know, we could have like the demo part terminal part working in the back end, but you know, maybe the front end is not deployed yet, but we at least have like mocks that we can use in a demo video.  We could do maybe something a hacky like that if we need to, if you all wanted to showcase, you know, your final vision there.  I have a call with Alex from Intuition.
+
+23:33 - James Young (Collab🤝Land)
+  Uh, I'll ask him and then come prepared to the meeting that we have tomorrow to better discuss this then.  Okay. Sounds good. Cool. Okay.
+
+23:46 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Let's take, um, the last, let's use this last cause we have this booked. Alex, do you, I think the rest of us can drop out.  Can you walk Matt and James through and get some live feedback on the deck so that we can like continue to power through with that.  Yeah, yeah, absolutely.
+
+24:03 - Alex Sotiropoulos
+  Okay. Thanks, everyone. Thanks.
+
+24:09 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Matt, you stay on. Don't you go anywhere, Matt. Did he go? No, he's here. Okay, good. You're not off the hook.  All right. So, yeah.
+
+24:26 - Alex Sotiropoulos
+  I won't show the old slides. So, I mean, I've restructured the slide. I think it was a little busy earlier on, but Dasha left some really good feedback here telling me to draw some urgency to this problem with this kind of trust gap metric.  And then furthermore, like introducing this why now slide discussing how the agent economy and agent adoption is going to be.  Soaring, but on the other hand, people are losing trust in, in, in really allowing agents to run, run free.  So that would then really, um, set the stage to introduce mother. And I think this slide could definitely be, um, cleaned, cleaned up, uh, a little bit.  Um, but I, I really want to just have a clean, punchy, um, outline for what the product is and how, uh, it's, it's, uh, achieving, uh, what we're trying to do.  And then the other big change was, is the, uh, competitive landscape slide here. Um, before I just had like two boxes here and, um, the big tech companies were, uh, separate from the web three companies.  Um, but I figured it'd be good to just do everything in one table and. You know, like different categories for each of them, I'm thinking maybe it's a little much visually just in terms of like wordiness.  So I could probably try to simplify this and maybe even do something with just more like checkboxes and symbols rather than too much text.
+  ACTION ITEM: Update go-to-market slide, rework statistic in deck. Reach out to Dasha for more feedback. Do inventory count on all slides.
+ - WATCH: https://fathom.video/share/BggRMq8qBAeGszVcNzeondkNpKcesRWS?timestamp=1586.9999  And yeah, I mean, those were the main changes. I'm still currently I need to rework the go to market slide, but I should have that done today.  And I also have to rework one of the statistics here. But other than that, I think that's pretty much the changes that were made.  And I. And I think I'm going to reach out to Dasha again because she's been providing some really in-depth feedback that's been helping me kind of push things forward.  But, yeah, I mean, that's that's all I have. I think at the end of the day, I'll probably do kind of, I guess, an inventory count on each of these slides and make sure that I, you know, have everything that I need.  And so I could probably poke you, Matt, for those specifics.
+  ACTION ITEM: Review updated deck, prepare feedback for 15min call w/ Alex tmrw. Work on token allocation amounts.
+ - WATCH: https://fathom.video/share/BggRMq8qBAeGszVcNzeondkNpKcesRWS?timestamp=1669.9999
+  ACTION ITEM: Schedule 15min call w/ Matt for tmrw to discuss deck feedback.
+ - WATCH: https://fathom.video/share/BggRMq8qBAeGszVcNzeondkNpKcesRWS?timestamp=1669.9999
+
+27:52 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, anything else? No, I think I just need to revise the back and just give you, like, some comments on a loom.
+
+28:00 - Matt Wright (GaiaNet)
+  Yeah. I think there's just a lot I need to digest, it probably wouldn't help if I do a call, give me, give me like, if anything we could probably do like a 15 minute call tomorrow where I give your, like, I just need time to review, that's all.  Yeah, yeah, no, definitely.
+
+28:20 - Alex Sotiropoulos
+  Sounds good. I'll, I'll reach out to Naomi then, and maybe try and have her throw us down for 15 minutes tomorrow.  All right. Yeah, maybe we can call it.
+
+28:38 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  No, I think I'm all good on my end. Okay, great. Hey, Matt, I know you have a meeting with Ryan in like 15 minutes.  Are you good to hop on sooner? Because then I can join as well. If not, you can talk to him in 15.  I can jump now, yeah. Okay, let's, let's hop on the link that he has with you, and then I'll get him on the call right now.  Okay, do you guys actually, actually send me that?
+
+29:02 - Alex Sotiropoulos
+  I owe you that.
+
+29:03 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I promise I'll get those to you tomorrow. Okay. Sounds good.
+
+29:06 - Alex Sotiropoulos
+  maybe just a short little bio snippet would be awesome. Okay. Sure. All right.
+
+29:11 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Thanks, guys. All right. you. Thanks a lot. Bye. Bye. You
