@@ -1,0 +1,193 @@
+Mother Status - October 15
+VIEW RECORDING - 25 mins (No highlights): https://fathom.video/share/RjQHSSC7Rto45Wuux1Q18s7vWVBXfKFR
+
+---
+
+0:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  But then I will put together in the coming, like probably earlier next week, maybe later next week, just kind of like some document, like kind of like a one pager for projects who are interested in potentially getting involved.  Because I love the idea of like a polka dot getting involved. Polka dots like big, they got deep pockets.  And if we can come up with a really strong why they would want to participate kind of thing for the projects, not just people like raring around the movement.  I think that we could turn this into something like actually kind of meaningful that Matt was telling me the Ethereum, there's the Ethereum Alliance or something like that and they pay like 5k a year to be a member of that.  So that would be really cool if we could charge some sort of like joining fee and this way all the projects can help fund an actual administrator on the project that helps coordinate these projects to work together on actually building things like mother and other things.  future infrastructure projects. Um. Yeah, so that's kind of a quick update from me. And James, I'm pretty sure that Intuition moved their TGE.  They didn't respond yet, but I'm almost positive they moved their TGE to November. Okay. Awesome. Yeah.
+
+1:14 - James Young (Collab🤝Land)
+  Thank you for those updates. I have an update. I have an Intuition integration that posts to a registry that is somewhat 8004 compliant, with the latest status update that they pushed out with all of the new changes.  There's some work where your agent has to have an NFT and all of this stuff. So I worked with Tom from Ember and we're going to be delivering and Tom will showcase a video on Friday with this integration into Mother.  And it's, it's kind of like, uh, it, it, it's in a Registry, it's not fully 8004 compliant yet, because the agents have to do a bunch of stuff in terms of the NFT, like all the latest stable version of 8004, and so we're going to step into that, and this Friday's integration is going to be the beginning of that.  So we are getting that going, and yeah, I think that there's some other opportunities that I'm looking at for these communities to also launch like community coins with them inside Discord and Telegram, and getting a bunch of interest there, and trying to insert mother as part of that flow so that these agents can kind of like bridge, swap, trade, and do all this.  So that's happening. So it's a lot, it's a bit small. Different. There opportunities that are coming at different rates of change, and the tricky part is corralling everyone there, so just been kind of busy just coordinating essentially, but from an implementation integration perspective, Ember will be integrated into this precursor of the stable version of 8.0.0.0.4 on Friday.
+
+3:27 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, great. Just being mindful, because we usually have this as a pretty short meeting. One thing, I think that it's worth covering three quick things.  One is getting a quick update from Matt. Two is, James, I think one thing that would be helpful is if you can do like a three-minute, I think you have like a visual registry that you can actually show us.  Is that right? Or no? No, no. It's on intuition, and I've been talking with-
+
+4:00 - James Young (Collab🤝Land)
+  Alex from Intuition, the problem with the current UI that Intuition has, it's very, very generic, and it is something that can take in all use cases.  So you have to know the UI and kind of understand how to use it to see the benefits of how this is a mother registry.  It does exist. I asked them if, you know, we can just modify it a little bit, and we had talked about it.  But they're saying they're swamped right now until they're TGE, and Alex is actually on his honeymoon this week. So he's out, and so he's going to get caught back up next week.  But he's saying that there's really nothing that they can do bandwidth wise until after their TGE. Okay, got it.
+
+5:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Matt, do you want to comment on that? Because I think that this is going to be a blocker for us with the Legion conversation.  Like having a visual to show them on top of our deck, I mean, I think it will help push them over the edge and just be like a really easy yes.  So, I don't know, Matt, do have any thoughts on that?
+
+5:17 - Matt Wright (GaiaNet)
+  Yeah, who between us or like even EXO or any of the team members could ship something?
+
+5:23 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  But EXO, we haven't talked to this EXO team in like months. So, I don't know how connected they feel to the project anymore.  I've been DMing Siraj.
+
+5:33 - Matt Wright (GaiaNet)
+  Like I've got a contract going with him to ship some things. So, like I could get someone on it.  I just need someone to ship it. I'm just curious who would be like accountable or interested in being accountable.
+
+5:46 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Thoughts, James?
+
+5:50 - James Young (Collab🤝Land)
+  That's a good question. I don't know. mean... Does it have to be the intuition team?
+
+5:58 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Like, can we get it outsourced to someone? you them? Hope!
+
+6:01 - James Young (Collab🤝Land)
+  I mean, you can use the intuition indexer, because it's all on-chain, so there's nothing preventing someone, but then they would have to create the UI from scratch, and that's like its product development and all of that.
+
+6:18 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So we're kind of, we are kind of, if we want to use the existing UI that's kind of almost there in generic, we need intuition to do it.  Otherwise, we're designing something from scratch, and they're about timelines. If intuition's doing TGE in two to three weeks, by the time someone started from scratch their own UI, it would probably end up being the same amount of time.  Probably.
+
+6:42 - Matt Wright (GaiaNet)
+  What's everyone working on right now, too? Alex, you're going to be kind of accountable for strategy, fundraising, and kind of team.  And then, James, you're more just like kind of advising right now?
+
+6:58 - James Young (Collab🤝Land)
+  I'm doing integrations with like Ember. And these agents and updating the orchestrator to be 8-0-0-4 compliant because there was a difference between when the first spec came out in draft and now that it's in stable, it actually answered a lot of questions but raised a lot more questions because it's still a little bit high level.  What's on-chain? What's off-chain? How do these agents connect? How do they get paid? There's interfaces for that, but there's no definition around how to implement it.
+
+7:37 - Matt Wright (GaiaNet)
+  So Alex, are you interested in PMing this? Are you able to or what's about I mean, yeah, I could definitely like build the dashboard like this out.
+
+7:48 - Alex Sotiropoulos
+  I just need like some clear guidelines for what we're looking for. I mean, if we want to use kind of that intuition mock-up as like base, as a base.  He's just like a starting point, I can like adapt it. I have a UX guy that can help too.
+
+8:07 - Matt Wright (GaiaNet)
+  Okay, that'd be, that'd be sweet.
+
+8:10 - Alex Sotiropoulos
+  Just getting more UX help because that's, that's like the thing I think that takes most of the time for me is UX out of things.  But if I have like some kind of UX wireframing in place, it shouldn't be that bad. And I can work with James on plugging into the right APIs and whatever I need to do to fetch relevant data.  okay, cool.
+
+8:37 - Matt Wright (GaiaNet)
+  Well, that actually, that's, that makes it a little easier. We have a gentleman named Christian. I'm, so I'm working on this prediction market, which fits in very well with the registry.  The prediction markets run out of the meta. Like if you like high level, like what we're building is a, an intelligence market.  So I've been having chats with like Shaw from Eliza. And Recall, Giza, a bunch of other products, Naus, Naus Research, basically finding DeFi agents that can do a verifiable position or skill in DeFi.  So imagine that agent can be like an OTC provider, one agent can be a -to-dex arbitrage agent, one can be an ROI trader that's kind of measured by ROI, one is managing liquidity pool, and you can basically have like spreads for like if the agent's doing, like, did this agent do, you know, ROI and investment, like 20% in 24 hours, or did it hold this, you know, 5% APY for seven days?  So you can have like little prediction markets on it, and then you can actually talk to the agent and arbitrage kind of the alpha, you can...  Talk to the agent directly and be like, hey, are you trading anything on BNB today or anything on base?  And then, you know, investors essentially would take both sides and be like, well, I think the agent is lying to people.  The other people can be like, well, I actually have a strategy where I know exactly what the agent is doing for the day.  So you can have some really interesting intelligence market. And it's just a matter right now. I think we get some really heavy hitters behind it.  Linnea really wants to work on it. Joe specifically really wants to work on it. And so I'm trying to just go with the matter right now.  But under the hood, what that prediction market requires is a proper way to verify that the agents have done their on-chain financial tasks that they say they're doing.  And you need to have, if you look at any of these prediction markets, it'll say like, you know, the, the result of the prediction market is true because this source, you know.  there that addship. And He's Basically verifies it, and so it really does matter that one, we have 8004, but also we have mother to perhaps verify the kind of agent behavior in some way, or maybe even like if, because the KPI will be how many markets can the agents be a part of, not so much like how much can they make, but really about like, oh, you know, people are betting more on these agents are creating more markets because they have such, they're not like, they're trusted, like they have the same kind of track record over and over again.  And so if we have that, we can actually use that as like sentiment or reputation in mother. So I'm trying to find ways that they work together.  But yeah, the prediction market is something I'm cooking on right now. If you have any ideas, let me know, but kind of putting together a separate sprint on that.  I don't mean to be doing so much at once, but it just kind of got legs. don't I was going say something else about Mother.  Oh yeah, that's kind of my curiosity. So I have a UX product guy who can help make both work.  So maybe there's some way where the prediction market is powered by Mother and we make it visual. But if you guys have any ideas on how do we enable 8004 and how do we look different than Chaos Chain?  I don't know if you guys have talked to Sumit and those guys. Yeah, we just had Sumit on the live stream.
+
+12:34 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  We had Sumit on the live stream on Monday. Cool. I have a call with them tomorrow.
+
+12:40 - Matt Wright (GaiaNet)
+  So I just want to figure out how do we make sure we are showing full force that we're doing.  We're creating this whole ecosystem of like an infinite garden of machines. We want to make sure that like there we show show kind of like the verification.  Verification. We had a whole ecosystem of people doing things, now it's like the space has grown a ton, but I just want to show Mother as a clear offering, you know, and I think we need like the registry product to be something visual, but maybe it's visual to developers, I don't know, we need to think through this kind of visual piece, because that's going to help the kind of fundraising sprint, and, you know, get things moving.
+
+13:38 - Alex Sotiropoulos
+  Okay, yeah, that's something I'm happy on working on now, assuming we get the UX kind of set of things figured out.  And yeah, I think for investment purposes, like having something to look at is always nice, too. And it may not be like that long term, but always an easy sell, like you mentioned, so.  result gap!.aj There's I watched I looked at the deck, too.
+
+14:01 - Matt Wright (GaiaNet)
+  I was getting my comments, and then I got pulled into two other calls. I'll have updates, too, in a few hours, but generally, it's good.  I think the biggest thing is a little bit of pivoting the storytelling just ever so slightly, and then I think we just need to do a rebrand, which has nothing to do with you.  So, Coach, maybe you can work with me and Christian. Christian's a UX guy. We can maybe pull something together.
+
+14:26 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, I've been working on the Oasis, the prediction market stuff, so I will probably have time to work on that on Friday, but that's kind of, like, already said.  actually spoke to the designer. were just, like, I had a question, and basically, like, we're going to go, the TLDRs, we're going to go with the Renaissance branding, and we're going to do it across Gaia, Mother, and AI Sovereignty Alliance.  That's going to be my suggestion, and the whole idea is that, like, there's all these different kinds of imagery.  Like, there's kind of, like, this ancient ruins kind of type imagery, and this would be for one of The brands.  I don't know which one yet. This could be Gaia, for example. And then for Mother, it might be more of this scenery kind of painting or these clouds and stuff like that.  And then for AI Sovereignty Alliance, it can be more of these kind of swaths and stuff like that. So I need to just quickly touch it.  He said he would make a Retko for us, but that's how they'll all tie together. They're all going to be with this sick Renaissance branding, but they'll all be a little bit different, but close.  Okay.
+
+15:30 - Matt Wright (GaiaNet)
+  Let's, we might have to pivot because if we're raising, we don't want them super aligned. It's not a good look.  We don't want them aligned.
+
+15:39 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  We don't want what aligned.
+
+15:40 - Matt Wright (GaiaNet)
+  You need separate, you need separate design, design styles, or what do you call it? Design families, because it can have hints of it.  But if it looks like I'm raising another round for Gaia through another product, it just doesn't look good. I mean, it has to look at a separate company.
+
+15:59 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  has at separate company. Christian's and a designer. I can't do this myself, personally, I'm not That's what I mean, we need a designer.  Yeah, Christian's a designer, is I'm saying. Oh, got it. Okay, cool. I can work with Christian on that. Cool.
+
+16:13 - Matt Wright (GaiaNet)
+  And then Christian can help you with the UX, Alex. I'll convince him that it makes sense. Yeah.
+
+16:20 - Alex Sotiropoulos
+  And for the slide, should I be telling the story of the Sovereignty Alliance, or do you guys think that'd be too distracting for the time being, just focus on the main piece, or would it look good to say, like, hey, this is the Sovereignty Alliance.  These are the other companies associated with it. I mean, I could have, like, one slide on it, potentially.
+
+16:44 - Matt Wright (GaiaNet)
+  I think one slide's cool. Yeah. I've been trying to think, yeah, Coach and I need to meet up and think about the whole house of brands of sorts.  Yeah.
+
+16:57 - Alex Sotiropoulos
+  Definitely don't want to be distracting.
+
+17:00 - James Young (Collab🤝Land)
+  Oh.
+
+17:00 - Matt Wright (GaiaNet)
+  Um, like putting the investor hat on, like looking at the deck, like it's a lot. I'm just like, uh, you know, trying to find the clear takeaway.  And then like, you know, you see things like, you know, eight, zero, four, and then we increase competition. So like, well, where, like, why mother, which there's already an open protocol for registration?  Like, why, what's the benefit of, um, having a network for this? Um, so I'm trying to just, you know, figure that out.
+
+17:32 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Which Polkadot has now experienced, has expressed interest in participating in as well. Mm-hmm. Yeah, I haven't, I haven't heard much about Polkadot in a long time.  No, I, I also haven't, Sydney, but Sydney used to be part of that, um, that ecosystem. And they were like, oh, what's this AI Sovereignty Alliance?  That sounds pretty cool. Um. Yeah. Look, why not?
+
+17:54 - Matt Wright (GaiaNet)
+  But, um, definitely don't want to get distracted. Um. Thank you. I think it was money. That's what I'm thinking as well.
+
+18:04 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Definitely facilitates potential memberships, membership fees, if you will, moving forward.
+
+18:12 - Matt Wright (GaiaNet)
+  Alex, do you have a strategy document, aside from the deck?
+
+18:17 - Alex Sotiropoulos
+  No, I've been meaning to piece one together, like a holistic... I started one. I'll give it to you, and then you can just take it over.  Great. Because I also, I think it'd be good for me when I do the presentation, like really digging into each...  You need a script, And I think really doing a deep dive into the product itself will help with that.  And I know like Sumit from Chaos Chain has requested some documentation like that as well. So I've been meaning to put it together.  I've let them know that I was like kind of falling behind on it, but... Yeah, they like... online as well.
+
+18:55 - Matt Wright (GaiaNet)
+  They already got like an angel investment from... Like... He just texted me, where is it? He said he got Angel from Michael, who's the founder of Zero-G, Nader, Eigen, and even frickin' David from EF, cut a check, Chainlink, Presto is one of our investors, the founder of Mode, I don't know what Mode is, but like here, I'll show you, here's kind of how they're doing fundraising.  I'll just share my screen, whatever. Yeah. Well, actually.
+
+19:43 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Hey y'all, I got a drop? Yep, I can just continue with Alex, no problem.
+
+19:48 - Matt Wright (GaiaNet)
+  Yeah. Sounds good to see you, Coach.
+
+19:50 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  See you there, dude.
+
+19:52 - Matt Wright (GaiaNet)
+  Oh, there, dude. So, you can see my screen?
+
+19:58 - Alex Sotiropoulos
+  Yep. man. Yes. Yes. Yes. Yes. Thank
+
+20:00 - Matt Wright (GaiaNet)
+  It's like hit me up, it's like, yo, quick update from our side, quick blurb, tweet to like what they're doing, but it's probably a tweet thread, and then like watch, if we go to the thread, it's probably like visuals, yeah, the official demo.  It is 26 seconds, then programmable labor markets, that's pretty cool. So anyways, he kind of like, pretty pitch on that, and then, then he's like, oh, we just, you know, confirm, every time they got an investor, he's like, just confirmed like this guy, this guy, this guy.  And then, I thought he gave me a full update on the, oh, here we go, here's like the full, this is kind of a normal investor blurb.  Yeah.
+
+20:58 - Alex Sotiropoulos
+  So what we do.
+
+21:00 - Matt Wright (GaiaNet)
+  Team. Team's very important.
+
+21:05 - Alex Sotiropoulos
+  Traction, of course. Roadmap.
+
+21:08 - Matt Wright (GaiaNet)
+  Ask. Very clear ask. is like, I'll give them kudos. is very clear offering here. I can even send you this if you want to mock it.  Yeah.
+
+21:20 - Alex Sotiropoulos
+  I think this is your... You? Yeah, it's yours. I should name your name something in there. Like a picture.
+
+21:29 - Matt Wright (GaiaNet)
+  Yeah. Yeah, so they got like a link to the Notion, you go to the Notion, and it's pretty much the same.  It's like an expansion of what they wrote. Yeah.
+
+21:47 - Alex Sotiropoulos
+  But like... Yeah, this is what I want to like have drawn out, like multiple pages and...
+
+21:56 - Matt Wright (GaiaNet)
+  They even have a light paper. This looks like the same. line getting Same information, actually, but then they got the team, we can put names down, no problem, and then, yeah, they just document everything, I can help you get all this stuff out, but basically he said they're raising, what is it?  Yeah, raising 1.5 pre-seed, there we got 200k in, and I think his update to me was, yeah, it was just like, been strong since 0G integration, and SDK launched 1.2k.  Downloads, so they're putting like a SaaS with like downloads. We can probably like show how many like agents are going to the registry.  We can show like, like, yeah, it's like a hosted registry. It's not necessarily an SDK. So, yeah, it's more like transactions, like traffic.  Yeah, so we need to figure out a way to drive that, but just wanted to show you kind of how we can get like something like that to, or like just kind of copy their flow, like getting people on board.  Yeah. Okay, cool. Well, yeah, let me give you that strategy doc, and then I'll give you the my edits on the deck.  But and then I'll introduce you to Christian. I'll talk to Christian. I have to ask him nicely if he can.  He help us with the light product mock-up and the deck. He's pretty bored right now, so I think he'd be down.  Okay.
+
+24:10 - Alex Sotiropoulos
+  Yeah. Yeah.
+
+24:13 - Matt Wright (GaiaNet)
+  And then from there, like, yeah, let's just get this deck out so we can get you on the ground.
+
+24:19 - Alex Sotiropoulos
+  Agree. Sounds good. Cool, man.
+
+24:24 - Matt Wright (GaiaNet)
+  Thank you, sir. Thanks, James. Take it easy, guys.
+
+24:27 - James Young (Collab🤝Land)
+  Hey, Alex, do you want to meet now instead of- Let's meet now.
+
+24:31 - Alex Sotiropoulos
+  Let's meet now. cool. I was going to ask you the same thing.
+
+24:35 - James Young (Collab🤝Land)
+  Oh, we can just continue this meeting, continue here, or you want to jump into- Oh, we can hop in there, so that way Coach J's note-taker ends, because- Okay, cool.
+
+24:45 - Alex Sotiropoulos
+  Yeah. I'll see you there right now. Yep. Thanks. Bye.
