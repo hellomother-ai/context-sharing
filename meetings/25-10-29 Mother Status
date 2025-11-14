@@ -1,0 +1,226 @@
+Mother Status - October 29
+VIEW RECORDING - 33 mins (No highlights): https://fathom.video/share/3cz7cXozypQ6sgyTsDSt7ZD8sA8oykcs
+
+---
+
+0:00 - James Young (Collab🤝Land)
+  Kind of get setting the context for Coach J in terms of this para-employee, whatever we're wanting to call it, to the best of your knowledge, and then talk about this new framework that me and you talked about, how on Friday and what we're doing becomes a shelling point.  Yeah, definitely.
+
+0:22 - Alex Sotiropoulos
+  So, I mean, we were thinking of this. And I love the coffee and tea sweatshirt, by the way. Yeah, thank you.  I like that you called him out on a Costco sweater. We all have that sweater. We all love Costco.  Let's be real. cost low. So, James and I are thinking of kind of leveraging these partnerships that we have and trying to position ourselves in such a way that, you know, we can, we can get our partners to help us out.  What about if, um. What about this? uh By helping them out by spreading the by spreading their product through mother.  And so the idea is, is that if we can convey, you know, these sort of tasks in a way like do you do something for us and we can distribute and amplify your voice through the mother registry, then, you know, this could be something mutually beneficial.  And we also, you know, won't necessarily have the overhead of needing to do a lot of that work on our on our own.  And so, I mean, with this sort of integration with intuition, this is kind of like a high value traction moment for them to, you know, do a lot of marketing and whatnot.  And so obviously we should try and make things easy. It easy for them as possible, but at the same time, we kind of killed two birds with one stone in getting this demo done for us as well, but we have framed it in a light in which it's beneficial for both parties involved.  Sounds good. I like it. Let's do it.
+
+2:16 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, I think this is similar to kind of like what we talked about in the past, this whole, like, this intuition thing.  This is a perfect example. They literally don't have anyone using their UI right now. Like we are their first users.  They want to promote that. And so the more that we use it and show it up, the more likely they are to show that off to their audiences and get the word out.  So this sounds really clear and aligned to where my head was at initially with this.
+
+2:43 - Alex Sotiropoulos
+  So I actually reached out to Alessandro and he seems like pretty excited about doing something like this. Amazing. Amazing.  I notified him that I'll be on a call with with YouTube and he said he's happy to loop in growth folks to get.  That's great.
+
+3:09 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I haven't been able to get in touch with Matt, so if you can get him on a call, that'd be great.
+
+3:13 - James Young (Collab🤝Land)
+  And then also DevRel. Just real quick, if I can interrupt, just to set a little more context. So what I've done with Intuition is I created an API server to make it really easy to post to Intuition, because I was one of their first kind of beta dev users, and it's just  too hard.  So I've been giving them a lot of product feedback. And what I'm saying is, like, you know, you have to create an API server.  And they're like, our team is, like, too busy on TGE now. We cannot, like, you know, pay any attention to this.  So I said, fine. So I created the API server, and Alex is using it. And what we want to do.  What do is post our agent card, and, you know, it gets put onto Intuition. Which we have our first agent card, by the way.
+
+4:12 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  He said that they pushed updated contracts and switched to the portal app.
+
+4:19 - Alex Sotiropoulos
+  So you won't see any data you create until they update the SDK. Is that what Alessandro is saying? Yeah, yeah.  He's saying that you may need time for migration, but the existing stuff should still be visible in the CLI.
+
+4:37 - James Young (Collab🤝Land)
+  Okay, so, you know, this is where, like, the coordination mismatch is happening. So we may not be able to demo that UI on Friday, but let's talk about it in the loop.  But just to go back to my point, and I apologize for interrupting, Alex. What I want to clarify is that I'm going to be on an X space with Intuition on Friday.  ... ... ..." ... ... You At 1230 Eastern, and if we can actually post, if Alex can post his demo of posting to an agent, then we can showcase that in the intuition space, and what intuition will do is retweet or amplify our posts, as an example, and this is how we get the intuition users to grow our mother user base, and this is how I was saying with Alex in terms of like these partnerships, because intuition has a very large and rabid following, more so than mother, and so we've got to, we've got to climb up this kind of momentum of building up our community by like basically vampire attacking, if you will, the intuition reach, right?  And so there are these like valuable, but it's hard monetarily to be able to price this. So we're just doing this kind of barter, and  What we're leveraging is the mother influence, and we're dangling Collabland Discord users, and we're dangling all these agents that are able to come on to the registry in front of Intuition, and we're leveraging that.  So this is how, marketing-wise, we're leveraging our partnership with Intuition, if that makes sense. Clear. So we're playing the influencer game right now with Intuition, using mother as the influencer here to help promote Intuition, but also be able to get from their users from their reach.  And people are going to want to amplify mother as a use case for Intuition. Why? Because they pre-bought the Intuition token.  They're going to want to, like, pump this as much as possible. So this is a marketing strategy that backs into, we don't have a lot of money, but we have a lot of potential influence.  We have a lot of partnerships, and we've built and accrued. We've this trust over, let's say, 10 months, 11 months since we started Mother, like, from the very beginning, and so this is how we leverage that right now.  It's kind of the motivation behind all of this.
+
+7:19 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Great, and it's super helpful to have Alex teaming up with me on this kind of, like, influencer marketing aspect of things, because, yeah, it's great, because you're just really close to the product right now, and sometimes this escapes me just a little bit.  Definitely, no worries.
+
+7:36 - Alex Sotiropoulos
+  So, I guess, how do we, like, what do we envision this demo looking like so I can, like, frame this to Alex from Intuition?  And, yeah, yeah, like, what do we picture?
+
+7:53 - James Young (Collab🤝Land)
+  Yeah, so now we have this wrinkle where Alex was saying, or Alessandra was saying that the UI is not showing.  We might have to do with the CLI that that's going to change the nature of the demo. And I don't understand.  I just heard about it in this call right now. So if you can, Alex kind of figure out what, what, what is it?  Is it a CLI demo? Is it going to be a UI demo using the old endpoint, old contracts?
+
+8:20 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I can either of those will work. I think UI will be more impressive. The CLI also works as long as it's showing some functionality, right?
+
+8:28 - James Young (Collab🤝Land)
+  Yeah, and the demo would be, ideally, you take a JSON card, you hit this API endpoint. This is how it's easy, how easy it is to register with mother, and it shows up in intuition.  And then we talk about 8004 for the rest of the time. So now we have it on intuition. Intuition is the registry.  You see how easy it is for an agent to post to the registry. We have this orchestrator, which is outside of the registry that only looks at this registry to be able to then subtask out and there's all.  Orchestrator agent. Who's this orchestrator agent? It could be the Collabland bot, which is already in all these discords. So there's no distribution.  This is the story that we start to paint. And then that's going to bring in to mother all of these agents because they're going to want free distribution.  And this allows the orchestrator agent to become a lot more feature rich, right? But there's credible deniability because if it's coming through the Collabland bot, the Collabland bot, anyone can verify, is using the registry because they're looking on intuition.  We're so close.
+
+9:34 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  can taste it. I've working on this for so long. It's like finally happening.
+
+9:40 - James Young (Collab🤝Land)
+  Yeah. I mean, we started, we started too early. Like if we started. I mean, we're, we're now the protocols like built and ready to go.
+
+9:48 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So I think it actually, we've got to like, I'm, I'm working on the deck right now. like, we've got a head start.  Like people might be pitching this at the same time as us, but they're like, we're building this. And for us, it's like, we've built this.  Yes. Yes. And all we're doing is just updating 804 standards. That's literally the last thing we have to do.
+
+10:06 - James Young (Collab🤝Land)
+  The last thing that we have to do. Exactly right. Exactly right. So that is a nuance. This is why I was like, MCP, because we started this before MCP existed.  We started this before ADA existed. We started this before AP2 existed. We started this before, you know, what was it?  X402 existed. Yeah. Before all these standards existed. And these are parts of the stack that have been solved by big players that already have credibility.  So we built everything, and we're now just complying to standards. And so this is where it's hard to explain that, but that's going to be part of the slide deck.  We, and we're one step ahead. The, who we're competing against are those that are also 8004 compliant that have as much distribution as we We do.  And I don't know who that. That is. That might be Coinbase through their wallet. It could be, you know, other competitors here.  And so this is where we're not. I mean, maybe part of the narrative is that we are grassroots and we're coming from the ecosystem and communities.  We're not the singular entity like Coinbase through base because there is that they have to just the only ones that have distribution are those that are centralized.  Right. But that that story has already been told through the  and DEX competition that people are now going, wait, let's just do DEX only token launches first.  And so we have the distribution like a centralized entity. That's why we're comparing ourselves to a Coinbase, but we're grassroots that may affect how we pitch our our funding.  Yeah.
+
+11:59 - Alex Sotiropoulos
+  Yeah. Yeah. Okay. So, I mean, my thoughts are in my head is like Friday's pretty short time in terms of trying to get something done and dusted.  And whatever the demo is, it should be a video recording and rather than like a live demo to deal with any issues.  So, you know, I think we'll probably have to go with the CLI type of demo for now and go from there.  And I can figure out with Alessandro like what kind of CLI commands we need on their side to showcase that this was done.  And yeah, then we can, we can go from there, right? Yeah.
+
+12:56 - James Young (Collab🤝Land)
+  So, I already have, and I... So a PR, so I created scripts before I created the API server that already interact with the CLI.  Okay. It's the same core code base, but they're separated. One is in the CLI and one is in the API server.  That's why it was so easy and quick for me to create the API server. Like Alessandro requested it. I was like, what you need is an API server.  He's like, can you make one? And I said, okay. So he was like, that's the number one priority then.  So I shipped that on Monday and I was able to ship it over the weekend because it's using the same code base.  The reason why I'm saying that now is we can, you can take that CLI that I've open sourced, take that logic out and just point it to the API server.  Okay. Okay.
+
+13:54 - Alex Sotiropoulos
+  Okay.
+
+13:56 - James Young (Collab🤝Land)
+  The actual API server has a rep. right. Let's do reference to the scripts that the CLI uses, but it doesn't use a CLI as well.  We can talk about this in more detail when we meet. So Alex and I are going to be meeting in about two and a half, two hours, 45 minutes.  So if you can see yourself with the CLI that I've, I don't know if they merged that PR or not.  And if you look at the API server open source code, you can see the scripts there, I believe. Okay.  Orient yourself on that. I'll take a look at this. I think that, and I'm just figuring this out as I'm talking out loud, is what we'll do is we'll just modify the CLI scripts that are in the API server.  So we can show how the API server runs and then use the CLI scripts in the API server to be able to, to do the demo.  And then what that does is it points people to that API server and they can run it themselves. And then maybe that's the demo that you start a run the API server in a second terminal window.  You can actually. Actually do this, the script that hits the API server, then you move back to the first terminal, and you see maybe there's some console logs or whatever we need to print out that shows via the demo that everything is working, and that's it.  Yeah. Okay.
+
+15:15 - Alex Sotiropoulos
+  Yeah, I'll come through this and see. Yeah, I don't see any open branches, so I think it must have gotten merged.
+
+15:29 - James Young (Collab🤝Land)
+  Everything's in main.
+
+15:30 - Alex Sotiropoulos
+  Okay, cool, cool. There's no branch in the API server yet.
+
+15:34 - James Young (Collab🤝Land)
+  Okay.
+
+15:37 - Alex Sotiropoulos
+  Gotcha. Sweet. So yeah, I'll do that, and then I'll be ready to kind of discuss further with you, James, and I'll loop Alessandro in as well.
+
+15:53 - James Young (Collab🤝Land)
+  Yeah, if Alessandro can figure out a way where we can use a UI somehow. Yeah. Yeah. Let's do that that because...  Because... They're in the middle of transitioning from their old contracts to the new contracts, but I think I'm about 50% sure there's an easy hack for us to be able to use the scripts and the API server like I just described, pointing to the current portal intuition systems, I think.  So we just need to verify that with Alessandro. you can do that potentially before we meet, then that gives us better kind of understanding of what to do with the demo specifically.  Okay.
+
+16:31 - Alex Sotiropoulos
+  Yeah. Yeah. I can do that. Because he even mentioned in his message, he said, well, he said, I was thinking creating a simple website to post the data might be even easier.  Then we could show how it shows up in the CLI. I don't think so.
+
+16:52 - James Young (Collab🤝Land)
+  Yeah. I mean, you just post it in your browser window. Yeah. Yeah. And then you get a return okay, because the idea is this is for developers.  The assumption is that you're going to have an ADA card already ready to go, and if you have an ADA card already to go, you are a developer, or you're vibe coding your way through this, and then the AI is going to tell you, just hit this endpoint.  You don't need a UI. Yeah. Yeah. At least that's what I'm thinking. You need a visualization on the intuition side to show that you verify that it's posted correctly.
+
+17:33 - Alex Sotiropoulos
+  Oh, I see. I see. I see. So, yeah, just the intuition side UI thing. Yeah.
+
+17:39 - James Young (Collab🤝Land)
+  Yeah. And if we have to use a CLI, we'll use a CLI. Again, this is for developers, as Coach J was mentioning.  I think it's equally viable, but it would be just a nice thing to do if we could use a UI.  Yeah.
+
+17:51 - Alex Sotiropoulos
+  Okay. Yeah. I'll talk to him and see what's up. And I'll just get more people interested.
+
+17:56 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  But I've been doing a bunch of research. I think CLI still works. Like people. People just want to know that we're making progress.  They want to see metrics. They want to see actual things that work and see that we're building it in.  So I think that's helpful. And the more that we can foresee and turn it into a multi-part campaign, the better.  And so that's some quick updates on the marketing front. Actually, I think this is the time to drop these in.  Alex and I, Alex, invited you. We're going to start meeting twice a week to just jam on content because Alex is now getting into much more of the product side of things, just getting much closer to what's actually going on, what's being built.  then Alex can either, we'll record our conversation and I'll clip it and we'll turn it into content. I just want to create these larger campaigns.  We tried the what we shipped calls once a week. And I don't know, they didn't do particularly well, but I had some other strategies that I want to try out in terms of how we're shipping this stuff and sharing that publicly.  The other thing is that I messaged, I don't know if you saw, I messaged like 30 products, projects that we interviewed on the live streams.  Yeah. No one, no one has an ADA card.
+
+19:03 - James Young (Collab🤝Land)
+  Well, that's nuts.
+
+19:08 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So, yeah, you know, I keep seeing this like agent economy, $30 trillion, end of the decade and blah, blah, blah.  And like, I don't know, I don't know if there's, we're talking about a lot of agents. I think a lot of these agents already exist in closed ecosystem.  Like I think of Giza, like Giza has lots of agents on their closed ecosystem, but these are not like custom agents that can, are portable.  Right now. I think that that will change over time because of these new standards, but the people who are building these agents need to make them portable in the first place.  And yeah, maybe it's about like poaching more instead of like waiting for these, these just individual products, projects are just so immature.  Like they're, they're either, they're not interested or they just don't have an A to A card ready. Because like, if I was an agent project and the insight is true that I'm looking for distribution, it's super.  We're  easy. 10 minutes, A to A card. Here you go. Like, yeah, put me on your registry. don't  care.  Just like, as long as my name's out there, but that is not what is happening.
+
+20:09 - James Young (Collab🤝Land)
+  So I think we are not dealing with the correct cohort. And to me, in my very cynical crypto mind, being in crypto since like 2013, they're scammers.
+
+20:25 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  We've met these people, like whole life. They have like a DevRel agent that didn't respond. It's super weird.
+
+20:33 - James Young (Collab🤝Land)
+  Yeah. Or this is a side of a side of a side project for them. Yeah. I think that's what it is.  And it's kind of like, oh, like, I don't want to be left behind in terms of knowing what's happening.  So let me implement something. Oh, I understand it good enough. But like, I'm not really devoting everything to it.  So yeah, agent card is super easy. I'll create one and wonder when I need to. But like, this is not my top priority kind of thing.  And so in anticipation of that, this is where I was talking with Alex a little bit, if you don't specify the agent endpoint, then it will post arbitrary JSON data.  So if they can have arbitrary JSON data, it doesn't even have to be A to A compliant. We can then filter it to make it A to A compliant and then post it.
+
+21:24 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I don't know. We'll see. I still need to follow up with everyone. But as soon as I get a response from, what was his name?  Crypto Fede? Do you remember Fede? I don't remember what project he's part of. Yeah, Crypto Fede. He's DevRel at CrossMint.  And he's like, hey, I'm pretty tight on time, honestly, so I couldn't give this enough attention. Sorry, I'm going to pass.  It's just like, what? This literally takes 10 minutes. I know. And I'm not here to convince this guy. He's not interested.  That's what I can hear. It's like... It's like, cool, yeah, I'm not going to convince you guys to do what you don't want to do, that's fine.
+
+22:05 - James Young (Collab🤝Land)
+  Right, that's right.
+
+22:07 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So, yeah, anyway, I just wanted to give that update to Full Transparency. Like, this is kind of like the same supply issue that we've been seeing a lot of times.  I know Matt talks a lot about it, guys, like, yeah, we just got to, like, whip up these agents and stuff like that.  Like, what agents? I think that what I'll do is maybe, like, once you get this pitch deck done, like, I'll start finding ways to, like, who are these Giza agents that are trading $30 million autonomously this past year?  You know what mean? Like, who built them, and do they, like, are their agents portable, or are they locked into the Giza ecosystem?
+
+22:44 - James Young (Collab🤝Land)
+  Yeah, that's a great question.
+
+22:46 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  It could be that we're too early, that there are no agents that are actually, like, autonomous, truly, like, ecosystem independent, and they're all specifically tied to ecosystem, because when I was building, like, I was building kind of, like, um,  Let show you this real quick. I was building kind of like for the pitch deck, like this is our architecture, right?  Like the gist of it. So we have like, I renamed the interface layer, agent layer, which is much nicer.  So like, it's all about universal compatibility. Like any agent can connect to Mother, including these 700,000 Gaia inference nodes.  They're ready to go. MCP compatible agents, A to A compatible agents. And then there's this category here, put down like custom built agents via SDKs and APIs.  And I wonder if that's where a lot of agents are right now. And so it seems really complicated to get.
+
+23:35 - James Young (Collab🤝Land)
+  I would, what I would do is I would ask Matt, if he can give you a side chat with, what's his name from Eliza?  Shaw. Shaw. Yeah. And Shaw would know. So you don't have to do all of this research yourself. You're like, what's, what's up, dude?  Like everyone's using Eliza OS or competing frameworks to your point to where you have custom built agents. Why aren't they, how come they're not A to A compatible?  Yeah. He'll know. Okay. Okay, cool.
+
+24:04 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I'll get that plugged in. Anyway, this is this nice little framework, Alex. I'm going to get Christian to design this into the pitch deck where we have our three layers that kind of work together.  And a lot of these updated stuff around MCP and A2A. I have like the 804 compliant identities thing. What are we doing for identities?  Are we going with DIDs on the identity layer?
+
+24:29 - James Young (Collab🤝Land)
+  That's TBD, but that's another work stream that Alex and I have been talking about with Billions. And there's some technical details there.  Because it's not in 8004 right now.
+
+24:42 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So it's like separate. What do you mean? My understanding is 8004 did not take into consideration that agents would have decentralized identities in any way.  It's not relying on that technology, right? That's kind of what we discussed.
+
+24:57 - James Young (Collab🤝Land)
+  assumes that you're, as a developer, you're bringing that to the table. That's not the battle that he wants to fight.  Got it, got it, got it, got it. Okay, cool.
+
+25:08 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Cool, well, I'm going to get this into a pitch deck and looking nice, and then y'all could take a look and read comments and stuff like that.  And then, yeah, Alex and I are going to meet twice a week, starting to, not tomorrow, but on Friday.  And then, what else? Yeah, I'm just going to sprint on this pitch deck. Sorry, Alex, I haven't booked time.  I have, like, just 30 minutes here, one hour here. I'm just going to work tomorrow morning a bunch on this.  So, yeah, I hope that we can make, I've already started making changes in it, though. Oh, dude, yeah.
+
+25:41 - Alex Sotiropoulos
+  Yeah, I appreciate it.
+
+25:43 - James Young (Collab🤝Land)
+  I would also reach out to Recall, because they're like a guy, Giza, and they have, like, these agent competitions.
+
+25:51 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, yeah, the guy is in a competition right now with other agents.
+
+25:56 - James Young (Collab🤝Land)
+  Yeah, so I would reach out to Recall. They're one of our partners. They didn't want to be part of the TG.  No, but yeah, we're friendly, we're friends, yeah. Yeah, so let's ask them about A to A as well. Cool, we'll do.
+
+26:08 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Awesome. Yeah, this isn't a big question I've had for like six months, just like based on all these conversations, I remember Alex Lumley like had this challenge, he was like, I thought it was like Alex who just like was not just asking people for what he wanted, but I think there was just like consistently this barrier of like people not actually maybe being technically ready or not.  or just like talking a lot, but not actually doing, you know.
+
+26:36 - James Young (Collab🤝Land)
+  Yeah, and it was complicated because we needed them through our SDK to integrate and output a specific schema, which was another order of like more work than just giving us a JSON card, right?  You know what, do you know who did that though, who got MCP compatible for us?
+
+26:58 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Corbin. I a B буквans.
+
+27:00 - James Young (Collab🤝Land)
+  And of course, now I'm being bought started.
+
+27:03 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  It's like the only project. Right. Exactly.
+
+27:07 - James Young (Collab🤝Land)
+  And so we don't even need right now that MCP integration through the SDK. We just need that adjacent card.  And so I think, I agree with you, Coach J, and I feel kind of bad now because I always thought it was Alex Lumley's inability to sell.  But yeah, it was not only six months ago, were we much, much earlier because these standards were just shaping up.  But also, you know, we tasked him with the added effort of getting these devs to integrate our SDK, which was just another level of like the developers didn't want to do it because what's their immediate return, right?  Now that we've gotten that out of the way, we're still facing this dilemma of not enough agents. And so it's just like, huh, it makes me kind of reconsider.  Just reaching back out to Alex as well and just apologizing.
+
+28:06 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Although I don't want other Alex on the project, so I'm very happy.
+
+28:11 - James Young (Collab🤝Land)
+  There are other considerations, but I think that there are some things I should try to just resolve with Alex Lumley.  Anyway, I'll do that. Okay, so yeah, let's do this. Giza, recall, let's get on to coordinating with Intuition so that they can amplify the demo.  Alex and I will be chatting in about two and a half hours. Hopefully that's the time for Alex to kind of get some information from Intuition with regards to a UI.  If not, we'll do it via the CLI, and that will guide our conversation at 6 p.m. Eastern. And we're going to aim for that demo and coordinate with the Intuition so that we can kind of pull from their moment.  Mentum, as well, and this is how we get Mother more in the spotlight. Cool.
+
+29:08 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  All right.
+
+29:10 - Alex Sotiropoulos
+  Okay, sweet.
+
+29:11 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And then, yeah, I already mentioned to Matt, I think one thing we should also just like, as I'm building this deck, it's actually so good.  We should start also, once again, I don't know how connected Matt really is to these projects, but like, we should, we could start looking for grants.  Like, there's going to be a chain that Mother is going to be attached to. Like, there's gotta, we gotta be able to, if we can't sell this to investors, we can't sell this to a chain.  But if we can sell this to investors, like Base or Linea or Arbitrum or Avalanche, someone wants a registry on their chain specifically to start.  So like, I'm like, just so positive we can get money for that. I just, I don't know where the connections are.
+
+29:57 - James Young (Collab🤝Land)
+  Yeah, I think we do need, that's a great. Great idea, and I know we're going to wind down, but just to kind of give a couple more minutes here, I think we should – I'm torn between just focusing and locking in on base versus Linnea.  Base is going to have a lot more politics, and we're, from a Matt perspective, a bit more on the outside with base, but it's more in alignment with base.  Linnea comes from ConsenSys, and Matt has the connections and networks there.
+
+30:37 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  He's working that angle with another product right now, like a prediction market product right now. Yeah, I saw Oasis.
+
+30:43 - James Young (Collab🤝Land)
+  So I think that there is an opportunity there, and if we say that this is all driven by the MetaMask delegation toolkit, I think that gives it more juice.  And if you want to float and use CollabLand, because we received that grant, then And I think that could help lock it in.  What grant did you all get? We got a MetaMask grant about a year and a half ago to integrate the MetaMask Delegation Toolkit into our smart account system, and we've integrated it.  And so now that I'm talking out loud, and I don't mean to just talk to myself, but I think that Linea is where we should start.  And then use these to fall back. Okay, good to know, I'll let Matt know.
+
+31:35 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, let's close this quickly.
+
+31:37 - James Young (Collab🤝Land)
+  Okay.
+
+31:44 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  All right. Okay, cool. Sweet. All right, guys. Good luck with the call later. And yeah, good luck with the intuition call on Friday, because I don't think we'll chat until Monday.
+
+31:56 - James Young (Collab🤝Land)
+  Yeah. Oh, yeah. Monday, I will be on the call Monday.
+
+32:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I'm gonna be off during the So I don't know how much I'm going to move beyond tomorrow, I'm just having a little bit of a long weekend, but I'll move as much as I can on this pitch deck, yeah.  Awesome, all good.
+
+32:10 - James Young (Collab🤝Land)
+  Okay. All set. Excellent. Thank you. See you. Thank you. Thank
