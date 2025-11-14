@@ -1,0 +1,161 @@
+Mother All-Hands Weekly - November 10
+VIEW RECORDING - 32 mins (No highlights): https://fathom.video/share/ScrmbxQS7zyxNad8Gi94zS2bsns9X-ZG
+
+---
+
+0:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Matt did accept, but I say let's get started without him.
+
+0:06 - Alex Sotiropoulos
+  There's a good chance he won't come.
+
+0:08 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And I know this Ember team may not come either. At least Sebastian won't be here. Sebastian's doing some stuff.  Yeah. So, I mean, I could get us started then.
+
+0:20 - Alex Sotiropoulos
+  I guess some new developing context to introduce is we're bringing on Sumit from Chaos Chain as a technical co-founder to kind of help support from the investor standpoint.  Amazing. And as such, we will also be using Chaos Chain for the verification layer, which also helps out quite a bit as we won't have to build that aspect out on our own.  And so the next few days, I'll be working closely with James, Sumit, as well as Matt to kind of outline what this is going to look like going forward, what Mother's going to be contributing, what Chaos Chain will be contributing, and we'll go from there.
+  ACTION ITEM: Fix remaining UI errors; deploy website; enable A2A JSON uploads - WATCH: https://fathom.video/share/ScrmbxQS7zyxNad8Gi94zS2bsns9X-ZG?timestamp=71.9999  In terms of the UI, I just resolved one of the deployment issues with James just now. I'm getting a few more errors there, but that's my own doing, so I'll fix that quickly.  And then we'll have, like, the website fully deployed, fully functioning. You'll be able to upload agents to the registry using a well-known URL that contains an A to A JSON card.  We also met with Harish earlier today, and he's going to send us over a CSV with around, I think, thousand Gaia nodes.  There are only a thousand active Gaia nodes. So we're going to work on creating a script to get those also uploaded to the registry as well, and also simultaneously in talks with Amin and trying to get him relevant context so that we can get a white paper out, James and I are going to be working on creating some diagrams for him and getting him context around that front.
+  ACTION ITEM: Schedule M/W/F 12:30 ET white paper syncs; invite Sydney - WATCH: https://fathom.video/share/ScrmbxQS7zyxNad8Gi94zS2bsns9X-ZG?timestamp=142.9999  And Sydney, I think the plan there is to keep you in the loop. We'll start meeting three times a week, probably just brief period of time, maybe 15, 20 minutes with frequent updates on the white paper.  The plan right now is Monday, Wednesday, Friday, 1230 Eastern. So when and if you're willing to hop in on any of those, like, I'll make sure to invite you.  But that's pretty much all on my side of things. And I'll let someone else take over, Coach J, if you want to go.  Yeah, I'll go. Okay, so update on the marketing front.
+  ACTION ITEM: Schedule 2 new community group sessions this week - WATCH: https://fathom.video/share/ScrmbxQS7zyxNad8Gi94zS2bsns9X-ZG?timestamp=192.9999
+
+3:08 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Last year, we've been going, going like fast. We had a big week last week. I think that, 08, we don't have anything lined up for this week, do we?  I was just talking about that with Francesco.
+
+3:23 - Razvan Matei Popescu
+  We have two new groups. They just need to accept, like, this week. Okay, cool. So let's see if we can get them for this week.
+
+3:31 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  People are arriving in Buenos Aires already, so I think Francesco already has a live one set up, so that'll be great because we can broadcast those as well.  But it's great because it's lots of builders, agent builders, touching 804 project, the 804 project, and also just lots of content just to keep kind of a mind share about 804 ready.
+  ACTION ITEM: Launch Twitter content machine - WATCH: https://fathom.video/share/ScrmbxQS7zyxNad8Gi94zS2bsns9X-ZG?timestamp=224.9999  And I've also got my content machine. I told James and Alex about my content machine where... I just I have these like beautiful prompts that I type into Twitter and it gives me all the most relevant information about all these mother related ideas and it creates content for us.  So that's getting deployed this week, which is very exciting. And then the other update is OK. OK, so basically like, oh, there's Matt.  So the big, no worries, the big the big challenge we're having on the marketing front and it's kind of touches the pitch deck as well.  It's like the traction piece. Right. So just to catch everyone up on what the game plan is like, I'm like just like getting into scrappy mode.  And I told Alex and James what I did is we surveyed a bunch of the projects and we're like, why won't you create an A to A card basically?  In very nice terms. And the responses that I got were basically the words that they all use different words.  They kind of said like, oh, it's not a priority right now. Oh, don't have the time, blah, blah, blah, blah, blah, blah.  So basically what that means is I'm hearing as the marketer two things behind that. One is that they do not have the right incentives.  Yeah, exactly. The opportunity is not great enough for them or the pain is not great enough for them to take action on this.  And the second thing is I do think that there is an education gap because James is telling me that A to A cards can be put together in 20 minutes.  And they're telling me that they don't have the time. If I knew that it would take me 20 minutes, I would take 15, 20 minutes and just get this thing done and be on with it.  So, Matt, great, great suggestion. Yes, we are going to kind of explore the angle of offering to do it for them, have like a form, just fill it out.  But I just I have a feeling they're not going to take us up on that. But let's see that I think the biggest thing is the incentives piece.  So what we're going to do. Before we do, like, the content play where we create workshops and actually get them, is we're going to be creating, we're going to just create much more agents for ourselves.  This is kind of like the quiz agent route again. I have a list of 30 agents that I've created, and I've, like, finalized this list over the weekend.  And so now I'm starting to collect documents to build these agents. Harish is ready to build them for me with Gaia Nodes powering them, which is great.  And James and I, once I have this list together, which I plan to have done by mid, like, of week latest, is we're going to create some sort of kind of, like, between this group, like, kind of like a washtray agent.  And what it's going to do is this washtray agent is going to be moving seed tokens from, like, an account to these agents.  And it's all on chain. And so what we get to do is we get to create a case study that says we had X amount  We're to our season zero, 30 agents that, you know, no one knows that Coach J created all of them, and we'll have a case study that shows, you know, this many agents were active, this many agents received transactions, and I'm hoping that with that case study, we can also present that not in just the pitch deck, but to also potential future agent projects who want to get on board and say, like, this is what you missed out on season zero, would you like to join for season one as well?  In terms of playing with incentives and stuff like that. So that's another kind of, like, marketing-type initiative, and James did some looking, and that's how Reddit got started, bootstrapped.  I don't remember his name, but he started 30, 40 different accounts that were just chatting with each other, and it was all him.  So we're really just trying to bootstrap this network effect, because I messaged 40 projects, and one of them got back to us, one of them got back to us.  us about my first request of like, hey, just create an A-to-A card. And he's like, cool, yeah, we'll like pass it to my CTO.  And then like never heard from him again. And then I messaged everyone again a week later and only got six responses that actually told me that they just didn't have time.  So yeah, that's kind of like what we're working with right now in terms of the state. That's why I don't know if the setting up the workshops is just more of their time, right?  I think what really is is that they're like, who are these people bothering me right now? That's the story that like I'm kind of interpreting from it.  I couldn't be wrong.
+
+8:38 - James Young (Collab🤝Land)
+  Yeah, just two quick follow ups on that, Coach Jade. Thanks for saying that. You know, I think that I'm a little bit uncomfortable with anything that has to do with like wash trading.  But I think that under two caveats, I think that one, it's not like a full on case study because it's a complete fabrication.  It. It's somehow we draw, the point of it is to draw attention so that people will think that it's worth spending 15 minutes for.  And the second kind of stipulation is that we have to come out publicly with a post or something saying this is how we were such a genius marketers and this is what we did prior to the token launch or investment coming in, just so that we have full disclosure there.  Yeah. Those are the only two things I would say.
+
+9:29 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Before any money gets into mother's hands, other than like, you know, Gaia's initial investment, we will come clean that, you we ran this as a marketing stunt, but, you know, we onboarded X amount of agents afterward.  And now we have this many agents on the thing and this is what's moving and blah, blah, blah. So that's a case study, a marketing case study.
+
+9:47 - James Young (Collab🤝Land)
+  Yeah, it's a marketing case study for sure.
+
+9:49 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  What I also like about it is that we're going to be powering this all with Gaia nodes. So I think that there's going to be some conversation around that about how we can frame that from a Gaia perspective, which I think is helpful as another.  Otherwise, I think that's it. One thing I could use help with, maybe from 08, Tash, if you have capacity, is gathering the documents to create all these agents.  There's a  ton of agents. This list is so big, and creating any of these agents, like Ray Dalio, or a dad joke agent, or a tarant reader, all these agents will take time.  I need to build all the documents, put them together, and then Harish is going to spin them up for us.  So if y'all want to help me gather documents, that will cut down time from me doing it significantly, and we can get this experiment running up sooner.  Yeah. That's it for me. That's my update. I'll go next.
+
+10:50 - James Young (Collab🤝Land)
+  I am essentially helping Alex with everything that he's saying. In terms of where we're at. I just kind of at a higher level, I can give a kind of a status update.  So I heard about the SUME coming in. I don't know what the details of that are, but if I understand what Chaos Chain does and what that agreement looks like moving forward, I think then we've just saved a lot of time, not only getting, you know, some kind of better notoriety when it comes to the slide deck itself, but I do think that it significantly cuts down our time.  So where we're at now is we have the intuition update, the form Alex has been working on it, that actually has been extended to support the verification sub-registry as per the 8004 spec, and we can get the agents.  That are on Chaos Chain into that verification agent. And the only thing that we were missing, and we're going to go into this week with this, how do we do the attestations?  Okay, if you want to, Matt, feel free. And we have that with Chaos Chain. So we basically have like the whole system kind of up and running.  We just need a POC that ties that all together, which is the quiz agent. And it actually works. So every time you take a quiz, it posts on intuition.  We just need to integrate that into what Chaos Chain is doing in terms of that attestation. We take their verification agents that they have on Chaos Chain.  We put them into the registry and we have the whole loop.
+
+12:53 - Matt Wright (GaiaNet)
+  Yeah, exactly, James. James, you and I are going to sync after this so I can align you. Sorry, I haven't had time.  Let me exit out that, so if we're looking at the overarching architecture, Alex wants to share the deck to you guys as we're progressing, but, you know, we have the kind of registry UI, registry UI, the kind of JSON agent card with the registry over here.  We have the kind of intuition integration on this side, that's kind of registry layer intuition is really accountable for.  On the orchestrator side, we have, you know, CollabLand accountable, like for the mother orchestrator agent. And then we, of course, have the interface, interface that's building out.  Alex has it up now, he posted that video and the group's looking real slick. Over time, we'll have governance of like, how all these components fit together.  But the biggest piece has been kind of, how are we doing the verification? And yeah, if you go dig into chaos change.  Okay. It's a bunch of young guys who are just cooking, they were the initial contributors to 804, and they are basically, the whole goal is, you know, they're not really a chain, they're just a verification of the agent, agent uptime and like various other components that need to be validated, they're doing this through eigencompute.  And so they can basically help us be accountable for the verification layer. So now we have the registry and the orchestrator, we now have the missing piece, which was, you know, us, we were thinking about doing an AVS, but I think this is a much lightweight architecture, leaving chaos chain and AVS.  We can have both. Great, that's even better. Yeah. Um, but I think, you know, from, from my perspective, I think with, uh, James and I, uh, being so limited, we need some, we need some hungry talent to can.  I keep pushing them out in right direction, and Alex really needs a right hand, and so Sumit being a really great founder and dev, and Chaos Chain actually being spun out of Nethermind, like it's still sitting with Nethermind, which is a very powerful, massive contributor to the Ethereum ecosystem, the founder is Thomas, who's now head of the EF, like there's this great political alignment there, so my idea is I'll be giving them, I spent this weekend, actually drafting out the strategy in terms of how we're going to distribute, kind of token cap table and do the fundraising, I can probably share that later, well I can share the document, you know, tomorrow, and then we can actually go through it later this week, or on next week's call, and I can go through it with everyone individually, but the idea is to get them some skin in the game, so that they can be co-founders with us on this, and just get over the line, I think it's just a missing piece, that would be very useful.  Thank you. We do have to balance their time, though. are fundraising themselves. So Sunit was very, very excited for the opportunity to work with us.  And so I think on next calls, we'll bring them and think about how we roll this out together. But we should have them on the next call for sure to just get alignment.  Yeah, yeah.
+
+16:22 - Alex Sotiropoulos
+  That being said, he's he's ISD based out in India. So I don't think this time is great for him, but I know that next week for I think the next like three to four weeks, he'll be in South America for DEVCON and other obligations.  So I think it'll work temporarily for that month and then we can and then we can we can maybe try and find a better time that works for him.  So. And everybody. So. And. All right. Tosh08, do you guys want to provide updates? I know we were kind of looking at options on sparking the community side of things.
+
+17:15 - Natascha Tiotuico
+  Yeah, so actually, like I wrote in the Slack that, of course, it's always with budget how much quests and stuff we want to do.  But now that Jonathan said, yes, all these 30 agents, we did have the idea of, like, creating channels or introductions to agents in the community.  So I think this would probably also be a cool stunt to start this process of validation by the community when they join the registry.  When we have the closed registry, they're supposed to be, like, voted in, right? So if we create these... Agents, introduce them into the community.  I think that would be a nice topic to, like, we can cover the resources within here. We have the seats to kind of verify the activity for later airdrops or stuff.  So I think that would be a next step that we could do that is very budget friendly for our state now.  So, Jonathan, I'll get back to you what kind of documents you need, how we can get these agents over the line and see how we can build these or also, like, have them work in the Discord community or introduce them into the Discord community and see if we can get some activity on that from the builders there.  And stuff like that. So that would be kind of my plan that I see is possible right now. 08, maybe you can support with moderating and hyping it up in the Discord doing that.
+
+19:24 - Alex Sotiropoulos
+  I think also once I have the UI ready too, we could probably present that as well. And hopefully some useful demos about, you know, the different ways you could onboard.  I could start piecing some of those together and forward them along. Sounds cool.
+
+19:46 - Razvan Matei Popescu
+  So on community like I've been raindropping like C tokens to people. It's pretty active, decently active, but taking into account like um, everything, but  I do feel like it can get 10x more active if we just, like, maybe publicly announce, like, point system and stuff, which is tied to, like, maybe our future raises, which would possibly be tied to that wallchain campaign.  I've been kind of shilling, and I added you, James, and Coach and Alex in that group. I don't know, like, how you feel about that, but, like, wallchain is really taking off in a way.  Like, they're kind of Kaido's main competitor right now, and they're, like, at 5x lower price, and that price can be negotiated, like, to zero if we give them tokens.  So that's the thing with them. But we have to allocate kind of a decent amount of tokens, like, between 200k, which, if we do prior to the raise, like, would make sense, because it gives us a lot of hype and...  Possibly, most likely, a lot of investment as well, if we play that car ride, because that's the whole idea, and while we do that, if we're going down the Wallchain route, the community will be, we won't have a problem with that, maybe with onboarding more builders in it, but they should catch on, because when there's hype, people just, you know, they pour in numbers, so that's my view.  on the whole community thing you like, it's basically a growth hack, one way or the other.
+
+21:39 - James Young (Collab🤝Land)
+  Thank you for that, Zuret. That actually makes a lot of sense. And so how do we tie those campaigns together?  And then how do we, you know, do these agreements? Who does them? So I think that we need these conversations if we want to move on these.
+
+22:00 - Razvan Matei Popescu
+  Yeah, so, sorry, Sydney, like, I think if we, because, like, the last convo about the race was, it's most likely going to be on Legion, right?  Or something like that?
+
+22:17 - Matt Wright (GaiaNet)
+  Yeah, we're working on that. I that's the plan, yeah.
+
+22:20 - Razvan Matei Popescu
+  Yeah, so, we should just, like, the dude Hunter from Wallchain, he's pretty, he's pretty cool, we just have to, like, I don't know what legal docs or, like, what stuff we would need to provide to them, but, like, they, I can try to lead that, like, I doubt they will say no, but, like, there's gonna need to be a negotiation there on our behalf, so maybe, like, I don't know, I feel coach is way better equipped than me to negotiate, like, especially because he's the marketer.  Are we, are we ready to have that conversation right now, like,
+
+23:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Now the time, it feels like I don't know how early we need to start the conversation of negotiating on that because when are we really going to be ready to execute on this campaign?
+  ACTION ITEM: Define Wallchain campaign; draft rules/point system; set token allocation; share w/ Natasha - WATCH: https://fathom.video/share/ScrmbxQS7zyxNad8Gi94zS2bsns9X-ZG?timestamp=1385.9999  We have to define the campaign first and then be ready at least because we don't know what the campaign looks like.
+
+23:16 - James Young (Collab🤝Land)
+  So I think that's where we start. Yeah.
+
+23:21 - Razvan Matei Popescu
+  So just one more minute on the campaign, like maybe 10 seconds just to share how they all look. So in those campaigns, like you have to allocate a chunk of your tokens.  So we have to negotiate with them if they want to do it for free and how much tokens do we want to distribute.  So for that, we would kind of need to know like the like, I don't know, the estimated value of the token.
+
+23:49 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  No, we, and we don't know what the estimated value is, but this actually ties into a conversation that Matt, we never finished about token allocations as well.  Because if we wanted to give up a percentage of. We would need to know how much wiggle room we have to negotiate with these folks, but I don't know, I don't think there's going to be any way for us to know until after we launch, right?  Like, realistically. can make up the numbers.
+
+24:16 - Matt Wright (GaiaNet)
+  No, no, no, I have those numbers mapping out, so I can start to have chats with you guys. Okay, so yeah, why don't we bring Matt into these conversations as well.
+
+24:25 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Matt is the master negotiator, and I'm just there for comic relief. So, maybe we just make a good team, the two of us, and 08, you can make that intro.  Yeah, sure. I'm gonna talk with Hunter.
+
+24:39 - Razvan Matei Popescu
+  Okay, go. So, we can, like, it would be suboptimal if we did the Wallchain campaign after RTG. Yeah, yeah.  Agreed, agreed, agreed.
+
+24:48 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So, you know what, let's re-engage with Hunter, and then let's get at least Matt, I know things are a little crazy right now, but let's at least find 30 minutes to have that first preliminary conversation.  think a look. going It's nice to with. The WalletChain team and get that conversation started. And this way, once we're kind of like, well, we're still, there's like a lot of momentum here.
+  ACTION ITEM: DM Matt Wallchain details; add him to Telegram group - WATCH: https://fathom.video/share/ScrmbxQS7zyxNad8Gi94zS2bsns9X-ZG?timestamp=1504.9999  Once we at least have that initial conversation, then we'll know when to like really engage with them and get stuff hammered out with them kind of thing.
+
+25:15 - Razvan Matei Popescu
+  Well, so just to clear that out, like we did that, like that's the, in the, I'll add Matt to that group, like in that group, so you have a convo and then they share those details, basically.  So we skipped that in a way, we don't need to have that convo again, because we already have those, like- have the terms, so there's no negotiating with them.
+
+25:36 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  They already have, like, they made the terms clear?
+
+25:39 - Razvan Matei Popescu
+  Yes, because we already, we already negotiated, but we need to look at the docs to see, like, how, like, on another, like, project.  Okay, Matt, so that sounds like more of an internal conversation then.
+
+25:52 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  But yeah, can you relay me the, I might have missed some of this.
+
+25:55 - Matt Wright (GaiaNet)
+  What was the, who are these people? WalletChain.
+
+26:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  They're like a Kaito competitor, and they're newer on the scene, and so they're willing to take token allocations instead of money.  Gotcha. Hopefully.
+
+26:11 - Razvan Matei Popescu
+  Do you have a deck? Yeah, do you have a deck?
+
+26:16 - Matt Wright (GaiaNet)
+  Sorry, do you have a link? We just have a telegram chat, Matt.
+
+26:19 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  You'll get added to that? Yeah, yeah, but I'll send all the details in your DM, Matt.
+
+26:25 - Razvan Matei Popescu
+  They're pretty big. They already did like 20 projects. 20 projects for live. they have Eidos, which is that new identity thingy.  They have, like, Beyond Bitcoin, I think. They launched Limitless, which was that big prediction market, like, on base. So they have pretty good projects collabing with them.  Is it Wallchain.xyz?
+
+26:49 - Matt Wright (GaiaNet)
+  Yeah, I just added you to the combo. But do you have a link to their website?
+
+26:55 - James Young (Collab🤝Land)
+  I think that's the correct one, yeah. Yeah. I think that's one.
+
+26:59 - Matt Wright (GaiaNet)
+  I that's the correct one. You can verify 08?
+
+27:02 - Alex Sotiropoulos
+  No, I verified it, it's the correct URL. Okay.
+
+27:11 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, cool. Thanks for bringing this up again, 08. This was helpful. Yeah.
+
+27:18 - James Young (Collab🤝Land)
+  But I think that going down this direction, we need to have that, you know, campaign defined. What would that look like?
+
+27:31 - Natascha Tiotuico
+  Do you have the details for me as well, 08? Then I can also look with our community strategist what we could support on the campaign strategy.
+
+27:44 - Razvan Matei Popescu
+  Yes. The great part is that if we go with Wallchain, we'll become so viral, we might not even need, like, we just need to have, like, some simple rules set up.  Because, like, they will just, like, make people pour in, like, oh. Let's go. Let's And by the way, Blazy told me, like, I said I'm gonna bring this up for him, like, he told me there's some stuff going on with the organization he's part of, which brought him to modder, like, he doesn't know if he should stay on more, so I just wanted to ask you guys, like, how do you feel about that?  Like, I think he did a pretty good job moderating the Discord and posting announcements and stuff, so.
+  ACTION ITEM: Send GTM/strategy doc to Alex, James, Jonathan, Natasha, Razvan - WATCH: https://fathom.video/share/ScrmbxQS7zyxNad8Gi94zS2bsns9X-ZG?timestamp=1710.9999
+
+28:37 - Matt Wright (GaiaNet)
+  Um, Sydney, did you, oh yeah, go ahead, Matt. Yeah, so, um, we, if we're gonna do this, so part of the go-to-market, I'll send you guys the, um, the strategy, um, document I'm gonna pass across, but the GTM side, like, Coach, I need you and Tosh and Zero8 to, um, really get aligned on what's  You know, what the frequency of the posting should look like because, you know, if we're going to be using something like this platform to get virality, we have to mirror that on our socials and on our Discord and over our Telegram, like, you know, our Telegram community doesn't exist.  I know we took a stance to do a lot of stuff on Discord, but we still do need some community on Telegram and we need to have, you know, again, proper marketing on Twitter.  Like, we don't have, like, we do the, you know, webinars of interviewing, like, different founders, but, like, really we should be having, you know, webinars over screen sharing, you know, how to register to Mother Registry.  It should be, like, you know, just some viral tweets that are, like, talking about why Reg- Registry, you know, why registries are needed.  We should even, like, vampire the X402 and 8404 mindshare. We should be, you know, talking about why 8404 enables Mother and why it's different.  So, you know, talk about how your X402 agent can easily become registered on Mother and why that's interesting. Like, we need to have these conversations with the community, so we'd love a plan for that.  I can help push on the launchpad side. But again, if we have that virality, we need to be able to back it up with content on public channels.  So just wanted to see if we can maybe get something together, like, in a few weeks, just start planning around that.  Yeah, no problem. But let me send the strategy talk to you guys so you get an understanding of what I'm talking about.  Just want want to go in different directions.
+
+31:04 - Alex Sotiropoulos
+  Sounds good. Yeah, I think Sydney dropped, but I believe that's everybody. So any final thoughts to add? Okay. Sounds good, everyone.  Awesome.
+
+31:27 - James Young (Collab🤝Land)
+  Thanks, everyone. All right. Thanks, all.
