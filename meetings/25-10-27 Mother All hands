@@ -1,0 +1,154 @@
+Mother All-Hands Weekly - October 27
+VIEW RECORDING - 20 mins (No highlights): https://fathom.video/share/apSf2f34x-9mxheARyXqT1zTyUkEptvs
+
+---
+
+0:01 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Oh, I didn't even think about it because I'm the owner of the call. So for me, this is the same time as every day.  Let me tell you. Right. It's not for me or for Alex, I'm assuming. I'm assuming that this time works for you and it looks like it works for Matt as well.  So that's great news. Yeah, that's great.
+
+0:17 - James Young (Collab🤝Land)
+  And then in two weeks, it's going to flip back.
+
+0:19 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I think one week. think, oh, one week. Daylight savings. I think you're right. Yeah, so it's only one week where we have this weird overlap.  I did not know that there was a discrepancy.
+
+0:32 - Alex Sotiropoulos
+  There's almost always a discrepancy. like last year, remember, it was like three weeks.
+
+0:37 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  It was like a long time. Yeah, this week, the daylight savings in Europe and the US are kind of a little bit closer.
+
+0:45 - James Young (Collab🤝Land)
+  So it's not that big of a deal. I think you're right.
+
+0:48 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  It's just going to last this week.
+
+0:50 - James Young (Collab🤝Land)
+  So yeah, that's just to note.
+
+0:53 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Easy. All right, cool. Well, let's jump into things. Yeah, Thank Because I don't know if the whole Ember team is going to show up and stuff like that.  Let me just double check. They haven't said anything, but we'll just see if they show up. It may be that they have a conflict at this time.  It could be. That's why I didn't even think about the time difference. And it could be that there's people that might not show up because of conflicts, but we'll just take whatever time we have and go for it.  Yeah, that's right. Cool. Who wants to go for updates first? Go for it, Alex.
+
+1:29 - Alex Sotiropoulos
+  Go for it. I can go. Yeah. So over the weekend, I kind of got the slides to a good point.  So I've been working with Christian last night and this morning on getting him situated. And it seems like he's made a good amount of progress and has everything kind of structured and outlined.  So it's really just a matter of updating content there as we see fit and making tweaks to it. So I think I could really start like working on coming up.  With a transcript and actually like practicing some talking points this week into the next, as we kind of make changes, some other things that I'm going to really focus on are trying to get a UI spun up as well as I've, I've been working on a notion hub for mother where people can go and get blurbs on what we're, what we're doing.  And I think one of the things that that's missing is some more technical write ups on each of the components really going into depth, I think to give some, to show like credibility to the more technical investors.  So I think it'd be good, James, that if, if maybe we meet a couple, over a couple calls and we could start discussing things and that way I'll have some content.  And to really start getting down on paper for that. Yeah, let's do it. Sorry, I was on mute.
+
+3:07 - James Young (Collab🤝Land)
+  I was confirming, but I just realized I was on mute while you were talking.
+
+3:12 - Alex Sotiropoulos
+  But yes, let's do it. I'm all for it. Sweet. And yeah, I think I'll also share that Notion hub with you guys because it'd be good.  Maybe you guys will have insights on other links I can include there and even edits. We were pretty active on Notion before.
+
+3:30 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  got to flip through and see what their stuff there is still in there. We went through like two different hubs because we had one that was paid and then it got unpaid.  And I remember there was like a bunch of people that like left the project or something. That's we had to like move Notion hubs for confidentiality.  anyway, I'll flip through because we have like a brand assets public link that I share. So anyway, I'll send that stuff to you.  Okay, sweet. Sweet. Cool. And then for the UX and stuff, are you. Are you going to do that yourself, or are you going to work with someone like Christian, who you got introduced to, because I think, I don't know UI, UX, but definitely does design.
+
+4:13 - Alex Sotiropoulos
+  So it would be good to work with someone UX wise. I think for the time being at least, I'm going to take, there's some open repositories that James pointed me in the direction of.  So I think my main focus will be to just kind of wire it up with the intuition back end and just get it populated.  And then from there, simultaneously, we can maybe have Christian or whoever it may be build out the, the mocks that I can, I can then work on to make things look nice.  Okay, great.
+
+4:49 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, super. That's it? Yeah, yeah, that's it. Hey James, you want to share any updates? Bye. Bye. Yeah.
+
+5:04 - James Young (Collab🤝Land)
+  So I open sourced two intuition kind of helpers for agents that populate not only the mother registry, but also it populates what we're calling the mother registry, open registry on intuition right now.  So there's a script version for you to run in your repo if you are an agent dev. And then also I'm hosting an API version of that because I'm using that because we're deploying the quiz agent today or tomorrow inside of the intuition discord server.  And so that quiz agent will then I actually had it as a script. But talking to Intuition, made it an API server that Collabland is hosting right now, and the quiz agent will populate that API server or will ping that API server and it'll automatically go to Intuition so that you, as a developer, don't need to just look into the quiz agent code to know how to populate an agent into the registry.  So I took that out of the quiz agent, I put that as a script that you can import as a third party dev if you want to do it yourself.  Or you can hit an API endpoint if you want. We can back that behind API keys and things like that.  But it also has this thing where, based off of that, you just point your A to A card, your JSON AI agent card, and you hit that endpoint and all of that information automatically gets populated.  to Intuition. And so Intuition wants to use that not just for AI. So I created that for them, and I'm using that when we're doing this quiz agent, this next deployment for intuition, and then I'm going to also do that in the mother Discord as well.  So things are all kind of coming together, like really practically speaking, and I think that they're evolving right now, they're shaping up really well.  So I think like maybe tomorrow or Wednesday, Alex, if we have that call to help fill out that slide that you were saying before actually makes a lot of sense, and we can actually now point to implementations.  Amazing.
+
+7:46 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Just in time as well. I think we agreed November 5th is when they're doing it, so that's perfect timing.  All they had is all coming together. Yeah, yeah.
+
+7:54 - James Young (Collab🤝Land)
+  It was hard to coordinate the timing and stuff, but now I think it's all kind of falling into place.  Yeah. Yeah. Amazing.
+
+8:01 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Cool. Those are some exciting updates. So in terms of implementation, maybe I missed it. Is it in the mother Discord server already?  Like the quiz agent? Is it ready to roll?
+
+8:12 - James Young (Collab🤝Land)
+  No, no, it's not. There was a slight delay because it was all inside the quiz agent itself. And it took me a few days to kind of untangle that into the script.
+
+8:25 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. We knew that was going to be a problem when we were, because you created it as one big boat.  Yeah, I remember. Yeah.
+
+8:32 - James Young (Collab🤝Land)
+  And so now that part of it is disentangled. That's already deployed and it's working pretty well. And so now we're going to first do it into the intuition Discord and then the mother Discord.  So we'll have two reference implementations, actually, that could live alongside the explanation, a high level technical explanation for the VCs.  VCs? VCs, How Technically inclined VCs. Perfect.
+
+9:04 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And Zero8, that's a note for you. I like that we're focusing on intuition Discord because they're ready to go live first.  They're going to get a lot of attention. But once we have it in the mother Discord, you and Tash need to get together and we've got to go back into a points-based system.  I remember a long time ago we were just giving out random amounts of points. No, no, no. We need like leaderboards and we need to be like really diligent about the points that we're giving out.  If we need to start a new point because we've given out too much of the old points, let's just do that.  We need to get gamifying what's going on in our Discord server to get attention there. Yeah. The answer sounds good to me.
+
+9:45 - Razvan Matei Popescu
+  Like we'll probably need to quantify the point differently. Yeah, yeah, yeah. We can definitely do that.
+
+9:53 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, cool. Anything else, James? That sounds pretty good. Um...
+
+10:03 - James Young (Collab🤝Land)
+  Yeah, I mean, I would love to work with Alex a little bit more in terms of what you're thinking in terms of that UI, because there's a little bit of overlap now with the kind of how we're posting to intuition.  And the reason why I'm prioritizing intuition is because they're having their TGE, like Coach Jay was saying, November 7th.  So there's going to be a lot of short term attention. And how do we kind of build to that?  I think maybe part of the strategy here for Mother and just riding off the coattails of an intuition TGE, something like that.  And so, yeah, that's my only interest in terms of like, you know, let's talk a little bit more about the UI UX there.  Great.
+
+10:54 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Marketing front, yeah, we had, we actually don't have any calls. Mind up for this week right now. Billy booked for next week.  We also have some 8004 contributors for next week as well. Unfortunately, I never got to connect to, I'll follow up, I never got to connect to any of the other co-authors of 8004.  We have a ton of material, though, some old chats that we can rehash, and lots of great clips that I didn't use from even just the chats for the last few weeks.  Just, just to, real quick, can I interrupt?
+
+11:32 - James Young (Collab🤝Land)
+  Just, just to kind of, what we're trying to do, I think, if I pull, pull back a little bit, is we're garnering momentum, right?  Could we, so just, have a live stream with that momentum going, get, get like, I don't know, someone from the Ember team, someone close, that it's kind of like a fill in, or something like that.
+
+11:54 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  As well, it would be great to have Matt on at some point this week. Matt, maybe I'll book, I'll book 30 minutes for  You and Francesco, okay cool yeah that's not a problem I wasn't I wasn't concerned about us getting someone either um yeah the Ember team I keep forgetting the Ember team is great to talk to about this um okay cool yeah that's kind of that's kind of the main updates for me though um the quotes also they they are really great though like there's just so such great content um and actually I need to check the stats but I think they get quite a few quite a few views once we repost them nice so like the one that um Don was on got 3 000 views I don't know I don't know how or why but I think that they're they were retweeting it and stuff like that so um yeah a lot of people took a look so nice um cool uh Matt any updates on your side Nope nope just uh working with Alex on the uh on the deck I've giving that feedback uh getting his
+
+13:00 - Matt Wright (GaiaNet)
+  He's on on the deck and helping him prepare like a investor memo of sorts and blurb so you can start reaching out and I do like, I guess what I'm looking for is like, I still don't know the timeline on the kind of number of agents that are coming on the registry, especially with X for zero to meta just being insane.  Like if we can start any sort of viable onboarding of these other guy nodes or agents onto the registry can can really drive the narrative of the deck.  So I don't know where we're at with that, Alex, but, you know, it'd be great to maybe get a timeline on on what's blocking that and yeah, it's pretty all on my side.
+
+13:56 - Alex Sotiropoulos
+  Yeah, on on that front, I'm I'm not really sure I think it would be great to. Relatedcent, how wares put feel Yeah.  To start getting some agents on because I think that's really one of the big selling points in terms of edge on the market.  Maybe Matt, you could put me in touch with Harish and James and I can hop on a call and figure out what needs to get done to start porting some things over.
+
+14:27 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Alex, I'm also connected to a ton of agent teams that the last Alex was initially trying to get onboarded unsuccessfully.  So it could be that we just need to revisit some of these relationships and now they might be more ready.  I don't know how far. Some of the projects have closed down, but some of them may have moved along quite far, so it could be worth engaging them.
+
+14:53 - James Young (Collab🤝Land)
+  So this goes back to this API server that I put up. It takes an A to A. Jason card URL, like, and then you just point it to it, and you're registered on the mother open registry.  Okay, so yeah, we just need to like, maybe even get on a call and just have them do it on the call if it's really that fast.
+
+15:15 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah.
+
+15:17 - James Young (Collab🤝Land)
+  Yeah, you just tell them, all you need to tell them is give us your Jason card URLs. That's it.  And they should, they do have, like, they would have that as an agent project?
+
+15:29 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Well, if they're conforming to A to A, if we are, and mother is A to A, right? This is where we got stuck earlier.  People weren't doing that. They weren't doing MCP or A to A. They were doing nothing. Yeah, but this is- on their project.
+
+15:42 - James Young (Collab🤝Land)
+  Yeah, so this is the filter, right? So legitimate agents will have an A to A card. And you just collect the cards and we post, I'll post them.  It takes me 10 seconds to post them now. And so that's how we get agents on the registry. And one of the prereqs is that they  They have to have an ADA card. If they don't have an ADA card, then they really, they're not, we can't work with them when they go to the closed registry.  So let's filter out those teams and it, because when we started ADA, I think ADA was released in April.  Yeah, it was a long time ago. But when we were trying to court these agent devs, that was like in January, February, March leading up to Denver.
+
+16:27 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Maybe, let me, here's what I think we should do is, can you send me like an example of these, this ADA JSON card?  Yeah. And what I'm going to do is, after you sign up, let me take a look, because now I know how to read these JSON cards.  I'm just such a wizard with this technical stuff as the marketer. And what I'm going to do is I'm going to start messaging all these groups and give like a little like, Hey, know, it's been a while, know, Mother is getting ready for beta launch.  We're on. Onboarding agents, one of our key criteria is if you have an A-to-A JSON card, if you do, let's get on a quick call, we can give you the TLDR, and hear an update from your project, give you an update on our project.  If they do not respond or do not have an A-to-A card, I just won't book that call. Yeah, that's right.  have like 30 projects that can message at least. Yeah, so I give you an example of a JSON card in the Google chat.
+
+17:27 - James Young (Collab🤝Land)
+  Oh, in our chat here? Okay, cool.
+
+17:30 - Alex Sotiropoulos
+  Do we need...
+
+17:32 - Razvan Matei Popescu
+  Yeah, sorry, I think there's even more groups than that because like we booked... Yeah, we did so many. ...100 for the live stream, maybe more so.  So it's, like this is so simple.
+
+17:43 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. This is like so... very simple now. It's like, I had a feeling it was just like literally just a bunch of value key pairs.  Yeah, but it's a spec, right?
+
+17:54 - James Young (Collab🤝Land)
+  When we were talking with these groups, we created our own spec. is... This This is why I think we're headed in the right direction with MCP, A to A.  It's Google that has a spec. Everyone's going to do a Google spec. Sure.
+
+18:09 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Right?
+
+18:10 - James Young (Collab🤝Land)
+  So we saved about two years of standardization, Hal, or trying to get adoption prior to standardization.
+
+18:18 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay. Got it. Got it. So we still have a huge head start.
+
+18:24 - James Young (Collab🤝Land)
+  We have a bunch of stuff. All it is is slowly getting and evolving what we have, refactoring it to be 8004 compliant.  And we've already solved the next set of problems. Sorry, there's a fire engine. We already solved the next set of problems that these people that are now trying to integrate into 8004 will come up with.  But we figured that out. But I think the shelf of life of that advantage is slowly shrinking. I think it used to be maybe like nine months, but now when I look.  At the pace of things, it's now down to six months, and people are racing to DevConnect to show demos, and yeah, that window is shortening.  So this is why I think we need to just be building the momentum now. Cool.
+
+19:17 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Sweet. I got time this week to get that process started. Good. Okay, great. Anyone else, have anything else that they think that we need to chat about here?
+
+19:38 - James Young (Collab🤝Land)
+  I think that's, I mean, we have a bunch. It's about coordination, so maybe we have some follow-up chats. Yeah.
+
+19:45 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Cool. Sounds good. Cool. Thanks, everybody. Matt, yeah, Matt will be on the live stream this week, and I'll get in touch with folks.  Okay, sweet. Cool. Thanks, everyone. Ciao. See you.
