@@ -1,0 +1,124 @@
+Mother All-Hands Weekly - August 12
+VIEW RECORDING - 19 mins (No highlights): https://fathom.video/share/RhmaabkiKsELRFRsYArAdTrdyN4wYExs
+
+---
+
+0:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Agent builds and stuff like that. Tash, do you want to go over your point?
+
+0:05 - Natascha Tiotuico
+  Yeah, so my question would be to James and if he needs some support on that. So we discussed that the quiz agent currently cannot do on-chain interactions.  And so my question would be, should, can we roll it out as it is on Gaia first? And then maybe just to warm up the community a bit, show our progress, and then just do in the second launch all the on-chain interactions.  Like what's the plan and what would be also not blocking you from delivering for the other projects? Yeah, I think that's a great question.
+
+0:53 - James Young (Collab🤝Land)
+  My feedback there, what I recommend is just to do the same type of point system. And then we'll decide how to convert those points into tokens.  That buys me time to do the on-chain interaction. So there'll be two phases, like iteration one and iteration two.  In iteration one, we'll just launch with a point system so that I can buy time to do the on-chain transactions.  Once the on-chain transactions are done, we'll just convert those points into however many seeds we want to convert it to, and then roll into this iteration two where then everything will just be on-chain.
+  ACTION ITEM: Deploy initial point system for quiz agent in Mother Discord by end of week
+ - WATCH: https://fathom.video/share/RhmaabkiKsELRFRsYArAdTrdyN4wYExs?timestamp=102.9999  And so we can do that pretty quickly. I've been working on the on-chain interactions. But I think definitely by the end of the week, for sure, we can deploy the initial point.  system into the mother Discord. I just have to create separate databases. It's just a restructuring of or refactoring of the code, because right now it's servicing just for Gaia.
+  ACTION ITEM: Coordinate w/ James on quiz agent integration & community engagement for Mother Discord
+ - WATCH: https://fathom.video/share/RhmaabkiKsELRFRsYArAdTrdyN4wYExs?timestamp=127.9999  Okay, great.
+
+2:18 - Natascha Tiotuico
+  So just pull me when you need me to integrate and to be on point with the community. Coach J from you, like, if we want to do smaller campaigns around that, I'll ping you for some copy.  Okay, yeah, that'd be perfect. You said Blazy was tackling it.
+
+2:39 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  If even Blazy wants to tackle it and just run it by me as well, that works too, whichever way you want to do it.
+
+2:44 - Natascha Tiotuico
+  Okay. Okay, great. Then I know that we can just run it by you. And if we need bigger things for Twitter, we'll just approach you.  Okay.
+
+2:57 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, great. Are you feeling Did there, Tash? Okay. Take your silence as a yes. Perfect. I saw you struggling with the mute button.  Okay. Let's jump to Sydney here. You have a couple things. This is more just an FYI. You're up-to-date on intuition.  Do you want to cover your MCP question? Yeah, just a quick one.
+
+3:24 - Sydney Lai (GaiaNet)
+  I was just wondering, James, how did the instructions go? Has Toby been able to help you with the MCP integration?  And then do we need a call with Michael?
+
+3:37 - James Young (Collab🤝Land)
+  Yeah, so I spoke with Toby, and he says he's testing, and he's validating. And so once he has finished his test, he said he would let me know, and then we can review.  And then from that, we'll see if there are any other outstanding questions to ask Michael. So I'm just waiting on Toby to finish his test.  He said, hold up and just let him finish his testing first. Actually, he did say that and I'm just remembering.
+
+4:06 - Sydney Lai (GaiaNet)
+  So, okay, we're lying. I was just double-shocking. Great.
+
+4:11 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Thanks, you two. Sebastian, you want to cover your two points here? Yeah, for sure. I guess it'll be a two-parter.
+
+4:21 - Sebastian Varela
+  Tom, I'll ask you to jump in here in a couple points. But essentially wanted to give a high-level update on where we are at for the agents that we talked about integrating, starting with the swapping agent.  Last few weeks for us have been figuring out 7702, what the architecture is going to be for its delegations and all that.  So there's that side of it. And then there was an open question about what exactly the integration point for the orchestrator agent is, like where that interfacing is going to happen, exactly under what specs or whatever.  I'll let Tom kind of give a bit more details here.
+
+4:55 - Sydney Lai (GaiaNet)
+  Oh, Sebastian, I might reach out to you later today. Or tomorrow, today or tomorrow, about some of these trading bots and whatnot, so I'm just dropping you a note, I'll reach out, yeah.  Awesome.
+
+5:10 - Tom Daniel
+  Yeah, so as far as the delegation toolkit and agent wallet integration, we're in the midst of integrating that, you know, into our swapping agent and Vibekit right now.  There's some refactoring upgrades as well that we're doing for the execution of swaps that we're integrating. Let's see. And then, yeah, the question about the point of integration, it's, let's see.  So, James, you might have to remind me, I think we concluded that, you the interface that we will have up and running, you know, with the MCP should be fine, and then that probably connects to the MCP work.  I you're doing right now, but I just wanted to confirm that that was the case. Yeah, that's right.
+
+6:09 - James Young (Collab🤝Land)
+  So I'll make two comments if that's okay. One is, yeah, we're using the MetaMask Delegation Toolkit so that you can actually chain delegation.  And so I think that's going to just increase the speed of the transaction and batch processing. by several orders of magnitude here, especially if we are wanting to have the orchestrator deal with more than one agent, like Agent Swarm, which is kind of the point of the orchestrator.  And then two, yes, MCP will be used for the communication layer. However, I think that there's going to be some infrastructure work I'm anticipating that's going to need to be done because these delegations are off chain.  And we want to think about. We how or where we want to store those delegations. There might be some trust assumptions that we want to work through on that.  And then once those delegations are stored, let's say it's a database or a DA layer, how do we take all those delegations and batch them up and send them as a user op?  And then, you know, we should decide what infrastructure 437 provider that we want to use here. There's like Biconomy, Pimlico, Alchemy, and there are a few others.  So I think for this initial testing, we may need to also coordinate around the 437 infrastructure provider as well.  Sounds good. I recommend Pimlico. I recommend Pimlico. Okay.
+
+7:51 - Tom Daniel
+  Okay. Yeah. Sounds good. We can definitely continue to coordinate around that. And I mean, As far as the delegations are concerned and, you know, the state management of those, I wonder if we just have those managed at the point at which it needs to be used.  So, you know, if the orchestrator is, I I guess it won't be doing something directly, so let's just say that it has signed a delegation and sent it to the Ember agent.  Then it's probably the Ember agent, it seems like, that would be responsible for safely persisting that. And then, but it is a good question, you know, it's definitely, there are definitely a few security applications that we need to consider.
+
+8:49 - James Young (Collab🤝Land)
+  Yeah, yeah, so I think there's going to need to be some conversations and maybe a design session around that, at least for the first approach.  I mean, I'm willing to take this. Step-by-step, just like what we're doing with the Mother Orchestrator in the Mother Discord, what we can do is just save it to a centralized database at first so that we can get the groundwork laid and make it easy.  And then we can iterate from there. Yeah, yeah, that definitely sounds good. Amazing.
+
+9:23 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Thank you, Tom and Sebastian. Is that everything from the Ember side? I think so.
+
+9:29 - Sebastian Varela
+  mean, this is maybe something else I will just ask. This is the recurring weekly call for all things Mother?  Okay, awesome. Yes, normally on Mondays, normally on Mondays, except for today.
+
+9:43 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And yes, and last week. Gotcha.
+
+9:45 - Sebastian Varela
+  Okay, awesome. So yeah, sounds good. Glad to be on here. I'll just keep this kind of, you know, going for the next following as well, just to make sure we don't lose the thread.  Amazing. Yeah, really glad to have you and Tom here.
+
+9:58 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  You're both very welcome additions. And you'll see that these calls are pretty pointed. I know it's booked for 45 minutes, but I don't even remember the last time we've hit 45 minutes.  We're usually like pretty to the point with these things. So we're just really cognizant of everyone's time. Let's, some quick updates from me.  So one is the, this is kind of like from Matt as well, is we have a call booked with the Legion team for Friday.  So Matt is meeting with the guy from Legion. James, I put you on the invite as well. If it works for you, don't worry if it doesn't.  It's super, I'm in, I'm in Pacific coast time right now. So it's super early for me. I may or may not be on the call, but Legion.  So you all know is, is a potential fundraising opportunity, fundraising partner for us. So, um, yeah, let's just wait to hear how that conversation goes between them and Matt, um, billions as well.  Um, got it added to the TG coordination chat. So as part of kind of like our overarching. TGE Coordination.  Evan and the Billions team are going to be participating as well, which is great. They're going to be launching a token.  I mean, you know, they said October, but we all know that that's probably going to be delayed. Even she knows that's going to be delayed.  But they are launching a token. And she's also going to make an intro to the Talis team as well, which is great because they're doing kick  stuff.  And she said that they would probably love to be involved in something like this. So I'm going to get an intro with that in next couple of weeks and at least get them corralled in in some way, shape or form.  It'd be great to figure out how they can plug in. And then the last update is, oh, just Tash and James.  I wanted to see if we could tap into some of the discord stats for the quiz agent. If we can start taking a look, just thinking about the case study and like, you know, our actual product and how we're building that.  So yeah, I don't know what the process is for that. But I'd love to start that process. James, I don't know if you had your hand up to respond to that or to add something else.  Yeah, I'll respond first to the Discord stat.
+
+12:10 - James Young (Collab🤝Land)
+  So there is an API endpoint that I posted in the Slack. I tagged Rancher, and he says it all works.  So it's just a CSV dump. So you can hit that and get at least the Gaia Discord stats. And then I can also create an API endpoint once the mother Discord quiz agent is launched this week, so that we can start getting stats on the mother Discord as well.
+  ACTION ITEM: Follow up w/ Rancher re: accessing Discord stats for quiz agent (API endpoint in Slack)
+ - WATCH: https://fathom.video/share/RhmaabkiKsELRFRsYArAdTrdyN4wYExs?timestamp=755.9999  So, yeah, so that's available.
+
+12:46 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, follow up with Rancher is the answer. Yeah, yeah. Okay, cool. We'll do.
+
+12:52 - James Young (Collab🤝Land)
+  And then I had a, the reason I raised my hand is that with Billions, from what I understand, they're kind of...  of this identity provider. We also are working with intuition. So we may want to use and coordinate around putting the billions ID identifier.  I think they're using dids. I'm not sure if it's either did or the did doc spec, whatever it is, we could actually use that and add that to the intuition metadata as well.  So there can be this kind of interop. So it could be like the Gaia inference nodes are agents on intuition identified by the billions ID marker.  So this is how these different projects can come together and integrate. And we're building this holistic system here, step by step, one TGE at a time.
+  ACTION ITEM: Schedule kickoff call w/ Evan (Billions) & James to discuss integration & narrative
+ - WATCH: https://fathom.video/share/RhmaabkiKsELRFRsYArAdTrdyN4wYExs?timestamp=829.9999  Amazing.
+
+13:52 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So maybe once Evan gets her, she had like her phone stolen, which is like wild. She had her phone.  So once she gets all that sorted and she's like in the group, maybe we'll just have a kickoff call with you and that team and we can kind of get high level what needs to be done and get them because she's really excited about this whole idea and so does that sound like the right next step there?
+
+14:17 - James Young (Collab🤝Land)
+  Yeah, I think what we want to do and what it seems like, just off the top of my head, this narrative is forming where we have these different TGEs getting lined up and they're actually being, you know, used.  So Gaia had the TGE, Billions and Intuition are going to have their TGE, Lid's going to have their TGE and all of these different projects, their tech is being used to create this registry and they are coming in at different points in the stack.  So I think that we want to inform Billions about this narrative in general. I think we want to get them excited about it because then it's not only using it.  But like bootstrapping it with a lot of data instead of them having to independently get people to register. We could bootstrap it with the agents that we're building, the community that we're launching in, and just integrating all the tech.  So this is kind of, I think, the play here so that token holders especially can see how this is all shaping up.  So this is not just like, oh, we're building this all toward like a mother token. We're assembling this one TG at a time, and then at the end, the mother token is like this token to be used for, you know, voting and registry.  But it's based off of, you know, this consortium of projects that we're working together with and whose tech is all being integrated.
+  ACTION ITEM: Contact Recall team about joining TGE coordination effort
+ - WATCH: https://fathom.video/share/RhmaabkiKsELRFRsYArAdTrdyN4wYExs?timestamp=951.9999  Amazing.
+
+16:02 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And that actually reminded me as well, I haven't got in touch with Recall, so I'm going to follow up with them.  And yeah, maybe I'll just get on a call with them. Maybe that'll kind of get them over the finish line to join this thing, because it would be great to have them on board as well.  Yeah, I think this is where we try and get as much momentum as possible.
+
+16:18 - James Young (Collab🤝Land)
+  We're momentum building at the moment. Recall could be a great addition as well, because then some of this could be private, public, and all of the Cortex stuff that we worked on prior.  And we have prior experience integration with integrating with Recall. So I think they would be a great addition, and they totally fit with this kind of, you know, TGE at a time, because I think they're doing their TGE Q4 or something like that, or Q1 of next year.  So I think that this is our opportunity to really create that narrative, momentum build, and see how all... All of this kind of comes together.
+  ACTION ITEM: Create sheet w/ KPIs for measuring agent effectiveness, review w/ Jonathan
+ - WATCH: https://fathom.video/share/RhmaabkiKsELRFRsYArAdTrdyN4wYExs?timestamp=1021.9999  Okay, cool.
+
+17:06 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Anyone else have anything? I think that that's it for today. Otherwise.
+
+17:12 - Natascha Tiotuico
+  About the KPIs, Coach, I just sent you the API, and if you want, we can sit together, and I can also buff, like, create a sheet where we can find out what do we want to measure.  That would be great, yeah.
+
+17:29 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I actually created a doc a while ago, a notion that I haven't revisited, of just like, I was just like, what's my ideal, if I could have any case study I wanted in the world to show how effective our agents were, what were all the things that I would have, you know?  So I created that, so we can even pull some ideas from that, and then see what we actually can measure for now, and go from there, yeah, but we can do that ASA, cool?  All right, well, that's it. I hope you all have, like, a wonderful, wonderful week. And, yeah, we'll see you on the internet.  One of the Stargangers tonight is Perseid Meteor Shower.
+
+18:08 - Natascha Tiotuico
+  Oh, my goodness. Shooting Star Night. Really? Whereabouts? Everywhere. Like, you just have to look up in the sky. There's supposed to be like 100 per hour.  All over the world? Yeah, but since we have a full moon, it might be hard to see. But the chance is higher than other days.  So I just wanted to make aware of whoever loves that as much as I do. Yeah, thanks. If you can go climb a small hill or mountain, you'll be able to see them well.  I don't know, guys. The Earth is flat. We won't be able to see it.
+
+18:54 - Sydney Lai (GaiaNet)
+  I truly believe.
+
+18:57 - James Young (Collab🤝Land)
+  All right, everyone. Bye, guys. Bye-bye.
+
+19:02 - Natascha Tiotuico
+  We heard it here first. Thanks, everyone. Bye. Bye.
