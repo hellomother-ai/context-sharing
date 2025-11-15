@@ -1,0 +1,295 @@
+ Okay, we are live. Welcome. Welcome everyone. This is a very special live stream. I know it's Friday, but we are very exciting, like lineup. So today we're speaking about everything around the 8 0 0 4 with James and Marco. Before I start giving some kind of like intro, you wanna quickly introduce yourself.
+
+James, you wanna start first? 
+
+Sure. I'll do a quick intro. My name is James Young. Been in the Ethereum ecosystem since 2016. I co-wrote the white paper for Malik Dow implemented the first payment channel on Ethereum, the precursor to L twos. Co-wrote the white paper for token created registries as well which is very pertinent in terms of I think background and.
+
+8 0 0 4. And for the last five and a half years I've been co-leading a project called Collab, which we do token getting on discord and Telegram. And we manage about 50,000 plus crypto native tokenized communities. 
+
+Nice, nice. Yeah, it's exciting to have you here. James, you're quite a legend in this space here.
+
+Marco, do you wanna quickly introduce yourself? 
+
+Yes. I've built companies in education and Web3 in the last 20 years. I'm a technical founder, so let's have a also a technical angle as a founder. And I joined Meta Mask 'cause meta Mask acquire one of my last startups. And I'm currently focused on ai.
+
+I'm super excited about push all this revolution in a direction which is. Permissionless and open and enable users to get the value of AI while still preserving their privacy and their ability also as builders to build without going through intermediaries. 
+
+Nice. Very excited. It's quite an honor to have the co-author of a 0 0 4 here in this livestream.
+
+Yes. And excited to have this chat. I think the way that we can structure is giving some kind of like background of information around a 0 0 4, like agentic economy. We can dive deep into, I think like your tweet Marco was spot on yesterday with the update. You break down all the specific use case and implementation.
+
+Then yeah, we can keep up like the flow like open to see if there are question from the audience. And and and I think that's we're good to go. Okay. So this RC is all around agentic economies, right? I think for giving a context to everyone. People in the past one or plus year, even in web two, we're building agents for a long time, right?
+
+And there are different languages, these different frameworks I think for the people hearing, maybe you started your agent to building with e Iza, right? And when you start to build and build within. The agent economy, you're starting to think about okay.
+
+How those islands of agents are communicating with each other. And I think one part of the game here and this PAC specifically is empowering, is like trustless agent standards. And we can dive deep a bit into it. But I would love to hear your thought, Marco. Very high level.
+
+Walk us through a bit, like the this spec around a 0 0 4. You mentioned around three distinct registries, right? The identity, the reputation, and the validation. And I would love also like to understand why you thought even in the first place to cover write this with other outers and why we needed a spec like that.
+
+Yes. How does an economy look like? So you have public signals, if you think about it, like prices, and you need to have ways to meet other economic actor and propose to do stuff together. Maybe hire them, maybe sell or buy services, and having neutral rates to do that. It's crucial. So in our world central banks.
+
+Are providing currencies. Streets enable us to work from one place to another. Internet backbones run enables the internet, and it's very important that these public signal signals and race are not owned by anybody. So more in practice in the last year MCP and HAI think solve the problem of communication, which means.
+
+I know that I want to communicate with an agent. I'm ready both on that. How can I do it? How can I send a message? And that's for me. It's done to improve, but it's done. In terms of payment with X 4 0 2, for example, I think it's great. You really have a a global settlement system, which is blockchain based to pay agents.
+
+And so the last missing tile of the puzzle is one of the most important I think, is how do I get aware of existence of the agent in the first place, because otherwise, how can I communicate with somebody that, how can I. Understand that it exists, which is a problem that in computer science we call maybe discoverability or of entities in a network.
+
+And part of the discovery is of course, how do I decide if picking one or the other, which is the problem of trust. We've we've other people, we've dub there from ef we were chatting with many Web3 projects and there were no standards. There were specific approaches, and this is clearly.
+
+It's not a technical problem, so we hope that the spec are good. I think they are, I hope. But this is more a coordination problem. And so the exciting thing about what's happening around 8,004 is that you really have hundreds of companies, thousands of builders, including also of course, very relevant companies and group.
+
+That agree on something. And that's important because it's about bootstrapping an a permissionless open-ended system where I put an agent and it pops up in all the stores. And that's the best answer that we can give to the first, of course centralized GPT stores that are that already exist.
+
+And to, to finally, I don't see this as a, for now, OpenAI is a different approach, but I don't see them as a, as competitors. I would like to involve them. They should join the movement. They should join the open economy. So this is public race that will enable OpenAI to interact with Anthropic agents.
+
+And I think they should be excited about working together on making this safe and secure. 
+
+Oh yeah. You remember James, that we were speaking a lot around the, like agent collaboration. Agent communication around modern for the first years. I think like you're also super excited about this.
+
+Yeah, I'm super excited about this. Just to give a little bit of context, we've been working for now, for about a year on this coalition called Mother and we had this idea or concept of registries. And Marco, what you're talking about is hugely important because I think the signal with this EIP shows that we need something that's credibly neutral.
+
+And I totally agree that it's a coordination issue. I have a question for you, Marco. Before we do more of this technical deep dive here, would love to get your perspective of what, why do you think the spec has sparked such this imagination across a specific subset in the Ethereum community?
+
+What's the deep coordination unlock? That 8 0 0 4 really enables. That didn't exist before.
+
+So there was a strong need because all the people that cared about the values and the problems that we're talking about were already maybe working on that. But they felt that the connect, the way to connect the dots, which was what was incredibly neutral, was missing. Second, the spec mean it's generalized, I think enough.
+
+And we have really tried to make it not opinionated, but at the same time actionable. So I think it was a good balance between something that is very undefined and something that is too opinionated. And finally, in terms of coordination problem I think that the, having among the co-signers I important players of the.
+
+E ecosystem and not just the cosign. So if you are in the builder group of 8,004, you really see many brands, many companies, many builders endorsing that. So it was like a snowball effect. 'cause again, it's a coordination issue. And so seeing something that seemed to be generalized and a good solution with so much excitement as triggered other excitement.
+
+That's a great point. With regards to the Telegram group, I don't know if we can post the link for those that are interested in joining, but there's a lot of great conversations happening in that teaching group. 
+
+Oh, I will post it for sure. 
+
+Let's do that. Speaking the link. 
+
+All right, so moving the conversation along maybe we can then go back to address Francesco's question with regards to, the different type of registries. And what I found very useful at a high level is the tweet or the post on x Marco that, you defined and maybe that could help provide some framing for us for those that are not familiar, that are listening to this stream or recording with regards to 8 0 0 4.
+
+And they can look at the post and then maybe augment the post with this recording or live stream to get a better context of this. I just shared it 
+
+here. Yeah, so basically like Marco you posted out this yesterday, super excited, so trust lead agents. And I like how you break down, I dunno if you wanna run us through a bit, these kind of like points agents are, NFT agents are portables.
+
+And the fact you identify also the specific specs is also like very yeah very useful for from agent developers and everyone. Yes. So LLL, 
+
+let's go through them. NFTs. So we realized working on the draft and the initial spec that of course all agents are d different among each other.
+
+We're not fungible. And also the way we are, we were defining an agent in the August spec, which is an id, which is assigned by a smart contract. An address of an owner and a pointer, a URI to off chain staff was exactly the, at a high level, the data structure of a 7 2 1 token most commonly known as NFT.
+
+And so this choice is a way not just to reuse the amazing open source contracts done by open zin. But actually to have a solution which is immediately compatible with all the application and infrared in the last five years have been built. Be for years, five years because of NFTs. And so it, it's a way to enable, as we see on the screen, in, in one line to meet an agent pointing to wage agent card that we discuss in a second, and then also have a standard way to, to transfer agents.
+
+We don't know how much transferring agents will be like a massive use case. Like with businesses, right? I, my, my place is a good reputation. My business is a good reputation, and I sell it with its reputation to another agent or another human. Will this happen? It makes a lot of sense, but of course it's very early.
+
+And so the interface, the on chain part of interface of an agent is an NFT with only one difference. That is on top of that. So it's it doesn't break. Compatibility. You have a possibility to add on chain metadata, like key value, like wallet address, agent name. This is flexible, is left to developer's, composability.
+
+So you can add key value on chain data. If we move to the next one we see. What this link that we have seen in the NFT links to, we call this registration file, and together we've named description and image that are the field that are, they're not mandatory. They are suggested for NFTs.
+
+It's the one that we have all been using which, which will be important I think. I think that in the description field, people will describe what the agent is. Sorry. People or other agents will describe what the agent is for what they sell, which are the skills, potentially also the prices we have on purpose.
+
+Let that as a natural language field because describing prices would've been too complex and then. More importantly, that's the real sense of the registration file. You have all the endpoints of how and where the agent want to be reached, like the MCP endpoint, very popular that all the AI community is using.
+
+The eight way endpoint that is called Agent Card, which is a JS that says in eight way. So eight way is a communication protocol created by Google and given to donated to Linux Foundation at the end of June. Plus thanks to the input of the community, we added the ENS pointer dds. If you want your agent to have a DID.
+
+With a customer solver. And and also you can also as, as on the on chain metadata, as I was saying earlier, you can also put here the wallet. So it's really the card, the ID of where the agent was, wants to be contacted. And and I bet that this will be like the discovery layer. So having like explorers that render this.
+
+Will be the, at the beginning, the most successful part of 8,004. 'cause it's very easy. You have you have logically centralized discovery of all the agents logically, because it's a smart contact. It's an FT registry, but of course it's architecturally decent because it's blockchain based. So you have the global registry of agents and finally you can also mention which trust models you support, which is what we'll go through. Now in the next 
+
+1, 1, 1 thing, Marco, just you remind me a lot like the NFT standards when there was no way to actually move NFTs from an open seat to variable, right? There was no attribution standards and these actually, this portability factor for agent is a very similar problem that is solved right now because it's very powerful.
+
+What's next? I don't remember. What's the next 
+
+reputation? 
+
+Oh sure.
+
+Reputation needs to be very flexible because you should be able, it's not just about, okay, I'm at a restaurant and I give three stars out of five. You can also embed this in the application logic. For example, I'm working with a group of friends on potentially a game where. Agents give reputation among each other on their trustability, their liars, their betrayal in a game, right?
+
+And so this can also be used in, this should be used in ways that we don't imagine right now. So it's entities that give signals among each other. That's why the reputation system as a score field, which is an integral from zero to 100, but then also has a couple of open tags. And these three things are on chain while off chain.
+
+That's optional. If you need more stuff like the more powerful and rich structure that we see in front of our eyes we point to an off chain file. This is again, optional and we built like that because in August and September so many builders reach out saying, don't put everything off chain.
+
+We want also some stuff on chain because this enables. Composability. And this part has been developed a lot also in collaboration with with Eric from Coinbase. And specifically now in the new version, you can, you have a, an average score function a get summary function, but we, it's slightly in under what we see in the screen, and you can get there.
+
+Yes, get summary at the bottom. You can basically get on chain the reputation around something filtering by reviewers. And so you can your own, I can say I just care about James reviews and you can on chain of chain do I, I call it information Lego. Reputation. Lego. 
+
+
+
+That's a that's a bad of course.
+
+So we are betting that Ethereum could be the trigger for distributed reputation, decentralized and distributed reputation. Self-sovereign identity is stuff that frankly we've been talking about for years and hasn't yet reached a mass adoption. And my thinking is that this stuff is really good for agents.
+
+It's more than for humans. The fact of putting together under signals and deciding what to do is more for agents than humans.
+
+By the way, we have one quick question from Aush here which is a recommended implementation of the registry one to follow today, like entry points. 
+
+We will push for and actually worked for having chain single tones.
+
+So on Ethereum you will have only one registry one identity registry, one validation registry, and one reputation registry. So we are shipping, the registry is in Testnet end of next week. That's the plan if you manage to do that. And then on the main net of well, L one, but also we have many, almost all the Major L Choose project are involved in the discussion.
+
+We, we will have from DevConnect all the three registers deployed on each of of al Choose that will. But we'll decide to do that also for non EDM chain. We are talking a lot with near, for example. And and we are defining, it's not decided yet how, like the governance of the proxy contracts would be.
+
+At the beginning we still prefer to keep the option of upgrade the contracts 'cause maybe that will not be perfect at day zero. So we'll have probably a multisig then at a certain point. Maybe they could just become immutable. 
+
+Nice, nice. Thanks for asking this question. Feel free to shoot a question in the chat guys.
+
+Yes, please. Marco NCP. This is, I think is super exciting. The next part here, like NCP support? 
+
+Yes. That was probably the most common feedback to August draft. Which it was something like, okay, it way is nice, but where is MCP? And and we tackle that in a very simple way. As a a two A as the concept of skills, context and task in MCP.
+
+When you start, when you contact the server you get through capabilities, the list of tools, prompts, and resources supported by the by the server. So an MCP tool is a server, right? So it's a, it's an agent in a sense. Is an agent, it's a computer and so it, we, with 8,004, you can use it and give it a feedback.
+
+So for example, I've used the tools called CRE Create and my score is 20 and I can share more information. So that's, that will take a bit more time than discovery.
+
+MCP catalog that are popping up centralized. With this, you can do exactly the same, but decent, centralized with filters and orders based on on the reputation. Nice. 
+
+Let me move to the four X 4 0 2, 
+
+that, that's to show that in reputation you can also add signals connected to the payment. So for now.
+
+You can attach in the off chain part a proof of payment done with weeks for O2, that means that off chain aggregators, because the off chain js o can't be read, of course, from PDM, can't use this to wait the feedback. 
+
+
+
+If I it, and that's to mitigate Pam and tax. So if I've just paid 100 bucks it's less probable that my feedback is which is anyway preauthorized by the server.
+
+It's very important. Is Pam, my dream, frankly we're still working on this and it's will come later and not necesssarily in the standard. It can be an application. Is to prove to a smart contract all your history of payments. And come up with a full distribution reputation system distributed where the opinion of each rater and rate is weight based on how much he has paid as has been paid.
+
+And this would solve a lot of the civil attacks and spam problems. But let's see. 
+
+We have one, one question Marco from Bill. Can we tie multiple agents on one entity? I think this is tied also to reputation system. The question is do you really do we want that? Because I mean I think it's mostly rather the, is mostly about verticals, right? 
+
+Yes. So the answer is in general, no. So the, what we're trying to say, it's called identity, because when we say that one, I, we say one identity is one agent, right? So you can have, of course, an owner that owns multiple agents.
+
+You can have an operator that manage multiple agents operator as in NFT standard. So the identity here is not the identity of a human. Of course, Francesco can have multiple agents. It's the identity of the agent. And so saying that an a an identity of an agent is multiple agents is like a contradictory term.
+
+If it's multiple agent, it should be multiple identities. And so you should, mean the multiple multiple tokens. That's why the token points to adjacent that has one name, one description. You can't have multiple names. Multiple. It's yes. 
+
+Yeah, you don't. That makes a lot of sense. Okay. Yeah.
+
+Yeah. I think that there can be this role of an orchestrator agent then that just hires other agents, but that orchestrator agent has its own identity, and maybe there's a usefulness for this orchestrator or managing coordinator agent, but every agent itself has its own identity. 
+
+Agree. Agree. I think this is tightening up also with the validation registry here on the seven point Marco.
+
+So validation is a very flexible registry that we added to support d different use cases and the use cases as everything that we have done are really tight in what the community is already doing. So we haven't invented anything from scratch. We just talked a lot with people and specifically, this is related to three use cases. One is imagine that you have a set of validators that rerun your job the work of your agent, and confirms if the job has been done correctly or not. And since these validators are a collateral are staking. If the validators are cheating, they lose the collateral.
+
+This is an approach that is very useful when you have money at stake and you don't have frequent jobs. Let's say that at midnight every day you need to rebalance a portfolio 400 million. That's a good use case. This use case is like lead inspired co, co drafted also with a layer.
+
+With NEMA who's leading AI there and also with other colleagues and how it works. So as an agent, I request the validation and I put as a validation valid address the. S or it's not just a specific, of course, can be any other competitor of a layer. And then that, that smart contract, it's up to Westmark.
+
+We as 8,004, we just trust Westmark contact and then it's up to them to write their own chain and of chain application logic to run the validation. Another example is related to trusted execution environments, teas. That are in our pockets, in our iPhone, on our laptops. So it's and all the major chips like Intel chips and others provide the possibility to attest the fact that a given calculation has been done by them.
+
+So technically it's not proving the correctness of a computation, it is just signing the output as a chip. And so that means that's an important limitation. The code need to be open source the. The Docker image, the container image. If you trust the container image and the, and Intel or Amazon Nitro, you can trust the output of Aval of a validation.
+
+And lastly, that's something added did in the last version. So I initially pushed back on having the KML their knowledge machine learning. Which is basically bringing the KP to ai. So you have a we are talking about inference. So you have a prover that proves the correctness of an inference because it's very formal looking and it, this is an approach that has strong scalability issue.
+
+But the realities that in the last few months there were there was a lot of progress. And and so we mentioned that explicitly in the spec 'cause the validation registry is totally compatible. In this case, the validation address by 2.2 is the verifier of a proof. And how can I say I, I'm just looking forward to see the ZK ML space to progress so fast and making this usable soon.
+
+Nice. 
+
+Lemme move to the gas less is indexing.
+
+Yes. In the previous version, the clients, so the clients that buy agents work, sh were asked and supposed to register as well on the registry. And this was a strong limitation because it made the, like gas sponsorship more complex because you had, it was interactive. You need first to register and to express feedback and we pushed also because of the input of many, like co-signers and committee member to just have no registration for clients. You just need an address which is authorized and you can, you just need a signer, basically a private key and this May is the gas sponsorship, but is managed by application with 7, 7 0 2 is not.
+
+It doesn't need to be in our protocol because likely, 7, 7 0 2 or 4 3, 3 7 is also compatible with that as well. And something else to mention is that, so if you need to collect signals, we can't ask the client to do that. So you need indexers to, to put data together. 
+
+And agent Node, which is the company that is behind the, is working a lot on the graph ecosystem has been an important contributor. And and so in practice it will be able like to use sub graph to index all reputation signals that we were mentioning. And one thing that we're considering, I don't know if I'm spoiling something, is also to have like subgraphs on X 4 0 2 payments data that are used for reputation because nodes on sub sub graph of chain could, as oracles pass back to 8,004 reputational signals based on payments. And so you could do on chain reputation Lego based on the payments as we were saying earlier. So that's cool. And all this stuff is tooling related. So I think discover a lot in the next few months.
+
+It's very hard to predict now all the huge possibility of creativity that developers will express. 
+
+Oh yes. So many use case too. What are like the main use case that you see right now being built by the DAPs? I think there were 50 plus DAPs already supporting a 0 0 4. There is a lot, like the ecosystem is definitely flourishing, but there are so many use case.
+
+And I just wanna ask you both you James and Marco what are the top kind of use cases that you CB build right now?
+
+Oh, Marco, please go first. 
+
+Okay. The most popular that I've seen up to now is agents explorer. Frontend find agents second for sure, trading agents. So Giza and many others credit, there are many projects, building agents that manage your holdings. The most creative communities are clearly the IA and virtuals one that are part of our ecosystem.
+
+I've seen every, we're creating like dating apps, we are thinking about like building agent that can do create your 3D clause. Also games. Like some of them thinking about a game to generate words and having agents that need to collaborate to reconstruct towards. So I would say that these are also social media manager agents that using reputation, which is low stake.
+
+So in, in a sense, agents will get more and more popular based on what AI are good for. AI are now incredibly good in doing creative analyst and manage social medias and also doing consultancy work. And so let's say as analyst and so creative analyst and and analyst and analy and creative agents and analyst agents are think stuff that is happening already in our community and in general.
+
+I love what That's amazing. Legal based reputation you mentioned here. 
+
+Yeah. That's amazing. Yeah. For me, my lens is community and we manage all these shared communities in chat on Discord and Telegram. And for us, we think about how can we have agents because. Chat is a natural interface for communities.
+
+We, it's also the main form to interact with these agents. So the way I think about it is how can we deploy agents on platforms that already exist and do simple things like. Onboarding, swapping, bridging, trading, all of these things just so that we can get more wide mainstream adoption with, and I love what Marco, you were saying in terms of compatibility with 7702 4337 having this NFT, it's just, it's so composable.
+
+That's why the design space is so wide. So for us at Collabland we think about this from a product perspective as allowing these communities to employ these agents for onchain quests to help guide and protect against Sybil and just really grow the community correctly. And the hard part is the incentive design for these communities.
+
+And we have the distribution. We're just trying to really figure out the right incentive mechanisms there. I think of that from the lens of community management. 
+
+There is so much, like I'm thinking about even like discord management or even community tooling management. There is a lot.
+
+I think also what Marco you're saying around I think I agree around the defi specific use case and the kind of like social phi. I think there is also a lot of opportunity around decentralized science. Like a lot of like research specific agents. Not just like scraper, but like multiple layer of research.
+
+I see already even centralized AI starting to do like a multi MultiPro processing. So there is a lot of things that can be extrapolated on that. Okay. So where are we seeing next? I think post your tweet. I think like you were sharing let me share it right now.
+
+But basically this is like the main spec. We'll share it here in the chat. I think these are like the three main things. Identity registry, reputation registry and validation registry. And then you can actually go through a little bit. And what else? What in terms of like resources people, or at least like developers specifically, like they should check out before, before even starting to develop an agent.
+
+Marco.
+
+We are, targeting earlier next week, mid next week, to have like new docs, tutorials and SDK. We are really working on that with a community approach. Again, we are not like shipping off features. 8,004 is like managed by multiple people, multiple company. There is no specific company controlling this.
+
+And so the reference implementation that you will see next week are actually created by many different components of weight thousand and four community. So my suggestion. Is to wait like two. The specs are very technical, so if you are, if you like specs, of course let us know. But I really suggest to stay in the build a group.
+
+Different reference implementation has already have already been posted actually. So you can just right now click on the GitHub and see repo and wait for the the reference implementation and SDKs and the tutorials. And not leveraging the spec that are bit boring. 
+
+Yes. Yes. 
+
+Let's 
+
+no, go for it, James.
+
+Oh, I was just saying that's great. Practical advice. For now what I. Read from that is, you may wanna get familiar with the specs but they're gonna be practical examples and use cases, SDKs available. And definitely join the builders chat because you can see reference implementations as next week drops.
+
+I'm super excited to see that. Can I ask one closing question? It's a little bit of a hot take, if you don't mind, Marco. What is the one thing about ERC 8 0 0 4? You think most people get wrong?
+
+I think frequently or sometime people think about it as a product. And so for example, they ask, okay, but you could have spam. You could have, yes, you could have spam, but what we're doing here is a different thing. This is a protocol. We are creating public signals are information. This is about cloud channel information.
+
+We want to have a place which is not sensible, which is permissionless, where you can. Let other people know that an or other agent that an agent exists and share signals around agents how this will be used in terms of explorers aggregation rate. And that's not up to us. And that's a feature. We need multiple ways to aggregate.
+
+Reputation data. Otherwise that would be a risk for, again, for having a plurality of voices and Exactly. As in the current world, we have an entire industry about like rating people and financial world. We will have entire industries of like agents intelligences, analyzing these signals. So 8,004. Is making, is trying to make everybody converge in information.
+
+Public race that are public goods and that can hope to trigger new information. Economies is not a product itself. It's a, it's an years. 
+
+I really like this question. James, I think a lot of people also misunderstood. Hey, you would no, I think the goal here is to give in guard like like guardrails and standards.
+
+And and I think it's very exciting. One thing that I also like to close up Marco is there is there something that you feel like the community can build that is missing right now in a 0 0 4? I know always like community asking how I can get actively involved, right?
+
+Not just, consuming the specs, but also what can I, is there something that is missing? I mean you touched on some kind of like alpha there around Oracle specific, but is there something that you wish Hey, this could be picked up by the community or This part is something that I will super appreciate if people can submit prs.
+
+My suggestion is to to join the B group. Not just that. What I see more often is there are like other communities that are connected with 8,004 we mentioned multiple times, all as via Eliza Yesterday, protocol Labs announced that they will give IPFS free spinning to everybody.
+
+Staying not just in our group, but in all the others of the community, is a way to get more support. To find co-founders. To find co engineers, to start building. To build what? My preference, suggestion is to focus on consumer facing stuff and not aggregators platforms that aggregates agents. Many are already building 8,004 compatible explorers.
+
+That's, it's done. It's done. You can build your own, but let's also focus about games, consumer products like agents that buy that helps you booking a vacation. Today we mentioned creative agents, so I personally use just, I use AI when I use my social medias all the time. I do like to have an agent where I do the same, but it's more conversational and he does stuff for me.
+
+Because the M can already do that, so let's build IT analyst agents. So really thinking about B2B and B2C cases and applying 8,004, and not necessarily just starting from the point of having an export. 
+
+It makes sense actually. And I know we are almost on time here. Le last question, this is not technical Marco, but what does successful look like?
+
+Like for example, I know like you know now 2050 DAPs supporting a Azure zero four. I know for example, how many agent and transaction there are right now. What you will say that we are meeting here in, I don't know, in six months and we are saying, okay, like this is the right direction. These metrics are so are showing a 0 0 4 adoption.
+
+Like I, I need numbers. I need to understand is this like you wish 80% of agent transaction will be run around a 0 0 4? There will be, I dunno 2000 agents running this collaboration rails. You wish, give us some kind of like metrics or number that you say, okay. This is we are successful in doing that if we're meeting here in six months back.
+
+Yes it's hard to measure the market share because, the point of not having public signals is that we can measure the centralized agents. This question is also in general related to agents. Not necessarily what we're doing here. We are still green, it's very early. So we talk a about, a lot about agents, but also centralized agents are not super popular.
+
+So my answer to your question is. I will be happy if I really see a meaningful part of a AI ecosystem relevant that is deploying everyday agents there. So number of new agents in the identity registry and as a dense traffic of reputation and validation signal. So I like to create a chart is number of new agents and measure their activity with, so it's yes, weekly active agents where active means that receive the feedback or a validation. 
+
+Oh yeah. Yeah. And I think James, we always speaking a lot that like there are so many forks of the forks of Eliza agents that is starting, like we need a better let's say at the station framework and and violation.
+
+So that's exciting. So any closing words James and Marco before we're closing up that we are really at time here.
+
+I would, yeah, I this has been tremendous, so thank you, Marco. I just wanna express my appreciation for doing this stream. I think this is a great resource in terms of being able to get more color around and what to expect in the coming weeks. And I really like the composability aspect and just getting a lot of meaningful and thoughtful feedback from the ecosystem.
+
+And that the idea here is, it's not another science project, but just trying to keep things as practical as possible and as meaningful as possible here. And also with your question, Francesco, when it comes to like KPIs, like we, we need to see something that in terms of use case and adoption here and that's the focus here.
+
+I think, i'm very excited about this. I'm sure. So thank you Marco, for helping leading this. Thank you, 
+
+Thank you for the invitation here, and please join the community to all the people that are listening to us. Looking forward to seeing you there. 
+
+Thank you so much everyone.
+
+Awesome. Awesome. We'll do a part too. Cheers guys. Bye-Bye. 
+
+Bye.
