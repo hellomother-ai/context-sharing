@@ -1,0 +1,209 @@
+ Okay, we are live excited to have this live stream. Welcome, welcome everyone to this model livestream James mine, really, truly best co or however. And and dawn here, super honored to have you here in the livestream. Today we're speaking about of things around 8 0 0 4. James, do we wanna quickly introduce yourself for the people that doesn't know you yet?
+
+Sure. My name is James Young. I have co-founded and lead a project called Collab Lamb, which does token gating on Discord and Telegram. Also working on this coalition project that we have called Mother and excited to be here. 
+
+Exciting, exciting. Dawn, again, welcome to have you here. You wanna quickly introduce yourself before we're diving deep into the kind of the world of nevermind and, at a zero four. 
+
+Yeah. Look, thanks for having me on. You guys are great. Love doing this, love talking about everything and all things AgTech. I'm Don, co-founder, CEOI. Nevermind. Our mission is to make every AI agent profitable. I think we've got a pretty unique approach to how we're doing it. My background's in ai.
+
+I've spent 20 years in the space the last 10 at the crossroads of Web3 and AI co-founded Ocean Protocol, which is back in the spotlight again. And yeah, more recently, the last few years been focused on monetizing AI agents a category that is very popular. At 
+
+the moment. Nice. I just want to like kickstart with one spicy question.
+
+You've been the OG around ai. I would love like your perspective, on, on the current kind of AI and crypto to market. But most important, you know why AI needs crypto because we are always like, in our crypto chamber those days. But, I wanna approach on the other side, I think, building, AI on Web3 rails.
+
+Is it needed? Is it just like buzzword combination? Do we really need this? We love to know your perspective Don and also James, you are, you have tons of things to also say on this if you want. 
+
+Yeah. I think. Up until I look in the last couple weeks, right? I think we've seen, we've made a market improvement like leaps and bounds in terms of stepping forward from a Web3 AI point of view.
+
+Specifically X 4 0 2 and then 8 0 0 4 8 0 0 4 being much less recognized outside the crypto space than X 4 0 2. The reality is prior to those things starting to pop off, pretty disillusioned with AI Web3 and still pretty disillusioned with the state of things as a whole. I was at Token 2049 in Singapore, and the conversations were all basically the same topics and conversations we were having a year ago to the point where I was on a panel.
+
+Last year talking about prediction markets and ai and I was on a panel again this year talking about the exact same thing. And it's like really a year later, this is still the topic. Yeah, look, the good is things are starting to progress and people are starting to take notice. But I think the focal point is quite narrow on this stuff.
+
+Obviously some of it has to do with where nevermind lies in terms of payment and then with 8 0 0 4 discovery and reputation. Yeah, I think as a whole, the industry and the AI industry is still popping off. It's starting to generate its de detractors. Arguably we're going through at least the initial phases of the trough of disillusionment, but these are all growing pains that I think, the trajectory is still super good.
+
+Very cool. It's always asking myself, where do we already have early sign off? Like pro problem market, like product market fit, right? We started to see agents doing some liquidity rebalancing. I feel definitely like on the Defi side, we see payments X 4 0 2 being more and more adopted.
+
+So agent collaboration use case I think is definitely like there. I think a 0 0 4 will bring more transparency. But before we're jumping in, let's take a step back a bit on the nevermind use case, what you guys are doing. Like you wanna explain this a to a MCP, the build integrations and yeah.
+
+Yeah. Look I will preface this with answering your other question that you just asked, which is do we need AI and Web3? Do they need to be brought together? The driver for me has has always been on the providential integrity side. Blockchains are very elegant provenance machines AI systems.
+
+Especially when you go to industrialize 'em are highly complex, intricate systems with many different moving parts that quite frankly, they need to be tracked and traced. I know this from experience. If you industrialize a solution and you go into a business meeting and you've predicated some decision on the outcome of an inference that.
+
+Outcome gets undermined if you cannot demonstrate, where that decision making actually happened from, right? And that requires you to be able to show or answer, a few questions like, where's the data coming from? Where's the model coming from? How is it built? What was the algorithm that was used?
+
+Who made the algorithm, who's using the system? Et cetera, et cetera, right? If you can't demonstrably track all of that, it undermines the proposition of the inference itself and then therefore undermines the whole. Analytic workflow. So that's my starting point. They're just very, I think it's funny because you couldn't have two diametrically opposed solutions.
+
+One's like hyper centralized in its construction and ai and the other one's obviously decentralized in nature and you're trying to mash 'em together so they, they don't look like natural partners, but they end up actually being that. And so that's where we start from. Now where does the complexity lie?
+
+It, where it lies in part, is in the variability of these services and the outcomes that they can now generate. And you look at. First off, what is an agent? It's, it's code that can perform directed behavior based on external inputs, right? That directed behavior is now variable in nature, right?
+
+You can call on like different models or different context sets to vary the response that's going to be provided based on a request that variability introduces variable cost. Your opex is no longer static. So we've moved away from the contemporary SaaS model of software where, those are CapEx.
+
+It's a CapEx heavy model. You put all your money into building the thing, but then the request to that thing, that software pretty standardized, right? There's an expectation of what the input's gonna be and what the output will be, and therefore you can model. Like the cost of servicing that and more importantly, you can model how much you need to make.
+
+In order to basically underwrite both the cost of building the solution and the cost of running it, right? It's the idea of zero cost of distribution. Once you've built the SaaS solution, it's the thing that VCs love, right? Put all the money into building it, costing next to nothing to actually run it and get customers in to start paying for it.
+
+Same cannot be said for AI agents. You can vibe code these things now. And but the opex can be super painful if you don't account for it properly. And so that's where we start, right? We think about this from an agent to agent point of view. And what is one requesting agent gonna wanna pay the servicing agent for that request?
+
+It's at least gonna be the cost of rendering the response to that request. Then maybe some margin. That's your baseline, right? And so that's, the focal point that we've had in, in, in the problem that we initially have gone to solve, and it's led to us building an accounting module that straps onto the observability function of an agent or a set of agents and surfaces that, that true cost that metered cost.
+
+Of rendering that service in response to a request translating that opex into a settlement cost for the requester. We're doing this because my thesis is predicated on the belief that what we're witnessing right now is the rise of a new merchant in consumer class that's gonna manifest as trillions of AI agents.
+
+And so these agents are, they're gonna buy and sell from each other. And the baseline for that negotiation and the price to be paid is at least gonna be the cost of the service render 
+
+that. 
+
+So just wrapping in the blockchain piece? Yeah. Obviously you have, you get the fidelity on that, right?
+
+And you combine that with the, the telemetry that you surface from the systems running and you can package it all together, record it, and then you get the innate payment rails as well. It's just a very elegant solution to combine, to put all of these different pieces together.
+
+Awesome. There's a lot to unpack but the, with the limited time, 'cause I have so many questions for you because Don, I think that you've come at this from a first principal's perspective and that like value of that context window, for lack of a better term. Is what I understand, you are abstracting through the nevermind credit system, so there'll be different costs for different context, and then you have reputation and all these other signals to layer in for that cost.
+
+How do you think about that abstraction and how do you value that abstraction? Or how do you price that? 
+
+Yeah, it's a good question. Okay. I, the way that we're going about this is that we're taking a position that reputation is hypercritical to the success of these systems. But in the immediate future, we can manufacture that reputation. You do that less through implicit. Reputational signals that you would get from a blockchain and more from explicit ones where it's like this agent is going to work with this other agent and can only work with that other agent, right?
+
+So this agent does one thing and this agent does another thing and you explicitly bring them together to orchestrate or coordinate a workflow. And so that's kind, I think. Where we start now, you're right. The way that we do this accounting is through the issuance of credits, right? Any agent can issue its credits, and then those credits can re be redeemed, in a fixed capacity or a dynamic capacity.
+
+So if you think about X 4 0 2, X 4 0 2 right now, aligns very much so with the fixed cost. One time pay as you go type scenario, right? I come in, I request the service, I pay for that service, and then I'm done. I may never use that service ever again, right? That's fine. But there are the.
+
+Relationship element that also needs to be considered. And then to your point. The price that goes along with that. If I'm going to, maybe I like your service and I wanna continually use that service, then I need to have a mechanism that's actually going to recognize my commitment to using you.
+
+That's a price reduction, right? We see this traditionally, it's like volume-based discounts or other factors that get brought into the equation, and then the next question becomes, okay, how do you memorialize these types of. Of, of scenarios, smart contracts are very good at memorializing, the business process controls that go around this.
+
+So whether it's fixed price, one-off negotiation, just pay this thing and you get access to it or pay this price and you get access to it, versus I'll give you access for a longer period of time or a certain number of credit redemptions and that's going to give you a lower price. Or maybe that's gonna be a variable price within a range.
+
+We wanna accommodate all of those different permutations. And it just so happens that a credit based system, it's called License Tokenization. It's a it's a traditional licensing model. That hasn't really like it. It gets adopted in certain niche use cases, but it's now becoming more and more adopted.
+
+In, in the AI space, Salesforce as agent force and they now have this idea of, or this implementation of flex credits that's licensed tokenization at play. And so that's basically fundamentally first principles always, like that's the licensing scheme that we're leveraging to make it flexible for these agents to.
+
+Engage in a dynamic way with a bunch of different pricing, mechanics and permutations and not limit or restrict that engagement to one type versus another. 
+
+That's really interesting and it creates this abstraction and I better understand the difference now between what. Nevermind is doing, and for example, X 4 0 2 as a third party crypto developer getting into ai, it's it's difficult and it's easy, it's difficult to understand and easy to conflate that, nevermind compete with X 4 0 2, which is not true.
+
+From my understanding of what you're saying. 
+
+So X 4 0 2. Super elegant solution. The way I would describe it is it's more like a PPS. It's more that payment gateway. Yeah. That's gonna enable the payment to take place as opposed to. The in payment landscape or in the payment world, it's called the entitlement, right?
+
+What do you actually get when you make the payment? Now, it could just be the one-off service, right? And that's the implementation that X 4 0 2 has right now. But more likely than not, it's a variable service that's going to be invoked by that payment. Which is outside of the scope of X 4 0 2. There's a number of different, I think, initiatives now that are starting to kick off that are looking at this, but certain things that also come into play on this front, and you alluded to them before and stuff that like 8 0 0 4 are trying to tackle in terms of reputation and discoverability and that sort of thing.
+
+So what do you think is missing? If there's anything with regards to 8 0 0 4 that. Is needed for this licensed tokenization model to be recognized? Or is there a hack that right now in 8 0 0 4 in terms of the interface design that can account for, and you can just shim in the licensed tokenization model?
+
+Or is it something that's Yeah, I think they're all kind 
+
+of they're complimentary in and of themselves, because there's a 
+
+basis, there's a basis of reputation that's defined in 8 0 0 4. But does that allow, is there enough to hang off of that currently exists that nevermind could potentially leverage?
+
+Or are there gaps? 
+
+Look, I, there's still a lot of gaps, right? Yeah. There's still a lot of there, there's still a lot of room to actually build and develop and explore. I think the conceptually the idea of a registry, like we, that we have that concept too, I think. So there, it's redundant, but then it becomes like a lot of what we've had to do.
+
+Similar to you James. San Francisco, like we've had to build out a necessity. It's not like we want to build and manage the registry or catalog of agents. It's just the fact that like in order to make this system work, let's say in this artificial reputational environment where I know. The actors that are coming together to, to act against a specific use case, they have to be registered in order to be known entities, right?
+
+And so if you look at an X 4 0 2, it's, there's like these known unknowns, these things that like I can pay for, but how do I know what that thing is? How do I validate that? I think 8 0 0 4 goes a long way in terms of trying to establish the unique identification of these agents. It's leveraging emergent protocols like a to a agent to agent from Google.
+
+A CP with stripe and open ai, stuff like that. Where you have the concept of in eight oh a in the eight oh a protocol, you have the, these things called cards, right? Which are basically the metadata about the agent. What is the agent? What's that? The agent's intended purpose, what can it do? It might also be indicative of the price that you need to pay, things like that, but it's this metadata component that attaches to the agent where 8 0 0 4 comes in is here's the idea. For that thing, and here's the process for getting that id, right? Here's the registration flow for actually instantiating this unique identifier for that specific agent.
+
+I think the interesting part to like conceptualize for anybody that's listening is like in this mid to longer-term future where agents are autonomously performing labor. What does that world look like? In my perspective, I'm leaning on my commodities background 'cause that's where I started.
+
+I think virtually all digital services get massively commoditized, right? There's no longer differentiated product in the classic. Definition, what you have is you're pulling in a bunch of different character, reputation attributes, brand, price, history, legacy, right? It starts to look a lot like you're melding together a credit risk and like website back linking solution.
+
+Where these agents are registered with 8 0 0 4 and like James, I wanna use your agent, but I've never used your agent before, so I don't really trust your agent. It's registered in 8 0 0 4, so that lends some credibility. But you know what? It lends even more the fact that France Francesco's agent has used your agent before.
+
+And I've used Francesco's agent. And so I'm gonna create this back linking like credit risk, style, trust, implementation on the fly. And that's going lend implicit trust to your agent. So that's where I see all this going. 
+
+So this, nevermind this leads me to figuring out instead of like, how do you price this?
+
+It's really just creating a marketplace for it. So does nevermind then become a marketplace where people are in real time pricing the different credits based off of the signal that is on these registries. 
+
+So it's really not our intention to build the marketplace. If you were to, I would call it more of a catalog than a marketplace, right?
+
+If you think about commodities, right? The price is a global variable, right? I know the cost of West Texas crude, it's a global variable, right? If I go to the CME, the Chicago Mercantile Exchange, the price setting is based on that global variable. So I can buy WTC from Shell or from bp, and I'm gonna pay BA the same price.
+
+And that's how this, so this, there is this sort of price discovery marketplace, but I'm a I think I'm a big proponent of the fact that like marketplaces are verticalized instantiations, right? They're specific to use cases or applications. And so where I see us playing a role. Is in that sort of price discovery mechanism for these agents for specific marketplaces.
+
+I don't wanna get into the marketplace development game because marketplaces I think are very specific in nature and you need to monopolize 'em in order to win. They're super fucking hard to win. Yeah. 
+
+No, it's probably a distribution or the distribution game for marketplace, right? 'cause you're a to sell market.
+
+Yeah. I think we need to establish fundamentals right first. And I think this kind of like reputational what you're describing there Don a bit is like how SEO. Works with the it concept. Like you are basically like backlinks. You have stronger backlinks based on reputation and the view and the consumption of those pages.
+
+And basically you have active data and I think inactive backlinks. So awake could be even instead actually giving review, asking reviews for the consumer of the agent. You basically based the reputation based on. Actual usage and performance Yeah, exactly. Of the agent. So you are out to responding yourself.
+
+Ba basically, you are sustainable to have a track record of the agent without like involving the end user action. That maybe this could be also bottleneck for building a full reputation system because it's, that's 
+
+exactly right. What better way to propagate reputation than not just the connections.
+
+Right, and the number of times something got hit, but who's willing to pay for that, and then who's willing to go back to pay for it again? I think that, that's when you look at financial systems, like there is a, there's a ri, there's a science to the risk and credit side of things that can propagate through.
+
+The implementation of these systems that are looking at that historical precedent of what did you do, but also where did you do it? 
+
+Makes sense. And just to close up Don, so what's next? What what you guys are working on and are like lowing your fruits and how we can actually reach out more agent consumer.
+
+I think that's like we need to get to this kind of like minimal success. 
+
+Yeah. So look, you asked what do we need? We need more agents. There needs to be more focus on like the actual building and development of agents. I shit myself in the foot, but like infrastructure's nice to work on and it's, they're good science experiments, but really what we need are these users, right?
+
+In our case it's AI agents. Where do we focus? It's, as part of that, we don't spend a great deal of time in the Web3 space. 'cause there's just. There's not a lot of agent development going on. It's in fits and spurts. So we're spending a lot of time in the non-web three arena, right? San Francisco talking to verticalized agent builders, right?
+
+Those that are building SDRs BDRs, those that are building customer service agents, those that are building coding agents, legal agents, stuff like that, as well as. The agent building platforms and plugging in our rails to help those organizations do one of two things could be both. It either help 'em to monetize.
+
+Their solution, right? What type of payment system are you gonna leverage? Whether that's like cost-based cost instantiated usage-based pricing, or outcome-based pricing, or the holy GRAIL's kind of value-based pricing. I'm just gonna take a cut of your revenue in the future. Or in helping them understand their costs.
+
+So we've, we're tackling both of those problems together in large part because. They merge. When you have this more mature go to market and you're going out to actually sell your product, it's a, it becomes a, this question of how are we selling it? What is the pricing mechanism? But then what is that pricing mechanism based on?
+
+That from our point of view, needs to be at least buttressed by understanding your true cost of operating. So yeah, if you wanna find us, feel free to ping us. Our website's, nevermind any V-E-R-M-I-N-E d.ai you can jump into, hit us up on LinkedIn, which is where a lot of the.
+
+Web two business happens or on crypto Twitter. But yeah, I, and we'll be at Money 2020 next week, which is the biggest FinTech conference on the planet. Talking about, getting agents, paid agents shouldn't work for free. So we're there to help 'em get paid. Yeah.
+
+Bring your agents. We're here to help you monetize get you profitable. 
+
+Nice. Nice. Excited. Excited. So James, one thing that you learned today. So that we can close that. 
+
+One thing that I've learned specifically is this need to go back to first principles when it comes to how do you even trust an agent?
+
+You need to know where the weights are. I think of it as like the weights to build up the training and then separate from that. 'cause that's like. To just map it to human existence, like your long-term memory versus the context window that gets built up. And then how do you price that?
+
+And what I understand is that. What nevermind is trying to do is try to establish these relationships. And that quote unquote, trust through some type of reputation that is somewhat similar to the analogy Francesca, that you put in terms of Google. And it's Umhmm, 
+
+you 
+
+know, backlinking.
+
+Yes. 
+
+And there is this kind of gap here that is not addressed in 8 0 0 4, but maybe it's not meant to be or maybe it's not supposed to be. And so how do you materialize this and how do you bootstrap this? 'cause how you bootstrap and the steady state are very different. And it ultimately comes down to we just don't have enough agents at this point that, especially in crypto agents that are making money.
+
+And what will one agent use to prioritize another agent for? And there's this kind of data signal Ling with this credit system of nevermind that can be introduced for registries if anyone is working on a 8 0 0 4 compliant registry to think about for helping with that extra layer of data signal for what we wanna call.
+
+Kind of reputation that leads to in traditional businesses, like volume discounts or, ultimately, from what I understand, Don is saying leads to an affiliate fee or registry. 
+
+Yeah. That's exactly think of this, if you come out of the ad space or market it's affiliation, right? If you come outta the IT services space, know it's a reseller 
+
+agreement. Reseller, yeah. 
+
+Where that's where you get to where one agent is working with another agent and maybe selling that agent services on behalf of that agent, and it's the interface to a bunch of other agents.
+
+That's I think, the landscape that we're going to, right? Yeah. Yeah. This. Bespoke development of digital services. And then the daisy chaining of all of these services and the collaborative function, that's gonna be Yes. Composable, right? Yeah. 
+
+One, one things I learned from this discussion is also the.
+
+The game is not obviously like the, like technical or like on any info side. You speak about distribution or speak about pricing. You speak about revenue for agents, and this sounds a lot of econom, chronometry. Maybe we start, we should start writing a book of agent.
+
+It economically or something like that, kind of economics around agents and distribution or to make it sustainable. Yeah. Because I think this part play a big role, but I think, without having a sustainable verification and reputational score system, this would be also hard, right?
+
+Yeah. But we're getting there. A zero is huge. 4 0 2 is huge. It's for payments. Agent to agents. We're getting there. Yeah. 
+
+We're definitely getting there, small steps. A also just, I think, yeah, more people that are getting into this and concentrating on, it's the unsexy shit that's gonna make this course the most successful over time.
+
+I think there's an attraction to reputation and obviously when they like, Hey, let's see the payment gateway. Yeah. But at the end of the day, this is about use case implementation and the efficiency gains of using agents. Yes. Instead of the alternative. 
+
+Hundred percent. Hundred percent. Don, thank you so much.
+
+We definitely should do a part two. Really appreciate it. Do it Aton. Thanks so much James for asking this spicy question. I think this is really like useful to cause this together because it's also bringing different kind of like angles. So thanks everyone for listening. Awesome. Cheers everyone.
+
+Yeah, 
+
+thanks Don. Appreciate it. Thanks guys. Ciao. Bye.
