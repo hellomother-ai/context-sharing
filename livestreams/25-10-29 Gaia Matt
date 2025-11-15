@@ -1,0 +1,269 @@
+ Okay, we are live. Welcome, welcome everyone to this ultra live stream here of modern. We're super excited to actually speak around everything around a 0 0 4 costing with me is James special guest. We have met. Do we wanna quickly do a round of intro? I think James, for now, I think you introduce yourself like at least like 10 times.
+
+But let's do it again. I think you definitely deserve a good in a lot. People love collab land and what you're doing, the space around a 0 0 4. 
+
+I appreciate that Francesco. Yeah. Name is James Young and co-founder of Collab Land. We do token G and super excited to, to be here today. 
+
+Nice.
+
+So special guest Matt. Welcome. I think this is not our first like livestream. I think this is probably like part two or three, but is first, the first livestream post 8 0 0 4 and post X 4 0 2. And especially because, guy is building in the next, generation decent interference.
+
+I think there is a lot of things that we want to talk about. But before we're diving into the agenda, do you want to quickly. Introduce yourself and tell why you're so passionate about decentralizing. 
+
+Yeah. So thank you for having me. So yeah, Matt Wright co-founder of Gaia. We do decentralized AI inference.
+
+Basically we enable folks to take their own open source large language models, anything you can find on hugging face take your own data, vectorize that, and host your own your own AI services. So anyone can be an AI provider. For me, I started my career in open innovation with.
+
+Within corporates and institutions did hackathons and accelerators all around the world. And I worked with JP Morgan on quorum open source support of Ethereum, and then worked with Francesco at Consensus building the future internet of value across our dev and product teams building a lot of Devra functions.
+
+And then co-founder Gaia around 2024. We now have 700,000 nodes on our network. You can go to GitHub and, run your own inference service. We also have about a hundred or so integrations with Web3 protocols. We also have one we just announced we did a few weeks ago. You can now use X 4 0 2 with your guide node.
+
+And so we see this world where anyone can be their own AI business and if agents are the largest consumer of the future internet, they can now pay seamlessly and autonomously with open protocols. And yeah very important. I have an open sovereign internet. That's why I'm here. So I've been here for a long time working in Ethereum space and super excited.
+
+James and I. We were working together on the autonomous hackathon last year which kind of, turned into modern. That was the initial reason we built modern. We were trying to get, not trying, we did get a few agents to run a hackathon. We were able to. Distributes, I believe it was $60,000 in bounties in a few seconds, like under 10 seconds.
+
+And I was just using Coinbase as agent kit. And I think the back then it was funny because, there was this issue of we want enable the agent to just seamlessly send them, send the money. But, Coinbase as an institution had some issues with kind of permissionless, payment rails.
+
+And so now with four two, super cool to see that this is like. This is something that's been solved for, it's since having green scale. Not to mention, my last thing I'll mention is last year when we were doing the autonomous hackathon that ended up being how do we help more agents have jobs?
+
+And so that turned into let's build a mother like it a registry that, agents can, build reputation, have discovery and earn on that registry. So that's what we're shipping. Pretty soon we'll go into it, but now, fast forward 12 months, like we have 8, 8, 0, 0 4, where we can actually have a standard for how these agents are, interacted with on this registry we have, open protocols.
+
+We have in the web two space, like a two, a AP two MCP and with all these things combined, all these open protocols. Now, not just have their own sovereign identity and inherent more of that identity, but they can also do functional utility like payments without having a human in the loop.
+
+Very exciting times. I think it's not stated enough. Super exciting. 
+
+Yeah. I would like to add, oh, sorry. I would like to add real quick yeah. Matt and I have been looking at this and working on this for quite a while now. And when we started. MCP a to a AP two x four two did not exist.
+
+And we had to put all of that together. 8 0 0 4 didn't exist. And it's just amazing how within one year all these protocols are beginning to now just snap together and have standardization. Because with Mother initially when we started it was really trying to. Figure out what that standard is, promote it, and then actually embed it in our SDK and court developers all at the same time.
+
+And so I think with all the standardization MCP A to a P two X 4 0 2, and 8 0 0 4. Has really, you'll see that standardization coming in from like Ethereum Foundation, Coinbase, Google Anthropic. That is now a shelling point that mother doesn't have to also get momentum on. So I think for me, we'll see this really interesting Cambrian explosion now and, it's gonna be really interesting 'cause we've had these concepts, but now they're quickly, very quickly have become standard. Yeah it it's just that at Mother we've thought about this and we're very prepped for this now to take it to the next level. So I'm really excited yeah. For this and I think Matt can appreciate it.
+
+Yeah, you guys been working for a long time in this space, and I think I mean on a more personal level, I think a couple of weeks ago things really got unlocked when people started to say, Hey, there is standardized way to pay agents now. So actually like agent to agent payment are transparent and can be, can we actually finally be in a free, and especially because I think agent economy are not like, are not free Right? Agent need to get paid and need to be a service to service basis. So I think we are not derailing here. I think this is a great conversation where we're gonna, I think we have a little bit like less than 30 minutes. I think the idea here was structuring this discussion in three main pillars, right? Obviously, we wanna talk a bit around the decentralized interference infra for agents on the Gaia side. I think Matt, you have tons of, also make us understanding from the history to now and how things changed.
+
+Then the second big part obviously is a 0 0 4. We chatted with Marco. We have something lined up with also, David, that we speak a bit about the registry standards and the guy implementation, and we can also tie up the model side and then obviously the third big pillar is X 4 0 2 for payments and what you mentioned before Matt on the guy implementation.
+
+Okay. Let's let's dive in. This interference for agents, right? How was it? How it started, how is developing, how things are looking like on the Gaia.
+
+Yeah, so on the guy side, we are enabling for folks to, deploy their knowledge bases. That's square one. That's the initial kernel of deploying your own guy mode. The issue not issue the blocker last year was, folks understanding the difference between an agent. Inference and all the other layers of building in the AI space.
+
+And so we, I think the, the commun has definitely come on board. They understand now, what tools they're using, what kind of models they're using, what are the limitations, even speaking with Shaw from from Eliza, like they had such a moment last year but they got de platformed off of Twitter and I think it's like a real world case study of here's what censorship looks like and this will happen more often.
+
+I've had several people. Who've come to me after me screaming from a rooftop that like you could be putting all of your data into these systems and one day you might not be able to, not just say certain things, but like you actually get the platforms or you actually get put into a position where you have to pay some premium membership.
+
+Or you lose, you lose you lose ownership of of how you're paying for the accounts to some extent and scary for an individual. It's very scary for a business or for a country, anyone that's putting loads of data into these systems. Yeah, someone has, let's say like community oriented, like an Eliza, like them getting de pla de platformed as a, as an agent builder is just the first step.
+
+Imagine when you have larger companies that happen more of an issue. So I think we're now seeing people wake up a bit to the fact that running your own AI services makes a lot of sense. Whether it's performance, privacy, economics. If you wanna run your own AI business, you need.
+
+You making pennies on a dollar and that all the money's gonna an opening eye, for example. And so we're onboarding more of those knowledge providers so that they can become their own businesses. So that's like the big lift that we're doing on a daily basis. We're also building some really cool products that showcase some of the most demand of inference.
+
+When you talk to chains, you talk to wallets, you talk to, anyone in the Web3 system that deals with high velocity of users. The biggest use cases are finance ND five. And so right now we're really trying to focus on these knowledge bases that are defi oriented or finance focused.
+
+Right now we're building an agent prediction market where you can essentially bet on the financial KPIs of a, of an agent. But to do that you need to make sure that the agent's trusted. It's like you're betting on horse races. You need to make sure there's not like a human in a horse suit.
+
+And so with. It's a weird metaphor but with 8 0 0 4 and those other open protocols, we can actually start to build that trust. And we're also building that infrastructure inhouse with, so we have the Gaia vs. We'll be, validating these knowledge bases. So that if you are, let's say an agent who's interacting with an open API endpoint.
+
+That is now your like your access to the l lm, one, you need to pay for that service, but two, you need to know that API is trusted and that it's gonna provide to you what it says it's gonna provide. And so we're leveraging the trust of Ethereum via staking and consensus statistical consensus in a lightweight format to just ensure that, that node's actually gonna provide the infrastructure you need or the service.
+
+So there's a lot of there's a lot of infrastructure we're doing on the node and network side, and then there's these cool apps that we're using to drive demand. But I think high level, like we're seeing a lot of we're seeing a lot of kind of churn in not just interest but understanding of how stuff works.
+
+So for us, it's a lot to.
+
+Yeah, I think Matt, you bring up some great points with regarding just practical examples of getting de platformed and we all understand the power of decentralization and it's the only way to combat it. And applying that to ai, if we're gonna give AI our data how I would say it's like how do we make sure that things are not rigged?
+
+We're creating an unreadable system and actually you're human in a horse suit. Analogy is really what retail is right now. And everyone else is a jockey on a horse when, but you think that you're running the same race and you're not. I think that's a really interesting take here. So yeah, it's I think values align in terms of what we're doing.
+
+Can you talk a little bit about, specifically about the X 4 0 2 and Gaia implementation? 
+
+Yeah. Yeah. So if what we've been preaching for a bit on Gaia nodes was, okay, say you are, say you're an academic, you're professor, you train. Let's say LAMA three B or the open open ai open source, 30 billion per hour model.
+
+So you take that and open source, you start hosting it yourself. You take all of your PDFs and research and textbooks and you train the model and or build up your knowledge base or your rag. What this what this context is. And so when you prompt basically the guide node works, all of that's packaged into a node, and each node has an API endpoint.
+
+And so when you talk to the node, you say, Hey, I need, I want to build a paper based on like your understanding of physics. It'll build you an output just as much as open AI would, or chat bt. Now when you do in that sense, they're like, they're handling all of the computes, the data, sensation or data availability and some of the training, et cetera.
+
+So in this case, like you're having to do it yourself, but there's an API that is opening I opening a standard. So now say you do that for yourself, that's great. You run your local computer. That's awesome. Now say it becomes extremely useful. And we've had this use case with the professor at Berkeley where, say they wanna set a P to their students and they wanna have an app that, just uses that api.
+
+Or maybe the students wanna build apps on top of that, API or agents that, call to api. At some point the professor can essentially permission who.
+
+They can token gate it or you could perhaps just have it, permission based on who's paying for access. But you wanna prevent, like DDoSing to a, to an extent where you know you're paying for a shit ton of people just spamming your infrastructure. And so X exports are two is very useful because people can pay to play, essentially pay for access.
+
+I think what's really interesting is we've been saying, Hey, you can become your own AI inference provider. And a big blocker for a lot of these folks was one, it's. I gotta compute, I gotta go figure that out. Two, I dunno how to grab this model of hugging face and host. And there's also the interesting, not complication, but the what's the word I'm looking for?
+
+The there's the design pattern where you need to use multiple noag.
+
+Heavy application. And then the last piece is how do I receive payments if I need to, upkeep my infrastructure? And if I'm making it successful to various folks. And that piece was actually a major headache that we were trying to think through the last year. And, we figured let's just set people onboard at least a knowledge base, and then over time they can figure out how to charge people.
+
+But this came out of nowhere. And so I really think what it enables is. It's almost like a stripe for agents. You can enable anyone to be their own storefront now. And you can enable agents to be the largest consumer on the. They were not able to pay for things. Now they really are. They were if you're a developer, like accessing an API like requires some KYC like it's not easy that you just make it accessible to to an open internet.
+
+And so we're solving the what's gonna be behind the api. Like what do you actually get access to? But then the question of like, how, like how and who gets access to the API? Two really kicked it outta the park. And I think the fact that it's chain agnostic is just massive open source.
+
+And it's just it's blowing up. I think it's making the internet a better place and again it's gonna create a massive flywheel of businesses that can now. Sell to agents that weren't able to do that a month ago. 
+
+Yes. Agree. And I think also because people understand very easily the payment use case, if you think about what is the, what is the agent main use case to provide service, obviously you have a payment for a service and you need to standardize this first in order to unlock like other like specific kind of functionality in terms of like standards.
+
+Maybe a kind of a follow up question here is also apart payments. Now we have 4 0 2. What are other like standards that you feel like we need right now to expand this functionality? To bring transparency. Is there other standards or you think we're good? Yeah, go for Matt. 
+
+Maybe James can talk on the standards.
+
+I'm happy to chat on the implementation of some of the standards like the the registry I know. Talk about now or should we go standards question first? 
+
+Yeah, let's do it. Let's do it as you want. 
+
+So yeah, what we've been building at Mother and I'm sure folks are like, Hey guys, when the hell you shipping this thing.
+
+Thanks for being patient. We've, we use open protocols to exist. Mother really is a, an implementation of all of these open protocols. And so it's we were trying to build this stuff in house, very serendipitous that these things organically came around because now what the registry is trying to do is possible.
+
+So I'll say, sure, there's a lot of room for for future protocols, but I will say 12 months ago. We wish we were in the situation we're in right now. We were like trying to figure how to build the stuff in house and if you look at all the teams behind X 4 0 2 A to a cp EIP 8 0 4, like there's no way in hell we could do this on our own.
+
+But we knew we needed those things to unlock what a registry could do. What the registry is doing is essentially, you have all these agents, you have agents that are deployed from various frameworks, whether it's Eliza Recall, Giza Coinbase Agent Kit, collabs agent kit. We even have our node itself is essentially an agent taking the LLM and enabling for ENT functionality.
+
+It's not like taking in intense, essentially. We even have a bunch of frameworks in web two. Now if your agent is running on your local machine or you start to put it, onto a permissionless internet format. It wants to get access to work, it wants to start doing some utility and get paid for those utilities through two.
+
+How's it gonna do that? How are you gonna, not just like hop on a phone call and interview this agent and ask if it's gonna do the job and if it has a good resume. But how do you know verifiably that this thing. This, entity will, one, do what it says it's doing, to James's point that it's on the same racetrack that, we think it's on and, you need some sort of standardization of discovery, of validation and reputation development.
+
+And and if you think about agents as a, as that entity. Said a few times, but they're not, they're not all the time looking for. Substantial amount of capital to pay their bills. Like I can't tell you how many vendors I talked to who, immediately, resort to Hey, I've gotta pay my bills, like yada.
+
+Agents, we're not gonna have that conversation. Like they, they need financial. Because they're playing inside of this financial game, but they also need reputation because it gives them access to those financial pools of capital. And so I think that in itself, like they're just playing a game.
+
+They don't need to pay rent. They don't need to go to the club. They don't need to, they know, buy dinner for their wife. Like they just need to. Do work, get paid for, it do reputations. They get access to more work. It's pretty simple for them at this current stage of agents. And I think the registry enables for a standard where one, they can again, find access to to this work.
+
+You can go onto the registry and find agents that are open for work and that have been trusted through. On chain we're working with intuition and building this this registry on their infrastructure. And then as the agents do work or recommend work to other agents, they can get XP or points reputation for, doing what they say they were gonna do.
+
+And so it starts. Of what's the word I'm looking for, James? Like identity, track record. Yeah. It's trust. It really is. Trust. It's trust, it's digital. Trust and agents don't have the ability to, again, go to a bar. Drink till two in the morning with some guy or a girl and build that kind of trust that we have in human culture.
+
+They need to build this in almost like this metaverse this mesh of financialization and at the, and so that's what we've built and it's implementing all these open protocols and yeah, we could not have done it without the work of these of these projects. So it's exciting to see it Finally finally launch.
+
+Yeah, there, there's a lot to unpack here with mother and working backwards from what you said if I'm hearing this correctly, Matt mother provides this shelling point for identity. I think that also one of the biggest appeals for Mother is there's untapped distribution. We're not building from scratch.
+
+So we have thousands of collab land communities that have already deployed the collab land bot or agent that could actually look to this registry to hire credible agents. And then we have the 700,000 nodes as well on the Gaia side. When we think about the registry for 8 0 0 4, 1 of the aspects is the distribution potential that we have to unlock.
+
+And as now, a fourth town founder, when you build a startup, you think, oh, I'll build a product and the people will come, which is the fallacy. And you I've learned that hard lesson. You wanna go where distribution's at and you wanna build where distribution's at. And so that's what we're doing with Mother.
+
+Also we know that there's this, as Matt was putting it in terms of culture. We don't know what this culture will look like in terms of trust and we can't automate this. Completely. So there's a curation layer that is gonna be driven by humans as well which is I think the way to do this so that we make sure that it can evolve into something that is completely on rails and remains on rails.
+
+'cause we don't know what to expect. We're in this dawn of a new internet. To go back to your point when it comes to, what you're doing with Gaia and X 4 0 2. I think that it's a huge boon as well because, you don't have to set up, like you said, API keys, all of this kind of stuff.
+
+All of this is happening per transaction. And 4 0 2 is the protocol so that there are gonna be businesses that are SaaS based. In a box, businesses that are gonna go away because of this, because it's just gonna be agent to agent. And then you can extend that to like consumer when your agent actually does the shopping for you.
+
+And this answers Francesco's question of what, it doesn't exist right now that needs to, we have MCP, we have a to a, we have AP two, we have X 0 0 4, we have the building blocks. What, what's missing? What I would say, what's really missing? Is this fiat on ramp, but I think that. Backdoor to that could be through AP two because PayPal, Venmo, banks are now allowing that to happen.
+
+And so you paying your agent, you're, you don't know what your agent is doing, and this is where the agent quickly converts to a stable. Now, that agent via X 4 0 2 could actually interact in the example that Matt was saying in terms of agent to agent interaction, which he's also being able to implement through the X four two standard.
+
+So I haven't seen many examples of AP two where crypto is then converted silently behind the scenes. But I think once you solve that OnRamp, it's all systems go. 
+
+A good point, James. I think also to closing the cycle, speaking about the distribution side, I think the on ramping and the offer ramping side would be interesting because probably people don't want to even touch the Asian side.
+
+They just wanna maybe even on ramp maybe even like fiat or something. Have the service been been done by the multi-agent economy and then having a suite? The question is if this service would be provided by the stripe of the future that has merchant connection that has the merchant distribution directly.
+
+But that's an open question. 
+
+Yeah. I think now it comes a little bit clear in terms of Coinbase and they're sitting in the middle with centralized exchange, Coinbase wallet, and they have base positioning themselves in a unique way. And I think the motivation behind X four two starts to make a little bit more sense as well.
+
+So I think that's a point we'll take in Francesca. 
+
+Sounds good. Sounds good. And I think like we have a couple of minutes left. I think we can move to our third part. The X 4 0 2 and the guy implementation. Matt, you wanna talk a bit on the implementation side? I see. I saw already like on crypto Twitter, things around.
+
+Ai some agent trader, they're actually using payments to payments. But is there any specific use case but run us through the implementation first. And also that does making understand how also developer or stakeholder in this economy can leverage the implementation directly. I think that would be useful also for the builders and founders hearing us 
+
+the implementation of X 4 0 2.
+
+Yes. Yes. Yeah. On the, basically the Gaia side. 
+
+Yeah. Yeah. So first and foremost I think the value prop that we have is if your agent is using a closed source model or you're paying, opening to. Hit their A and do whatever use case your agent needs to do. If for whatever you're building, you need it to run local.
+
+Or you wanna have more sovereignty, you wanna have more ownership of the data. You don't wanna pass it to a centralized entity, it's not to say they're doing something with it, but, they are. But it's more about economics. If your agent is building some sort of service and you're having to pay open AI some bill, and you'd rather just run an infrastructure yourself, it makes more sense to have economies of scale.
+
+If you're like a small, medium enterprise or an institution. With access to a lot of server or compute infrastructure, why go, give this to the party, your data, et cetera. When you have the infrastructure needed to run an agent we help people build those sovereign knowledge bases.
+
+And so they can now either be the API end their agents and other.
+
+OTC management or you're like doing market making and you have some, secret sauce or financial data you don't want being in the hands of some third party, then yeah, like this makes sense to, run your own open source model. I will say like smaller, like open source, other open source, smaller, large language models.
+
+Require a little more a little more engineering, but we're seeing more and more improvements. I think, the way we look at the world is that we have we have the cost of inferences having every four months. We number of open source models to scale from thousand last August to today.
+
+It's like above 2 million, and we think that's gonna continue to grow. We're seeing models train themselves open source much smaller models be more performance than larger models. So the future looks like everyone, anybody can run their model. What we're seeing is like the trends, and that's not just me.
+
+I'm just, I'm just saying what a lot of folks in open source are saying. And so if that's the case, then, they, we want them to run their own infrastructure. That's what guy enables, really. And so if you want run your own, let's say you're building a defi agent. You want that brain to be under your infrastructure.
+
+But then you also want people to pay for it. That's kind where Expo zero two comes into play. You also could if the agent is, doing any trading with, various like protocols, like it can also do that seamlessly not just like taking income, but it's also like making payments.
+
+So there's a lot of ways that it can, making payments, like distributing funds, like making investments essentially taking different positions so it can actually do some of these functionalities I wasn't able to do a while ago. And then I think the other interesting thing that we're working on.
+
+With X 4 0 2. We haven't really announced it yet, but we are, we do have our Gaia iPhone that we're doing with Samsung. And Samsung has with Samsung Pay, they're working on CP server. And so what happens if we can get agents to permissionlessly sell services and or Financialize or transact.
+
+With a hardware device that's in custody. So some really cool things we can do with edge devices and local local AI that's running on running OnPrem and wants to perhaps like. Move across your financial apps on your phone, but then also wants to go into day trade over the internet and bring you back money seamlessly.
+
+Like I think that's the future we're looking to build and we wanna be the knowledge base behind all that. We wanna help people quickly build up their knowledge base so that is their knowledge that can either be just.
+
+A generalized model or generalized inference, you could, I'd rather pay a premium to access the agent knowledge base of an agent that is a successful day trader or successful, loan manager or perhaps has a very risk managed portfolio. And I would just, tell my agent to go work with adage and I'll pay.
+
+Five bucks a month, no problem. 
+
+I do have track record. I think this is the point, right? You have track record, transparent track record that you can verify and trust instead. Like right now, a lot of like even agent Trader are all like a black box. So this is a good point.
+
+Yeah. The big issue right now, I think, not just on the agent side, but on the model side.
+
+Web two and Web3 there is a massive trust issue. All, somewhere it's a $2 trillion trust issue. But like in the agent space there's issues of, we don't know if the agent actually owns the wallet, is actually doing those, agentic task or if there's a human in the loop.
+
+That was a huge issue, last year's agent cycle was like who's actually, who's driving here. And then there's also the issue of, is this agent gonna actually do these things that it's doing? So a lot of the data is like self-reported. A lot of folks are still hosting their own models or agents, so it's hard to tell really, like if that's the true performance.
+
+And then in the model space, we have really cool projects like, kicking ass like over the past week. And recall where we're seeing is agents model and races where we're giving agents capital and having them go trade. And, that's a great way to bring markets into.
+
+Into intelligence markets. Like we can basically create intelligence markets and consensus around intelligence markets versus self-reporting benchmarks, peer reviews, like these are all human coordinated processes, whereas if we wanna really showcase how intelligent something is it should be done with open markets.
+
+And so I think there's some really cool things that we can look forward to there. But yeah, trust is the biggest issue. There's just, there's still a human in the loop and so many areas in our space still. 
+
+Yeah, no, this is a lot to unpack. So just for the audience, and this is my distillation of what I think Matt was trying to get at, or how I interpret my translator I'm trying to process this.
+
+So what you're saying, what you started with was like, these open source models are getting smaller. So just to set context, this analogy is very rough. The pre-training and the models that you use are like the DNA and now you can compact the DNAA lot tighter now, right? And so the idea is there's your DNA, but then when you're born you, you might be whatever animal, let's say the DNA of a bird.
+
+Of a tiger of an elephant, they're very different. That's their pre-training. It's their DNA. The inference comes in as your working memory. And what these bigger models are trying to do is match the DNA and own your working memory. What Gaia does is it allows you to own your own working memory. And so now what Gaia is saying and what you're saying, Matt, overall, is like these models are getting smaller and smaller.
+
+And it makes sense why you want Gaia to be on the home screen of some phones. 'cause now you're gonna be able to run it on a phone and then be able to be the AWS of inference as it scales and you have all these standards and payments all figured out. And so this is a big opportunity on what you're saying, unlocking a $2 trillion potential market.
+
+It totally makes sense and I understand where you're going with this and the vision for Gaia, if I understand that kind of broad strokes. 
+
+Appreciate you. Yes. Clearly. It's kinda if you see the way we see it is like we speak to the like speaking to several like knowledge builders and, sorry model builders.
+
+And we all see this feature where there's gonna obviously be more folks running stuff. At home and on edge devices. And they're gonna slowly pull away from these bigger, insurance providers or just AI providers, like an open AI ora. I think we'll always lean on them just as much as we lean on, like a lot of SaaS products we use on a daily basis.
+
+I think will have a place for that. Some people might use it more than others for sure. The big wave will be like, you run your own infrastructure at home. It's a lot more lightweight than today. And so you can run a more powerful model like on your own, like Mac Mini, like at your house. But then say your phone needs to tap into your own private network. Like you can, rig up that networking and have your own kind of personal GPT that works for you.
+
+But at some point your agent is gonna need knowledge from some like mentor, like they're gonna need a model that is trained on finance and can, basically it's like the digital shaman, gives it a little mushroom, how's it going? Adventure and teach all about finance. I can see that happening where, where basically, people will pay for that. People will pay to upskill their model, upskill their at home inference and that will parlay into their, light client, like their mobile kind of edge device. And yeah, we just see the trend going in that direction. I think people will start to realize that.
+
+That's a more, more interesting future for folks who are putting their entire lives into these systems. This is much different than all the technology we've had in the past. We're putting everything about ourselves into this very knowledgeable infrastructure, and it's. It's very it's very scary that it could just be taken from us and it's mo you know, a way to monetize us as humans more than web two did to us with advertisers.
+
+So it's that's what we care about. Yeah. 
+
+Yeah. No, I think that's great. And sold on like how do we protect against this downside overall we've seen the patterns historically with centralization and what happens there but. What is really interesting and your view point is really enlightening, Matt, because you're really sit really in the middle between AI and crypto.
+
+What do you see now in your perspective? Because typically it's like crypto people trying to use AI or AI people trying to understand crypto, but you are sitting right in the middle of the two. Can you talk about maybe what you think is the kind of next intersection and maybe in the context of prediction markets?
+
+Yeah. Yeah. And I'm I'm biased of course, because I'm very interested in markets and in markets that are disrupting consensus like crowd consensus or social consensus. And so I feel like as we see all these agents onboarding to the internet, and they all have various skills, we're seeing the most the most what's the word?
+
+It's easier to measure agents that are doing financial tasks. It's harder if you have a reply guy agent or an agent doing social media manage not that is, but like an agent doing marketing tasks, an agent doing operational tasks. Like it's harder to measure KPIs. Ver versus if you look at poly market, the big innovation was taking the advent of media and truth and completely disrupting that with open markets.
+
+So now poly market is the go-to source for how campaign polling is. Is perhaps skewed and need the actual truth based on an open financial market. So I think now that we have agents having more utilities, especially financial utility and crypto agents are more likely to open a Web3 wallet than a bank account.
+
+You can now create open markets where people are betting on the KPIs of these financial agents. So imagine. Day trading or agents managing some like LT or like a loan or an agent's doing some centralized exchange arbitrage. You can find clear APIs, KPIs that are not just ROI it. How much, how well did they manage the risk ratio and how how long did they maintain some peg on a stable coin?
+
+And so if you create financial markets around these things in, sharper or quicker resolution times, there's a really interesting space there where you can you can bet on. And I think on the backend, what that does is it creates trust. It creates track record for agents to say, Hey, I didn't just report this track record and or the stability of this agent, but it's also been verified by this market.
+
+And here's the on chain attestation reputation that's true. And I think what the real cool thing there is if you looked at, alpha. This week I thought it was, I thought it was exciting, Megan. I'm like, I love that project, I wanna meet the team. But you're looking at these kind of digital horses, managing money, and I'm like, dude, you could be fucking trading on this thing all fucking day.
+
+Every like 30 minute window. Like someone could be betting on, some percentage like delta or kind of, change and and or stability. There's two sides. Think is gonna perform a.
+
+If we look at AI and crypto, like the thing that we can bring to the world is I dunno why the first thing came to mind was like crazy crypto shenanigans. But no the positive things we can bring to the AI space a trust we can bring any agent in the world into the Web3 world and start to show programmable trust which gives it more opportunities to access work and or financial opportunities.
+
+And then the second big piece is capital velocity. Like we can help financial markets scale with agents that have more autonomous utility but are trusted and, you can have your agent inside of some walled garden whether it's. Within the kind of infrastructure of an AI company that hosts their own APIs and infrastructure or a financial company that, doesn't wanna give the agents access to lead the platform.
+
+But I think if we have open permissionless agents that are composable different platforms, you're gonna have to have a way to, have on chain verification trust just as much as we have with all these digital assets that you can view on different wallets. So that's what I'm excited for.
+
+Look Matt, James. I think this discussion was super useful. We dive deep into different angles. I'm excited about the decentralized interference. Obviously also the. The advantage to actually leverage the centralized interference for 4 0 2 agents. I think there is definitely adoption and distribution that not just started, but is continuing by a 0 0 4.
+
+Adoption. We see more DS adopting. I'm excited about the registry. There is a lot of things that we could unpack in our part two livestream. Yeah. But again thanks so much for your time, Matt. It is always a pleasure to have you here on the stream and James for costing this and asking always the right questions.
+
+No, thank you Francesco, for leading this. Yeah, it's been great. Awesome. 
+
+Awesome. Thank you sir. Thank you so much everyone. And if you're building a space, always reach out our door, always open, and to all the builders out there keep building. A 0 0 4 is just starting. And 4 0 2 is a great follow up.
+
+Thanks everyone. Thank you. Thanks, bye. Thank you. Bye-bye.
