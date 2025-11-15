@@ -1,0 +1,157 @@
+ Okay, we are live. Welcome. Welcome everyone to this Friday live stream. We're actually super excited. To have a special guest here today, Ravi, from Billions. But before we do that, do we want to quickly introduce yourself? James you wanna go for it? 
+
+Sure. My name is James Young. I am a co-founder of a project called Collab Land.
+
+We've been in production for almost six years now and also working on, coalition I would call it which is this project called Mother and it's to help build out a decentralized registry for AI agent. 
+
+We definitely need that. We definitely need that. Ravi, you wanna go next? 
+
+Sure. Hi everyone.
+
+This is Ravi Agrawal. I'm Director of Growth and AI partnership at Billions Network. At Billions Network. We have been creating the first human and AI agent network. And this is a very interesting space where we are expanding into a new customer segment. AI agents. Prior to that I was at Polygon Labs for close to four years, working in the strategy ecosystem and partnership role, and had fun with my startup earlier to Polygon.
+
+Yeah, through OG Ravi, I super excited. I think this discussion, we have a bit like less than 20 minutes. We want to introduce, give you some context on the provider id billions. I think. Like you also have some cool like workflow demo that you wanna show us.
+
+And then I think we wanna also give context on the 8 0 0 4 side. But always again James, you are also like an amazing cost here. Feel free to ask and deep dive on questions. Ravi let's do it like so do we want to give a context how priva id, how it moved to billions and what were the pain points that you were trying to solve in at the beginning?
+
+A hundred percent rather. I would go even one step back quickly. Yes. And talk about Polygon ID as the origination idea. I think this is where it all started, where we feel that there, there is a need of an identity system in order to. Not only work within the Web3 applications, but for the larger web two and internet, right?
+
+So this is where we started in terms of creating a decentralized identity solution under the Polygon Labs. It has been incubated for quite some time, and we have been successfully able to take the solution to the Web3 ecosystem and also to some of the larger financial institutions like HSBCs of the world.
+
+But then we soon realized that it. Make more sense for identity solution to be an horizontal and not just sitting within one ecosystem like Polygon. And that's where it has been spun off into a new entity. We renamed it to bravado ID to make it more neutral and with bravado it. And in Spanish it means privacy.
+
+And that's where we started going out with the larger partnership with the other ecosystems. We started talking to near apta Sui op, arbitrary Avalanche and many other ecosystem out there. And looks like everybody was looking in terms of finding out what can be done with the digital identity solution.
+
+We all know the severity in terms of the bot attacks. We all know. How important it is to create a reputation for users and give them differential service. And that's where we then rebranded to Billions Network, where we started seeing that, 50% of the transactions today are happening by bots.
+
+How can we. Not let the bot just be out, but rather classify the bots so that the projects or the builders who wanted to let the bots come in, they can also let the bots come in. But some for certain use cases, if the bots have to be eliminated, they should be eliminated. If the users are coming with more than one duplicate wallets, how can we bring in more unique humans users?
+
+Into the ecosystem and so on. And then additionally very interestingly, we have been all noticing that AI agent has become a new customer segment, and that's where we have expanded our identity to start giving identity and reputation for AI agent. Little bit longer, but there is a lineage in terms of how we have been trying to address all the changing needs and trends in the market.
+
+It gives a lot of color. Go for it, James. 
+
+Yeah, there's a lot to unpack there. And thank you for that history. I've been following polygon and Polygon ID bravado, and now billions. When you talk about. A couple things. One, you had mentioned this human agent connection. Can you expand on that a little bit more and how do you see that in terms of identity for billions?
+
+Yeah, certainly. I think, from our perspective, we consider both humans and agents as the customer segments, right? So primarily when human can get their national id, they can get their bank account. Agents cannot get them. And this is where even a decentralized Id make much more sense for the agents.
+
+So what we have been doing as part of our design principles, we are creating a unique date that represent an agent. And this unique date is gonna be associated with the human debt, right? So there is always gonna be a legal entity, whether this is a human or an organization that is belonging or that is owning the agent debt.
+
+This is where. The agent now get a uni identifier for which they can collect all types of attestation, and these attestations can actually help in terms of building a reputation for the agent, the first repetition of this agent would come actually for the legal entity. That owns this agent, whether it is the developer of the agents or maybe an organization, and this is where we are thinking that agents over a period of time would be able to work more autonomously in the decentralized environment.
+
+If they are holding up their identity, they can do payments, they can interact with the other agents, they can also interact with humans, right? So opening up the possibilities for both scenarios, whether it is human to agent interactions, or this is agent to agent interactions. 
+
+So the way I think about it, the analogy is like when you go to, and people understand, like an app store.
+
+When you go to iOS or Google, you have an app store and you have an app, but the app is like the agent, but then there's also the developer or the author of that app. And so you consider that connection also important. So it's like a. Maybe another analogy would be like a parent to a child where the child is the AI agent and the parent that helps shape that child is the developer or that entity that has developed the app.
+
+So these agents are not just standalone. They actually have an affiliation to the author or the developer or the deployer of that agent. 
+
+Very well said James, and I think this is where we are thinking that today. If we need to draw another analogy back into your points of an app store. I go today and let's say I want an scanning application.
+
+There are thousands of scanning application, but the way I particularly select is to look at whether it is being created by, let's say somebody like Microsoft or a adopt, and whether it got 4.3 rating or a five, how many users have downloaded it with geography has been more popular and so on right basis that tomorrow if we are getting those thousands and thousands of agents out in the space.
+
+How I'm gonna be selecting a agent for myself, whether it is for content writing, whether it is for photo generations and so on. And this is where the agent reputation in terms of. Who is the developer? Who is the organization behind it? How many subscriber are this for this agent? What kind of attestations are belonging to this agent?
+
+I think these are gonna be forming a very premises for anybody to go and subscribe if you are. Okay, I think I would like to pull up a very quick screen in order to showcase how it's gonna be working. Is that alright? Yes, please. 
+
+I think you got a phone call there. So busy, man. 
+
+So sorry.
+
+It's good. Alright, so I think I'm gonna be showing up maybe I would say a logical considerations of how we are seeing this process going up. And maybe if my screen is all visible, I wanted to quickly take you through the way we are thinking, right? So imagine. That we are interacting with a speech therapist agent on a website.
+
+But before I want to provide any confidential information or private information about myself, I wanted to first verify that I'm talking to a trained, qualified speech therapy agent. So on this website, when the speech therapy agent introduce me, me as a user, say, show me your id, and this is where the speech therapy station is tuned in.
+
+In order to provide all type of attestations and the verifications that a user would be demanding. So what on the screen at the moment is a verification screen, we call it where I'm getting the details about the therapist agent, right? There could be details like on what model it has been trained, a unique identifier, the date method that we have been talking about.
+
+It can also have the attribute associated to it, right? So the attribute belonging to maybe the agent developer. The model trainer, like the speech therapist themself, may be also giving some attestations to this agent, so all of those details can be available. For user to quickly verify on this verification screen onto the right, which is the typical identity solution where let's say you can have bunch of organizations who are providing credentials to their developers.
+
+So this is a typical SSI model where the organization can issue certain credentials to human as the users and all those credentials can be passed on as the attribute to the agent. And similarly. If there are trusted organizations like Speech Therapist associations who are also providing those credentials to the therapist, they can also back their agent with their reputation.
+
+All these details are available on chain for anybody to verify, and one of the cool thing that we can do at Billions is where we can actually pull the attestations across different chains. So this can give a 360 degree view for. Or the agent attributions that may be happening on another chains too.
+
+And I think this is our, we wanted to first start with maybe the on chain attestations, and then eventually if there are use cases which needs verifiable credential also associated to the agents, they can also hold it. 
+
+So that kind of card that you showed in that diagram, that's basically for lack of a better term, a birth certificate for that agent.
+
+Is that kind of how you think about it? Yeah we are calling that as digital passport, but 
+
+yeah. You can call it as birth certificate too. 
+
+So you can see the heritage or the lineage of where this agent has come from. Absolutely. 
+
+And what it has grown up to. So each of us as an individual, let's say we grow in our life journey, completed college, worked at certain organizations, happened parenting of kids and things like that.
+
+So that. Reputation or attestations keep growing over a period of time. Similarly, this attestations for the agent can continue to grow. I think there can be even certain edge cases where the agent softwares are getting updated, right? So on the card, if you have noticed, we have also the version numbers belonging to that particular agent and so on.
+
+So I think there are gonna be some interesting edge cases that that we are gonna be uncovering. But that's the whole premise is I think one of the interesting thing that we have baked into our design consideration. Is the agent also holding their keys, right? So agent is now in control of the key to sign a transaction, and that's where the agents become more autonomous.
+
+Imagine a situation where if a developer wanted to just game the system. It can the developer can give the keys, same keys to maybe 10 agents and then the auditability become really difficult in terms of which agent has done that particular transaction. And that's where, this is one of the design principle where we feel that each individual agent should have a control of their own keys, not necessarily the developer.
+
+I think there are certain design principles that we are baking into the equation and the idea is that we wanted to. Future proof the system by giving more autonom city to the agents in order to do the transaction for themselves and represent the legal owner for them. 
+
+Yeah, that's a really great point.
+
+And this is where for those that in the audience don't know what a did is let me set a little bit of context. A lot of the 8 0 0 4 spec a lot of. It's wide open in terms of what is that core or root identity for that agent? A lot of developers and a lot of people automatically think it's the wallet, but.
+
+What I understand and what I heard from you, Ravi, is that the core root identity is not the wallet, but a did. Could you explain what A did is and why DIDs are important for identity? Just high level, I know that DIDs and all of identity is a big rabbit hole, but just high level decision why you choose DIDs as the kind of anchor identity rather than an agent's wallet address.
+
+Yeah, I think the first and the foremost premise is that it is not necessarily controlled for one ecosystem, right? So while wallet address might vary, if I move from, let's say EBM to non EBM, maybe something like Solana nears and that way I will not be consistently having one key with the did. I think you can really create more persistent keys for yourself and I think having a unique identifier, which is also.
+
+Being created with social login, that makes it easy, right? So we have both the options where a user can create their own digs using a crypto wallet in case if they wanted to use it. But you can also create a date with the social login. So this, again, provides a very seamless experience, not just for the crypto native Web3 users, but also for the larger audience who are not crypto native, right?
+
+So you can. In the background, create a date method did for a user without a user knowing it when they are doing a social login, let's say your Gmail or Google, and at the same time this did, can start holding up all your attestations. So I believe from our perspective, we wanted to think more global.
+
+Not necessarily just crypto native, and provide that kind of persistent keys for for a longer term bet. 
+
+Awesome. Excellent. 
+
+I find super useful. There was a long time, we were discussing about, is there some kind of like an on chain committee story for like repo, how we bring this at the station on chain.
+
+But I think having this for agent, it's actually like super valuable because, I like what you say, James, on the birth of agents, same with the kind of like the attestation and the ch the changes, the relative changes on the agent is what I think it's the most important factor because, probably performances of the agent will vary.
+
+With the feature extension on the agent, so you can actually attribute those change of performance to the changes that the agent. And I think it's also a level of trust. We did the livestream the live's livestream, James, and we're speaking about the power of trust from how user want to consume the agent.
+
+And I think like this bring much higher trust because after the, having the kind of like the birth of the agent and understanding like the changes he's going through, we can also fi finally give ational performance, reliability, even reviews from other agent to agent. And I think it's a perfect segue to a 0 0 4.
+
+I dunno what you guys think. 
+
+Yeah. No, that's great. I think the birth certificate is like the anchor point. But it's not only a birth certificate, but a resume going all the way back to birth. So I think that's a very valid point and yeah, would love to kind of transition while we, just looking at the time.
+
+Hugh, we have a couple minutes left. Would like to talk and ask you, Ravi, how do you think Billions can participate or how do you think about 8 0 0 4? 
+
+I think first of all, it is really exciting to see that such kind of VIPs are coming up where we wanted to see how we start looking at agent identity.
+
+And as we have been discussing, I think agent identity is certainly very important If we wanted to create that kind of a transparent layer, right? We all wanted to understand know your customer. Can there be a Know your agent and if you are thinking in that kind of a framework which we have at Billions, elaborated quite a bit in detail with our Deep Trust framework, white paper.
+
+I think we have gone detail in terms of how can we track the origin, the purpose, the credentials of. Each of this AI agent and seeing that is being done at the scale with the help of an EIP, I think that is very exciting. Now, from Billion's perspective, we have been trying to analyze and understand 8 0 0 4 a little more in detail, also participating contributing in their TG group and wanted to go deeper in terms of understanding what are the thought process behind that.
+
+One of the key thing that we feel is that the current specs, while they are talking about agent identity, which is not necessarily using the, did we feel that did is a better representation when it comes to agent id? However, yeah. I think as we go further in terms of our evaluation and understanding and talking to the 8 0 0 4 14, potentially, we would try and find out what could be.
+
+A best way to try and see if if there is a way to include both of them, or maybe we might have to have an approach of bridging this two. But yeah, I think this is where we stand, where we are analyzing and trying to see how we can collaborate further and be part of this initiative. 
+
+That's amazing.
+
+Yeah. Can you highlight a little bit more on, on why you think DIDs are so important? I know that you talked about the contrast between wallet addresses and having an agent on multiple chains makes sense because there'll be different wallet addresses based off of the different type of cryptography that these chains used to implement.
+
+So you can't have a single canonical wallet address for an agent. But beyond that, in terms of the implementation detail, when it comes to I would call it like chain abstraction why do you think DIDs are so critical and at the heart of and why did you use DIDs as the heart of what you're doing at Billings in terms of identity?
+
+It's. Since the early days we have been following up the self-sovereign identity principles and it has been at the core of the SSI platform, right? I think the intention with the decentralized identifier is where, we can start thinking in terms of anchoring any. Identity reputations or let's say verifiable credentials to this unique identifier?
+
+I think it makes it very easy when we are talking about creating those ZK proofs. Also using the state method on chain or off chain. I think it gives a lot of flexibility from a developer standpoint, and that's where we have been very optimistic in terms of following those global.
+
+Standards so that when we are talking about, let's say Web3 W three C standard or DI standard, we are all. Following up those global standard with the help of debt and ensuring that the developer experience remains smooth and we are not necessarily creating something that is for a short leave or maybe for a smaller segment of developer, but following up those developer standards and belonging to those organization make more sense.
+
+In fact, I believe the debt standards that have been out there since 20 17, 20 18 have been made significant progress. And this is where, when we are. Even interacting with the larger organizations the HSBCs of the world, Citibank Do Bank. In fact, we have been working with some of the government entities.
+
+The primary focus is to use the self-sovereign principles and did method are the ones that are being always as part of their requirement. So we feel that it is a longer term game where we wanted to be working with the global standards, and it works very well out there. 
+
+Yeah, and I couldn't agree more because, biggest use case in in Web3 and, and Web3 rates obviously is is payments but self-sovereign IDs actually owning your data, having a purely track around data is huge.
+
+So I think it's, we really nail down, like also the entire kind of yeah, mission of ance Today. I'm excited Also the 8 0 0 4 part, we definitely need to do a part two when Ravi will, like you guys, will will also like support on that. And again, thank you so much for your time, Ravi.
+
+Amazing. Always costing with you. James. Super excited also what's really happening next? And we have a bunch of other live stream ongoing. So always feel free. Also, if you're building around a 0 0 4, feel free always to reach out. Our door are always open. Thanks so much everyone, and thanks so much for listening for this quickly 30 minutes.
+
+Thanks everyone. That's awesome. 
+
+Thank you. Thank you for that me.
