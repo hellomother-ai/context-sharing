@@ -1,0 +1,700 @@
+Impromptu Google Meet Meeting - November 16
+VIEW RECORDING - 90 mins (No highlights): https://fathom.video/share/G8c_PERemTcCPAndJ2wSoM9pzdRV3JHB
+
+---
+
+0:01 - James Young
+  And that's how reputation can get weighted and changed. But I was like, how do we take into that weight into account?  And I was like, well, what we're doing is really creating, when we say we're creating reputation, what we're doing is we're really just creating an algorithm that takes in data points to then build up a reputation score.  But then if we do that, we just become another reputation provider out of one of many. And what I wanted to say at the beginning is we aggregate reputation.  And so what we're really doing is we are creating a marketplace of reputation algorithms. I don't know if that tracks or if that aligns and makes sense.  Because once, and the way I think about it is that when we become an aggregate of reputation, You have to think about this at a metacognition level, because we're not just giving that reputation score.  And these algorithms are what DAO members are going to create. This is how the curation across different industries then permeates because you can't just have one reputation score.  It doesn't make sense, right? And you have to take input from the user. So if we have everything on intuition, then you can apply your algorithm to all the intuition data.  Now, anyone can do that. So what's the advantage of Mother? Well, we have this ability with Mother to sell these reputation algorithms because they need to be dynamic.  So I may want a... A like, I don't know, a filter because I know, no one else knows, I know that I don't trust this guy over here.  So part of the algorithm has to filter out for that. And my own specific kind of like quirks, right?  And if we have the mother token only be sent to agents in the registry, then what we're forcing is that DAO member to like have an agent at the very beginning.  And that reputation that the, the reputation that that agent and that DAO member has with that DAO agent being their digital twin needs to earn.  And We need to earn that the DAO member needs to be able to trust that, that's synthetic, right? So the algorithm that each DAO member creates on their own to interact with their own agent gets put into the governance algorithm that mother uses itself.  Okay. And when you think about the algorithm to govern a DAO, that's based, and the agents that are best suited for that, and the algorithms on top of that, that are coming from the mother DAO users, that is a, that is a, the output of that will be considered the mother governance algorithm.  But that mother governance algorithm is a foundation that now other DAOs, reputation-based DAOs can use. And they just add in their specific KPIs on top of that.  So it's like we're not only creating an automated organization through MotherDAO, we are creating the algorithms that create an AI-led hybrid organization.  That will be forked. And how good of that core algorithm, the Mother governance algorithm, the better it is, the more people will want to use it.  And you need Mother to pay for and use these algorithms that you will augment on top. And this is how it then gets applied to other verticals with the MotherDAO governance reputation algorithm at its core.  And then these other verticals will augment them because if I'm in the paper industry... I may need, you know, other KPIs or whatever that the mother core DAO doesn't have an understanding about.  And that's why these DAO members that start and help build out this mother governance algorithm also need to then be able to, like, take that and then have an idea of how to apply that because they've been participating in mother and then bringing it to their industry and their vertical.  And they will bring it to their industry and vertical because once they reach a certain reputation, we can launch a token and that will, and mother will provide using mother some liquidity from that token.  And then the mother governance algorithm will adjust all these influencer tokens, these curator influencer tokens. And that DAO member will take that token to incentivize and create his own or.  We'll Thank I mean, it sounds great, like, I mean, I think that, yeah, I love this.
+
+6:29 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  It's super exciting. And I get that, like, the mother governance algorithm is, like, an algorithm that is an aggregate of, like, I got confused, but, like, my actions and the pattern of my actions is an algorithm.  That's kind of how you're defining it. Yeah. Yeah.
+
+6:46 - James Young
+  And because what you need to do as a DAO member, because your digital twin or agent is actually in the DAO, you are not technically, as a, DAO,
+
+7:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  That's why everyone needs to have an agent coming in. Because I was like, oh, that might bottleneck people, blah, blah, blah.  So it actually becomes incredibly important to, like, do we need some sort of agent launch kit to do that?  Or is that just like a spilling of a wallet?
+
+7:15 - James Young
+  We use Gaia and we use Discord as a chat interface. Everything is slash commands and maybe some UIs. And then other people will start coming in and going, I need X, Y, and Z to help manage the DAO.  Then that is put in as different, like, little agents in the mother registry that the orchestrator then can go out into.  Because the mother orchestrator agent is really just the DAO governance algorithm. That's all it is.
+
+7:44 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, cool. Really. With an LLM behind it. And this idea of, like,-based DAOs, have you heard that term before?  Are there other DAOs that have experimented with that? Colony has experimented with it.
+
+7:59 - James Young
+  There. There. There is a new initiative from the ConsenSys Network State Group, I've called the Bondi or something like that, that they're building out just for founders, and it's all reputation based.  Okay, so we're not going to be the first. But I would say that we don't clump ourselves with reputation based DAOs.  We look at really, I would say, how does Y Combinator work organizationally via reputation, right? That is how we base our reputation.  Reputation is, and this is an important part of the DAO governance and mechanism, is if Coach J, you invite me to be a DAO member in Mother DAO.  ahead and select and, That's right.
+
+9:07 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I love that. reminds me of like OP badge holders and stuff like that. Like OP badge holders, it started with like very few.  And then every year, those OP badge holders, I don't know if it was tracked on chain, but they would invite other badge holders.  And now it's like, you know, there's a few hundred of them. Yeah.
+
+9:22 - James Young
+  Yeah. And so really how, what's the genesis of this? The genesis of this is internal members of mother. Yeah.  And we, we decide who to, this is why it's important for us.
+
+9:35 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  It kind of reminds me of what was it? Is it proof of humanity that like start starting with that?  Like the initial people prove that they knew that they were human, the circle. Yeah. And like everyone they would invite would have to know the other person.  And if there was ever a Sybil, you could track who invited this person and track into who violated the system and slash it.  Yeah. Yeah. Yeah. Yeah, that's right. Yeah.
+
+10:02 - James Young
+  Yeah, that's right. Here, it's all real-time reputation points.
+
+10:06 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. Cool. I mean, these are concepts I feel like have been played with, and now we're kind of remixing it into this agentic model.  Yeah.
+
+10:17 - James Young
+  The point of this, for those that are familiar in the DAO space, is really the intersection of AI and crypto.  And the metagame here is Mother DAO should be, based off of the initial members, be the first DAO to legitimately fully be automated.  Because we're dealing with reputation here. That's the core issue of this DAO. Yeah. And this is how you progressively automate your DAO organization and really put the A in DAO.  It's not going to happen like, oh, someone creates a mastermind AI and it starts to control the world. Like, that's not how it happens.  This is why Gemini, OpenAI, Anthropic, they need feedback from users to be able to help steer the AI. Here, they're controlling the pre-model.  What we're saying is, you guys, in the AI stack, we don't care about model. We don't care about inference.  We care about the application of it and how it deals with reputation.
+
+11:23 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, at an aggregate level. One thing I think is super interesting, as we talk more about this, like the GTM implications, like more and more, it seems like this TGE event, because I'm like, oh, TGE, TGE, and I have all sorts of preconceived notions about TGEs, and like, it's almost, maybe I'm wrong, I'm thinking about this, but it almost seems less and less, like, it seems more and more insignificant.  Like, the TGE is, like, we could launch just like, in the next few days, like, it doesn't actually matter.  That's what I was saying.
+
+12:00 - James Young
+  The earlier, the better.
+
+12:02 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  The sooner, the better. We could actually launch for the next few weeks for all that matters because we just need the token to start actually using it as a signal for who's doing work and not work.  And it will build value over time. don't know how the value will build necessarily, but it will supposedly build.  So there should be two tranches.
+
+12:21 - James Young
+  We should launch the token as soon as possible to those that have been associated and have worked on Mother before in the past.
+
+12:28 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. Okay.
+
+12:30 - James Young
+  So it's almost like an internal bootstrap round to then decide, and we should decide immediately, who gets what allocation.  Bring everyone back and decide what is fair, get their token allocations all settled.
+
+12:45 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  thought about it. So let's just lean on that for that, I guess. Yeah.
+
+12:48 - James Young
+  And then we have the no token holders and everyone that contributed. There's people that fell off.
+
+12:54 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. And the Guild people who participated. Yeah, for sure. Yeah. All of that.
+
+12:59 - James Young
+  Right. And so. So that will happen immediately, but then the only reason why we're delaying the token launch is because we need to draft off of the momentum of 8.004 and the identity registry is not going to hit mainnet until December.  Once the identity registry hits mainnet in December, then they're going to move on to reputation because you need identity to then build reputation.  And so we'll be right there when that happens and we'll have everyone hopefully in this next month or so galvanized that has been associated.  Maybe some people say,  off, you know, you guys, blah, blah, blah. Some people will say, oh, great. You're coming back.  That's awesome. And so like there'll be some minor trading of a very illiquid token. It's not going to have any value at all, but this is how we then begin coordinating.  And then we use that token to then start voting on a doubt. So I need to. Work on the initial DAO integration.  So that's a whole thing that now, because of this GTM strategy, and if we can agree on the mechanism design, there's a lot of work that now has been unearthed and come to light when it comes to which DAO we're going to use.  Like, what are the constraints of the DAO framework? And what I'm saying is, worst case scenario, we just launched with the Moloch B1 DAO.  I co-wrote it, so, and I wrote it, like, seven years ago, oh, six years ago, so, like, I know it's solid, and it has many iterations, and it works, and we can just launch with that initially, but I would like to talk with, what comes to mind is I would like to talk with Denison at Tally, and then I know that he has a lot of these DAO frameworks that have, like, using the Tally program.  The the Tally protocol allows for, like, Like restaking and things like that. So that is where I would like to pivot to immediately.  And that seems like a big, huge missing piece. Because we're going to launch with Chaos Chain as our first registry that we're going to aggregate.  But Sumit won't finish the reputation part. He has the identity part and the verification part. He's not going to finish on the reputation part until, and this is what he's racing to complete, because he wants to announce it at DeathConnect.  So like we are integrated with, we integrate the reputation part with Chaos Chain by the end of next week.  We launch the token, we get everyone kind of galvanized around this vision and around this idea. We launch the token like December 1st, and then that gives us, or we launch that token about going.  And I'm all all of that precedent. picture. And then we spend that month getting everyone organized to then let it be on an open market in January sometime.
+
+16:20 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. Okay, cool. So that's kind of where I'm at.
+
+16:25 - James Young
+  And we just need to get aligned on, and this is all needs to be vetted as well, because I was just thinking about this, how we, the main reason, and this goes back to what you're doing, is like, how do you  bootstrap this?  Like, if it has to be somewhat inorganic or organic, we got to just show some traction here.
+
+16:47 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah.
+
+16:48 - James Young
+  And I don't know if what I am saying in these constraints of like, how do we bootstrap this? And this is why I put in like, you know, the, the mother, dad will.  We way payout to agents in the 8004 registry. So that's how you get paid out through MotherToken. So we have to have payments in there, you know, when it comes to what the Mother Orchestrator can pay because it has to only be able to pay out.  And so it like, it's self-referent. I'm trying to be as self-referential as possible. And in that self-reference, does it make sense?  and i think it does so you know there's this governance algorithm that mother is going to create based off of everyone's collective input in the in the dow and then that mother governance algorithm can be applied to other verticals so it can be used to be leveraged and this is how we then start curating other agents in other industries but we're just focused on the dow kind of core yeah but yeah but but it's super insightful that because  We are just talking about solving our own problem. The problem that we're solving can be applied to any, any doubt, any vertical.
+
+18:11 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Right.
+
+18:12 - James Young
+  And that, that's why we want experts to then know that so that they can gain their expertise in other end governance and then have enough reputation to launch their own token so that they can start monetizing their expertise in their specific vertical.  And the type of people that we are going to invite first are going to need to be legitimate DAO people.  Mm hmm.
+
+18:35 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, definitely. That, yeah.
+
+18:37 - James Young
+  And, and so, so then when I was thinking about how the  do we like, like start creating this algorithm on the governance level and coordinate, you know, all of that, then I was saying, well, you as the DAO member need to have coherence with your own agent.  So you, as as a DAO DAO member. So to learn or teach so that you can have enough trust in your agent to be able to withdraw the mother token because your agent has to have a certain level of reputation with you that you say it's okay.  So you're incentivized to create your own little reputation algorithm at the individual level. And then that is what kicks off the algorithm that's going to be used for the mother DAO governance.  So that's kind of how I'm trying to like thread the needle here to kind of make the bootstrapping to go to market strategy as seamless as possible.  And I want to feedback and see if that makes sense.
+
+19:44 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  What I heard at the end right there is that there sounds like an opportunity for gamifying it in some way.  Although we want like really legitimate people. don't want farmers or like random people popping in and doing this. But because because you know why you want.
+
+20:00 - James Young
+  And you don't want airdrop farmers, it's because the value of the mother token you implicitly have stated are going to be valued by the members in the DAO.  That's right.
+
+20:11 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And it's super interesting because, you know, we were just talking about like XP programs and stuff like that. And like, I don't know, XP programs, attract a certain kind of person with certain kind of incentives, right?  But you can only, you can only join the DAO if you're invited.
+
+20:28 - James Young
+  And so it's up to us to begin the curation. We can, if we...
+
+20:34 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Oh, yes. That's right. I forgot. Yeah. So this, so the seeds in Discord, like, whatever. But at the end of the day, like, it's invitation based.  Like, I'm going to call Disruption Joe and Punkar in Milwaukee because I know that they're particularly experts in certain fields.  Even, and we want DAO experts specifically, right? We're not going to other verticals right now. Because I know lots of experts in my life that are experts in psychology and improv and all this.  This kind of stuff, but that's going to be less helpful for us at this point, in this point of game.
+
+21:04 - James Young
+  Well, what I would say is you would only want to invite whoever you think is going to help your reputation because you believe in their reputation.  Because now if you invite them, your reputation is linked to them. So be careful who you invite.
+
+21:19 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  in what, though? In what regard?
+
+21:21 - James Young
+  In mother, as the, like, we have a Genesis event. We have mother internal team members that are going to kick off Mother Dao.  Yeah. So your reputation in mother, which no one has any reputation right now, but we've been working and we believe in this so that, you know, all the kind of mental psychology I think would be in any internal mother team members head is that whoever I invite is going to impact and value the work that I've done so far with mother.  Okay. So it's to feed the mother and whatever.
+
+22:00 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Whatever its progress is in some way, shape, or form. Yes, that's right. It sounds like, have you ever heard of Landmark, the personal development organization?  It sounds like an MLM. It is. Yeah.
+
+22:14 - James Young
+  It's an LLM that is permissible.
+
+22:16 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  No, not LLM. Multi-level marketing, MLM. I mean, MLM, sorry.
+
+22:21 - James Young
+  It's a, there's a famous MLM, I forget its name, that you just like, they get salesmen to get and sell Amway, I think it's called, or something like that.
+
+22:34 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah.
+
+22:34 - James Young
+  That they just have a catalog and then you just get commissions off of everyone else's sales. Yeah.
+
+22:38 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  That's how all MLM works. Like Primerica is the same. You get, you sell like financial mutual funds and stuff like that.  And then if you hire people and then they sell, then you got to get some multi-level marketing works. Yeah.
+
+22:50 - James Young
+  Yeah. And so what happens though, is that who controls that algorithm for the MLM. The problem with MLM. LMS is there's some centralized provider that controls that algorithm, right?
+
+23:06 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So at the very beginning, the algorithm is going to be fully transparent and people have the opportunity to modify the algorithm should they realize that this is not just because James and Coach J just happened to be there early, but that no longer means that they are the most contributing members of Mother.  And we can change the algorithm as a collective if we decide that this this is no longer suitable. It almost sounds like, you know, I get I do I elect my prime minister once every five years and that's it.  That's all I get. But it sounds like if the prime minister two years in is just really not cutting it as a collective, we can get together and can change our vote to someone else and how money is distributed in our country.
+
+23:49 - James Young
+  Yeah, there's a lot of references and research when it comes to what they call fluid democracy. Oh, yeah. Fluid democracy.
+
+23:57 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  That's right. Yeah. So this this.
+
+24:00 - James Young
+  This could be categorized as a subset of Fluid Democracy, but this is how we build, and we take the experts in the DAO that will help Mother DAO become a better DAO that is accurately pricing, algorithmically, someone's reputation within that DAO, and then in order to use these algorithms, you have to use Mother to pay for them.  So Mother Token is going to be the value of the members in the DAO and their output in terms of how valuable the algorithm they output is.  And so this is the game, and this is highly informed with our GTM. We're constrained by our GTM, we don't have finances, we have DAO nerds, and we've been around for almost a year.  So how do we leverage those three things right now to be able to kick this off in a compelling way that's sustainable over time?  Cool. Well, that's great.
+
+25:01 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And I think that one of our barriers, and I don't think it's a major barrier, I think will be just like education.  And just like, you know, I'm listening to you talk, you've given this a lot of thought. You know, I think even bringing someone like Kevin Owaki back in, Kevin Owaki's not even in, even bringing someone like Disruption Joe back in, there is a certain education, he has certain ideas of what mother was and what mother is and stuff like that.
+
+25:27 - James Young
+  Well, that's going to impact his reputation. So this is we launched the token immediately. We give it to people that are going to help solve this education thing, because if that's the number one blocker, we need to be able to like, get people that trust one trust us that to believe in this vision, and can amplify it for us.  We don't do the education. This is how we kickstart the doubt.
+
+25:50 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, it's interesting. If only there was some sort of like quiz kind of agent or something like that, that could quiz me on things and I could gain reputation by correctly.  you.
+
+26:01 - James Young
+  And then from there, what other agents do we need to create? Who's going to create them? And they get reputation that way, right?  We have to start building this now. That's super interesting.
+
+26:14 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I'm trying to wrap my head around bringing this back to me and the actions that I'm going to take.  Because I want to, Jonathan, who wants to incentivize himself, I want to make money, for example. Yeah, that's right.  What are the actions that I'm going to take to build my reputation and the reputation of my agent? What it sounds like is I'm creating, I'm finding ways to take actions that prove to everyone that I know more about the project and that I'm involved in the project and I'm making contributions to the project.  And that could be because I'm creating a lot of content and I'm doing a lot of marketing and blah, blah, blah, blah, blah.  What? No. It also is already.
+
+27:00 - James Young
+  You already have this automated system of tweets and prompts and everything like that to get things out, right?
+
+27:09 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah.
+
+27:10 - James Young
+  How many reputation points should you get for that? I don't know.
+
+27:15 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And are you all voting on that? Is that kind of how that works? Yeah, that's right. And then we say, okay.  Okay, can I philosophize just a little bit on this? Okay. Yes, and.
+
+27:29 - James Young
+  Go.
+
+27:32 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So this is super interesting because, you know, this is like the part of capitalism that I don't like is like there's a first mover advantage.  Like the fact is that like I have been, I was just at the right time in the right place.  You know, like it just so happened that Joe knew who I was and he invited me to this project.  I just happened to be unemployed and I happened to say yes. Yes. And, you know, there are decisions. I know.  I said no to a 20-day meditation retreat much earlier this year, which I for went, so I made decisions for sure, I put in the time for sure, but like, there's so much of it is like the geopolitics of my body, just being in the right place at the right time, you know, all that kind of stuff, won't that play a role in this DAO in that way, like, I have, I run the mother Twitter.  So like, there's an inherent advantage that I have, where someone who might want to run the mother Twitter, I'm gonna be like, no, this is not good content, or like, you know what I mean?  Like, there's things like that that might come in.
+
+28:42 - James Young
+  Wait, wait, okay, so let's, let's break this down. Yeah, because I think what I want to address is this initial issue of just chance.  Yeah, yeah, yeah, yeah.
+
+28:54 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, so. I'm gonna quality, you know, one thing we don't talk a lot about, but we don't talk about like our.  . I'm like a hard left, like I'm equality for all. Like I want everyone to have a fair chance.  And then once you have that fair chance, if you blow it, that's your, that's your problem. But your environment dictates so much of what's going to happen in your life.  So that's where I'm at. Yeah. Absolutely.
+
+29:20 - James Young
+  So that is part of decentralization that appeals to me. It doesn't matter where you, when you started or when you got in, it's permissionless.  So if someone else that rightfully, if we had the Zoran all seeing eye and we knew who that person was, yeah, but that doesn't exist.  It has to start somewhere and you've shown commitment. And this is why you should have a certain allocation of tokens with a certain reputation score.  Now, someone can come in and go, hey, I can do better than Coach J. Okay. In our system. Okay.  There is no way for you to censor that person. And that is what, it's not that you were given the first chance.  It's that those that are given the first chance are put in a position to stay ahead than, like, allow for someone to, like, permissionlessly enter.  And this is where decentralization is core. You should read Vitalik's kind of thesis on decentralization and, and what that means.
+
+30:31 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  It also has to... Convex, that article? no.
+
+30:36 - James Young
+  Yeah, so the thing is, is that, like, other systems, Coach J, if you were early on, you can politically pull the ladder up from behind you.  It's because you are in a position of censorship.
+
+30:52 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, yeah. here, it's a doubt.
+
+30:55 - James Young
+  That's why it's like, we all have to vote. And now... What could happen to your, you know, you're like, okay, let's take it up a level.  Then what if a couple of people decide to collude, right? And what happens there? Well, this is why everything is open source.  People can defect and fork. There is a book that, a sci-fi book, Cory Doctorow, it's called Walk Away. And it talks about forking.  And it's a way where capitalism meets open source. And so like, if I'm not incentivized to capture Mother Dao and collude, because I always know that other people in Dao can fork.  And now their reputation now is on chain and portable, and they can take it with them. They don't have to start from scratch anymore.
+
+31:53 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Right.
+
+31:54 - James Young
+  And so in this way, it's a grim trigger if you try to capture Mother Dao.
+
+32:02 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  If I'm withholding information, because I'm gatekeeping, right? I already have my reputation set up. I have a lot of information.  I'm starting to gatekeep right now. People might catch on and go, I think that this guy is gatekeeping. They go to you and you're like, I don't know.  No, I don't buy it. And they go to Matt and they go, I don't buy it. I'm like, you know, fine.   you guys. I'm going to go fork this thing. And other people, they start sending the word like, you know, Coach J is withholding information, blah, blah, blah.  That's like the ultimate last thing is like, I'm just going to go fork this.
+
+32:34 - James Young
+  That is how, if you look at the consensus mechanism of Bitcoin, that's exactly how Bitcoin and Ethereum work.
+
+32:45 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  That I'm clear on, that I'm clear on, guess. I've seen it in practice very few times. I think it was one, the Steam community forked when Justin's son tried to take that over.  Yeah. but I don't know, like, there's like the whole too big fail kind of
+
+33:00 - James Young
+  Well, this is why DAO experts are needed. How do we set up the mechanics and the mechanism, the governance algorithm?  If it's not us, who's going to do it? We are the best qualified to understand and shape this.
+
+33:21 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And so that's why we need those people in first, or at least people who are willing to participate. I know this woman in LA, she's starting Hope DAO, because she just wants to start a DAO.  I would invite her in, because she's at least thinking about it, and she wants to get involved in a DAO, and I trust her.
+
+33:40 - James Young
+  These people that we want to take a chance on, you want to be able to take a chance on them and not feel like, oh, , if it doesn't go well, then it's like my reputation is stake.
+
+33:53 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  reputation is at stake.
+
+33:55 - James Young
+  So there is this, like, game in, like, if you don't get your pay... And published into a credible scientific kind of journal, then no one's ever going to see your work.
+
+34:08 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  That's right.
+
+34:09 - James Young
+  That is reputation in play. Like, your reputation in terms of what school you went to, what degree you have, and where you're published, it's 100% a reputation game, right?  That's why you get a degree. That's why you get all this , right? Because it's supposed to imbue trust.  And you trust Harvard rather than, you know, some podunk, like, community college, right? And so, like, there's the reputation game is already there.  And the way that these journals work is if you don't know the right people, you'll never get into the journal.  It becomes completely political. We don't want that. We don't want that, right? And so, like, there has to be a decay function.  And this is where we need that algorithm. We're done with them. Thank And so, like, if you can maybe signal that when you have this person come in, they may be categorized as, like, I'm taking a chance on them.  And then that is an attestation that the algorithm will pull from its data to then weight that. Because you may, Coach J, over time, have a 10 million to one ratio of, like, 10 million people that you want to allow and mother.  They all kind of are, they fall by the wayside, right? And so the algorithm will take that into account over time.  This sounds like a very complex algorithm to design.
+
+35:48 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And I imagine we're not necessarily, we don't need, you said we're going just like a Moloch V1. Like, the whole point is to, like, co-create this, I know you don't want to use these words, but I'm seeing it.  as this reputation-based DAO. It is, that's exactly what it is. And we're going to evolve it over time. Like the initial iteration is literally just to get the ball rolling.  It is absolutely going to change like almost immediately.
+
+36:15 - James Young
+  The reputation-based DAO now exists in 8004 for AI agents. We are just going to be the first DAO that eventually is going to be the first and best DAO that's going to be AI run.  This is how we're doing it. This is how we're doing it.
+
+36:39 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Got it. Okay, okay, okay. Yeah, yeah, yeah. That this is okay. So, you know, that's why a lot of our comms in our GTM is going to be about reputation.  Like we're going with reputation and it's about curation and stuff like that. But like the go-to market is very much about this DAO focus.
+
+36:57 - James Young
+  So the problem is the The market, I think, is really against DAOs at the moment, and this is where my learning comes in.  2016, there was the DAO. Everyone thought DAOs were not going to work. Everyone thought DAOs were not going to work.  We bring in Moloch, and we raised $1.5 million in months. We thought we were only going to raise $100K.  Yeah. Right? And then DeFi and DAOs, because they saw DAOs as a way to get around legal issues, those really took off.  Yeah. I remember.
+
+37:41 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I saw the DAO at the time, Gitcoin, yo. That was the time. Yeah. That's right.
+
+37:47 - James Young
+  And now, we're in another DAO slump. Yeah. And this is where my perspective comes in. We have another DAO moment.  Because… … … Because really, we have AI to help launch this, and the EF, Google, Coinbase, and the Linux Foundation are behind 8004.  So they also, at a corporate level, have bought in that agents need reputation. Yeah. Right? So we are going to be the first reputation-based DAO that is going to have synthetics front and center.  From DAO members that have learned from previous DAO failures. Yeah. And so this is like, we're calling the whistle bell for all the hardcore DAO enthusiasts.  Now, if they want to truly put the A, automation in DAOs.
+
+38:49 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So let's tie this back. So let's tie this back to agents, and how those come in, and what we're doing there at Mother.  Because I feel This DAO thing, it touches just slightly on the agents thing. It seems so like its own thing.  It's so focused on this government, the governance and reputation aspect that the agents almost seem like a thing that's on the side that obviously is central to mother, right?  Right.
+
+39:20 - James Young
+  So here's how you tie them together. The DAO was a failure in mechanism design. The mechanism design broke. Yeah.  Right? The problem with the post-Mollux and all these other DeFi DAOs was there was no reputation over time. It was hard to do.  Why? We didn't have the tech for it. Why? The market was more about the VC playbook because they were taking the old playbook and applying it to crypto.  Yeah. Yeah. . So what we've done is now we know that the tech is here. 8004 has signaled that reputation on the Internet because AI.  We've gone from an Internet that you assumed you can trust to an Internet that you assume you cannot trust.  So how do you trust? Trust is what we're really dealing here with. When you talk about reputation, we're talking about ability to trust.  Right.
+
+40:31 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  That's all reputation is a for sure. For sure. Yeah.
+
+40:34 - James Young
+  Now with AI, we can scale it. We can scale trust that it was a missing part before in the previous versions of AI is now just an automation tool because there's no way these down members could like create their own algorithms or be able to like interact.
+
+40:53 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Now we have these agents are going to be creating this algorithm, these algorithms for us.
+
+41:00 - James Young
+  Yes. Yes. Okay.
+
+41:02 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay. So everyone, so my digital twin, Coach J Bot, is going to be creating the Coach J algorithm. That's its primary function.  Yeah.
+
+41:12 - James Young
+  And you're going to trust your own algorithm over time if it works. So this is how we use the mother system of all the data points so that now your agent, which is you, has a reputation score and that you're building up that reputation score.  And you're incentivized to build up that reputation score because you need to have it and keep it in order to unlock mother tokens.  Okay. You're doing the work. Your work that you're doing is providing your agent an algorithm that best represents you.
+
+41:46 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And the work that I'm doing, is that through like messages that I'm sending in discord and conversations I'm having there?  I imagine that we'll be uploading transcripts from official mother calls and stuff like that. I could upload any transcript, even this call here is not another call.  I could. Put this in and it would affect the algorithm somehow. I could try to make up a fake conversation with James and put that in and that it might affect my reputation.  That is right.
+
+42:11 - James Young
+  And that is what and why we need the agents that are best going to help us get there from a mother perspective.  And that's going to be our first curated bootstrapping of the closed registry of these DAO agents. These DAO agents need to be...  I've never seen that before.
+
+42:32 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  The AI knows that I'm right. It was perfect. was atomic. I could feel it oozing love and excitement in that moment.  Yeah. That's right.
+
+42:44 - James Young
+  And so this is what's going to become the mother governance algorithm. This algorithm of algorithms and the algorithm of algorithms will take in chaos chain reputation, get coin passport, Legion API scores.  It is- All this stuff that you can take and you can augment with it because it works for a mother.  It's a great foundation for you to then create your own autonomy and then add on top of it. And then those algorithms that you add on top of it for your industry go back to mother to be sold.  That's what you're selling. That's the long-term vision.
+
+43:22 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I think that that's good to sell people into that long-term vision. I'm trying to get ahead of what's going to happen literally in the next few months.  Like, I have my coach, Jay. It just sounds, I think, a little bit messy because I haven't, like, done it.  But, like, that's almost, like, what we need. We need these people coming in that know about Dallas. We also need people to come in and build the agents that we think we need in order to be able to do this, don't we?  Like, we don't have the tech to necessarily do all this reputation gathering and calculating, do we? No, but Chaos Chain does.  Okay, okay, okay. So, Chaos Chain, we're going to rely, we're just going to rely on.
+
+44:00 - James Young
+  The Chaos Chain score just to bootstrap. And then once we have that bootstrap, then we say, hey, we'll give you these mother tokens.  If you help with this, there'll be proposals in the DAO to create this kind of agent, why, blah, blah, blah.  That conversation somehow will be scraped to then like feed into your reputation score because of your interaction. Things like that can happen in Discord and then we can have like a bot that monitors all the messages.  And so this is why AI is needed because there was no way before to scale.
+
+44:33 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  to capture all this. Like, again, I want to upload, oh, I had a meeting with 08 that y'all don't know about.  Where's that bot where I get to, I go talk to this meeting summarizer bot and it can summarize the meeting and upload that and keep track of what we talked about and the value that we're creating in regards to.
+
+44:52 - James Young
+  There's no AI helps us close the value leak in DAOs because there's so much work behind the scenes, off chain, everything.
+
+44:59 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  know what it is! Okay.
+
+45:00 - James Young
+  But here now, since everything is mediated online, we assume that these DAOs are going to be online. There's now a way to track it, but we can't organize it at scale.
+
+45:11 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  This is what AI is for.
+
+45:13 - James Young
+  This is why we have to have an AI-led organization.
+
+45:17 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  What was a coordinate? We should get what's his face for this. Trey.
+
+45:25 - James Young
+  No, wasn't his name Zach?
+
+45:28 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Oh, yeah, there are two guys. Okay, two guys. I know Zach. Okay.
+
+45:34 - James Young
+  And he's based in Costa Rica.
+
+45:36 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I mean, this is like, oh, no, no, it wasn't Zach, was it? Anyway, this sounds like almost like what they were doing.  Because I remember early days, I was like, I read a lot of bank lists, but I was at Bitcoin.  And, like, it was a lot about, like, rewarding work based on, like, what everyone else did. Yeah, it's Zach.  He just, like... It looks very different to me. It was about rewarding work and stuff like that. And there were challenges with it because there was, like, people like me, I was leading a team.  I'm very high signal. And, like, the things that I do are very upfront. So everyone sees the work that I'm doing where they're like, okay, well, let's give Coach J lots of money.  Whereas this person's in the background, they're busy scrolling through spreadsheets doing audits. They're just not going to get as much.  And so how we create the reputation to level that playing field, maybe there is a chance here for AI to do that leveling.  Yeah.
+
+46:30 - James Young
+  We have that experience. Those that have never participated in DAOs don't have that understanding. That's why we're the best to, like, tackle these problems.  This is why we need people that have been part of our members of DAOs. What leaks here? And how can we fix this with AI now?
+
+46:46 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Cool.
+
+46:46 - James Young
+  Like, so the failure of the DAO was pure token mechanism. We solved that with the Mollic and the DeFi DAOs.  But there's just, you can't do things at scale because you didn't have AI. So now- Here's a third iteration of the DAO lineage.  Cool.
+
+47:05 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Sweet. We own the DAO narrative.
+
+47:08 - James Young
+  And we live and die if we can resurrect DAOs again. Because no one wants to touch DAOs. No one wants to touch DAOs anymore.  It's like a taboo thing. It's like we , if you are do or die, write or die for DAOs, this is how we get the next narrative right now.  This is how you FOMO those OG DAO members in right now. That's the go to market strategy. That's how it blends in with the mechanism design.  This is how it all kind of comes together. This is what I'm thinking. Okay, cool.
+
+47:41 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, I think that like what's coming up for me is like, yeah, let's get some of these like OG DAO folks.  I think again, there's an education thing. There's obviously, I think the easy part is going to be selling them on the vision of like what we're creating here.  It's actually not terribly difficult to understand. I think it's more like. ... ... ... ... I'm going to, you know, I talked to Dan at CoUnity.  I talked to, I'm going to message like Kevin Owaki, obviously, because he and I are like, you know, on really great terms.  So I would probably message him after DevConnect and like, he's going to be like, what's going on here? He was always interested in mother and like what we're cooking here.  So I think that what I need for Kevin is like, I need that one page room. Like, this is what we're going to do.  This is how you get involved. And these are some of the actions that you're going to take in the next few weeks.  Yeah.
+
+48:32 - James Young
+  You know what mean?
+
+48:33 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Like, I want to almost lay out that little roadmap of like, here's what's going to go down. Really, right?
+
+48:39 - James Young
+  That, that's what we need to figure out in this next month before you get onto your retreat.
+
+48:44 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. Yeah, I agree. Yeah. That's the focus.
+
+48:48 - James Young
+  That is exactly it.
+
+48:50 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  How does it like, okay, we launched the token, like, we're having our first meet community call, only token holders, token data community call, whatever it is.  Yeah. That's right. That's exactly right. Everyone invites one person. Is that the first move? Is it like we decide to establish a cadence of inviting people?  Is it like we create new government? Are we building agents all together? That's what is missing for me. It's like this initial stuff to get there.
+
+49:17 - James Young
+  No, you exactly identified, if we all agree on this narrative, what the work is, the problem set that it opens up.  But we first have to get everyone on the same page on this narrative internally. Then we can focus on like in the next few weeks.  And by like mid-December, we have all those answers. At least the first maybe one or two iterations of it.
+
+49:44 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Well, we have a stand up tomorrow. Let's see. I have a flight tomorrow, unfortunately, which is going to take a bunch of time.  But let's see what we can put together for tomorrow in advance. The sooner we get everyone on board, the better.  And I think most people will be in attendance tomorrow because DevConnect is happening. It's going to be quieter on the Telegram front for most folks.
+
+50:11 - James Young
+  From this meeting, could we use AI to summarize this?
+
+50:17 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Of course, James. What do you think I'd do with most of my day?
+
+50:20 - James Young
+  So that we tell everyone ahead of the mother meeting tomorrow that they have to have read this and we're going to talk about this.  Okay, cool.
+
+50:30 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I could also put together like a deck and walk people through this. By tomorrow?
+
+50:36 - James Young
+  Yeah, I could see it.
+
+50:37 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I could see it. It's possible.
+
+50:39 - James Young
+  Let's do it. Yeah, because this way I find that the decks are okay.
+
+50:43 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  The readings are okay, but especially someone like Matt. Matt's not going to pre-read. Sydney's not going to pre-read.
+
+50:50 - James Young
+  So this is where I would, if this system were in place, I would give you bonus reputation points because you offered to do a slide deck.  But I was just thinking, because you're making... I would tell my agent, if Coach J does a slide by Monday, then note a hundred extra reputation points, and then my agent would then tell me, I would say remind me, my agent will, whenever I type my agent, hey, hey, there's also a reminder here that did this happen, and I just click a button and say yes.  And then this is how we don't lose signal.
+
+51:32 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. You know what's so cool about that, too, we haven't talked about, is the price discovery mechanism that's underlying all of that.  You're giving me a hundred points. Oh, that's so interesting. I would have given you five points. Right. I wonder where it's going to land.  In the future, are we going to be giving each other a hundred points for that kind of action, or are we going to be giving each other two points or a thousand points?  I don't know yet.
+
+51:56 - James Young
+  That's where your AI algorithm ... Your agent will, you will just express it and your agent will like say, here, this is how many points you should give them.  And you're going to say, no, give them less or give them more. But over time, that agent will, in the algorithm, know what your reaction is and be able to price that for you.  So you're just saying, hey, Coach J did this thing. That's all you're saying to the agent. Coach J offered to do slides.  And then the agent will then calculate that so that it's not a mental burden for you to have to price every little thing.
+
+52:33 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yo, let me ask this question then. OK, so, OK, so I'm going to give zero ages, like  tons of points in the background.  have this little thing going on. I'm just like dowsing him in points and stuff like that. How do you like what are the like what does it look like for you to just be like, nah, like do you tell your agent like, hey, I don't really think that zero ages, like you, first you couldn't, you talk.  You have a conversation, hey, like, I noticed that, like, 0H reputation is super high, you go to 0H, why is there, how do you get your reputation so high?  Oh, like, I did all this work and Coach J, get it, you can see it on chain, right? Oh, you did just that?  Like, that's all the work you did and Coach J gave you all of that? And then you might talk to me and I'd be like, yeah, it was super valuable, I've been waiting for, like, six months, and you're just like, I don't know about that.  And then what do you, like, start talking to your agent and be like, I don't like this, or you bring it up to other people?  Because then there's, like, conflict that starts.
+
+53:31 - James Young
+  Well, I would upload the transcript of my talk with you. I would then put in my notes for the agent, and the agent then would, like, kind of decide what to do.  This is how I'm going to re-weight everything. And then you're like, yes or no. And so you're building, you're signaling to your agent its reputation with you.  And so you're going to You be incentivized because your agent needs to have a certain reputation to unlock mother tokens to be incoherent with your agent, you and your agent being incoherent because your personal agent has its own reputation score that's relative to you.
+
+54:15 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Okay, so wait, are you telling your, like, let's keep characters here. I know this is kind of maybe going down a rattle hole, but I think it's fun.  Let's do it.
+
+54:25 - James Young
+  Let's do it.
+
+54:26 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So you, I colluded with Zero8, essentially. That's right. Because he paid me a bunch of money. He sent me USMUSTC, although no.  And I gave him a bunch of reputation because he wants to unlock his mother tokens.
+
+54:38 - James Young
+  You can check who's giving reputation to who. You can actually have an anti-collusion filter.
+
+54:45 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I'm saying, Zero8 was so helpful. He got me, he helped me get my notion organized. And I'm a high, I'm a high reputation person as it is, right?  As a lot of these politicians are. They're high, quite high reputation to start, right? But...
+
+55:00 - James Young
+  But then, that's what you add as a weight to your filter. Coach J is this, to you, in your perception of reality, Coach I'm getting confused.
+
+55:11 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Like, I have my Coach J bot.
+
+55:13 - James Young
+  Yeah, you have your Coach J bot, and it's given out  huge reputation, like all this stuff, right?
+
+55:19 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, you have OG as a mother. I have tons of reputation. I can give it out as I need, right?
+
+55:23 - James Young
+  Yeah, then, so, so, James bot sees that, and James says to James bot, like, hey, this is my, I uploaded my conversation with Coach J.  uploaded my conversation with Zero8. James is telling James bot, like, okay, like, I don't really feel good about this.  Track this over time. Is this collusion happening? Blah, blah, blah, blah, blah. James bot goes, noted. Oh, okay, that's it.
+
+55:49 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah.
+
+55:50 - James Young
+  And then, over time, the James bot wants to be in coherence with James. James wants to be in coherence with James bot, because that's how you...  James can unlock mother token because the token can only go to agents in the registry. So reputation is relative.  There's no one reputation score. Like my agent on the 8004 registry, James bot will have a reputation, a high reputation for James, but no one else is going to hire it, but maybe they will.  Because then what you can say, coach J for coach J bot is taking James bot signal filtered for James, because I trust James in this specific subdomain only.  And so now you have this distributed graph where you can get signal and create your own reputation and you're incentivized to do that because the agent is the one that you want coherence with that allows coherence with other agents.  And these digital twins can get coherence with the worker agents. It's all about trust.
+
+56:55 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  So you, you're keeping, let's go back to the scenario. You're keeping. I'm an eye on Coach J-Bot and 08-Bot because you have a feeling of polluting.
+
+57:05 - James Young
+  I'm keeping track of Coach J and 08. Okay. And I'm telling my James-Bot what I think and what I feel and how I would like- And it's keeping it private for you.
+
+57:19 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Only you get to access those thoughts. I could maybe not hack through that because I could have a chance.  I could have a chat with James-Bot and be like, yo, what does James think of me?
+
+57:27 - James Young
+  That's right. So this is where ZK comes into play. There'll be some attestations that require a signature and will only disclose that type of information.  Oh, interesting.
+
+57:42 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Have we built that?
+
+57:44 - James Young
+  No, but that's what's part of Chaos Chain. Okay.
+
+57:48 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Oh, amazing.
+
+57:48 - James Young
+  And so what I can do is I can tell James-Bot only when this category of-Bot or maybe when Coach J  J-Bot comes and knocks on your door, like, you can tell Coach J-Bot this, but don't tell him that. And that could be all based on attestations that are verifiable with ZK.
+
+58:12 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  That's nuts. That tech exists already?
+
+58:17 - James Young
+  It's not productized. We're productizing it now.
+
+58:20 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Oh, yeah.
+
+58:20 - James Young
+  This is why, this is why, like, we can do it at scale. Because AI exists, ZK knowledge exists. And, yeah, crypto is a new thing.
+
+58:32 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Dude, that is so cool. Like, we're running a truly trustless organization because, like, I do trust you and I can have relationships and stuff like that.  But at the end of the day, like, those relationships are as strong as the trust between us. And, like, having an agent to be able to do the work and the back and forth on that can, like, shape this organization such that feelings don't have to get.  It's just, like, objective, like, these are the actions you're taking, and this is how it's working, and if you're gonna start this uprising of, like, Coach J has been, like, giving zero weight, and I only have this one piece of evidence, a lot of people could disagree with you, and that would cause issues and stuff like that, and then your reputation would lower, um, that's, that's it, it's all, it's just, like, all this interesting, like, game theory, like, yeah.
+
+59:27 - James Young
+  What, what, basically, this already happens, okay, this already happens with startup founders and equity. Yeah. And then politics within an organization.  Yeah. What we are just saying is that we are creating a new type of startup from the ground up that will have AI at the center.
+
+59:54 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. Do you want to participate? Yeah.
+
+59:57 - James Young
+  And all of these, like, algorithms, everyone's. going to have their different algorithms, because the algorithm is what defines your community culture.  Your community culture is embedded in that algorithm. Every community is going to have a different culture. Yeah.
+
+1:00:18 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  But we're creating the playbook for this, right?
+
+1:00:24 - James Young
+  And this is where it's the pie in the sky, but we're doing it practically. And 8004, because now everyone understands that reputation for agents are needed.  You're like, what the , industry? We've needed a reputation on the internet since day  one. Now you're acknowledging that we need to have it because all of these 1 billion agents coming online?  How about the 8  billion people that exist on the internet right now?
+
+1:00:51 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Super cool. Oh my gosh. This is so great. Eric Dingham. Do you know this guy's name? name? name? He is the author of the book Brave New Work.  Have heard of this book? I've heard of it. Yeah, it was like really big in DAVs because they are all about decentralized organizations like IRL.  And he just closed down his most recent startup. It looks like he might have some time on his hands to participate in a new experience.
+
+1:01:27 - James Young
+  These are the kind of people that we need to dog whistle to.
+
+1:01:32 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  guy is like, we've been, we've been, and I have a direct line to him. We chatted a few times.
+
+1:01:39 - James Young
+  So it would be great if like there was maybe half of the people in the DAO are not from crypto.
+
+1:01:47 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, he's not crypto. Yeah, not from crypto.
+
+1:01:50 - James Young
+  We've got to get some AI coherence researchers in the DAO to talk about coherence, because that's really what, what we're coherent, the measure.  of coherence is quantified in a reputation algorithm.
+
+1:02:06 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I can't believe you started on a startup. Anyway, sorry, I'm getting distracted. I'm just getting excited about who can participate in this, like, wacky experiment, right?  And, like, again, one of the things that we're driving in the background is I want to make sure that we're somehow tying this to agents.  And not just, like, my digital point, but, like, agents that work. Like, the whole initial promise of Mother, which is, like, a reputation layer for agents.  Agents that can do work, that can carry their reputation in other places. You know, I'm building a suite of agents.  I actually built, like, I put together knowledge bases for 10 different agents today. So, like, have all those agents that I want to advertise.
+
+1:02:47 - James Young
+  The initial DAO members are responsible for creating or getting those DAO agents that will essentially what this looks like.  in a different That's so cool.
+
+1:03:05 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  An invite-only questing program.
+
+1:03:09 - James Young
+  Well, the DAO is invite-only. The user base is gonna be distributed through Collabland initially. And Collabland is just now going to move into an on-chain questing platform.  And so now, you as a DAO member need to find the gaps to help the mother DAO and its agents to be able to create better agents, which will help your reputation and your algorithm.  So initial 1.0 of mother DAO is gonna be inwardly focused to be able to self-manage itself. We're dogfooding this in real time.  Once we have it, then it could be forked, right? So we need these... Quiz agent is one agent to make sure that the people know what's going on.  Then we need a poll agent, and then we need these different type of agents that help you better automate your organization.  Once we feel good enough about that, then that gets forked out. And this is when the people that help contribute the most to this launch their own token.  To then have Mother provide liquidity for it. But that's assuming that Mother has liquidity. Where does that liquidity come from?  It comes from the usefulness of these DAO agents. And these DAO, initial DAO members, I think, also need to have a requirement.  They have to have some influence so that they have something that they can talk about through the biggest audience as possible to buy Mother Token that, you know, kind of believe in this experiment.  Yeah.
+
+1:04:57 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  what so that that's an interesting angle. There's still this piece where people are buying the token in anticipation of the price going up based on this experiment that they can't necessarily participate in the DAO side of things, like you can't buy in to the DAO side of things, but you can see what's going on from the outside because it's all transparent, and you can see what's happening on the Collablan side, for example, and see that there's value there and what they're doing is valuable, which is interesting.  That almost seems like a phase two, like phase one is almost like bootstrap and build, it's kind of, it's funny, but you were talking about this, I think in like months ago, of just like build tools that make DAOs work, like that's the first set of agents, it's a meeting note summarizer tool, it's a, you know, a DAO moderator, I don't know what DAO tools we need, but whatever DAO agent we might need, those are some of the first agents that will emerge, because they'll be the most useful for us.  We ourselves and coordinating together, and then will come all the DeFi agents and all that kind of stuff afterwards, which is wonderful because I'm not a big DeFi creator, so it's not always hugely relevant to me.
+
+1:06:12 - James Young
+  Yeah, and there are going to be tons of these tools, and these agents will then exist, and we're going to say, we need this notetaker agent, we need this agent, blah, blah, blah, we need all of this.  We're all incentivized because we have tokens that we're holding, and then those that make good suggestions and we go in that direction, we can figure out the meta tools needed to create to track all of this.  Right? And then, so AI is critical for this because before AI, there's no way internally as an organization, if we can't curate ourselves, how are we going to say as mother, we can curate other agents?  Totally. We need to build the tool for ourselves. ourselves. That allows us to then give the power to other people to come in and then curate their organization for their vertical.  And that algorithm will be on mother to be applied to other people. This is how we start mixing and matching and it's all composable.  This is what's going to give the value to the mother token in the future. But we need to start with ourselves.  Like, it'll be completely illegitimate if we say we're a reputation registry and we can't apply it to our internal organization at the beginning.
+
+1:07:32 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. Because reputation is all about trust.
+
+1:07:36 - James Young
+  It's all, reputation is all about trust.
+
+1:07:38 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I love this because it's like, even when, that's why launching the token, like, man, let's just  launch it, like, tomorrow.  Because, like, at the end of the day, like, it's going to be illiquid for, like, the first six months.  Like, nothing is going to be happening. It's just going to be us continuing. Let's meet. Let's talk about what agents we want to better organize ourselves.  How do we onboard some agent projects? Who do we want to invite? How do we want to spread word about the project?  How do we want to bolster the utility of the protocol? It's just the same conversations we've been having, but there's now a token at play.
+
+1:08:12 - James Young
+  And what this is, is it's an indictment on how other fundraising has happened. Where you have to hype and then get some money and all of that.  I going to hype this.
+
+1:08:25 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  No, but hype so that you can get pre-sale people.
+
+1:08:31 - James Young
+  Yeah, we're not hyping for that at all. So what we're doing is grassroots. And that's actually what we wanted to do with Manu and his fair launch program.  So it's always been at the essence of Mother, but it got changed because of market conditions. But now, like with Aerodrome coming out with Uniswap community auction protocol thing, continuous auction.  We have grassroots way of doing this. This is why. And this is why Echo have emerged because we're doing capital formation differently because we are reinventing the organization.  This is a blueprint for startups for the future because startups will all be AI-led. Absolutely. So we're redefining how you do a cap table, how you do all of that stuff.  The subtext is for those that reject ICOs, those that reject meme coins, those that reject these bureaucratic DAOs, DAOs in name only, the Dinos, right?  So this is an indictment on all of that. And so that's kind of the punk rock aspect of this.  Yeah.
+
+1:09:56 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  . . . What haven't we talked, what haven't not we discussed that, because like, so basically I'm feeling like satiated right now.  I feel like there will be more questions that I'm going to, you know, I'm going to come up with more specific scenarios.  Please. I don't have any right now because it mostly makes sense. Like the TLDR is like, let's get a token live.  Let's keep meeting. Let's start tracking our own reputation in terms of our contribution toward mother. The contribution toward mother, this is something that's coming up for me is like, we need to decide what, what are we doing with mother?  Like, what's the direction we're heading? What's our, what's like our North star metrics and how are we, so we're actually starting to really organize.  So it's been pretty informal until now, but like, what are we trying to do? Like, are we trying to hit like a thousand agents on the registry?  Are we trying to hit like, you know, 1 million followers on, on Twitter? Like, what are those objectives that we all want to hit as an org so we know where we're kind of heading together?  virus There was mark. Raptor? How Too. can listen What are we all duocracy style? What do we, what do we want to do about it for now?  Right. Yeah. Yeah.
+
+1:11:09 - James Young
+  Those conversations will be ingested by an LLM that will start giving reputation to everyone over time. And this is how we're going to start the algorithm, that algorithm and all of the data behind that algorithm, like the notes, and it's all going to be made public so that other third party people can kind of use their LLM to kind of like summarize, should I buy this token or not?  Totally.
+
+1:11:34 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Right.
+
+1:11:35 - James Young
+  Like now this is, this is now where all the infrastructure has been built. Yeah. Now we can go back to the original January idea.  Yeah.
+
+1:11:47 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Which is wild. full circle. It's full circle.
+
+1:11:52 - James Young
+  This is, this is, we, and this is why we know, and we've been doing this for such a long time.  We are the best group to have.
+
+1:12:03 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I think so. Do you know what I did just the other day? I stopped uploading all of our meeting notes into GitHub for a while, just like a couple months worth.  So I finished that all up and I loaded it up into Windsurf and I asked it a super large prompt and I used GPT's 5.1 reasoning model to answer a bunch of questions.  And it was so helpful. cruised through every single meeting we've had. And it identified like the dates and it saw the evolution of our project.  And like, there are all these branding questions that I kind of, I had questions around because I want to communicate this at work.  So it worked. The plan worked. GitHub. GitHub is the way.
+
+1:12:50 - James Young
+  And so, so we just have to agentify this now.
+
+1:12:53 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. right now, I'm going to manually copy the transcript notes and put it in, which will boost my reputation.  the situation. Karen. But I would love to connect it with an API that once this is done, this automation happens, and it sends it right into the GitHub, and there it sends it in the meeting notes, and it has all the right tags and stuff like that, so we can always look it up really easily.  That sounds like a very, very useful agent.
+
+1:13:17 - James Young
+  So this is where the work shifts. We're not talking about infrastructure, like we have it all running. Now this is the work that we do, and then we tell other agent devs if they want to do this, they can get mother token, they're going to get reputation.  And so this is how we start building this. Now we have specific demand that we self-generate, we're manifesting this.
+
+1:13:41 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I want that agent, James. I've been waiting for that agent for a long time.
+
+1:13:48 - James Young
+  And the agent devs that we reward in mother directly help the betterment of mother. The agent dev that creates this note-taking agent that has no  That understands, you know, how to summarize this for James Bot versus the mother governance algorithm, like, you know, how to filter and all of that, like, we're going to, we need people that are aligned on this vision, because this is how it's going to get fulfilled.  And then agent devs have specific, you know, bounties that maybe we put out and then we do ourselves. You know, like, this is how we, we're solving our own problem that will be the number one problem that all AI agent led organizations will have.  And this is the only way that this can happen. It has to happen progressively. I wonder why, sorry, go ahead.
+
+1:14:54 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I want to hear what you have to say first.
+
+1:14:56 - James Young
+  So we both, those that are original DAO members. I in decentralized autonomous organizations, and that you're going to have to do the AI-led organization in an increasingly progressive way.  And the mother DAO is going to be the first project to bring back AI-led DAOs from DAO experts from previous generations.
+
+1:15:30 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. Why hasn't anyone else, do you think, tried to put AI at the center of their organizations? Like, I guess, you know, Gaia, guess I had, like, my fellow, you know, note taker and stuff like that.  And I can ask it some questions and stuff, but, like, I imagine people maybe done, like, bits and pieces of it.  And really what we're doing is we're adding in this reputation layer that, like, just kind of connects all of it.  Because they're all these individual tools, but we're adding in reputation.
+
+1:16:00 - James Young
+  The reason why it hasn't happened yet is that it's very difficult to coordinate. You can have an AI agent that runs an organization, and you can come out with that as a product.  Who's going to use it? You're going to have to sell it. You're going to have to market it. There's no distribution for that.  We have distribution on the community side with Collabland, and we have the infrastructure side with the inference on the Gaia.  What we're doing is we also, the team at Mother, is made up of seasoned DAO veterans. It's a coordination issue that we've solved because we're the right people at the right time.  To your first point, back in terms of, coincidentally, you just, because that's how it works. That's how reality works.
+
+1:17:01 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. That's how reality works. Right place, right time. That's just how- That's how reality works. I'm not, yeah, it's geopolitics.  Like, you know, yeah, that's how it works. Yeah.
+
+1:17:08 - James Young
+  And so, and so we can't control that. That's so, but we are the people to, at the right place at the right time, because now 8004 is talking about reputation for agents, but we have, as DAO members, know the importance of reputation for DAO members.  That's right. And we bring that context- Hybrid economies are kind of the same, right? And then hybrid economies. And then, like, we've been doing token gated communities at Collabland for almost six years.  Yeah. And, and, you know, we are incentivized as those that have gone through the DAO trenches, how do we monetize our learnings?  Yeah.
+
+1:17:52 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. Right.
+
+1:17:53 - James Young
+  And so we have now this, all the confluence We're we're at the intersection of all of this. times. We're  And so we're just the right place at the right time. That's what we want to sell here.
+
+1:18:05 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah. Cool. Anything else? I have one more thing.
+
+1:18:17 - James Young
+  No. Let me send you this, actually.
+
+1:18:24 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Well, I was going to do a whole bunch of other things tonight, but I'm going to work on a deck for tomorrow instead, because that sounds super important.  I'm not sure. Everyone's aligned. The sooner we can get aligned, the sooner we can just kind of like kick this off and get this token out and start building in public.  And yeah. I sent you a link.
+
+1:18:44 - James Young
+  So the sections of the white paper that I was that were marked in green, I filled out. So also, if you have the time, that would be great to get feedback on this.  This is the algorithm and all of what I explained to you is embodied in this document. … You I mainly type everything, because one of the things for me is I want to become a good writer, and so I want to write this out, even though it's less efficient, into ChatGPT rather than saying it.  So I use ChatGPT 5.1. To me, it's been the best agent, and I've been chatting with ChatGPT since January, so it knows all of my thoughts stuff.  So it knows me really well. That is what's informing me of why I  use it, and it knows me really well.  There's no one that I could have to replace all of this random thoughts that I have. Great. You And so, this is my digital twin.  I would rather have it represent me than myself because I might be busy or distracted or angry or upset and my moods and my emotions will get in the way.  Like, I would rather have my agent do it. So that's why I was like, , like, I'm living this right now.  So I know this is going to work. Yeah, I'm doing it.
+
+1:20:20 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, totally. Um, okay, cool. Yeah, I'll read through this. Um, when I'm about to book tickets to so what happens is, this is like a sidebar.  I'm trying to figure out if I should come to Denver or not. Next year, I'm ready to try to think about it.  Because basically, like, it's like the worst time this year. It's like, so early in February. So I think it's like, it's like this week here.  It's like the 17th to the 21st or something like that. And so I was thinking of going to Toronto on the 20th.  But this would put me out like I would be there for like three weeks and stuff like that. I'm like now I'm hearing this and I'm like I was originally like not 100% sure if I was gonna go because I don't know.  I don't know what my situation with Gaia is gonna be in the new year, to be honest, like we'll see if they're still kind of  around.  And I've had a chat with one other group and we'll see what else other opportunities come up. But it sounds like I don't know, it sounds like it could be useful.  I don't know. It sounds like it could be useful to be meeting IRL about some of this stuff, even after Denver and stuff like that.  But I also know that like, for example, you after post Denver, it's like a busy time because you're you're you're deal making for Collabland and stuff like that as well.  Right. Yeah, I get excited about what we're doing at Mother. Like I just want to like work on this whole time, you know.  Yeah. Yeah. Yeah.
+
+1:21:57 - James Young
+  How do we. OK, so let's. Let's about this more then, because it's a little unclear, but, you know, depending on how this goes, and I think that this is an opportunity, if I can do, so I run Collabland.  I can actually try to align what Collabland is doing and what Mother is doing. So, like, if you were to come in February, these meetings that I'm having, this deal making with Collabland actually would have some overlap with Mother.  And so this is where the IRLs could really be useful.
+
+1:22:33 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I so, too. But I'm almost thinking of, like, I'm almost thinking of, like, skipping Eat Denver and coming up for, like, the after part of it.  Maybe. I'm just thinking out loud here, because I have no idea what to do. I just didn't want to go, like, I'm literally going for a freaking month.  I'm back on the 20th, and then I would be leaving a month later for another three weeks. And, like, I just really like being at home.  I'm just playing here.-B.
+
+1:23:02 - James Young
+  I mean, let's see how we do this, like, next 30 days.
+
+1:23:07 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  let's see how the next week goes. I was going to book tickets, like, in the next few days, but I think I'll wait another week and just see how things play out.  Because, I mean, I just want to sink my teeth into this, whether I'm a guy or not. Like, this is so cool what we're building.  Even if this is some, like, wacky experiment for the next six months that I go all in on, like, I don't know.  I think there's going be something useful that comes out of it.
+
+1:23:30 - James Young
+  There's, yeah, yeah, yeah, I appreciate that, and I really need, really need your help to refine this so that it is to the point, crisp, and, like, people get it, and you get momentum.
+
+1:23:59 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  And I can- There's take in. There's a lot to take in.
+
+1:24:03 - James Young
+  Yeah, I need, like, if I am the author of a book, you are the editor that helps coordinate and shape and say, this part, tone down, this part, blah, blah, blah.  And a book is not just about an author, but it's as much so as a hidden work of an editor.  But here, you will be acknowledged and recognized through reputation, hopefully accurately, right? And so this is where now it's portable, and you take this across to different projects in the future.
+
+1:24:41 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, for sure.
+
+1:24:42 - James Young
+  this is, people want to call it a resume. People want to call, like, all this stuff. But now you are, and this is where you want people that are legitimate.  And this hopefully filters out those that, you know, just want a free ride because their reputation now needs to be built.  go. Let's Yeah.
+
+1:25:01 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Yeah, totally. Cool. Good to keep in mind. Yeah.
+
+1:25:07 - James Young
+  But yeah, I need a lot of help with keeping this crisp and direct and as punchy as possible.
+
+1:25:17 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I'll sort that out in the next few weeks. I want to make sure that we're... I feel like by the end of this week, into next week, we'll be very crisp on our go-to market, like what our key messages are and what the different phases of this all looks like and how we're messaging around those phases.  And at the end of the day, what we're going to be doing this whole time, much more than before, is just building much more in public.  That's it. Once we kind of talk about actually what we're doing with the reputation, then I can give updates.  This is what happens even at meetings. Reputation score change like this, and these contributions led to this and we just wanted this agent.  Like, yeah, I think there's a lot of opportunity there. We'll right back.
+
+1:26:00 - James Young
+  We need to do this first internally, and then I think the power of other networks come into play because what I can do is I can go back to MetaCartel members and say, look how  interesting this is.  You can go back to Gitcoin. You can go to Banklist. You can go to these other, you know, like SourceCred.  I don't know if you remember, like these people have tried this and what we're going to say to them is like, contribute to this to monetize your learnings of the failures.  So it could be a marketing message where we're actually starting failure down. We're going to like, you know, all the failures that have happened.  That in doubt, this is what happened, blah, blah, blah. We get punk car. He wrote a book. Right. And like he's incentivized to say, I wrote a book.  He Mia So we have like some advertising for and, you know, he can earn, he has tokens and stuff, but he's incentivized.  Right. And so there may be marketing strategies here that, you know, we, it allows us to be, the problem with DAOs, I think the subcurrent of the like kind of non-DeFi DAOs was very kumbaya.  It assumed that everyone is going to be in it together. Now we get verified proof of that. That is the change here that evolves over time.  That was the missing piece. Initial, the DAO had a mechanism design issue. The DAOs that exist now were coordinated, but coordination is necessary, but not sufficient.  Reputation allows for what you need for coherence. Yeah, absolutely.
+
+1:27:58 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  Thank you. you. Thank And then incentives can align along all of that. That's right.
+
+1:28:05 - James Young
+  And so the first thing is we need to do this organizationally within ourselves at Mother and then tap a few like maybe Awaki or maybe someone from Bankless or someone from Gitcoin or someone from these other DAOs.  You know, there are a bunch of these DAO nerds and we just want a  queue of them to go, I'm itching to get into this.  And we just, that's how we FOMO this DAO, right? We got to think about it kind of strategically.
+
+1:28:33 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  We were cooking at Mother before. Everyone was like, what's going on in Mother? 1,200 mints for that article.
+
+1:28:39 - James Young
+  So we have to lean into our strengths, maximize our strengths, and minimize our weaknesses. We can't just  like think we're going to have a deck that's going to like close at 500,000 and then we're going to be able to work on what we want.  No, we don't do that. We solve our own problem and that problem should be useful enough because it has to do with DAO organization.  asked a question, K Reputation that actually can be used across different industries and different type of DAOs scenarios, but that also is in alignment with us being the best curated registry of things, first starting with DAOs, organizations.  Yeah. Okay, cool.
+
+1:29:17 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  I think we need to end this conversation because I need to go build this deck now and start thinking about how we can just make sure that everyone on our team is aligned before we finish up the mechanism design and all this kind of stuff.  then once we get our team aligned, then we can start getting comms out to get other people aligned, like outside of our team, right?  Yeah, that's right.
+
+1:29:41 - James Young
+  Very exciting.
+
+1:29:42 - Jonathan Miller (miller.d.jonathan@gmail.com)
+  right. Appreciate it. Thanks for your time. Yeah, thank you.
