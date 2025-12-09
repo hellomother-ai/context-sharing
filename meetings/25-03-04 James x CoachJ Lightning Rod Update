@@ -1,0 +1,595 @@
+@James Young [20:49]: They separate the content Oh.
+
+@CoachJ [20:53]: Sorry, continue
+
+@James Young [20:54]: Oh, that's so cool. I, every
+
+@CoachJ [20:56]: I, I totally forgot that we could take notes here. We can record this conversation and then add it to our repository.
+
+@James Young [21:02]: Oh, nice. So
+
+@CoachJ [21:02]: Anyway.
+
+@James Young [21:05]: From From, from the gaming industry, what will happen is that, you know, the, these, someone will game developer Will have a game And it'll be a hit, and You know, they're successful, commercially with that. But really where the money is,
+
+@James Young [21:24]: For these Game developers is just allowing other devs to create Moths on top of their games.
+
+@CoachJ [21:35]: Hmm
+
+@James Young [21:36]: And The top games, top PC games are mods. They're not the original game itself.
+
+@CoachJ [21:42]: Yeah
+
+@James Young [21:45]: And so that, that's kind of what we're, we're selling to these agent des.
+
+@CoachJ [21:45]: Yeah.
+
+@James Young [21:52]: Is that It's not quite a mod. You're, you're able to just build into the distribution that we have. But we're creating the first game And with that game will come like this platform, this That you as an agent Deb can hook into.
+
+@James Young [22:11]: So So Yeah,
+
+@CoachJ [22:17]: OK. We need to think about the positioning of this, I think still.
+
+@James Young [22:19]: It Yeah
+
+@CoachJ [22:22]: Cause that that's cool. That is, that's a good point. I remember back in the day when I was playing StarCraft.
+
+@James Young [22:23]: Yeah
+
+@CoachJ [22:28]: And I would play online and like there would be all those like, I think it was like like custom kind of games like bunker wars and stuff like that. Like it wasn't about actually like playing the game where you build the bases and stuff like that. It was like all these custom games and like that's all I played.
+
+@James Young [22:38]: Mhm
+
+@CoachJ [22:45]: So I could see
+
+@James Young [22:46]: Oh really
+
+@CoachJ [22:47]: Oh yeah, I could see the analogy there. Of like being interested in like what others can do with the original game is actually what interests a lot of gamers.
+
+@James Young [22:57]: Well But the thing is, is it if you're an agent Dev, you can build into this and then You're gonna get sourced more work. Right?
+
+@CoachJ [23:10]: How so, can you explain that
+
+@James Young [23:12]: Yeah. So, you see that like, oh, this doo is getting too coherent. There is some place That like shows like, hey, you know, we need It, it would be so much better if we had an agent that can do
+
+@James Young [23:31]: X And These agent Devs can Then say, OK, Like as a dev You, you wanna build an agent, and you wanna be able to
+
+@James Young [23:50]: Interact and earn money and have it earn money. but the content and what it does, doesn't really matter. So if I can Understand where that demand is. And I can
+
+@James Young [24:07]: Apply That quote unquote skill to that agent. It's just another way that I can Just generate revenue
+
+@CoachJ [24:18]: But how, I don't understand how it connects to the games.
+
+@James Young [24:18]: And
+
+@CoachJ [24:22]: How are these prediction market games connected to an agent specifically? Aren't these prediction market games, running simulations that are essentially allowing us to collect attestations for our algorithm.
+
+@James Young [24:35]: Right, OK, OK. So, let, let, let me, let me take a step back. Let me take a step back. I think there's some context that is missing. So, so the way I, I look at Babylon and the simulation game.
+
+@CoachJ [24:39]: Yeah.
+
+@James Young [24:48]: Is that it helps bootstrap. Just, just some signal. Right? And what I, why, why I needed that signal is so I can create these circuits and these algorithms, because that was my biggest unknown.
+
+@James Young [25:04]: How, how we're going to weight these, how we're gonna do these, like, I know there's a solution. That's why I started looking at these papers over the weekend that were coming out, because other people are working on them. I just have to pick the, the, the best ones to then like
+
+@CoachJ [25:14]: Yeah.
+
+@James Young [25:20]: Implement. And so I'm researching that and I was like, well, before I even pick that, I have to like pick some naive algorithm. That's why I, I poured it over the The CNS labs, they're signal and lens.
+
+@James Young [25:40]: Algorithms
+
+@CoachJ [25:41]: Yeah, so that
+
+@James Young [25:41]: And ordered I ported that to Typescript and I made it an API server that I can integrate with the intuition server later. So, like You know, we have like really stupid naive algorithms. But now
+
+@James Young [25:59]: That if this works out with lightning rod labs. We have all of that, and now the context changes. So Babylon will be used to get all the simulation data. But what the, the difference between simulation data and the real world data now is.
+
+@CoachJ [26:13]: Yeah
+
+@James Young [26:20]: The same. So we're bootstrapping with the simulation data just to get the algorithm going. And the agent des don't have to, they're, they're not creating agents For
+
+@James Young [26:38]: The simulation game. They're actually creating it for, like, oh, we need this transcription agent that automatically posts and does blah blah blah blah like deep.
+
+@CoachJ [26:47]: That's right
+
+@James Young [26:48]: These workflows So that's what they'll get They'll, they, they're gonna be building. But on the, on the, on the mother algorithm and circuit side.
+
+@CoachJ [26:56]: Yeah
+
+@James Young [27:00]: We're using the simulation game just to Boost Like As much
+
+@CoachJ [27:06]: Yeah, just our our data set, our like training data set.
+
+@James Young [27:09]: Yeah, but now, if we use lightning rod
+
+@CoachJ [27:10]: Yeah.
+
+@James Young [27:12]: Like that training set will be continually learning. First bootstrapped by the simulation game, but the simulation game is going to produce, these are the things that These are the tools that we need to help us coordinate better.
+
+@CoachJ [27:30]: The disconnect for me is I'm an agent builder. I'm going to be building several of our agents, you know this, right? I, I, as soon as I've done the white paper, one of the first things I'm gonna do, I want a, a cap table agent. I want to build, I already know, I've already scoped down how I'm building our organizational memory agent. How is that, how is connecting to LR, how is connecting to the simulation data helpful for me, like, like how would I use that?
+
+@James Young [27:37]: Yeah. Yeah. That's right Mhm.
+
+@James Young [28:01]: How would you use that data?
+
+@CoachJ [28:05]: Why like why do I care? Like it, it feels like more like I just need to come up with some like automations and then like, I'll be like, here you go, agent
+
+@James Young [28:05]: You Yeah So I see your question Your question is, how does reputation data matter to me as an agent that building an agent into the mother registry.
+
+@CoachJ [28:26]: Yes
+
+@James Young [28:28]: You, you, you don't care to use that reputation data. You care that your reputation goes up.
+
+@CoachJ [28:38]: Yes, I do. I want, I want my organizational memory agent to be the top of its kind, so that it more enter the market, mine continues to get jobs.
+
+@James Young [28:38]: So that you can get. So you then as an agent death, Are probably gonna want to create and know
+
+@James Young [28:57]: If your reputation is going up and down. And somehow modify Your Code cause you as an agent dead are using AI to code this
+
+@CoachJ [29:11]: That's right
+
+@James Young [29:11]: Agent And right? So you'll, you'll query and go and ask an AI or something like, what the fuck? Like, how come my score is going down? And then it will say these are the features that you need to implement. So I'll vibe code those features then or something like that. So, like the, the, the, the, the tool that the agent gave.
+
+@James Young [29:33]: Doesn't care about the reputation the agent does. I mean, no, the agent, the agent doesn't care about the reputation, but the agent dad does.
+
+@CoachJ [29:44]: Yeah, the agent Dev cares about the reputation. That's right. And so why is the, I guess the why is the data out there important to me. You said that I would use, like I, I do, like I have my organizational memory, I have my cap table. By the way, do you need a drop at the top of the hour? I'm still good to chat.
+
+@James Young [30:01]: Oh, let me check my, schedule real quick. So, thanks for that reminder.
+
+@CoachJ [30:07]: Yeah.
+
+@James Young [30:08]: No, I'm good
+
+@CoachJ [30:10]: OK. so like As a dad, like, yeah, I wanna continuously. I wanna have my agents continuously improved and in the future, you know, improving continuously autonomously, but for now I do want to see how they're doing, and I want to continue making, you know, changes to it. I have my own, I have my, my marketing agent that I use for most of my work. I, I, I, I've spent like, like like countless hours, probably like close to 100 hours, iterating this thing. It is like so battle
+
+@James Young [30:34]: Mhm
+
+@CoachJ [30:43]: Tested right now, and I want to continue to iterate it as I get more data. So like, how am I using that? it almost sounds like like that you're saying that that data, that attestation data is useful for me, and I can use that data to then improve my agent. Is that, is that right? And hold that thought. I just need to take this quick call one second.
+
+@James Young [30:44]: Wow Yeah Mhm Yeah
+
+@James Young [31:05]: Yeah Sure
+
+@CoachJ [31:41]: Sorry, that was a, a call from the grocery store. so, yeah, so, so that, that was my question. Is this like, how am I like using that data and then like what comes up for me is that if I fast forward this this theoretical conversation like whatever, how if you're gonna give me a great answer. I'm going to use that data. Do I then need like an interface? Like how am I accessing that data and using that data, yeah.
+
+@James Young [31:43]: No worries No worries Mhm Mhm. Mhm.
+
+@James Young [32:00]: Mhm Yeah, so, You would use that data OK, so I Before the call with LR
+
+@James Young [32:18]: I did not have an answer for this. Because we would have to, we would have to create this query interface.
+
+@CoachJ [32:21]: OK
+
+@James Young [32:26]: And, figure out how to traverse this data.
+
+@CoachJ [32:32]: Yeah
+
+@James Young [32:32]: And how to, it's almost like you almost have to have like attestation indexer. You know what I mean? Like, how is this all correlated? How is this all like verifiable?
+
+@CoachJ [32:39]: Yeah, exactly, there's exactly, this is actually how this is how I think how we envision mother back in January as of like this marketplace you have like an interface for getting, you know, getting the agents and using them for jobs, but then there's like a developer interface where they can see all their agents and what their jobs are working on and blah blah blah blah, right?
+
+@James Young [32:59]: Mhm. Mhm, mhm, mhm.
+
+@CoachJ [33:03]: Yeah, so you're saying that there's a potential solution for this now?
+
+@James Young [33:07]: So, now, With LR If we open source the weights. And Those weights will have pointers to attestation and Everything that's on chain, or, you know, or sign messages.
+
+@James Young [33:29]: That is the algorithm. But this algorithm Its interface Because it's an LLM Is natural language So now you can ask, you can ask as any arbitrary question, and you can have another agent.
+
+@CoachJ [33:41]: Right
+
+@James Young [33:47]: Interact with that LOL
+
+@CoachJ [33:49]: Oh That's interesting. So, so we don't need some fancy dashboard. It's like I log in, I do, I, you know, I have my Developer portal login. I go in and I like chat to this LLM and go, hey, so, you know, I'm the operator of the organizational memory agent, how is it doing so far? What's its reputation score? Where is it failing? Where is it succeeding, like those kinds of things.
+
+@James Young [34:13]: Now. Yeah Yeah, that's right How do I optimize it
+
+@CoachJ [34:19]: Da
+
+@James Young [34:21]: How do I make it better, blah blah, blah blah blah. What other agents are not doing well, that are similar to mine and You know, That I can
+
+@CoachJ [34:31]: How open
+
+@James Young [34:32]: It's all open. It's all open.
+
+@CoachJ [34:35]: Ang
+
+@James Young [34:37]: That's why I was so excited to call you.
+
+@CoachJ [34:38]: So I'm gonna build, I'm gonna build a, I'm gonna build a an LR query agent to constantly get that feedback, aren't I?
+
+@James Young [34:47]: Probably, yeah, maybe, right? You, you, so it's like, does the agent itself, that the agent Deb is building doesn't need to use reputation and signal. Maybe, maybe not.
+
+@CoachJ [34:50]: Yeah.
+
+@James Young [35:00]: Maybe not in the case of just a tool. But maybe, what if the agent is a Maximizing reputation agent.
+
+@CoachJ [35:09]: Yeah, yeah.
+
+@James Young [35:09]: It's gonna need to, it's, it's gonna need to query that algorithm. Now with LR To like Prompt it with specific questions.
+
+@CoachJ [35:21]: Dude, this is nuts, like, like this, this, this opens up like a whole market of agents that I need to create because like I'm going to create an agent that asks all the right questions and then takes the answers and displays it in a really easy to use dashboard.
+
+@James Young [35:22]: Right?
+
+@CoachJ [35:39]: And then like someone else is gonna see that and they're gonna have their own version of their own dashboard.
+
+@James Young [35:45]: Yeah So this is how we get to this is how you get the AGI.
+
+@CoachJ [35:47]: And then like Yeah
+
+@James Young [35:51]: Because it's all open, all from, and everyone's, it's composable, you can build on each other. That's why I was like, holy shit, when I had that call with LR I'm just like, wait a second. I don't have to fucking build all of this other, like, UI stuff.
+
+@CoachJ [36:08]: Yeah
+
+@James Young [36:12]: Right?
+
+@CoachJ [36:12]: Well, yeah. So, let's go back to the
+
+@James Young [36:14]: So I, I, I hope that I, so context setting. So that, that's why it's, it's the context theft has shifted quite a bit. So I just want to make sure that we're
+
+@CoachJ [36:18]: Yeah.
+
+@James Young [36:24]: Contexts on the same page
+
+@CoachJ [36:26]: You and I are, and now we got to communicate that to the team. I think that this is, now that I'm understanding this a little bit better. yeah, I don't know if this needs to go into the white paper necessarily, but it is going to be a key part of our launch strategy. Like it is such a key feature.
+
+@James Young [36:41]: Right
+
+@CoachJ [36:44]: To have the
+
+@James Young [36:44]: Yeah
+
+@CoachJ [37:04]: Sorry, I'm like, I, I didn't know, but when my computer locks, it kicks me out of huddles.
+
+@James Young [37:06]: Loris
+
+@CoachJ [37:14]: This is really exciting. Tell, loop me again. So this lightning rod, they have this LLM. You're going to send me the transcript so that this transcript can refer to that transcript that you had with this lightning rod, team and stuff like that. Tell me, tell me again how the prediction market
+
+@James Young [37:27]: Yes Yeah
+
+@CoachJ [37:34]: Game With Babylon connects to this. My understanding, based off of this is my assumption would be that this LLM, this is like the developer, like agent Death, like queer database and like portal like the agent Das are gonna be like working with this aspect of our project, mostly, and the reason that they're also interested in our project is because we're going to be feeding this LON that they created with all of this prediction
+
+@CoachJ [38:05]: Simulation data
+
+@James Young [38:07]: Mhm
+
+@CoachJ [38:08]: Right?
+
+@James Young [38:10]: Well, well What, so we're, we're just You know that cartoon of all these blind men touching different parts of the elephant
+
+@CoachJ [38:21]: I know, I know, I know the tale very well. It's a very like Buddhist slash like wisdom thing, yeah, oh, it's a brush. Oh, it's a stump. Yes.
+
+@James Young [38:28]: Yeah Right, so, so, From the agent Dev perspective. You're describing one use case of that, the algorithm.
+
+@CoachJ [38:41]: Oh
+
+@James Young [38:42]: So, so it, because the algorithm is the LLF. I was thinking of the, the epiphany for me Was, I thought an algorithm was a meta circuit. And then you would, Be able to create this meta circuit.
+
+@James Young [38:58]: Right? And this meta circuit is just weights. And I was like, this kind of looks like an LLM because it's just weights. How are we going to create this continuous learning LLM.
+
+@CoachJ [39:09]: Yeah
+
+@James Young [39:13]: This is where I went ham on the, in the white paper section, and in the engineering group of research On how to Take this continuous learning, and, you know, there's this guy Lance from
+
+@James Young [39:29]: Lang Chang. He's, he's one of the core deads at Langchain. He created an open-source repa, and I put it into slot that I, I needed to research, to do all this tool calling. And that's what the And the tool call would call all of these other circuits.
+
+@James Young [39:48]: And then it would have its own logic on it as well. And this is why I was a bit anxious with the circuits and the algorithm because I needed data to then populate and then I can construct that. I don't need to do that anymore. We can just use lightning rod.
+
+@CoachJ [40:03]: Yeah
+
+@James Young [40:07]: Because it's actually a full-blown LLM.
+
+@CoachJ [40:11]: Yeah
+
+@James Young [40:13]: And so
+
+@CoachJ [40:13]: It
+
+@James Young [40:15]: And so
+
+@CoachJ [40:15]: Yeah, go ahead
+
+@James Young [40:16]: Sorry, the, so This is The consequence of that Is that in my mind, my contexts previously was We would use the Babylon simulation game. To just get some fake data.
+
+@James Young [40:34]: So that I can create and figure out how to do all this tool calling and all of that.
+
+@CoachJ [40:39]: Right
+
+@James Young [40:40]: I needed significant amount of data to do that. And the Avalonsmili simulation game was really the only way to do it. And, and I thought, OK, well, this could also serve because it's a game as kind of an engaging interface for us to, you know, get coherence and what I needed from punkar was the separation of the content engine of Babylon.
+
+@James Young [41:06]: The content from the engine aspect. So that we can feed to Babylon our own context. And play a game every day That gets simulated really fast of a group of people wanting to come together to get coherence, you know, with their agent, what would they do? How would they operate, and that would like
+
+@James Young [41:26]: Then Be all these attestations that form as weights, but all of that information now is like fully an LOM. So When you're talking about This aspect of this LLM now, in the context specifically
+
+@James Young [41:46]: This is one of the blind men when it comes to How they interface with this reputation. I, I think it's gonna be really Unknown. Like, how is an agent Deb going to leverage the reputation. We, we don't know, but everything's open source.
+
+@James Young [42:07]: And there's probably gonna be a bunch of A new design surface there.
+
+@CoachJ [42:14]: Yeah
+
+@James Young [42:14]: Becau because now, now, now you don't have to build and launch a product.
+
+@CoachJ [42:15]: That's
+
+@James Young [42:21]: Full blown And then see if you get, you know, some initial traction, like the whole, the whole way that you like Get a user base now. Will pote I mean if this is successful, we'll potentially change.
+
+@James Young [42:41]: Like the whole playbook for user acquisition. It'll be a user acquisition agent. That might
+
+@CoachJ [42:47]: Or
+
+@James Young [42:48]: Like that has the best user acquisition algorithms for, you know, my use case and for my age. Right? So I will You know, Sorry.
+
+@CoachJ [42:59]: No, no, go ahead, please continue with your example. These are helpful.
+
+@James Young [43:03]: A user acquisition agent that I, I will pay for. To help me, acquire more users. And do the reputation graph, it's going to know which communities and which servers to promote this in.
+
+@James Young [43:20]: And how to get to those users because all this information Because this is reputation of users and potentially where, you know, if they're comfortable and it's all gonna matter if people want privacy, they don't have to disclose this. but like
+
+@James Young [43:38]: You, you, you have direct distribution. Right? You don't, and, and so to me, this almost looks like This direct distribution. What Another way to look at it, you know, another blind man
+
+@James Young [43:55]: Goes This is a decentralized advertising agency.
+
+@CoachJ [44:00]: Yeah. One
+
+@James Young [44:02]: So there there's, there's gonna be different things that we don't even know.
+
+@CoachJ [44:06]: Yeah, that, that is so, that is super cool. I wanna get back to the prediction market stuff because I'm actually curious on a couple of fronts. One is lightning rod. This sounds so key, we're obviously gonna be work like if we have a choice, we're gonna work with them. I guess my question is, is like, is there a chance that they might renege or they can close things off that we put ourselves in hot water without access to them. That's one question. And the second one is again with this prediction market
+
+@James Young [44:13]: OK, right. Mhm.
+
+@CoachJ [44:36]: Game, how important is this Babylon prediction market game if we already have all this really great data.
+
+@James Young [44:42]: I know. So this, this, this is, so one, there, I, I think To bootstrap, we're good. But we don't have to just rely on One of these LOM providers because they'll, they'll be competitors to Lightning game.
+
+@CoachJ [45:01]: OK. Yeah.
+
+@James Young [45:02]: We're, we're we're always gonna be an aggregator. And so we, we, we may then
+
+@CoachJ [45:06]: OK
+
+@James Young [45:09]: If the Dow decides to get off of Lightning rod. There'll be another model provider that will be used in that model will take in what it has in weights and stuff from the latest snapshot.
+
+@James Young [45:27]: Of the RL model and then use it as pre-trade. And that's kind of like an upgrade
+
+@CoachJ [45:31]: OK.
+
+@James Young [45:33]: So we're not We're not bound. This is, this is their business. So unless they decide to stop their business. Then it's not a matter of working with us or not working with us. It's a matter of payment.
+
+@CoachJ [45:47]: Yeah. OK. this is super interesting, and I guess that the XP program, it just becomes like a little bit less important. I agree that it's still probably something that we want to maintain. we could, it just bolsters the amount of attestations we have. I also think like we want to engage a broader community before they get like a broader community of people who may not be building agents who are not participating in the Dow but like still want to like
+
+@CoachJ [46:15]: Do something with us, like, oh, do our XP program, it becomes much less valuable like the airdrops someone would receive for playing the XP game every single day, like, at first it's because we were gonna bootstrap our I'll go with that. I would have said it was more valuable, but now it sounds like less and less valuable and the ecosystem partners where we were, where I would, if I was the master of the allocator of tokens, I would allocate a larger percentage to the lightning rod team than I would to this people
+
+@James Young [46:17]: Hm
+
+@James Young [46:34]: Right Yeah
+
+@CoachJ [46:45]: That are playing the XP program because it's just, it's more valuable in the greater contribution to what we're doing here,
+
+@James Young [46:51]: And the only blocker to that is Chaos Chi.
+
+@CoachJ [46:55]: Aos chain
+
+@James Young [46:58]: So we need to get this whatever payment or whatever it is, we, we need to just get chaos to.
+
+@CoachJ [47:05]: OK All right, well I have a meeting in calendar for today.
+
+@James Young [47:13]: Cool, awesome. Thank you.
+
+@CoachJ [47:15]: And Let me just And, OK, cool. This is helpful. Send me the
+
+@James Young [47:24]: And
+
+@CoachJ [47:26]: Send me the meeting, notes from with the with the Lightning rod team, so I have full context on this because I'm going to load this into a lot of the knowledge bases that I have, Going back to our registry.
+
+@CoachJ [47:44]: That we started this conversation answering your questions about these things. So like the registry infrastructure interface. And Registry opens to beta registrations. We wanna, I just wanted to talk about like that. I don't know if we want to talk about that right now. We can save that for another convo.
+
+@CoachJ [48:05]: But those are kind of like the idea behind that is like, again, what is a a token holder maybe interacting with so they could see like, oh yeah, this project's got legs. I want to buy that token when they go on sale. And then the other one was just the order of what does it look like to actually like quote launch our registry like is it a in beta first, we accept only certain agent is it an open registry right away is the curated registry right away. What's the timeline on it opening? Is it opening like like in January before our TGE, is it opening after
+
+@CoachJ [48:35]: The TGE like I, I think I'm missing some context on like, realistically what that registry, opening is and then I'll, I'll loop back based on our earlier conversation about how do we explain all this? Like what are we actually sharing through our communications if the registry is not necessarily at the center of this right away. in a way that gets people interested and engaged because again we want funds to be able to power this thing. Like, I want to be able to work on this
+
+@CoachJ [49:05]: Full time. If January I come back and, you know, I still, you know, and the, the TGE is not going really well. Like I got to get a job somewhere. So like, how, so then, and that means it slows down this project and all this kind of stuff, so.
+
+@James Young [49:06]: Yeah Yeah Yeah Yeah
+
+@CoachJ [49:20]: Yeah.
+
+@James Young [49:20]: These are great questions. Yeah For, for me, I think about The, the, these are great questions. I, I don't have the direct answer to. and I'm open to feedback here.
+
+@CoachJ [49:37]: Yeah.
+
+@James Young [49:41]: And, but I agree with you And these are the next questions for us to really try to solve here. I'm not a marketer But I, I'm, you know, hoping to help and be as thoughtful as possible here, but I, I do lack, you know
+
+@James Young [50:00]: Marketing expertise and messaging how to translate this message into something that's easily Digestible and hype-worthy.
+
+@CoachJ [50:09]: Yeah.
+
+@James Young [50:12]: Yeah And the whole, you know, aspect of how we're doing this in terms of Like we wanna promote a registry. Where agents have jobs, but at the same time, you know, we're doing this mother has this component to it.
+
+@James Young [50:31]: Where it's trying to get to Coherence as quickly as possible and how do you tie all of that into Like A trope Something What, what is the trope
+
+@CoachJ [50:50]: Well, that's why I thought it was the registry because like at the end of the day What like What we're doing within the Dow and what we're doing with this LLM, like at the end of the day what we're doing is, like you said, is trying to create coherence between humans and agents, such that agents can collaborate with agents, and that's what a registry ultimately would do, right? It would allow, it would create a space for agents to come together and collaborate together on jobs.
+
+@James Young [51:11]: Yeah And the way that we're going to market with this is through This You know, coherence game Via Tao
+
+@CoachJ [51:27]: Yeah. Yeah
+
+@James Young [51:30]: So
+
+@CoachJ [51:31]: That's interesting. It's almost like, it's almost like regis registry is like phase two. But Yeah, it, there's, I, I'm not sure yet. It feels like a disconnect there, but maybe I just, I'll think it through.
+
+@James Young [51:43]: Well, it's the same, it's the same exact disconnect.
+
+@CoachJ [51:43]: And see
+
+@James Young [51:48]: That every Network has If you think about it, Facebook, it only started at Harvard. Because it just had to serve its own need. And then it went to EDUs and then it went out. So it's like
+
+@CoachJ [52:04]: Yeah
+
+@James Young [52:06]: It's very counterintuitive. The same thing with Gmail. Like, they, it was invite only. But it's an email service. Right? And so they use the email signature as
+
+@CoachJ [52:15]: Yeah
+
+@James Young [52:19]: The default email signature. Sign up for Gmail. And so that's how they got their own demand. So with the network, you have to generate your own demand initially. And then you scale it So this is what's called the cold start problem.
+
+@CoachJ [52:37]: Yeah
+
+@James Young [52:38]: But we're also adding a component of decentralization. Cause we, we try and bootstrap. Out of the cold start And it's not like then we manage this centrally and have everyone, you know,
+
+@James Young [52:58]: Be on as an employee on the Mother payroll We have tokens and people like, and then there's that, so there's that added speculation game aspect of it.
+
+@CoachJ [53:02]: Yeah
+
+@James Young [53:09]: Which helps fund the core team.
+
+@CoachJ [53:09]: Mhm
+
+@James Young [53:12]: So It is It's a different approach. We, we have to solve our own problem. And then Hopefully, the problem that we solve is a problem that other people have
+
+@James Young [53:29]: That allows that allows us to scale.
+
+@CoachJ [53:30]: Yeah
+
+@James Young [53:33]: And then we have to think about the mechanism design of the token.
+
+@CoachJ [53:33]: Yeah
+
+@James Young [53:37]: Do we sell the algorithm, sell access to the algorithm, but if it's open source, people can run it themselves. Maybe there's a way to like, just connect to the mother outcome algorithm directly, and that takes mother Token. And people, as they see the value of the mother algorithm, they can fork it and they can apply it themselves if they want. But, you know, this is kind of the new Sapace platform.
+
+@James Young [54:04]: It's just gonna be so much easier just to pay mother in the token to then be able to access. The, the algorithm, but you can always fork it, you can always look at the weights. It's always open source. You can use it for your own thing. So, you know, it, it helps our mandate.
+
+@CoachJ [54:11]: Yeah
+
+@James Young [54:23]: But maybe we don't We don't take snapshots of the new weights, very often. Maybe you do it like once a quarter. But if you want real-time updated, weighted algorithm access, you have to use it through mother. So
+
+@James Young [54:41]: There's that whole aspect of it, that we need to think through. And that would, lightning rod, it's gonna, if we do this with them. It, it may even affect the mechanisms inside of the tokian.
+
+@James Young [54:58]: At launch
+
+@CoachJ [54:58]: Oh, that, OK. It's good to know.
+
+@James Young [55:02]: So there's there there's a lot of things here, Yeah, but, I mean, these are interesting problems, and so my, my, my, my mind goes to more technical mechanism design problems. You're, your mind goes to more marketing communication. What is that story? And how do we sell this problem?
+
+@CoachJ [55:21]: Yeah, I mean, my mind is going to our next major milestone for in my mind is TGE. You know, when Matt was talking to this guy at Myerin about like, oh, we could do like hackathon, blah blah blah da da da. I'm like, cool, you guys talk about that. That sounds like another work stream and in my head I'm like, all right, this is not important right now, like this is not happening before TGE happens. So it doesn't matter to me. Like my my mind has been on like, what it's gonna get us to a successful TGE
+
+@CoachJ [55:51]: And this definitely has to do with that because I see it having a strong light paper and accurate light paper and having a strong offering and utility right off the bat as conditions for success. So I'm very interested to hear about how our ideas develop on this, and it sounds like maybe the light paper is something that we continue to drive toward, but it may not be released until January, but we do start communicating about aspects of the mother project. Now that
+
+@James Young [55:51]: Yeah
+
+@CoachJ [56:21]: We are certain about Like outside of the tokonomics.
+
+@James Young [56:26]: Yeah
+
+@CoachJ [56:27]: And I figure out this registry slash. Game Like, cause, cause, yeah, it, it's this what I like kind of goes back to is like, what's our core product? Is it a registry or is it the algorithms powering the registry, right? And like,
+
+@CoachJ [56:43]: It's the algos, like that's what we really care about, cause like the registry is just like a little interface that people can use to access those algorithms. So, I just, let me take it back, think about how we're, how we're effectively communicating this to a multi-use audience, Agent Devs.
+
+@CoachJ [57:02]: Dow veterans, I'm not concerned about, but Agent, like agent builders. Token holders, and just like the Zeitgeist in general, right? Maybe other other lightning rod competitors who want to like,
+
+@James Young [57:09]: Yeah, yeah Yeah
+
+@CoachJ [57:14]: You know, oh, we also have an open source model that we would love to, you know, integrate or whatever it is.
+
+@James Young [57:19]: Yeah Yeah What what what is this algorithm? This algorithm is a reputation algorithm that optimizes for a organization to be as efficient as possible. really, it's a coherence algorithm.
+
+@CoachJ [57:40]: That's right A trust algorithm
+
+@James Young [57:43]: That's. That that's pretty powerful, right? Like,
+
+@CoachJ [57:47]: I think so, absolutely. I just, I, I, I struggle personally from a marketing perspective, like how like. If that's our product, who's our customer almost, you know what I mean? Like,
+
+@James Young [57:59]: Yeah Go back to Jobs to be done
+
+@CoachJ [58:06]: Yeah Yeah Are you proposition design, right
+
+@James Young [58:12]: Yeah
+
+@CoachJ [58:13]: Because then, then our target market is almost like B2B and like who's going to use these algos and It almost sounds like we would be in stealth mode for like, I wouldn't even have another like token launch soon. I would just like It, it, it almost, maybe I'm just like talking out of my ass, but like
+
+@CoachJ [58:32]: Maybe this is just like a random idea, but like, what does it look like for us to stand stealth for another 6 months and just focus on Internal development of highly effective Dow Coordination agents that we can use with this LLM, and we continue testing like
+
+@CoachJ [58:48]: The whole purpose of launching the token was to capture the attention of the 8004 community, but like, what if we don't need their attention right now.
+
+@James Young [59:00]: Yeah
+
+@CoachJ [59:02]: Especially knowing that, you know, between you and I, I, I have a, I have a story that like there's very few working agents out there that are like actually like doing good hard work. So like, we're still early, all things said.
+
+@James Young [59:02]: Yeah Yeah. Yeah Yeah, and the reason why we wanted to
+
+@James Young [59:21]: Get the attention of the 8004 dev community was they were gonna start focusing on reputation at the beginning of January, or Q1 of 2026. And we wanted to ride off of that momentum.
+
+@James Young [59:39]: Here, what we're saying is that what we're building out is a coherence algorithm. And it's less about Well, reputation is what is the measure of coherence.
+
+@CoachJ [59:53]: Yes, that's right
+
+@James Young [59:53]: So So it it's still kind of in alignment with with that I hear what you're saying about stealth mode, because that gives us that edge and that advantage. I think though that it, if we launched a token early, it's the incentive to kind of get, you know,
+
+@CoachJ [1:00:20]: Right
+
+@James Young [1:00:20]: Us more attention to it as the internal team. So there's an alternative incentive there to get the token launched as quickly as possible, but I think that also may be an alignment with kind of the credibility of the project, compared to if we were in stealth.
+
+@CoachJ [1:00:23]: Yeah.
+
+@James Young [1:00:39]: Right? Like
+
+@CoachJ [1:00:39]: I agree, I agree, yeah.
+
+@James Young [1:00:40]: Well So it's an interesting These are, it's great to go back to first principles, so that we can reevaluate and not all people do that because we, you know, this is the hard work and the hard thinking that we need to do here. just to make sure that we don't get blown through the wind, and we go and derivate and be off course here.
+
+@CoachJ [1:00:50]: Yeah. Totally, absolutely
+
+@James Young [1:01:05]: So Yeah, it, it's a the these are great questions to ask, and, Something to ponder on, and I think that Now with also Tosh having more time.
+
+@James Young [1:01:21]: When it comes to Being able to Help on the p.m. side. And I have another technical PM which I don't know what we need so much anymore. Which is wild to me
+
+@CoachJ [1:01:35]: Yeah.
+
+@James Young [1:01:36]: Cause I was really stressing out on, not stressing out, but concerned and unknown unknowns when it came to circuits and algorithms, and now it's just like this 1000 pound weight is like lifted off my shoulders. That's why I had to call, so
+
+@CoachJ [1:01:51]: Mhm
+
+@James Young [1:01:56]: I wanna, let me think about this too some more. These are great questions. This is essentially what I'm saying.
+
+@CoachJ [1:02:00]: Good, good I, I'm leaving this call, I'm feeling like more excited for sure, more energized. I'm really glad. I feel like, you know, it's interesting when you just said right there, you're like, it's good we're going back to first principles, otherwise we would have like headed in this direction and it's like
+
+@CoachJ [1:02:20]: We were literally heading in a direction. And like all of a sudden we received this like huge potential partnership and piece of news. So like we would, we would have been heading in the wrong direction, in my opinion, because we would have had like all this extra work and like the communications would have been off and like da da da. So it's good that we're still listening, and I like that we're moving with
+
+@James Young [1:02:23]: Yeah Yeah. Yeah
+
+@CoachJ [1:02:42]: With, speed and intention, but I, I'm, I am sensing that there's less urgency, but that doesn't mean that we should necessarily like take that much more time, do you know what I mean? Like I'm sensing less urgency around like releasing the white paper, like as soon as possible and having a TG as soon as possible. Let's not delay.
+
+@CoachJ [1:03:05]: But I'm feeling like less pressure because there's so much new information coming in that I would be concerned about getting this stuff out.
+
+@James Young [1:03:06]: Right
+
+@CoachJ [1:03:15]: Publicly too soon, such that we're not, we're not incorporating very easy to incorporate information about this, you know what I mean? Like, that that's kind of what's coming up for me. Yeah.
+
+@James Young [1:03:27]: Yeah, what I'm hearing from you Is that There is a difference between Desperation and urgency. And I think inspiration.
+
+@CoachJ [1:03:41]: Yeah, I'm back to that
+
+@James Young [1:03:43]: I see desperation because it was like we wanted to rush to ride off the coattails because we didn't think that we, we wanted the best amplification of our message as possible and, and, and
+
+@CoachJ [1:03:53]: Exactly, yeah
+
+@James Young [1:03:56]: Now when you're saying this back to me, I'm like, hmm. Is that a, am I doing that out of desperation?
+
+@CoachJ [1:04:05]: Yeah Totally
+
+@James Young [1:04:07]: So that's, that's the, that's what it brings up for me. So there's a difference between desperation and urgency.
+
+@CoachJ [1:04:13]: Yeah
+
+@James Young [1:04:14]: Yeah.
+
+@CoachJ [1:04:15]: Put that, put that in the white paper. No, we're not gonna do that.
+
+@James Young [1:04:19]: No, no, this is a good conversation, makes me think. So just really think about this hard. but yeah, I appreciate it, because she.
+
+@CoachJ [1:04:22]: OK, cool. Yeah, likewise. I'm gonna drop a meet with Amin on white paper stuff right now.
+
+@James Young [1:04:30]: OK, cool. Take it easy
+
+@CoachJ [1:04:32]: OK, see you
+
+@James Young [1:04:32]: All right. Bye.
